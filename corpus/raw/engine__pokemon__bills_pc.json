@@ -1,0 +1,109 @@
+{
+ "source": "engine/pokemon/bills_pc.asm",
+ "entries": [
+  {
+   "label": "BillsPCMenuText",
+   "line": 322,
+   "text": "ポケモンを　つれていく\nポケモンを　あずける\nポケモンを　にがす\nボックスを　かえる\nさようなら"
+  },
+  {
+   "label": "BoxNoPCText",
+   "line": 329,
+   "text": "いまのボックス"
+  },
+  {
+   "label": "StatsCancelPCText",
+   "line": 430,
+   "text": "つよさをみる\nキャンセル"
+  },
+  {
+   "label": "SwitchOnText",
+   "line": 434,
+   "text": "スイッチ　オン！"
+  },
+  {
+   "label": "WhatText",
+   "line": 438,
+   "text": "なんに　するん？"
+  },
+  {
+   "label": "DepositWhichMonText",
+   "line": 442,
+   "text": "どの　ポケモンを\nあずけたいんや？"
+  },
+  {
+   "label": "MonWasStoredText",
+   "line": 447,
+   "text": "を　ボックス"
+  },
+  {
+   "label": "MonWasStoredText",
+   "line": 450,
+   "text": "に\nあずけた！",
+   "continuation": true
+  },
+  {
+   "label": "CantDepositLastMonText",
+   "line": 455,
+   "text": "それ　あずけたら\nこまるん　ちゃう？"
+  },
+  {
+   "label": "BoxFullText",
+   "line": 460,
+   "text": "あちゃ！　ウチは\nポケモンで　いっぱいや"
+  },
+  {
+   "label": "MonIsTakenOutText",
+   "line": 465,
+   "text": "を\nまた　つれていく　ことにした！"
+  },
+  {
+   "label": "MonIsTakenOutText",
+   "line": 470,
+   "text": "を　うけとった！",
+   "continuation": true
+  },
+  {
+   "label": "NoMonText",
+   "line": 474,
+   "text": "なに？\nウチは　なんも　あずかっとらんで？"
+  },
+  {
+   "label": "CantTakeMonText",
+   "line": 479,
+   "text": "そんなん　いうても\nポケモン　もちきれへんやんけ！\n\nとりあえず　あずけるか　にがすか\nしたら　ええんちゃう？"
+  },
+  {
+   "label": "ReleaseWhichMonText",
+   "line": 487,
+   "text": "どの　ポケモンを\nにがすんや？"
+  },
+  {
+   "label": "OnceReleasedText",
+   "line": 492,
+   "text": "にがすと"
+  },
+  {
+   "label": "OnceReleasedText",
+   "line": 494,
+   "text": "は\nもう　もどってこんで　ええんか？",
+   "continuation": true
+  },
+  {
+   "label": "MonWasReleasedText",
+   "line": 499,
+   "text": "を\nそとに　にがして　あげた！\nばいばい"
+  },
+  {
+   "label": "MonWasReleasedText",
+   "line": 504,
+   "text": "！",
+   "continuation": true
+  },
+  {
+   "label": "JustAMomentText",
+   "line": 542,
+   "text": "ちょっと　まってね"
+  }
+ ]
+}

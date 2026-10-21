@@ -1,0 +1,10 @@
+{
+ "source": "home/list_menu.asm",
+ "entries": [
+  {
+   "label": "ListMenuCancelText",
+   "line": 525,
+   "text": "やめる"
+  }
+ ]
+}

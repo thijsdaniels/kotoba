@@ -1,0 +1,16 @@
+{
+ "source": "scripts/SafariZoneCenterRestHouse.asm",
+ "entries": [
+  {
+   "label": "SafariZoneCenterRestHouseGirlText",
+   "line": 9,
+   "text": "ポケモンとりに　いこうって\nいった　のに……コージ　どこなのよ！",
+   "speaker": "アツコ"
+  },
+  {
+   "label": "SafariZoneCenterRestHouseScientistText",
+   "line": 14,
+   "text": "よーし！　ポケモン　とり　まくって\nおみやげに　しようっと！"
+  }
+ ]
+}

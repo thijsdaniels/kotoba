@@ -1,0 +1,10 @@
+{
+ "source": "engine/battle/move_effects/focus_energy.asm",
+ "entries": [
+  {
+   "label": "GettingPumpedText",
+   "line": 19,
+   "text": "{user}は\nはりきっている！"
+  }
+ ]
+}

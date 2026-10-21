@@ -1,0 +1,49 @@
+{
+ "source": "scripts/SSAnneCaptainsRoom.asm",
+ "entries": [
+  {
+   "label": "SSAnneCaptainsRoomRubCaptainsBackText",
+   "line": 43,
+   "text": "おえー……！\nふなよいで……　すっかり　ダウンだ\nくるしい……　……　うえ！\n\n{player}は　せんちょうの\nせなかを　さすって　あげた！\n\nすりすり……　すりすり……\nすりすり……　すりすり……",
+   "speaker": "せんちょう"
+  },
+  {
+   "label": "SSAnneCaptainsRoomCaptainIFeelMuchBetterText",
+   "line": 77,
+   "text": "ふう……　ありがとう\nだいぶ　ラクに　なった　みたいだ\n\n……なになに　なんだ\nひでんの　わざを　みに　きたのか\n\nげんきな　ときなら　じまんの\nいあいぎりを　みせるんだがなあ……\n\nそうだ！\nかわりに　これを　あげよう！\n\nこれを　きみの\nポケモンに　おしえれば\nいつでも　いあいぎりが　みれる！",
+   "speaker": "せんちょう"
+  },
+  {
+   "label": "SSAnneCaptainsRoomCaptainReceivedHM01Text",
+   "line": 95,
+   "text": "{player}は　せんちょう　から"
+  },
+  {
+   "label": "SSAnneCaptainsRoomCaptainReceivedHM01Text",
+   "line": 98,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "SSAnneCaptainsRoomCaptainNotSickAnymoreText",
+   "line": 103,
+   "text": "……ふう！\n\nらくに　なったし……\nそろそろ　じかんだ！\n\nもうすぐ　サント·アンヌは\nしゅっぱつ　するよ！\n\nまた　クチバに　くる　ときまで\nごきげんよう！",
+   "speaker": "せんちょう"
+  },
+  {
+   "label": "SSAnneCaptainsRoomCaptainHM01NoRoomText",
+   "line": 116,
+   "text": "なんとー！\nにもつが　いっぱいだ！"
+  },
+  {
+   "label": "SSAnneCaptainsRoomTrashText",
+   "line": 121,
+   "text": "あんまり　みないほうが\nいい　みたいだ……"
+  },
+  {
+   "label": "SSAnneCaptainsRoomSeasickBookText",
+   "line": 126,
+   "text": "ふなよい　しない\nふなのり　にゅうもん……\n……これは\nせんちょうが　よんでいる　ほんだ！"
+  }
+ ]
+}

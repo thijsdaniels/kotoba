@@ -1,0 +1,20 @@
+{
+ "source": "engine/overworld/player_animations.asm",
+ "entries": [
+  {
+   "label": "NoNibbleText",
+   "line": 462,
+   "text": "つれないなー……"
+  },
+  {
+   "label": "NothingHereText",
+   "line": 466,
+   "text": "なにも　いない　みたい……"
+  },
+  {
+   "label": "ItsABiteText",
+   "line": 470,
+   "text": "おっ！\nひいてる　ひいてる！"
+  }
+ ]
+}

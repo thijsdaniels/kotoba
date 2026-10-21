@@ -1,0 +1,33 @@
+{
+ "source": "scripts/CeladonMansion1F.asm",
+ "entries": [
+  {
+   "label": "CeladonMansion1FMeowthText",
+   "line": 16,
+   "text": "にゃーご！",
+   "speaker": "ニャース"
+  },
+  {
+   "label": "CeladonMansion1FGrannyText",
+   "line": 22,
+   "text": "ポケモンに　かこまれてると\nひとり　ぐらしも　さびしく　ないわ\n\nうちの　ニャース　なんか\nたまに　おかね　ひろって　くるの"
+  },
+  {
+   "label": "CeladonMansion1FClefairyText",
+   "line": 30,
+   "text": "ぴ　ぴっぴ！",
+   "speaker": "ピッピ"
+  },
+  {
+   "label": "CeladonMansion1FNidoranFText",
+   "line": 36,
+   "text": "きゃ　きゃう！",
+   "speaker": "ニドラン"
+  },
+  {
+   "label": "CeladonMansion1FManagersSuiteSignText",
+   "line": 42,
+   "text": "タマムシ　マンション\n……　かんりにん　しつ"
+  }
+ ]
+}

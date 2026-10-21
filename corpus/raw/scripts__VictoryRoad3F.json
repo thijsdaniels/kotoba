@@ -1,0 +1,65 @@
+{
+ "source": "scripts/VictoryRoad3F.asm",
+ "entries": [
+  {
+   "label": "VictoryRoad3FCooltrainerM1BattleText",
+   "line": 104,
+   "text": "やたらと　つよい　こどもが　いると\nウワサは　きいて　いるよ"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerM1EndBattleText",
+   "line": 109,
+   "text": "たいした　やつだ"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerM1AfterBattleText",
+   "line": 113,
+   "text": "ロケットだんの　サカキを\nたおしたのは　……　きみか！"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerF1BattleText",
+   "line": 124,
+   "text": "うえには　うえが　いるって\nおしえて　あげます！"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerF1EndBattleText",
+   "line": 129,
+   "text": "……　くやしい！"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerF1AfterBattleText",
+   "line": 133,
+   "text": "あなた　わたしより　つよいわ！\nうえには　うえが　いるって　ことか"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerM2BattleText",
+   "line": 144,
+   "text": "えらばれた　もの　だけが\nここを　ぬけられるのだ！"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerM2EndBattleText",
+   "line": 149,
+   "text": "まさかの　はいぼくだ"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerM2AfterBattleText",
+   "line": 153,
+   "text": "ここの　トレーナーも　みんな\nポケモン　リーグを　めざしている\nゆだん　しない　ほうが　いいぜ！"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerF2BattleText",
+   "line": 165,
+   "text": "つよい　あいてを　もとめるのは\nトレーナーの　しゅくめいよ！"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerF2EndBattleText",
+   "line": 170,
+   "text": "ああッ　つよい！"
+  },
+  {
+   "label": "VictoryRoad3FCooltrainerF2AfterBattleText",
+   "line": 174,
+   "text": "きびしい　たたかいを　つづけて\nほんとうの　つよさが　みに　つくわ"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "source": "scripts/Route7.asm",
+ "entries": [
+  {
+   "label": "Route7UndergroundPathSignText",
+   "line": 8,
+   "text": "ここから　ちかつうろ\nタマムシ　……　シオン"
+  }
+ ]
+}

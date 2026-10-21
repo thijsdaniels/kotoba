@@ -1,0 +1,31 @@
+{
+ "source": "engine/battle/end_of_battle.asm",
+ "entries": [
+  {
+   "label": "YouWinText",
+   "line": 77,
+   "text": "あなたの　かち"
+  },
+  {
+   "label": "YouLoseText",
+   "line": 80,
+   "text": "あなたの　まけ"
+  },
+  {
+   "label": "DrawText",
+   "line": 83,
+   "text": "ひきわけ"
+  },
+  {
+   "label": "PickUpPayDayMoneyText",
+   "line": 86,
+   "text": "{player}は"
+  },
+  {
+   "label": "PickUpPayDayMoneyText",
+   "line": 88,
+   "text": "円\nひろった！",
+   "continuation": true
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "source": "engine/events/hidden_events/bench_guys.asm",
+ "entries": [
+  {
+   "label": "ViridianCityPokecenterBenchGuyText",
+   "line": 35,
+   "text": "ポケモンセンターに　あずけると\nつかれて　うごけない\nポケモンも　げんきに　なるよ！"
+  },
+  {
+   "label": "PewterCityPokecenterBenchGuyText",
+   "line": 41,
+   "text": "ほぁーひゃ……！\n\nプリンの　うたごえを　きくと……\nたいていの　ポケモンは　ねむくなる\n\n……そして\nぼくも……ぐー……"
+  },
+  {
+   "label": "CeruleanCityPokecenterBenchGuyText",
+   "line": 51,
+   "text": "マサキ　にいちゃん\nポケモン　いっぱい　もってるよ！\n\nめずらしい　ポケモンも\nあつめてるって"
+  },
+  {
+   "label": "LavenderCityPokecenterBenchGuyText",
+   "line": 59,
+   "text": "カラカラの　しゅぞくは\nほねを　かぶってる　だろ？\n\nあれが　たかく　うれるんだって"
+  },
+  {
+   "label": "MtMoonPokecenterBenchGuyText",
+   "line": 66,
+   "text": "ポケモンを　たくさん　つかまえて\nもちきれない　ときは\n\nパソコン　つうしんで\nあずけると　いいよ"
+  },
+  {
+   "label": "RockTunnelPokecenterBenchGuyText",
+   "line": 74,
+   "text": "シオン　タウンで\nゆうれい　ポケモンが　でるって\nみんな　さわいでるよ"
+  },
+  {
+   "label": "SafariZoneWestRestHouseStoolText",
+   "line": 80,
+   "text": "ぼくも　ポケモンとり　したいなー"
+  },
+  {
+   "label": "SafariZoneEastRestHouseStoolText",
+   "line": 84,
+   "text": "はしゃぎすぎて　つかれちゃった……"
+  },
+  {
+   "label": "SafariZoneNorthRestHouseStoolText",
+   "line": 88,
+   "text": "シルフのチーフが　サファリゾーンの\nどこかに　かくれてるんだって！"
+  },
+  {
+   "label": "VermilionCityPokecenterBenchGuyText",
+   "line": 93,
+   "text": "たしかに　レベルの　たかい\nポケモンは　つよい　けど……\n\nポケモンの　タイプに　よって\nにがてな　あいてが　ある　みたい\n\nぜったいに　つよい　ポケモンは\nなかなか　いない　みたいだ"
+  },
+  {
+   "label": "CeladonCityPokecenterBenchGuyText",
+   "line": 104,
+   "text": "ぼくも　じてんしゃ　もってたら\nサイクリング　ロード　いきたーい！"
+  },
+  {
+   "label": "FuchsiaCityPokecenterBenchGuyText",
+   "line": 109,
+   "text": "にいちゃん\nポケモン　ずかん　つくってる　なら\nサファリ　ゾーン　いくと　いいよ\n\nめずらしい　ポケモンが\nたくさん　はんしょく　してるって"
+  },
+  {
+   "label": "CinnabarIslandPokecenterBenchGuyText",
+   "line": 118,
+   "text": "しんかキャンセル　した　あとも\nポケモンは　わざを　おぼえるよ\n\nわざを　おぼえさせて　いってから\nしんか　させるのも　コツさ"
+  },
+  {
+   "label": "SaffronCityPokecenterBenchGuyText1",
+   "line": 136,
+   "text": "あーあ……\nポケモン　してんのうが　きて\nロケットだんを　やっつけて\nくれると　いいな"
+  },
+  {
+   "label": "SaffronCityPokecenterBenchGuyText2",
+   "line": 143,
+   "text": "ロケットだん　にげてったね！\nこれからは　そと　あるいても\nちっとも　こわくない！\nよかったね！"
+  },
+  {
+   "label": "CeladonCityHotelText",
+   "line": 150,
+   "text": "わーい！　りょこう　だぞー！\nおねえちゃん　だいすき！"
+  }
+ ]
+}

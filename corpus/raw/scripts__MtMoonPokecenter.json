@@ -1,0 +1,40 @@
+{
+ "source": "scripts/MtMoonPokecenter.asm",
+ "entries": [
+  {
+   "label": "MtMoonPokecenterYoungsterText",
+   "line": 17,
+   "text": "ボールを　ベルトに　セット\n１　２　３　４　５　６……　と！\n\nうん……　つれて　いける\nポケモンは　６ひき　までだ"
+  },
+  {
+   "label": "MtMoonPokecenterGentlemanText",
+   "line": 25,
+   "text": "ハナダ　シティの　みんか\nおそわれる……　か！\n\nしんぶんに　ロケットだんの\nじけんが　のらない　ひは　ないな"
+  },
+  {
+   "label": "MtMoonPokecenterMagikarpSalesmanText",
+   "line": 33,
+   "text": "ぼっちゃん\nあ·な·た·だけに……！\nいい　おはなしが　ありまして\n\nひみつの　ポケモン　コイキングが\nなんと　たったの　５００円！\nどうだい　かうかね？",
+   "speaker": "おじさん"
+  },
+  {
+   "label": "MtMoonPokecenterMagikarpSalesmanText",
+   "line": 90,
+   "text": "そお？　ざんねんだねえ……",
+   "continuation": true
+  },
+  {
+   "label": "MtMoonPokecenterMagikarpSalesmanText",
+   "line": 94,
+   "text": "おかね　たりない　みたいだねえ",
+   "continuation": true
+  },
+  {
+   "label": "MtMoonPokecenterMagikarpSalesmanText",
+   "line": 98,
+   "text": "そうそう　ポケモンの\nへんぴんは　おことわり　だからな",
+   "speaker": "おじさん",
+   "continuation": true
+  }
+ ]
+}

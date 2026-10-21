@@ -1,0 +1,15 @@
+{
+ "source": "engine/battle/display_effectiveness.asm",
+ "entries": [
+  {
+   "label": "SuperEffectiveText",
+   "line": 12,
+   "text": "こうかは　ばつぐんだ！"
+  },
+  {
+   "label": "NotVeryEffectiveText",
+   "line": 16,
+   "text": "こうかは　いまひとつの　ようだ"
+  }
+ ]
+}

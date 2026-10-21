@@ -1,0 +1,15 @@
+{
+ "source": "home/names.asm",
+ "entries": [
+  {
+   "label": "TechnicalPrefix",
+   "line": 107,
+   "text": "わざマシン"
+  },
+  {
+   "label": "HiddenPrefix",
+   "line": 109,
+   "text": "ひでんマシン"
+  }
+ ]
+}

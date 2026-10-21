@@ -1,0 +1,161 @@
+{
+ "id": "route22",
+ "name": "Route 22",
+ "levelCap": 10,
+ "strings": [
+  {
+   "source": "scripts/Route22.asm",
+   "label": "Route22RivalBeforeBattleText1",
+   "line": 399,
+   "text": "あーッ！　{player}！\n\nポケモン　リーグに　いくのか？\nやめとけ！\n\nおまえ　どうせ\nバッジ　もってねーだろ？\n\nみはりの　おっさんが\nとおして　くれねーよ！\n\n……　それよりさあ！\nおまえの　ポケモン\nすこしは　つよく　なったかよ？",
+   "speaker": "{rival}"
+  },
+  {
+   "source": "scripts/Route22.asm",
+   "label": "Route22RivalAfterBattleText1",
+   "line": 416,
+   "text": "どうやら　ポケモン　リーグには\nつよくて　すごい　トレーナーが\nウジャウジャ　いるらしいぜ\n\nどうにか\nあそこを　とおりぬける\nほうほうを　かんがえなきゃな！\n\nおまえも　いつまでも\nここらに　いないで\nとっとと　さきに　すすめよ！"
+  },
+  {
+   "source": "scripts/Route22.asm",
+   "label": "Route22Rival1DefeatedText",
+   "line": 430,
+   "text": "あーッ！\nこいつ　なめた　マネを！"
+  },
+  {
+   "source": "scripts/Route22.asm",
+   "label": "Route22Rival1VictoryText",
+   "line": 435,
+   "text": "なんだ？\nポケモン　２ひきも\nもってるの　なぜか　だって？\n\nおまえも\nつかまえれば　いい　じゃん！",
+   "speaker": "{rival}"
+  },
+  {
+   "source": "scripts/Route22.asm",
+   "label": "Route22RivalBeforeBattleText2",
+   "line": 457,
+   "text": "なんだ？　{player}！\nこんな　ところで　あうとは\nまたまた　ぐうぜんだ！\n\nじゃあ……　おまえも\nポケモン　リーグに　いく　わけ？\n\nバッジも\nぜんぶ　あつまったのか！\nあ　そう……　やるじゃん！\n\nそれじゃ　ポケモン　リーグ\nいくまえに　{player}で\nウォーミング　アップと　いくか！\n\nかかって　きな！",
+   "speaker": "{rival}"
+  },
+  {
+   "source": "scripts/Route22.asm",
+   "label": "Route22RivalAfterBattleText2",
+   "line": 476,
+   "text": "からだも　ほぐれたし……！\nいよいよ　ポケモン　リーグ\nせいはに　むかうと　するか！\n\n{player}は……\nもっと　れんしゅう　したほうが\nいいんじゃないの！\n\nおっと！　おせっかい　だったか！\nとにかく……　おれは　さき　いくぜ\nじゃあ！……　あーばよ！"
+  },
+  {
+   "source": "scripts/Route22.asm",
+   "label": "Route22Rival2DefeatedText",
+   "line": 490,
+   "text": "あ　こら！\n\nおれが　ちょっと\nゆだん　した　すきに……　くそう！"
+  },
+  {
+   "source": "scripts/Route22.asm",
+   "label": "Route22Rival2VictoryText",
+   "line": 497,
+   "text": "ひゃははッ　{player}ー！\nそれで　がんばってるのかよ！\nおれの　さいのうに　くらべりゃ\n{player}は　まだまだ　だな！\n\nもっと　れんしゅう　こいよ！\nあははーッ！",
+   "speaker": "{rival}"
+  },
+  {
+   "source": "scripts/Route22.asm",
+   "label": "Route22PokemonLeagueSignText",
+   "line": 507,
+   "text": "ここは　ポケモン　リーグ\nしょうめん　ゲート"
+  }
+ ],
+ "pokemon": [
+  {
+   "const": "RATTATA",
+   "ja": "コラッタ",
+   "dex": 19,
+   "types": [
+    "NORMAL"
+   ],
+   "levels": [
+    2,
+    3,
+    4
+   ],
+   "moves": [
+    "TACKLE",
+    "TAIL_WHIP",
+    "QUICK_ATTACK"
+   ],
+   "new": false
+  },
+  {
+   "const": "NIDORAN_M",
+   "ja": "ニドラン♂",
+   "dex": 32,
+   "types": [
+    "POISON"
+   ],
+   "levels": [
+    2,
+    3,
+    4
+   ],
+   "moves": [
+    "LEER",
+    "TACKLE",
+    "HORN_ATTACK"
+   ],
+   "new": true
+  },
+  {
+   "const": "SPEAROW",
+   "ja": "オニスズメ",
+   "dex": 21,
+   "types": [
+    "NORMAL",
+    "FLYING"
+   ],
+   "levels": [
+    3,
+    5
+   ],
+   "moves": [
+    "PECK",
+    "GROWL",
+    "LEER"
+   ],
+   "new": true
+  },
+  {
+   "const": "NIDORAN_F",
+   "ja": "ニドラン♀",
+   "dex": 29,
+   "types": [
+    "POISON"
+   ],
+   "levels": [
+    2,
+    3,
+    4
+   ],
+   "moves": [
+    "GROWL",
+    "TACKLE",
+    "SCRATCH"
+   ],
+   "new": true
+  }
+ ],
+ "moves": [
+  {
+   "const": "LEER",
+   "ja": "にらみつける",
+   "learnedBy": "NIDORAN_M"
+  },
+  {
+   "const": "HORN_ATTACK",
+   "ja": "つのでつく",
+   "learnedBy": "NIDORAN_M"
+  },
+  {
+   "const": "PECK",
+   "ja": "つつく",
+   "learnedBy": "SPEAROW"
+  }
+ ],
+ "items": []
+}

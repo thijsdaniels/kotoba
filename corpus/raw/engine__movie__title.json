@@ -1,0 +1,15 @@
+{
+ "source": "engine/movie/title.asm",
+ "entries": [
+  {
+   "label": "DebugNewGamePlayerName",
+   "line": 356,
+   "text": "やまぐち"
+  },
+  {
+   "label": "DebugNewGameRivalName",
+   "line": 359,
+   "text": "いしはら"
+  }
+ ]
+}

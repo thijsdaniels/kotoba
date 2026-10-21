@@ -1,0 +1,15 @@
+{
+ "source": "engine/slots/game_corner_slots2.asm",
+ "entries": [
+  {
+   "label": "GameCornerCoinCaseText",
+   "line": 25,
+   "text": "コインケースを　もってない！"
+  },
+  {
+   "label": "GameCornerNoCoinsText",
+   "line": 29,
+   "text": "コインを　もってない！"
+  }
+ ]
+}

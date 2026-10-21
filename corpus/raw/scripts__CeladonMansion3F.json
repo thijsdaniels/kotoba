@@ -1,0 +1,50 @@
+{
+ "source": "scripts/CeladonMansion3F.asm",
+ "entries": [
+  {
+   "label": "CeladonMansion3FProgrammerText",
+   "line": 15,
+   "text": "おれ？　プログラマー　だよ！"
+  },
+  {
+   "label": "CeladonMansion3FGraphicArtistText",
+   "line": 19,
+   "text": "おれ　グラフィッカー！\nおまえを　かいたの　おれさ！"
+  },
+  {
+   "label": "CeladonMansion3FWriterText",
+   "line": 24,
+   "text": "ぼく　シナリオ　かいた！\nあの……　エリカ　かわいい　でしょ\n\nカスミも　いいよね！\n\nナツメも　いいよね！"
+  },
+  {
+   "label": "CeladonMansion3FGameDesignerText.Text",
+   "line": 49,
+   "text": "そーですかー！\n\nぼくは　ゲーム　デザイナー\n\nポケモンずかん　ぜんぶ　あつめるの\nたいへん　だけど　がんばって！\nもし　ぜんぶ　あつめたら\n\nおしえてね！"
+  },
+  {
+   "label": "CeladonMansion3FGameDesignerText.CompletedDexText",
+   "line": 61,
+   "text": "わあ　すごい！\nポケモンずかん　ぜんぶの　ページ\nとうとう　あつめたんだね！\nおめでとう！\n…………"
+  },
+  {
+   "label": "CeladonMansion3FGameProgramPCText",
+   "line": 74,
+   "text": "ゲームの　プログラムだ！\nこれ　かえたら　バグる　かも"
+  },
+  {
+   "label": "CeladonMansion3FPlayingGamePCText",
+   "line": 79,
+   "text": "パソコンで　しごと　ちゅう……\nと　おもったら　ゲーム　だった！"
+  },
+  {
+   "label": "CeladonMansion3FGameScriptPCText",
+   "line": 84,
+   "text": "……　ポケモンの　シナリオだ！\nこれは　エンディングだ！\nいまは　みないで　おこう……！"
+  },
+  {
+   "label": "CeladonMansion3FDevRoomSignText",
+   "line": 90,
+   "text": "ゲームフリーク　かいはつ　しつ"
+  }
+ ]
+}

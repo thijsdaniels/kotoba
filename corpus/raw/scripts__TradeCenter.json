@@ -1,0 +1,10 @@
+{
+ "source": "scripts/TradeCenter.asm",
+ "entries": [
+  {
+   "label": "TradeCenterOpponentText",
+   "line": 37,
+   "text": "！"
+  }
+ ]
+}

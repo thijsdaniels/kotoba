@@ -1,0 +1,10 @@
+{
+ "source": "engine/events/hidden_events/town_map.asm",
+ "entries": [
+  {
+   "label": "TownMapText",
+   "line": 1,
+   "text": "タウンマップだ！"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "engine/overworld/field_move_messages.asm",
+ "entries": [
+  {
+   "label": "UsedStrengthText",
+   "line": 9,
+   "text": "は\nかいりきを　はっきした！"
+  },
+  {
+   "label": "CanMoveBouldersText",
+   "line": 19,
+   "text": "の　かいりきの　おかげで\nいわを　おせるように　なった！"
+  },
+  {
+   "label": "CurrentTooFastText",
+   "line": 56,
+   "text": "ながれが　はやくて\nダメだ！"
+  },
+  {
+   "label": "CyclingIsFunText",
+   "line": 61,
+   "text": "せっかくの　サイクリング！\n……　なみのりは　やめとこう"
+  }
+ ]
+}

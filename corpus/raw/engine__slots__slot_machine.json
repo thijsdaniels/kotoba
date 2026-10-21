@@ -1,0 +1,61 @@
+{
+ "source": "engine/slots/slot_machine.asm",
+ "entries": [
+  {
+   "label": "PlaySlotMachineText",
+   "line": 56,
+   "text": "スロットマシーンが　ある！\nあそびますか？"
+  },
+  {
+   "label": "CoinMultiplierSlotMachineText",
+   "line": 151,
+   "text": "３まい\n２まい\n１まい"
+  },
+  {
+   "label": "OutOfCoinsSlotMachineText",
+   "line": 156,
+   "text": "コインが\nなくなっちゃった……"
+  },
+  {
+   "label": "BetHowManySlotMachineText",
+   "line": 161,
+   "text": "コインを\nなんまい　かけますか？"
+  },
+  {
+   "label": "StartSlotMachineText",
+   "line": 166,
+   "text": "スタート！"
+  },
+  {
+   "label": "NotEnoughCoinsSlotMachineText",
+   "line": 170,
+   "text": "コインが　たりません！"
+  },
+  {
+   "label": "OneMoreGoSlotMachineText",
+   "line": 174,
+   "text": "もう　１かい\nあそびますか？"
+  },
+  {
+   "label": "LinedUpText",
+   "line": 495,
+   "text": "が　そろった！\nコイン"
+  },
+  {
+   "label": "LinedUpText",
+   "line": 498,
+   "text": "まい　いただき！",
+   "continuation": true
+  },
+  {
+   "label": "NotThisTimeText",
+   "line": 528,
+   "text": "はずれー"
+  },
+  {
+   "label": "YeahText",
+   "line": 619,
+   "text": "やった！"
+  }
+ ]
+}

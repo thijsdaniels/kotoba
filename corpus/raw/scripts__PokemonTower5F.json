@@ -1,0 +1,75 @@
+{
+ "source": "scripts/PokemonTower5F.asm",
+ "entries": [
+  {
+   "label": "PokemonTower5FChanneler1Text",
+   "line": 69,
+   "text": "さあ　こっちへ　きなさい！\nここには　けっかいを　はってある\n\nやすんで　いくが　よい！"
+  },
+  {
+   "label": "PokemonTower5FChanneler2BattleText",
+   "line": 82,
+   "text": "……　タマ……　シ……　イ\n……　ヨ……　コセッ！"
+  },
+  {
+   "label": "PokemonTower5FChanneler2EndBattleText",
+   "line": 87,
+   "text": "ハア　ハア……！"
+  },
+  {
+   "label": "PokemonTower5FChanneler2AfterBattleText",
+   "line": 91,
+   "text": "わたしは……\nとり　つかれて　おったか"
+  },
+  {
+   "label": "PokemonTower5FChanneler3BattleText",
+   "line": 102,
+   "text": "オ……　マ……　エモ……\n……　ナカ……マニッ！"
+  },
+  {
+   "label": "PokemonTower5FChanneler3EndBattleText",
+   "line": 107,
+   "text": "なんとした　ことじゃ"
+  },
+  {
+   "label": "PokemonTower5FChanneler3AfterBattleText",
+   "line": 111,
+   "text": "とり　つかれるとは\nわしも　まだまだ……"
+  },
+  {
+   "label": "PokemonTower5FChanneler4BattleText",
+   "line": 122,
+   "text": "……　ぞ……　ゾゾ……\n……　ンビーッ……！"
+  },
+  {
+   "label": "PokemonTower5FChanneler4EndBattleText",
+   "line": 127,
+   "text": "……ゾ　ぞぞ？"
+  },
+  {
+   "label": "PokemonTower5FChanneler4AfterBattleText",
+   "line": 131,
+   "text": "うう\nしょうきに　もどった！"
+  },
+  {
+   "label": "PokemonTower5FChanneler5BattleText",
+   "line": 142,
+   "text": "……　ド……　ギャ\n……　ギ……　ギャ……ーン！"
+  },
+  {
+   "label": "PokemonTower5FChanneler5EndBattleText",
+   "line": 147,
+   "text": "ぶるぶる……"
+  },
+  {
+   "label": "PokemonTower5FChanneler5AfterBattleText",
+   "line": 151,
+   "text": "やまおくで　しゅぎょう　したのに\n……　なさけない"
+  },
+  {
+   "label": "PokemonTower5FPurifiedZoneText",
+   "line": 156,
+   "text": "せいなる　いのりに　まもられた\nけっかいへ　はいった！\n\n{player}と　ポケモンは\nひと　やすみして　げんきに　なった！"
+  }
+ ]
+}

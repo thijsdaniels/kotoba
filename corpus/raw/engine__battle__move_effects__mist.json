@@ -1,0 +1,10 @@
+{
+ "source": "engine/battle/move_effects/mist.asm",
+ "entries": [
+  {
+   "label": "ShroudedInMistText",
+   "line": 17,
+   "text": "{user}は\nしろい　きりに　つつまれた！"
+  }
+ ]
+}

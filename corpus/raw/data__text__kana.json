@@ -1,0 +1,20 @@
+{
+ "source": "data/text/kana.asm",
+ "entries": [
+  {
+   "label": "HiraganaCharacters",
+   "line": 1,
+   "text": "あかさたなはまやら\nいきしちにひみゆり\nうくすつぬふむよる\nえけせてねへめわれ\nおこそとのほもんろ\nゃゅょっ゛゜ー\nカナ"
+  },
+  {
+   "label": "KatakanaCharacters",
+   "line": 10,
+   "text": "アカサタナハマヤラ\nイキシチニヒミユリ\nウクスツヌフムヨル\nエケセテネヘメワレ\nオコソトノホモンロ\nャュョッ゛゜ー\nかな"
+  },
+  {
+   "label": "KanaInputText",
+   "line": 19,
+   "text": "にゅうりょく"
+  }
+ ]
+}

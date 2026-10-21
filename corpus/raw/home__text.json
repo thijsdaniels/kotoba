@@ -1,0 +1,10 @@
+{
+ "source": "home/text.asm",
+ "entries": [
+  {
+   "label": "TextIDErrorText",
+   "line": 184,
+   "text": "エラー"
+  }
+ ]
+}

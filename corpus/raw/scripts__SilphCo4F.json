@@ -1,0 +1,60 @@
+{
+ "source": "scripts/SilphCo4F.asm",
+ "entries": [
+  {
+   "label": "SilphCo4FSilphWorkerMText.ImHidingText",
+   "line": 118,
+   "text": "びくびく……　こわくて\nここに　かくれてるんだ……"
+  },
+  {
+   "label": "SilphCo4FSilphWorkerMText.TeamRocketIsGoneText",
+   "line": 123,
+   "text": "え……\nロケットだん　もう　いないの？"
+  },
+  {
+   "label": "SilphCo4FRocket1BattleText",
+   "line": 134,
+   "text": "シルフ　カンパニーは\nロケットだんが　せんきょした！"
+  },
+  {
+   "label": "SilphCo4FRocket1EndBattleText",
+   "line": 139,
+   "text": "ぐぐぐ……"
+  },
+  {
+   "label": "SilphCo4FRocket1AfterBattleText",
+   "line": 143,
+   "text": "がはは！\nボスは　まえから\nここを　ねらってたのだ"
+  },
+  {
+   "label": "SilphCo4FScientistBattleText",
+   "line": 155,
+   "text": "ポケモンは\nおれの　ちゅうじつな　こぶんだぜ！"
+  },
+  {
+   "label": "SilphCo4FScientistEndBattleText",
+   "line": 160,
+   "text": "くそ！\nなさけない　ポケモンめ"
+  },
+  {
+   "label": "SilphCo4FScientistAfterBattleText",
+   "line": 165,
+   "text": "この　ビルの　ドアは　ぜんぶ\nでんし　ロック　されてるぜ！\nカードキーが　ないと　あかないぜ！"
+  },
+  {
+   "label": "SilphCo4FRocket2BattleText",
+   "line": 177,
+   "text": "ふしんな　やつを　はっけん！"
+  },
+  {
+   "label": "SilphCo4FRocket2EndBattleText",
+   "line": 181,
+   "text": "おまえ　なにものだ"
+  },
+  {
+   "label": "SilphCo4FRocket2AfterBattleText",
+   "line": 185,
+   "text": "１１かいに　いる\nボスに　れんらく　しなくては！"
+  }
+ ]
+}

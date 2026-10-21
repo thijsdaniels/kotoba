@@ -1,0 +1,3763 @@
+{
+ "CeruleanCave1F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 46,
+     "pokemon": "GOLBAT"
+    },
+    {
+     "level": 46,
+     "pokemon": "HYPNO"
+    },
+    {
+     "level": 46,
+     "pokemon": "MAGNETON"
+    },
+    {
+     "level": 49,
+     "pokemon": "DODRIO"
+    },
+    {
+     "level": 49,
+     "pokemon": "VENOMOTH"
+    },
+    {
+     "level": 52,
+     "pokemon": "ARBOK"
+    },
+    {
+     "level": 52,
+     "pokemon": "SANDSLASH"
+    },
+    {
+     "level": 49,
+     "pokemon": "KADABRA"
+    },
+    {
+     "level": 52,
+     "pokemon": "PARASECT"
+    },
+    {
+     "level": 53,
+     "pokemon": "RAICHU"
+    },
+    {
+     "level": 53,
+     "pokemon": "DITTO"
+    }
+   ]
+  }
+ },
+ "CeruleanCave2F": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 51,
+     "pokemon": "DODRIO"
+    },
+    {
+     "level": 51,
+     "pokemon": "VENOMOTH"
+    },
+    {
+     "level": 51,
+     "pokemon": "KADABRA"
+    },
+    {
+     "level": 52,
+     "pokemon": "RHYDON"
+    },
+    {
+     "level": 52,
+     "pokemon": "MAROWAK"
+    },
+    {
+     "level": 52,
+     "pokemon": "ELECTRODE"
+    },
+    {
+     "level": 56,
+     "pokemon": "CHANSEY"
+    },
+    {
+     "level": 54,
+     "pokemon": "WIGGLYTUFF"
+    },
+    {
+     "level": 55,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 60,
+     "pokemon": "DITTO"
+    }
+   ]
+  }
+ },
+ "CeruleanCaveB1F": {
+  "grass": {
+   "rate": 25,
+   "slots": [
+    {
+     "level": 55,
+     "pokemon": "RHYDON"
+    },
+    {
+     "level": 55,
+     "pokemon": "MAROWAK"
+    },
+    {
+     "level": 55,
+     "pokemon": "ELECTRODE"
+    },
+    {
+     "level": 64,
+     "pokemon": "CHANSEY"
+    },
+    {
+     "level": 64,
+     "pokemon": "PARASECT"
+    },
+    {
+     "level": 64,
+     "pokemon": "RAICHU"
+    },
+    {
+     "level": 57,
+     "pokemon": "ARBOK"
+    },
+    {
+     "level": 57,
+     "pokemon": "SANDSLASH"
+    },
+    {
+     "level": 65,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 63,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 67,
+     "pokemon": "DITTO"
+    }
+   ]
+  }
+ },
+ "DiglettsCave": {
+  "grass": {
+   "rate": 20,
+   "slots": [
+    {
+     "level": 18,
+     "pokemon": "DIGLETT"
+    },
+    {
+     "level": 19,
+     "pokemon": "DIGLETT"
+    },
+    {
+     "level": 17,
+     "pokemon": "DIGLETT"
+    },
+    {
+     "level": 20,
+     "pokemon": "DIGLETT"
+    },
+    {
+     "level": 16,
+     "pokemon": "DIGLETT"
+    },
+    {
+     "level": 15,
+     "pokemon": "DIGLETT"
+    },
+    {
+     "level": 21,
+     "pokemon": "DIGLETT"
+    },
+    {
+     "level": 22,
+     "pokemon": "DIGLETT"
+    },
+    {
+     "level": 29,
+     "pokemon": "DUGTRIO"
+    },
+    {
+     "level": 31,
+     "pokemon": "DUGTRIO"
+    }
+   ]
+  }
+ },
+ "MtMoon1F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 8,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 7,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 9,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 8,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 6,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 10,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 10,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 8,
+     "pokemon": "PARAS"
+    },
+    {
+     "level": 11,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 8,
+     "pokemon": "CLEFAIRY"
+    }
+   ]
+  }
+ },
+ "MtMoonB1F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 8,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 7,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 7,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 8,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 9,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 10,
+     "pokemon": "PARAS"
+    },
+    {
+     "level": 10,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 11,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 9,
+     "pokemon": "CLEFAIRY"
+    },
+    {
+     "level": 9,
+     "pokemon": "GEODUDE"
+    }
+   ]
+  }
+ },
+ "MtMoonB2F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 9,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 9,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 10,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 10,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 11,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 10,
+     "pokemon": "PARAS"
+    },
+    {
+     "level": 12,
+     "pokemon": "PARAS"
+    },
+    {
+     "level": 10,
+     "pokemon": "CLEFAIRY"
+    },
+    {
+     "level": 12,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 12,
+     "pokemon": "CLEFAIRY"
+    }
+   ]
+  }
+ },
+ "PokemonMansion1F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 32,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 30,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 34,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 30,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 34,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 32,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 30,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 28,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 37,
+     "pokemon": "WEEZING"
+    },
+    {
+     "level": 39,
+     "pokemon": "MUK"
+    },
+    {
+     "level": 32,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 30,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 34,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 30,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 34,
+     "pokemon": "VULPIX"
+    },
+    {
+     "level": 32,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 30,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 28,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 37,
+     "pokemon": "MUK"
+    },
+    {
+     "level": 39,
+     "pokemon": "WEEZING"
+    }
+   ]
+  }
+ },
+ "PokemonMansion2F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 32,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 34,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 34,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 30,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 30,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 32,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 30,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 28,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 39,
+     "pokemon": "WEEZING"
+    },
+    {
+     "level": 37,
+     "pokemon": "MUK"
+    },
+    {
+     "level": 32,
+     "pokemon": "VULPIX"
+    },
+    {
+     "level": 34,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 34,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 30,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 30,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 32,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 30,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 28,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 39,
+     "pokemon": "MUK"
+    },
+    {
+     "level": 37,
+     "pokemon": "WEEZING"
+    }
+   ]
+  }
+ },
+ "PokemonMansion3F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 31,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 33,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 35,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 32,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 34,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 40,
+     "pokemon": "WEEZING"
+    },
+    {
+     "level": 34,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 38,
+     "pokemon": "WEEZING"
+    },
+    {
+     "level": 36,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 42,
+     "pokemon": "MUK"
+    },
+    {
+     "level": 31,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 33,
+     "pokemon": "VULPIX"
+    },
+    {
+     "level": 35,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 32,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 34,
+     "pokemon": "MAGMAR"
+    },
+    {
+     "level": 40,
+     "pokemon": "MUK"
+    },
+    {
+     "level": 34,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 38,
+     "pokemon": "MUK"
+    },
+    {
+     "level": 36,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 42,
+     "pokemon": "WEEZING"
+    }
+   ]
+  }
+ },
+ "PokemonMansionB1F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 33,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 31,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 35,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 32,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 31,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 40,
+     "pokemon": "WEEZING"
+    },
+    {
+     "level": 34,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 35,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 42,
+     "pokemon": "WEEZING"
+    },
+    {
+     "level": 42,
+     "pokemon": "MUK"
+    },
+    {
+     "level": 33,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 31,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 35,
+     "pokemon": "VULPIX"
+    },
+    {
+     "level": 32,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 31,
+     "pokemon": "GRIMER"
+    },
+    {
+     "level": 40,
+     "pokemon": "MUK"
+    },
+    {
+     "level": 34,
+     "pokemon": "PONYTA"
+    },
+    {
+     "level": 35,
+     "pokemon": "KOFFING"
+    },
+    {
+     "level": 38,
+     "pokemon": "MAGMAR"
+    },
+    {
+     "level": 42,
+     "pokemon": "WEEZING"
+    }
+   ]
+  }
+ },
+ "PokemonTower3F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 20,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 21,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 22,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 23,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 19,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 18,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 24,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 20,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 22,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 25,
+     "pokemon": "HAUNTER"
+    }
+   ]
+  }
+ },
+ "PokemonTower4F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 20,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 21,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 22,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 23,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 19,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 18,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 25,
+     "pokemon": "HAUNTER"
+    },
+    {
+     "level": 20,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 22,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 24,
+     "pokemon": "GASTLY"
+    }
+   ]
+  }
+ },
+ "PokemonTower5F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 20,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 21,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 22,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 23,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 19,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 18,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 25,
+     "pokemon": "HAUNTER"
+    },
+    {
+     "level": 20,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 22,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 24,
+     "pokemon": "GASTLY"
+    }
+   ]
+  }
+ },
+ "PokemonTower6F": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 21,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 22,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 23,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 24,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 20,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 19,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 26,
+     "pokemon": "HAUNTER"
+    },
+    {
+     "level": 22,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 24,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 28,
+     "pokemon": "HAUNTER"
+    }
+   ]
+  }
+ },
+ "PokemonTower7F": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 21,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 22,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 23,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 24,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 20,
+     "pokemon": "GASTLY"
+    },
+    {
+     "level": 28,
+     "pokemon": "HAUNTER"
+    },
+    {
+     "level": 22,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 24,
+     "pokemon": "CUBONE"
+    },
+    {
+     "level": 28,
+     "pokemon": "HAUNTER"
+    },
+    {
+     "level": 30,
+     "pokemon": "HAUNTER"
+    }
+   ]
+  }
+ },
+ "PowerPlant": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 21,
+     "pokemon": "VOLTORB"
+    },
+    {
+     "level": 21,
+     "pokemon": "MAGNEMITE"
+    },
+    {
+     "level": 20,
+     "pokemon": "PIKACHU"
+    },
+    {
+     "level": 24,
+     "pokemon": "PIKACHU"
+    },
+    {
+     "level": 23,
+     "pokemon": "MAGNEMITE"
+    },
+    {
+     "level": 23,
+     "pokemon": "VOLTORB"
+    },
+    {
+     "level": 32,
+     "pokemon": "MAGNETON"
+    },
+    {
+     "level": 35,
+     "pokemon": "MAGNETON"
+    },
+    {
+     "level": 33,
+     "pokemon": "ELECTABUZZ"
+    },
+    {
+     "level": 36,
+     "pokemon": "ELECTABUZZ"
+    },
+    {
+     "level": 33,
+     "pokemon": "RAICHU"
+    },
+    {
+     "level": 36,
+     "pokemon": "RAICHU"
+    }
+   ]
+  }
+ },
+ "RockTunnel1F": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 16,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 17,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 17,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 15,
+     "pokemon": "MACHOP"
+    },
+    {
+     "level": 16,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 18,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 15,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 17,
+     "pokemon": "MACHOP"
+    },
+    {
+     "level": 13,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 15,
+     "pokemon": "ONIX"
+    }
+   ]
+  }
+ },
+ "RockTunnelB1F": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 16,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 17,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 17,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 15,
+     "pokemon": "MACHOP"
+    },
+    {
+     "level": 16,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 18,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 17,
+     "pokemon": "MACHOP"
+    },
+    {
+     "level": 17,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 13,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 18,
+     "pokemon": "GEODUDE"
+    }
+   ]
+  }
+ },
+ "Route1": {
+  "grass": {
+   "rate": 25,
+   "slots": [
+    {
+     "level": 3,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 3,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 3,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 2,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 2,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 3,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 3,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 4,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 4,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 5,
+     "pokemon": "PIDGEY"
+    }
+   ]
+  }
+ },
+ "Route10": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 16,
+     "pokemon": "VOLTORB"
+    },
+    {
+     "level": 16,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 14,
+     "pokemon": "VOLTORB"
+    },
+    {
+     "level": 11,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 13,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 15,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 17,
+     "pokemon": "VOLTORB"
+    },
+    {
+     "level": 17,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 13,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 17,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 11,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 13,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 15,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 17,
+     "pokemon": "VOLTORB"
+    },
+    {
+     "level": 17,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 13,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 17,
+     "pokemon": "SANDSHREW"
+    }
+   ]
+  }
+ },
+ "Route11": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 14,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 15,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 12,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 9,
+     "pokemon": "DROWZEE"
+    },
+    {
+     "level": 13,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 13,
+     "pokemon": "DROWZEE"
+    },
+    {
+     "level": 15,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 14,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 15,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 12,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 9,
+     "pokemon": "DROWZEE"
+    },
+    {
+     "level": 13,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 13,
+     "pokemon": "DROWZEE"
+    },
+    {
+     "level": 15,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 17,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 11,
+     "pokemon": "DROWZEE"
+    },
+    {
+     "level": 15,
+     "pokemon": "DROWZEE"
+    }
+   ]
+  }
+ },
+ "Route12": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 24,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 25,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 23,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 24,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 22,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 26,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 26,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 27,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 28,
+     "pokemon": "GLOOM"
+    },
+    {
+     "level": 30,
+     "pokemon": "GLOOM"
+    },
+    {
+     "level": 24,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 25,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 23,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 24,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 22,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 26,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 26,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 27,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 28,
+     "pokemon": "WEEPINBELL"
+    },
+    {
+     "level": 30,
+     "pokemon": "WEEPINBELL"
+    }
+   ]
+  }
+ },
+ "Route13": {
+  "grass": {
+   "rate": 20,
+   "slots": [
+    {
+     "level": 24,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 25,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 27,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 24,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 22,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 26,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 26,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 25,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 28,
+     "pokemon": "GLOOM"
+    },
+    {
+     "level": 30,
+     "pokemon": "GLOOM"
+    },
+    {
+     "level": 24,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 25,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 27,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 24,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 22,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 26,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 26,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 25,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 28,
+     "pokemon": "WEEPINBELL"
+    },
+    {
+     "level": 30,
+     "pokemon": "WEEPINBELL"
+    }
+   ]
+  }
+ },
+ "Route14": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 24,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 26,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 23,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 24,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 22,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 26,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 26,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 30,
+     "pokemon": "GLOOM"
+    },
+    {
+     "level": 24,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 26,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 23,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 24,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 22,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 26,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 26,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 30,
+     "pokemon": "WEEPINBELL"
+    },
+    {
+     "level": 28,
+     "pokemon": "PIDGEOTTO"
+    },
+    {
+     "level": 30,
+     "pokemon": "PIDGEOTTO"
+    }
+   ]
+  }
+ },
+ "Route15": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 24,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 26,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 23,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 26,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 22,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 28,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 26,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 30,
+     "pokemon": "GLOOM"
+    },
+    {
+     "level": 24,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 26,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 23,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 26,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 22,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 28,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 26,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 30,
+     "pokemon": "WEEPINBELL"
+    },
+    {
+     "level": 28,
+     "pokemon": "PIDGEOTTO"
+    },
+    {
+     "level": 30,
+     "pokemon": "PIDGEOTTO"
+    }
+   ]
+  }
+ },
+ "Route16": {
+  "grass": {
+   "rate": 25,
+   "slots": [
+    {
+     "level": 20,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 22,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 18,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 20,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 20,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 18,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 22,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 22,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 23,
+     "pokemon": "RATICATE"
+    },
+    {
+     "level": 25,
+     "pokemon": "RATICATE"
+    }
+   ]
+  }
+ },
+ "Route17": {
+  "grass": {
+   "rate": 25,
+   "slots": [
+    {
+     "level": 20,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 22,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 25,
+     "pokemon": "RATICATE"
+    },
+    {
+     "level": 24,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 27,
+     "pokemon": "RATICATE"
+    },
+    {
+     "level": 26,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 28,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 29,
+     "pokemon": "RATICATE"
+    },
+    {
+     "level": 25,
+     "pokemon": "FEAROW"
+    },
+    {
+     "level": 27,
+     "pokemon": "FEAROW"
+    }
+   ]
+  }
+ },
+ "Route18": {
+  "grass": {
+   "rate": 25,
+   "slots": [
+    {
+     "level": 20,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 22,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 25,
+     "pokemon": "RATICATE"
+    },
+    {
+     "level": 24,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 25,
+     "pokemon": "FEAROW"
+    },
+    {
+     "level": 26,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 28,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 29,
+     "pokemon": "RATICATE"
+    },
+    {
+     "level": 27,
+     "pokemon": "FEAROW"
+    },
+    {
+     "level": 29,
+     "pokemon": "FEAROW"
+    }
+   ]
+  }
+ },
+ "Route2": {
+  "grass": {
+   "rate": 25,
+   "slots": [
+    {
+     "level": 3,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 3,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 4,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 4,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 5,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 3,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "level": 2,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 5,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 4,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "level": 5,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "level": 3,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "level": 2,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 5,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 4,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "level": 5,
+     "pokemon": "CATERPIE"
+    }
+   ]
+  }
+ },
+ "Route21": {
+  "grass": {
+   "rate": 25,
+   "slots": [
+    {
+     "level": 21,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 23,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 30,
+     "pokemon": "RATICATE"
+    },
+    {
+     "level": 23,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 21,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 30,
+     "pokemon": "PIDGEOTTO"
+    },
+    {
+     "level": 32,
+     "pokemon": "PIDGEOTTO"
+    },
+    {
+     "level": 28,
+     "pokemon": "TANGELA"
+    },
+    {
+     "level": 30,
+     "pokemon": "TANGELA"
+    },
+    {
+     "level": 32,
+     "pokemon": "TANGELA"
+    }
+   ]
+  },
+  "water": {
+   "rate": 5,
+   "slots": [
+    {
+     "level": 5,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 10,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 15,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 5,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 10,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 15,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 20,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 30,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 35,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 40,
+     "pokemon": "TENTACOOL"
+    }
+   ]
+  }
+ },
+ "Route22": {
+  "grass": {
+   "rate": 25,
+   "slots": [
+    {
+     "level": 3,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 3,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 4,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 4,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 2,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 2,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 3,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 5,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 3,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 4,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 3,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 4,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 4,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 2,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 2,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 3,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 5,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 3,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 4,
+     "pokemon": "NIDORAN_M"
+    }
+   ]
+  }
+ },
+ "Route23": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 26,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 33,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 26,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 38,
+     "pokemon": "FEAROW"
+    },
+    {
+     "level": 38,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 38,
+     "pokemon": "FEAROW"
+    },
+    {
+     "level": 41,
+     "pokemon": "ARBOK"
+    },
+    {
+     "level": 26,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 33,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 26,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 38,
+     "pokemon": "FEAROW"
+    },
+    {
+     "level": 38,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 38,
+     "pokemon": "FEAROW"
+    },
+    {
+     "level": 41,
+     "pokemon": "SANDSLASH"
+    },
+    {
+     "level": 43,
+     "pokemon": "DITTO"
+    },
+    {
+     "level": 41,
+     "pokemon": "FEAROW"
+    },
+    {
+     "level": 43,
+     "pokemon": "FEAROW"
+    }
+   ]
+  }
+ },
+ "Route24": {
+  "grass": {
+   "rate": 25,
+   "slots": [
+    {
+     "level": 7,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "level": 8,
+     "pokemon": "KAKUNA"
+    },
+    {
+     "level": 12,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 12,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 13,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 10,
+     "pokemon": "ABRA"
+    },
+    {
+     "level": 14,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 7,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "level": 8,
+     "pokemon": "METAPOD"
+    },
+    {
+     "level": 12,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 12,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 13,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 10,
+     "pokemon": "ABRA"
+    },
+    {
+     "level": 14,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 13,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 8,
+     "pokemon": "ABRA"
+    },
+    {
+     "level": 12,
+     "pokemon": "ABRA"
+    }
+   ]
+  }
+ },
+ "Route25": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 8,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "level": 9,
+     "pokemon": "KAKUNA"
+    },
+    {
+     "level": 13,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 12,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 13,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 12,
+     "pokemon": "ABRA"
+    },
+    {
+     "level": 14,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 10,
+     "pokemon": "ABRA"
+    },
+    {
+     "level": 7,
+     "pokemon": "METAPOD"
+    },
+    {
+     "level": 8,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "level": 8,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "level": 9,
+     "pokemon": "METAPOD"
+    },
+    {
+     "level": 13,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 12,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 13,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 12,
+     "pokemon": "ABRA"
+    },
+    {
+     "level": 14,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 10,
+     "pokemon": "ABRA"
+    },
+    {
+     "level": 7,
+     "pokemon": "KAKUNA"
+    },
+    {
+     "level": 8,
+     "pokemon": "WEEDLE"
+    }
+   ]
+  }
+ },
+ "Route3": {
+  "grass": {
+   "rate": 20,
+   "slots": [
+    {
+     "level": 6,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 5,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 7,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 6,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 7,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 8,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 8,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 3,
+     "pokemon": "JIGGLYPUFF"
+    },
+    {
+     "level": 5,
+     "pokemon": "JIGGLYPUFF"
+    },
+    {
+     "level": 7,
+     "pokemon": "JIGGLYPUFF"
+    }
+   ]
+  }
+ },
+ "Route4": {
+  "grass": {
+   "rate": 20,
+   "slots": [
+    {
+     "level": 10,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 10,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 8,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 6,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 8,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 10,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 12,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 12,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 8,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 12,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 6,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 8,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 10,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 12,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 12,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 8,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 12,
+     "pokemon": "SANDSHREW"
+    }
+   ]
+  }
+ },
+ "Route5": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 13,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 13,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 15,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 10,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 12,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 15,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 16,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 16,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 14,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 16,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 13,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 13,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 15,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 10,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 12,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 15,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 16,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 16,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 14,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 16,
+     "pokemon": "MEOWTH"
+    }
+   ]
+  }
+ },
+ "Route6": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 13,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 13,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 15,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 10,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 12,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 15,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 16,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 16,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 14,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 16,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 13,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 13,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 15,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 10,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 12,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 15,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 16,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 16,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 14,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 16,
+     "pokemon": "MEOWTH"
+    }
+   ]
+  }
+ },
+ "Route7": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 19,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 19,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 17,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 22,
+     "pokemon": "ODDISH"
+    },
+    {
+     "level": 22,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 18,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 18,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 20,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 19,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 20,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 19,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 17,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 22,
+     "pokemon": "BELLSPROUT"
+    },
+    {
+     "level": 22,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 18,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 18,
+     "pokemon": "VULPIX"
+    },
+    {
+     "level": 20,
+     "pokemon": "VULPIX"
+    },
+    {
+     "level": 19,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 20,
+     "pokemon": "MEOWTH"
+    }
+   ]
+  }
+ },
+ "Route8": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 18,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 18,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 17,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 16,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 20,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 20,
+     "pokemon": "MANKEY"
+    },
+    {
+     "level": 19,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 17,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 15,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 18,
+     "pokemon": "GROWLITHE"
+    },
+    {
+     "level": 18,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 17,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 16,
+     "pokemon": "VULPIX"
+    },
+    {
+     "level": 20,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "level": 20,
+     "pokemon": "MEOWTH"
+    },
+    {
+     "level": 19,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 17,
+     "pokemon": "VULPIX"
+    },
+    {
+     "level": 15,
+     "pokemon": "VULPIX"
+    },
+    {
+     "level": 18,
+     "pokemon": "VULPIX"
+    }
+   ]
+  }
+ },
+ "Route9": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 16,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 16,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 14,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 11,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 13,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 15,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 17,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 17,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 13,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 17,
+     "pokemon": "EKANS"
+    },
+    {
+     "level": 11,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 13,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 15,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 17,
+     "pokemon": "RATTATA"
+    },
+    {
+     "level": 17,
+     "pokemon": "SPEAROW"
+    },
+    {
+     "level": 13,
+     "pokemon": "SANDSHREW"
+    },
+    {
+     "level": 17,
+     "pokemon": "SANDSHREW"
+    }
+   ]
+  }
+ },
+ "SafariZoneCenter": {
+  "grass": {
+   "rate": 30,
+   "slots": [
+    {
+     "level": 22,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 25,
+     "pokemon": "RHYHORN"
+    },
+    {
+     "level": 22,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 24,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 31,
+     "pokemon": "NIDORINO"
+    },
+    {
+     "level": 25,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 31,
+     "pokemon": "NIDORINA"
+    },
+    {
+     "level": 30,
+     "pokemon": "PARASECT"
+    },
+    {
+     "level": 23,
+     "pokemon": "SCYTHER"
+    },
+    {
+     "level": 22,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 25,
+     "pokemon": "RHYHORN"
+    },
+    {
+     "level": 22,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 24,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 31,
+     "pokemon": "NIDORINA"
+    },
+    {
+     "level": 25,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 31,
+     "pokemon": "NIDORINO"
+    },
+    {
+     "level": 30,
+     "pokemon": "PARASECT"
+    },
+    {
+     "level": 23,
+     "pokemon": "PINSIR"
+    },
+    {
+     "level": 23,
+     "pokemon": "CHANSEY"
+    }
+   ]
+  }
+ },
+ "SafariZoneEast": {
+  "grass": {
+   "rate": 30,
+   "slots": [
+    {
+     "level": 24,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 26,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 22,
+     "pokemon": "PARAS"
+    },
+    {
+     "level": 25,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 33,
+     "pokemon": "NIDORINO"
+    },
+    {
+     "level": 23,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 24,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 25,
+     "pokemon": "PARASECT"
+    },
+    {
+     "level": 25,
+     "pokemon": "KANGASKHAN"
+    },
+    {
+     "level": 28,
+     "pokemon": "SCYTHER"
+    },
+    {
+     "level": 24,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 26,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 22,
+     "pokemon": "PARAS"
+    },
+    {
+     "level": 25,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 33,
+     "pokemon": "NIDORINA"
+    },
+    {
+     "level": 23,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 24,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 25,
+     "pokemon": "PARASECT"
+    },
+    {
+     "level": 25,
+     "pokemon": "KANGASKHAN"
+    },
+    {
+     "level": 28,
+     "pokemon": "PINSIR"
+    }
+   ]
+  }
+ },
+ "SafariZoneNorth": {
+  "grass": {
+   "rate": 30,
+   "slots": [
+    {
+     "level": 22,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 26,
+     "pokemon": "RHYHORN"
+    },
+    {
+     "level": 23,
+     "pokemon": "PARAS"
+    },
+    {
+     "level": 25,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 30,
+     "pokemon": "NIDORINO"
+    },
+    {
+     "level": 27,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 30,
+     "pokemon": "NIDORINA"
+    },
+    {
+     "level": 22,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 26,
+     "pokemon": "RHYHORN"
+    },
+    {
+     "level": 23,
+     "pokemon": "PARAS"
+    },
+    {
+     "level": 25,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 30,
+     "pokemon": "NIDORINA"
+    },
+    {
+     "level": 27,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 30,
+     "pokemon": "NIDORINO"
+    },
+    {
+     "level": 32,
+     "pokemon": "VENOMOTH"
+    },
+    {
+     "level": 26,
+     "pokemon": "CHANSEY"
+    },
+    {
+     "level": 28,
+     "pokemon": "TAUROS"
+    }
+   ]
+  }
+ },
+ "SafariZoneWest": {
+  "grass": {
+   "rate": 30,
+   "slots": [
+    {
+     "level": 25,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 26,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 23,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 24,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 33,
+     "pokemon": "NIDORINO"
+    },
+    {
+     "level": 26,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 25,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 25,
+     "pokemon": "NIDORAN_F"
+    },
+    {
+     "level": 26,
+     "pokemon": "DODUO"
+    },
+    {
+     "level": 23,
+     "pokemon": "VENONAT"
+    },
+    {
+     "level": 24,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 33,
+     "pokemon": "NIDORINA"
+    },
+    {
+     "level": 26,
+     "pokemon": "EXEGGCUTE"
+    },
+    {
+     "level": 25,
+     "pokemon": "NIDORAN_M"
+    },
+    {
+     "level": 31,
+     "pokemon": "VENOMOTH"
+    },
+    {
+     "level": 26,
+     "pokemon": "TAUROS"
+    },
+    {
+     "level": 28,
+     "pokemon": "KANGASKHAN"
+    }
+   ]
+  }
+ },
+ "SeaRoutes": {
+  "water": {
+   "rate": 5,
+   "slots": [
+    {
+     "level": 5,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 10,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 15,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 5,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 10,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 15,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 20,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 30,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 35,
+     "pokemon": "TENTACOOL"
+    },
+    {
+     "level": 40,
+     "pokemon": "TENTACOOL"
+    }
+   ]
+  }
+ },
+ "SeafoamIslands1F": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 30,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 30,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 30,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 30,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 28,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 21,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 29,
+     "pokemon": "GOLBAT"
+    },
+    {
+     "level": 28,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 28,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 38,
+     "pokemon": "GOLDUCK"
+    },
+    {
+     "level": 30,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 30,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 30,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 28,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 21,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 29,
+     "pokemon": "GOLBAT"
+    },
+    {
+     "level": 28,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 28,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 38,
+     "pokemon": "SLOWBRO"
+    }
+   ]
+  }
+ },
+ "SeafoamIslandsB1F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 30,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 30,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 32,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 32,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 28,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 30,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 30,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 28,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 38,
+     "pokemon": "DEWGONG"
+    },
+    {
+     "level": 37,
+     "pokemon": "SEADRA"
+    },
+    {
+     "level": 30,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 30,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 32,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 32,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 28,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 30,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 30,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 28,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 38,
+     "pokemon": "DEWGONG"
+    },
+    {
+     "level": 37,
+     "pokemon": "KINGLER"
+    }
+   ]
+  }
+ },
+ "SeafoamIslandsB2F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 30,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 30,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 32,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 32,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 28,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 30,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 30,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 28,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 30,
+     "pokemon": "GOLBAT"
+    },
+    {
+     "level": 37,
+     "pokemon": "SLOWBRO"
+    },
+    {
+     "level": 30,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 32,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 32,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 28,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 30,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 30,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 28,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 30,
+     "pokemon": "GOLBAT"
+    },
+    {
+     "level": 37,
+     "pokemon": "GOLDUCK"
+    }
+   ]
+  }
+ },
+ "SeafoamIslandsB3F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 31,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 31,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 33,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 33,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 29,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 31,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 31,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 29,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 39,
+     "pokemon": "SEADRA"
+    },
+    {
+     "level": 31,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 31,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 33,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 33,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 29,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 31,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 31,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 29,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 39,
+     "pokemon": "KINGLER"
+    },
+    {
+     "level": 37,
+     "pokemon": "DEWGONG"
+    }
+   ]
+  }
+ },
+ "SeafoamIslandsB4F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 31,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 31,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 33,
+     "pokemon": "HORSEA"
+    },
+    {
+     "level": 33,
+     "pokemon": "SHELLDER"
+    },
+    {
+     "level": 29,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 31,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 31,
+     "pokemon": "SLOWPOKE"
+    },
+    {
+     "level": 29,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 39,
+     "pokemon": "SLOWBRO"
+    },
+    {
+     "level": 31,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 31,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 33,
+     "pokemon": "KRABBY"
+    },
+    {
+     "level": 33,
+     "pokemon": "STARYU"
+    },
+    {
+     "level": 29,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 31,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 31,
+     "pokemon": "PSYDUCK"
+    },
+    {
+     "level": 29,
+     "pokemon": "SEEL"
+    },
+    {
+     "level": 39,
+     "pokemon": "GOLDUCK"
+    },
+    {
+     "level": 32,
+     "pokemon": "GOLBAT"
+    }
+   ]
+  }
+ },
+ "VictoryRoad1F": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 24,
+     "pokemon": "MACHOP"
+    },
+    {
+     "level": 26,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 22,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 36,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 39,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 42,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 41,
+     "pokemon": "GRAVELER"
+    },
+    {
+     "level": 41,
+     "pokemon": "GOLBAT"
+    },
+    {
+     "level": 42,
+     "pokemon": "MACHOKE"
+    },
+    {
+     "level": 43,
+     "pokemon": "MAROWAK"
+    }
+   ]
+  }
+ },
+ "VictoryRoad2F": {
+  "grass": {
+   "rate": 10,
+   "slots": [
+    {
+     "level": 22,
+     "pokemon": "MACHOP"
+    },
+    {
+     "level": 24,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 26,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 36,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 39,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 42,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 41,
+     "pokemon": "MACHOKE"
+    },
+    {
+     "level": 40,
+     "pokemon": "GOLBAT"
+    },
+    {
+     "level": 40,
+     "pokemon": "MAROWAK"
+    },
+    {
+     "level": 43,
+     "pokemon": "GRAVELER"
+    }
+   ]
+  }
+ },
+ "VictoryRoad3F": {
+  "grass": {
+   "rate": 15,
+   "slots": [
+    {
+     "level": 24,
+     "pokemon": "MACHOP"
+    },
+    {
+     "level": 26,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "level": 22,
+     "pokemon": "ZUBAT"
+    },
+    {
+     "level": 42,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 40,
+     "pokemon": "VENOMOTH"
+    },
+    {
+     "level": 45,
+     "pokemon": "ONIX"
+    },
+    {
+     "level": 43,
+     "pokemon": "GRAVELER"
+    },
+    {
+     "level": 41,
+     "pokemon": "GOLBAT"
+    },
+    {
+     "level": 42,
+     "pokemon": "MACHOKE"
+    },
+    {
+     "level": 45,
+     "pokemon": "MACHOKE"
+    }
+   ]
+  }
+ },
+ "ViridianForest": {
+  "grass": {
+   "rate": 8,
+   "slots": [
+    {
+     "level": 4,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "level": 5,
+     "pokemon": "KAKUNA"
+    },
+    {
+     "level": 3,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "level": 5,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "level": 4,
+     "pokemon": "KAKUNA"
+    },
+    {
+     "level": 6,
+     "pokemon": "KAKUNA"
+    },
+    {
+     "level": 4,
+     "pokemon": "METAPOD"
+    },
+    {
+     "level": 3,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "level": 4,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "level": 5,
+     "pokemon": "METAPOD"
+    },
+    {
+     "level": 3,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "level": 5,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "level": 4,
+     "pokemon": "METAPOD"
+    },
+    {
+     "level": 6,
+     "pokemon": "METAPOD"
+    },
+    {
+     "level": 4,
+     "pokemon": "KAKUNA"
+    },
+    {
+     "level": 3,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "level": 3,
+     "pokemon": "PIKACHU"
+    },
+    {
+     "level": 5,
+     "pokemon": "PIKACHU"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "source": "home/trainers.asm",
+ "entries": [
+  {
+   "label": "TrainerEndBattleText",
+   "line": 368,
+   "text": "『"
+  }
+ ]
+}

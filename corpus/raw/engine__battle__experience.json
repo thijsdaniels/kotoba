@@ -1,0 +1,36 @@
+{
+ "source": "engine/battle/experience.asm",
+ "entries": [
+  {
+   "label": "GainedText",
+   "line": 342,
+   "text": "は"
+  },
+  {
+   "label": "WithExpAllText",
+   "line": 357,
+   "text": "がくしゅうそうちで"
+  },
+  {
+   "label": "BoostedText",
+   "line": 363,
+   "text": "おおめに"
+  },
+  {
+   "label": "ExpPointsText",
+   "line": 366,
+   "text": "けいけんちを　もらった！"
+  },
+  {
+   "label": "GrewLevelText",
+   "line": 373,
+   "text": "は\nレベル"
+  },
+  {
+   "label": "GrewLevelText",
+   "line": 377,
+   "text": "に　あがった！",
+   "continuation": true
+  }
+ ]
+}

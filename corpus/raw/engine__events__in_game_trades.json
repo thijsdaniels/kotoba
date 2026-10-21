@@ -1,0 +1,179 @@
+{
+ "source": "engine/events/in_game_trades.asm",
+ "entries": [
+  {
+   "label": "InGameTrade_TrainerString",
+   "line": 241,
+   "text": "トレーナー"
+  },
+  {
+   "label": "ConnectCableText",
+   "line": 279,
+   "text": "じゃあ\nケーブルを　つないで……と"
+  },
+  {
+   "label": "TradedForText",
+   "line": 284,
+   "text": "{player}は"
+  },
+  {
+   "label": "TradedForText",
+   "line": 286,
+   "text": "と",
+   "continuation": true
+  },
+  {
+   "label": "TradedForText",
+   "line": 289,
+   "text": "を　こうかんした！",
+   "continuation": true
+  },
+  {
+   "label": "WannaTrade1Text",
+   "line": 295,
+   "text": "おれ"
+  },
+  {
+   "label": "WannaTrade1Text",
+   "line": 297,
+   "text": "さがしてるんだ！\n\nきみ　もってたら",
+   "continuation": true
+  },
+  {
+   "label": "WannaTrade1Text",
+   "line": 301,
+   "text": "と\nこうかんしようぜ？",
+   "continuation": true
+  },
+  {
+   "label": "NoTrade1Text",
+   "line": 306,
+   "text": "そんなー\n……まっ　いっか"
+  },
+  {
+   "label": "WrongMon1Text",
+   "line": 311,
+   "text": "……なんだ"
+  },
+  {
+   "label": "WrongMon1Text",
+   "line": 314,
+   "text": "じゃ　ないじゃん\n\nもし　つかまえたら\nまっさきに　ここへ　こいよ！",
+   "continuation": true
+  },
+  {
+   "label": "Thanks1Text",
+   "line": 321,
+   "text": "サンキュー"
+  },
+  {
+   "label": "AfterTrade1Text",
+   "line": 325,
+   "text": "おれの　やった"
+  },
+  {
+   "label": "AfterTrade1Text",
+   "line": 328,
+   "text": "イイだろ？",
+   "continuation": true
+  },
+  {
+   "label": "WannaTrade2Text",
+   "line": 332,
+   "text": "これこれ\nきみ"
+  },
+  {
+   "label": "WannaTrade2Text",
+   "line": 335,
+   "text": "もっとる？\n\nわしの",
+   "continuation": true
+  },
+  {
+   "label": "WannaTrade2Text",
+   "line": 339,
+   "text": "と\nこうかん　しないか？",
+   "continuation": true
+  },
+  {
+   "label": "NoTrade2Text",
+   "line": 344,
+   "text": "まー　ムリに　とは　いわんが……"
+  },
+  {
+   "label": "WrongMon2Text",
+   "line": 348,
+   "text": "……む？"
+  },
+  {
+   "label": "WrongMon2Text",
+   "line": 351,
+   "text": "では　ないじゃないか\n\nてに　いれた　ときは\nよろしく　たのむよ",
+   "continuation": true
+  },
+  {
+   "label": "Thanks2Text",
+   "line": 358,
+   "text": "ありがとよ"
+  },
+  {
+   "label": "AfterTrade2Text",
+   "line": 362,
+   "text": "こうかんした"
+  },
+  {
+   "label": "AfterTrade2Text",
+   "line": 364,
+   "text": "つよくなったかい？",
+   "continuation": true
+  },
+  {
+   "label": "WannaTrade3Text",
+   "line": 369,
+   "text": "ねー　きみ"
+  },
+  {
+   "label": "WannaTrade3Text",
+   "line": 372,
+   "text": "もってる？\n\nわたしの",
+   "continuation": true
+  },
+  {
+   "label": "WannaTrade3Text",
+   "line": 376,
+   "text": "と\nとりかえて　くれない？",
+   "continuation": true
+  },
+  {
+   "label": "NoTrade3Text",
+   "line": 381,
+   "text": "イヤなら　しょーがないな"
+  },
+  {
+   "label": "WrongMon3Text",
+   "line": 385,
+   "text": "……　これ"
+  },
+  {
+   "label": "WrongMon3Text",
+   "line": 388,
+   "text": "じゃ　ないわー\n\nてに　いれたら\nぜったい　とりかえてよねっ！",
+   "continuation": true
+  },
+  {
+   "label": "Thanks3Text",
+   "line": 395,
+   "text": "ありがとね"
+  },
+  {
+   "label": "AfterTrade3Text",
+   "line": 399,
+   "text": "げんき？\nわたしの"
+  },
+  {
+   "label": "AfterTrade3Text",
+   "line": 403,
+   "text": "は　げんきよ",
+   "continuation": true
+  }
+ ]
+}

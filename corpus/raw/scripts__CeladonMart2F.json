@@ -1,0 +1,20 @@
+{
+ "source": "scripts/CeladonMart2F.asm",
+ "entries": [
+  {
+   "label": "CeladonMart2FMiddleAgedManText",
+   "line": 12,
+   "text": "シルバースプレーは　よわい\nポケモンが　とびでて　こなくなる\n\nほう！　むしよけスプレーの\nきょうりょくな　やつだな"
+  },
+  {
+   "label": "CeladonMart2FGirlText",
+   "line": 20,
+   "text": "とおで　するなら\nげんきのかけらは\nかっといた　ほうが　いいわ"
+  },
+  {
+   "label": "CeladonMart2FCurrentFloorSignText",
+   "line": 26,
+   "text": "トレーナーグッズが　いっぱい！\n２かい……トレーナーズ·マーケット"
+  }
+ ]
+}

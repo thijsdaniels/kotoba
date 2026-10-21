@@ -1,0 +1,35 @@
+{
+ "source": "scripts/CinnabarIsland.asm",
+ "entries": [
+  {
+   "label": "CinnabarIslandDoorIsLockedText",
+   "line": 65,
+   "text": "ドアには\nカギが　かかって　いた……！"
+  },
+  {
+   "label": "CinnabarIslandGirlText",
+   "line": 70,
+   "text": "グレン　ジムの　カツラは\nけんきゅうじょが　できる　まえから\nすんでて　へんじん　なんだって"
+  },
+  {
+   "label": "CinnabarIslandGamblerText",
+   "line": 76,
+   "text": "ポケモン　やしきは\nけんきゅうの　ため　かがくしゃが\nたまに　でいり　しとる　ようだ"
+  },
+  {
+   "label": "CinnabarIslandSignText",
+   "line": 82,
+   "text": "ここは　グレン　タウン\nグレンの　あかは　じょうねつの　いろ"
+  },
+  {
+   "label": "CinnabarIslandPokemonLabSignText",
+   "line": 87,
+   "text": "ここは　ポケモン　けんきゅうじょ"
+  },
+  {
+   "label": "CinnabarIslandGymSignText",
+   "line": 91,
+   "text": "グレン　じま　ポケモン　ジム\nリーダー　カツラ\nねっけつ　クイズ　おやじ"
+  }
+ ]
+}

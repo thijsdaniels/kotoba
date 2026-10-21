@@ -1,0 +1,5866 @@
+[
+ {
+  "const": "BULBASAUR",
+  "id": 153,
+  "dex": 1,
+  "ja": "フシギダネ",
+  "types": [
+   "GRASS",
+   "POISON"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "GROWL"
+  ],
+  "learnset": [
+   {
+    "level": 7,
+    "move": "LEECH_SEED"
+   },
+   {
+    "level": 13,
+    "move": "VINE_WHIP"
+   },
+   {
+    "level": 20,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 27,
+    "move": "RAZOR_LEAF"
+   },
+   {
+    "level": 34,
+    "move": "GROWTH"
+   },
+   {
+    "level": 41,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 48,
+    "move": "SOLARBEAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 16,
+    "into": "IVYSAUR"
+   }
+  ]
+ },
+ {
+  "const": "IVYSAUR",
+  "id": 9,
+  "dex": 2,
+  "ja": "フシギソウ",
+  "types": [
+   "GRASS",
+   "POISON"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "GROWL",
+   "LEECH_SEED"
+  ],
+  "learnset": [
+   {
+    "level": 7,
+    "move": "LEECH_SEED"
+   },
+   {
+    "level": 13,
+    "move": "VINE_WHIP"
+   },
+   {
+    "level": 22,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 30,
+    "move": "RAZOR_LEAF"
+   },
+   {
+    "level": 38,
+    "move": "GROWTH"
+   },
+   {
+    "level": 46,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 54,
+    "move": "SOLARBEAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 32,
+    "into": "VENUSAUR"
+   }
+  ]
+ },
+ {
+  "const": "VENUSAUR",
+  "id": 154,
+  "dex": 3,
+  "ja": "フシギバナ",
+  "types": [
+   "GRASS",
+   "POISON"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "GROWL",
+   "LEECH_SEED",
+   "VINE_WHIP"
+  ],
+  "learnset": [
+   {
+    "level": 7,
+    "move": "LEECH_SEED"
+   },
+   {
+    "level": 13,
+    "move": "VINE_WHIP"
+   },
+   {
+    "level": 22,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 30,
+    "move": "RAZOR_LEAF"
+   },
+   {
+    "level": 43,
+    "move": "GROWTH"
+   },
+   {
+    "level": 55,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 65,
+    "move": "SOLARBEAM"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "CHARMANDER",
+  "id": 176,
+  "dex": 4,
+  "ja": "ヒトカゲ",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "GROWL"
+  ],
+  "learnset": [
+   {
+    "level": 9,
+    "move": "EMBER"
+   },
+   {
+    "level": 15,
+    "move": "LEER"
+   },
+   {
+    "level": 22,
+    "move": "RAGE"
+   },
+   {
+    "level": 30,
+    "move": "SLASH"
+   },
+   {
+    "level": 38,
+    "move": "FLAMETHROWER"
+   },
+   {
+    "level": 46,
+    "move": "FIRE_SPIN"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 16,
+    "into": "CHARMELEON"
+   }
+  ]
+ },
+ {
+  "const": "CHARMELEON",
+  "id": 178,
+  "dex": 5,
+  "ja": "リザード",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "GROWL",
+   "EMBER"
+  ],
+  "learnset": [
+   {
+    "level": 9,
+    "move": "EMBER"
+   },
+   {
+    "level": 15,
+    "move": "LEER"
+   },
+   {
+    "level": 24,
+    "move": "RAGE"
+   },
+   {
+    "level": 33,
+    "move": "SLASH"
+   },
+   {
+    "level": 42,
+    "move": "FLAMETHROWER"
+   },
+   {
+    "level": 56,
+    "move": "FIRE_SPIN"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 36,
+    "into": "CHARIZARD"
+   }
+  ]
+ },
+ {
+  "const": "CHARIZARD",
+  "id": 180,
+  "dex": 6,
+  "ja": "リザードン",
+  "types": [
+   "FIRE",
+   "FLYING"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "GROWL",
+   "EMBER",
+   "LEER"
+  ],
+  "learnset": [
+   {
+    "level": 9,
+    "move": "EMBER"
+   },
+   {
+    "level": 15,
+    "move": "LEER"
+   },
+   {
+    "level": 24,
+    "move": "RAGE"
+   },
+   {
+    "level": 36,
+    "move": "SLASH"
+   },
+   {
+    "level": 46,
+    "move": "FLAMETHROWER"
+   },
+   {
+    "level": 55,
+    "move": "FIRE_SPIN"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "SQUIRTLE",
+  "id": 177,
+  "dex": 7,
+  "ja": "ゼニガメ",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "TAIL_WHIP"
+  ],
+  "learnset": [
+   {
+    "level": 8,
+    "move": "BUBBLE"
+   },
+   {
+    "level": 15,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 22,
+    "move": "BITE"
+   },
+   {
+    "level": 28,
+    "move": "WITHDRAW"
+   },
+   {
+    "level": 35,
+    "move": "SKULL_BASH"
+   },
+   {
+    "level": 42,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 16,
+    "into": "WARTORTLE"
+   }
+  ]
+ },
+ {
+  "const": "WARTORTLE",
+  "id": 179,
+  "dex": 8,
+  "ja": "カメール",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "TAIL_WHIP",
+   "BUBBLE"
+  ],
+  "learnset": [
+   {
+    "level": 8,
+    "move": "BUBBLE"
+   },
+   {
+    "level": 15,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 24,
+    "move": "BITE"
+   },
+   {
+    "level": 31,
+    "move": "WITHDRAW"
+   },
+   {
+    "level": 39,
+    "move": "SKULL_BASH"
+   },
+   {
+    "level": 47,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 36,
+    "into": "BLASTOISE"
+   }
+  ]
+ },
+ {
+  "const": "BLASTOISE",
+  "id": 28,
+  "dex": 9,
+  "ja": "カメックス",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "TAIL_WHIP",
+   "BUBBLE",
+   "WATER_GUN"
+  ],
+  "learnset": [
+   {
+    "level": 8,
+    "move": "BUBBLE"
+   },
+   {
+    "level": 15,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 24,
+    "move": "BITE"
+   },
+   {
+    "level": 31,
+    "move": "WITHDRAW"
+   },
+   {
+    "level": 42,
+    "move": "SKULL_BASH"
+   },
+   {
+    "level": 52,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "CATERPIE",
+  "id": 123,
+  "dex": 10,
+  "ja": "キャタピー",
+  "types": [
+   "BUG"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "STRING_SHOT"
+  ],
+  "learnset": [],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 7,
+    "into": "METAPOD"
+   }
+  ]
+ },
+ {
+  "const": "METAPOD",
+  "id": 124,
+  "dex": 11,
+  "ja": "トランセル",
+  "types": [
+   "BUG"
+  ],
+  "startMoves": [
+   "HARDEN"
+  ],
+  "learnset": [],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 10,
+    "into": "BUTTERFREE"
+   }
+  ]
+ },
+ {
+  "const": "BUTTERFREE",
+  "id": 125,
+  "dex": 12,
+  "ja": "バタフリー",
+  "types": [
+   "BUG",
+   "FLYING"
+  ],
+  "startMoves": [
+   "CONFUSION"
+  ],
+  "learnset": [
+   {
+    "level": 12,
+    "move": "CONFUSION"
+   },
+   {
+    "level": 15,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 16,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 17,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 21,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 26,
+    "move": "WHIRLWIND"
+   },
+   {
+    "level": 32,
+    "move": "PSYBEAM"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "WEEDLE",
+  "id": 112,
+  "dex": 13,
+  "ja": "ビードル",
+  "types": [
+   "BUG",
+   "POISON"
+  ],
+  "startMoves": [
+   "POISON_STING",
+   "STRING_SHOT"
+  ],
+  "learnset": [],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 7,
+    "into": "KAKUNA"
+   }
+  ]
+ },
+ {
+  "const": "KAKUNA",
+  "id": 113,
+  "dex": 14,
+  "ja": "コクーン",
+  "types": [
+   "BUG",
+   "POISON"
+  ],
+  "startMoves": [
+   "HARDEN"
+  ],
+  "learnset": [],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 10,
+    "into": "BEEDRILL"
+   }
+  ]
+ },
+ {
+  "const": "BEEDRILL",
+  "id": 114,
+  "dex": 15,
+  "ja": "スピアー",
+  "types": [
+   "BUG",
+   "POISON"
+  ],
+  "startMoves": [
+   "FURY_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 12,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 16,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 20,
+    "move": "TWINEEDLE"
+   },
+   {
+    "level": 25,
+    "move": "RAGE"
+   },
+   {
+    "level": 30,
+    "move": "PIN_MISSILE"
+   },
+   {
+    "level": 35,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "PIDGEY",
+  "id": 36,
+  "dex": 16,
+  "ja": "ポッポ",
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ],
+  "startMoves": [
+   "GUST"
+  ],
+  "learnset": [
+   {
+    "level": 5,
+    "move": "SAND_ATTACK"
+   },
+   {
+    "level": 12,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 19,
+    "move": "WHIRLWIND"
+   },
+   {
+    "level": 28,
+    "move": "WING_ATTACK"
+   },
+   {
+    "level": 36,
+    "move": "AGILITY"
+   },
+   {
+    "level": 44,
+    "move": "MIRROR_MOVE"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 18,
+    "into": "PIDGEOTTO"
+   }
+  ]
+ },
+ {
+  "const": "PIDGEOTTO",
+  "id": 150,
+  "dex": 17,
+  "ja": "ピジョン",
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ],
+  "startMoves": [
+   "GUST",
+   "SAND_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 5,
+    "move": "SAND_ATTACK"
+   },
+   {
+    "level": 12,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 21,
+    "move": "WHIRLWIND"
+   },
+   {
+    "level": 31,
+    "move": "WING_ATTACK"
+   },
+   {
+    "level": 40,
+    "move": "AGILITY"
+   },
+   {
+    "level": 49,
+    "move": "MIRROR_MOVE"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 36,
+    "into": "PIDGEOT"
+   }
+  ]
+ },
+ {
+  "const": "PIDGEOT",
+  "id": 151,
+  "dex": 18,
+  "ja": "ピジョット",
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ],
+  "startMoves": [
+   "GUST",
+   "SAND_ATTACK",
+   "QUICK_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 5,
+    "move": "SAND_ATTACK"
+   },
+   {
+    "level": 12,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 21,
+    "move": "WHIRLWIND"
+   },
+   {
+    "level": 31,
+    "move": "WING_ATTACK"
+   },
+   {
+    "level": 44,
+    "move": "AGILITY"
+   },
+   {
+    "level": 54,
+    "move": "MIRROR_MOVE"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "RATTATA",
+  "id": 165,
+  "dex": 19,
+  "ja": "コラッタ",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "TAIL_WHIP"
+  ],
+  "learnset": [
+   {
+    "level": 7,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 14,
+    "move": "HYPER_FANG"
+   },
+   {
+    "level": 23,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 34,
+    "move": "SUPER_FANG"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 20,
+    "into": "RATICATE"
+   }
+  ]
+ },
+ {
+  "const": "RATICATE",
+  "id": 166,
+  "dex": 20,
+  "ja": "ラッタ",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "TAIL_WHIP",
+   "QUICK_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 7,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 14,
+    "move": "HYPER_FANG"
+   },
+   {
+    "level": 27,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 41,
+    "move": "SUPER_FANG"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "SPEAROW",
+  "id": 5,
+  "dex": 21,
+  "ja": "オニスズメ",
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ],
+  "startMoves": [
+   "PECK",
+   "GROWL"
+  ],
+  "learnset": [
+   {
+    "level": 9,
+    "move": "LEER"
+   },
+   {
+    "level": 15,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 22,
+    "move": "MIRROR_MOVE"
+   },
+   {
+    "level": 29,
+    "move": "DRILL_PECK"
+   },
+   {
+    "level": 36,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 20,
+    "into": "FEAROW"
+   }
+  ]
+ },
+ {
+  "const": "FEAROW",
+  "id": 35,
+  "dex": 22,
+  "ja": "オニドリル",
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ],
+  "startMoves": [
+   "PECK",
+   "GROWL",
+   "LEER"
+  ],
+  "learnset": [
+   {
+    "level": 9,
+    "move": "LEER"
+   },
+   {
+    "level": 15,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 25,
+    "move": "MIRROR_MOVE"
+   },
+   {
+    "level": 34,
+    "move": "DRILL_PECK"
+   },
+   {
+    "level": 43,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "EKANS",
+  "id": 108,
+  "dex": 23,
+  "ja": "アーボ",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "WRAP",
+   "LEER"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 17,
+    "move": "BITE"
+   },
+   {
+    "level": 24,
+    "move": "GLARE"
+   },
+   {
+    "level": 31,
+    "move": "SCREECH"
+   },
+   {
+    "level": 38,
+    "move": "ACID"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 22,
+    "into": "ARBOK"
+   }
+  ]
+ },
+ {
+  "const": "ARBOK",
+  "id": 45,
+  "dex": 24,
+  "ja": "アーボック",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "WRAP",
+   "LEER",
+   "POISON_STING"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 17,
+    "move": "BITE"
+   },
+   {
+    "level": 27,
+    "move": "GLARE"
+   },
+   {
+    "level": 36,
+    "move": "SCREECH"
+   },
+   {
+    "level": 47,
+    "move": "ACID"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "PIKACHU",
+  "id": 84,
+  "dex": 25,
+  "ja": "ピカチュウ",
+  "types": [
+   "ELECTRIC"
+  ],
+  "startMoves": [
+   "THUNDERSHOCK",
+   "GROWL"
+  ],
+  "learnset": [
+   {
+    "level": 9,
+    "move": "THUNDER_WAVE"
+   },
+   {
+    "level": 16,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 26,
+    "move": "SWIFT"
+   },
+   {
+    "level": 33,
+    "move": "AGILITY"
+   },
+   {
+    "level": 43,
+    "move": "THUNDER"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "THUNDER_STONE",
+    "into": "RAICHU"
+   }
+  ]
+ },
+ {
+  "const": "RAICHU",
+  "id": 85,
+  "dex": 26,
+  "ja": "ライチュウ",
+  "types": [
+   "ELECTRIC"
+  ],
+  "startMoves": [
+   "THUNDERSHOCK",
+   "GROWL",
+   "THUNDER_WAVE"
+  ],
+  "learnset": [],
+  "evolutions": []
+ },
+ {
+  "const": "SANDSHREW",
+  "id": 96,
+  "dex": 27,
+  "ja": "サンド",
+  "types": [
+   "GROUND"
+  ],
+  "startMoves": [
+   "SCRATCH"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "SAND_ATTACK"
+   },
+   {
+    "level": 17,
+    "move": "SLASH"
+   },
+   {
+    "level": 24,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 31,
+    "move": "SWIFT"
+   },
+   {
+    "level": 38,
+    "move": "FURY_SWIPES"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 22,
+    "into": "SANDSLASH"
+   }
+  ]
+ },
+ {
+  "const": "SANDSLASH",
+  "id": 97,
+  "dex": 28,
+  "ja": "サンドパン",
+  "types": [
+   "GROUND"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "SAND_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "SAND_ATTACK"
+   },
+   {
+    "level": 17,
+    "move": "SLASH"
+   },
+   {
+    "level": 27,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 36,
+    "move": "SWIFT"
+   },
+   {
+    "level": 47,
+    "move": "FURY_SWIPES"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "NIDORAN_F",
+  "id": 15,
+  "dex": 29,
+  "ja": "ニドラン♀",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "GROWL",
+   "TACKLE"
+  ],
+  "learnset": [
+   {
+    "level": 8,
+    "move": "SCRATCH"
+   },
+   {
+    "level": 14,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 21,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 29,
+    "move": "BITE"
+   },
+   {
+    "level": 36,
+    "move": "FURY_SWIPES"
+   },
+   {
+    "level": 43,
+    "move": "DOUBLE_KICK"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 16,
+    "into": "NIDORINA"
+   }
+  ]
+ },
+ {
+  "const": "NIDORINA",
+  "id": 168,
+  "dex": 30,
+  "ja": "ニドリーナ",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "GROWL",
+   "TACKLE",
+   "SCRATCH"
+  ],
+  "learnset": [
+   {
+    "level": 8,
+    "move": "SCRATCH"
+   },
+   {
+    "level": 14,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 23,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 32,
+    "move": "BITE"
+   },
+   {
+    "level": 41,
+    "move": "FURY_SWIPES"
+   },
+   {
+    "level": 50,
+    "move": "DOUBLE_KICK"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "MOON_STONE",
+    "into": "NIDOQUEEN"
+   }
+  ]
+ },
+ {
+  "const": "NIDOQUEEN",
+  "id": 16,
+  "dex": 31,
+  "ja": "ニドクイン",
+  "types": [
+   "POISON",
+   "GROUND"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SCRATCH",
+   "TAIL_WHIP",
+   "BODY_SLAM"
+  ],
+  "learnset": [
+   {
+    "level": 8,
+    "move": "SCRATCH"
+   },
+   {
+    "level": 14,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 23,
+    "move": "BODY_SLAM"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "NIDORAN_M",
+  "id": 3,
+  "dex": 32,
+  "ja": "ニドラン♂",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "LEER",
+   "TACKLE"
+  ],
+  "learnset": [
+   {
+    "level": 8,
+    "move": "HORN_ATTACK"
+   },
+   {
+    "level": 14,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 21,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 29,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 36,
+    "move": "HORN_DRILL"
+   },
+   {
+    "level": 43,
+    "move": "DOUBLE_KICK"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 16,
+    "into": "NIDORINO"
+   }
+  ]
+ },
+ {
+  "const": "NIDORINO",
+  "id": 167,
+  "dex": 33,
+  "ja": "ニドリーノ",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "LEER",
+   "TACKLE",
+   "HORN_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 8,
+    "move": "HORN_ATTACK"
+   },
+   {
+    "level": 14,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 23,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 32,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 41,
+    "move": "HORN_DRILL"
+   },
+   {
+    "level": 50,
+    "move": "DOUBLE_KICK"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "MOON_STONE",
+    "into": "NIDOKING"
+   }
+  ]
+ },
+ {
+  "const": "NIDOKING",
+  "id": 7,
+  "dex": 34,
+  "ja": "ニドキング",
+  "types": [
+   "POISON",
+   "GROUND"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "HORN_ATTACK",
+   "POISON_STING",
+   "THRASH"
+  ],
+  "learnset": [
+   {
+    "level": 8,
+    "move": "HORN_ATTACK"
+   },
+   {
+    "level": 14,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 23,
+    "move": "THRASH"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "CLEFAIRY",
+  "id": 4,
+  "dex": 35,
+  "ja": "ピッピ",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "POUND",
+   "GROWL"
+  ],
+  "learnset": [
+   {
+    "level": 13,
+    "move": "SING"
+   },
+   {
+    "level": 18,
+    "move": "DOUBLESLAP"
+   },
+   {
+    "level": 24,
+    "move": "MINIMIZE"
+   },
+   {
+    "level": 31,
+    "move": "METRONOME"
+   },
+   {
+    "level": 39,
+    "move": "DEFENSE_CURL"
+   },
+   {
+    "level": 48,
+    "move": "LIGHT_SCREEN"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "MOON_STONE",
+    "into": "CLEFABLE"
+   }
+  ]
+ },
+ {
+  "const": "CLEFABLE",
+  "id": 142,
+  "dex": 36,
+  "ja": "ピクシー",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "SING",
+   "DOUBLESLAP",
+   "MINIMIZE",
+   "METRONOME"
+  ],
+  "learnset": [],
+  "evolutions": []
+ },
+ {
+  "const": "VULPIX",
+  "id": 82,
+  "dex": 37,
+  "ja": "ロコン",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "EMBER",
+   "TAIL_WHIP"
+  ],
+  "learnset": [
+   {
+    "level": 16,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 21,
+    "move": "ROAR"
+   },
+   {
+    "level": 28,
+    "move": "CONFUSE_RAY"
+   },
+   {
+    "level": 35,
+    "move": "FLAMETHROWER"
+   },
+   {
+    "level": 42,
+    "move": "FIRE_SPIN"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "FIRE_STONE",
+    "into": "NINETALES"
+   }
+  ]
+ },
+ {
+  "const": "NINETALES",
+  "id": 83,
+  "dex": 38,
+  "ja": "キュウコン",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "EMBER",
+   "TAIL_WHIP",
+   "QUICK_ATTACK",
+   "ROAR"
+  ],
+  "learnset": [],
+  "evolutions": []
+ },
+ {
+  "const": "JIGGLYPUFF",
+  "id": 100,
+  "dex": 39,
+  "ja": "プリン",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "SING"
+  ],
+  "learnset": [
+   {
+    "level": 9,
+    "move": "POUND"
+   },
+   {
+    "level": 14,
+    "move": "DISABLE"
+   },
+   {
+    "level": 19,
+    "move": "DEFENSE_CURL"
+   },
+   {
+    "level": 24,
+    "move": "DOUBLESLAP"
+   },
+   {
+    "level": 29,
+    "move": "REST"
+   },
+   {
+    "level": 34,
+    "move": "BODY_SLAM"
+   },
+   {
+    "level": 39,
+    "move": "DOUBLE_EDGE"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "MOON_STONE",
+    "into": "WIGGLYTUFF"
+   }
+  ]
+ },
+ {
+  "const": "WIGGLYTUFF",
+  "id": 101,
+  "dex": 40,
+  "ja": "プクリン",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "SING",
+   "DISABLE",
+   "DEFENSE_CURL",
+   "DOUBLESLAP"
+  ],
+  "learnset": [],
+  "evolutions": []
+ },
+ {
+  "const": "ZUBAT",
+  "id": 107,
+  "dex": 41,
+  "ja": "ズバット",
+  "types": [
+   "POISON",
+   "FLYING"
+  ],
+  "startMoves": [
+   "LEECH_LIFE"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 15,
+    "move": "BITE"
+   },
+   {
+    "level": 21,
+    "move": "CONFUSE_RAY"
+   },
+   {
+    "level": 28,
+    "move": "WING_ATTACK"
+   },
+   {
+    "level": 36,
+    "move": "HAZE"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 22,
+    "into": "GOLBAT"
+   }
+  ]
+ },
+ {
+  "const": "GOLBAT",
+  "id": 130,
+  "dex": 42,
+  "ja": "ゴルバット",
+  "types": [
+   "POISON",
+   "FLYING"
+  ],
+  "startMoves": [
+   "LEECH_LIFE",
+   "SCREECH",
+   "BITE"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 15,
+    "move": "BITE"
+   },
+   {
+    "level": 21,
+    "move": "CONFUSE_RAY"
+   },
+   {
+    "level": 32,
+    "move": "WING_ATTACK"
+   },
+   {
+    "level": 43,
+    "move": "HAZE"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "ODDISH",
+  "id": 185,
+  "dex": 43,
+  "ja": "ナゾノクサ",
+  "types": [
+   "GRASS",
+   "POISON"
+  ],
+  "startMoves": [
+   "ABSORB"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 17,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 19,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 24,
+    "move": "ACID"
+   },
+   {
+    "level": 33,
+    "move": "PETAL_DANCE"
+   },
+   {
+    "level": 46,
+    "move": "SOLARBEAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 21,
+    "into": "GLOOM"
+   }
+  ]
+ },
+ {
+  "const": "GLOOM",
+  "id": 186,
+  "dex": 44,
+  "ja": "クサイハナ",
+  "types": [
+   "GRASS",
+   "POISON"
+  ],
+  "startMoves": [
+   "ABSORB",
+   "POISONPOWDER",
+   "STUN_SPORE"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 17,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 19,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 28,
+    "move": "ACID"
+   },
+   {
+    "level": 38,
+    "move": "PETAL_DANCE"
+   },
+   {
+    "level": 52,
+    "move": "SOLARBEAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "LEAF_STONE",
+    "into": "VILEPLUME"
+   }
+  ]
+ },
+ {
+  "const": "VILEPLUME",
+  "id": 187,
+  "dex": 45,
+  "ja": "ラフレシア",
+  "types": [
+   "GRASS",
+   "POISON"
+  ],
+  "startMoves": [
+   "STUN_SPORE",
+   "SLEEP_POWDER",
+   "ACID",
+   "PETAL_DANCE"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 17,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 19,
+    "move": "SLEEP_POWDER"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "PARAS",
+  "id": 109,
+  "dex": 46,
+  "ja": "パラス",
+  "types": [
+   "BUG",
+   "GRASS"
+  ],
+  "startMoves": [
+   "SCRATCH"
+  ],
+  "learnset": [
+   {
+    "level": 13,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 20,
+    "move": "LEECH_LIFE"
+   },
+   {
+    "level": 27,
+    "move": "SPORE"
+   },
+   {
+    "level": 34,
+    "move": "SLASH"
+   },
+   {
+    "level": 41,
+    "move": "GROWTH"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 24,
+    "into": "PARASECT"
+   }
+  ]
+ },
+ {
+  "const": "PARASECT",
+  "id": 46,
+  "dex": 47,
+  "ja": "パラセクト",
+  "types": [
+   "BUG",
+   "GRASS"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "STUN_SPORE",
+   "LEECH_LIFE"
+  ],
+  "learnset": [
+   {
+    "level": 13,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 20,
+    "move": "LEECH_LIFE"
+   },
+   {
+    "level": 30,
+    "move": "SPORE"
+   },
+   {
+    "level": 39,
+    "move": "SLASH"
+   },
+   {
+    "level": 48,
+    "move": "GROWTH"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "VENONAT",
+  "id": 65,
+  "dex": 48,
+  "ja": "コンパン",
+  "types": [
+   "BUG",
+   "POISON"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "DISABLE"
+  ],
+  "learnset": [
+   {
+    "level": 24,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 27,
+    "move": "LEECH_LIFE"
+   },
+   {
+    "level": 30,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 35,
+    "move": "PSYBEAM"
+   },
+   {
+    "level": 38,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 43,
+    "move": "PSYCHIC_M"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 31,
+    "into": "VENOMOTH"
+   }
+  ]
+ },
+ {
+  "const": "VENOMOTH",
+  "id": 119,
+  "dex": 49,
+  "ja": "モルフォン",
+  "types": [
+   "BUG",
+   "POISON"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "DISABLE",
+   "POISONPOWDER",
+   "LEECH_LIFE"
+  ],
+  "learnset": [
+   {
+    "level": 24,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 27,
+    "move": "LEECH_LIFE"
+   },
+   {
+    "level": 30,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 38,
+    "move": "PSYBEAM"
+   },
+   {
+    "level": 43,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 50,
+    "move": "PSYCHIC_M"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "DIGLETT",
+  "id": 59,
+  "dex": 50,
+  "ja": "ディグダ",
+  "types": [
+   "GROUND"
+  ],
+  "startMoves": [
+   "SCRATCH"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "GROWL"
+   },
+   {
+    "level": 19,
+    "move": "DIG"
+   },
+   {
+    "level": 24,
+    "move": "SAND_ATTACK"
+   },
+   {
+    "level": 31,
+    "move": "SLASH"
+   },
+   {
+    "level": 40,
+    "move": "EARTHQUAKE"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 26,
+    "into": "DUGTRIO"
+   }
+  ]
+ },
+ {
+  "const": "DUGTRIO",
+  "id": 118,
+  "dex": 51,
+  "ja": "ダグトリオ",
+  "types": [
+   "GROUND"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "GROWL",
+   "DIG"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "GROWL"
+   },
+   {
+    "level": 19,
+    "move": "DIG"
+   },
+   {
+    "level": 24,
+    "move": "SAND_ATTACK"
+   },
+   {
+    "level": 35,
+    "move": "SLASH"
+   },
+   {
+    "level": 47,
+    "move": "EARTHQUAKE"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "MEOWTH",
+  "id": 77,
+  "dex": 52,
+  "ja": "ニャース",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "GROWL"
+  ],
+  "learnset": [
+   {
+    "level": 12,
+    "move": "BITE"
+   },
+   {
+    "level": 17,
+    "move": "PAY_DAY"
+   },
+   {
+    "level": 24,
+    "move": "SCREECH"
+   },
+   {
+    "level": 33,
+    "move": "FURY_SWIPES"
+   },
+   {
+    "level": 44,
+    "move": "SLASH"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 28,
+    "into": "PERSIAN"
+   }
+  ]
+ },
+ {
+  "const": "PERSIAN",
+  "id": 144,
+  "dex": 53,
+  "ja": "ペルシアン",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "GROWL",
+   "BITE",
+   "SCREECH"
+  ],
+  "learnset": [
+   {
+    "level": 12,
+    "move": "BITE"
+   },
+   {
+    "level": 17,
+    "move": "PAY_DAY"
+   },
+   {
+    "level": 24,
+    "move": "SCREECH"
+   },
+   {
+    "level": 37,
+    "move": "FURY_SWIPES"
+   },
+   {
+    "level": 51,
+    "move": "SLASH"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "PSYDUCK",
+  "id": 47,
+  "dex": 54,
+  "ja": "コダック",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "SCRATCH"
+  ],
+  "learnset": [
+   {
+    "level": 28,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 31,
+    "move": "DISABLE"
+   },
+   {
+    "level": 36,
+    "move": "CONFUSION"
+   },
+   {
+    "level": 43,
+    "move": "FURY_SWIPES"
+   },
+   {
+    "level": 52,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 33,
+    "into": "GOLDUCK"
+   }
+  ]
+ },
+ {
+  "const": "GOLDUCK",
+  "id": 128,
+  "dex": 55,
+  "ja": "ゴルダック",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "TAIL_WHIP",
+   "DISABLE"
+  ],
+  "learnset": [
+   {
+    "level": 28,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 31,
+    "move": "DISABLE"
+   },
+   {
+    "level": 39,
+    "move": "CONFUSION"
+   },
+   {
+    "level": 48,
+    "move": "FURY_SWIPES"
+   },
+   {
+    "level": 59,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "MANKEY",
+  "id": 57,
+  "dex": 56,
+  "ja": "マンキー",
+  "types": [
+   "FIGHTING"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "LEER"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "KARATE_CHOP"
+   },
+   {
+    "level": 21,
+    "move": "FURY_SWIPES"
+   },
+   {
+    "level": 27,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 33,
+    "move": "SEISMIC_TOSS"
+   },
+   {
+    "level": 39,
+    "move": "THRASH"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 28,
+    "into": "PRIMEAPE"
+   }
+  ]
+ },
+ {
+  "const": "PRIMEAPE",
+  "id": 117,
+  "dex": 57,
+  "ja": "オコリザル",
+  "types": [
+   "FIGHTING"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "LEER",
+   "KARATE_CHOP",
+   "FURY_SWIPES"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "KARATE_CHOP"
+   },
+   {
+    "level": 21,
+    "move": "FURY_SWIPES"
+   },
+   {
+    "level": 27,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 37,
+    "move": "SEISMIC_TOSS"
+   },
+   {
+    "level": 46,
+    "move": "THRASH"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "GROWLITHE",
+  "id": 33,
+  "dex": 58,
+  "ja": "ガーディ",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "BITE",
+   "ROAR"
+  ],
+  "learnset": [
+   {
+    "level": 18,
+    "move": "EMBER"
+   },
+   {
+    "level": 23,
+    "move": "LEER"
+   },
+   {
+    "level": 30,
+    "move": "TAKE_DOWN"
+   },
+   {
+    "level": 39,
+    "move": "AGILITY"
+   },
+   {
+    "level": 50,
+    "move": "FLAMETHROWER"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "FIRE_STONE",
+    "into": "ARCANINE"
+   }
+  ]
+ },
+ {
+  "const": "ARCANINE",
+  "id": 20,
+  "dex": 59,
+  "ja": "ウインディ",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "ROAR",
+   "EMBER",
+   "LEER",
+   "TAKE_DOWN"
+  ],
+  "learnset": [],
+  "evolutions": []
+ },
+ {
+  "const": "POLIWAG",
+  "id": 71,
+  "dex": 60,
+  "ja": "ニョロモ",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "BUBBLE"
+  ],
+  "learnset": [
+   {
+    "level": 16,
+    "move": "HYPNOSIS"
+   },
+   {
+    "level": 19,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 25,
+    "move": "DOUBLESLAP"
+   },
+   {
+    "level": 31,
+    "move": "BODY_SLAM"
+   },
+   {
+    "level": 38,
+    "move": "AMNESIA"
+   },
+   {
+    "level": 45,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 25,
+    "into": "POLIWHIRL"
+   }
+  ]
+ },
+ {
+  "const": "POLIWHIRL",
+  "id": 110,
+  "dex": 61,
+  "ja": "ニョロゾ",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "BUBBLE",
+   "HYPNOSIS",
+   "WATER_GUN"
+  ],
+  "learnset": [
+   {
+    "level": 16,
+    "move": "HYPNOSIS"
+   },
+   {
+    "level": 19,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 26,
+    "move": "DOUBLESLAP"
+   },
+   {
+    "level": 33,
+    "move": "BODY_SLAM"
+   },
+   {
+    "level": 41,
+    "move": "AMNESIA"
+   },
+   {
+    "level": 49,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "WATER_STONE",
+    "into": "POLIWRATH"
+   }
+  ]
+ },
+ {
+  "const": "POLIWRATH",
+  "id": 111,
+  "dex": 62,
+  "ja": "ニョロボン",
+  "types": [
+   "WATER",
+   "FIGHTING"
+  ],
+  "startMoves": [
+   "HYPNOSIS",
+   "WATER_GUN",
+   "DOUBLESLAP",
+   "BODY_SLAM"
+  ],
+  "learnset": [
+   {
+    "level": 16,
+    "move": "HYPNOSIS"
+   },
+   {
+    "level": 19,
+    "move": "WATER_GUN"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "ABRA",
+  "id": 148,
+  "dex": 63,
+  "ja": "ケーシィ",
+  "types": [
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "TELEPORT"
+  ],
+  "learnset": [],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 16,
+    "into": "KADABRA"
+   }
+  ]
+ },
+ {
+  "const": "KADABRA",
+  "id": 38,
+  "dex": 64,
+  "ja": "ユンゲラー",
+  "types": [
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "TELEPORT",
+   "CONFUSION",
+   "DISABLE"
+  ],
+  "learnset": [
+   {
+    "level": 16,
+    "move": "CONFUSION"
+   },
+   {
+    "level": 20,
+    "move": "DISABLE"
+   },
+   {
+    "level": 27,
+    "move": "PSYBEAM"
+   },
+   {
+    "level": 31,
+    "move": "RECOVER"
+   },
+   {
+    "level": 38,
+    "move": "PSYCHIC_M"
+   },
+   {
+    "level": 42,
+    "move": "REFLECT"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "trade",
+    "into": "ALAKAZAM"
+   }
+  ]
+ },
+ {
+  "const": "ALAKAZAM",
+  "id": 149,
+  "dex": 65,
+  "ja": "フーディン",
+  "types": [
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "TELEPORT",
+   "CONFUSION",
+   "DISABLE"
+  ],
+  "learnset": [
+   {
+    "level": 16,
+    "move": "CONFUSION"
+   },
+   {
+    "level": 20,
+    "move": "DISABLE"
+   },
+   {
+    "level": 27,
+    "move": "PSYBEAM"
+   },
+   {
+    "level": 31,
+    "move": "RECOVER"
+   },
+   {
+    "level": 38,
+    "move": "PSYCHIC_M"
+   },
+   {
+    "level": 42,
+    "move": "REFLECT"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "MACHOP",
+  "id": 106,
+  "dex": 66,
+  "ja": "ワンリキー",
+  "types": [
+   "FIGHTING"
+  ],
+  "startMoves": [
+   "KARATE_CHOP"
+  ],
+  "learnset": [
+   {
+    "level": 20,
+    "move": "LOW_KICK"
+   },
+   {
+    "level": 25,
+    "move": "LEER"
+   },
+   {
+    "level": 32,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 39,
+    "move": "SEISMIC_TOSS"
+   },
+   {
+    "level": 46,
+    "move": "SUBMISSION"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 28,
+    "into": "MACHOKE"
+   }
+  ]
+ },
+ {
+  "const": "MACHOKE",
+  "id": 41,
+  "dex": 67,
+  "ja": "ゴーリキー",
+  "types": [
+   "FIGHTING"
+  ],
+  "startMoves": [
+   "KARATE_CHOP",
+   "LOW_KICK",
+   "LEER"
+  ],
+  "learnset": [
+   {
+    "level": 20,
+    "move": "LOW_KICK"
+   },
+   {
+    "level": 25,
+    "move": "LEER"
+   },
+   {
+    "level": 36,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 44,
+    "move": "SEISMIC_TOSS"
+   },
+   {
+    "level": 52,
+    "move": "SUBMISSION"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "trade",
+    "into": "MACHAMP"
+   }
+  ]
+ },
+ {
+  "const": "MACHAMP",
+  "id": 126,
+  "dex": 68,
+  "ja": "カイリキー",
+  "types": [
+   "FIGHTING"
+  ],
+  "startMoves": [
+   "KARATE_CHOP",
+   "LOW_KICK",
+   "LEER"
+  ],
+  "learnset": [
+   {
+    "level": 20,
+    "move": "LOW_KICK"
+   },
+   {
+    "level": 25,
+    "move": "LEER"
+   },
+   {
+    "level": 36,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 44,
+    "move": "SEISMIC_TOSS"
+   },
+   {
+    "level": 52,
+    "move": "SUBMISSION"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "BELLSPROUT",
+  "id": 188,
+  "dex": 69,
+  "ja": "マダツボミ",
+  "types": [
+   "GRASS",
+   "POISON"
+  ],
+  "startMoves": [
+   "VINE_WHIP",
+   "GROWTH"
+  ],
+  "learnset": [
+   {
+    "level": 13,
+    "move": "WRAP"
+   },
+   {
+    "level": 15,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 18,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 21,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 26,
+    "move": "ACID"
+   },
+   {
+    "level": 33,
+    "move": "RAZOR_LEAF"
+   },
+   {
+    "level": 42,
+    "move": "SLAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 21,
+    "into": "WEEPINBELL"
+   }
+  ]
+ },
+ {
+  "const": "WEEPINBELL",
+  "id": 189,
+  "dex": 70,
+  "ja": "ウツドン",
+  "types": [
+   "GRASS",
+   "POISON"
+  ],
+  "startMoves": [
+   "VINE_WHIP",
+   "GROWTH",
+   "WRAP"
+  ],
+  "learnset": [
+   {
+    "level": 13,
+    "move": "WRAP"
+   },
+   {
+    "level": 15,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 18,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 23,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 29,
+    "move": "ACID"
+   },
+   {
+    "level": 38,
+    "move": "RAZOR_LEAF"
+   },
+   {
+    "level": 49,
+    "move": "SLAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "LEAF_STONE",
+    "into": "VICTREEBEL"
+   }
+  ]
+ },
+ {
+  "const": "VICTREEBEL",
+  "id": 190,
+  "dex": 71,
+  "ja": "ウツボット",
+  "types": [
+   "GRASS",
+   "POISON"
+  ],
+  "startMoves": [
+   "SLEEP_POWDER",
+   "STUN_SPORE",
+   "ACID",
+   "RAZOR_LEAF"
+  ],
+  "learnset": [
+   {
+    "level": 13,
+    "move": "WRAP"
+   },
+   {
+    "level": 15,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 18,
+    "move": "SLEEP_POWDER"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "TENTACOOL",
+  "id": 24,
+  "dex": 72,
+  "ja": "メノクラゲ",
+  "types": [
+   "WATER",
+   "POISON"
+  ],
+  "startMoves": [
+   "ACID"
+  ],
+  "learnset": [
+   {
+    "level": 7,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 13,
+    "move": "WRAP"
+   },
+   {
+    "level": 18,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 22,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 27,
+    "move": "CONSTRICT"
+   },
+   {
+    "level": 33,
+    "move": "BARRIER"
+   },
+   {
+    "level": 40,
+    "move": "SCREECH"
+   },
+   {
+    "level": 48,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 30,
+    "into": "TENTACRUEL"
+   }
+  ]
+ },
+ {
+  "const": "TENTACRUEL",
+  "id": 155,
+  "dex": 73,
+  "ja": "ドククラゲ",
+  "types": [
+   "WATER",
+   "POISON"
+  ],
+  "startMoves": [
+   "ACID",
+   "SUPERSONIC",
+   "WRAP"
+  ],
+  "learnset": [
+   {
+    "level": 7,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 13,
+    "move": "WRAP"
+   },
+   {
+    "level": 18,
+    "move": "POISON_STING"
+   },
+   {
+    "level": 22,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 27,
+    "move": "CONSTRICT"
+   },
+   {
+    "level": 35,
+    "move": "BARRIER"
+   },
+   {
+    "level": 43,
+    "move": "SCREECH"
+   },
+   {
+    "level": 50,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "GEODUDE",
+  "id": 169,
+  "dex": 74,
+  "ja": "イシツブテ",
+  "types": [
+   "ROCK",
+   "GROUND"
+  ],
+  "startMoves": [
+   "TACKLE"
+  ],
+  "learnset": [
+   {
+    "level": 11,
+    "move": "DEFENSE_CURL"
+   },
+   {
+    "level": 16,
+    "move": "ROCK_THROW"
+   },
+   {
+    "level": 21,
+    "move": "SELFDESTRUCT"
+   },
+   {
+    "level": 26,
+    "move": "HARDEN"
+   },
+   {
+    "level": 31,
+    "move": "EARTHQUAKE"
+   },
+   {
+    "level": 36,
+    "move": "EXPLOSION"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 25,
+    "into": "GRAVELER"
+   }
+  ]
+ },
+ {
+  "const": "GRAVELER",
+  "id": 39,
+  "dex": 75,
+  "ja": "ゴローン",
+  "types": [
+   "ROCK",
+   "GROUND"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "DEFENSE_CURL"
+  ],
+  "learnset": [
+   {
+    "level": 11,
+    "move": "DEFENSE_CURL"
+   },
+   {
+    "level": 16,
+    "move": "ROCK_THROW"
+   },
+   {
+    "level": 21,
+    "move": "SELFDESTRUCT"
+   },
+   {
+    "level": 29,
+    "move": "HARDEN"
+   },
+   {
+    "level": 36,
+    "move": "EARTHQUAKE"
+   },
+   {
+    "level": 43,
+    "move": "EXPLOSION"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "trade",
+    "into": "GOLEM"
+   }
+  ]
+ },
+ {
+  "const": "GOLEM",
+  "id": 49,
+  "dex": 76,
+  "ja": "ゴローニャ",
+  "types": [
+   "ROCK",
+   "GROUND"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "DEFENSE_CURL"
+  ],
+  "learnset": [
+   {
+    "level": 11,
+    "move": "DEFENSE_CURL"
+   },
+   {
+    "level": 16,
+    "move": "ROCK_THROW"
+   },
+   {
+    "level": 21,
+    "move": "SELFDESTRUCT"
+   },
+   {
+    "level": 29,
+    "move": "HARDEN"
+   },
+   {
+    "level": 36,
+    "move": "EARTHQUAKE"
+   },
+   {
+    "level": 43,
+    "move": "EXPLOSION"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "PONYTA",
+  "id": 163,
+  "dex": 77,
+  "ja": "ポニータ",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "EMBER"
+  ],
+  "learnset": [
+   {
+    "level": 30,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 32,
+    "move": "STOMP"
+   },
+   {
+    "level": 35,
+    "move": "GROWL"
+   },
+   {
+    "level": 39,
+    "move": "FIRE_SPIN"
+   },
+   {
+    "level": 43,
+    "move": "TAKE_DOWN"
+   },
+   {
+    "level": 48,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 40,
+    "into": "RAPIDASH"
+   }
+  ]
+ },
+ {
+  "const": "RAPIDASH",
+  "id": 164,
+  "dex": 78,
+  "ja": "ギャロップ",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "EMBER",
+   "TAIL_WHIP",
+   "STOMP",
+   "GROWL"
+  ],
+  "learnset": [
+   {
+    "level": 30,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 32,
+    "move": "STOMP"
+   },
+   {
+    "level": 35,
+    "move": "GROWL"
+   },
+   {
+    "level": 39,
+    "move": "FIRE_SPIN"
+   },
+   {
+    "level": 47,
+    "move": "TAKE_DOWN"
+   },
+   {
+    "level": 55,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "SLOWPOKE",
+  "id": 37,
+  "dex": 79,
+  "ja": "ヤドン",
+  "types": [
+   "WATER",
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "CONFUSION"
+  ],
+  "learnset": [
+   {
+    "level": 18,
+    "move": "DISABLE"
+   },
+   {
+    "level": 22,
+    "move": "HEADBUTT"
+   },
+   {
+    "level": 27,
+    "move": "GROWL"
+   },
+   {
+    "level": 33,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 40,
+    "move": "AMNESIA"
+   },
+   {
+    "level": 48,
+    "move": "PSYCHIC_M"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 37,
+    "into": "SLOWBRO"
+   }
+  ]
+ },
+ {
+  "const": "SLOWBRO",
+  "id": 8,
+  "dex": 80,
+  "ja": "ヤドラン",
+  "types": [
+   "WATER",
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "CONFUSION",
+   "DISABLE",
+   "HEADBUTT"
+  ],
+  "learnset": [
+   {
+    "level": 18,
+    "move": "DISABLE"
+   },
+   {
+    "level": 22,
+    "move": "HEADBUTT"
+   },
+   {
+    "level": 27,
+    "move": "GROWL"
+   },
+   {
+    "level": 33,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 37,
+    "move": "WITHDRAW"
+   },
+   {
+    "level": 44,
+    "move": "AMNESIA"
+   },
+   {
+    "level": 55,
+    "move": "PSYCHIC_M"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "MAGNEMITE",
+  "id": 173,
+  "dex": 81,
+  "ja": "コイル",
+  "types": [
+   "ELECTRIC"
+  ],
+  "startMoves": [
+   "TACKLE"
+  ],
+  "learnset": [
+   {
+    "level": 21,
+    "move": "SONICBOOM"
+   },
+   {
+    "level": 25,
+    "move": "THUNDERSHOCK"
+   },
+   {
+    "level": 29,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 35,
+    "move": "THUNDER_WAVE"
+   },
+   {
+    "level": 41,
+    "move": "SWIFT"
+   },
+   {
+    "level": 47,
+    "move": "SCREECH"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 30,
+    "into": "MAGNETON"
+   }
+  ]
+ },
+ {
+  "const": "MAGNETON",
+  "id": 54,
+  "dex": 82,
+  "ja": "レアコイル",
+  "types": [
+   "ELECTRIC"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SONICBOOM",
+   "THUNDERSHOCK"
+  ],
+  "learnset": [
+   {
+    "level": 21,
+    "move": "SONICBOOM"
+   },
+   {
+    "level": 25,
+    "move": "THUNDERSHOCK"
+   },
+   {
+    "level": 29,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 38,
+    "move": "THUNDER_WAVE"
+   },
+   {
+    "level": 46,
+    "move": "SWIFT"
+   },
+   {
+    "level": 54,
+    "move": "SCREECH"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "FARFETCHD",
+  "id": 64,
+  "dex": 83,
+  "ja": "カモネギ",
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ],
+  "startMoves": [
+   "PECK",
+   "SAND_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 7,
+    "move": "LEER"
+   },
+   {
+    "level": 15,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 23,
+    "move": "SWORDS_DANCE"
+   },
+   {
+    "level": 31,
+    "move": "AGILITY"
+   },
+   {
+    "level": 39,
+    "move": "SLASH"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "DODUO",
+  "id": 70,
+  "dex": 84,
+  "ja": "ドードー",
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ],
+  "startMoves": [
+   "PECK"
+  ],
+  "learnset": [
+   {
+    "level": 20,
+    "move": "GROWL"
+   },
+   {
+    "level": 24,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 30,
+    "move": "DRILL_PECK"
+   },
+   {
+    "level": 36,
+    "move": "RAGE"
+   },
+   {
+    "level": 40,
+    "move": "TRI_ATTACK"
+   },
+   {
+    "level": 44,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 31,
+    "into": "DODRIO"
+   }
+  ]
+ },
+ {
+  "const": "DODRIO",
+  "id": 116,
+  "dex": 85,
+  "ja": "ドードリオ",
+  "types": [
+   "NORMAL",
+   "FLYING"
+  ],
+  "startMoves": [
+   "PECK",
+   "GROWL",
+   "FURY_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 20,
+    "move": "GROWL"
+   },
+   {
+    "level": 24,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 30,
+    "move": "DRILL_PECK"
+   },
+   {
+    "level": 39,
+    "move": "RAGE"
+   },
+   {
+    "level": 45,
+    "move": "TRI_ATTACK"
+   },
+   {
+    "level": 51,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "SEEL",
+  "id": 58,
+  "dex": 86,
+  "ja": "パウワウ",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "HEADBUTT"
+  ],
+  "learnset": [
+   {
+    "level": 30,
+    "move": "GROWL"
+   },
+   {
+    "level": 35,
+    "move": "AURORA_BEAM"
+   },
+   {
+    "level": 40,
+    "move": "REST"
+   },
+   {
+    "level": 45,
+    "move": "TAKE_DOWN"
+   },
+   {
+    "level": 50,
+    "move": "ICE_BEAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 34,
+    "into": "DEWGONG"
+   }
+  ]
+ },
+ {
+  "const": "DEWGONG",
+  "id": 120,
+  "dex": 87,
+  "ja": "ジュゴン",
+  "types": [
+   "WATER",
+   "ICE"
+  ],
+  "startMoves": [
+   "HEADBUTT",
+   "GROWL",
+   "AURORA_BEAM"
+  ],
+  "learnset": [
+   {
+    "level": 30,
+    "move": "GROWL"
+   },
+   {
+    "level": 35,
+    "move": "AURORA_BEAM"
+   },
+   {
+    "level": 44,
+    "move": "REST"
+   },
+   {
+    "level": 50,
+    "move": "TAKE_DOWN"
+   },
+   {
+    "level": 56,
+    "move": "ICE_BEAM"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "GRIMER",
+  "id": 13,
+  "dex": 88,
+  "ja": "ベトベター",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "POUND",
+   "DISABLE"
+  ],
+  "learnset": [
+   {
+    "level": 30,
+    "move": "POISON_GAS"
+   },
+   {
+    "level": 33,
+    "move": "MINIMIZE"
+   },
+   {
+    "level": 37,
+    "move": "SLUDGE"
+   },
+   {
+    "level": 42,
+    "move": "HARDEN"
+   },
+   {
+    "level": 48,
+    "move": "SCREECH"
+   },
+   {
+    "level": 55,
+    "move": "ACID_ARMOR"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 38,
+    "into": "MUK"
+   }
+  ]
+ },
+ {
+  "const": "MUK",
+  "id": 136,
+  "dex": 89,
+  "ja": "ベトベトン",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "POUND",
+   "DISABLE",
+   "POISON_GAS"
+  ],
+  "learnset": [
+   {
+    "level": 30,
+    "move": "POISON_GAS"
+   },
+   {
+    "level": 33,
+    "move": "MINIMIZE"
+   },
+   {
+    "level": 37,
+    "move": "SLUDGE"
+   },
+   {
+    "level": 45,
+    "move": "HARDEN"
+   },
+   {
+    "level": 53,
+    "move": "SCREECH"
+   },
+   {
+    "level": 60,
+    "move": "ACID_ARMOR"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "SHELLDER",
+  "id": 23,
+  "dex": 90,
+  "ja": "シェルダー",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "WITHDRAW"
+  ],
+  "learnset": [
+   {
+    "level": 18,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 23,
+    "move": "CLAMP"
+   },
+   {
+    "level": 30,
+    "move": "AURORA_BEAM"
+   },
+   {
+    "level": 39,
+    "move": "LEER"
+   },
+   {
+    "level": 50,
+    "move": "ICE_BEAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "WATER_STONE",
+    "into": "CLOYSTER"
+   }
+  ]
+ },
+ {
+  "const": "CLOYSTER",
+  "id": 139,
+  "dex": 91,
+  "ja": "パルシェン",
+  "types": [
+   "WATER",
+   "ICE"
+  ],
+  "startMoves": [
+   "WITHDRAW",
+   "SUPERSONIC",
+   "CLAMP",
+   "AURORA_BEAM"
+  ],
+  "learnset": [
+   {
+    "level": 50,
+    "move": "SPIKE_CANNON"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "GASTLY",
+  "id": 25,
+  "dex": 92,
+  "ja": "ゴース",
+  "types": [
+   "GHOST",
+   "POISON"
+  ],
+  "startMoves": [
+   "LICK",
+   "CONFUSE_RAY",
+   "NIGHT_SHADE"
+  ],
+  "learnset": [
+   {
+    "level": 27,
+    "move": "HYPNOSIS"
+   },
+   {
+    "level": 35,
+    "move": "DREAM_EATER"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 25,
+    "into": "HAUNTER"
+   }
+  ]
+ },
+ {
+  "const": "HAUNTER",
+  "id": 147,
+  "dex": 93,
+  "ja": "ゴースト",
+  "types": [
+   "GHOST",
+   "POISON"
+  ],
+  "startMoves": [
+   "LICK",
+   "CONFUSE_RAY",
+   "NIGHT_SHADE"
+  ],
+  "learnset": [
+   {
+    "level": 29,
+    "move": "HYPNOSIS"
+   },
+   {
+    "level": 38,
+    "move": "DREAM_EATER"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "trade",
+    "into": "GENGAR"
+   }
+  ]
+ },
+ {
+  "const": "GENGAR",
+  "id": 14,
+  "dex": 94,
+  "ja": "ゲンガー",
+  "types": [
+   "GHOST",
+   "POISON"
+  ],
+  "startMoves": [
+   "LICK",
+   "CONFUSE_RAY",
+   "NIGHT_SHADE"
+  ],
+  "learnset": [
+   {
+    "level": 29,
+    "move": "HYPNOSIS"
+   },
+   {
+    "level": 38,
+    "move": "DREAM_EATER"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "ONIX",
+  "id": 34,
+  "dex": 95,
+  "ja": "イワーク",
+  "types": [
+   "ROCK",
+   "GROUND"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SCREECH"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "BIND"
+   },
+   {
+    "level": 19,
+    "move": "ROCK_THROW"
+   },
+   {
+    "level": 25,
+    "move": "RAGE"
+   },
+   {
+    "level": 33,
+    "move": "SLAM"
+   },
+   {
+    "level": 43,
+    "move": "HARDEN"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "DROWZEE",
+  "id": 48,
+  "dex": 96,
+  "ja": "スリープ",
+  "types": [
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "POUND",
+   "HYPNOSIS"
+  ],
+  "learnset": [
+   {
+    "level": 12,
+    "move": "DISABLE"
+   },
+   {
+    "level": 17,
+    "move": "CONFUSION"
+   },
+   {
+    "level": 24,
+    "move": "HEADBUTT"
+   },
+   {
+    "level": 29,
+    "move": "POISON_GAS"
+   },
+   {
+    "level": 32,
+    "move": "PSYCHIC_M"
+   },
+   {
+    "level": 37,
+    "move": "MEDITATE"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 26,
+    "into": "HYPNO"
+   }
+  ]
+ },
+ {
+  "const": "HYPNO",
+  "id": 129,
+  "dex": 97,
+  "ja": "スリーパー",
+  "types": [
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "POUND",
+   "HYPNOSIS",
+   "DISABLE",
+   "CONFUSION"
+  ],
+  "learnset": [
+   {
+    "level": 12,
+    "move": "DISABLE"
+   },
+   {
+    "level": 17,
+    "move": "CONFUSION"
+   },
+   {
+    "level": 24,
+    "move": "HEADBUTT"
+   },
+   {
+    "level": 33,
+    "move": "POISON_GAS"
+   },
+   {
+    "level": 37,
+    "move": "PSYCHIC_M"
+   },
+   {
+    "level": 43,
+    "move": "MEDITATE"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "KRABBY",
+  "id": 78,
+  "dex": 98,
+  "ja": "クラブ",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "BUBBLE",
+   "LEER"
+  ],
+  "learnset": [
+   {
+    "level": 20,
+    "move": "VICEGRIP"
+   },
+   {
+    "level": 25,
+    "move": "GUILLOTINE"
+   },
+   {
+    "level": 30,
+    "move": "STOMP"
+   },
+   {
+    "level": 35,
+    "move": "CRABHAMMER"
+   },
+   {
+    "level": 40,
+    "move": "HARDEN"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 28,
+    "into": "KINGLER"
+   }
+  ]
+ },
+ {
+  "const": "KINGLER",
+  "id": 138,
+  "dex": 99,
+  "ja": "キングラー",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "BUBBLE",
+   "LEER",
+   "VICEGRIP"
+  ],
+  "learnset": [
+   {
+    "level": 20,
+    "move": "VICEGRIP"
+   },
+   {
+    "level": 25,
+    "move": "GUILLOTINE"
+   },
+   {
+    "level": 34,
+    "move": "STOMP"
+   },
+   {
+    "level": 42,
+    "move": "CRABHAMMER"
+   },
+   {
+    "level": 49,
+    "move": "HARDEN"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "VOLTORB",
+  "id": 6,
+  "dex": 100,
+  "ja": "ビリリダマ",
+  "types": [
+   "ELECTRIC"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SCREECH"
+  ],
+  "learnset": [
+   {
+    "level": 17,
+    "move": "SONICBOOM"
+   },
+   {
+    "level": 22,
+    "move": "SELFDESTRUCT"
+   },
+   {
+    "level": 29,
+    "move": "LIGHT_SCREEN"
+   },
+   {
+    "level": 36,
+    "move": "SWIFT"
+   },
+   {
+    "level": 43,
+    "move": "EXPLOSION"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 30,
+    "into": "ELECTRODE"
+   }
+  ]
+ },
+ {
+  "const": "ELECTRODE",
+  "id": 141,
+  "dex": 101,
+  "ja": "マルマイン",
+  "types": [
+   "ELECTRIC"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SCREECH",
+   "SONICBOOM"
+  ],
+  "learnset": [
+   {
+    "level": 17,
+    "move": "SONICBOOM"
+   },
+   {
+    "level": 22,
+    "move": "SELFDESTRUCT"
+   },
+   {
+    "level": 29,
+    "move": "LIGHT_SCREEN"
+   },
+   {
+    "level": 40,
+    "move": "SWIFT"
+   },
+   {
+    "level": 50,
+    "move": "EXPLOSION"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "EXEGGCUTE",
+  "id": 12,
+  "dex": 102,
+  "ja": "タマタマ",
+  "types": [
+   "GRASS",
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "BARRAGE",
+   "HYPNOSIS"
+  ],
+  "learnset": [
+   {
+    "level": 25,
+    "move": "REFLECT"
+   },
+   {
+    "level": 28,
+    "move": "LEECH_SEED"
+   },
+   {
+    "level": 32,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 37,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 42,
+    "move": "SOLARBEAM"
+   },
+   {
+    "level": 48,
+    "move": "SLEEP_POWDER"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "LEAF_STONE",
+    "into": "EXEGGUTOR"
+   }
+  ]
+ },
+ {
+  "const": "EXEGGUTOR",
+  "id": 10,
+  "dex": 103,
+  "ja": "ナッシー",
+  "types": [
+   "GRASS",
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "BARRAGE",
+   "HYPNOSIS"
+  ],
+  "learnset": [
+   {
+    "level": 28,
+    "move": "STOMP"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "CUBONE",
+  "id": 17,
+  "dex": 104,
+  "ja": "カラカラ",
+  "types": [
+   "GROUND"
+  ],
+  "startMoves": [
+   "BONE_CLUB",
+   "GROWL"
+  ],
+  "learnset": [
+   {
+    "level": 25,
+    "move": "LEER"
+   },
+   {
+    "level": 31,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 38,
+    "move": "THRASH"
+   },
+   {
+    "level": 43,
+    "move": "BONEMERANG"
+   },
+   {
+    "level": 46,
+    "move": "RAGE"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 28,
+    "into": "MAROWAK"
+   }
+  ]
+ },
+ {
+  "const": "MAROWAK",
+  "id": 145,
+  "dex": 105,
+  "ja": "ガラガラ",
+  "types": [
+   "GROUND"
+  ],
+  "startMoves": [
+   "BONE_CLUB",
+   "GROWL",
+   "LEER",
+   "FOCUS_ENERGY"
+  ],
+  "learnset": [
+   {
+    "level": 25,
+    "move": "LEER"
+   },
+   {
+    "level": 33,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 41,
+    "move": "THRASH"
+   },
+   {
+    "level": 48,
+    "move": "BONEMERANG"
+   },
+   {
+    "level": 55,
+    "move": "RAGE"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "HITMONLEE",
+  "id": 43,
+  "dex": 106,
+  "ja": "サワムラー",
+  "types": [
+   "FIGHTING"
+  ],
+  "startMoves": [
+   "DOUBLE_KICK",
+   "MEDITATE"
+  ],
+  "learnset": [
+   {
+    "level": 33,
+    "move": "ROLLING_KICK"
+   },
+   {
+    "level": 38,
+    "move": "JUMP_KICK"
+   },
+   {
+    "level": 43,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 48,
+    "move": "HI_JUMP_KICK"
+   },
+   {
+    "level": 53,
+    "move": "MEGA_KICK"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "HITMONCHAN",
+  "id": 44,
+  "dex": 107,
+  "ja": "エビワラー",
+  "types": [
+   "FIGHTING"
+  ],
+  "startMoves": [
+   "COMET_PUNCH",
+   "AGILITY"
+  ],
+  "learnset": [
+   {
+    "level": 33,
+    "move": "FIRE_PUNCH"
+   },
+   {
+    "level": 38,
+    "move": "ICE_PUNCH"
+   },
+   {
+    "level": 43,
+    "move": "THUNDERPUNCH"
+   },
+   {
+    "level": 48,
+    "move": "MEGA_PUNCH"
+   },
+   {
+    "level": 53,
+    "move": "COUNTER"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "LICKITUNG",
+  "id": 11,
+  "dex": 108,
+  "ja": "ベロリンガ",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "WRAP",
+   "SUPERSONIC"
+  ],
+  "learnset": [
+   {
+    "level": 7,
+    "move": "STOMP"
+   },
+   {
+    "level": 15,
+    "move": "DISABLE"
+   },
+   {
+    "level": 23,
+    "move": "DEFENSE_CURL"
+   },
+   {
+    "level": 31,
+    "move": "SLAM"
+   },
+   {
+    "level": 39,
+    "move": "SCREECH"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "KOFFING",
+  "id": 55,
+  "dex": 109,
+  "ja": "ドガース",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SMOG"
+  ],
+  "learnset": [
+   {
+    "level": 32,
+    "move": "SLUDGE"
+   },
+   {
+    "level": 37,
+    "move": "SMOKESCREEN"
+   },
+   {
+    "level": 40,
+    "move": "SELFDESTRUCT"
+   },
+   {
+    "level": 45,
+    "move": "HAZE"
+   },
+   {
+    "level": 48,
+    "move": "EXPLOSION"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 35,
+    "into": "WEEZING"
+   }
+  ]
+ },
+ {
+  "const": "WEEZING",
+  "id": 143,
+  "dex": 110,
+  "ja": "マタドガス",
+  "types": [
+   "POISON"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SMOG",
+   "SLUDGE"
+  ],
+  "learnset": [
+   {
+    "level": 32,
+    "move": "SLUDGE"
+   },
+   {
+    "level": 39,
+    "move": "SMOKESCREEN"
+   },
+   {
+    "level": 43,
+    "move": "SELFDESTRUCT"
+   },
+   {
+    "level": 49,
+    "move": "HAZE"
+   },
+   {
+    "level": 53,
+    "move": "EXPLOSION"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "RHYHORN",
+  "id": 18,
+  "dex": 111,
+  "ja": "サイホーン",
+  "types": [
+   "GROUND",
+   "ROCK"
+  ],
+  "startMoves": [
+   "HORN_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 30,
+    "move": "STOMP"
+   },
+   {
+    "level": 35,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 40,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 45,
+    "move": "HORN_DRILL"
+   },
+   {
+    "level": 50,
+    "move": "LEER"
+   },
+   {
+    "level": 55,
+    "move": "TAKE_DOWN"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 42,
+    "into": "RHYDON"
+   }
+  ]
+ },
+ {
+  "const": "RHYDON",
+  "id": 1,
+  "dex": 112,
+  "ja": "サイドン",
+  "types": [
+   "GROUND",
+   "ROCK"
+  ],
+  "startMoves": [
+   "HORN_ATTACK",
+   "STOMP",
+   "TAIL_WHIP",
+   "FURY_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 30,
+    "move": "STOMP"
+   },
+   {
+    "level": 35,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 40,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 48,
+    "move": "HORN_DRILL"
+   },
+   {
+    "level": 55,
+    "move": "LEER"
+   },
+   {
+    "level": 64,
+    "move": "TAKE_DOWN"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "CHANSEY",
+  "id": 40,
+  "dex": 113,
+  "ja": "ラッキー",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "POUND",
+   "DOUBLESLAP"
+  ],
+  "learnset": [
+   {
+    "level": 24,
+    "move": "SING"
+   },
+   {
+    "level": 30,
+    "move": "GROWL"
+   },
+   {
+    "level": 38,
+    "move": "MINIMIZE"
+   },
+   {
+    "level": 44,
+    "move": "DEFENSE_CURL"
+   },
+   {
+    "level": 48,
+    "move": "LIGHT_SCREEN"
+   },
+   {
+    "level": 54,
+    "move": "DOUBLE_EDGE"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "TANGELA",
+  "id": 30,
+  "dex": 114,
+  "ja": "モンジャラ",
+  "types": [
+   "GRASS"
+  ],
+  "startMoves": [
+   "CONSTRICT",
+   "BIND"
+  ],
+  "learnset": [
+   {
+    "level": 29,
+    "move": "ABSORB"
+   },
+   {
+    "level": 32,
+    "move": "POISONPOWDER"
+   },
+   {
+    "level": 36,
+    "move": "STUN_SPORE"
+   },
+   {
+    "level": 39,
+    "move": "SLEEP_POWDER"
+   },
+   {
+    "level": 45,
+    "move": "SLAM"
+   },
+   {
+    "level": 49,
+    "move": "GROWTH"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "KANGASKHAN",
+  "id": 2,
+  "dex": 115,
+  "ja": "ガルーラ",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "COMET_PUNCH",
+   "RAGE"
+  ],
+  "learnset": [
+   {
+    "level": 26,
+    "move": "BITE"
+   },
+   {
+    "level": 31,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 36,
+    "move": "MEGA_PUNCH"
+   },
+   {
+    "level": 41,
+    "move": "LEER"
+   },
+   {
+    "level": 46,
+    "move": "DIZZY_PUNCH"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "HORSEA",
+  "id": 92,
+  "dex": 116,
+  "ja": "タッツー",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "BUBBLE"
+  ],
+  "learnset": [
+   {
+    "level": 19,
+    "move": "SMOKESCREEN"
+   },
+   {
+    "level": 24,
+    "move": "LEER"
+   },
+   {
+    "level": 30,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 37,
+    "move": "AGILITY"
+   },
+   {
+    "level": 45,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 32,
+    "into": "SEADRA"
+   }
+  ]
+ },
+ {
+  "const": "SEADRA",
+  "id": 93,
+  "dex": 117,
+  "ja": "シードラ",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "BUBBLE",
+   "SMOKESCREEN"
+  ],
+  "learnset": [
+   {
+    "level": 19,
+    "move": "SMOKESCREEN"
+   },
+   {
+    "level": 24,
+    "move": "LEER"
+   },
+   {
+    "level": 30,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 41,
+    "move": "AGILITY"
+   },
+   {
+    "level": 52,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "GOLDEEN",
+  "id": 157,
+  "dex": 118,
+  "ja": "トサキント",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "PECK",
+   "TAIL_WHIP"
+  ],
+  "learnset": [
+   {
+    "level": 19,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 24,
+    "move": "HORN_ATTACK"
+   },
+   {
+    "level": 30,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 37,
+    "move": "WATERFALL"
+   },
+   {
+    "level": 45,
+    "move": "HORN_DRILL"
+   },
+   {
+    "level": 54,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 33,
+    "into": "SEAKING"
+   }
+  ]
+ },
+ {
+  "const": "SEAKING",
+  "id": 158,
+  "dex": 119,
+  "ja": "アズマオウ",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "PECK",
+   "TAIL_WHIP",
+   "SUPERSONIC"
+  ],
+  "learnset": [
+   {
+    "level": 19,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 24,
+    "move": "HORN_ATTACK"
+   },
+   {
+    "level": 30,
+    "move": "FURY_ATTACK"
+   },
+   {
+    "level": 39,
+    "move": "WATERFALL"
+   },
+   {
+    "level": 48,
+    "move": "HORN_DRILL"
+   },
+   {
+    "level": 54,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "STARYU",
+  "id": 27,
+  "dex": 120,
+  "ja": "ヒトデマン",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "TACKLE"
+  ],
+  "learnset": [
+   {
+    "level": 17,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 22,
+    "move": "HARDEN"
+   },
+   {
+    "level": 27,
+    "move": "RECOVER"
+   },
+   {
+    "level": 32,
+    "move": "SWIFT"
+   },
+   {
+    "level": 37,
+    "move": "MINIMIZE"
+   },
+   {
+    "level": 42,
+    "move": "LIGHT_SCREEN"
+   },
+   {
+    "level": 47,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "WATER_STONE",
+    "into": "STARMIE"
+   }
+  ]
+ },
+ {
+  "const": "STARMIE",
+  "id": 152,
+  "dex": 121,
+  "ja": "スターミー",
+  "types": [
+   "WATER",
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "WATER_GUN",
+   "HARDEN"
+  ],
+  "learnset": [],
+  "evolutions": []
+ },
+ {
+  "const": "MR_MIME",
+  "id": 42,
+  "dex": 122,
+  "ja": "バリヤード",
+  "types": [
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "CONFUSION",
+   "BARRIER"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "CONFUSION"
+   },
+   {
+    "level": 23,
+    "move": "LIGHT_SCREEN"
+   },
+   {
+    "level": 31,
+    "move": "DOUBLESLAP"
+   },
+   {
+    "level": 39,
+    "move": "MEDITATE"
+   },
+   {
+    "level": 47,
+    "move": "SUBSTITUTE"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "SCYTHER",
+  "id": 26,
+  "dex": 123,
+  "ja": "ストライク",
+  "types": [
+   "BUG",
+   "FLYING"
+  ],
+  "startMoves": [
+   "QUICK_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 17,
+    "move": "LEER"
+   },
+   {
+    "level": 20,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 24,
+    "move": "DOUBLE_TEAM"
+   },
+   {
+    "level": 29,
+    "move": "SLASH"
+   },
+   {
+    "level": 35,
+    "move": "SWORDS_DANCE"
+   },
+   {
+    "level": 42,
+    "move": "AGILITY"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "JYNX",
+  "id": 72,
+  "dex": 124,
+  "ja": "ルージュラ",
+  "types": [
+   "ICE",
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "POUND",
+   "LOVELY_KISS"
+  ],
+  "learnset": [
+   {
+    "level": 18,
+    "move": "LICK"
+   },
+   {
+    "level": 23,
+    "move": "DOUBLESLAP"
+   },
+   {
+    "level": 31,
+    "move": "ICE_PUNCH"
+   },
+   {
+    "level": 39,
+    "move": "BODY_SLAM"
+   },
+   {
+    "level": 47,
+    "move": "THRASH"
+   },
+   {
+    "level": 58,
+    "move": "BLIZZARD"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "ELECTABUZZ",
+  "id": 53,
+  "dex": 125,
+  "ja": "エレブー",
+  "types": [
+   "ELECTRIC"
+  ],
+  "startMoves": [
+   "QUICK_ATTACK",
+   "LEER"
+  ],
+  "learnset": [
+   {
+    "level": 34,
+    "move": "THUNDERSHOCK"
+   },
+   {
+    "level": 37,
+    "move": "SCREECH"
+   },
+   {
+    "level": 42,
+    "move": "THUNDERPUNCH"
+   },
+   {
+    "level": 49,
+    "move": "LIGHT_SCREEN"
+   },
+   {
+    "level": 54,
+    "move": "THUNDER"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "MAGMAR",
+  "id": 51,
+  "dex": 126,
+  "ja": "ブーバー",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "EMBER"
+  ],
+  "learnset": [
+   {
+    "level": 36,
+    "move": "LEER"
+   },
+   {
+    "level": 39,
+    "move": "CONFUSE_RAY"
+   },
+   {
+    "level": 43,
+    "move": "FIRE_PUNCH"
+   },
+   {
+    "level": 48,
+    "move": "SMOKESCREEN"
+   },
+   {
+    "level": 52,
+    "move": "SMOG"
+   },
+   {
+    "level": 55,
+    "move": "FLAMETHROWER"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "PINSIR",
+  "id": 29,
+  "dex": 127,
+  "ja": "カイロス",
+  "types": [
+   "BUG"
+  ],
+  "startMoves": [
+   "VICEGRIP"
+  ],
+  "learnset": [
+   {
+    "level": 25,
+    "move": "SEISMIC_TOSS"
+   },
+   {
+    "level": 30,
+    "move": "GUILLOTINE"
+   },
+   {
+    "level": 36,
+    "move": "FOCUS_ENERGY"
+   },
+   {
+    "level": 43,
+    "move": "HARDEN"
+   },
+   {
+    "level": 49,
+    "move": "SLASH"
+   },
+   {
+    "level": 54,
+    "move": "SWORDS_DANCE"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "TAUROS",
+  "id": 60,
+  "dex": 128,
+  "ja": "ケンタロス",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "TACKLE"
+  ],
+  "learnset": [
+   {
+    "level": 21,
+    "move": "STOMP"
+   },
+   {
+    "level": 28,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 35,
+    "move": "LEER"
+   },
+   {
+    "level": 44,
+    "move": "RAGE"
+   },
+   {
+    "level": 51,
+    "move": "TAKE_DOWN"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "MAGIKARP",
+  "id": 133,
+  "dex": 129,
+  "ja": "コイキング",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "SPLASH"
+  ],
+  "learnset": [
+   {
+    "level": 15,
+    "move": "TACKLE"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 20,
+    "into": "GYARADOS"
+   }
+  ]
+ },
+ {
+  "const": "GYARADOS",
+  "id": 22,
+  "dex": 130,
+  "ja": "ギャラドス",
+  "types": [
+   "WATER",
+   "FLYING"
+  ],
+  "startMoves": [
+   "BITE",
+   "DRAGON_RAGE",
+   "LEER",
+   "HYDRO_PUMP"
+  ],
+  "learnset": [
+   {
+    "level": 20,
+    "move": "BITE"
+   },
+   {
+    "level": 25,
+    "move": "DRAGON_RAGE"
+   },
+   {
+    "level": 32,
+    "move": "LEER"
+   },
+   {
+    "level": 41,
+    "move": "HYDRO_PUMP"
+   },
+   {
+    "level": 52,
+    "move": "HYPER_BEAM"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "LAPRAS",
+  "id": 19,
+  "dex": 131,
+  "ja": "ラプラス",
+  "types": [
+   "WATER",
+   "ICE"
+  ],
+  "startMoves": [
+   "WATER_GUN",
+   "GROWL"
+  ],
+  "learnset": [
+   {
+    "level": 16,
+    "move": "SING"
+   },
+   {
+    "level": 20,
+    "move": "MIST"
+   },
+   {
+    "level": 25,
+    "move": "BODY_SLAM"
+   },
+   {
+    "level": 31,
+    "move": "CONFUSE_RAY"
+   },
+   {
+    "level": 38,
+    "move": "ICE_BEAM"
+   },
+   {
+    "level": 46,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "DITTO",
+  "id": 76,
+  "dex": 132,
+  "ja": "メタモン",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "TRANSFORM"
+  ],
+  "learnset": [],
+  "evolutions": []
+ },
+ {
+  "const": "EEVEE",
+  "id": 102,
+  "dex": 133,
+  "ja": "イーブイ",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SAND_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 27,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 31,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 37,
+    "move": "BITE"
+   },
+   {
+    "level": 45,
+    "move": "TAKE_DOWN"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "item",
+    "item": "FIRE_STONE",
+    "into": "FLAREON"
+   },
+   {
+    "method": "item",
+    "item": "THUNDER_STONE",
+    "into": "JOLTEON"
+   },
+   {
+    "method": "item",
+    "item": "WATER_STONE",
+    "into": "VAPOREON"
+   }
+  ]
+ },
+ {
+  "const": "VAPOREON",
+  "id": 105,
+  "dex": 134,
+  "ja": "シャワーズ",
+  "types": [
+   "WATER"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SAND_ATTACK",
+   "QUICK_ATTACK",
+   "WATER_GUN"
+  ],
+  "learnset": [
+   {
+    "level": 27,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 31,
+    "move": "WATER_GUN"
+   },
+   {
+    "level": 37,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 40,
+    "move": "BITE"
+   },
+   {
+    "level": 42,
+    "move": "ACID_ARMOR"
+   },
+   {
+    "level": 44,
+    "move": "HAZE"
+   },
+   {
+    "level": 48,
+    "move": "MIST"
+   },
+   {
+    "level": 54,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "JOLTEON",
+  "id": 104,
+  "dex": 135,
+  "ja": "サンダース",
+  "types": [
+   "ELECTRIC"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SAND_ATTACK",
+   "QUICK_ATTACK",
+   "THUNDERSHOCK"
+  ],
+  "learnset": [
+   {
+    "level": 27,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 31,
+    "move": "THUNDERSHOCK"
+   },
+   {
+    "level": 37,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 40,
+    "move": "THUNDER_WAVE"
+   },
+   {
+    "level": 42,
+    "move": "DOUBLE_KICK"
+   },
+   {
+    "level": 44,
+    "move": "AGILITY"
+   },
+   {
+    "level": 48,
+    "move": "PIN_MISSILE"
+   },
+   {
+    "level": 54,
+    "move": "THUNDER"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "FLAREON",
+  "id": 103,
+  "dex": 136,
+  "ja": "ブースター",
+  "types": [
+   "FIRE"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SAND_ATTACK",
+   "QUICK_ATTACK",
+   "EMBER"
+  ],
+  "learnset": [
+   {
+    "level": 27,
+    "move": "QUICK_ATTACK"
+   },
+   {
+    "level": 31,
+    "move": "EMBER"
+   },
+   {
+    "level": 37,
+    "move": "TAIL_WHIP"
+   },
+   {
+    "level": 40,
+    "move": "BITE"
+   },
+   {
+    "level": 42,
+    "move": "LEER"
+   },
+   {
+    "level": 44,
+    "move": "FIRE_SPIN"
+   },
+   {
+    "level": 48,
+    "move": "RAGE"
+   },
+   {
+    "level": 54,
+    "move": "FLAMETHROWER"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "PORYGON",
+  "id": 170,
+  "dex": 137,
+  "ja": "ポリゴン",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "TACKLE",
+   "SHARPEN",
+   "CONVERSION"
+  ],
+  "learnset": [
+   {
+    "level": 23,
+    "move": "PSYBEAM"
+   },
+   {
+    "level": 28,
+    "move": "RECOVER"
+   },
+   {
+    "level": 35,
+    "move": "AGILITY"
+   },
+   {
+    "level": 42,
+    "move": "TRI_ATTACK"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "OMANYTE",
+  "id": 98,
+  "dex": 138,
+  "ja": "オムナイト",
+  "types": [
+   "ROCK",
+   "WATER"
+  ],
+  "startMoves": [
+   "WATER_GUN",
+   "WITHDRAW"
+  ],
+  "learnset": [
+   {
+    "level": 34,
+    "move": "HORN_ATTACK"
+   },
+   {
+    "level": 39,
+    "move": "LEER"
+   },
+   {
+    "level": 46,
+    "move": "SPIKE_CANNON"
+   },
+   {
+    "level": 53,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 40,
+    "into": "OMASTAR"
+   }
+  ]
+ },
+ {
+  "const": "OMASTAR",
+  "id": 99,
+  "dex": 139,
+  "ja": "オムスター",
+  "types": [
+   "ROCK",
+   "WATER"
+  ],
+  "startMoves": [
+   "WATER_GUN",
+   "WITHDRAW",
+   "HORN_ATTACK"
+  ],
+  "learnset": [
+   {
+    "level": 34,
+    "move": "HORN_ATTACK"
+   },
+   {
+    "level": 39,
+    "move": "LEER"
+   },
+   {
+    "level": 44,
+    "move": "SPIKE_CANNON"
+   },
+   {
+    "level": 49,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "KABUTO",
+  "id": 90,
+  "dex": 140,
+  "ja": "カブト",
+  "types": [
+   "ROCK",
+   "WATER"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "HARDEN"
+  ],
+  "learnset": [
+   {
+    "level": 34,
+    "move": "ABSORB"
+   },
+   {
+    "level": 39,
+    "move": "SLASH"
+   },
+   {
+    "level": 44,
+    "move": "LEER"
+   },
+   {
+    "level": 49,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 40,
+    "into": "KABUTOPS"
+   }
+  ]
+ },
+ {
+  "const": "KABUTOPS",
+  "id": 91,
+  "dex": 141,
+  "ja": "カブトプス",
+  "types": [
+   "ROCK",
+   "WATER"
+  ],
+  "startMoves": [
+   "SCRATCH",
+   "HARDEN",
+   "ABSORB"
+  ],
+  "learnset": [
+   {
+    "level": 34,
+    "move": "ABSORB"
+   },
+   {
+    "level": 39,
+    "move": "SLASH"
+   },
+   {
+    "level": 46,
+    "move": "LEER"
+   },
+   {
+    "level": 53,
+    "move": "HYDRO_PUMP"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "AERODACTYL",
+  "id": 171,
+  "dex": 142,
+  "ja": "プテラ",
+  "types": [
+   "ROCK",
+   "FLYING"
+  ],
+  "startMoves": [
+   "WING_ATTACK",
+   "AGILITY"
+  ],
+  "learnset": [
+   {
+    "level": 33,
+    "move": "SUPERSONIC"
+   },
+   {
+    "level": 38,
+    "move": "BITE"
+   },
+   {
+    "level": 45,
+    "move": "TAKE_DOWN"
+   },
+   {
+    "level": 54,
+    "move": "HYPER_BEAM"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "SNORLAX",
+  "id": 132,
+  "dex": 143,
+  "ja": "カビゴン",
+  "types": [
+   "NORMAL"
+  ],
+  "startMoves": [
+   "HEADBUTT",
+   "AMNESIA",
+   "REST"
+  ],
+  "learnset": [
+   {
+    "level": 35,
+    "move": "BODY_SLAM"
+   },
+   {
+    "level": 41,
+    "move": "HARDEN"
+   },
+   {
+    "level": 48,
+    "move": "DOUBLE_EDGE"
+   },
+   {
+    "level": 56,
+    "move": "HYPER_BEAM"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "ARTICUNO",
+  "id": 74,
+  "dex": 144,
+  "ja": "フリーザー",
+  "types": [
+   "ICE",
+   "FLYING"
+  ],
+  "startMoves": [
+   "PECK",
+   "ICE_BEAM"
+  ],
+  "learnset": [
+   {
+    "level": 51,
+    "move": "BLIZZARD"
+   },
+   {
+    "level": 55,
+    "move": "AGILITY"
+   },
+   {
+    "level": 60,
+    "move": "MIST"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "ZAPDOS",
+  "id": 75,
+  "dex": 145,
+  "ja": "サンダー",
+  "types": [
+   "ELECTRIC",
+   "FLYING"
+  ],
+  "startMoves": [
+   "THUNDERSHOCK",
+   "DRILL_PECK"
+  ],
+  "learnset": [
+   {
+    "level": 51,
+    "move": "THUNDER"
+   },
+   {
+    "level": 55,
+    "move": "AGILITY"
+   },
+   {
+    "level": 60,
+    "move": "LIGHT_SCREEN"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "MOLTRES",
+  "id": 73,
+  "dex": 146,
+  "ja": "ファイヤー",
+  "types": [
+   "FIRE",
+   "FLYING"
+  ],
+  "startMoves": [
+   "PECK",
+   "FIRE_SPIN"
+  ],
+  "learnset": [
+   {
+    "level": 51,
+    "move": "LEER"
+   },
+   {
+    "level": 55,
+    "move": "AGILITY"
+   },
+   {
+    "level": 60,
+    "move": "SKY_ATTACK"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "DRATINI",
+  "id": 88,
+  "dex": 147,
+  "ja": "ミニリュウ",
+  "types": [
+   "DRAGON"
+  ],
+  "startMoves": [
+   "WRAP",
+   "LEER"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "THUNDER_WAVE"
+   },
+   {
+    "level": 20,
+    "move": "AGILITY"
+   },
+   {
+    "level": 30,
+    "move": "SLAM"
+   },
+   {
+    "level": 40,
+    "move": "DRAGON_RAGE"
+   },
+   {
+    "level": 50,
+    "move": "HYPER_BEAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 30,
+    "into": "DRAGONAIR"
+   }
+  ]
+ },
+ {
+  "const": "DRAGONAIR",
+  "id": 89,
+  "dex": 148,
+  "ja": "ハクリュー",
+  "types": [
+   "DRAGON"
+  ],
+  "startMoves": [
+   "WRAP",
+   "LEER",
+   "THUNDER_WAVE"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "THUNDER_WAVE"
+   },
+   {
+    "level": 20,
+    "move": "AGILITY"
+   },
+   {
+    "level": 35,
+    "move": "SLAM"
+   },
+   {
+    "level": 45,
+    "move": "DRAGON_RAGE"
+   },
+   {
+    "level": 55,
+    "move": "HYPER_BEAM"
+   }
+  ],
+  "evolutions": [
+   {
+    "method": "level",
+    "level": 55,
+    "into": "DRAGONITE"
+   }
+  ]
+ },
+ {
+  "const": "DRAGONITE",
+  "id": 66,
+  "dex": 149,
+  "ja": "カイリュー",
+  "types": [
+   "DRAGON",
+   "FLYING"
+  ],
+  "startMoves": [
+   "WRAP",
+   "LEER",
+   "THUNDER_WAVE",
+   "AGILITY"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "THUNDER_WAVE"
+   },
+   {
+    "level": 20,
+    "move": "AGILITY"
+   },
+   {
+    "level": 35,
+    "move": "SLAM"
+   },
+   {
+    "level": 45,
+    "move": "DRAGON_RAGE"
+   },
+   {
+    "level": 60,
+    "move": "HYPER_BEAM"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "MEWTWO",
+  "id": 131,
+  "dex": 150,
+  "ja": "ミュウツー",
+  "types": [
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "CONFUSION",
+   "DISABLE",
+   "SWIFT",
+   "PSYCHIC_M"
+  ],
+  "learnset": [
+   {
+    "level": 63,
+    "move": "BARRIER"
+   },
+   {
+    "level": 66,
+    "move": "PSYCHIC_M"
+   },
+   {
+    "level": 70,
+    "move": "RECOVER"
+   },
+   {
+    "level": 75,
+    "move": "MIST"
+   },
+   {
+    "level": 81,
+    "move": "AMNESIA"
+   }
+  ],
+  "evolutions": []
+ },
+ {
+  "const": "MEW",
+  "id": 21,
+  "dex": 151,
+  "ja": "ミュウ",
+  "types": [
+   "PSYCHIC_TYPE"
+  ],
+  "startMoves": [
+   "POUND"
+  ],
+  "learnset": [
+   {
+    "level": 10,
+    "move": "TRANSFORM"
+   },
+   {
+    "level": 20,
+    "move": "MEGA_PUNCH"
+   },
+   {
+    "level": 30,
+    "move": "METRONOME"
+   },
+   {
+    "level": 40,
+    "move": "PSYCHIC_M"
+   }
+  ],
+  "evolutions": []
+ }
+]

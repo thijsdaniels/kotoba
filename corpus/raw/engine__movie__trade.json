@@ -1,0 +1,81 @@
+{
+ "source": "engine/movie/trade.asm",
+ "entries": [
+  {
+   "label": "TradeWentToText",
+   "line": 799,
+   "text": "は　ぶじ"
+  },
+  {
+   "label": "TradeWentToText",
+   "line": 803,
+   "text": "に　ひきとられました",
+   "continuation": true
+  },
+  {
+   "label": "TradeForText",
+   "line": 815,
+   "text": "{player}が"
+  },
+  {
+   "label": "TradeForText",
+   "line": 818,
+   "text": "を　おくったかわりに",
+   "continuation": true
+  },
+  {
+   "label": "TradeSendsText",
+   "line": 822,
+   "text": "は"
+  },
+  {
+   "label": "TradeSendsText",
+   "line": 826,
+   "text": "を　くれます",
+   "continuation": true
+  },
+  {
+   "label": "TradeWavesFarewellText",
+   "line": 839,
+   "text": "が\nなごりを　おしみながら"
+  },
+  {
+   "label": "TradeTransferredText",
+   "line": 845,
+   "text": "を\nおくってきます"
+  },
+  {
+   "label": "TradeTakeCareText",
+   "line": 856,
+   "text": "を\nかわいがってやってください"
+  },
+  {
+   "label": "TradeWillTradeText",
+   "line": 870,
+   "text": "これから"
+  },
+  {
+   "label": "TradeWillTradeText",
+   "line": 873,
+   "text": "の",
+   "continuation": true
+  },
+  {
+   "label": "TradeWillTradeText",
+   "line": 875,
+   "text": "と",
+   "continuation": true
+  },
+  {
+   "label": "TradeforText",
+   "line": 879,
+   "text": "{player}の"
+  },
+  {
+   "label": "TradeforText",
+   "line": 881,
+   "text": "を\nこうかんします！",
+   "continuation": true
+  }
+ ]
+}

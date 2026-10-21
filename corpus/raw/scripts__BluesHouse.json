@@ -1,0 +1,46 @@
+{
+ "source": "scripts/BluesHouse.asm",
+ "entries": [
+  {
+   "label": "BluesHouseDaisyRivalAtLabText",
+   "line": 64,
+   "text": "こんにちは　{player}くん！\nおとうとの　{rival}なら\nおじいちゃんの　けんきゅうじょよ"
+  },
+  {
+   "label": "BluesHouseDaisyOfferMapText",
+   "line": 70,
+   "text": "オーキドの　おじいちゃん\nおしごと　たのんだんだって？\nたいへんねー\nこれ　あげるから　つかって！"
+  },
+  {
+   "label": "GotMapText",
+   "line": 77,
+   "text": "{player}は　おねえさんから"
+  },
+  {
+   "label": "GotMapText",
+   "line": 80,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "BluesHouseDaisyBagFullText",
+   "line": 85,
+   "text": "にもつ　いっぱいよ"
+  },
+  {
+   "label": "BluesHouseDaisyUseMapText",
+   "line": 89,
+   "text": "じぶんの　いる　ばしょや\nまちの　なまえが　しりたいとき\nタウンマップ　つかうと　いいわよ"
+  },
+  {
+   "label": "BluesHouseDaisyWalkingText",
+   "line": 95,
+   "text": "にんげんと　おなじように\nポケモンも　いきてるの！\nたいりょくが　ないときは\nやすませて　あげて！"
+  },
+  {
+   "label": "BluesHouseTownMapText",
+   "line": 102,
+   "text": "カントー　ちほうの　ちずだ！\n……　もらえたら　うれしい？"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "source": "engine/menus/draw_start_menu.asm",
+ "entries": [
+  {
+   "label": "StartMenuPokedexText",
+   "line": 62,
+   "text": "ずかん"
+  },
+  {
+   "label": "StartMenuPokemonText",
+   "line": 65,
+   "text": "ポケモン"
+  },
+  {
+   "label": "StartMenuItemText",
+   "line": 68,
+   "text": "どうぐ"
+  },
+  {
+   "label": "StartMenuSaveText",
+   "line": 71,
+   "text": "レポート"
+  },
+  {
+   "label": "StartMenuResetText",
+   "line": 74,
+   "text": "リセット"
+  },
+  {
+   "label": "StartMenuExitText",
+   "line": 77,
+   "text": "とじる"
+  },
+  {
+   "label": "StartMenuOptionText",
+   "line": 80,
+   "text": "せってい"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "source": "scripts/PewterMart.asm",
+ "entries": [
+  {
+   "label": "PewterMartYoungsterText.Text",
+   "line": 19,
+   "text": "インチキ　くさい　おじさんから\nなんだか　ヘンな　ポケモンを\nかっちゃったよ！\n\nすっげー　よわいの！\n５００円も　したのに……"
+  },
+  {
+   "label": "PewterMartSuperNerdText.Text",
+   "line": 34,
+   "text": "よわい　ポケモンでも\nいっしょうけんめい　そだてれば\nいいこと　あるさ！"
+  }
+ ]
+}

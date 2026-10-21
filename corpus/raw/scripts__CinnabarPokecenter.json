@@ -1,0 +1,15 @@
+{
+ "source": "scripts/CinnabarPokecenter.asm",
+ "entries": [
+  {
+   "label": "CinnabarPokecenterCooltrainerFText",
+   "line": 15,
+   "text": "しんか　キャンセル　つかってる？\n\nしんか　しようと　するのを\nとちゅうで　やめさせて\nそのままの　かたちで\nそだてる　テクニックよ"
+  },
+  {
+   "label": "CinnabarPokecenterGentlemanText",
+   "line": 24,
+   "text": "きみには　ともだちは　いるかな？\n\nともだちと　こうかんして\nもらった　ポケモンは\nとても　はやく　そだつと　いう\n\nためして　みる　かちは\nあると　おもうがね"
+  }
+ ]
+}

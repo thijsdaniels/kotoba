@@ -1,0 +1,10 @@
+{
+ "source": "engine/link/print_waiting_text.asm",
+ "entries": [
+  {
+   "label": "WaitingText",
+   "line": 20,
+   "text": "つうしんたいきちゅう！"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "scripts/Route11Gate2F.asm",
+ "entries": [
+  {
+   "label": "Route11Gate2FOaksAideText.ItemfinderDescriptionText",
+   "line": 45,
+   "text": "めに　みえて　なくても\nべんりな　どうぐが\nあちこちに　おちて　います！\n\nダウジング　マシンで\nちかくに　なにか　おちてるか\nどうかが　わかります！\n\nくわしい　ばしょは\nマシンでも　わかりません！\nちかくを　さがして　みて　ください"
+  },
+  {
+   "label": "Route11Gate2FLeftBinocularsText.SnorlaxText",
+   "line": 72,
+   "text": "ぼうえんきょうを　のぞいた！\n\nどうろに　ポケモンが　ねてる！"
+  },
+  {
+   "label": "Route11Gate2FLeftBinocularsText.NoSnorlaxText",
+   "line": 78,
+   "text": "ぼうえんきょうを　のぞいた！\n\nすばらしい　けしきだ！"
+  },
+  {
+   "label": "Route11Gate2FRightBinocularsText.Text",
+   "line": 89,
+   "text": "ぼうえんきょうを　のぞいた！\n\nシオン　タウンに　いく　には……\nハナダ　シティ　から\nイワヤマを　ぬければ　よさそう……"
+  }
+ ]
+}

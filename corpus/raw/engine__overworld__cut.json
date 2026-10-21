@@ -1,0 +1,15 @@
+{
+ "source": "engine/overworld/cut.asm",
+ "entries": [
+  {
+   "label": "UsedCut",
+   "line": 1,
+   "text": "いあいぎりで\nきれそうな　ものが　ありません！"
+  },
+  {
+   "label": "UsedCutText",
+   "line": 71,
+   "text": "は\nいあいぎりで　きりまくった！"
+  }
+ ]
+}

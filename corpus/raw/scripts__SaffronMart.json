@@ -1,0 +1,15 @@
+{
+ "source": "scripts/SaffronMart.asm",
+ "entries": [
+  {
+   "label": "SaffronMartSuperNerdText",
+   "line": 10,
+   "text": "ゴールドスプレーは\nよわい　ポケモンを　よせ　つけない\nシルバースプレー　より\nながもち　するって"
+  },
+  {
+   "label": "SaffronMartCooltrainerFText",
+   "line": 17,
+   "text": "げんきのかけら　たかい　けど\nせんとうふのうの　ポケモンが\nげんきに　なるの　すごいわ！"
+  }
+ ]
+}

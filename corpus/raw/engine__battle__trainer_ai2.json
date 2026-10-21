@@ -1,0 +1,33 @@
+{
+ "source": "engine/battle/trainer_ai2.asm",
+ "entries": [
+  {
+   "label": "AIBattleWithdrawText",
+   "line": 326,
+   "text": "は"
+  },
+  {
+   "label": "AIBattleWithdrawText",
+   "line": 330,
+   "text": "をひっこめた！",
+   "continuation": true
+  },
+  {
+   "label": "AIBattleUseItemText",
+   "line": 455,
+   "text": "は"
+  },
+  {
+   "label": "AIBattleUseItemText",
+   "line": 458,
+   "text": "に",
+   "continuation": true
+  },
+  {
+   "label": "AIBattleUseItemText",
+   "line": 461,
+   "text": "を　つかった",
+   "continuation": true
+  }
+ ]
+}

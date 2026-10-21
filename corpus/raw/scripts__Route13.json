@@ -1,0 +1,170 @@
+{
+ "source": "scripts/Route13.asm",
+ "entries": [
+  {
+   "label": "Route13CooltrainerM1BattleText",
+   "line": 51,
+   "text": "ぼくの　とりポケが　きみたちと\nたたかい　たがってる！"
+  },
+  {
+   "label": "Route13CooltrainerM1EndBattleText",
+   "line": 56,
+   "text": "ポッポと　ピジョン\nコンビが　まける　なんて"
+  },
+  {
+   "label": "Route13CooltrainerM1AfterBattleText",
+   "line": 61,
+   "text": "まけても　ぼくの　とりポケは\nまんぞく　した　みたい"
+  },
+  {
+   "label": "Route13CooltrainerF1BattleText",
+   "line": 72,
+   "text": "おんなのこに　しては\nすじが　いいって　ほめられるの！"
+  },
+  {
+   "label": "Route13CooltrainerF1EndBattleText",
+   "line": 77,
+   "text": "まけちゃった"
+  },
+  {
+   "label": "Route13CooltrainerF1AfterBattleText",
+   "line": 81,
+   "text": "いつかは\nつよい　トレーナーに　なりたい\nきょうから　また　とっくんよ！"
+  },
+  {
+   "label": "Route13CooltrainerF2BattleText",
+   "line": 93,
+   "text": "あら！\nかっこいい　バッジ　もってるね"
+  },
+  {
+   "label": "Route13CooltrainerF2EndBattleText",
+   "line": 98,
+   "text": "まだまだ　だわ"
+  },
+  {
+   "label": "Route13CooltrainerF2AfterBattleText",
+   "line": 102,
+   "text": "そのバッジ……\nリーダー　から　もらったんでしょ\n……　しってるわよ"
+  },
+  {
+   "label": "Route13CooltrainerF3BattleText",
+   "line": 114,
+   "text": "かわいい　ポケモン　たちに\nごあいさつを　させるわ！"
+  },
+  {
+   "label": "Route13CooltrainerF3EndBattleText",
+   "line": 119,
+   "text": "おみごと！\nわたしの　かんぱいね"
+  },
+  {
+   "label": "Route13CooltrainerF3AfterBattleText",
+   "line": 124,
+   "text": "ポケモンは　こうやって\nどんどん　たたかわせて\nつよく　してかないと！"
+  },
+  {
+   "label": "Route13CooltrainerF4BattleText",
+   "line": 136,
+   "text": "どうくつ　たんけんに　いって\nインドメタシンを　ひろったのよ"
+  },
+  {
+   "label": "Route13CooltrainerF4EndBattleText",
+   "line": 141,
+   "text": "……　ざんねん！\nちょうしが　でなかったわ"
+  },
+  {
+   "label": "Route13CooltrainerF4AfterBattleText",
+   "line": 146,
+   "text": "そう　インドメタシン　あたえたら\nポケモンの　すばやさが　あがったの"
+  },
+  {
+   "label": "Route13CooltrainerM2BattleText",
+   "line": 157,
+   "text": "まけないよ！　かぜは\nぼくの　ほうに　ふいて　いる！"
+  },
+  {
+   "label": "Route13CooltrainerM2EndBattleText",
+   "line": 162,
+   "text": "……　かざむきが\nかわった　みたい　だな"
+  },
+  {
+   "label": "Route13CooltrainerM2AfterBattleText",
+   "line": 167,
+   "text": "たたかう　げんきも　ないや\nとりに　のって　うちに　かえろう"
+  },
+  {
+   "label": "Route13Beauty1BattleText",
+   "line": 178,
+   "text": "あら……　ぼうや\nあいて　して　あげても　いいわよ"
+  },
+  {
+   "label": "Route13Beauty1EndBattleText",
+   "line": 183,
+   "text": "つよい！\nおとこ　らしいわね！"
+  },
+  {
+   "label": "Route13Beauty1AfterBattleText",
+   "line": 188,
+   "text": "ポケモンの　せかい　では\nオス　と　メス\nどちらが　つよいの　かしら"
+  },
+  {
+   "label": "Route13Beauty2BattleText",
+   "line": 200,
+   "text": "わたしと　ポケモン　したいの？"
+  },
+  {
+   "label": "Route13Beauty2EndBattleText",
+   "line": 204,
+   "text": "……　もう\nおわっちゃったのね"
+  },
+  {
+   "label": "Route13Beauty2AfterBattleText",
+   "line": 209,
+   "text": "わたし　ほんとは　ポケモン\nよく　わからないの\nつかう　ポケモンも\nかっこう　だけで　きめちゃうのよ"
+  },
+  {
+   "label": "Route13BikerBattleText",
+   "line": 222,
+   "text": "っだよ！　っせーな！"
+  },
+  {
+   "label": "Route13BikerEndBattleText",
+   "line": 226,
+   "text": "ったくよ！\nっざけんなよ！"
+  },
+  {
+   "label": "Route13BikerAfterBattleText",
+   "line": 231,
+   "text": "っせーな！\nあっち　いけよ！"
+  },
+  {
+   "label": "Route13CooltrainerM3BattleText",
+   "line": 242,
+   "text": "ずーッと　とり　ポケモンに\nこだわって　きた　ぼくです！"
+  },
+  {
+   "label": "Route13CooltrainerM3EndBattleText",
+   "line": 247,
+   "text": "ちから　つきた……"
+  },
+  {
+   "label": "Route13CooltrainerM3AfterBattleText",
+   "line": 251,
+   "text": "あーあ……　ぼくも\nポッポや　ビジョンの　ように\nそらを　とんで　いきたい"
+  },
+  {
+   "label": "Route13TrainerTips1Text",
+   "line": 257,
+   "text": "……　おとくな　けいじばん！\n\nそこ　そこ！\nくいを　はさんで　ひだり　がわ"
+  },
+  {
+   "label": "Route13TrainerTips2Text",
+   "line": 264,
+   "text": "……　おとくな　けいじばん！\n\nどうぐ　ウィンドウで\nセレクト　ボタンを　おすと\nどうぐの　ばしょを\nいれかえる　ことが　できる！"
+  },
+  {
+   "label": "Route13SignText",
+   "line": 273,
+   "text": "ここは　１３ばん　どうろ\nきた　……　サイレンズ　ブリッジ"
+  }
+ ]
+}

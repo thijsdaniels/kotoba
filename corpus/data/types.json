@@ -1,0 +1,82 @@
+[
+ {
+  "id": 0,
+  "const": "NORMAL",
+  "ja": "ノーマル"
+ },
+ {
+  "id": 1,
+  "const": "FIGHTING",
+  "ja": "かくとう"
+ },
+ {
+  "id": 2,
+  "const": "FLYING",
+  "ja": "ひこう"
+ },
+ {
+  "id": 3,
+  "const": "POISON",
+  "ja": "どく"
+ },
+ {
+  "id": 4,
+  "const": "GROUND",
+  "ja": "じめん"
+ },
+ {
+  "id": 5,
+  "const": "ROCK",
+  "ja": "いわ"
+ },
+ {
+  "id": 6,
+  "const": "BIRD",
+  "ja": "とり"
+ },
+ {
+  "id": 7,
+  "const": "BUG",
+  "ja": "むし"
+ },
+ {
+  "id": 8,
+  "const": "GHOST",
+  "ja": "ゴースト"
+ },
+ {
+  "id": 9,
+  "const": "FIRE",
+  "ja": "ほのお"
+ },
+ {
+  "id": 10,
+  "const": "WATER",
+  "ja": "みず"
+ },
+ {
+  "id": 11,
+  "const": "GRASS",
+  "ja": "くさ"
+ },
+ {
+  "id": 12,
+  "const": "ELECTRIC",
+  "ja": "でんき"
+ },
+ {
+  "id": 13,
+  "const": "PSYCHIC_TYPE",
+  "ja": null
+ },
+ {
+  "id": 14,
+  "const": "ICE",
+  "ja": "こおり"
+ },
+ {
+  "id": 15,
+  "const": "DRAGON",
+  "ja": "ドラゴン"
+ }
+]

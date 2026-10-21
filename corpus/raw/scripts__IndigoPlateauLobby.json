@@ -1,0 +1,15 @@
+{
+ "source": "scripts/IndigoPlateauLobby.asm",
+ "entries": [
+  {
+   "label": "IndigoPlateauLobbyGymGuideText",
+   "line": 29,
+   "text": "おーす！\nみらいの　チャンピオン！\n\nポケモン　リーグ　してんのうは\n４にん　つづけて\nしょうぶ　する　ルールだ！\n\nまけたら　ひとりめ　から\nやりなおしに　なるぞ！\nこれが　さいごだ！　がんばれよ！"
+  },
+  {
+   "label": "IndigoPlateauLobbyCooltrainerFText",
+   "line": 42,
+   "text": "このさきは　してんのうと\nひとりずつ　たたかうの！\nもし　かてたら　ドアが　ひらいて\nおくの　へやに　すすめるわ！\nがんばって！"
+  }
+ ]
+}

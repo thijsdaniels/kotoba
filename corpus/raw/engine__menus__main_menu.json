@@ -1,0 +1,60 @@
+{
+ "source": "engine/menus/main_menu.asm",
+ "entries": [
+  {
+   "label": "WhereWouldYouLikeText",
+   "line": 302,
+   "text": "どちらの　へやに\nいきますか？"
+  },
+  {
+   "label": "PleaseWaitText",
+   "line": 307,
+   "text": "それでは　これより\nごあんない　いたします"
+  },
+  {
+   "label": "LinkCanceledText",
+   "line": 312,
+   "text": "つうしんは　キャンセル　されました"
+  },
+  {
+   "label": "ContinueText",
+   "line": 345,
+   "text": "つづきからはじめる"
+  },
+  {
+   "label": "NewGameText",
+   "line": 350,
+   "text": "さいしょからはじめる\nせっていを　かえる"
+  },
+  {
+   "label": "CableClubOptionsText",
+   "line": 354,
+   "text": "トレードセンター\nコロシアム\nやめる"
+  },
+  {
+   "label": "SaveScreenInfoText",
+   "line": 439,
+   "text": "しゅじんこう\nもっているバッジ　　　　こ\nポケモンずかん　　　　ひき\nプレイじかん"
+  },
+  {
+   "label": "TextSpeedOptionText",
+   "line": 589,
+   "text": "はなしの　はやさ\nはやい　　　　ふつう　　　　おそい"
+  },
+  {
+   "label": "BattleAnimationOptionText",
+   "line": 593,
+   "text": "せんとう　アニメーション\nじっくり　みる　　とばして　みる"
+  },
+  {
+   "label": "BattleStyleOptionText",
+   "line": 597,
+   "text": "しあいの　ルール\nいれかえタイプ　　かちぬきタイプ"
+  },
+  {
+   "label": "OptionMenuCancelText",
+   "line": 601,
+   "text": "おわり"
+  }
+ ]
+}

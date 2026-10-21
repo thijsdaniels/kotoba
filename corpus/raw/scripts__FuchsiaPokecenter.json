@@ -1,0 +1,15 @@
+{
+ "source": "scripts/FuchsiaPokecenter.asm",
+ "entries": [
+  {
+   "label": "FuchsiaPokecenterRockerText",
+   "line": 15,
+   "text": "１ぴきだけ　そだてても\nつよい　トレーナーに　なれない\n\nおおくの　ポケモンを\nバランス　よく　そだてるのも\nたいへん　だけどな"
+  },
+  {
+   "label": "FuchsiaPokecenterCooltrainerFText",
+   "line": 24,
+   "text": "トキワの　にしに\nほそい　みちが　ある　でしょう\n\nその　おくに　たってるのが\nすべての　ポケモン　トレーナーを\nまとめる　そしき　ポケモン　リーグよ"
+  }
+ ]
+}

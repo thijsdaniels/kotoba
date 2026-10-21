@@ -1,0 +1,100 @@
+{
+ "source": "scripts/CeladonMartRoof.asm",
+ "entries": [
+  {
+   "label": "CeladonMartRoofLittleGirlGiveHerWhichDrinkText",
+   "line": 137,
+   "text": "どれを　あげますか？"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlYayFreshWaterText",
+   "line": 141,
+   "text": "わーい！\n\nおいしいみず　くれるの？\n\nごちそう　さま！\n\nおれいに　わたしの　たからもの\nこれ　あげるね！"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlReceivedTM13Text",
+   "line": 153,
+   "text": "{player}は　おんなのこ　から"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlReceivedTM13Text",
+   "line": 156,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlReceivedTM13Text",
+   "line": 162,
+   "text": "の　なかは\nれいとうビーム　なの！\n\nたまに　あいてを\nこおらせる　ことが　あるわ",
+   "continuation": true
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlYaySodaPopText",
+   "line": 171,
+   "text": "わーい！\n\nサイコソーダ　くれるの？\n\nごちそうさま！\n\nおれいに　わたしの　たからもの\nこれ　あげるね！"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlReceivedTM48Text",
+   "line": 183,
+   "text": "{player}は　おんなのこから"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlReceivedTM48Text",
+   "line": 186,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlReceivedTM48Text",
+   "line": 192,
+   "text": "の　なかは\nいわなだれ　なの！\n\nたまに　あいてを\nきぜつ　させる　ことが　あるわ",
+   "continuation": true
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlYayLemonadeText",
+   "line": 201,
+   "text": "わーい！\n\nミックスオレ　くれるの？\n\nごちそうさま！\n\nおれいに　わたしの　たからもの\nこれ　あげるね！"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlReceivedTM49Text",
+   "line": 213,
+   "text": "{player}は　おんなのこから\nわざマシン４９を　もらった！"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlReceivedTM49Text",
+   "line": 216,
+   "text": "わざマシン４９の　なかは\nトライアタック　なの！\n\nたまに　あいてを\nまひ　させる　ことが　あるわ",
+   "continuation": true
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlNoRoomText",
+   "line": 227,
+   "text": "にもつ　いっぱいよ！"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlImNotThirstyText",
+   "line": 232,
+   "text": "うーん！\nやっぱり　がまん　する！"
+  },
+  {
+   "label": "CeladonMartRoofSuperNerdText",
+   "line": 269,
+   "text": "ウチの　いもうと　あれでも\nポケモン　トレーナーの　はしくれ！\n\nだけど……\nわがままで　イヤんなっちゃうよ"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlText.ImThirstyText",
+   "line": 299,
+   "text": "えーん……！\nおにいちゃん！\nジュース　のみたいよー！"
+  },
+  {
+   "label": "CeladonMartRoofLittleGirlText.GiveHerADrinkText",
+   "line": 305,
+   "text": "えーん……！\nおにいちゃん！\nジュース　のみたいよー！\n\nのみものを　あげますか？"
+  },
+  {
+   "label": "CeladonMartRoofCurrentFloorSignText",
+   "line": 316,
+   "text": "おくじょう　……　いこいの　ひろば\n……　じどう　はんばいき"
+  }
+ ]
+}

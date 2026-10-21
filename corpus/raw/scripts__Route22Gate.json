@@ -1,0 +1,20 @@
+{
+ "source": "scripts/Route22Gate.asm",
+ "entries": [
+  {
+   "label": "Route22GateGuardNoBoulderbadgeText",
+   "line": 79,
+   "text": "ここから　さきは\nほんとうに　つよい\nポケモントレーナーだけ　とおれます\n\nあなたは　まだ\nグレーバッジを　もって　ませんね！"
+  },
+  {
+   "label": "Route22GateGuardICantLetYouPassText",
+   "line": 93,
+   "text": "きまり　ですから\nとおす　わけには　いきません！"
+  },
+  {
+   "label": "Route22GateGuardGoRightAheadText",
+   "line": 100,
+   "text": "おおーッ！\nそれは　たしかに　グレーバッジ！\nどうぞ　とおって　ください！"
+  }
+ ]
+}

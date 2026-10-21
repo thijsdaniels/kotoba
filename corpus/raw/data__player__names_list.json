@@ -1,0 +1,15 @@
+{
+ "source": "data/player/names_list.asm",
+ "entries": [
+  {
+   "label": "DefaultNamesPlayerList",
+   "line": 3,
+   "text": "じぶんできめる"
+  },
+  {
+   "label": "DefaultNamesRivalList",
+   "line": 11,
+   "text": "じぶんできめる"
+  }
+ ]
+}

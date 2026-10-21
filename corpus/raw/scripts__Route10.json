@@ -1,0 +1,105 @@
+{
+ "source": "scripts/Route10.asm",
+ "entries": [
+  {
+   "label": "Route10SuperNerd1BattleText",
+   "line": 44,
+   "text": "こんな　とこ　まで　くる　とは\nきみも　マニア？　……　じゃ\nぼくの　コレクション　みる？"
+  },
+  {
+   "label": "Route10SuperNerd1EndBattleText",
+   "line": 50,
+   "text": "へーん……！\nくやしく　ないよ！"
+  },
+  {
+   "label": "Route10SuperNerd1AfterBattleText",
+   "line": 55,
+   "text": "うちに　かえれば　もっと\nめずらしい　ポケモン　あるもん"
+  },
+  {
+   "label": "Route10Hiker1BattleText",
+   "line": 66,
+   "text": "はーッ　はっはッ！"
+  },
+  {
+   "label": "Route10Hiker1EndBattleText",
+   "line": 70,
+   "text": "はッ！\nはーッ　ははッ……！　じつは……\nわらい　キノコ　たべて　しまってな"
+  },
+  {
+   "label": "Route10Hiker1AfterBattleText",
+   "line": 76,
+   "text": "はっはッ！\nはーッ　はっ　はッ！\n……　はァ　はァ……"
+  },
+  {
+   "label": "Route10SuperNerd2BattleText",
+   "line": 88,
+   "text": "ねー　ねー！\nおたく　ぼくの　ポケモン　みる？"
+  },
+  {
+   "label": "Route10SuperNerd2EndBattleText",
+   "line": 93,
+   "text": "ああー！\nだいじな　ポケモン　ちゃんが！"
+  },
+  {
+   "label": "Route10SuperNerd2AfterBattleText",
+   "line": 98,
+   "text": "……　ぼく　より\nつよい　ヤツは　キライ　だもん"
+  },
+  {
+   "label": "Route10CooltrainerF1BattleText",
+   "line": 109,
+   "text": "わたしも　たまに\nポケモン　ジムに　いくの！\n……　……　まけちゃう　けどね"
+  },
+  {
+   "label": "Route10CooltrainerF1EndBattleText",
+   "line": 115,
+   "text": "もお……！\nとっくん　したのに"
+  },
+  {
+   "label": "Route10CooltrainerF1AfterBattleText",
+   "line": 120,
+   "text": "ねえ……！\nこんな　やま　みちに\nマニアが　いる　のよ……　みた？"
+  },
+  {
+   "label": "Route10Hiker2BattleText",
+   "line": 132,
+   "text": "すーはー　すーはー！\nやまの　くうきは　うまいッ！"
+  },
+  {
+   "label": "Route10Hiker2EndBattleText",
+   "line": 137,
+   "text": "すーはーッ！\nあー　まけたわい！"
+  },
+  {
+   "label": "Route10Hiker2AfterBattleText",
+   "line": 142,
+   "text": "やまの　くうき\nすい　すぎて　はらが　ふくれた！"
+  },
+  {
+   "label": "Route10CooltrainerF2BattleText",
+   "line": 153,
+   "text": "はァ……！\nやまみち　ひさしぶりに　あるいて\nひんけつ　ぎみ　なの"
+  },
+  {
+   "label": "Route10CooltrainerF2EndBattleText",
+   "line": 159,
+   "text": "……　……　たいちょうが\nわるいから　しかた　ないわ"
+  },
+  {
+   "label": "Route10CooltrainerF2AfterBattleText",
+   "line": 164,
+   "text": "やまの　ポケモンって\nごついの　ばっかり……\nピンクの　はながらの\nポケモンが　いれば　いいのに"
+  },
+  {
+   "label": "Route10RockTunnelSignText",
+   "line": 171,
+   "text": "ここは　イワヤマ　トンネル"
+  },
+  {
+   "label": "Route10PowerPlantSignText",
+   "line": 175,
+   "text": "ここは　むじん　はつでんしょ"
+  }
+ ]
+}

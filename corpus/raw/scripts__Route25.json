@@ -1,0 +1,145 @@
+{
+ "source": "scripts/Route25.asm",
+ "entries": [
+  {
+   "label": "Route25Youngster1BattleText",
+   "line": 76,
+   "text": "この　はやしは　きんじょの\nトレーナーが\nれんしゅうに　くる　ばしょさ！"
+  },
+  {
+   "label": "Route25Youngster1EndBattleText",
+   "line": 82,
+   "text": "なかなか　できるね"
+  },
+  {
+   "label": "Route25Youngster1AfterBattleText",
+   "line": 86,
+   "text": "ポケモンは　１ぴきだけ　つよくても\nにがてな　タイプには　かてない\nたくさん　そだてる　ほうが　いいよ"
+  },
+  {
+   "label": "Route25Youngster2BattleText",
+   "line": 98,
+   "text": "クチバ　みなとの\nサントアンヌ　ごうの　パーティ\nパパと　いったぜ　いいだろー！"
+  },
+  {
+   "label": "Route25Youngster2EndBattleText",
+   "line": 104,
+   "text": "くやしく　ないもん"
+  },
+  {
+   "label": "Route25Youngster2AfterBattleText",
+   "line": 108,
+   "text": "サントアンヌ　ごう　は\nせかいの　トレーナーが\nいっぱい　いたよ"
+  },
+  {
+   "label": "Route25CooltrainerMBattleText",
+   "line": 120,
+   "text": "ぼくは　ボーイスカウト\nかのじょは　ミニスカート！"
+  },
+  {
+   "label": "Route25CooltrainerMEndBattleText",
+   "line": 125,
+   "text": "トホホ……"
+  },
+  {
+   "label": "Route25CooltrainerMAfterBattleText",
+   "line": 129,
+   "text": "ま……　いっか\nかのじょに　なぐさめて　もらおう"
+  },
+  {
+   "label": "Route25CooltrainerF1BattleText",
+   "line": 140,
+   "text": "わたしは　ミニスカート\nかれは　ボーイスカウト！"
+  },
+  {
+   "label": "Route25CooltrainerF1EndBattleText",
+   "line": 145,
+   "text": "ちょうし　わるーい"
+  },
+  {
+   "label": "Route25CooltrainerF1AfterBattleText",
+   "line": 149,
+   "text": "わたしの　かれも\nきみ　くらい　つよいと　いいのに"
+  },
+  {
+   "label": "Route25Youngster3BattleText",
+   "line": 160,
+   "text": "む……！\nきみと　ぼくは　たたかう　よかん"
+  },
+  {
+   "label": "Route25Youngster3EndBattleText",
+   "line": 165,
+   "text": "まけそうな\nよかんが　したよ"
+  },
+  {
+   "label": "Route25Youngster3AfterBattleText",
+   "line": 170,
+   "text": "まきつきや　こんらんを　うけたら\nさっさと　ポケモンを　とりかえる\nさくせんも　いいね"
+  },
+  {
+   "label": "Route25CooltrainerF2BattleText",
+   "line": 182,
+   "text": "ともだちが　かわいい　ポケモン\nいっぱい　もってるの\n……　くやしいわ！"
+  },
+  {
+   "label": "Route25CooltrainerF2EndBattleText",
+   "line": 188,
+   "text": "くやしく　ないもん"
+  },
+  {
+   "label": "Route25CooltrainerF2AfterBattleText",
+   "line": 192,
+   "text": "オツキミやま　から　きたの？\nじゃ　あたし　ピッピ　ほしーい！\nねえ　ちょうだい"
+  },
+  {
+   "label": "Route25Hiker1BattleText",
+   "line": 204,
+   "text": "オツキミ　やま　から\nおりてきた　ばかりだが\nまだまだ　げんき！"
+  },
+  {
+   "label": "Route25Hiker1EndBattleText",
+   "line": 210,
+   "text": "がんばるなあ"
+  },
+  {
+   "label": "Route25Hiker1AfterBattleText",
+   "line": 214,
+   "text": "くそッ\nどうくつの　なかで\nズバットに　かまれちまった"
+  },
+  {
+   "label": "Route25Hiker2BattleText",
+   "line": 226,
+   "text": "みさきに　すんでる\nポケモン　マニアの　コレクション\nみに　いこうと　おもってな！"
+  },
+  {
+   "label": "Route25Hiker2EndBattleText",
+   "line": 232,
+   "text": "やられたなあ"
+  },
+  {
+   "label": "Route25Hiker2AfterBattleText",
+   "line": 236,
+   "text": "マニアという　だけに\nいろいろ　めずらしい　ポケモンを\nもってる　らしい"
+  },
+  {
+   "label": "Route25Hiker3BattleText",
+   "line": 248,
+   "text": "マサキの　いえに　いくのか？\nそのまえに　しょうぶ　しよう！"
+  },
+  {
+   "label": "Route25Hiker3EndBattleText",
+   "line": 253,
+   "text": "やるなあ"
+  },
+  {
+   "label": "Route25Hiker3AfterBattleText",
+   "line": 257,
+   "text": "ハナダ　シティに　かえる　ときは\nしたの　ほどうを　あるくと　はやい"
+  },
+  {
+   "label": "Route25BillSignText",
+   "line": 262,
+   "text": "ここは　みさきの　こや\n……　マサキの　いえ"
+  }
+ ]
+}

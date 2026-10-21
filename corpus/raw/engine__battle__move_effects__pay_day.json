@@ -1,0 +1,10 @@
+{
+ "source": "engine/battle/move_effects/pay_day.asm",
+ "entries": [
+  {
+   "label": "CoinsScatteredText",
+   "line": 43,
+   "text": "こばんが　あたりに　ちらばった！"
+  }
+ ]
+}

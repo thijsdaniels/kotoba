@@ -1,0 +1,26 @@
+{
+ "source": "scripts/Route5Gate.asm",
+ "entries": [
+  {
+   "label": "SaffronGateGuardGeeImThirstyText",
+   "line": 98,
+   "text": "わたし　まじめな　けいびいん\nはー……\nのどが　かわいた！\nおっと　そっちは\nいま　つうこう　きんしだよ"
+  },
+  {
+   "label": "SaffronGateGuardGiveDrinkText",
+   "line": 106,
+   "text": "あ　それは\nおいしそうな　のみもの……\n……　……\nえ？\nぼくに　くれる？\nサンキュー！"
+  },
+  {
+   "label": "SaffronGateGuardGiveDrinkText",
+   "line": 113,
+   "text": "……　……\nゴクゴク……\n……\nゴクゴク……　……\nヤマブキ　シティに\nいく　なら……\n……\n……　……\nとおって　いいよ\nジュースを\nむこうの　ゲートの\nけいびいんにも　わけてあげよう……",
+   "continuation": true
+  },
+  {
+   "label": "SaffronGateGuardThanksForTheDrinkText",
+   "line": 130,
+   "text": "あ……\nこの　あいだは　どーも！"
+  }
+ ]
+}

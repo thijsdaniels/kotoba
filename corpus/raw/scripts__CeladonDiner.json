@@ -1,0 +1,51 @@
+{
+ "source": "scripts/CeladonDiner.asm",
+ "entries": [
+  {
+   "label": "CeladonDinerCookText",
+   "line": 13,
+   "text": "らっしゃい！\n\nじょうれん　ばかりで　わるいね！"
+  },
+  {
+   "label": "CeladonDinerMiddleAgedWomanText",
+   "line": 19,
+   "text": "うちで　かってる　ポケモン……\nたいりょく　ないから　いつも\nデパートで　おくすり　かって　くるの"
+  },
+  {
+   "label": "CeladonDinerMiddleAgedManText",
+   "line": 25,
+   "text": "ひそひそ……　むしゃ　むしゃ……\n……　ゲーム　コーナーの　したに\nちかしつが　ある　らしいね……"
+  },
+  {
+   "label": "CeladonDinerFisherText",
+   "line": 31,
+   "text": "もぐもぐ……！\n\nあそこの　テーブルの　おっさん\nスロットで　おかね　ぜんぶ\nつかっちゃった　らしいよ！"
+  },
+  {
+   "label": "CeladonDinerGymGuideText.ImFlatOutBustedText",
+   "line": 62,
+   "text": "うおう……　わらってくれ！\n\nゲーム　コーナーで　すって\nいちもん　なしに　なっちまった！\n\nもう　スロットは　やらん！\nじみちに　はたらくぞ！\n\n……　というわけで\nこれは　おまえに　やる！"
+  },
+  {
+   "label": "CeladonDinerGymGuideText.ReceivedCoinCaseText",
+   "line": 75,
+   "text": "{player}は　おっさん　から"
+  },
+  {
+   "label": "CeladonDinerGymGuideText.ReceivedCoinCaseText",
+   "line": 78,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "CeladonDinerGymGuideText.CoinCaseNoRoomText",
+   "line": 83,
+   "text": "にもつが　いっぱい　だぜ"
+  },
+  {
+   "label": "CeladonDinerGymGuideText.WinItBackText",
+   "line": 87,
+   "text": "あーあ！\nいつか　かならず　かてる！\nと　おもったのに　この　ざまだ……！"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "source": "scripts/PokemonTower2F.asm",
+ "entries": [
+  {
+   "label": "PokemonTower2FRivalText.WhatBringsYouHereText",
+   "line": 176,
+   "text": "おう！　{player}！\nこんな　ところへ\nなにしに　きたんだよ？\nおまえの　ポケモン　しんだのか？\n……あほか！　いきてる　じゃん\n\nだったら　せめて\nせんとう　ふのうに　してやるか！\nかかって　こいよ！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "PokemonTower2FRivalText.DefeatedText",
+   "line": 188,
+   "text": "あ！　ちくしょう！\nやりやがったなー！\n\nせっかく　てかげん　してやったのに"
+  },
+  {
+   "label": "PokemonTower2FRivalText.VictoryText",
+   "line": 195,
+   "text": "あーあ……！\nほんとに　くたばっちまったぞ！\nよわいなー！\nもっと　ちゃんと　そだてて　やれよ",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "PokemonTower2FRivalText.HowsYourDexText",
+   "line": 202,
+   "text": "おい　ところで……！\nポケモンずかんは　どうだよ？\nおれなんか　カラカラ\nみつけた　もんね！\n\nおっきい　ほうの　ガラガラが\nみつからねえんだ！\nどこかなー？\n\nああー　きっと\nもう　このへんには　いないな！\nじゃ　おれ　もう　いくわ！\nおまえと　ちがって\nおれ　いそがしいからよ！\n\nじゃーな！"
+  },
+  {
+   "label": "PokemonTower2FChannelerText",
+   "line": 221,
+   "text": "おぬし！　まよい　さまよう\nゆうれいの　しょうたいは……\nわれわれでも　つかめない！\n\nもし　とくべつな　どうぐが……\nシルフ　スコープさえ　あれば\nみやぶれるかも　しれないが……"
+  }
+ ]
+}

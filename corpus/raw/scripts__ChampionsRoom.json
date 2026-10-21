@@ -1,0 +1,56 @@
+{
+ "source": "scripts/ChampionsRoom.asm",
+ "entries": [
+  {
+   "label": "ChampionsRoomRivalText.IntroText",
+   "line": 261,
+   "text": "よおーッ！　{player}！\n{player}も　きたか！\n……　はッはッ　うれしいぜ！\n\nライバルの　おまえが　よわいと\nはりあい　ないからな！\n\nおれは　ずかん　あつめ　ながら\nかんぺきな　ポケモンを　さがした！\n\nいろんな　タイプの　ポケモンに\nかち　まくる　ような\nコンビネーションを　さがした！\n\n……　そして　いま！\n\nおれは　ポケモン　リーグの\nちょうてんに　いる！\n\n{player}！\nこの　いみが　わかるか？\n\n……　……　……\n……　わかった！　おしえてやる！\n\nこの　おれさまが！\nせかいで　いちばん！\nつよいって　こと　なんだよ！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "RivalDefeatedText",
+   "line": 292,
+   "text": "……　ばかな！\nほんとに　おわったのか！\nぜんりょくを　かけたのに　まけた！\n\nせっかく　ポケモン　リーグの\nちょうてんに　たったのに　よう！\n\nもう……！\nおれさまの　てんかは　おわりかよ！\n……　そりゃ　ないぜ！"
+  },
+  {
+   "label": "RivalVictoryText",
+   "line": 305,
+   "text": "はーはッ！\nかった！　かった！　かった！\n\n{player}に　まける　ような\nおれさま　では　なーい！\n\nま！　ポケモンの\nてんさい　{rival}さま　あいてに\nここまで　よく　がんばった！\n\nほめて　つかわす！\nはーッ！　はーはッはッ！"
+  },
+  {
+   "label": "ChampionsRoomRivalAfterBattleText",
+   "line": 320,
+   "text": "なぜ……\nなぜ　まけてしまったんだ……\n\nおれの　そだてかた……\nまちがってなんか　いないはずなのに\n\nしょうが　ないぜ……\nおまえが　ポケモン　リーグ\nしん　チャンピオンだ……！\n\n……　……　……\n……　みとめたく　ねーけど"
+  },
+  {
+   "label": "ChampionsRoomOakText",
+   "line": 335,
+   "text": "{player}！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "ChampionsRoomOakCongratulatesPlayerText.Text",
+   "line": 348,
+   "text": "とうとう　かったな！\nポケモン　リーグ　せいは！\nこころ　から　おめでとう！\n\nはじめて",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "ChampionsRoomOakCongratulatesPlayerText.Text",
+   "line": 354,
+   "text": "を　もらって\nポケモン　ずかん　あつめに\nでかけた　ころと　くらべると\nたくましく　なったな！\n\n……　いやいや！\n{player}は　おとなに　なった！",
+   "continuation": true
+  },
+  {
+   "label": "ChampionsRoomOakDisappointedWithRivalText",
+   "line": 364,
+   "text": "{rival}……！\n……　ざんねんだ！\n\nおまえが　してんのうに　かったと\nきいて　ここに　とんで　きたのに\n\nポケモン　リーグに　ついて　みたら\nおまえは　まけとった！\n\n{rival}よ……！\nなぜ　まけたのか　わかるか？\n……　……　……\n\nおまえが　ポケモン　たちへの\nしんらいと　あいじょうを\nわすれとる　からだ！\n\nそれでは　どんなに　がんばっても\nトップ　には　たてんぞ！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "ChampionsRoomOakComeWithMeText",
+   "line": 386,
+   "text": "{player}！\n\nポケモン　リーグを　せいは　したのは\nひとりの　ちから　では　ないことを\n……　おまえは　わかっとるな！\n\n{player}と　ポケモンの\nぜつみょうな　コンビネーション！\nみごと　だったぞ！\n\nそれでは……　{player}！\nわたしに　ついて　きなさい！",
+   "speaker": "オーキド"
+  }
+ ]
+}

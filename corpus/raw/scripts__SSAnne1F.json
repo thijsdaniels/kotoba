@@ -1,0 +1,15 @@
+{
+ "source": "scripts/SSAnne1F.asm",
+ "entries": [
+  {
+   "label": "SSAnne1FWaiterText",
+   "line": 10,
+   "text": "ボン　ジュール！\nわたしは　このふねの　ボーイです\n\nごようを　なんなりと\nおもうしつけ　ください！\n\n……　……　……\n……　むくちな　かた　ですね"
+  },
+  {
+   "label": "SSAnne1FSailorText",
+   "line": 21,
+   "text": "この　ふねの　おきゃくは\nながたびに　たいくつ　してる！\n\nひま　つぶしに　たたかいを\nいどんで　くる　ひとも　いるかも"
+  }
+ ]
+}

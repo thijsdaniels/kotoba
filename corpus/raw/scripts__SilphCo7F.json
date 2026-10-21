@@ -1,0 +1,149 @@
+{
+ "source": "scripts/SilphCo7F.asm",
+ "entries": [
+  {
+   "label": "SilphCo7FSilphWorkerM1Text",
+   "line": 291,
+   "text": "あ……　ひとだ！\nロケットだん　じゃ　ないね\nきみ……\nたすけに　きてくれたのか！\nおお　ありがとう！\n\nそうだ！\nたすけに　きて　くれた　きみに\nこの　ポケモンを　わたそう！"
+  },
+  {
+   "label": "SilphCo7FSilphWorkerM1Text",
+   "line": 333,
+   "text": "こいつは　ラプラスと　いって\nとても　あたまのいい　ポケモンだ！\n\nシルフの　けんきゅうしつで\nかっていたが……\nここに　いる　よりは\nずっと　いい　はずだ！\n\nきみなら　かわいがって　くれそうだし\nラプラスも　よろこぶ　だろう！\n\nおよぎが　とくい　だから\nうえに　のって\nうみを　すすんでも　いいぞ！",
+   "continuation": true
+  },
+  {
+   "label": "SilphCo7FSilphWorkerM1Text",
+   "line": 350,
+   "text": "さっき　ロケットだんの　ボスが\nしゃちょうしつに　あがってったが\n……　しゃちょうが　しんぱいだ！",
+   "continuation": true
+  },
+  {
+   "label": "SilphCo7FSilphWorkerM1Text",
+   "line": 356,
+   "text": "たすかったよ　ありがと！",
+   "continuation": true
+  },
+  {
+   "label": "SilphCo7FSilphWorkerM2Text",
+   "line": 362,
+   "text": "ロケットだんの　ねらいは\nポケモンが　かならず　とれる\nモンスターボール！\n……　マスターボール　だろう"
+  },
+  {
+   "label": "SilphCo7FSilphWorkerM2Text",
+   "line": 380,
+   "text": "じけんの　せいで……\nマスターボールは\nはつばい　ちゅうしに　なったよ",
+   "continuation": true
+  },
+  {
+   "label": "SilphCo7FSilphWorkerM3Text",
+   "line": 388,
+   "text": "シルフも　ポケモンも……\nロケットだんの　いいなりに\nなったら　やだなあ"
+  },
+  {
+   "label": "SilphCo7FSilphWorkerM3Text",
+   "line": 405,
+   "text": "すごいなあ！\nロケットだんの　れんちゅうを\nおっぱらったんだって？",
+   "continuation": true
+  },
+  {
+   "label": "SilphCo7FSilphWorkerM4Text",
+   "line": 413,
+   "text": "あなた……！\nここは　あぶないわよ！\nたすけに　きた？\n……　だめよ"
+  },
+  {
+   "label": "SilphCo7FSilphWorkerM4Text",
+   "line": 431,
+   "text": "たすかったわ　ありがと！",
+   "continuation": true
+  },
+  {
+   "label": "SilphCo7FRocket1BattleText",
+   "line": 443,
+   "text": "おっとー！\nこねずみを　みつけたぞ！"
+  },
+  {
+   "label": "SilphCo7FRocket1EndBattleText",
+   "line": 448,
+   "text": "がっくしだ！"
+  },
+  {
+   "label": "SilphCo7FRocket1AfterBattleText",
+   "line": 452,
+   "text": "ちょろちょろ　してる　だけじゃ\nボスには　たどり　つけないぜ"
+  },
+  {
+   "label": "SilphCo7FScientistBattleText",
+   "line": 463,
+   "text": "ふひゃひゃ！\n\nシルフの　しゃいんだと\nおもったかい？"
+  },
+  {
+   "label": "SilphCo7FScientistEndBattleText",
+   "line": 470,
+   "text": "もう　ポケモン　ない"
+  },
+  {
+   "label": "SilphCo7FScientistAfterBattleText",
+   "line": 474,
+   "text": "こども　なのに……\nなかなかの　つかいて　だな"
+  },
+  {
+   "label": "SilphCo7FRocket2BattleText",
+   "line": 485,
+   "text": "おれこそは\nロケット　４きょうだいの　ひとり！"
+  },
+  {
+   "label": "SilphCo7FRocket2EndBattleText",
+   "line": 490,
+   "text": "にいさん　まけたよ！"
+  },
+  {
+   "label": "SilphCo7FRocket2AfterBattleText",
+   "line": 494,
+   "text": "まあ　いい\nあにきが　かたきを　とって　くれる"
+  },
+  {
+   "label": "SilphCo7FRocket3BattleText",
+   "line": 505,
+   "text": "シルフに　しんにゅうした　こども\n……　おまえの　こと　だな！"
+  },
+  {
+   "label": "SilphCo7FRocket3EndBattleText",
+   "line": 510,
+   "text": "まけました！"
+  },
+  {
+   "label": "SilphCo7FRocket3AfterBattleText",
+   "line": 514,
+   "text": "ボスが　おこる　まえに\nかえって　ねた　ほうが　いいぞ"
+  },
+  {
+   "label": "SilphCo7FRivalText.Text",
+   "line": 525,
+   "text": "まってたぜ　{player}！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "SilphCo7FRivalWaitedHereText",
+   "line": 529,
+   "text": "ひゃはは！\nここで　まってれば\nくるんじゃねえかと　おもったのさ\n\nしかし　ロケットだん　あいてに\nてこずってる　みたいだな！\nま……　おれさまには\nかんけいの　ないこと　だけど！\n\nヤマブキ　シティで　{player}が\nあるいてんのを　ちょこっと\nみかけた　もの　だからさ\n\nすこしは……　つよくなったのか\nなあーんちゃって　おもってさあ！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "SilphCo7FRivalDefeatedText",
+   "line": 547,
+   "text": "おう　おうッ！\nロケットだんの　ボスに\nいどむだけの　ことは　あるじゃん！"
+  },
+  {
+   "label": "SilphCo7FRivalVictoryText",
+   "line": 553,
+   "text": "おまえなあ……\n\nこんな　うでまえじゃ\nまだまだ……\nいちにんまえ　とは　いえないぜ",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "SilphCo7FRivalGoodLuckToYouText",
+   "line": 561,
+   "text": "ほんじゃま　{player}！\n\nおれさまは\nひとあし　さきに　いくぜ！\n\nポケモンずかん　やってる　うちに\nどういう　ポケモンが　つよい　とか\nなにに　しんか　するか　とか\nわかって　きちゃったんだよねえ！\nおれって　てんさい？\n\nま……　そういう　ことで\nこれからは\nポケモン　リーグの　してんのうを\nばっさ　ばっさと　たおして\n\nさいきょうの　トレーナーに\nなってやろう　と　きめたのさ！\n\n{player}も\nせいぜい　がんばって　くれい\nじゃあな！\nバイビー！"
+  }
+ ]
+}

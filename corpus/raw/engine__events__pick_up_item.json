@@ -1,0 +1,21 @@
+{
+ "source": "engine/events/pick_up_item.asm",
+ "entries": [
+  {
+   "label": "FoundItemText",
+   "line": 47,
+   "text": "{player}は"
+  },
+  {
+   "label": "FoundItemText",
+   "line": 50,
+   "text": "を　みつけた！",
+   "continuation": true
+  },
+  {
+   "label": "NoMoreRoomForItemText",
+   "line": 55,
+   "text": "もちものが　いっぱい！"
+  }
+ ]
+}

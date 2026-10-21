@@ -1,0 +1,25 @@
+{
+ "source": "scripts/UndergroundPathRoute7Copy.asm",
+ "entries": [
+  {
+   "label": "UndergroundPathRoute7CopyUnusedGirlText",
+   "line": 11,
+   "text": "「たまむし」シティの　デパートへ\nかいものに　いきたいんだけど……\n\nあのまちには　ガラのわるい　ひとが\nおおくて　なんだか　こわいのよね"
+  },
+  {
+   "label": "UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText",
+   "line": 19,
+   "text": "「たまむし」シティに\n「ロケットだん」のアジトが\nあったんですって？"
+  },
+  {
+   "label": "UndergroundPathRoute7CopyUnusedMiddleAgedManText",
+   "line": 25,
+   "text": "おまえも　「たまむし」シティに\nかいものに　きたんだな\n\nドアから　でて\nすぐ　にしがわのまちが　そうだよ"
+  },
+  {
+   "label": "UndergroundPathRoute7CopyUnusedGoesUnderSaffronText",
+   "line": 33,
+   "text": "かいだんの　したにある　つうろは\n「やまぶき」の　したを　とおって\n「しおん」へ　つながっているんだ\n\n「はなだ」へ　いきたいんなら\n\nみちを　はさんで　むかいがわに\nたってる　たてものに　いきなよ"
+  }
+ ]
+}

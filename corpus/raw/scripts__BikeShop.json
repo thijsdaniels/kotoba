@@ -1,0 +1,65 @@
+{
+ "source": "scripts/BikeShop.asm",
+ "entries": [
+  {
+   "label": "BikeShopMenuText",
+   "line": 79,
+   "text": "じてんしゃ　１００００００円\nかわない"
+  },
+  {
+   "label": "BikeShopClerkWelcomeText",
+   "line": 83,
+   "text": "はい　はい！　いらっしゃい！\nここは　ミラクル　じてんしゃや！\n\nほりだしもの　あるよー！\nかってくー？"
+  },
+  {
+   "label": "BikeShopClerkDoYouLikeItText",
+   "line": 91,
+   "text": "かっこいい　じてんしゃ　あるけど\nかって　いかない？"
+  },
+  {
+   "label": "BikeShopCantAffordText",
+   "line": 96,
+   "text": "おきゃくさん！\nおかねが　たりませんなー！"
+  },
+  {
+   "label": "BikeShopClerkOhThatsAVoucherText",
+   "line": 101,
+   "text": "あー　それは……！\n\nじてんしゃ　ひきかえけん！\n\n……わかりました！\nささっ　これを　どうぞ！"
+  },
+  {
+   "label": "BikeShopExchangedVoucherText",
+   "line": 110,
+   "text": "{player}は　ひきかえけんで\nじてんしゃを　もらった！"
+  },
+  {
+   "label": "BikeShopComeAgainText",
+   "line": 116,
+   "text": "また　よろしく！\nありがとう　ございました！"
+  },
+  {
+   "label": "BikeShopClerkHowDoYouLikeYourBicycleText",
+   "line": 121,
+   "text": "やあ　こんちは！　じてんしゃの\nのりごこちは　いかが　です？\n\nあの　じてんしゃ　なら\nサイクリング　ロードは　もちろん\nどうくつ　だって　はしれちゃうよ！"
+  },
+  {
+   "label": "BikeShopBagFullText",
+   "line": 130,
+   "text": "じてんしゃを　もっていけないよ"
+  },
+  {
+   "label": "BikeShopMiddleAgedWomanText.Text",
+   "line": 140,
+   "text": "うーん……！\nやっぱり　ママチャリ　かしら？\n\nマウンテン　バイクに\nかいものカゴ　にあわない　もん"
+  },
+  {
+   "label": "BikeShopYoungsterText.TheseBikesAreExpensiveText",
+   "line": 158,
+   "text": "この　みせの　じてんしゃ\nものは　いいけど　たかいよ！\nぼくには　かえないね"
+  },
+  {
+   "label": "BikeShopYoungsterText.CoolBikeText",
+   "line": 164,
+   "text": "きみの　じてんしゃ　かっこいい\nうらやましいなあ"
+  }
+ ]
+}

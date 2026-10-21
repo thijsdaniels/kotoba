@@ -1,0 +1,31 @@
+{
+ "source": "scripts/CinnabarLabFossilRoom.asm",
+ "entries": [
+  {
+   "label": "CinnabarLabFossilRoomScientist1Text.Text",
+   "line": 85,
+   "text": "はいー！\n\nわたしは　エラーイ　はかせ\n\nいつも　めずらしい　カセキ\nけんきゅう　してる　アルよ！\n\nあなた！\nいい　カセキ　もってるか？"
+  },
+  {
+   "label": "CinnabarLabFossilRoomScientist1Text.NoFossilsText",
+   "line": 97,
+   "text": "もってない　アルね……"
+  },
+  {
+   "label": "CinnabarLabFossilRoomScientist1Text.GoForAWalkText",
+   "line": 101,
+   "text": "ちょっと　じかん　かかるよ！\n\nそこらへんを　すこし\nブラブラ　してくると　よろしー！"
+  },
+  {
+   "label": "CinnabarLabFossilRoomScientist1Text.FossilIsBackToLifeText",
+   "line": 108,
+   "text": "おそいねー！\n\nもう　カセキ　いきかえったよー！\n\nやっぱり　カセキは"
+  },
+  {
+   "label": "CinnabarLabFossilRoomScientist1Text.FossilIsBackToLifeText",
+   "line": 115,
+   "text": "だった　アルね！",
+   "continuation": true
+  }
+ ]
+}

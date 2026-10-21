@@ -1,0 +1,92 @@
+{
+ "source": "engine/battle/common_text.asm",
+ "entries": [
+  {
+   "label": "WildMonAppearedText",
+   "line": 73,
+   "text": "あ！　やせいの"
+  },
+  {
+   "label": "WildMonAppearedText",
+   "line": 76,
+   "text": "が　とびだしてきた！",
+   "continuation": true
+  },
+  {
+   "label": "HookedMonAttackedText",
+   "line": 80,
+   "text": "つりあげた"
+  },
+  {
+   "label": "HookedMonAttackedText",
+   "line": 82,
+   "text": "が\nとびかかってきた！",
+   "continuation": true
+  },
+  {
+   "label": "EnemyAppearedText",
+   "line": 87,
+   "text": "が\nあらわれた！"
+  },
+  {
+   "label": "TrainerWantsToFightText",
+   "line": 93,
+   "text": "が\nしょうぶを　しかけてきた！"
+  },
+  {
+   "label": "UnveiledGhostText",
+   "line": 99,
+   "text": "シルフスコープが　ゆうれいの\nしょうたいを　みやぶった！"
+  },
+  {
+   "label": "GhostCantBeIDdText",
+   "line": 104,
+   "text": "だめだ！　ゆうれい　ポケモンの\nしょうたいが　わからない！"
+  },
+  {
+   "label": "GoText",
+   "line": 152,
+   "text": "ゆけっ！"
+  },
+  {
+   "label": "DoItText",
+   "line": 157,
+   "text": "いってこい！"
+  },
+  {
+   "label": "GetmText",
+   "line": 162,
+   "text": "がんばれ！"
+  },
+  {
+   "label": "EnemysWeakText",
+   "line": 167,
+   "text": "あいてが　よわっている！\nチャンスだ！"
+  },
+  {
+   "label": "PlayerMon1Text",
+   "line": 176,
+   "text": "！"
+  },
+  {
+   "label": "EnoughText",
+   "line": 237,
+   "text": "もういい！"
+  },
+  {
+   "label": "OKExclamationText",
+   "line": 242,
+   "text": "いいぞ！"
+  },
+  {
+   "label": "GoodText",
+   "line": 247,
+   "text": "よくやった！"
+  },
+  {
+   "label": "ComeBackText",
+   "line": 256,
+   "text": "もどれ！"
+  }
+ ]
+}

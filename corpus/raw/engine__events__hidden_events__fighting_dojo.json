@@ -1,0 +1,20 @@
+{
+ "source": "engine/events/hidden_events/fighting_dojo.asm",
+ "entries": [
+  {
+   "label": "EnemiesOnEverySideText",
+   "line": 5,
+   "text": "しめん　そか"
+  },
+  {
+   "label": "WhatGoesAroundComesAroundText",
+   "line": 13,
+   "text": "いんが　おうほう"
+  },
+  {
+   "label": "FightingDojoText",
+   "line": 21,
+   "text": "かくとう　どうじょう！"
+  }
+ ]
+}

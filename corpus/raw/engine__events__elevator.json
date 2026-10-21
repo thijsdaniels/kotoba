@@ -1,0 +1,10 @@
+{
+ "source": "engine/events/elevator.asm",
+ "entries": [
+  {
+   "label": "WhichFloorText",
+   "line": 46,
+   "text": "なんかいへ　いきますか？"
+  }
+ ]
+}

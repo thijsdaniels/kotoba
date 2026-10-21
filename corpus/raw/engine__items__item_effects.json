@@ -1,0 +1,297 @@
+{
+ "source": "engine/items/item_effects.asm",
+ "entries": [
+  {
+   "label": "ItemUseBallText00",
+   "line": 582,
+   "text": "よけられた！\nこいつは　つかまりそうにないぞ！"
+  },
+  {
+   "label": "ItemUseBallText01",
+   "line": 589,
+   "text": "ポケモンに\nうまく　あたらなかった！"
+  },
+  {
+   "label": "ItemUseBallText02",
+   "line": 595,
+   "text": "ざんねん！　ポケモンが\nボールから　でてしまった！"
+  },
+  {
+   "label": "ItemUseBallText03",
+   "line": 601,
+   "text": "ああ！\nつかまえたと　おもったのに！"
+  },
+  {
+   "label": "ItemUseBallText04",
+   "line": 607,
+   "text": "おしい！\nあと　ちょっとの　ところだったのに！"
+  },
+  {
+   "label": "ItemUseBallText05",
+   "line": 613,
+   "text": "やったー！"
+  },
+  {
+   "label": "ItemUseBallText05",
+   "line": 618,
+   "text": "を　つかまえたぞ！",
+   "continuation": true
+  },
+  {
+   "label": "ItemUseBallText07",
+   "line": 624,
+   "text": "は　マサキの　ところへ\nてんそうされた！"
+  },
+  {
+   "label": "ItemUseBallText08",
+   "line": 631,
+   "text": "は　だれかの　パソコンに\nてんそうされた！"
+  },
+  {
+   "label": "ItemUseBallText06",
+   "line": 638,
+   "text": "の　データが　あたらしく\nポケモンずかんに　セーブされます！"
+  },
+  {
+   "label": "SurfingGotOnText",
+   "line": 758,
+   "text": "{player}は"
+  },
+  {
+   "label": "SurfingGotOnText",
+   "line": 760,
+   "text": "にのった！",
+   "continuation": true
+  },
+  {
+   "label": "SurfingNoPlaceToGetOffText",
+   "line": 764,
+   "text": "おりる　ばしょが　ない！"
+  },
+  {
+   "label": "VitaminStatRoseText",
+   "line": 1408,
+   "text": "の"
+  },
+  {
+   "label": "VitaminStatRoseText",
+   "line": 1411,
+   "text": "の\nきそ　ポイントが　あがった！",
+   "continuation": true
+  },
+  {
+   "label": "VitaminNoEffectText",
+   "line": 1416,
+   "text": "つかっても　こうかが　ないよ"
+  },
+  {
+   "label": "ThrewBaitText",
+   "line": 1475,
+   "text": "{player}は　エサを　なげた！"
+  },
+  {
+   "label": "ThrewRockText",
+   "line": 1479,
+   "text": "{player}は　いしを　なげた！"
+  },
+  {
+   "label": "PlayedFluteNoEffectText",
+   "line": 1778,
+   "text": "ポケモンのふえを　ふいた！\n\nうーん！\nすばらしい　ねいろだ！"
+  },
+  {
+   "label": "FluteWokeUpText",
+   "line": 1785,
+   "text": "すべての　ポケモンが\nめを　さました！"
+  },
+  {
+   "label": "PlayedFluteHadEffectText",
+   "line": 1790,
+   "text": "{player}は\nポケモンのふえを　ふいてみた！"
+  },
+  {
+   "label": "CoinCaseNumCoinsText",
+   "line": 1819,
+   "text": "あなたの　コイン"
+  },
+  {
+   "label": "CoinCaseNumCoinsText",
+   "line": 1822,
+   "text": "まい",
+   "continuation": true
+  },
+  {
+   "label": "ItemfinderFoundItemText",
+   "line": 1941,
+   "text": "おッ！\nマシンが　はんのう　してるぞ！\nちかくに　アイテムが　うまってる！"
+  },
+  {
+   "label": "ItemfinderFoundNothingText",
+   "line": 1947,
+   "text": "……　……　ふう！\n……　なんにも　はんのう　しない"
+  },
+  {
+   "label": "RaisePPWhichTechniqueText",
+   "line": 2129,
+   "text": "どのわざの\nポイントをふやす？"
+  },
+  {
+   "label": "RestorePPWhichTechniqueText",
+   "line": 2134,
+   "text": "どのわざを\nかいふくする？"
+  },
+  {
+   "label": "PPMaxedOutText",
+   "line": 2139,
+   "text": "は　これいじょう\nふやすことが　できません"
+  },
+  {
+   "label": "PPIncreasedText",
+   "line": 2145,
+   "text": "の\nわざポイントが　ふえた！"
+  },
+  {
+   "label": "PPRestoredText",
+   "line": 2151,
+   "text": "わざポイントが\nかいふくした！"
+  },
+  {
+   "label": "BootedUpTMText",
+   "line": 2257,
+   "text": "わざマシンを　きどうした！"
+  },
+  {
+   "label": "BootedUpHMText",
+   "line": 2261,
+   "text": "ひでんマシンを　きどうした！"
+  },
+  {
+   "label": "TeachMachineMoveText",
+   "line": 2265,
+   "text": "なかには"
+  },
+  {
+   "label": "TeachMachineMoveText",
+   "line": 2267,
+   "text": "が\nきろくされていた！",
+   "continuation": true
+  },
+  {
+   "label": "TeachMachineMoveText",
+   "line": 2272,
+   "text": "を\nポケモンに　おぼえさせますか？",
+   "continuation": true
+  },
+  {
+   "label": "MonCannotLearnMachineMoveText",
+   "line": 2277,
+   "text": "と"
+  },
+  {
+   "label": "MonCannotLearnMachineMoveText",
+   "line": 2280,
+   "text": "は\nあいしょうが　わるかった！",
+   "continuation": true
+  },
+  {
+   "label": "MonCannotLearnMachineMoveText",
+   "line": 2285,
+   "text": "は　おぼえられない！",
+   "continuation": true
+  },
+  {
+   "label": "ItemUseNotTimeText",
+   "line": 2343,
+   "text": "オーキドの　ことば……\n{player}よ！　こういうものには\nつかいどきが　あるのじゃ！"
+  },
+  {
+   "label": "ItemUseNotYoursToUseText",
+   "line": 2349,
+   "text": "たいせつな　あずかりものです！\nつかうことは　できません！"
+  },
+  {
+   "label": "ItemUseNoEffectText",
+   "line": 2354,
+   "text": "つかっても　こうかがないよ"
+  },
+  {
+   "label": "ThrowBallAtTrainerMonText1",
+   "line": 2358,
+   "text": "トレーナーに　ボールを　はじかれた！"
+  },
+  {
+   "label": "ThrowBallAtTrainerMonText2",
+   "line": 2362,
+   "text": "ひとの　ものを　とったら　どろぼう！"
+  },
+  {
+   "label": "NoCyclingAllowedHereText",
+   "line": 2366,
+   "text": "ここでは　じてんしゃに\nのることは　できません"
+  },
+  {
+   "label": "NoSurfingHereText",
+   "line": 2371,
+   "text": "ここでは"
+  },
+  {
+   "label": "NoSurfingHereText",
+   "line": 2373,
+   "text": "に\nのることは　できません",
+   "continuation": true
+  },
+  {
+   "label": "BoxFullCannotThrowBallText",
+   "line": 2378,
+   "text": "ボックスに　あずけている　ポケモンが\nいっぱいなので　つかえません！"
+  },
+  {
+   "label": "ItemUseText00",
+   "line": 2383,
+   "text": "{player}は"
+  },
+  {
+   "label": "ItemUseText00",
+   "line": 2385,
+   "text": "を　つかった！",
+   "continuation": true
+  },
+  {
+   "label": "GotOnBicycleText",
+   "line": 2390,
+   "text": "{player}は"
+  },
+  {
+   "label": "GotOnBicycleText",
+   "line": 2392,
+   "text": "に　のった",
+   "continuation": true
+  },
+  {
+   "label": "GotOffBicycleText",
+   "line": 2397,
+   "text": "{player}は"
+  },
+  {
+   "label": "GotOffBicycleText",
+   "line": 2399,
+   "text": "から　おりた",
+   "continuation": true
+  },
+  {
+   "label": "ThrewAwayItemText",
+   "line": 2630,
+   "text": "を\nすてました！"
+  },
+  {
+   "label": "IsItOKToTossItemText",
+   "line": 2636,
+   "text": "を　すてます\nほんとに　よろしいですか？"
+  },
+  {
+   "label": "TooImportantToTossText",
+   "line": 2642,
+   "text": "それは　とても　たいせつなモノです\nすてることは　できません！"
+  }
+ ]
+}

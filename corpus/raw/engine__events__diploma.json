@@ -1,0 +1,25 @@
+{
+ "source": "engine/events/diploma.asm",
+ "entries": [
+  {
+   "label": "DiplomaPlayer",
+   "line": 105,
+   "text": "プレーヤー"
+  },
+  {
+   "label": "DiplomaSama",
+   "line": 108,
+   "text": "さま"
+  },
+  {
+   "label": "DiplomaCongrats",
+   "line": 111,
+   "text": "あなたは　ポケモンずかんを\nみごと　かんせい　させました！\nその　いだいな　こうせきを\nしょうめい　します"
+  },
+  {
+   "label": "DiplomaGameFreak",
+   "line": 117,
+   "text": "ゲームフリーク"
+  }
+ ]
+}

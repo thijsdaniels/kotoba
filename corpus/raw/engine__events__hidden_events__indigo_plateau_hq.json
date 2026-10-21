@@ -1,0 +1,10 @@
+{
+ "source": "engine/events/hidden_events/indigo_plateau_hq.asm",
+ "entries": [
+  {
+   "label": "IndigoPlateauHQText",
+   "line": 8,
+   "text": "セキエイこうげん\nポケモンリーグ　ほんぶ"
+  }
+ ]
+}

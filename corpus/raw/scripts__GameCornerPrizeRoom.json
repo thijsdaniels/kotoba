@@ -1,0 +1,15 @@
+{
+ "source": "scripts/GameCornerPrizeRoom.asm",
+ "entries": [
+  {
+   "label": "GameCornerPrizeRoomBaldingGuyText",
+   "line": 13,
+   "text": "うーん……！　どうにか　して\nあの　ポリゴンが　ほしいなあ！\n\nしかし　スロット　ゲームで\nかつ　のは　たいへんだ！"
+  },
+  {
+   "label": "GameCornerPrizeRoomGamblerText",
+   "line": 21,
+   "text": "がはは！　もうけた　もうけた……！\nまいにち　こんな　だと　いいわい"
+  }
+ ]
+}

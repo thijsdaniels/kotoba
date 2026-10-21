@@ -1,0 +1,10 @@
+{
+ "source": "engine/events/hidden_events/blues_room.asm",
+ "entries": [
+  {
+   "label": "BookcaseText",
+   "line": 11,
+   "text": "ほんだなに　ならんでいるのは\nポケモンの　ほん　ばかりだ"
+  }
+ ]
+}

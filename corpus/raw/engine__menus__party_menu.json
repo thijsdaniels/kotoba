@@ -1,0 +1,92 @@
+{
+ "source": "engine/menus/party_menu.asm",
+ "entries": [
+  {
+   "label": "RedrawPartyMenu_",
+   "line": 8,
+   "text": "おぼえられる\nおぼえられない\nつかえる\nつかえない"
+  },
+  {
+   "label": "PartyMenuNormalText",
+   "line": 231,
+   "text": "ポケモンを　えらんで　ください"
+  },
+  {
+   "label": "PartyMenuItemUseText",
+   "line": 235,
+   "text": "どのポケモンに　つかいますか？"
+  },
+  {
+   "label": "PartyMenuBattleText",
+   "line": 239,
+   "text": "どのポケモンを　だしますか？"
+  },
+  {
+   "label": "PartyMenuUseTMText",
+   "line": 243,
+   "text": "どのポケモンに　おしえますか？"
+  },
+  {
+   "label": "PartyMenuSwapMonText",
+   "line": 247,
+   "text": "どこに　いどうしますか？"
+  },
+  {
+   "label": "PotionText",
+   "line": 251,
+   "text": "の　たいりょくが"
+  },
+  {
+   "label": "PotionText",
+   "line": 255,
+   "text": "かいふくした",
+   "continuation": true
+  },
+  {
+   "label": "AntidoteText",
+   "line": 259,
+   "text": "の　どくは\nきれい　さっぱり　なくなった！"
+  },
+  {
+   "label": "ParlyzHealText",
+   "line": 265,
+   "text": "の　からだの\nしびれが　とれた"
+  },
+  {
+   "label": "BurnHealText",
+   "line": 271,
+   "text": "の\nやけどが　なおった"
+  },
+  {
+   "label": "IceHealText",
+   "line": 277,
+   "text": "の　からだの\nこおりが　とけた"
+  },
+  {
+   "label": "AwakeningText",
+   "line": 283,
+   "text": "は\nめを　さました"
+  },
+  {
+   "label": "FullHealText",
+   "line": 289,
+   "text": "は\nけんこうになった！"
+  },
+  {
+   "label": "ReviveText",
+   "line": 295,
+   "text": "は\nげんきを　とりもどした！"
+  },
+  {
+   "label": "RareCandyText",
+   "line": 301,
+   "text": "の　レベルが"
+  },
+  {
+   "label": "RareCandyText",
+   "line": 304,
+   "text": "になった",
+   "continuation": true
+  }
+ ]
+}

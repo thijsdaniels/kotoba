@@ -1,0 +1,102 @@
+{
+ "source": "engine/events/pokedex_rating.asm",
+ "entries": [
+  {
+   "label": "DexCompletionText",
+   "line": 54,
+   "text": "……　……　ポケモンずかんの\nげんざいの　かんせいど　は……\n\nみつけた　ポケモン"
+  },
+  {
+   "label": "DexCompletionText",
+   "line": 59,
+   "text": "！\nつかまえた　ポケモン",
+   "continuation": true
+  },
+  {
+   "label": "DexCompletionText",
+   "line": 62,
+   "text": "！\n\nオーキドはかせの　ひょうか……",
+   "continuation": true
+  },
+  {
+   "label": "DexRatingText_Own0To9",
+   "line": 86,
+   "text": "まだまだ……　これからだ\nあちこちの　くさむらに　はいって\nポケモンを　つかまえるのじゃ！"
+  },
+  {
+   "label": "DexRatingText_Own10To19",
+   "line": 92,
+   "text": "どうにか　ちょうしが　でてきたな！\nじょしゅに　フラッシュを\nもたせたぞ！　もらって　くれい！"
+  },
+  {
+   "label": "DexRatingText_Own20To29",
+   "line": 98,
+   "text": "ポケモンずかんに　しては　まだ\nボリュームが　たりん！　いろいろな\nしゅるいの　ポケモンを　とるのじゃ！"
+  },
+  {
+   "label": "DexRatingText_Own30To39",
+   "line": 104,
+   "text": "ふむ……　がんばってるな！\nじょしゅに　ダウジングマシンを\nもたせたぞ！　もらって　くれい！"
+  },
+  {
+   "label": "DexRatingText_Own40To49",
+   "line": 110,
+   "text": "いい　できばえ　じゃないか！\nじょしゅに　がくしゅうそうちを\nもたせたぞ！　もらって　くれい！"
+  },
+  {
+   "label": "DexRatingText_Own50To59",
+   "line": 116,
+   "text": "ついに　５０しゅるいを　こえたか！\n……　この　ちょうし　じゃ！"
+  },
+  {
+   "label": "DexRatingText_Own60To69",
+   "line": 121,
+   "text": "ほっほう！　……　こりゃ　いい\nポケモンずかんに　なって　きとる！"
+  },
+  {
+   "label": "DexRatingText_Own70To79",
+   "line": 126,
+   "text": "ぜっこうちょう！　うみで　ポケモン\nつれば　もっと　あつまり　そうじゃ！"
+  },
+  {
+   "label": "DexRatingText_Own80To89",
+   "line": 131,
+   "text": "ワンダフル！　もしかして　きみは\nものを　あつめるの　すきなのか……？"
+  },
+  {
+   "label": "DexRatingText_Own90To99",
+   "line": 136,
+   "text": "いやはや……　こりゃ　すごい！\nあつめるのは　たいへん　だったろ！"
+  },
+  {
+   "label": "DexRatingText_Own100To109",
+   "line": 141,
+   "text": "とうとう　１００しゅるい　こえたか！\n……　しんじられない　うでまえじゃ！"
+  },
+  {
+   "label": "DexRatingText_Own110To119",
+   "line": 146,
+   "text": "ポケモンの　しんか　けいたいも\nはいって　きとる……　すばらしい！"
+  },
+  {
+   "label": "DexRatingText_Own120To129",
+   "line": 151,
+   "text": "エクセレント！　ともだちと　こうかん\nすると　もっと　あつまる　かもしれん"
+  },
+  {
+   "label": "DexRatingText_Own130To139",
+   "line": 156,
+   "text": "ここまで　ずかんが　できたら\nもはや　プロフェッショナル　じゃ！"
+  },
+  {
+   "label": "DexRatingText_Own140To149",
+   "line": 161,
+   "text": "わしゃ　もう　いうことは　ない！\nきみが　ポケモンはかせ　じゃ！"
+  },
+  {
+   "label": "DexRatingText_Own150To151",
+   "line": 166,
+   "text": "ついに　パーフェクトな　ずかんの\nかんせいじゃ！　……　おめでとう！"
+  }
+ ]
+}

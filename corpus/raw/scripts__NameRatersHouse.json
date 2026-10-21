@@ -1,0 +1,64 @@
+{
+ "source": "scripts/NameRatersHouse.asm",
+ "entries": [
+  {
+   "label": "NameRatersHouseNameRaterText.WantMeToRateText",
+   "line": 82,
+   "text": "はい　はい！\nわたしは　せいめい　はんだんし\nいうなれば　なまえの　うらないです\n\nはい　あなたの　ポケモンの\nニックネーム　うらなって　あげるよ"
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.WhichPokemonText",
+   "line": 91,
+   "text": "どの　ポケモンの\nニックネームを　うらなうかね？"
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.GiveItANiceNameText",
+   "line": 96,
+   "text": "うーむ"
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.GiveItANiceNameText",
+   "line": 98,
+   "text": "か……\nなかなか\nいい　ニックネームを　つけたね\n\nでもねー\nもう　すこしだけ　いい　なまえ\n\nわたしが　つけて　あげようか？\nどうかな？",
+   "continuation": true
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.WhatShouldWeNameItText",
+   "line": 110,
+   "text": "そうか　では\nどんな　ニックネームに　しようかな"
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.PokemonHasBeenRenamedText",
+   "line": 115,
+   "text": "よし　これから\nこの　ポケモンは"
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.PokemonHasBeenRenamedText",
+   "line": 118,
+   "text": "だ！\n\nまえより　いい　なまえ　じゃないか\nよかったな！",
+   "continuation": true
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.ComeAnyTimeYouLikeText",
+   "line": 125,
+   "text": "そうか\nわかった　また　きなさいよ"
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.ATrulyImpeccableNameText",
+   "line": 130,
+   "text": "うむ"
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.ATrulyImpeccableNameText",
+   "line": 132,
+   "text": "か！\nこれは　すばらしい　ニックネームだ\nけちの　つけようもない！\n\nこれからも",
+   "continuation": true
+  },
+  {
+   "label": "NameRatersHouseNameRaterText.ATrulyImpeccableNameText",
+   "line": 138,
+   "text": "を\nかわいがって　あげなさいよ！",
+   "continuation": true
+  }
+ ]
+}

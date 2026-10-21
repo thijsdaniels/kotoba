@@ -1,0 +1,20 @@
+{
+ "source": "engine/events/hidden_events/indigo_plateau_statues.asm",
+ "entries": [
+  {
+   "label": "IndigoPlateauStatuesText1",
+   "line": 14,
+   "text": "ここは　セキエイ　こうげん"
+  },
+  {
+   "label": "IndigoPlateauStatuesText2",
+   "line": 18,
+   "text": "ポケモン　トレーナーの　ちょうてん！\nポケモン　リーグ　ほんぶ"
+  },
+  {
+   "label": "IndigoPlateauStatuesText3",
+   "line": 23,
+   "text": "ポケモンの　さいこう　きかん\nポケモン　リーグ　ほんぶ"
+  }
+ ]
+}

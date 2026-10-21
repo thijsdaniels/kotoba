@@ -1,0 +1,115 @@
+{
+ "source": "scripts/RockTunnel1F.asm",
+ "entries": [
+  {
+   "label": "RockTunnel1FHiker1BattleText",
+   "line": 74,
+   "text": "この　ながーい\nトンネルを　ぬける　つもりか！"
+  },
+  {
+   "label": "RockTunnel1FHiker1EndBattleText",
+   "line": 79,
+   "text": "おいらの　まけだ"
+  },
+  {
+   "label": "RockTunnel1FHiker1AfterBattleText",
+   "line": 83,
+   "text": "たまに　でる　イワークは\nレベルが　たかいと　しめつけてくる\nきを　つけなよ"
+  },
+  {
+   "label": "RockTunnel1FHiker2BattleText",
+   "line": 89,
+   "text": "えーと\nみちに　まよったかな？"
+  },
+  {
+   "label": "RockTunnel1FHiker2EndBattleText",
+   "line": 94,
+   "text": "たたかってる\nばあいじゃ　なかった\nでぐちは　どっち　だっけ？"
+  },
+  {
+   "label": "RockTunnel1FHiker2AfterBattleText",
+   "line": 100,
+   "text": "１２ばん　どうろに\nポケモンが　ねてたろ？\nおれも　こまって　まわりみちだ"
+  },
+  {
+   "label": "RockTunnel1FHiker3BattleText",
+   "line": 106,
+   "text": "おれは\nやまに　すんで　ながい\nよそものに　でかい　つらは　させん"
+  },
+  {
+   "label": "RockTunnel1FHiker3EndBattleText",
+   "line": 112,
+   "text": "やるなあ"
+  },
+  {
+   "label": "RockTunnel1FHiker3AfterBattleText",
+   "line": 116,
+   "text": "おまえ　みこみが　ある\nやまおとこに　ならんか？"
+  },
+  {
+   "label": "RockTunnel1FSuperNerdBattleText",
+   "line": 121,
+   "text": "ポケモン　ファイトー！\nレディー　ゴー！"
+  },
+  {
+   "label": "RockTunnel1FSuperNerdEndBattleText",
+   "line": 126,
+   "text": "やぶれたのか"
+  },
+  {
+   "label": "RockTunnel1FSuperNerdAfterBattleText",
+   "line": 130,
+   "text": "ズバットでも\nとって　かえろうかな……"
+  },
+  {
+   "label": "RockTunnel1FCooltrainerF1BattleText",
+   "line": 135,
+   "text": "きゃ　びっくり！\nうすぐらい　からって\nへんな　こと　しないで！"
+  },
+  {
+   "label": "RockTunnel1FCooltrainerF1EndBattleText",
+   "line": 141,
+   "text": "……　くらくて\nよく　みえないんだもん"
+  },
+  {
+   "label": "RockTunnel1FCooltrainerF1AfterBattleText",
+   "line": 146,
+   "text": "トンネルにも　ポケモン　いるのね\nさっき　ワンリキーが　いたわ"
+  },
+  {
+   "label": "RockTunnel1FCooltrainerF2BattleText",
+   "line": 151,
+   "text": "ポケモン　さがしに　きて\nこんな　とこまで　きちゃった！"
+  },
+  {
+   "label": "RockTunnel1FCooltrainerF2EndBattleText",
+   "line": 156,
+   "text": "もう　ポケモン　ないわ"
+  },
+  {
+   "label": "RockTunnel1FCooltrainerF2AfterBattleText",
+   "line": 160,
+   "text": "かわいい　かお　して\nけっこう　つよい　じゃない"
+  },
+  {
+   "label": "RockTunnel1FCooltrainerF3BattleText",
+   "line": 165,
+   "text": "あ　それは　ポケモン！\nさっそく　はじめましょ！"
+  },
+  {
+   "label": "RockTunnel1FCooltrainerF3EndBattleText",
+   "line": 170,
+   "text": "でなおして　くるわ"
+  },
+  {
+   "label": "RockTunnel1FCooltrainerF3AfterBattleText",
+   "line": 174,
+   "text": "エキサイト　して\nあせ　かいちゃったわ"
+  },
+  {
+   "label": "RockTunnel1FSignText",
+   "line": 179,
+   "text": "ここは　イワヤマ　トンネル\nハナダ　シティ　……　シオン　タウン"
+  }
+ ]
+}

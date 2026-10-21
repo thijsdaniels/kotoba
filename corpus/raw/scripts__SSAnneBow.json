@@ -1,0 +1,50 @@
+{
+ "source": "scripts/SSAnneBow.asm",
+ "entries": [
+  {
+   "label": "SSAnneBowSuperNerdText",
+   "line": 29,
+   "text": "パーティも　そろそろ　おわるし\nふねの　しゅっぱつの　じかん　だな"
+  },
+  {
+   "label": "SSAnneBowSailor1Text",
+   "line": 34,
+   "text": "まったく！\nデッキ　そうじは　らくじゃねえぜ"
+  },
+  {
+   "label": "SSAnneBowCooltrainerMText",
+   "line": 39,
+   "text": "うう……　きもち　わるい！\n\n……　ふなよい　したので\nかぜに　あたってるんです……"
+  },
+  {
+   "label": "SSAnneBowSailor2BattleText",
+   "line": 52,
+   "text": "おうおう！\n\nふなのりの　おれと　しょうぶだ！"
+  },
+  {
+   "label": "SSAnneBowSailor2EndBattleText",
+   "line": 58,
+   "text": "つよいな\nびっくり　したぜ"
+  },
+  {
+   "label": "SSAnneBowSailor2AfterBattleText",
+   "line": 63,
+   "text": "なあ！　この　せかいに\nポケモンは　ぜんぶで　どのくらい\nしゅるいが　あると　おもうか？"
+  },
+  {
+   "label": "SSAnneBowSailor3BattleText",
+   "line": 75,
+   "text": "おい　ぼうず！\nのってて　ふなよい　しないか？"
+  },
+  {
+   "label": "SSAnneBowSailor3EndBattleText",
+   "line": 80,
+   "text": "ゆだん　したか"
+  },
+  {
+   "label": "SSAnneBowSailor3AfterBattleText",
+   "line": 84,
+   "text": "おれの　おやじは　ポケモンは\n１００しゅるい　いると　いってたが\nおれは　それ　いじょう　だと　おもう"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "source": "scripts/CinnabarMart.asm",
+ "entries": [
+  {
+   "label": "CinnabarMartSilphWorkerFText",
+   "line": 10,
+   "text": "プラスパワーは　ないのかしら\nポケモンの　こうげきりょくを\nたかめるから　すきなのに"
+  },
+  {
+   "label": "CinnabarMartScientistText",
+   "line": 16,
+   "text": "いざ　という　ときの　ために\nどうぐは　おおめに　かうべきだね"
+  }
+ ]
+}

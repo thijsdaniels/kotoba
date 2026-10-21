@@ -1,0 +1,60 @@
+{
+ "source": "scripts/SilphCo8F.asm",
+ "entries": [
+  {
+   "label": "SilphCo8FSilphWorkerMText.SilphIsFinishedText",
+   "line": 102,
+   "text": "シルフは　のっとられて\n……　おわりかな"
+  },
+  {
+   "label": "SilphCo8FSilphWorkerMText.ThanksForSavingUsText",
+   "line": 107,
+   "text": "ありがとう　たすかった！"
+  },
+  {
+   "label": "SilphCo8FRocket1BattleText",
+   "line": 117,
+   "text": "ここから　さきは　いかせ　ないぜ！"
+  },
+  {
+   "label": "SilphCo8FRocket1EndBattleText",
+   "line": 121,
+   "text": "きあいが　たりんか"
+  },
+  {
+   "label": "SilphCo8FRocket1AfterBattleText",
+   "line": 125,
+   "text": "はやく　ひきかえさないと\n……　なかまを　よぶぜ！"
+  },
+  {
+   "label": "SilphCo8FScientistBattleText",
+   "line": 136,
+   "text": "すき　かって　やられちゃ\nこまるんだぜ！"
+  },
+  {
+   "label": "SilphCo8FScientistEndBattleText",
+   "line": 141,
+   "text": "……？　まけたのか"
+  },
+  {
+   "label": "SilphCo8FScientistAfterBattleText",
+   "line": 145,
+   "text": "どうだね？\nめいろの　ような\nシルフ　ビルの　かんそうは？"
+  },
+  {
+   "label": "SilphCo8FRocket2BattleText",
+   "line": 157,
+   "text": "おれこそは\nロケット　４きょうだいの　ひとり！"
+  },
+  {
+   "label": "SilphCo8FRocket2EndBattleText",
+   "line": 162,
+   "text": "にいさん　まけたよ"
+  },
+  {
+   "label": "SilphCo8FRocket2AfterBattleText",
+   "line": 166,
+   "text": "まあ　いい\nあにきが　かたきを　とって　くれる"
+  }
+ ]
+}

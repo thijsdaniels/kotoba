@@ -1,0 +1,93 @@
+{
+ "source": "engine/pokemon/learn_move.asm",
+ "entries": [
+  {
+   "label": "LearnedMove1Text",
+   "line": 176,
+   "text": "は　あたらしく"
+  },
+  {
+   "label": "LearnedMove1Text",
+   "line": 180,
+   "text": "を　おぼえた！",
+   "continuation": true
+  },
+  {
+   "label": "WhichMoveToForgetText",
+   "line": 186,
+   "text": "どの　わざを\nわすれさせたい？"
+  },
+  {
+   "label": "AbandonLearningText",
+   "line": 191,
+   "text": "それでは……"
+  },
+  {
+   "label": "AbandonLearningText",
+   "line": 193,
+   "text": "を\nおぼえるのを　あきらめますか？",
+   "continuation": true
+  },
+  {
+   "label": "DidNotLearnText",
+   "line": 198,
+   "text": "は"
+  },
+  {
+   "label": "DidNotLearnText",
+   "line": 201,
+   "text": "を\nおぼえずに　おわった！",
+   "continuation": true
+  },
+  {
+   "label": "TryingToLearnText",
+   "line": 206,
+   "text": "は　あたらしく"
+  },
+  {
+   "label": "TryingToLearnText",
+   "line": 210,
+   "text": "を　おぼえたい……！\n\nしかし",
+   "continuation": true
+  },
+  {
+   "label": "TryingToLearnText",
+   "line": 214,
+   "text": "は　わざを　４つ\nおぼえるので　せいいっぱいだ！",
+   "continuation": true
+  },
+  {
+   "label": "TryingToLearnText",
+   "line": 219,
+   "text": "の　かわりに\nほかの　わざを　わすれさせますか？",
+   "continuation": true
+  },
+  {
+   "label": "OneTwoAndText",
+   "line": 224,
+   "text": "１　２の　……"
+  },
+  {
+   "label": "PoofForgotAndText",
+   "line": 233,
+   "text": "ポカン！"
+  },
+  {
+   "label": "PoofForgotAndText",
+   "line": 239,
+   "text": "は",
+   "continuation": true
+  },
+  {
+   "label": "PoofForgotAndText",
+   "line": 241,
+   "text": "の\nつかいかたを　きれいに　わすれた！\n\nそして……！",
+   "continuation": true
+  },
+  {
+   "label": "HMCantDeleteText",
+   "line": 248,
+   "text": "それは　たいせつなわざです\nわすれさせることは　できません！"
+  }
+ ]
+}

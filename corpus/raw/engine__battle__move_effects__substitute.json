@@ -1,0 +1,20 @@
+{
+ "source": "engine/battle/move_effects/substitute.asm",
+ "entries": [
+  {
+   "label": "SubstituteText",
+   "line": 67,
+   "text": "{user}の\nぶんしんが　あらわれた"
+  },
+  {
+   "label": "HasSubstituteText",
+   "line": 72,
+   "text": "しかし　{user}の\nみがわりは　すでに　でていた！"
+  },
+  {
+   "label": "TooWeakSubstituteText",
+   "line": 77,
+   "text": "しかし　ぶんしんを　だすには\nたいりょくが　たりなかった！"
+  }
+ ]
+}

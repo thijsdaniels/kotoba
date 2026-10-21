@@ -1,0 +1,115 @@
+{
+ "source": "scripts/MtMoon1F.asm",
+ "entries": [
+  {
+   "label": "MtMoon1FHikerBattleText",
+   "line": 49,
+   "text": "うわーッ！\nびっくり　した！\n……　なんだ　こどもか"
+  },
+  {
+   "label": "MtMoon1FHikerEndBattleText",
+   "line": 55,
+   "text": "おどろいた！"
+  },
+  {
+   "label": "MtMoon1FHikerAfterBattleText",
+   "line": 59,
+   "text": "こどもが\nこんな　くらい　ところを\nウロウロ　しちゃ　いかん　なあ"
+  },
+  {
+   "label": "MtMoon1FYoungster1BattleText",
+   "line": 71,
+   "text": "きみも\nどうくつ　たんけんに　きたのかい"
+  },
+  {
+   "label": "MtMoon1FYoungster1EndBattleText",
+   "line": 76,
+   "text": "……　まける　なんて\nカッコ　わるい"
+  },
+  {
+   "label": "MtMoon1FYoungster1AfterBattleText",
+   "line": 81,
+   "text": "おんなのこに\nイイ　とこ　みせようと\nこんな　とこ　まで　きちゃった"
+  },
+  {
+   "label": "MtMoon1FCooltrainerF1BattleText",
+   "line": 93,
+   "text": "わあーッ！\nどうくつの　なかって\nいがいと　ひろいのねー！"
+  },
+  {
+   "label": "MtMoon1FCooltrainerF1EndBattleText",
+   "line": 99,
+   "text": "あ……　まけてる！"
+  },
+  {
+   "label": "MtMoon1FCooltrainerF1AfterBattleText",
+   "line": 103,
+   "text": "こんなに　ひろいと\nどっちが　でぐちか　まよっちゃう"
+  },
+  {
+   "label": "MtMoon1FSuperNerdBattleText",
+   "line": 114,
+   "text": "うわッ！　なんだ？\nきゅうに　こえを　かけるな！"
+  },
+  {
+   "label": "MtMoon1FSuperNerdEndBattleText",
+   "line": 119,
+   "text": "……\nこんな　ポケモン　では　ダメか"
+  },
+  {
+   "label": "MtMoon1FSuperNerdAfterBattleText",
+   "line": 124,
+   "text": "えーと……！　どこかに\nつよい　ポケモン　いないか……　な"
+  },
+  {
+   "label": "MtMoon1FCooltrainerF2BattleText",
+   "line": 135,
+   "text": "なによー！\nどうくつで　はぐれた　ともだちを\nここで　まってるのよ"
+  },
+  {
+   "label": "MtMoon1FCooltrainerF2EndBattleText",
+   "line": 141,
+   "text": "わたし　まけたの？"
+  },
+  {
+   "label": "MtMoon1FCooltrainerF2AfterBattleText",
+   "line": 145,
+   "text": "この　どうくつに\nすごい　カセキが\nあるって　きいて　きたの"
+  },
+  {
+   "label": "MtMoon1FYoungster2BattleText",
+   "line": 157,
+   "text": "あやしい　おとこが\nどうくつを　うろついてるんだ\nきみは……？"
+  },
+  {
+   "label": "MtMoon1FYoungster2EndBattleText",
+   "line": 163,
+   "text": "やられた！"
+  },
+  {
+   "label": "MtMoon1FYoungster2AfterBattleText",
+   "line": 167,
+   "text": "ぼくが　みた　やつ！\nまちがい　ない！\nあいつ　ロケットだん　だぜ！"
+  },
+  {
+   "label": "MtMoon1FYoungster3BattleText",
+   "line": 179,
+   "text": "ハナダ　シティに　いくには\nどうくつを\nぬけないと　だめだよ！"
+  },
+  {
+   "label": "MtMoon1FYoungster3EndBattleText",
+   "line": 185,
+   "text": "ぼくの　まけだ"
+  },
+  {
+   "label": "MtMoon1FYoungster3AfterBattleText",
+   "line": 189,
+   "text": "ズバットは　てごわい！\nでも　つかまえられれば\nたよりに　なる　ポケモンだよ"
+  },
+  {
+   "label": "MtMoon1FBewareZubatSign",
+   "line": 195,
+   "text": "ズバットの\nきゅうけつ　こうげきに　ちゅうい！"
+  }
+ ]
+}

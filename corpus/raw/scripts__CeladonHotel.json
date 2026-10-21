@@ -1,0 +1,20 @@
+{
+ "source": "scripts/CeladonHotel.asm",
+ "entries": [
+  {
+   "label": "CeladonHotelGrannyText",
+   "line": 10,
+   "text": "はあ　ポケモン……？\nああ……！　ここは\nひとが　とまる　りょかん　ですじゃ\n\nあいにく　へや　いっぱい　でな"
+  },
+  {
+   "label": "CeladonHotelBeautyText",
+   "line": 18,
+   "text": "あたし！　おとうと　と　かれし\n３にんで　りょこうに　きたの！\n\nタマムシ　シティって\nとても　きれいな　まち　なのね"
+  },
+  {
+   "label": "CeladonHotelSuperNerdText",
+   "line": 26,
+   "text": "なんで……？　かのじょと\nふたり　きりの　りょこうの　はずが！"
+  }
+ ]
+}

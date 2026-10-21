@@ -1,0 +1,15 @@
+{
+ "source": "scripts/Route2.asm",
+ "entries": [
+  {
+   "label": "Route2SignText",
+   "line": 11,
+   "text": "ここは　２ばん　どうろ\nトキワ　シティ　……　ニビ　シティ"
+  },
+  {
+   "label": "Route2DiglettsCaveSignText",
+   "line": 16,
+   "text": "ここは　ディグダの　あな"
+  }
+ ]
+}

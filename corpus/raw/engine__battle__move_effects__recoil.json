@@ -1,0 +1,10 @@
+{
+ "source": "engine/battle/move_effects/recoil.asm",
+ "entries": [
+  {
+   "label": "HitWithRecoilText",
+   "line": 69,
+   "text": "{user}は　こうげきの\nはんどうを　うけた！"
+  }
+ ]
+}

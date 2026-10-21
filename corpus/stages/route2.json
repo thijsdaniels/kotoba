@@ -1,0 +1,110 @@
+{
+ "id": "route2",
+ "name": "Route 2",
+ "levelCap": 10,
+ "strings": [
+  {
+   "source": "scripts/Route2.asm",
+   "label": "Route2SignText",
+   "line": 11,
+   "text": "ここは　２ばん　どうろ\nトキワ　シティ　……　ニビ　シティ"
+  },
+  {
+   "source": "scripts/Route2.asm",
+   "label": "Route2DiglettsCaveSignText",
+   "line": 16,
+   "text": "ここは　ディグダの　あな"
+  }
+ ],
+ "pokemon": [
+  {
+   "const": "RATTATA",
+   "ja": "コラッタ",
+   "dex": 19,
+   "types": [
+    "NORMAL"
+   ],
+   "levels": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "moves": [
+    "TACKLE",
+    "TAIL_WHIP",
+    "QUICK_ATTACK"
+   ],
+   "new": false
+  },
+  {
+   "const": "PIDGEY",
+   "ja": "ポッポ",
+   "dex": 16,
+   "types": [
+    "NORMAL",
+    "FLYING"
+   ],
+   "levels": [
+    3,
+    4,
+    5
+   ],
+   "moves": [
+    "GUST",
+    "SAND_ATTACK"
+   ],
+   "new": false
+  },
+  {
+   "const": "WEEDLE",
+   "ja": "ビードル",
+   "dex": 13,
+   "types": [
+    "BUG",
+    "POISON"
+   ],
+   "levels": [
+    3,
+    4,
+    5
+   ],
+   "moves": [
+    "POISON_STING",
+    "STRING_SHOT"
+   ],
+   "new": true
+  },
+  {
+   "const": "CATERPIE",
+   "ja": "キャタピー",
+   "dex": 10,
+   "types": [
+    "BUG"
+   ],
+   "levels": [
+    3,
+    4,
+    5
+   ],
+   "moves": [
+    "TACKLE",
+    "STRING_SHOT"
+   ],
+   "new": true
+  }
+ ],
+ "moves": [
+  {
+   "const": "POISON_STING",
+   "ja": "どくばり",
+   "learnedBy": "WEEDLE"
+  },
+  {
+   "const": "STRING_SHOT",
+   "ja": "いとをはく",
+   "learnedBy": "WEEDLE"
+  }
+ ],
+ "items": []
+}

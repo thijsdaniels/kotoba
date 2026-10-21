@@ -1,0 +1,85 @@
+{
+ "source": "scripts/Route23.asm",
+ "entries": [
+  {
+   "label": "EarthBadgeText",
+   "line": 102,
+   "text": "グリーン"
+  },
+  {
+   "label": "VolcanoBadgeText",
+   "line": 105,
+   "text": "クリムゾン"
+  },
+  {
+   "label": "MarshBadgeText",
+   "line": 108,
+   "text": "ゴールド"
+  },
+  {
+   "label": "SoulBadgeText",
+   "line": 111,
+   "text": "ピンク"
+  },
+  {
+   "label": "RainbowBadgeText",
+   "line": 114,
+   "text": "レインボー"
+  },
+  {
+   "label": "ThunderBadgeText",
+   "line": 117,
+   "text": "オレンジ"
+  },
+  {
+   "label": "CascadeBadgeText",
+   "line": 120,
+   "text": "ブルー"
+  },
+  {
+   "label": "Route23YouDontHaveTheBadgeYetText",
+   "line": 229,
+   "text": "ここから　さきは……"
+  },
+  {
+   "label": "Route23YouDontHaveTheBadgeYetText",
+   "line": 232,
+   "text": "バッジを\nもった　もの　だけが　すすめる！\n\nきみは　まだ",
+   "continuation": true
+  },
+  {
+   "label": "Route23YouDontHaveTheBadgeYetText",
+   "line": 238,
+   "text": "バッジを　もって　いない\n\nポケモン　リーグを　めざす　なら\nでなおして　きなさい",
+   "continuation": true
+  },
+  {
+   "label": "Route23OhThatIsTheBadgeText",
+   "line": 249,
+   "text": "ここから　さきは……"
+  },
+  {
+   "label": "Route23OhThatIsTheBadgeText",
+   "line": 252,
+   "text": "バッジを\nもった　もの　だけが　すすめる！\n\nむむッ……！\nそれは",
+   "continuation": true
+  },
+  {
+   "label": "Route23OhThatIsTheBadgeText",
+   "line": 258,
+   "text": "バッジ！",
+   "continuation": true
+  },
+  {
+   "label": "Route23OhThatIsTheBadgeText",
+   "line": 260,
+   "text": "わかった……！\nこの　さきへ　すすみなさい！",
+   "continuation": true
+  },
+  {
+   "label": "Route23VictoryRoadGateSignText",
+   "line": 267,
+   "text": "ここは　チャンピオン　ロード\nゲート　……　ポケモンリーグ"
+  }
+ ]
+}

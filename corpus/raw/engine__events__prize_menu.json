@@ -1,0 +1,55 @@
+{
+ "source": "engine/events/prize_menu.asm",
+ "entries": [
+  {
+   "label": "RequireCoinCaseText",
+   "line": 45,
+   "text": "コインケースを　もっていない！"
+  },
+  {
+   "label": "ExchangeCoinsForPrizesText",
+   "line": 50,
+   "text": "コインを\nけいひんと　こうかんするよ"
+  },
+  {
+   "label": "WhichPrizeText",
+   "line": 55,
+   "text": "なにと　こうかんする？"
+  },
+  {
+   "label": "PrintPrizePrice.CoinString",
+   "line": 161,
+   "text": "コイン"
+  },
+  {
+   "label": "PrintPrizePrice.CoinCounterString",
+   "line": 164,
+   "text": "まい"
+  },
+  {
+   "label": "HereYouGoText",
+   "line": 260,
+   "text": "はい　どうぞ"
+  },
+  {
+   "label": "SoYouWantPrizeText",
+   "line": 265,
+   "text": "で\nいいんだね？"
+  },
+  {
+   "label": "SorryNeedMoreCoinsText",
+   "line": 271,
+   "text": "おきゃくさん　コイン　たりないよ"
+  },
+  {
+   "label": "PrizeRoomBagIsFullText",
+   "line": 276,
+   "text": "おきゃくさん　もう　もてないよ"
+  },
+  {
+   "label": "OhFineThenText",
+   "line": 281,
+   "text": "あっ　そう"
+  }
+ ]
+}

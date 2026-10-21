@@ -1,0 +1,90 @@
+{
+ "source": "scripts/ViridianForest.asm",
+ "entries": [
+  {
+   "label": "ViridianForestYoungster1Text",
+   "line": 39,
+   "text": "ともだちと　むし　ポケモン\nとりに　きてるんだ！\n\nポケモン　しょうぶ　したくて\nみんな　ウズウズ　してるよ！"
+  },
+  {
+   "label": "ViridianForestYoungster2BattleText",
+   "line": 53,
+   "text": "よーしッ！\nきみは　ポケモン　もってるな？\nしょうぶ　しようぜ！"
+  },
+  {
+   "label": "ViridianForestYoungster2EndBattleText",
+   "line": 59,
+   "text": "まけたあ！\nキャタピー　なんか　じゃ　ダメか"
+  },
+  {
+   "label": "ViridianForestYoungster2AfterBattleText",
+   "line": 64,
+   "text": "しッ……！\nむしが　にげる　から　またな！"
+  },
+  {
+   "label": "ViridianForestYoungster3BattleText",
+   "line": 75,
+   "text": "おーいッ！\nポケモン　トレーナーなら\nしょうぶは　ことわれ　ないぜ！"
+  },
+  {
+   "label": "ViridianForestYoungster3EndBattleText",
+   "line": 81,
+   "text": "あれ？\nもう　ポケモンが　ないや"
+  },
+  {
+   "label": "ViridianForestYoungster3AfterBattleText",
+   "line": 86,
+   "text": "くやしいな！\nつよいのを　つかまえて　こよう！"
+  },
+  {
+   "label": "ViridianForestYoungster4BattleText",
+   "line": 97,
+   "text": "ちょっと　まったあ！\nそんな　いそいで　どこに　いく？"
+  },
+  {
+   "label": "ViridianForestYoungster4EndBattleText",
+   "line": 102,
+   "text": "まいった！\nきみは　つよいな！"
+  },
+  {
+   "label": "ViridianForestYoungster4AfterBattleText",
+   "line": 107,
+   "text": "みえない　ところ　でも　ホントは\nなにか　おちてたり　する！\n\nさっき　おとしもの　したんだ\nきみも　さがして　みて　くれる？"
+  },
+  {
+   "label": "ViridianForestYoungster5Text",
+   "line": 115,
+   "text": "ポケモン　とろうとして\nモンスター　ボール　なげてたら\nすぐ　なくなっちゃった\n\nきみも　おおめに\nかって　おくと　いいよ"
+  },
+  {
+   "label": "ViridianForestTrainerTips1Text",
+   "line": 124,
+   "text": "……　おとくな　けいじばん！\n\nもってる　ポケモンが　よわって　きて\nたたかわせたく　ない　ときは\nくさむらを　よけて　かえろう！"
+  },
+  {
+   "label": "ViridianForestUseAntidoteSignText",
+   "line": 132,
+   "text": "どくを　くらったら　どくけし！\nフレンドリィ　ショップで！"
+  },
+  {
+   "label": "ViridianForestTrainerTips2Text",
+   "line": 137,
+   "text": "……　おとくな　けいじばん！\n\nポケモンずかんは\nパソコンつうしんで\nオーキドはかせに　みてもらえる！"
+  },
+  {
+   "label": "ViridianForestTrainerTips3Text",
+   "line": 145,
+   "text": "……　おとくな　けいじばん！\n\nひとの　ポケモンは　ひとの　もの！\nやせいの　ポケモンに　だけ\nモンスターボールを　なげて\nつかまえよう！"
+  },
+  {
+   "label": "ViridianForestTrainerTips4Text",
+   "line": 154,
+   "text": "……　おとくな　けいじばん！\n\nポケモンを　つかまえる　ときは\nなるべく　よわらせてから！\n\nポケモンが　げんきだと\nにげるかも　しれないよ！"
+  },
+  {
+   "label": "ViridianForestLeavingSignText",
+   "line": 164,
+   "text": "トキワの　もり　……　でぐち\nこのさき　ニビ　シティ"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "source": "engine/events/card_key.asm",
+ "entries": [
+  {
+   "label": "CardKeySuccessText",
+   "line": 60,
+   "text": "……ピンポーン！"
+  },
+  {
+   "label": "CardKeySuccessText",
+   "line": 62,
+   "text": "カードキーで　ロック　をはずした！",
+   "continuation": true
+  },
+  {
+   "label": "CardKeyFailText",
+   "line": 67,
+   "text": "……だめだ！\nカードキーが　ないと　あかない！"
+  }
+ ]
+}

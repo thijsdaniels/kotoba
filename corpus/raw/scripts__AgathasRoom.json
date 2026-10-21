@@ -1,0 +1,25 @@
+{
+ "source": "scripts/AgathasRoom.asm",
+ "entries": [
+  {
+   "label": "AgathasRoomAgathaBattleText",
+   "line": 135,
+   "text": "あたしは　してんのうの　キクコ！\n\nあんた　オーキドの　ジジイに\nかわいがられてんだって！\n\nジジイ　むかしは　つよくて\nいい　おとこ　だった！\nいまじゃ　みる　かげも　ないがね！\n\nポケモン　ずかん\nつくってる　ようじゃ　だめだ！\nポケモンは　たたかわせる　ものさ\n\n{player}……！　あんたにも\nホントの　たたかいって　ものを\nおしえて　やる！"
+  },
+  {
+   "label": "AgathasRoomAgathaEndBattleText",
+   "line": 154,
+   "text": "ほっほう！\nたいした　もんだよ！"
+  },
+  {
+   "label": "AgathasRoomAgathaAfterBattleText",
+   "line": 159,
+   "text": "あんたの　かち　だ！\nジジイが　めを　つける　だけの\nことは　ある！\n\nもう　これ　いじょう\nあたしが　いう　ことは　ない！\nつぎの　へやに　すすみな！"
+  },
+  {
+   "label": "AgathasRoomAgathaDontRunAwayText",
+   "line": 169,
+   "text": "だれかの　こえが　きこえる……\n「にげては　ならん！」"
+  }
+ ]
+}

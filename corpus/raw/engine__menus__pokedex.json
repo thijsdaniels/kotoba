@@ -1,0 +1,40 @@
+{
+ "source": "engine/menus/pokedex.asm",
+ "entries": [
+  {
+   "label": "HandlePokedexListMenu",
+   "line": 148,
+   "text": "ーーーーー"
+  },
+  {
+   "label": "PokedexSeenText",
+   "line": 344,
+   "text": "みつけたかず"
+  },
+  {
+   "label": "PokedexOwnText",
+   "line": 347,
+   "text": "つかまえたかず"
+  },
+  {
+   "label": "PokedexContentsText",
+   "line": 350,
+   "text": "もくじ"
+  },
+  {
+   "label": "PokedexMenuItemsText",
+   "line": 353,
+   "text": "データをみる\nなきごえ\nぶんぷをみる\nやめる"
+  },
+  {
+   "label": "HeightWeightText",
+   "line": 566,
+   "text": "たかさ　　？？？ｍ\nおもさ　　？？？ｋｇ"
+  },
+  {
+   "label": "PokeText",
+   "line": 570,
+   "text": "ポケモン"
+  }
+ ]
+}

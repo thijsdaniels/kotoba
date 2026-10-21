@@ -1,0 +1,25 @@
+{
+ "source": "scripts/CeruleanTrashedHouse.asm",
+ "entries": [
+  {
+   "label": "CeruleanTrashedHouseFishingGuruText.TheyStoleATMText",
+   "line": 26,
+   "text": "くう……！　ロケットだんめ！\n\nおれの　いえを\nこんなに　しちまいやがって！\n\nぬすまれた　わざマシンは\nマンキーや　サンドに\n\nじめんに　あなを　ほる　わざを\nおしえる　ものだ！\n\nあれは　たかかったのに"
+  },
+  {
+   "label": "CeruleanTrashedHouseFishingGuruText.WhatsLostIsLostText",
+   "line": 41,
+   "text": "ぬすまれた　ものは\nもどって　こないと　あきらめて\n\nうちの　ディグダには\nきながに　そだてながら\n\nあなほりを\nおしえる　ことに　したよ"
+  },
+  {
+   "label": "CeruleanTrashedHouseGirlText",
+   "line": 52,
+   "text": "ロケットだん……！\nポケモンに　あなを　ほらせて\n\nきっと　また\nわるだくみを　かんがえてるのよ！"
+  },
+  {
+   "label": "CeruleanTrashedHouseWallHoleText",
+   "line": 60,
+   "text": "かべに　あなが　あいてる！\nここから　そとに　でられるぞ！"
+  }
+ ]
+}

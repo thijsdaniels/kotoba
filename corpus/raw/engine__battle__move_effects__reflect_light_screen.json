@@ -1,0 +1,15 @@
+{
+ "source": "engine/battle/move_effects/reflect_light_screen.asm",
+ "entries": [
+  {
+   "label": "LightScreenProtectedText",
+   "line": 35,
+   "text": "{user}は\nとくしゅこうげきに　つよくなった！"
+  },
+  {
+   "label": "ReflectGainedArmorText",
+   "line": 40,
+   "text": "{user}は\nだげきこうげきに　つよくなった！"
+  }
+ ]
+}

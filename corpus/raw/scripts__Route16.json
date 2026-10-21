@@ -1,0 +1,120 @@
+{
+ "source": "scripts/Route16.asm",
+ "entries": [
+  {
+   "label": "Route16Biker1BattleText",
+   "line": 94,
+   "text": "っだと　こらあ！"
+  },
+  {
+   "label": "Route16Biker1EndBattleText",
+   "line": 98,
+   "text": "ってんじゃねえぞ！"
+  },
+  {
+   "label": "Route16Biker1AfterBattleText",
+   "line": 102,
+   "text": "っせーな！\nおれたちゃ　はしる　より\nここで　だらだら　してる　ほうが\nたのしいんだよ！"
+  },
+  {
+   "label": "Route16Biker2BattleText",
+   "line": 115,
+   "text": "おう　おうッ！\nその　じてんしゃ　おれに　くれ！"
+  },
+  {
+   "label": "Route16Biker2EndBattleText",
+   "line": 120,
+   "text": "ノック　アウト！"
+  },
+  {
+   "label": "Route16Biker2AfterBattleText",
+   "line": 124,
+   "text": "もう　いい！\nじてんしゃは　いらねえ！"
+  },
+  {
+   "label": "Route16Biker3BattleText",
+   "line": 135,
+   "text": "かわいがって　やろう！"
+  },
+  {
+   "label": "Route16Biker3EndBattleText",
+   "line": 139,
+   "text": "この　やろう！"
+  },
+  {
+   "label": "Route16Biker3AfterBattleText",
+   "line": 143,
+   "text": "よくも　やって　くれたな！\nおれは　まけるのが\nだい　きらい　なんだ！"
+  },
+  {
+   "label": "Route16Biker4BattleText",
+   "line": 155,
+   "text": "こら　まて！\nぶつかって　おいて　にげるな！"
+  },
+  {
+   "label": "Route16Biker4EndBattleText",
+   "line": 160,
+   "text": "ボンバー！"
+  },
+  {
+   "label": "Route16Biker4AfterBattleText",
+   "line": 164,
+   "text": "おれたち　いつも　ここに　いるぜ！\nこわかったら　クチバ　から\nうみぞい　まわって\nセキチクへ　いくんだな！"
+  },
+  {
+   "label": "Route16Biker5BattleText",
+   "line": 177,
+   "text": "おれは　いま　きげんが　わるい！\nウサ　ばらしが　してえ！"
+  },
+  {
+   "label": "Route16Biker5EndBattleText",
+   "line": 182,
+   "text": "なまいきな　こぞうだ！"
+  },
+  {
+   "label": "Route16Biker5AfterBattleText",
+   "line": 186,
+   "text": "どうせ　ポケモン　やるなら\nきょうぼうな　やつが　ほしいぜ！\nそれで　あいてを\nボロボロに　してやる！"
+  },
+  {
+   "label": "Route16Biker6BattleText",
+   "line": 199,
+   "text": "ひょひょーッ！\nすこし　あそんでって　やるぜ！"
+  },
+  {
+   "label": "Route16Biker6EndBattleText",
+   "line": 204,
+   "text": "おれを　おこらすなよ！"
+  },
+  {
+   "label": "Route16Biker6AfterBattleText",
+   "line": 208,
+   "text": "おう　おうッ！\nポケモンで　おどかしたり\nかみつかせたり　いたずら　したり\nするのが　すきだぜ！"
+  },
+  {
+   "label": "Route16SnorlaxText",
+   "line": 215,
+   "text": "ポケモンが　とても\nきもちよさそうに　ねています"
+  },
+  {
+   "label": "Route16SnorlaxWokeUpText",
+   "line": 220,
+   "text": "カビゴンは　めを　さました！\n\nねぼけた　カビゴンが\nおそってきた！"
+  },
+  {
+   "label": "Route16SnorlaxReturnedToMountainsText",
+   "line": 227,
+   "text": "カビゴンは　おおきな　あくびをして\nやまのおくへ　さっていった……"
+  },
+  {
+   "label": "Route16CyclingRoadSignText",
+   "line": 232,
+   "text": "さかみちを　たのしもう！\nサイクリング　ロード！"
+  },
+  {
+   "label": "Route16SignText",
+   "line": 237,
+   "text": "ここは　１６ばん　どうろ\nタマムシ　……　セキチク"
+  }
+ ]
+}

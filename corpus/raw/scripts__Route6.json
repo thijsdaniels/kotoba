@@ -1,0 +1,95 @@
+{
+ "source": "scripts/Route6.asm",
+ "entries": [
+  {
+   "label": "Route6CooltrainerM1BattleText",
+   "line": 41,
+   "text": "だれだ！\nぼくらの　ひそひそ　ばなしを\nぬすみ　ぎき　してる　やつは！"
+  },
+  {
+   "label": "Route6CooltrainerM1EndBattleText",
+   "line": 47,
+   "text": "なぜか　かてないんだ"
+  },
+  {
+   "label": "Route6CooltrainerF1AfterBattleText",
+   "line": 52,
+   "text": "……　……　ひそ　ひそ……"
+  },
+  {
+   "label": "Route6CooltrainerF1BattleText",
+   "line": 62,
+   "text": "ちょっと　そこの　きみ！\nひとの　たち　ばなしを\nぬすみ　ぎき　するもんじゃないわ"
+  },
+  {
+   "label": "Route6CooltrainerF1EndBattleText",
+   "line": 68,
+   "text": "やん！\nやられる　なんて　なさけないわ"
+  },
+  {
+   "label": "Route6Youngster1BattleText",
+   "line": 79,
+   "text": "この　へんまで　くると\nあんまり　むしも　いないんだ"
+  },
+  {
+   "label": "Route6Youngster1EndBattleText",
+   "line": 84,
+   "text": "そんな　バカなあー"
+  },
+  {
+   "label": "Route6Youngster1AfterBattleText",
+   "line": 88,
+   "text": "ぼく　やっぱり\nむし　ポケモン　すきだし\nトキワの　もりに　かえろうかな"
+  },
+  {
+   "label": "Route6CooltrainerM2BattleText",
+   "line": 100,
+   "text": "なんだい\nおれに　なんか　よう？"
+  },
+  {
+   "label": "Route6CooltrainerM2EndBattleText",
+   "line": 105,
+   "text": "なさけない\nうられた　ケンカに　まけた"
+  },
+  {
+   "label": "Route6CooltrainerM2AfterBattleText",
+   "line": 110,
+   "text": "もっと　たくさん\nポケモン　もって　あるいてた\nほうが　あんしんだな"
+  },
+  {
+   "label": "Route6CooltrainerF2BattleText",
+   "line": 122,
+   "text": "わたし？\n……　……　……　うーん\nつきあっても　いいかな"
+  },
+  {
+   "label": "Route6CooltrainerF2EndBattleText",
+   "line": 128,
+   "text": "……　どうも\nうまく　いかないわ"
+  },
+  {
+   "label": "Route6CooltrainerF2AfterBattleText",
+   "line": 133,
+   "text": "あたしも　つよく　なりたいの\nコツを　おしえて　くれない　かしら"
+  },
+  {
+   "label": "Route6Youngster2BattleText",
+   "line": 144,
+   "text": "おや？　みかけない　かお　だ！\nつよいのかな？"
+  },
+  {
+   "label": "Route6Youngster2EndBattleText",
+   "line": 149,
+   "text": "そりゃ　ないよ"
+  },
+  {
+   "label": "Route6Youngster2AfterBattleText",
+   "line": 153,
+   "text": "ポケモンが　よわいのか\nぼくの　うでが　わるいのか……\nどっちだと　おもう？"
+  },
+  {
+   "label": "Route6UndergroundPathSignText",
+   "line": 159,
+   "text": "ここから　ちかつうろ\nハナダ　シティ　……　クチバ　シティ"
+  }
+ ]
+}

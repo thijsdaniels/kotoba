@@ -1,0 +1,96 @@
+{
+ "source": "scripts/SSAnne1FRooms.asm",
+ "entries": [
+  {
+   "label": "SSAnne1FRoomsGentleman1BattleText",
+   "line": 43,
+   "text": "わたしは　たびびと……！\n\nたびさきで　とった　ポケモン　だけが\nわたしの　ともだち"
+  },
+  {
+   "label": "SSAnne1FRoomsGentleman1EndBattleText",
+   "line": 50,
+   "text": "と……ともだちが……"
+  },
+  {
+   "label": "SSAnne1FRoomsGentleman1AfterBattleText",
+   "line": 54,
+   "text": "あのね！\nともだちは　だいじに　しなさい！"
+  },
+  {
+   "label": "SSAnne1FRoomsGentleman2BattleText",
+   "line": 65,
+   "text": "む　きみは？　だまって　はいって\nしつれいな　こどもだ！"
+  },
+  {
+   "label": "SSAnne1FRoomsGentleman2EndBattleText",
+   "line": 70,
+   "text": "ふん！\nれいぎを　しらんよ　きみは"
+  },
+  {
+   "label": "SSAnne1FRoomsGentleman2AfterBattleText",
+   "line": 75,
+   "text": "わたしは　ひとりで　いたいんだ\nでて　いって　くれ！"
+  },
+  {
+   "label": "SSAnne1FRoomsYoungsterBattleText",
+   "line": 86,
+   "text": "ぼくは　ポケモン　だいすきだ！\nきみも　ポケモン　やるの！"
+  },
+  {
+   "label": "SSAnne1FRoomsYoungsterEndBattleText",
+   "line": 91,
+   "text": "うわあ！\nつよいんだ　きみって"
+  },
+  {
+   "label": "SSAnne1FRoomsYoungsterAfterBattleText",
+   "line": 96,
+   "text": "ね　ね！\nぼくと　ともだちに　なってよ！\n\nそれでね！\nポケモン　こうかんとか　しようよ"
+  },
+  {
+   "label": "SSAnne1FRoomsCooltrainerFBattleText",
+   "line": 110,
+   "text": "あたしが　せかい　じゅうから\nあつめた　ポケモン　みてー！"
+  },
+  {
+   "label": "SSAnne1FRoomsCooltrainerFEndBattleText",
+   "line": 115,
+   "text": "いやーん！\nせかいの　ポケモン　なのに……"
+  },
+  {
+   "label": "SSAnne1FRoomsCooltrainerFAfterBattleText",
+   "line": 120,
+   "text": "もう……！　わたしの\nポケモン　こんなに　しちゃって！\n\nポケモン　センターで\nげんきに　してきて　ほしいわ！"
+  },
+  {
+   "label": "SSAnne1FRoomsGirl1Text",
+   "line": 128,
+   "text": "ねぇ　ボーイさん！\nわたし　ケーキが　たべたいの\nミルフィーユを　おねがい！"
+  },
+  {
+   "label": "SSAnne1FRoomsMiddleAgedManText",
+   "line": 134,
+   "text": "ふねで　かいがい　りょこう　なんて\nゆうがで　いいよー！"
+  },
+  {
+   "label": "SSAnne1FRoomsLittleGirlText",
+   "line": 139,
+   "text": "あたしと　プクリンは\nずーっと　いっしょ　なの！"
+  },
+  {
+   "label": "SSAnne1FRoomsWigglytuffText",
+   "line": 144,
+   "text": "ぷう　ぷぷうー",
+   "speaker": "プクリン"
+  },
+  {
+   "label": "SSAnne1FRoomsGirl2Text",
+   "line": 151,
+   "text": "わたくし　こども　たちと\nせかいを　まわって　ますの　おほほ"
+  },
+  {
+   "label": "SSAnne1FRoomsGentleman3Text",
+   "line": 156,
+   "text": "しー……！\nわたしは　こくさい　けいさつ！\n\nロケットだんの　わるだくみを\nおって　いる　ところだ！"
+  }
+ ]
+}

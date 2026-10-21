@@ -1,0 +1,56 @@
+{
+ "source": "scripts/PokemonTower7F.asm",
+ "entries": [
+  {
+   "label": "PokemonTower7FRocket1BattleText",
+   "line": 209,
+   "text": "む！　なんだ　おまえは？\nなにしに　ここへ　きた？"
+  },
+  {
+   "label": "PokemonTower7FRocket1EndBattleText",
+   "line": 214,
+   "text": "ま　まいった！"
+  },
+  {
+   "label": "PokemonTower7FRocket1AfterBattleText",
+   "line": 218,
+   "text": "お！　おぼえて　やがれ！"
+  },
+  {
+   "label": "PokemonTower7FRocket2BattleText",
+   "line": 228,
+   "text": "この　じいさん\nロケットだん　アジトに　くるなり\n\nポケモンを　いじめたり\nころしたり　するなって　うるさくて\n\nここで　おとなの　はなし　あいを\nしてた　ところだ！"
+  },
+  {
+   "label": "PokemonTower7FRocket2EndBattleText",
+   "line": 239,
+   "text": "かんべん　してくれ……"
+  },
+  {
+   "label": "PokemonTower7FRocket2AfterBattleText",
+   "line": 243,
+   "text": "ポケモンなんて\nしょうばい　どうぐに　すぎない！\n\nおれたちの\nじゃま　するんじゃ　ないぜ！"
+  },
+  {
+   "label": "PokemonTower7FRocket3BattleText",
+   "line": 257,
+   "text": "おれたちを　たおさなきゃ\nじいさんは　たすけられないぜ！"
+  },
+  {
+   "label": "PokemonTower7FRocket3EndBattleText",
+   "line": 262,
+   "text": "ロケットだんに\nはむかう　とはな！"
+  },
+  {
+   "label": "PokemonTower7FRocket3AfterBattleText",
+   "line": 267,
+   "text": "くそー……！\nこのままで　すむと　おもうなよ！"
+  },
+  {
+   "label": "PokemonTower7FMrFujiText.RescueText",
+   "line": 292,
+   "text": "え……　わたしを\nたすけに　きたんですか？\n\n……　どうも　ありがとう\nでも……　わたしは……\n\nカラカラの　おかあさん　ガラガラの\nたましいを　なぐさめる　ために\nすすんで　ここまで　きたのです\n\n……ああ　どうやら　ガラガラも\nてんごくへ　むかった　ようですね\n\nせっかく　ここまで　きてくれた\nきみにも　おれいを　しなきゃね！\n\nでは　これから\nいっしょに　うちへ　いきましょう\n\nポケモンハウスは\nこの　タワーの　ふもとです！",
+   "speaker": "フジ"
+  }
+ ]
+}

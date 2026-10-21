@@ -1,0 +1,10 @@
+{
+ "source": "data/events/prizes.asm",
+ "entries": [
+  {
+   "label": "NoThanksText",
+   "line": 6,
+   "text": "いらない"
+  }
+ ]
+}

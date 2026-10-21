@@ -1,0 +1,109 @@
+{
+ "id": "route1",
+ "name": "Route 1",
+ "levelCap": 10,
+ "strings": [
+  {
+   "source": "scripts/Route1.asm",
+   "label": "Route1Youngster1Text.MartSampleText",
+   "line": 30,
+   "text": "わたし　フレンドリィ　ショップの\nてんいん　です\n\nべんりな　どうぐや　ですから\nトキワ　シティで\nぜひ　よって　くださいね！\n\nそうだ！\nみほんを　さしあげましょう\n……　どうぞ！"
+  },
+  {
+   "source": "scripts/Route1.asm",
+   "label": "Route1Youngster1Text.GotPotionText",
+   "line": 43,
+   "text": "{player}は\n「"
+  },
+  {
+   "source": "scripts/Route1.asm",
+   "label": "Route1Youngster1Text.GotPotionText",
+   "line": 46,
+   "text": "」を　もらった！",
+   "continuation": true
+  },
+  {
+   "source": "scripts/Route1.asm",
+   "label": "Route1Youngster1Text.AlsoGotPokeballsText",
+   "line": 51,
+   "text": "ポケモンを　つかまえる\nモンスターボール　かう　ときも\nショップへ　いらして　ください！"
+  },
+  {
+   "source": "scripts/Route1.asm",
+   "label": "Route1Youngster1Text.NoRoomText",
+   "line": 57,
+   "text": "にもつが　いっぱいだ！"
+  },
+  {
+   "source": "scripts/Route1.asm",
+   "label": "Route1Youngster2Text",
+   "line": 61,
+   "text": "みちに　だんさが　あるだろ！\n\nとび　おりるのは\nちょっと　こわいけど……\n\nマサラ　タウンに　かえる　ときは\nはやく　かえれて　いいよ"
+  },
+  {
+   "source": "scripts/Route1.asm",
+   "label": "Route1SignText",
+   "line": 71,
+   "text": "ここは　１ばん　どうろ\nマサラ　タウン　……　トキワ　シティ"
+  }
+ ],
+ "pokemon": [
+  {
+   "const": "PIDGEY",
+   "ja": "ポッポ",
+   "dex": 16,
+   "types": [
+    "NORMAL",
+    "FLYING"
+   ],
+   "levels": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "moves": [
+    "GUST",
+    "SAND_ATTACK"
+   ],
+   "new": true
+  },
+  {
+   "const": "RATTATA",
+   "ja": "コラッタ",
+   "dex": 19,
+   "types": [
+    "NORMAL"
+   ],
+   "levels": [
+    2,
+    3,
+    4
+   ],
+   "moves": [
+    "TACKLE",
+    "TAIL_WHIP",
+    "QUICK_ATTACK"
+   ],
+   "new": true
+  }
+ ],
+ "moves": [
+  {
+   "const": "GUST",
+   "ja": "かぜおこし",
+   "learnedBy": "PIDGEY"
+  },
+  {
+   "const": "SAND_ATTACK",
+   "ja": "すなかけ",
+   "learnedBy": "PIDGEY"
+  },
+  {
+   "const": "QUICK_ATTACK",
+   "ja": "でんこうせっか",
+   "learnedBy": "RATTATA"
+  }
+ ],
+ "items": []
+}

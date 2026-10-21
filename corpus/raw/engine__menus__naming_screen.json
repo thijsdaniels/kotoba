@@ -1,0 +1,30 @@
+{
+ "source": "engine/menus/naming_screen.asm",
+ "entries": [
+  {
+   "label": "DoYouWantToNicknameText",
+   "line": 52,
+   "text": "に\nニックネームを　つけますか？"
+  },
+  {
+   "label": "YourTextString",
+   "line": 462,
+   "text": "あなた"
+  },
+  {
+   "label": "RivalsTextString",
+   "line": 465,
+   "text": "ライバル"
+  },
+  {
+   "label": "NameTextString",
+   "line": 468,
+   "text": "のなまえは？"
+  },
+  {
+   "label": "NicknameTextString",
+   "line": 471,
+   "text": "ニックネームは？"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "home/text_script.asm",
+ "entries": [
+  {
+   "label": "PokemartGreetingText",
+   "line": 153,
+   "text": "ようこそ！\nおさがしものですか？"
+  },
+  {
+   "label": "PokemonFaintedText",
+   "line": 194,
+   "text": "は　ちからつきた"
+  },
+  {
+   "label": "PlayerBlackedOutText",
+   "line": 204,
+   "text": "{player}の　てもとには\nたたかえるポケモンが　もういない！\n\n{player}は\nめのまえが　まっくらに　なった！"
+  },
+  {
+   "label": "RepelWoreOffText",
+   "line": 217,
+   "text": "スプレーの　こうかがきれた"
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "source": "scripts/Route9.asm",
+ "entries": [
+  {
+   "label": "Route9CooltrainerF1BattleText",
+   "line": 89,
+   "text": "あら　ポケモン　もってるわね\n……　カモ　だわ！"
+  },
+  {
+   "label": "Route9CooltrainerF1EndBattleText",
+   "line": 94,
+   "text": "あら？　つよいわね"
+  },
+  {
+   "label": "Route9CooltrainerF1AfterBattleText",
+   "line": 98,
+   "text": "この　さきの　トンネル\nなかは　まっくら　だから\nあかりが　ないと　すすめ　ないわ"
+  },
+  {
+   "label": "Route9CooltrainerM1BattleText",
+   "line": 104,
+   "text": "だれだ？\nよさげな　ポケモン　もって\nふらふら　あるいとる　おまえは？"
+  },
+  {
+   "label": "Route9CooltrainerM1EndBattleText",
+   "line": 110,
+   "text": "まけよった"
+  },
+  {
+   "label": "Route9CooltrainerM1AfterBattleText",
+   "line": 114,
+   "text": "くやしくて　なみだも　でん"
+  },
+  {
+   "label": "Route9CooltrainerM2BattleText",
+   "line": 118,
+   "text": "イワヤマ　トンネル　ぬけて\nシオン　タウンに\nいく　ところ　なんだ　けど……"
+  },
+  {
+   "label": "Route9CooltrainerM2EndBattleText",
+   "line": 124,
+   "text": "どうも　だめだな"
+  },
+  {
+   "label": "Route9CooltrainerM2AfterBattleText",
+   "line": 128,
+   "text": "なんだい　きみも\nイワヤマ　トンネル　いくのか"
+  },
+  {
+   "label": "Route9CooltrainerF2BattleText",
+   "line": 133,
+   "text": "おんなのこ　だからって\nてかげんは　なしね！"
+  },
+  {
+   "label": "Route9CooltrainerF2EndBattleText",
+   "line": 138,
+   "text": "だめ！　かなわないわ"
+  },
+  {
+   "label": "Route9CooltrainerF2AfterBattleText",
+   "line": 142,
+   "text": "あなた　きっと\nポケモンの　さいのう　あるのよ\nがんばってね！"
+  },
+  {
+   "label": "Route9Hiker1BattleText",
+   "line": 148,
+   "text": "がはは！\nちょうど　いい！\nたいくつ　してた　とこだ"
+  },
+  {
+   "label": "Route9Hiker1EndBattleText",
+   "line": 154,
+   "text": "まだまだ！\n……　と　おもったら\nもう　ポケモンが　ない"
+  },
+  {
+   "label": "Route9Hiker1AfterBattleText",
+   "line": 160,
+   "text": "やまおとこに\nびびらずに　たたかうとは\nたいした　もんだ！"
+  },
+  {
+   "label": "Route9Hiker2BattleText",
+   "line": 166,
+   "text": "はーっはっはッ！\nげんきな　ぼうず　だ！\nいっちょう　やったるか！"
+  },
+  {
+   "label": "Route9Hiker2EndBattleText",
+   "line": 172,
+   "text": "おっとっと！"
+  },
+  {
+   "label": "Route9Hiker2AfterBattleText",
+   "line": 176,
+   "text": "はーっはっはッ！\nげんきで　けっこう！"
+  },
+  {
+   "label": "Route9Youngster1BattleText",
+   "line": 181,
+   "text": "まいあさ　はやおき　して\nそだてた　さなぎが！\nやっと　かえったんだ！"
+  },
+  {
+   "label": "Route9Youngster1EndBattleText",
+   "line": 187,
+   "text": "えーッ！\n\nぼくの　はやおきは\nいったい　なんだったんだあ"
+  },
+  {
+   "label": "Route9Youngster1AfterBattleText",
+   "line": 194,
+   "text": "つよく　なるには　むし　ポケモンの\nほかも　さがさないと　ダメ　だな"
+  },
+  {
+   "label": "Route9Hiker3BattleText",
+   "line": 199,
+   "text": "はっはっはーッ！\nかかって　こーい！"
+  },
+  {
+   "label": "Route9Hiker3EndBattleText",
+   "line": 204,
+   "text": "はーっはっはッ！\nありゃ　まけた　ようだな"
+  },
+  {
+   "label": "Route9Hiker3AfterBattleText",
+   "line": 209,
+   "text": "はっはっはーッ！\nやまおとこは　こころが　ひろいから\nまけても　わらってるのだ！"
+  },
+  {
+   "label": "Route9Youngster2BattleText",
+   "line": 215,
+   "text": "おいらの　かわいい　むし　ポケ！\nそれいけー！"
+  },
+  {
+   "label": "Route9Youngster2EndBattleText",
+   "line": 220,
+   "text": "おいらの　むし……"
+  },
+  {
+   "label": "Route9Youngster2AfterBattleText",
+   "line": 224,
+   "text": "むし　ポケモンの　よさが\nわからない　やつは　むし！"
+  },
+  {
+   "label": "Route9SignText",
+   "line": 229,
+   "text": "ここは　９ばん　どうろ\nハナダ　……　イワヤマ　トンネル"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "source": "engine/movie/oak_speech/oak_speech.asm",
+ "entries": [
+  {
+   "label": "OakSpeechText1",
+   "line": 168,
+   "text": "はじめまして！\nポケット　モンスターの　せかいへ\nようこそ！\n\nわたしの　なまえは　オーキド\nみんなからは　ポケモン　はかせと\nしたわれて　おるよ"
+  },
+  {
+   "label": "OakSpeechText2",
+   "line": 178,
+   "text": "この　せかいには\nポケット　モンスターと　よばれる\n\nいきもの　たちが\nいたるところに　すんでいる！"
+  },
+  {
+   "label": "OakSpeechText2",
+   "line": 185,
+   "text": "その　ポケモン　という　いきものを\nひとは　ペットに　したり\nしょうぶに　つかったり···\n\nそして···\n\nわたしは　この　ポケモンの\nけんきゅうを　してる　というわけだ",
+   "continuation": true
+  },
+  {
+   "label": "IntroducePlayerText",
+   "line": 198,
+   "text": "では　はじめに　きみの　なまえを\nおしえて　もらおう！"
+  },
+  {
+   "label": "IntroduceRivalText",
+   "line": 203,
+   "text": "こいつは　わたしの　まご\nきみの　おさななじみであり\nライバル　である\n\n···えーと？\nなまえは　なんて　いったかな？"
+  },
+  {
+   "label": "OakSpeechText3",
+   "line": 212,
+   "text": "{player}！\n\nいよいよ　これから\nきみの　ものがたりの　はじまりだ！\n\nゆめと　ぼうけんと！\nポケット　モンスターの　せかいへ！\nレッツ　ゴー！"
+  }
+ ]
+}

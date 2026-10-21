@@ -1,0 +1,85 @@
+{
+ "source": "scripts/CeruleanGym.asm",
+ "entries": [
+  {
+   "label": "CeruleanGym_Script.CityName",
+   "line": 19,
+   "text": "ハナダ"
+  },
+  {
+   "label": "CeruleanGym_Script.LeaderName",
+   "line": 22,
+   "text": "カスミ"
+  },
+  {
+   "label": "CeruleanGymMistyText.PreBattleText",
+   "line": 124,
+   "text": "あのね　きみ！\n\nポケモン　そだてる　にも\nポリシーが　ある　やつ　だけが\nプロに　なれるの！\n\nあなたは　ポケモン　つかまえて\nそだてる　とき\nなにを　かんがえてる？\n\nわたしの　ポリシーはね……\n\nみず　タイプ　ポケモンで　せめて\nせめて　……せめまくる　ことよ！"
+  },
+  {
+   "label": "CeruleanGymMistyText.TM11ExplanationText",
+   "line": 141,
+   "text": "わざマシン１１は　バブルこうせんを\nポケモンに　おしえるの\n\nみずに　すむ　ポケモンに\nつかって　あげて！"
+  },
+  {
+   "label": "CeruleanGymMistyCascadeBadgeInfoText",
+   "line": 149,
+   "text": "ブルー　バッジが　あれば\nレベル３０までの　ポケモンは\nおとなしく　いうこと　きくわ！\n\nそれが　たとえ\nひとから　もらった　ポケモンでもね\n\nそれと　たたかって　なくても\nいあいぎりが　つかえるわ\n\nほそい　きを　きりたおして\nとおれる　ように　なるの\n\n……　あと　これは　わたしの\nじまんの　わざマシンよ！"
+  },
+  {
+   "label": "CeruleanGymMistyReceivedTM11Text",
+   "line": 167,
+   "text": "{player}は　カスミから\nわざマシン１１を　もらった！"
+  },
+  {
+   "label": "CeruleanGymMistyTM11NoRoomText",
+   "line": 173,
+   "text": "にもつ　いっぱいね"
+  },
+  {
+   "label": "CeruleanGymMistyReceivedCascadeBadgeText",
+   "line": 177,
+   "text": "うーん……！\nわたしの　まけね\n\nしょうが　ない！\n\nわたしに　かった　しょうこに\nブルー　バッジを　あげる！"
+  },
+  {
+   "label": "CeruleanGymCooltrainerFBattleText",
+   "line": 195,
+   "text": "きみ　なんて\nあたしで　じゅうぶん！\n\nカスミが　でる　まく　じゃないわ"
+  },
+  {
+   "label": "CeruleanGymCooltrainerFEndBattleText",
+   "line": 202,
+   "text": "まいったわ！"
+  },
+  {
+   "label": "CeruleanGymCooltrainerFAfterBattleText",
+   "line": 206,
+   "text": "いろんな　ポケモン　トレーナーと\nたたかって　みないと\nじぶんの　つよさ　わからない　ものね"
+  },
+  {
+   "label": "CeruleanGymSwimmerBattleText",
+   "line": 218,
+   "text": "おわっぷ！\n\nまずは　おれが　あいてだ！\nかかって　こい！"
+  },
+  {
+   "label": "CeruleanGymSwimmerEndBattleText",
+   "line": 225,
+   "text": "こんな　はずは　ない"
+  },
+  {
+   "label": "CeruleanGymSwimmerAfterBattleText",
+   "line": 229,
+   "text": "カスミは　これから　まだまだ\nつよくなる　トレーナーだ！\n\nおまえ　なんかにゃ\nまけたり　しないよ"
+  },
+  {
+   "label": "CeruleanGymGymGuideText.ChampInMakingText",
+   "line": 250,
+   "text": "おーす！\nみらいの　チャンピオン！\n\nアドバイス　しよう！\n\nここの　リーダー　カスミは\nみずに　すむ　ポケモンを　つかう\nプロフェッショナルだ！\n\nこんな　ときは　しょくぶつ　タイプで\nみずを　すいとる　さくせんだ\n\n……　それか　でんき　タイプで\nしびれ　させるのも　いいぜ"
+  },
+  {
+   "label": "CeruleanGymGymGuideText.BeatMistyText",
+   "line": 267,
+   "text": "カスミに　かったな！\nおれの　いった　とおり　だったろ？\n\nおまえも　すごいが\nおれも　すごいだろ？"
+  }
+ ]
+}

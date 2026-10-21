@@ -1,0 +1,25 @@
+{
+ "source": "scripts/Route16Gate1F.asm",
+ "entries": [
+  {
+   "label": "Route16Gate1FGuardText.NoPedestriansAllowedText",
+   "line": 109,
+   "text": "サイクリング　ロードは\nあるいて　すすむと　キケンです！\nじてんしゃに　のって　きてね"
+  },
+  {
+   "label": "Route16Gate1FGuardText.CyclingRoadExplanationText",
+   "line": 115,
+   "text": "サイクリング　ロードは\nうみを　いく　さかみち！\nかけおりると　きもち　いいよ！"
+  },
+  {
+   "label": "Route16Gate1FGuardWaitUpText",
+   "line": 121,
+   "text": "ちょっと　きみ　きみ！"
+  },
+  {
+   "label": "Route16Gate1FGamblerText",
+   "line": 125,
+   "text": "こんな　とこ　よく　きた！\nごくろうな　こっちゃ！"
+  }
+ ]
+}

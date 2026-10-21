@@ -1,0 +1,38 @@
+{
+ "source": "engine/events/give_pokemon.asm",
+ "entries": [
+  {
+   "label": "GotMonText",
+   "line": 62,
+   "text": "{player}は"
+  },
+  {
+   "label": "GotMonText",
+   "line": 65,
+   "text": "を　てにいれた！",
+   "continuation": true
+  },
+  {
+   "label": "SentToBoxText",
+   "line": 70,
+   "text": "ポケモンを　もちきれないので\nパソコンの　ボックス"
+  },
+  {
+   "label": "SentToBoxText",
+   "line": 73,
+   "text": "に",
+   "continuation": true
+  },
+  {
+   "label": "SentToBoxText",
+   "line": 76,
+   "text": "を　てんそうした！",
+   "continuation": true
+  },
+  {
+   "label": "BoxIsFullText",
+   "line": 80,
+   "text": "ポケモンを　もちきれません！\n\nボックスも　いっぱいで\nてんそうできません！\n\nポケモンセンターなどで\nボックスを　かえてきて　ください"
+  }
+ ]
+}

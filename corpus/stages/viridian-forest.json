@@ -1,0 +1,295 @@
+{
+ "id": "viridian-forest",
+ "name": "Viridian Forest",
+ "levelCap": 10,
+ "strings": [
+  {
+   "source": "scripts/ViridianForestSouthGate.asm",
+   "label": "ViridianForestSouthGateGirlText",
+   "line": 9,
+   "text": "トキワの　もりへ　いくの？\nもりは　てんねんの　めいろよ\nまよわないよう　きを　つけて"
+  },
+  {
+   "source": "scripts/ViridianForestSouthGate.asm",
+   "label": "ViridianForestSouthGateLittleGirlText",
+   "line": 15,
+   "text": "コラッタは　ちっちゃい　けど\nまえばの　いちげきは　あなどれない\nもう　つかまえた　かしら？"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster1Text",
+   "line": 39,
+   "text": "ともだちと　むし　ポケモン\nとりに　きてるんだ！\n\nポケモン　しょうぶ　したくて\nみんな　ウズウズ　してるよ！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster2BattleText",
+   "line": 53,
+   "text": "よーしッ！\nきみは　ポケモン　もってるな？\nしょうぶ　しようぜ！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster2EndBattleText",
+   "line": 59,
+   "text": "まけたあ！\nキャタピー　なんか　じゃ　ダメか"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster2AfterBattleText",
+   "line": 64,
+   "text": "しッ……！\nむしが　にげる　から　またな！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster3BattleText",
+   "line": 75,
+   "text": "おーいッ！\nポケモン　トレーナーなら\nしょうぶは　ことわれ　ないぜ！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster3EndBattleText",
+   "line": 81,
+   "text": "あれ？\nもう　ポケモンが　ないや"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster3AfterBattleText",
+   "line": 86,
+   "text": "くやしいな！\nつよいのを　つかまえて　こよう！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster4BattleText",
+   "line": 97,
+   "text": "ちょっと　まったあ！\nそんな　いそいで　どこに　いく？"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster4EndBattleText",
+   "line": 102,
+   "text": "まいった！\nきみは　つよいな！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster4AfterBattleText",
+   "line": 107,
+   "text": "みえない　ところ　でも　ホントは\nなにか　おちてたり　する！\n\nさっき　おとしもの　したんだ\nきみも　さがして　みて　くれる？"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestYoungster5Text",
+   "line": 115,
+   "text": "ポケモン　とろうとして\nモンスター　ボール　なげてたら\nすぐ　なくなっちゃった\n\nきみも　おおめに\nかって　おくと　いいよ"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestTrainerTips1Text",
+   "line": 124,
+   "text": "……　おとくな　けいじばん！\n\nもってる　ポケモンが　よわって　きて\nたたかわせたく　ない　ときは\nくさむらを　よけて　かえろう！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestUseAntidoteSignText",
+   "line": 132,
+   "text": "どくを　くらったら　どくけし！\nフレンドリィ　ショップで！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestTrainerTips2Text",
+   "line": 137,
+   "text": "……　おとくな　けいじばん！\n\nポケモンずかんは\nパソコンつうしんで\nオーキドはかせに　みてもらえる！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestTrainerTips3Text",
+   "line": 145,
+   "text": "……　おとくな　けいじばん！\n\nひとの　ポケモンは　ひとの　もの！\nやせいの　ポケモンに　だけ\nモンスターボールを　なげて\nつかまえよう！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestTrainerTips4Text",
+   "line": 154,
+   "text": "……　おとくな　けいじばん！\n\nポケモンを　つかまえる　ときは\nなるべく　よわらせてから！\n\nポケモンが　げんきだと\nにげるかも　しれないよ！"
+  },
+  {
+   "source": "scripts/ViridianForest.asm",
+   "label": "ViridianForestLeavingSignText",
+   "line": 164,
+   "text": "トキワの　もり　……　でぐち\nこのさき　ニビ　シティ"
+  },
+  {
+   "source": "scripts/ViridianForestNorthGate.asm",
+   "label": "ViridianForestNorthGateSuperNerdText",
+   "line": 9,
+   "text": "もりや　どうくつ　しか\nいない　ポケモンも　おおいよ\n\nいろんな　ポケモン　とるなら\nしつこく　さがしまわる　ことだね"
+  },
+  {
+   "source": "scripts/ViridianForestNorthGate.asm",
+   "label": "ViridianForestNorthGateGrampsText",
+   "line": 17,
+   "text": "どうろの　あちこちに\nほそい　きが　あったろ？\n\nあそこは　ポケモンの　わざで\nきって　とおれる　そうじゃ"
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "FoundHiddenItemText",
+   "line": 23,
+   "text": "{player}は"
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "FoundHiddenItemText",
+   "line": 26,
+   "text": "を　みつけた！",
+   "continuation": true
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "HiddenItemBagFullText",
+   "line": 51,
+   "text": "しかし　{player}は\nどうぐを　もう　もてない！"
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "FoundHiddenCoinsText",
+   "line": 127,
+   "text": "{player}は\nコインを"
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "FoundHiddenCoinsText",
+   "line": 130,
+   "text": "まい　みつけた！",
+   "continuation": true
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "DroppedHiddenCoinsText",
+   "line": 135,
+   "text": "{player}は\nコイン　を"
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "DroppedHiddenCoinsText",
+   "line": 138,
+   "text": "まい　みつけた！",
+   "continuation": true
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "DroppedHiddenCoinsText",
+   "line": 140,
+   "text": "しかし　{player}は\nなんまいか　おとしてしまった！",
+   "continuation": true
+  }
+ ],
+ "pokemon": [
+  {
+   "const": "WEEDLE",
+   "ja": "ビードル",
+   "dex": 13,
+   "types": [
+    "BUG",
+    "POISON"
+   ],
+   "levels": [
+    3,
+    4,
+    5
+   ],
+   "moves": [
+    "POISON_STING",
+    "STRING_SHOT"
+   ],
+   "new": false
+  },
+  {
+   "const": "KAKUNA",
+   "ja": "コクーン",
+   "dex": 14,
+   "types": [
+    "BUG",
+    "POISON"
+   ],
+   "levels": [
+    4,
+    5,
+    6
+   ],
+   "moves": [
+    "HARDEN"
+   ],
+   "new": true
+  },
+  {
+   "const": "METAPOD",
+   "ja": "トランセル",
+   "dex": 11,
+   "types": [
+    "BUG"
+   ],
+   "levels": [
+    4,
+    5,
+    6
+   ],
+   "moves": [
+    "HARDEN"
+   ],
+   "new": true
+  },
+  {
+   "const": "CATERPIE",
+   "ja": "キャタピー",
+   "dex": 10,
+   "types": [
+    "BUG"
+   ],
+   "levels": [
+    3,
+    4,
+    5
+   ],
+   "moves": [
+    "TACKLE",
+    "STRING_SHOT"
+   ],
+   "new": false
+  },
+  {
+   "const": "PIKACHU",
+   "ja": "ピカチュウ",
+   "dex": 25,
+   "types": [
+    "ELECTRIC"
+   ],
+   "levels": [
+    3,
+    5
+   ],
+   "moves": [
+    "THUNDERSHOCK",
+    "GROWL",
+    "THUNDER_WAVE"
+   ],
+   "new": true
+  }
+ ],
+ "moves": [
+  {
+   "const": "HARDEN",
+   "ja": "かたくなる",
+   "learnedBy": "KAKUNA"
+  },
+  {
+   "const": "THUNDERSHOCK",
+   "ja": "でんきショック",
+   "learnedBy": "PIKACHU"
+  },
+  {
+   "const": "THUNDER_WAVE",
+   "ja": "でんじは",
+   "learnedBy": "PIKACHU"
+  }
+ ],
+ "items": []
+}

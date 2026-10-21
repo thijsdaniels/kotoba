@@ -1,0 +1,30 @@
+{
+ "source": "engine/events/hidden_events/bills_house_pc.asm",
+ "entries": [
+  {
+   "label": "BillsHouseMonitorText",
+   "line": 47,
+   "text": "パソコンの　がめんに\nてんそうマシンと　でてます！"
+  },
+  {
+   "label": "BillsHouseInitiatedText",
+   "line": 52,
+   "text": "{player}は　てんそうマシンの\nぶんり　プログラムを　きどう　した！"
+  },
+  {
+   "label": "BillsHousePokemonListText1",
+   "line": 123,
+   "text": "マサキくんの\nおきにいり　ポケモン　リスト！"
+  },
+  {
+   "label": "BillsMonListText",
+   "line": 128,
+   "text": "イーブイ\nブースター\nサンダース\nシャワーズ\nみるのを　やめる"
+  },
+  {
+   "label": "BillsHousePokemonListText2",
+   "line": 135,
+   "text": "どれを　みせて　もらい　ますか？"
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "source": "scripts/Route20.asm",
+ "entries": [
+  {
+   "label": "Route20Swimmer1BattleText",
+   "line": 99,
+   "text": "とおあさに　なってる　から\nおよいでる　ひとも　おおいよ！"
+  },
+  {
+   "label": "Route20Swimmer1EndBattleText",
+   "line": 104,
+   "text": "うーみーッ！"
+  },
+  {
+   "label": "Route20Swimmer1AfterBattleText",
+   "line": 108,
+   "text": "きみは　ポケモンに　のってて\nつかれ　ないから　いいなあ"
+  },
+  {
+   "label": "Route20Swimmer2BattleText",
+   "line": 119,
+   "text": "ふたごじまに\nリゾートに　きてるの　わたし"
+  },
+  {
+   "label": "Route20Swimmer2EndBattleText",
+   "line": 124,
+   "text": "ちょっと　やめてよ"
+  },
+  {
+   "label": "Route20Swimmer2AfterBattleText",
+   "line": 128,
+   "text": "ふたごじまの　ちかに\nしょうにゅうどうが　あるんだって"
+  },
+  {
+   "label": "Route20Swimmer3BattleText",
+   "line": 139,
+   "text": "なみまに　ぷかぷか　うかぶ\n……　あたしは　おさかな"
+  },
+  {
+   "label": "Route20Swimmer3EndBattleText",
+   "line": 144,
+   "text": "うー　まんぼう！"
+  },
+  {
+   "label": "Route20Swimmer3AfterBattleText",
+   "line": 148,
+   "text": "あなた　いっしょに\n……　ぷかぷか　しない？"
+  },
+  {
+   "label": "Route20Swimmer4BattleText",
+   "line": 159,
+   "text": "きみも　リゾートに　きてるの？"
+  },
+  {
+   "label": "Route20Swimmer4EndBattleText",
+   "line": 163,
+   "text": "てかげん　なしね"
+  },
+  {
+   "label": "Route20Swimmer4AfterBattleText",
+   "line": 167,
+   "text": "ふたごじまは　むかしは\nふたつの　しま　だった　らしいね"
+  },
+  {
+   "label": "Route20Swimmer5BattleText",
+   "line": 178,
+   "text": "みよーッ！\nきたえ　あげた　この　からだ！"
+  },
+  {
+   "label": "Route20Swimmer5EndBattleText",
+   "line": 183,
+   "text": "ふにゃふにゃだ"
+  },
+  {
+   "label": "Route20Swimmer5AfterBattleText",
+   "line": 187,
+   "text": "じぶんの　からだ　より\nポケモンを　きたえる　べきだった"
+  },
+  {
+   "label": "Route20Swimmer6BattleText",
+   "line": 198,
+   "text": "ポケモンに　のってる　なんて\nもしかして　およげない　とか？"
+  },
+  {
+   "label": "Route20Swimmer6EndBattleText",
+   "line": 203,
+   "text": "うー　ぶくぶく"
+  },
+  {
+   "label": "Route20Swimmer6AfterBattleText",
+   "line": 207,
+   "text": "ポケモンに　のって　いくのも\nたのしそうだなあ"
+  },
+  {
+   "label": "Route20CooltrainerMBattleText",
+   "line": 218,
+   "text": "とり　ポケモンに　つかまって\nここまで　きたよ"
+  },
+  {
+   "label": "Route20CooltrainerMEndBattleText",
+   "line": 223,
+   "text": "あ！　こまったな"
+  },
+  {
+   "label": "Route20CooltrainerMAfterBattleText",
+   "line": 227,
+   "text": "とりが　へばちゃって　もどれないぞ\n……　どうしよう"
+  },
+  {
+   "label": "Route20Swimmer7BattleText",
+   "line": 238,
+   "text": "かれに\nおっきな　しんじゅ　もらったわ！"
+  },
+  {
+   "label": "Route20Swimmer7EndBattleText",
+   "line": 243,
+   "text": "やーん！\nしんじゅ　いり　なのに……"
+  },
+  {
+   "label": "Route20Swimmer7AfterBattleText",
+   "line": 248,
+   "text": "パルシェン　もっと　そだてたら\nしんじゅも　おっきく　なるかしら"
+  },
+  {
+   "label": "Route20Swimmer8BattleText",
+   "line": 259,
+   "text": "グレン　じま　から\nおよいで　きたけど……　きついわ！"
+  },
+  {
+   "label": "Route20Swimmer8EndBattleText",
+   "line": 264,
+   "text": "がっかり"
+  },
+  {
+   "label": "Route20Swimmer8AfterBattleText",
+   "line": 268,
+   "text": "グレン　じまの\nだれも　すんでない　おやしき\nいつからか　ポケモンが　すみついて\nポケモン　やしきと　よばれてる"
+  },
+  {
+   "label": "Route20Swimmer9BattleText",
+   "line": 281,
+   "text": "にしに　ある　グレン　じまは\nポケモン　けんきゅうの　しま！\nあそこで　パパも　はたらいてるわ"
+  },
+  {
+   "label": "Route20Swimmer9EndBattleText",
+   "line": 287,
+   "text": "まってよ　もう！"
+  },
+  {
+   "label": "Route20Swimmer9AfterBattleText",
+   "line": 291,
+   "text": "グレンは　かざんの　ふんかで\nもりあがって　できたって　きいたわ"
+  },
+  {
+   "label": "Route20SeafoamIslandsSignText",
+   "line": 296,
+   "text": "ふたごじま"
+  }
+ ]
+}

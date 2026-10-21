@@ -1,0 +1,15 @@
+{
+ "source": "scripts/VermilionPokecenter.asm",
+ "entries": [
+  {
+   "label": "VermilionPokecenterFishingGuruText",
+   "line": 15,
+   "text": "おなじ　レベルの　ポケモンでも\nつよさは　まちまち　らしい\n\nそれに　ひとが　そだてた\nポケモンの　ほうが\nやせい　より　つよい　らしい"
+  },
+  {
+   "label": "VermilionPokecenterSailorText",
+   "line": 24,
+   "text": "おれの　ポケモン\nどく　くらったまま　あるいてたら\nちから　つき　おったで！"
+  }
+ ]
+}

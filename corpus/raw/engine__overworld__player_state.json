@@ -1,0 +1,10 @@
+{
+ "source": "engine/overworld/player_state.asm",
+ "entries": [
+  {
+   "label": "SafariBallText",
+   "line": 248,
+   "text": "ボール　　　こ"
+  }
+ ]
+}

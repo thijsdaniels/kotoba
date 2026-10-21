@@ -1,0 +1,70 @@
+{
+ "source": "scripts/CopycatsHouse2F.asm",
+ "entries": [
+  {
+   "label": "CopycatsHouse2FCopycatText.DoYouLikePokemonText",
+   "line": 47,
+   "text": "やあ！　こんにちは！\nきみ　ポケモン　すきかい？\n\n{player}『ぼく　じゃなくって\nきみに　きいてるんだ　けど\n\n{player}『……　えー　なんだよ！\nヘンな　やつ　だなあ！\n\nモノマネむすめ『……　なに？\nひとの　マネ　すんなって？\n\nだって　あたし\nものまね　しゅみ　なんだ　もん！",
+   "speaker": "{player}"
+  },
+  {
+   "label": "CopycatsHouse2FCopycatText.TM31PreReceiveText",
+   "line": 64,
+   "text": "わあー！\nピッピにんぎょう　くれるのー！\n\nうれしーい！\n\n……　じゃあねー！\nわたし　からは　これ　あげるー！"
+  },
+  {
+   "label": "CopycatsHouse2FCopycatText.ReceivedTM31Text",
+   "line": 74,
+   "text": "{player}は　むすめさんから"
+  },
+  {
+   "label": "CopycatsHouse2FCopycatText.ReceivedTM31Text",
+   "line": 77,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "CopycatsHouse2FCopycatText.ReceivedTM31Text",
+   "line": 79,
+   "text": "わざマシン３１の　なかは\nわたしの　だいすきな　ものまね！\n\nあなたの　すきな　ポケモンに\nつかって　あげて！",
+   "continuation": true
+  },
+  {
+   "label": "CopycatsHouse2FCopycatText.TM31ExplanationText",
+   "line": 90,
+   "text": "やあ！　さっきは\nわざマシン　ありがとう！\n\n{player}『……　なーに？\n\n{player}『ぼくの　まね　して\nそんなに　たのしい　かい？\n\nモノマネむすめ『うん……！\nとっても　たのしいー！",
+   "speaker": "{player}"
+  },
+  {
+   "label": "CopycatsHouse2FCopycatText.TM31NoRoomText",
+   "line": 103,
+   "text": "にもつが　いっぱいね！"
+  },
+  {
+   "label": "CopycatsHouse2FDoduoText",
+   "line": 108,
+   "text": "ギー　ギーッ！\n\n……　カガミ　ヨ　カガミ！\nセカイデ　イチバン　カワイイ\nオンナノコハ　ダーレ？",
+   "speaker": "ドードー"
+  },
+  {
+   "label": "CopycatsHouse2FRareDollText",
+   "line": 116,
+   "text": "これは　めずらしい　ポケモン！？\n……　あれ？　ぬいぐるみ　だった"
+  },
+  {
+   "label": "CopycatsHouse2FSNESText",
+   "line": 121,
+   "text": "これは……！\nマリオが　バケツを　かぶって\nあるいて　いく　ゲームだ！"
+  },
+  {
+   "label": "CopycatsHouse2FPCText.MySecretsText",
+   "line": 138,
+   "text": "……　……　……\n\nわたしの　ひみつ……！\n\nとくいなもの　……　ものまね！\nしゅみ　……　ぬいぐるみ！\nすきなもの　……　ピッピ！\n……　……　……"
+  },
+  {
+   "label": "CopycatsHouse2FPCText.CantSeeText",
+   "line": 149,
+   "text": "？　みえないぞ……"
+  }
+ ]
+}

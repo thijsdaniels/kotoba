@@ -1,0 +1,10 @@
+{
+ "source": "data/moves/field_move_names.asm",
+ "entries": [
+  {
+   "label": "FieldMoveNames",
+   "line": 2,
+   "text": "いあいぎり\nそらをとぶ\nなみのり\nかいりき\nフラッシュ\nあなをほる\nテレポート\nタマゴうみ"
+  }
+ ]
+}

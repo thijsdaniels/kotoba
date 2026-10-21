@@ -1,0 +1,10 @@
+{
+ "source": "engine/menus/text_box.asm",
+ "entries": [
+  {
+   "label": "PokemonMenuEntries",
+   "line": 453,
+   "text": "つよさをみる\nならびかえ\nキャンセル"
+  }
+ ]
+}

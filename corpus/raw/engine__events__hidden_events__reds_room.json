@@ -1,0 +1,10 @@
+{
+ "source": "engine/events/hidden_events/reds_room.asm",
+ "entries": [
+  {
+   "label": "RedBedroomSNESText",
+   "line": 5,
+   "text": "{player}は\nファミコンを　してる！\n……　……　よし！\nそろそろ　でかけよう！"
+  }
+ ]
+}

@@ -1,0 +1,627 @@
+{
+ "id": "viridian",
+ "name": "Viridian City",
+ "levelCap": 10,
+ "strings": [
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityYoungster1Text",
+   "line": 146,
+   "text": "きみが　こしに　つけてる\nその　モンスターボールは……！\nまさしく　ポケモンだね！\n\nいつでも　ポケモンの　だしいれが\nじゆうに　できる　なんて\nべんりな　よのなかだね"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityGambler1Text.GymAlwaysClosedText",
+   "line": 169,
+   "text": "いつ　きても\nこの　ポケモン　ジムは　しまっとる\n\nいったい　どんな　ヤツが\nリーダーを　しとるんじゃろか？"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityGambler1Text.GymLeaderReturnedText",
+   "line": 177,
+   "text": "トキワ　ジムの　リーダーが\nかえって　きたぞ！"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityYoungster2Text.YouWantToKnowAboutText",
+   "line": 199,
+   "text": "いもむし　ポケモンには\n２しゅるい　いるって　しらない？"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityYoungster2Text.OkThenText",
+   "line": 204,
+   "text": "それなら　いいんだ！"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityYoungster2Text.CaterpieAndWeedleDescriptionText",
+   "line": 208,
+   "text": "キャタピーは　どくが　ないけど\nビードルには　どくが　あるよ\n\nポケモンが　さされないように\nきを　つけようね"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityGirlText.HasntHadHisCoffeeYetText",
+   "line": 229,
+   "text": "あらら　じいちゃん！\nこんな　ところで　ねちゃって\nしょーが　ないわね！\nよいが　さめるまで　まつしかないわ"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityGirlText.WhenIGoShopText",
+   "line": 236,
+   "text": "ときどき　ニビシティまで\nおかいものに　いきますけど\n\nトキワのもり　って\nみちが　まがり　くねってるのよ"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityOldManSleepyText.PrivatePropertyText",
+   "line": 253,
+   "text": "ういーっ！　ひっく……　まちやがれ！\nわしの　はなしを　きけ！\n\n……　こら！\nいくな！　と　いっとろーが！"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityFisherText.YouCanHaveThisText",
+   "line": 284,
+   "text": "ふあー！\nひなたぼっこ　してて\nねむって　しまった！\n\n……　へんな　ゆめを　みた\nスリープが　ゆめを　くっていた！\n……およ？　ぼく　いつのまに\nわざマシン　もってるけど？\n\nうーん\nきみが　わるい！\nこれ　きみに　あげる！"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityFisherText.ReceivedTM42Text",
+   "line": 299,
+   "text": "{player}は　にいちゃんから\nわざマシン４２を　もらった！"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityFisherText.TM42ExplanationText",
+   "line": 305,
+   "text": "わざマシン４２の　なかみは……\nゆめくい　だよ……\n……　ぐー……"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityFisherText.TM42NoRoomText",
+   "line": 311,
+   "text": "にもつ　いっぱい　じゃん"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityOldManText.HadMyCoffeeNowText",
+   "line": 336,
+   "text": "うーん……\nよっぱらってた　みたいじゃ！\n\nあたまが　いたい……\n\nときに　おいそぎ……　かな？"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityOldManText.KnowHowToCatchPokemonText",
+   "line": 345,
+   "text": "ほっほう！\nポケモンずかん　つくっとるか\n\nなら　わしから　アドバイスじゃ！\nポケモンを　つかまえて　しらべれば\nじどうてきに　ページが\nふえて　いくんじゃよ！\n\nなんじゃー\nつかまえかたを　しらんのか！\n\nでは……　わしが\nおてほんを　みせて　やるかな！"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityOldManText.TimeIsMoneyText",
+   "line": 361,
+   "text": "タイム　イズ　マネー……\n……　ときは　かねなりか"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityOldManYouNeedToWeakenTheTargetText",
+   "line": 366,
+   "text": "はじめの　うちは\nポケモンを　よわらせてから\nとるのが　コツじゃ！"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCitySignText",
+   "line": 372,
+   "text": "ここは　トキワシティ\nトキワは　みどり　えいえんのいろ"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityTrainerTips1Text",
+   "line": 377,
+   "text": "……　おとくな　けいじばん！\n\nとにかく　ポケモンを　つかまえて\nドンドン　ふやそう！\nトレーナーとの　しょうぶも\nたくさん　もってると　ゆうり！"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityTrainerTips2Text",
+   "line": 386,
+   "text": "……　おとくな　けいじばん！\n\nポケモンには　たいりょくの　ほか\nわざを　くりだす　げんきの　もと\nパワーポイントが　あります\n\nわざ　ごとの　パワーポイントが\nなくなった　ときも\nポケモンセンターで　やすませて！"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityGymSignText",
+   "line": 398,
+   "text": "トキワ　ポケモンジム"
+  },
+  {
+   "source": "scripts/ViridianCity.asm",
+   "label": "ViridianCityGymLockedText",
+   "line": 402,
+   "text": "トキワ　ジムのドアには\nカギが　かかって　いた……！"
+  },
+  {
+   "source": "scripts/ViridianPokecenter.asm",
+   "label": "ViridianPokecenterGentlemanText",
+   "line": 15,
+   "text": "すみに　ある　パソコンは　どうぞ\nごじゆうに　おつかいください！\n\n……と　うけつけの　ねーちゃんが\nいっとった　しんせつやのう"
+  },
+  {
+   "source": "scripts/ViridianPokecenter.asm",
+   "label": "ViridianPokecenterCooltrainerMText",
+   "line": 23,
+   "text": "ポケモンセンターは　このさき\nどこの　まちに　いっても　ある！\n\nなんびき　あずけても　ただ　だし\nこまめに　つかうと　いいよ！"
+  },
+  {
+   "source": "scripts/ViridianMart.asm",
+   "label": "ViridianMartClerkSayHiToOakText",
+   "line": 80,
+   "text": "じゃ！\nオーキド　はかせに　よろしく！"
+  },
+  {
+   "source": "scripts/ViridianMart.asm",
+   "label": "ViridianMartClerkYouCameFromPalletTownText",
+   "line": 85,
+   "text": "お！　きみは\nマサラ　タウンから　きたんだね？"
+  },
+  {
+   "source": "scripts/ViridianMart.asm",
+   "label": "ViridianMartClerkParcelQuestText",
+   "line": 90,
+   "text": "オーキド　はかせを　しってるね？\n\nこれ　たのまれてるんだけど\nわたして　くれるかい！\n\n{player}は　ショップから\nとどけものを　あずかった！"
+  },
+  {
+   "source": "scripts/ViridianMart.asm",
+   "label": "ViridianMartYoungsterText",
+   "line": 101,
+   "text": "ねえ　この　みせの　うれすじは\nどくけし　なんだって！"
+  },
+  {
+   "source": "scripts/ViridianMart.asm",
+   "label": "ViridianMartCooltrainerMText",
+   "line": 106,
+   "text": "ないなー　キズぐすり……\nここでは　うりきれてる　みたい"
+  },
+  {
+   "source": "scripts/ViridianSchoolHouse.asm",
+   "label": "ViridianSchoolHouseBrunetteGirlText",
+   "line": 9,
+   "text": "ふー\nノートの　なかの　こと\nわたし　ぜんぶ　おぼえるの"
+  },
+  {
+   "source": "scripts/ViridianSchoolHouse.asm",
+   "label": "ViridianSchoolHouseCooltrainerFText",
+   "line": 15,
+   "text": "はい！\n\nこくばんに　かかれてる　こと\nちゃんと　みて！"
+  },
+  {
+   "source": "scripts/ViridianNicknameHouse.asm",
+   "label": "ViridianNicknameHouseBaldingGuyText",
+   "line": 11,
+   "text": "ニックネームを　かんがえることは\nたのしい……が　むずかしい！\n\nこった　ニックネームも　いいが\nおぼえやすいのが　いちばん　やな！"
+  },
+  {
+   "source": "scripts/ViridianNicknameHouse.asm",
+   "label": "ViridianNicknameHouseLittleGirlText",
+   "line": 19,
+   "text": "うちの　とうちゃんも\nポケモン　だいすきなのよ！"
+  },
+  {
+   "source": "scripts/ViridianNicknameHouse.asm",
+   "label": "ViridianNicknameHouseSpearowText.Text",
+   "line": 33,
+   "text": "チュ　チュン！",
+   "speaker": "オニチャン"
+  },
+  {
+   "source": "scripts/ViridianNicknameHouse.asm",
+   "label": "ViridianNicknameHouseSpearySignText",
+   "line": 37,
+   "text": "オニスズメ\nめいめい　「オニチャン」"
+  },
+  {
+   "source": "engine/events/pokecenter.asm",
+   "label": "PokemonCenterWelcomeText",
+   "line": 48,
+   "text": "ようこそ！\nポケモンセンターへ\n\nここでは　ポケモンの\nたいりょく　かいふくを　いたします"
+  },
+  {
+   "source": "engine/events/pokecenter.asm",
+   "label": "ShallWeHealYourPokemonText",
+   "line": 56,
+   "text": "モンスターボールを\nおあずけに　なりますか？"
+  },
+  {
+   "source": "engine/events/pokecenter.asm",
+   "label": "NeedYourPokemonText",
+   "line": 62,
+   "text": "それでは\nあずからせて　いただきます！"
+  },
+  {
+   "source": "engine/events/pokecenter.asm",
+   "label": "PokemonFightingFitText",
+   "line": 67,
+   "text": "おまちどうさまでした！\nおあずかりした　ポケモンは\nみんな　げんきに　なりましたよ！"
+  },
+  {
+   "source": "engine/events/pokecenter.asm",
+   "label": "PokemonCenterFarewellText",
+   "line": 73,
+   "text": "またの\nごりようを　おまちしてます！"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartBuyingGreetingText",
+   "line": 229,
+   "text": "ゆっくり　ごらんになって　ください"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartTellBuyPriceText",
+   "line": 233,
+   "text": "ですね"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartTellBuyPriceText",
+   "line": 237,
+   "text": "円に　なりますが？",
+   "continuation": true
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartBoughtItemText",
+   "line": 241,
+   "text": "はい　どうぞ\nまいど　ありがとう　ございます"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartNotEnoughMoneyText",
+   "line": 246,
+   "text": "おかねが　たりないようですね"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartItemBagFullText",
+   "line": 250,
+   "text": "それいじょう　もちきれませんね\nいらないモノを　せいりしてください"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemonSellingGreetingText",
+   "line": 255,
+   "text": "どれを　うっていただけますか？"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartTellSellPriceText",
+   "line": 259,
+   "text": "それでしたら"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartTellSellPriceText",
+   "line": 261,
+   "text": "円で\nおひきとりいたしましょう",
+   "continuation": true
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartItemBagEmptyText",
+   "line": 266,
+   "text": "かいとれる　しなものは\nおもちで　ないようです"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartUnsellableItemText",
+   "line": 271,
+   "text": "……そのしなものに　おねだんを\nおつけするわけには　まいりません"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartThankYouText",
+   "line": 276,
+   "text": "ありがとう　ございました"
+  },
+  {
+   "source": "engine/events/pokemart.asm",
+   "label": "PokemartAnythingElseText",
+   "line": 280,
+   "text": "そのほかに　わたくしどもで\nおちからに　なれることは？"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "LinkCableHelpText1",
+   "line": 62,
+   "text": "……　ポケモン　こうざ！\n\nつうしん　ケーブルを　つかった\nあそびかた　に　ついて"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "LinkCableHelpText2",
+   "line": 69,
+   "text": "どの　こうもくを　よみますか？"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "HowToLinkText",
+   "line": 73,
+   "text": "ケーブルで　あそぶには\nコロシアム\nトレード　センター\nよむ　の　やめる"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "LinkCableInfoText1",
+   "line": 84,
+   "text": "ともだちの　ゲームボーイと\nケーブルで　つないだら\nポケモン　センター　みぎがわの\nカウンターの　おねえさんが\nあんない　してくれます"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "LinkCableInfoText2",
+   "line": 92,
+   "text": "コロシアムは\nともだちと　たいせん　するとき\nはいる　へや　です"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "LinkCableInfoText3",
+   "line": 98,
+   "text": "トレードセンターは　ともだちと\nポケモンを　こうかん　する　とき\nはいる　へや　です"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "ViridianSchoolBlackboardText1",
+   "line": 190,
+   "text": "こくばんに\nポケモンが　たたかってる　とき\nおこる　たいちょうの\nへんかに　ついて　かかれてる"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "ViridianSchoolBlackboardText2",
+   "line": 197,
+   "text": "どの　こうもくを　みますか？"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "StatusAilmentText1",
+   "line": 201,
+   "text": "ねむり\nどく\nマヒ"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "StatusAilmentText2",
+   "line": 206,
+   "text": "やけど\nこおり\nやめる"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "ViridianBlackboardSleepText",
+   "line": 220,
+   "text": "ねてしまうと　その　あいだは\nこうげき　できません！\n\nたたかい　おわっても　ねたまま\nねむけざましで　めが　さめます"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "ViridianBlackboardPoisonText",
+   "line": 228,
+   "text": "どくを　くらうと\nたいりょくが　へって　いきます\n\nたたかい　おわっても\nどくは　のこりますが\nどくけしで　きえます！"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "ViridianBlackboardPrlzText",
+   "line": 237,
+   "text": "マヒすると　わざが\nときどき　でなく　なります！\n\nたたかい　おわっても\nマヒは　のこります\nまた　マヒなおしで　なおります"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "ViridianBlackboardBurnText",
+   "line": 246,
+   "text": "やけどは　たいりょくが　へって\nこうげきりょくと　すばやさも\nさがって　しまいます！\n\nたたかい　おわっても\nやけどは　のこります\nまた　やけどなおしで　なおります"
+  },
+  {
+   "source": "engine/events/hidden_events/school_blackboard.asm",
+   "label": "ViridianBlackboardFrozenText",
+   "line": 256,
+   "text": "こおって　しまうと\nまったく　うごけなく　なります！\n\nたたかい　おわっても　こおってます\nこおりなおしで　とかさないと\nポケモンが　かわいそう"
+  },
+  {
+   "source": "engine/events/hidden_events/school_notebooks.asm",
+   "label": "TMNotebook",
+   "line": 8,
+   "text": "わざマシンの　パンフレットだ！\n……　……\n\nわざマシンは\nぜんぶで　５０しゅるい！\n\nひでんマシンは\nつかっても　なくならない　タイプ\nぜんぶで　５しゅるい　あります\n\n……　シルフ　カンパニー"
+  },
+  {
+   "source": "engine/events/hidden_events/school_notebooks.asm",
+   "label": "TurnPageText",
+   "line": 52,
+   "text": "つぎのページ　あけちゃおうか？"
+  },
+  {
+   "source": "engine/events/hidden_events/school_notebooks.asm",
+   "label": "ViridianSchoolNotebookText5",
+   "line": 56,
+   "text": "あー！\nノート　みちゃ　だめ！",
+   "speaker": "おんなのこ"
+  },
+  {
+   "source": "engine/events/hidden_events/school_notebooks.asm",
+   "label": "ViridianSchoolNotebookText1",
+   "line": 62,
+   "text": "ノートを　のぞいた！\n\n１ページめ　……\n\nポケモンは\nモンスターボールで　つかまえて\n６つまで　もち　あるける\n\nポケモンを　そだてて　たたかわせる\nひとを　ポケモン　トレーナーという"
+  },
+  {
+   "source": "engine/events/hidden_events/school_notebooks.asm",
+   "label": "ViridianSchoolNotebookText2",
+   "line": 75,
+   "text": "２ページめ　……\n\nポケモンを　つかまえる　ときは\nまず　よわらせてから！\nどくや　やけどで\n\nよわらせても　いいよ！\nげんきだと　うまく　とれないかも"
+  },
+  {
+   "source": "engine/events/hidden_events/school_notebooks.asm",
+   "label": "ViridianSchoolNotebookText3",
+   "line": 86,
+   "text": "３ページめ　……\n\nポケモンどうしを　たたかわせ\nかつことは　トレーナーに　とって\nさいこうの　よろこび　である！\n\nかくちの　ポケモン　ジムでは\nいつも　はげしい\nたたかいが　くりひろげられてる！"
+  },
+  {
+   "source": "engine/events/hidden_events/school_notebooks.asm",
+   "label": "ViridianSchoolNotebookText4",
+   "line": 98,
+   "text": "４ページめ　……\n\nポケモントレーナーの　もくひょうは\nかくちの　ジムに　いる\n\nつよい　トレーナー\n８にんしゅうを　たおすこと！\n\nさらに　ポケモンリーグ　ほんぶには\n……　もうれつに　つよい！\n\nしてんのうが　くんりん　してる！"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "BillsPCMenuText",
+   "line": 322,
+   "text": "ポケモンを　つれていく\nポケモンを　あずける\nポケモンを　にがす\nボックスを　かえる\nさようなら"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "BoxNoPCText",
+   "line": 329,
+   "text": "いまのボックス"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "StatsCancelPCText",
+   "line": 430,
+   "text": "つよさをみる\nキャンセル"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "SwitchOnText",
+   "line": 434,
+   "text": "スイッチ　オン！"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "WhatText",
+   "line": 438,
+   "text": "なんに　するん？"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "DepositWhichMonText",
+   "line": 442,
+   "text": "どの　ポケモンを\nあずけたいんや？"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "MonWasStoredText",
+   "line": 447,
+   "text": "を　ボックス"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "MonWasStoredText",
+   "line": 450,
+   "text": "に\nあずけた！",
+   "continuation": true
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "CantDepositLastMonText",
+   "line": 455,
+   "text": "それ　あずけたら\nこまるん　ちゃう？"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "BoxFullText",
+   "line": 460,
+   "text": "あちゃ！　ウチは\nポケモンで　いっぱいや"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "MonIsTakenOutText",
+   "line": 465,
+   "text": "を\nまた　つれていく　ことにした！"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "MonIsTakenOutText",
+   "line": 470,
+   "text": "を　うけとった！",
+   "continuation": true
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "NoMonText",
+   "line": 474,
+   "text": "なに？\nウチは　なんも　あずかっとらんで？"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "CantTakeMonText",
+   "line": 479,
+   "text": "そんなん　いうても\nポケモン　もちきれへんやんけ！\n\nとりあえず　あずけるか　にがすか\nしたら　ええんちゃう？"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "ReleaseWhichMonText",
+   "line": 487,
+   "text": "どの　ポケモンを\nにがすんや？"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "OnceReleasedText",
+   "line": 492,
+   "text": "にがすと"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "OnceReleasedText",
+   "line": 494,
+   "text": "は\nもう　もどってこんで　ええんか？",
+   "continuation": true
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "MonWasReleasedText",
+   "line": 499,
+   "text": "を\nそとに　にがして　あげた！\nばいばい"
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "MonWasReleasedText",
+   "line": 504,
+   "text": "！",
+   "continuation": true
+  },
+  {
+   "source": "engine/pokemon/bills_pc.asm",
+   "label": "JustAMomentText",
+   "line": 542,
+   "text": "ちょっと　まってね"
+  },
+  {
+   "source": "engine/menus/oaks_pc.asm",
+   "label": "GetDexRatedText",
+   "line": 17,
+   "text": "げんざいの　ポケモンずかんを\nひょうか　して　もらい　ますか？"
+  },
+  {
+   "source": "engine/menus/oaks_pc.asm",
+   "label": "ClosedOaksPCText",
+   "line": 22,
+   "text": "……　オーキドの　パソコンとの\nせつぞくを　おわった！"
+  },
+  {
+   "source": "engine/menus/oaks_pc.asm",
+   "label": "AccessedOaksPCText",
+   "line": 28,
+   "text": "オーキドの　パソコンと　つないだ！\n\nポケモン　ずかん\nひょうか　システムを　よびだした！"
+  }
+ ],
+ "pokemon": [],
+ "moves": [],
+ "items": [
+  {
+   "const": "POKE_BALL",
+   "ja": "モンスターボール",
+   "from": "ViridianMartClerkText"
+  },
+  {
+   "const": "ANTIDOTE",
+   "ja": "どくけし",
+   "from": "ViridianMartClerkText"
+  },
+  {
+   "const": "PARLYZ_HEAL",
+   "ja": "まひなおし",
+   "from": "ViridianMartClerkText"
+  },
+  {
+   "const": "BURN_HEAL",
+   "ja": "やけどなおし",
+   "from": "ViridianMartClerkText"
+  }
+ ]
+}

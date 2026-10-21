@@ -1,0 +1,92 @@
+{
+ "source": "engine/menus/players_pc.asm",
+ "entries": [
+  {
+   "label": "PlayersPCMenuEntries",
+   "line": 243,
+   "text": "どうぐを　ひきだす\nどうぐを　あずける\nどうぐを　すてる\nスイッチを　きる"
+  },
+  {
+   "label": "TurnedOnPC2Text",
+   "line": 249,
+   "text": "{player}は\nパソコンの　スイッチを　いれた！"
+  },
+  {
+   "label": "WhatDoYouWantText",
+   "line": 254,
+   "text": "なにを　しますか？"
+  },
+  {
+   "label": "WhatToDepositText",
+   "line": 258,
+   "text": "なにを　あずけますか？"
+  },
+  {
+   "label": "DepositHowManyText",
+   "line": 262,
+   "text": "いくつ　あずけますか？"
+  },
+  {
+   "label": "ItemWasStoredText",
+   "line": 266,
+   "text": "パソコンつうしんで"
+  },
+  {
+   "label": "ItemWasStoredText",
+   "line": 269,
+   "text": "を　あずけた！",
+   "continuation": true
+  },
+  {
+   "label": "NothingToDepositText",
+   "line": 273,
+   "text": "あずけられる　どうぐを\nもっていません！"
+  },
+  {
+   "label": "NoRoomToStoreText",
+   "line": 278,
+   "text": "どうぐが　いっぱいです\nもう　あずけられません！"
+  },
+  {
+   "label": "WhatToWithdrawText",
+   "line": 283,
+   "text": "なにを　ひきだしますか？"
+  },
+  {
+   "label": "WithdrawHowManyText",
+   "line": 287,
+   "text": "いくつ　ひきだしますか？"
+  },
+  {
+   "label": "WithdrewItemText",
+   "line": 291,
+   "text": "パソコンつうしんで"
+  },
+  {
+   "label": "WithdrewItemText",
+   "line": 294,
+   "text": "を　ひきだした！",
+   "continuation": true
+  },
+  {
+   "label": "NothingStoredText",
+   "line": 298,
+   "text": "なにも　あずけていません！"
+  },
+  {
+   "label": "CantCarryMoreText",
+   "line": 302,
+   "text": "どうぐが　いっぱいです\nもう　もてません！"
+  },
+  {
+   "label": "WhatToTossText",
+   "line": 307,
+   "text": "なにを　すてますか？"
+  },
+  {
+   "label": "TossHowManyText",
+   "line": 311,
+   "text": "いくつ　すてますか？"
+  }
+ ]
+}

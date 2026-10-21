@@ -1,0 +1,15 @@
+{
+ "source": "scripts/ViridianSchoolHouse.asm",
+ "entries": [
+  {
+   "label": "ViridianSchoolHouseBrunetteGirlText",
+   "line": 9,
+   "text": "ふー\nノートの　なかの　こと\nわたし　ぜんぶ　おぼえるの"
+  },
+  {
+   "label": "ViridianSchoolHouseCooltrainerFText",
+   "line": 15,
+   "text": "はい！\n\nこくばんに　かかれてる　こと\nちゃんと　みて！"
+  }
+ ]
+}

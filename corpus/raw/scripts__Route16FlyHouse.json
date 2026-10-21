@@ -1,0 +1,31 @@
+{
+ "source": "scripts/Route16FlyHouse.asm",
+ "entries": [
+  {
+   "label": "Route16FlyHouseBrunetteGirlText.Text",
+   "line": 28,
+   "text": "あらま……！\nみつかっちゃったわね！\n\nわたしの　こと\nだれにも　いわないで\nこれ　あげる　から\n……　おねがいよ"
+  },
+  {
+   "label": "Route16FlyHouseBrunetteGirlText.ReceivedHM02Text",
+   "line": 38,
+   "text": "{player}は　おんなのこから\nひでんマシン０２を　もらった！"
+  },
+  {
+   "label": "Route16FlyHouseBrunetteGirlText.HM02ExplanationText",
+   "line": 44,
+   "text": "ひでんマシン０２は　そらをとぶ！\nとても　べんりな\nすばらしい　わざ　なの！\n\nだいじに　つかってね！"
+  },
+  {
+   "label": "Route16FlyHouseBrunetteGirlText.HM02NoRoomText",
+   "line": 52,
+   "text": "あなた　にもつ　いっぱいよ"
+  },
+  {
+   "label": "Route16FlyHouseFearowText.Text",
+   "line": 65,
+   "text": "キュイン！",
+   "speaker": "オニドリル"
+  }
+ ]
+}

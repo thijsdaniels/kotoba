@@ -1,0 +1,158 @@
+{
+ "source": "scripts/FuchsiaGym.asm",
+ "entries": [
+  {
+   "label": "FuchsiaGym_Script.CityName",
+   "line": 21,
+   "text": "セキチク"
+  },
+  {
+   "label": "FuchsiaGym_Script.LeaderName",
+   "line": 24,
+   "text": "キョウ"
+  },
+  {
+   "label": "FuchsiaGymKogaText.BeforeBattleText",
+   "line": 134,
+   "text": "……　ファ　ファ　ファ！\n\nこわっぱ　ごときが\nせっしゃに　たたかいを　いどむとは\nかたはら　いたいわ！\n\n……　どくを　くらったら　じめつ！\nねむって　しまったら　むていこう\n\n……　しのびの　わざの　ごくいを\nうけて　みるが　よい！",
+   "speaker": "キョウ"
+  },
+  {
+   "label": "FuchsiaGymKogaText.ReceivedSoulBadgeText",
+   "line": 148,
+   "text": "ふん……！\nおぬし　やりおるな！\n\nそら！\nピンク　バッジを　うけとれ！"
+  },
+  {
+   "label": "FuchsiaGymKogaText.PostBattleAdviceText",
+   "line": 156,
+   "text": "どくどくは　どくを　あびたら\n１ターン　ごとに　どんどん\nダメージが　おおきく　なる！\n\nこれは　あいてに\nきょうふを　あたえる　わざ　なのだ！"
+  },
+  {
+   "label": "FuchsiaGymKogaSoulBadgeInfoText",
+   "line": 165,
+   "text": "ピンク　バッジを　もって　おれば\nおぬしの　ポケモンの\nぼうぎょ　りょくを　あげる！\n\nたたかって　ない　ときでも\nなみのりの　わざを\nつかえる　ように　なる！\n\nそうだ……！　これを　おぬしに！"
+  },
+  {
+   "label": "FuchsiaGymKogaReceivedTM06Text",
+   "line": 177,
+   "text": "{player}は　キョウ　から"
+  },
+  {
+   "label": "FuchsiaGymKogaReceivedTM06Text",
+   "line": 180,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "FuchsiaGymKogaReceivedTM06Text",
+   "line": 182,
+   "text": "４００ねん　むかし　より\nわがやに　つたわる　ポケモン　わざ\n\nわざマシン０６には　ごくい！\nどくどくが　ふういん　してある！",
+   "continuation": true
+  },
+  {
+   "label": "FuchsiaGymKogaTM06NoRoomText",
+   "line": 192,
+   "text": "にもつが　いっぱいだ"
+  },
+  {
+   "label": "FuchsiaGymRocker1BattleText",
+   "line": 202,
+   "text": "ただ　つよい　だけでは　だめだ！\n……　わかるか？\n\nポケモンは　テクニックだ！\n\nこの　ジムに　きた　から　には\nそういう　ポケモンの　おく　ふかさ\nタップリ　おしえて　やる！"
+  },
+  {
+   "label": "FuchsiaGymRocker1EndBattleText",
+   "line": 213,
+   "text": "……！\nただもの　では　ない！"
+  },
+  {
+   "label": "FuchsiaGymRocker1AfterBattleText",
+   "line": 218,
+   "text": "こどもの　トレーナー　とはいえ\nパワー　だけでなく\nテクニックも　みがいてるな！"
+  },
+  {
+   "label": "FuchsiaGymRocker2BattleText",
+   "line": 230,
+   "text": "マジシャン　だった　おれは\nニンジャに　あこがれて\nこの　セキチク　ジムに　はいった！"
+  },
+  {
+   "label": "FuchsiaGymRocker2EndBattleText",
+   "line": 236,
+   "text": "……　やられた！"
+  },
+  {
+   "label": "FuchsiaGymRocker2AfterBattleText",
+   "line": 240,
+   "text": "たとえ　まけても　おれは\nニンジャ　マスター\nキョウの　おしえに　いきる　つもりだ"
+  },
+  {
+   "label": "FuchsiaGymRocker3BattleText",
+   "line": 252,
+   "text": "おれの　ポケモン　あやしの　わざ\nたっぷりと　あじわいな！"
+  },
+  {
+   "label": "FuchsiaGymRocker3EndBattleText",
+   "line": 257,
+   "text": "……　そうか！\nおまえも　わざ　つかいか？"
+  },
+  {
+   "label": "FuchsiaGymRocker3AfterBattleText",
+   "line": 262,
+   "text": "たたかい　おわった　あとでも\nどく　ねむり　といった　こうかは\nのこる　ところが　すき　だぜ！"
+  },
+  {
+   "label": "FuchsiaGymRocker4BattleText",
+   "line": 274,
+   "text": "おっと！　まちな！\n\nセキチク　ジムの　めいぶつ\nみえない　かべ　システムは　どうだ"
+  },
+  {
+   "label": "FuchsiaGymRocker4EndBattleText",
+   "line": 281,
+   "text": "……　ほお！\nやる　じゃないか！"
+  },
+  {
+   "label": "FuchsiaGymRocker4AfterBattleText",
+   "line": 286,
+   "text": "おまえは　ほねが　ありそう　だ！\nとくべつに　ヒントを　おしえよう！\n\nみえない　かべは　よく　みると\nしきりが　みえて　くる……！"
+  },
+  {
+   "label": "FuchsiaGymRocker5BattleText",
+   "line": 300,
+   "text": "この　おれも\nニンジャ　キョウの　もんかせい！\n\nニンジャは　むかし　から\nよく　どうぶつを　つかった　という"
+  },
+  {
+   "label": "FuchsiaGymRocker5EndBattleText",
+   "line": 308,
+   "text": "がおーん……！"
+  },
+  {
+   "label": "FuchsiaGymRocker5AfterBattleText",
+   "line": 312,
+   "text": "まだ　まだ！\nおれには　しゅぎょうが　たりない"
+  },
+  {
+   "label": "FuchsiaGymRocker6BattleText",
+   "line": 323,
+   "text": "ここの　リーダー　キョウは\nイガ　ニンジャの　しそんだ！\n\nおいッ！\nおまえは　なにの　しそん　なんだ？"
+  },
+  {
+   "label": "FuchsiaGymRocker6EndBattleText",
+   "line": 331,
+   "text": "なかなか　できるな！"
+  },
+  {
+   "label": "FuchsiaGymRocker6AfterBattleText",
+   "line": 335,
+   "text": "……　ひかり　ある　ところに\nかげが　ある！\n\nひかりと　かげ！\nおまえは　どちらを　えらぶ？"
+  },
+  {
+   "label": "FuchsiaGymGymGuideText.ChampInMakingText",
+   "line": 353,
+   "text": "おーす！\nみらいの　チャンピオン！\n\nセキチク　ジムは　からくり　やしき\nみえない　かべで　しきられてる！\n\nキョウの　やつは　すぐ　そこに\nいる　ように　みえるが……\n\nみえない　かべの　とぎれてる　とこを\nさがし　ださないと　あえないぜ！"
+  },
+  {
+   "label": "FuchsiaGymGymGuideText.BeatKogaText",
+   "line": 367,
+   "text": "げんだいに　なお　いき　のこる\nニンジャの　こわさを　みたな！"
+  }
+ ]
+}

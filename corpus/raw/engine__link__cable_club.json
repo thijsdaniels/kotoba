@@ -1,0 +1,52 @@
+{
+ "source": "engine/link/cable_club.asm",
+ "entries": [
+  {
+   "label": "CableClub_DoBattleOrTradeAgain",
+   "line": 34,
+   "text": "の　データが\nこわれています！"
+  },
+  {
+   "label": "CableClub_DoBattleOrTradeAgain",
+   "line": 342,
+   "text": "じぶん\nあいて",
+   "continuation": true
+  },
+  {
+   "label": "PleaseWaitString",
+   "line": 350,
+   "text": "つうしんじゅんびちゅう！"
+  },
+  {
+   "label": "TradeCenter_SelectMon",
+   "line": 367,
+   "text": "ステイタスをみる　　こうかんにだす"
+  },
+  {
+   "label": "CancelTextString",
+   "line": 643,
+   "text": "こうかんちゅうし"
+  },
+  {
+   "label": "WillBeTradedText",
+   "line": 907,
+   "text": "と"
+  },
+  {
+   "label": "WillBeTradedText",
+   "line": 910,
+   "text": "を\nこうかんします",
+   "continuation": true
+  },
+  {
+   "label": "TradeCompleted",
+   "line": 915,
+   "text": "こうかんしゅうりょう！"
+  },
+  {
+   "label": "TradeCanceled",
+   "line": 918,
+   "text": "ざんねんながら\nこうかんは　キャンセルされました"
+  }
+ ]
+}

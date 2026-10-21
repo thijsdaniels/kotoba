@@ -1,0 +1,10 @@
+{
+ "source": "scripts/CeladonMansion2F.asm",
+ "entries": [
+  {
+   "label": "CeladonMansion2FMeetingRoomSignText",
+   "line": 9,
+   "text": "ゲームフリーク　おうせつ　しつ"
+  }
+ ]
+}

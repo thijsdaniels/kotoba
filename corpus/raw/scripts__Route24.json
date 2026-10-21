@@ -1,0 +1,137 @@
+{
+ "source": "scripts/Route24.asm",
+ "entries": [
+  {
+   "label": "Route24CooltrainerM1Text.YouBeatOurContestText",
+   "line": 141,
+   "text": "おみごとーッ！\n５にんぬき　おめでとう！"
+  },
+  {
+   "label": "Route24CooltrainerM1Text.YouBeatOurContestText",
+   "line": 144,
+   "text": "しょうひんに\nこれを　プレゼント　しよう！",
+   "continuation": true
+  },
+  {
+   "label": "Route24CooltrainerM1Text.ReceivedNuggetText",
+   "line": 151,
+   "text": "{player}は　なぞのトレーナーから"
+  },
+  {
+   "label": "Route24CooltrainerM1Text.ReceivedNuggetText",
+   "line": 154,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "Route24CooltrainerM1Text.NoRoomText",
+   "line": 160,
+   "text": "もちものが　いっぱいだ"
+  },
+  {
+   "label": "Route24CooltrainerM1Text.JoinTeamRocketText",
+   "line": 164,
+   "text": "ところで……　ここだけの　はなし\nロケットだんに　はいらない？\n\nおれたちは\nポケモンを　わるいことに\nつかおうっていう　グループだ！\n\nはいりなよ\n\nはいらないの？\n\nはいってよ！\n\nはいれよ！\n\n……　ことわるって　かお　してんな\n\nそれなら……！\nむりやり　いれて　やる！\nうりゃーッ！"
+  },
+  {
+   "label": "Route24CooltrainerM1Text.DefeatedText",
+   "line": 187,
+   "text": "こぞう……！\nホント　つええな！"
+  },
+  {
+   "label": "Route24CooltrainerM1Text.YouCouldBecomeATopLeaderText",
+   "line": 192,
+   "text": "それだけの　うでが　あれば\nロケットだん　でも\nえらく　なれるのに　もったいないぜ！"
+  },
+  {
+   "label": "Route24CooltrainerM2BattleText",
+   "line": 204,
+   "text": "ふふ……ッ！　くさむらから\nきみの　かつやくを　みてたよ"
+  },
+  {
+   "label": "Route24CooltrainerM2EndBattleText",
+   "line": 209,
+   "text": "……　やっぱり　だめだ"
+  },
+  {
+   "label": "Route24CooltrainerM2AfterBattleText",
+   "line": 213,
+   "text": "……　はしを　わたるのが　こわくて\nずっと　ここに　かくれてたんだ"
+  },
+  {
+   "label": "Route24CooltrainerM3BattleText",
+   "line": 224,
+   "text": "きえーいッ！　５にんめ！\nおれが　あいてだあ！"
+  },
+  {
+   "label": "Route24CooltrainerM3EndBattleText",
+   "line": 229,
+   "text": "たいした　もんだ！"
+  },
+  {
+   "label": "Route24CooltrainerM3AfterBattleText",
+   "line": 233,
+   "text": "ベストを　つくしたんだ\nくいは　ない！"
+  },
+  {
+   "label": "Route24CooltrainerF1BattleText",
+   "line": 244,
+   "text": "４にんめは　わたしよ！\nそろそろ　ばてて\nきたんじゃない？"
+  },
+  {
+   "label": "Route24CooltrainerF1EndBattleText",
+   "line": 250,
+   "text": "わたしも　まけたのね"
+  },
+  {
+   "label": "Route24CooltrainerF1AfterBattleText",
+   "line": 254,
+   "text": "ベストを　つくしたんだから\nくいは　ないわ！"
+  },
+  {
+   "label": "Route24Youngster1BattleText",
+   "line": 265,
+   "text": "３にんめ　とうじょう！\nそう　かんたんには　いかないぜ！"
+  },
+  {
+   "label": "Route24Youngster1EndBattleText",
+   "line": 270,
+   "text": "へろへろ　もう　ダメ"
+  },
+  {
+   "label": "Route24Youngster1AfterBattleText",
+   "line": 274,
+   "text": "ベストを　つくしたんだ\nくいは　ない！"
+  },
+  {
+   "label": "Route24CooltrainerF2BattleText",
+   "line": 285,
+   "text": "ふたりめは　わたし！\nこれからが　ほんばん　よ！"
+  },
+  {
+   "label": "Route24CooltrainerF2EndBattleText",
+   "line": 290,
+   "text": "しんじらんなーい"
+  },
+  {
+   "label": "Route24CooltrainerF2AfterBattleText",
+   "line": 294,
+   "text": "ベストを　つくしたんだから\nくいは　ないわ！"
+  },
+  {
+   "label": "Route24Youngster2BattleText",
+   "line": 305,
+   "text": "この　はしは　ひと　よんで\nゴールデンボール　ブリッジ！\n\n５にん　かちぬけば\nごうかな　しょうひんが　もらえる！\n\nさて！\nおまえに　ぬけられるかな？"
+  },
+  {
+   "label": "Route24Youngster2EndBattleText",
+   "line": 316,
+   "text": "なかなか　やるじゃん"
+  },
+  {
+   "label": "Route24Youngster2AfterBattleText",
+   "line": 320,
+   "text": "ベストを　つくしたんだ\nくいは　ない！"
+  }
+ ]
+}

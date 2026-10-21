@@ -1,0 +1,86 @@
+{
+ "source": "scripts/CeladonMart3F.asm",
+ "entries": [
+  {
+   "label": "CeladonMart3FClerkText.TM18PreReceiveText",
+   "line": 45,
+   "text": "いらっしゃい！\nいやあー！\nポケモン　やっと　おわったよ！\n\nきみは　まだ　なの？\nそれじゃあ\nいい　もの　あげよう"
+  },
+  {
+   "label": "CeladonMart3FClerkText.ReceivedTM18Text",
+   "line": 55,
+   "text": "{player}は　てんいん　から"
+  },
+  {
+   "label": "CeladonMart3FClerkText.ReceivedTM18Text",
+   "line": 58,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "CeladonMart3FClerkText.TM18ExplanationText",
+   "line": 63,
+   "text": "てんいんの　プレゼント　だけに\nわざマシン１８の　わざは\n……　カウンター！　だよ！\nそれじゃ　がんばってね！"
+  },
+  {
+   "label": "CeladonMart3FClerkText.TM18NoRoomText",
+   "line": 70,
+   "text": "にもつが　いっぱいだ！"
+  },
+  {
+   "label": "CeladonMart3FGameBoyKid1Text",
+   "line": 74,
+   "text": "とった　ひとの　なまえと\nアイディが　ポケモン　ごとに\nきろく　されてるよ"
+  },
+  {
+   "label": "CeladonMart3FGameBoyKid2Text",
+   "line": 80,
+   "text": "やったー！\n\nとなりのこが　ゴーストと　ガルーラ\nこうかん　してくれるって！"
+  },
+  {
+   "label": "CeladonMart3FGameBoyKid3Text",
+   "line": 87,
+   "text": "はやく　きて！\nゴースト　ちゃーん！\n\nぼくは\nゴースト　マニア　なのね！\n\n……　あー？\n\nてんそう　されて　きた　ゴーストが\nべつの　ポケモンに！？"
+  },
+  {
+   "label": "CeladonMart3FLittleBoyText",
+   "line": 100,
+   "text": "ひとから　もらった　ポケモンは\nアイディが　ちがうから　わかるよ"
+  },
+  {
+   "label": "CeladonMart3FSNESText",
+   "line": 105,
+   "text": "スーパー　ファミコン　だ！"
+  },
+  {
+   "label": "CeladonMart3FRPGText",
+   "line": 109,
+   "text": "ロールプレイング　ゲームだ！\n……　あそんでく　ひまが　ない"
+  },
+  {
+   "label": "CeladonMart3FSportsGameText",
+   "line": 114,
+   "text": "これは　スポーツ　ゲームだ！\n……　おとうさんが　すきそう！"
+  },
+  {
+   "label": "CeladonMart3FPuzzleGameText",
+   "line": 119,
+   "text": "パズル　ゲームだ……！\n……　はじめたら　やめられない"
+  },
+  {
+   "label": "CeladonMart3FFightingGameText",
+   "line": 124,
+   "text": "たいせん　アクションゲームだ！\n……　ちょっと　むずかしそう！"
+  },
+  {
+   "label": "CeladonMart3FCurrentFloorSignText",
+   "line": 129,
+   "text": "３かい……テレビ　ゲーム　ショップ"
+  },
+  {
+   "label": "CeladonMart3FPokemonPosterText",
+   "line": 133,
+   "text": "あかと　みどり！\nどっちも　ポケット　モンスター！"
+  }
+ ]
+}

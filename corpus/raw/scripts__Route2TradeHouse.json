@@ -1,0 +1,10 @@
+{
+ "source": "scripts/Route2TradeHouse.asm",
+ "entries": [
+  {
+   "label": "Route2TradeHouseScientistText",
+   "line": 9,
+   "text": "ポケモンの　ひんし　じょうたいは\nたたかう　げんきが　ない　だけで\n\nいあいぎり　などの　わざは\nいつもの　ように　つかえる！"
+  }
+ ]
+}

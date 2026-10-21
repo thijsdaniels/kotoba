@@ -1,0 +1,49 @@
+{
+ "source": "engine/events/hidden_items.asm",
+ "entries": [
+  {
+   "label": "FoundHiddenItemText",
+   "line": 23,
+   "text": "{player}は"
+  },
+  {
+   "label": "FoundHiddenItemText",
+   "line": 26,
+   "text": "を　みつけた！",
+   "continuation": true
+  },
+  {
+   "label": "HiddenItemBagFullText",
+   "line": 51,
+   "text": "しかし　{player}は\nどうぐを　もう　もてない！"
+  },
+  {
+   "label": "FoundHiddenCoinsText",
+   "line": 127,
+   "text": "{player}は\nコインを"
+  },
+  {
+   "label": "FoundHiddenCoinsText",
+   "line": 130,
+   "text": "まい　みつけた！",
+   "continuation": true
+  },
+  {
+   "label": "DroppedHiddenCoinsText",
+   "line": 135,
+   "text": "{player}は\nコイン　を"
+  },
+  {
+   "label": "DroppedHiddenCoinsText",
+   "line": 138,
+   "text": "まい　みつけた！",
+   "continuation": true
+  },
+  {
+   "label": "DroppedHiddenCoinsText",
+   "line": 140,
+   "text": "しかし　{player}は\nなんまいか　おとしてしまった！",
+   "continuation": true
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "source": "engine/pokemon/status_screen.asm",
+ "entries": [
+  {
+   "label": "TypesIDNoOTText",
+   "line": 198,
+   "text": "タイプ１／\nタイプ２／\nID№／\nおや／"
+  },
+  {
+   "label": "StatusText",
+   "line": 205,
+   "text": "じょうたい／"
+  },
+  {
+   "label": "OKText",
+   "line": 208,
+   "text": "ふつう"
+  },
+  {
+   "label": "PrintStatsBox.StatsText",
+   "line": 276,
+   "text": "こうげき\nぼうぎょ\nすばやさ\nとくしゅ"
+  },
+  {
+   "label": "StatusScreenExpText",
+   "line": 452,
+   "text": "けいけんち／\nあと"
+  }
+ ]
+}

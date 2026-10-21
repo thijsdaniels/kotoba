@@ -1,0 +1,20 @@
+{
+ "source": "scripts/SafariZoneEastRestHouse.asm",
+ "entries": [
+  {
+   "label": "SafariZoneEastRestHouseScientistText",
+   "line": 11,
+   "text": "おたく　なんびき　つかまえた？\nぼくは　つかまえに　つかまえて\nつかれて　しまったよ"
+  },
+  {
+   "label": "SafariZoneEastRestHouseRockerText",
+   "line": 17,
+   "text": "ラッキーを　つかまえたぜ！\n\nこれで\nじゅーぶん　もとは　とった！"
+  },
+  {
+   "label": "SafariZoneEastRestHouseSilphWorkerMText",
+   "line": 24,
+   "text": "はあ……！\nはしゃぎ　すぎて　つかれちゃった"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "source": "scripts/PokemonFanClub.asm",
+ "entries": [
+  {
+   "label": "PokemonFanClubPikachuFanText.NormalText",
+   "line": 40,
+   "text": "みてよ！　うちの　ピカチュウ\nなんて　かわいい　しっぽ！"
+  },
+  {
+   "label": "PokemonFanClubPikachuFanText.BetterText",
+   "line": 45,
+   "text": "なにを！\n\nうちの　ピカチュウの　ほうが\nその　ばいは　かわいい　わい！"
+  },
+  {
+   "label": "PokemonFanClubSeelFanText.NormalText",
+   "line": 67,
+   "text": "あたしの　いとしい　パウワウ！\n\nだきしめると\nきゅー！　って　なくのよ！"
+  },
+  {
+   "label": "PokemonFanClubSeelFanText.BetterText",
+   "line": 74,
+   "text": "おほほ！\n\nあたしの　パウワウの　ほうが\nその　ばいは　かわいいわよ！"
+  },
+  {
+   "label": "PokemonFanClubPikachuText",
+   "line": 81,
+   "text": "ちゅー　ぴかちゅ",
+   "speaker": "ピカチュウ"
+  },
+  {
+   "label": "PokemonFanClubSeelText.Text",
+   "line": 103,
+   "text": "きゅー",
+   "speaker": "パウワウ"
+  },
+  {
+   "label": "PokemonFanClubChairmanText.IntroText",
+   "line": 143,
+   "text": "ポケモン　だいすき　クラブの\nかいちょうは　わし　じゃ！\n\nかってる　ポケモンは\n１００ぴきを　こえとる！\n\nポケモンに　かんしては\nホント　うるさい！　ですぞ！\n\nで……\n\nきみは　わしの　ポケモン　じまんを\nききに　きたの　かね？"
+  },
+  {
+   "label": "PokemonFanClubChairmanText.StoryText",
+   "line": 159,
+   "text": "そうか！\nでは　さっそく　はじめるか！\n\nあのな……　わしの　おきにいりの\nギャロップがな……　……\n\n……　でな……　が……\n……　……　かわいくてな……\nたまらん……　くう……\n……　さらに……　もう……\nすごすぎ……　……　で……\n……　そう　おもうか……\nどうして……　……　すき……\n……　はー！\n\n……　……　だきしめて……\nねるときも……\n……　じゃろ……　……\n……　……　すばらし……！\n……　うつくし……\n……　……　ありゃ！\nもう　こんな　じかんか！\nちょっと　しゃべり　すぎたわい\n\nわしの　ポケモン　じまんを\nおとなしく　きいてた　おれいに\n……これは　きもち　じゃ！"
+  },
+  {
+   "label": "PokemonFanClubChairmanText.BikeVoucherText",
+   "line": 189,
+   "text": "{player}は　かいちょうから"
+  },
+  {
+   "label": "PokemonFanClubChairmanText.BikeVoucherText",
+   "line": 192,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "PokemonFanClubChairmanText.BikeVoucherText",
+   "line": 194,
+   "text": "その　ひきかえけんで\nタダで　じてんしゃが　もらえる！\n\nなに　わしには　おきにいりの\nとりポケモン　オニドリルが　おる\nいきたい　ところへ　ひとっとびじゃ\n\nだから　じてんしゃ　など　いらん！\n\nじてんしゃは　きみが\nすきに　のったら　ええ！",
+   "continuation": true
+  },
+  {
+   "label": "PokemonFanClubChairmanText.NoStoryText",
+   "line": 210,
+   "text": "なんじゃ……　つまらん\nきく　きに　なったら　きてくれい！"
+  },
+  {
+   "label": "PokemonFanClubChairmanText.FinalText",
+   "line": 215,
+   "text": "やー　やー　{player}くん！\n\nまた　わしの　ポケモン　じまんを\nききに　きたの　かね！\n\n……　え　ちがう？\nなんじゃ……　つまらん"
+  },
+  {
+   "label": "PokemonFanClubChairmanText.BagFullText",
+   "line": 225,
+   "text": "にもつが　いっぱい　じゃ！"
+  },
+  {
+   "label": "PokemonFanClubReceptionistText",
+   "line": 229,
+   "text": "うちの　かいちょうは\nホント　ポケモンに　うるさいの！"
+  },
+  {
+   "label": "PokemonFanClubSign1Text",
+   "line": 234,
+   "text": "かいぬしの　じまん　ばなしには\nしずかに　みみを　かたむけよう！"
+  },
+  {
+   "label": "PokemonFanClubSign2Text",
+   "line": 239,
+   "text": "ひとの　じまん　ばなしは\n１０ばい　にして　かえそう！"
+  }
+ ]
+}

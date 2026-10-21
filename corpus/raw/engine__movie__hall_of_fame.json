@@ -1,0 +1,41 @@
+{
+ "source": "engine/movie/hall_of_fame.asm",
+ "entries": [
+  {
+   "label": "HallOfFameText",
+   "line": 94,
+   "text": "でんどう　いり　おめでとう！"
+  },
+  {
+   "label": "HoFMonInfoText",
+   "line": 180,
+   "text": "レベル／\nタイプ１／\nタイプ２／"
+  },
+  {
+   "label": "HoFPlayTimeText",
+   "line": 263,
+   "text": "プレイじかん"
+  },
+  {
+   "label": "HoFMoneyText",
+   "line": 266,
+   "text": "のこった　おこづかい"
+  },
+  {
+   "label": "DexSeenOwnedText",
+   "line": 269,
+   "text": "ポケモンずかん:みつけたかず"
+  },
+  {
+   "label": "DexSeenOwnedText",
+   "line": 271,
+   "text": "つかまえたかず",
+   "continuation": true
+  },
+  {
+   "label": "DexRatingText",
+   "line": 277,
+   "text": "ポケモンずかん　ひょうか:"
+  }
+ ]
+}

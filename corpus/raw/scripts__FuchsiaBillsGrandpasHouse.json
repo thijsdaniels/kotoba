@@ -1,0 +1,20 @@
+{
+ "source": "scripts/FuchsiaBillsGrandpasHouse.asm",
+ "entries": [
+  {
+   "label": "FuchsiaBillsGrandpasHouseMiddleAgedWomanText",
+   "line": 11,
+   "text": "サファリ　ゾーンの　えんちょう\nおとし　なのに　すごく　げんきよ\n\nでも……「は」は\nぜんぶ　いれば　らしい　けど"
+  },
+  {
+   "label": "FuchsiaBillsGrandpasHouseBillsGrandpaText",
+   "line": 19,
+   "text": "おや？　あんた\nマサキの　ことを　しっとるのかね？\n\nマサキは　わしの　まごじゃ！\n\nちいさい　ころから\nものを　あつめるのが　すきな\nこども　じゃった！"
+  },
+  {
+   "label": "FuchsiaBillsGrandpasHouseYoungsterText",
+   "line": 30,
+   "text": "マサキ　にいちゃん\nじぶんで　あつめた　ポケモンも\nパソコンの　データに　してるよ！\n\nみせて　もらった？"
+  }
+ ]
+}

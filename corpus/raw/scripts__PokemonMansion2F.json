@@ -1,0 +1,45 @@
+{
+ "source": "scripts/PokemonMansion2F.asm",
+ "entries": [
+  {
+   "label": "PokemonMansion2FSuperNerdBattleText",
+   "line": 78,
+   "text": "この　やしき　しかけが　してあって\nなかなか　すすめませんぜ！"
+  },
+  {
+   "label": "PokemonMansion2FSuperNerdEndBattleText",
+   "line": 83,
+   "text": "わーッ！\nふろしきの　なかみが"
+  },
+  {
+   "label": "PokemonMansion2FSuperNerdAfterBattleText",
+   "line": 88,
+   "text": "ひみつの　スイッチを　おすと\nふたつの　とびらが\nたがい　ちがいに　ひらくんでさ"
+  },
+  {
+   "label": "PokemonMansion2FDiary1Text",
+   "line": 94,
+   "text": "にっき　７がつ５か\nここは　みなみアメリカの　ギアナ\n\nジャングルの　おくちで\nしんしゅの　ポケモンを　はっけん"
+  },
+  {
+   "label": "PokemonMansion2FDiary2Text",
+   "line": 102,
+   "text": "にっき　７がつ１０か\nしんはっけんの　ポケモンを\nわたしは　ミュウと　なづけた"
+  },
+  {
+   "label": "PokemonMansion2FSwitchText.Text",
+   "line": 134,
+   "text": "ひみつの　スイッチが　ある！\n\nおして　みますか？"
+  },
+  {
+   "label": "PokemonMansion2FSwitchText.PressedText",
+   "line": 140,
+   "text": "おしてみよう！　……ポチッとな"
+  },
+  {
+   "label": "PokemonMansion2FSwitchText.NotPressed",
+   "line": 144,
+   "text": "おすのは　あきらめた"
+  }
+ ]
+}

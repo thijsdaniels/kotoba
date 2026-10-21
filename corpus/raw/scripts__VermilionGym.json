@@ -1,0 +1,112 @@
+{
+ "source": "scripts/VermilionGym.asm",
+ "entries": [
+  {
+   "label": "VermilionGym_Script.CityName",
+   "line": 24,
+   "text": "クチバ"
+  },
+  {
+   "label": "VermilionGym_Script.LeaderName",
+   "line": 27,
+   "text": "マチス"
+  },
+  {
+   "label": "VermilionGymLTSurgeText.PreBattleText",
+   "line": 146,
+   "text": "ヘーイ！\nプア　リトル　ボーイ！\n\nユーの　ハンパな　パワーでは\nせんじょうじゃ　いき　のこれないネ\n\nミーは　せんそうで\nエレクトリック　ポケモン　つかって\nいき　のびたネ！\n\nみんな　ビリビリ　シビレて\nうごけナーイ！\n\nユーも　おなじ　みち　たどる\nちがい　ナーイ！"
+  },
+  {
+   "label": "VermilionGymLTSurgeText.PostBattleAdviceText",
+   "line": 164,
+   "text": "ヘイ！\nそれから　ユーに　アドバイス！\n\nエレクトリック　パワー\nビリビリ　つよいネー！\n\nでも　じめん　タイプには\nパワー　すいとられて　しまって\nぜんぜん　きかないヨー！"
+  },
+  {
+   "label": "VermilionGymLTSurgeThunderBadgeInfoText",
+   "line": 176,
+   "text": "オレンジ　バッジ　もってる　だけで\nユーの　ポケモン　スピード　アップ\n\nアーンド！　そらをとぶ　わざは\nファイト　ない　ときも\nつかえる　ように　なるヨ！\n\nユーは　スペシャル！\nこれは　ミーの　きもちネ！"
+  },
+  {
+   "label": "VermilionGymLTSurgeReceivedTM24Text",
+   "line": 188,
+   "text": "{player}は　マチスから"
+  },
+  {
+   "label": "VermilionGymLTSurgeReceivedTM24Text",
+   "line": 191,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "VermilionGymLTSurgeReceivedTM24Text",
+   "line": 193,
+   "text": "わざマシン２４は\nでんき　ビリビリ　１０まんボルト\n\nエレクトリック　ポケモンに\nおしえて　くだサーイ！",
+   "continuation": true
+  },
+  {
+   "label": "VermilionGymLTSurgeTM24NoRoomText",
+   "line": 203,
+   "text": "フル　オブ　ユア　リュック！\nあなた　もてませーん！"
+  },
+  {
+   "label": "VermilionGymLTSurgeReceivedThunderBadgeText",
+   "line": 208,
+   "text": "オー　ノー！\n\nユーの　つよさ　トゥルース！\nつまり　ほんもの　ネー！\n\nオッケー！\nオレンジ　バッジ　やるヨ！"
+  },
+  {
+   "label": "VermilionGymGentlemanBattleText",
+   "line": 224,
+   "text": "ぐんたいに　いた　ころは\nマチス　しょうさに\nビシ！ビシ！　きたえられたぜ！"
+  },
+  {
+   "label": "VermilionGymGentlemanEndBattleText",
+   "line": 230,
+   "text": "うむ！\nなかなかの　うでまえだ"
+  },
+  {
+   "label": "VermilionGymGentlemanAfterBattleText",
+   "line": 235,
+   "text": "へやが　あかないのか？\n\nマチス　の　ようじん　ぶかさは\nぐんたいでも　ゆうめい　だったぜ！"
+  },
+  {
+   "label": "VermilionGymSuperNerdBattleText",
+   "line": 248,
+   "text": "おれは　たいりょく　ないけど\nでんきの　あつかいを　かわれて\nここに　きたのだ！"
+  },
+  {
+   "label": "VermilionGymSuperNerdEndBattleText",
+   "line": 254,
+   "text": "ひゅー！　しびれた！"
+  },
+  {
+   "label": "VermilionGymSuperNerdAfterBattleText",
+   "line": 258,
+   "text": "わかった　いうよー！\n\nマチスは　へやの　スイッチを\nなにかの……\nそこに　かくしたと　いってたな"
+  },
+  {
+   "label": "VermilionGymSailorBattleText",
+   "line": 272,
+   "text": "いくら　ポケモン　うまい　からって\nここは　こどもが\nくる　ところ　じゃないぜ！"
+  },
+  {
+   "label": "VermilionGymSailorEndBattleText",
+   "line": 278,
+   "text": "ほー　おどろきだ！"
+  },
+  {
+   "label": "VermilionGymSailorAfterBattleText",
+   "line": 282,
+   "text": "マチス　しょうさは\nへやを　２じゅう　ロック　してるぜ\n……　ヒントを　あげよう！\n\nだい１　ロックを　はずしたら\nだい２　ロックは　すぐ　そばだ\nふたつの　ロックは\nとなりあわせに　あるぜ"
+  },
+  {
+   "label": "VermilionGymGymGuideText.ChampInMakingText",
+   "line": 307,
+   "text": "おーす！\nみらいの　チャンピオン！\n\nマチス　しょうさの　あだなは\nイナズマ　アメリカン！\n\nでんき　ポケモン　つかわせたら\nアメリカ　ナンバー１　らしいぜ！\n\nひこう　タイプ　みず　タイプは\nあいしょうが　わるいぜ！\n\nマヒ　させられないよう\nきを　つけな！\n\nそれと　マチスは　ようじん　ぶかい！\nかれの　へやは　ロック　されて\nかんたんには　はいれないぜ！"
+  },
+  {
+   "label": "VermilionGymGymGuideText.BeatLTSurgeText",
+   "line": 328,
+   "text": "ふー　こくさい　じあいに\nきんちょー　したぜ"
+  }
+ ]
+}

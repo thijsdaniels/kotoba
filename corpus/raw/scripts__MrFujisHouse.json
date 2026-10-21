@@ -1,0 +1,76 @@
+{
+ "source": "scripts/MrFujisHouse.asm",
+ "entries": [
+  {
+   "label": "MrFujisHouseSuperNerdText.MrFujiIsntHereText",
+   "line": 27,
+   "text": "おっかしいなー！\nフジ　ろうじんが　いないぞ！\nどこに　いったのかな？"
+  },
+  {
+   "label": "MrFujisHouseSuperNerdText.MrFujiHadBeenPrayingText",
+   "line": 33,
+   "text": "フジ　ろうじん　カラカラの　れいを\nなぐさめに　いってたんだね"
+  },
+  {
+   "label": "MrFujisHouseLittleGirlText.ThisIsMrFujisHouseText",
+   "line": 51,
+   "text": "ここは　もともと\nフジ　じいちゃんの　おうち　なの\n\nじいちゃん　やさしいのよ！\n\nすてられたり　かえなくなった\nポケモンを　あずかって\nせわ　してるの"
+  },
+  {
+   "label": "MrFujisHouseLittleGirlText.PokemonAreNiceToHugText",
+   "line": 62,
+   "text": "はあ　あったかい……！\nポケモンって　だっこ　すると\nあったかいんだよねー！"
+  },
+  {
+   "label": "MrFujisHousePsyduckText",
+   "line": 68,
+   "text": "ぐわっぱ！",
+   "speaker": "コダック"
+  },
+  {
+   "label": "MrFujisHouseNidorinoText",
+   "line": 75,
+   "text": "がぉーっ！",
+   "speaker": "ニドリーノ"
+  },
+  {
+   "label": "MrFujisHouseMrFujiText.IThinkThisMayHelpYourQuestText",
+   "line": 105,
+   "text": "さて　{player}くん……\n\nポケモンずかん　づくりは\nポケモンに　たいして\nふかい　あいじょうが　ないと\nかんせいは　たいへん　むずかしい\n\nその　たすけに　なるか　わからんが\nこれを　あなたに　さしあげよう！",
+   "speaker": "フジ"
+  },
+  {
+   "label": "MrFujisHouseMrFujiText.ReceivedPokeFluteText",
+   "line": 117,
+   "text": "{player}は　フジ　ろうじんから"
+  },
+  {
+   "label": "MrFujisHouseMrFujiText.ReceivedPokeFluteText",
+   "line": 120,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "MrFujisHouseMrFujiText.ReceivedPokeFluteText",
+   "line": 122,
+   "text": "ポケモンのふえを　ふくと\nグーグー　ねむってる　ポケモンでも\nげんきが　わいて　とびおきる！\n\nポケモンが　いねむり　して\nこまったら　つかって　みなさい",
+   "continuation": true
+  },
+  {
+   "label": "MrFujisHouseMrFujiText.PokeFluteNoRoomText",
+   "line": 133,
+   "text": "にもつが　いっぱいだな"
+  },
+  {
+   "label": "MrFujisHouseMrFujiText.HasMyFluteHelpedYouText",
+   "line": 137,
+   "text": "このあいだ　さしあげた\nふえは　やくに　たってるかな？",
+   "speaker": "フジ"
+  },
+  {
+   "label": "MrFujisHouseMrFujiPokedexText",
+   "line": 142,
+   "text": "ごうか　しょうひんが　あたる！\nげっかん　ポケモンの　とも\nビッグ·プレゼント！\n\n……おうぼ　ほうほうは\n\n……あら　きりとって　ある！"
+  }
+ ]
+}

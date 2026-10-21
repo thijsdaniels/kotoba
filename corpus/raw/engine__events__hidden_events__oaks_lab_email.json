@@ -1,0 +1,10 @@
+{
+ "source": "engine/events/hidden_events/oaks_lab_email.asm",
+ "entries": [
+  {
+   "label": "OakLabEmailText",
+   "line": 8,
+   "text": "パソコンを　みると\nなんと　でんしメールが　きていた！\n\n……　……　……\n\nポケモンを　つよく　そだてて\nたたかう　ポケモン　トレーナー！\nここに　さいきょうの\nトレーナーが　あつまり　ました\n\nばしょは　セキエイ　こうげんの\nポケモン　リーグ　ほんぶ　です！\nオーキドはかせも\nいちど　ごらん　ください\n……　ポケモン　リーグ　より\n……　……　……"
+  }
+ ]
+}

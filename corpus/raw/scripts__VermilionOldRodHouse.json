@@ -1,0 +1,42 @@
+{
+ "source": "scripts/VermilionOldRodHouse.asm",
+ "entries": [
+  {
+   "label": "VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText",
+   "line": 38,
+   "text": "わしは　つりおやじ　じゃ！\n\nもう　しぬほど\nつりが　すき　なんだが\n\nきみは　つり　すき　かな？"
+  },
+  {
+   "label": "VermilionOldRodHouseFishingGuruText.TakeThisText",
+   "line": 47,
+   "text": "そうか！\nきみとは　きが　あいそうだ！\n\nこれ　あげるから\nきみも　つり　まくりなさいよ！\n\n{player}は　つりおやじから"
+  },
+  {
+   "label": "VermilionOldRodHouseFishingGuruText.TakeThisText",
+   "line": 56,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "VermilionOldRodHouseFishingGuruText.TakeThisText",
+   "line": 58,
+   "text": "つり　こそ\nおとこの　ロマン　だ！\n\nうみでも　かわでも！\n\nえんりょ　なく\nつりざおを　つかって　くれい！",
+   "continuation": true
+  },
+  {
+   "label": "VermilionOldRodHouseFishingGuruText.ThatsSoDisappointingText",
+   "line": 70,
+   "text": "なんじゃ……　がっかりだ"
+  },
+  {
+   "label": "VermilionOldRodHouseFishingGuruText.HowAreTheFishBitingText",
+   "line": 74,
+   "text": "やー　{player}くん！\n\nつり　まくっとる　かね！"
+  },
+  {
+   "label": "VermilionOldRodHouseFishingGuruText.NoRoomText",
+   "line": 80,
+   "text": "ありゃー！\n\nいいもの　あげようと　したのに\nにもつが　いっぱいじゃ！"
+  }
+ ]
+}

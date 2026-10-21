@@ -1,0 +1,181 @@
+{
+ "source": "scripts/ViridianGym.asm",
+ "entries": [
+  {
+   "label": "ViridianGym_Script.CityName",
+   "line": 13,
+   "text": "トキワ"
+  },
+  {
+   "label": "ViridianGym_Script.LeaderName",
+   "line": 16,
+   "text": "サカキ"
+  },
+  {
+   "label": "ViridianGymGiovanniText.PreBattleText",
+   "line": 240,
+   "text": "ははははーッ！\nここは　おれの　かくれが　だ！\n\nロケットだん　ふっかつの　ひ　まで\nこの　ジムで\nたいせいを　たてなおすのだ！\n\nしかし……　きみに\nみつかって　しまっては\nしょうがない！\nこんどは　てかげん　なしだ！\nでは……\n\nいま　いちど！\nさいきょうの　トレーナー\nサカキの　うでまえを　みよ！"
+  },
+  {
+   "label": "ViridianGymGiovanniText.ReceivedEarthBadgeText",
+   "line": 259,
+   "text": "はー　はーッ！\nはげしい　たたかい　だった！\nきみの　かちだ！\nいま……\nその　あかしに\nグリーン　バッジを　わたそう！"
+  },
+  {
+   "label": "ViridianGymGiovanniText.PostBattleAdviceText",
+   "line": 269,
+   "text": "このような　まけかたを　しては\nぶかたちに　しめしが　つかない！\nロケットだんは……\nほんじつを　もって　かいさんする！\n\nわたしは\nポケモンの　しゅぎょうを\nいちから　しなおす　つもりだ！\n\nいつの　ひか……\nまた　あおう！\n……　さらばだ！"
+  },
+  {
+   "label": "ViridianGymGiovanniEarthBadgeInfoText",
+   "line": 285,
+   "text": "グリーンバッジさえ　あれば\nどんなに　レベルの　たかい\nポケモンも　いうことを　きく！\n\nきみが　いちにんまえの\nトレーナーに　なった　あかしだ！\n\nこれで　ポケモンリーグに\nいどむ　ことが　できるだろう\n\nこの　わざマシンは……！\nポケモンリーグへ　いどむ\nきみへ　せんべつだ！"
+  },
+  {
+   "label": "ViridianGymGiovanniReceivedTM27Text",
+   "line": 301,
+   "text": "{player}は　サカキから\nわざマシン２７を　もらった！"
+  },
+  {
+   "label": "ViridianGymGiovanniReceivedTM27Text",
+   "line": 304,
+   "text": "わざマシン２７は　じわれ　だ！\nじわれに　さそいこまれた　てきは\nいちげきで　ダウン　する！\nさいきょうの　わざだ！\n\nおれが　むかし……　ここで\nポケモン　ジムを　やってる　とき\nつくった　ものだ……",
+   "continuation": true
+  },
+  {
+   "label": "ViridianGymGiovanniTM27NoRoomText",
+   "line": 317,
+   "text": "にもつが　いっぱいだ！"
+  },
+  {
+   "label": "ViridianGymCooltrainerM1BattleText",
+   "line": 327,
+   "text": "……　さて！\nそろそろ……\nバテて　きたんじゃないか"
+  },
+  {
+   "label": "ViridianGymCooltrainerM1EndBattleText",
+   "line": 333,
+   "text": "……　ちから　つきた"
+  },
+  {
+   "label": "ViridianGymCooltrainerM1AfterBattleText",
+   "line": 337,
+   "text": "たいりょくが　ないと\nとても　リーダーには　かてないぜ！"
+  },
+  {
+   "label": "ViridianGymHiker1BattleText",
+   "line": 348,
+   "text": "うおーッ！\nおれの　イカリは\nさいこうちょう　だあッ！"
+  },
+  {
+   "label": "ViridianGymHiker1EndBattleText",
+   "line": 354,
+   "text": "ぬうおーッ！"
+  },
+  {
+   "label": "ViridianGymHiker1AfterBattleText",
+   "line": 358,
+   "text": "ウオースッ！\nまだまだ　れんしゅう　たりないッス"
+  },
+  {
+   "label": "ViridianGymRocker1BattleText",
+   "line": 369,
+   "text": "おれと　ポケモンの\nコンビネーション！\nバツグン　だぜ！"
+  },
+  {
+   "label": "ViridianGymRocker1EndBattleText",
+   "line": 375,
+   "text": "……　おまえと\nポケモンも　いきが　あってるな"
+  },
+  {
+   "label": "ViridianGymRocker1AfterBattleText",
+   "line": 380,
+   "text": "おまえは　ここの　リーダーが\nだれか　しって　いるのか……？"
+  },
+  {
+   "label": "ViridianGymHiker2BattleText",
+   "line": 391,
+   "text": "カラテ　こそ！\nせかい　さいきょうの　かくとうぎ！"
+  },
+  {
+   "label": "ViridianGymHiker2EndBattleText",
+   "line": 396,
+   "text": "チェーストー！"
+  },
+  {
+   "label": "ViridianGymHiker2AfterBattleText",
+   "line": 400,
+   "text": "ウィオッス！\nポケモンが　おれ　くらい\nカラテ　できれば　いいんだが……"
+  },
+  {
+   "label": "ViridianGymCooltrainerM2BattleText",
+   "line": 412,
+   "text": "しんに　つよい　トレーナーは\nかちかたも　うつくしい　ものだ！"
+  },
+  {
+   "label": "ViridianGymCooltrainerM2EndBattleText",
+   "line": 417,
+   "text": "てが　すべった……！"
+  },
+  {
+   "label": "ViridianGymCooltrainerM2AfterBattleText",
+   "line": 421,
+   "text": "こんな　まけかた　したら……\n……　リーダーに　おこられる！"
+  },
+  {
+   "label": "ViridianGymHiker3BattleText",
+   "line": 432,
+   "text": "キング　オブ　カラテ！\nここから　さきへは\nいかせないぜ！"
+  },
+  {
+   "label": "ViridianGymHiker3EndBattleText",
+   "line": 438,
+   "text": "ドッセーッ！"
+  },
+  {
+   "label": "ViridianGymHiker3AfterBattleText",
+   "line": 442,
+   "text": "ウィース！\nポケモン　リーグ　めざしてるのか！\nませた　こどもだ！"
+  },
+  {
+   "label": "ViridianGymRocker2BattleText",
+   "line": 454,
+   "text": "ピシ　ピシッ！\nほら！\nビビってるんじゃないよ！"
+  },
+  {
+   "label": "ViridianGymRocker2EndBattleText",
+   "line": 460,
+   "text": "……　い　いてて！"
+  },
+  {
+   "label": "ViridianGymRocker2AfterBattleText",
+   "line": 464,
+   "text": "まあ　まて！\nゆだん　した　だけだ！"
+  },
+  {
+   "label": "ViridianGymCooltrainerM3BattleText",
+   "line": 475,
+   "text": "トキワ　ジムは\nずっと　へいさ　していたが\nリーダーが　かえってきて\nきょうから　ふっかつだ！"
+  },
+  {
+   "label": "ViridianGymCooltrainerM3EndBattleText",
+   "line": 482,
+   "text": "……　さすがだ！"
+  },
+  {
+   "label": "ViridianGymCooltrainerM3AfterBattleText",
+   "line": 486,
+   "text": "きみが……\nトキワ　リーダーに　かてれば\nポケモンリーグに　すすめる　だろう"
+  },
+  {
+   "label": "ViridianGymGuidePreBattleText",
+   "line": 505,
+   "text": "おーす！\nみらいの　チャンピオン！\n\nトキワ　リーダーの　しょうたいは\nおれにも　わからん！\n\nたしかなのは\nいままでの　リーダーの\nだれよりも　つよいって　ことだ！\n\nそれと……\nどうも　この　ジムには\nじめん　タイプ　ポケモンの\nつかいてが　あつまってる　らしいぜ"
+  },
+  {
+   "label": "ViridianGymGuidePostBattleText",
+   "line": 522,
+   "text": "たまげたぜ！\nトキワの　リーダーが\nサカキ　だったとは！"
+  }
+ ]
+}

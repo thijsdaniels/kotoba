@@ -1,0 +1,20 @@
+{
+ "source": "scripts/CeladonChiefHouse.asm",
+ "entries": [
+  {
+   "label": "CeladonChiefHouseChiefText",
+   "line": 11,
+   "text": "けへへ……！\nスロットは　だい　はんじょう！\nもうかって　しかたないわ！"
+  },
+  {
+   "label": "CeladonChiefHouseRocketText",
+   "line": 17,
+   "text": "チーフ！\n\nきょうも　スロットの　うりあげで\nしいれた　ポケモン　２０００ひき\nしゅっか　しやした！"
+  },
+  {
+   "label": "CeladonChiefHouseSailorText",
+   "line": 25,
+   "text": "ゲーム　コーナーに　はって　ある\nポスターには　さわんな！\n\nうらに　スイッチが　かくして　ある\nなんて　こと　ないから！"
+  }
+ ]
+}

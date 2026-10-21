@@ -1,0 +1,101 @@
+{
+ "source": "engine/events/oaks_aide.asm",
+ "entries": [
+  {
+   "label": "OaksAideHiText",
+   "line": 48,
+   "text": "ぼく　おぼえてます？\nほら……！\nオーキド　はかせの　じょしゅ　です\n\nポケモンずかんが"
+  },
+  {
+   "label": "OaksAideHiText",
+   "line": 54,
+   "text": "しゅるい\nあつまってる　ようなら",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideHiText",
+   "line": 58,
+   "text": "を　わたす　よう\nはかせに　いわれ　ました\n\n……　それでは　さっそく\n{player}くん！\nつかまえた　ポケモンは",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideHiText",
+   "line": 66,
+   "text": "しゅるい　より　おおい　かな？",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideUhOhText",
+   "line": 70,
+   "text": "……　……　えーと！\nつかまえた　ポケモンは……\nあれれー？\nまだ"
+  },
+  {
+   "label": "OaksAideUhOhText",
+   "line": 75,
+   "text": "しゅるい　ですよ！",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideUhOhText",
+   "line": 79,
+   "text": "しゅるいに　たりない　なら",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideUhOhText",
+   "line": 82,
+   "text": "は\nまた　こんど　ですね",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideComeBackText",
+   "line": 87,
+   "text": "……　……　そう　ですか"
+  },
+  {
+   "label": "OaksAideComeBackText",
+   "line": 91,
+   "text": "しゅるいに　たりない　なら",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideComeBackText",
+   "line": 94,
+   "text": "は\nまた　こんど　ですね",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideHereYouGoText",
+   "line": 99,
+   "text": "……　……　なるほど！\nつかまえた　ポケモンは……"
+  },
+  {
+   "label": "OaksAideHereYouGoText",
+   "line": 103,
+   "text": "しゅるい　ですね！\nおめでとう！\n\nそれでは\nこれを　おわたし　します！",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideGotItemText",
+   "line": 111,
+   "text": "{player}は　じょしゅ　から"
+  },
+  {
+   "label": "OaksAideGotItemText",
+   "line": 114,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "OaksAideNoRoomText",
+   "line": 119,
+   "text": "……　……　と　おもった　けど\nにもつが　いっぱい　だから"
+  },
+  {
+   "label": "OaksAideNoRoomText",
+   "line": 123,
+   "text": "は\nまた　こんど　ですね",
+   "continuation": true
+  }
+ ]
+}

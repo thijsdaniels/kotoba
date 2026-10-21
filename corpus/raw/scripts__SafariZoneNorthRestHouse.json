@@ -1,0 +1,20 @@
+{
+ "source": "scripts/SafariZoneNorthRestHouse.asm",
+ "entries": [
+  {
+   "label": "SafariZoneNorthRestHouseScientistText",
+   "line": 11,
+   "text": "サファリ　ゾーン　ないに\nおちてる　アイテムは\nもって　いって　いいんだよ！\n\nでも　ぜんぶ　ひろって　たら\nじかん　なくなっちゃう！"
+  },
+  {
+   "label": "SafariZoneNorthRestHouseSafariZoneWorkerText",
+   "line": 20,
+   "text": "いま　キャンペーン　ちゅう　だろ\nゾーン　いちばん　おくの　こやで\nしょうひんを　くれるってさ！"
+  },
+  {
+   "label": "SafariZoneNorthRestHouseGentlemanText",
+   "line": 26,
+   "text": "わたしの　イーブイ\nブースターに　しんか　しよった！\n\nでも　ともだち　のは　シャワーズに\nなったんだ！　なんでだろう？"
+  }
+ ]
+}

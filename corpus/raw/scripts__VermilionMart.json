@@ -1,0 +1,15 @@
+{
+ "source": "scripts/VermilionMart.asm",
+ "entries": [
+  {
+   "label": "VermilionMartCooltrainerMText",
+   "line": 10,
+   "text": "よのなか　には　ポケモンで\nわるだくみを　する　やつらも　いる\n\nポケモンを　たかく　うりさばいたり\nときには　にんきがない　とか\n\nやくに　たたない　という　りゆうで\nころして　しまったり\n\nそういう　わるい　こと　ばかりする\nあつまりが　ロケットだんさ"
+  },
+  {
+   "label": "VermilionMartCooltrainerFText",
+   "line": 24,
+   "text": "ポケモンは　つかう　ひとに　よって\nよくも　わるくも　なる\nパートナーだと　おもうの"
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "source": "scripts/CeruleanCity.asm",
+ "entries": [
+  {
+   "label": "CeruleanCityRivalText.PreBattleText",
+   "line": 266,
+   "text": "よう　{player}！\n\nこんな　とこ\nうろちょろ　してたのか！\n\nおれ　なんか　つよいの　すごいの\nいろいろ　つかまえ　ちゃって\nぜっこうちょう　だぜ！\n\n……　どれどれ　{player}は\nなんか　つかまえた？\nみせて　みろよ！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "CeruleanCityRivalDefeatedText",
+   "line": 281,
+   "text": "なんだよー！\nムキに　なっちゃって！\n……　わかった　わかった！"
+  },
+  {
+   "label": "CeruleanCityRivalVictoryText",
+   "line": 287,
+   "text": "なんたって！\nおれは　てんさい　だからよ！"
+  },
+  {
+   "label": "CeruleanCityRivalIWentToBillsText",
+   "line": 292,
+   "text": "へへーんッ！\n\nおれ　マサキの　うちに　いって\nめずらしい　ポケモン　たくさん\nみせて　もらっちゃった　もんね！\n\nおかげで　ポケモン　ずかんの\nページが　ふえたぜ！\n\nなにしろ　マサキは　ゆうめいな\nポケモン　マニア　だからな！\n\nパソコン　つうしんの\nポケモン　あずかり　システム！\nあれも　マサキが　つくったんだぜ\n\nおまえも　つかってるんなら\nいちど　おれいに　いけば？\n\nおっと　みちくさ　くってる\nばあい　じゃ　ないぜ！\n……　じゃな　バイビー！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "CeruleanCityRocketText.Text",
+   "line": 354,
+   "text": "あ　こら！\nひとんちの　にわ　はいるなよ！\n……　……　え　おれ？\n\n……　ただの　とおり　すがりだ\nぜーんぜん　あやしくないよ！\n……　……　あやしい？"
+  },
+  {
+   "label": "CeruleanCityRocketText.ReceivedTM28Text",
+   "line": 364,
+   "text": "{player}は　ロケットだんいんから\nわざマシン２８を　とりかえした！"
+  },
+  {
+   "label": "CeruleanCityRocketText.ReceivedTM28Text",
+   "line": 367,
+   "text": "そ　それじゃ……！\nおれは　たいさん　するから！\n……　……　ばいばーい！",
+   "continuation": true
+  },
+  {
+   "label": "CeruleanCityRocketText.TM28NoRoomText",
+   "line": 376,
+   "text": "にもつが　いっぱいだ！\n\n……　これ　わたさないと\nおれ　にげられないよ！"
+  },
+  {
+   "label": "CeruleanCityRocketText.IGiveUpText",
+   "line": 383,
+   "text": "ひょえー　まいった！\nもう　しないよ！\nみのがして　くれい！"
+  },
+  {
+   "label": "CeruleanCityRocketText.IllReturnTheTMText",
+   "line": 389,
+   "text": "……　わかった！\nぬすんだ　わざマシンも　かえすよ"
+  },
+  {
+   "label": "CeruleanCityCooltrainerMText",
+   "line": 394,
+   "text": "きみも　ポケモン　やってるか！\nあつめたり　たたかったり\nいろいろ　たいへん　だな！"
+  },
+  {
+   "label": "CeruleanCitySuperNerd1Text",
+   "line": 400,
+   "text": "みせの　まえの　うえきが　じゃまで\nむこうへ　いけないよ！\n\nでも　どこか　まわりみち　すると\nいける　らしい　けど……"
+  },
+  {
+   "label": "CeruleanCitySuperNerd2Text",
+   "line": 408,
+   "text": "ほほう……！\nポケモンの　ずかんを　つくってる？\nそれは　たのしそう　だなあ！"
+  },
+  {
+   "label": "CeruleanCityGuardText",
+   "line": 414,
+   "text": "かわいそーな　ことに\n\nこの　いえは\nドロボーに　はいられたんだ！\nはんにんは　わかっとる！\nロケットだんの　しわざだ！\n\nけいさつ　としても\nロケットだんの　あくじ　には\nほとほと　こまっとるのだ！"
+  },
+  {
+   "label": "CeruleanCityCooltrainerF1Text.SlowbroUseSonicboomText",
+   "line": 448,
+   "text": "さあ　ヤドラン！\nソニック　ブーム　だすのよ！\n……やどらーん　ってば\nわたしの　いうこと　きいて！"
+  },
+  {
+   "label": "CeruleanCityCooltrainerF1Text.SlowbroPunchText",
+   "line": 455,
+   "text": "ヤドラン！　そこで　パーンチ！\n……　がっくし　また　ダメ！"
+  },
+  {
+   "label": "CeruleanCityCooltrainerF1Text.SlowbroWithdrawText",
+   "line": 460,
+   "text": "ヤドラン！　からに　こもるの！\nあん　……ちがーう！\nポケモンって　むずかしいわ！\n\nポケモンが\nいうこと　きくか　どうかは\nひとの　うでまえ　しだい　なんだもの"
+  },
+  {
+   "label": "CeruleanCitySlowbroText.TookASnoozeText",
+   "line": 497,
+   "text": "ヤドランは　ひるね　してる……"
+  },
+  {
+   "label": "CeruleanCitySlowbroText.IsLoafingAroundText",
+   "line": 501,
+   "text": "ヤドランは　なまけてる……"
+  },
+  {
+   "label": "CeruleanCitySlowbroText.TurnedAwayText",
+   "line": 505,
+   "text": "ヤドランは　そっぽを　むいた！"
+  },
+  {
+   "label": "CeruleanCitySlowbroText.IgnoredOrdersText",
+   "line": 509,
+   "text": "ヤドランは　しらんぷり　した……"
+  },
+  {
+   "label": "CeruleanCityCooltrainerF2Text",
+   "line": 513,
+   "text": "わたしも　じてんしゃ　ほしい！\nまっかな　じてんしゃ！\n\nそれで　よごすの　いや　だから\nおうちに　かざるわ！"
+  },
+  {
+   "label": "CeruleanCitySuperNerd3Text",
+   "line": 521,
+   "text": "ここは……　ハナダ　どうくつ！\nこわい　ほど　つよい　ポケモンが\nせいそく　してるぞ！\n\nポケモン　リーグ　にんてい\nチャンピオン　しか　はいれないのだ！"
+  },
+  {
+   "label": "CeruleanCitySignText",
+   "line": 530,
+   "text": "ここは　ハナダシティ\nハナダは　みずいろ　しんぴのいろ"
+  },
+  {
+   "label": "CeruleanCityTrainerTipsText",
+   "line": 535,
+   "text": "……　おとくな　けいじばん！\n\nしんかの　さいちゅうに\nビー　ボタンを　おすと\nしんかは　とまって　しまいます"
+  },
+  {
+   "label": "CeruleanCityBikeShopSign",
+   "line": 543,
+   "text": "くさむらも　どうくつも　スイスイ！\n……　……　ミラクル·サイクル"
+  },
+  {
+   "label": "CeruleanCityGymSign",
+   "line": 548,
+   "text": "ハナダ　シティ　ポケモン　ジム\nリーダー　カスミ\nおてんば　にんぎょ"
+  }
+ ]
+}

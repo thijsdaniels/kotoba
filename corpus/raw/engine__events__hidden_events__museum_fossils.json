@@ -1,0 +1,15 @@
+{
+ "source": "engine/events/hidden_events/museum_fossils.asm",
+ "entries": [
+  {
+   "label": "AerodactylFossilText",
+   "line": 9,
+   "text": "めずらしい　こだい　ポケモン\nプテラの　カセキ"
+  },
+  {
+   "label": "KabutopsFossilText",
+   "line": 22,
+   "text": "めずらしい　こだい　ポケモン\nカブトプスの　カセキ"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "source": "engine/events/hidden_events/new_bike.asm",
+ "entries": [
+  {
+   "label": "NewBicycleText",
+   "line": 5,
+   "text": "ピッカピカの　じてんしゃだ！"
+  }
+ ]
+}

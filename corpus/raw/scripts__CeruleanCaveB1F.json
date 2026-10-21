@@ -1,0 +1,10 @@
+{
+ "source": "scripts/CeruleanCaveB1F.asm",
+ "entries": [
+  {
+   "label": "CeruleanCaveB1FMewtwoBattleText",
+   "line": 32,
+   "text": "ミュー"
+  }
+ ]
+}

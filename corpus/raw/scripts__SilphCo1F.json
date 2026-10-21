@@ -1,0 +1,10 @@
+{
+ "source": "scripts/SilphCo1F.asm",
+ "entries": [
+  {
+   "label": "SilphCo1FLinkReceptionistText",
+   "line": 15,
+   "text": "いらっしゃいませ！\n\nしゃちょう　でしたら　ただいま\n１１かい　やくいんしつで　ございます"
+  }
+ ]
+}

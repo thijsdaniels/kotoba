@@ -1,0 +1,10 @@
+{
+ "source": "scripts/CinnabarLabTradeRoom.asm",
+ "entries": [
+  {
+   "label": "CinnabarLabTradeRoomSuperNerdText",
+   "line": 10,
+   "text": "ぼく　おつきみやまで\nカセキを　みつけましてねー！\n\nどうやら　めずらしい\nポケモンの　カセキ　らしいんですよ"
+  }
+ ]
+}

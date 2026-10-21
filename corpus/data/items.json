@@ -1,0 +1,487 @@
+[
+ {
+  "id": 1,
+  "const": "MASTER_BALL",
+  "ja": "マスターボール"
+ },
+ {
+  "id": 2,
+  "const": "ULTRA_BALL",
+  "ja": "ハイパーボール"
+ },
+ {
+  "id": 3,
+  "const": "GREAT_BALL",
+  "ja": "スーパーボール"
+ },
+ {
+  "id": 4,
+  "const": "POKE_BALL",
+  "ja": "モンスターボール"
+ },
+ {
+  "id": 5,
+  "const": "TOWN_MAP",
+  "ja": "タウンマップ"
+ },
+ {
+  "id": 6,
+  "const": "BICYCLE",
+  "ja": "じてんしゃ"
+ },
+ {
+  "id": 7,
+  "const": "SURFBOARD",
+  "ja": "？？？？？"
+ },
+ {
+  "id": 8,
+  "const": "SAFARI_BALL",
+  "ja": "サファリボール"
+ },
+ {
+  "id": 9,
+  "const": "POKEDEX",
+  "ja": "ポケモンずかん"
+ },
+ {
+  "id": 10,
+  "const": "MOON_STONE",
+  "ja": "つきのいし"
+ },
+ {
+  "id": 11,
+  "const": "ANTIDOTE",
+  "ja": "どくけし"
+ },
+ {
+  "id": 12,
+  "const": "BURN_HEAL",
+  "ja": "やけどなおし"
+ },
+ {
+  "id": 13,
+  "const": "ICE_HEAL",
+  "ja": "こおりなおし"
+ },
+ {
+  "id": 14,
+  "const": "AWAKENING",
+  "ja": "ねむけざまし"
+ },
+ {
+  "id": 15,
+  "const": "PARLYZ_HEAL",
+  "ja": "まひなおし"
+ },
+ {
+  "id": 16,
+  "const": "FULL_RESTORE",
+  "ja": "かいふくのくすり"
+ },
+ {
+  "id": 17,
+  "const": "MAX_POTION",
+  "ja": "まんたんのくすり"
+ },
+ {
+  "id": 18,
+  "const": "HYPER_POTION",
+  "ja": "すごいキズぐすり"
+ },
+ {
+  "id": 19,
+  "const": "SUPER_POTION",
+  "ja": "いいキズぐすり"
+ },
+ {
+  "id": 20,
+  "const": "POTION",
+  "ja": "キズぐすり"
+ },
+ {
+  "id": 21,
+  "const": "BOULDERBADGE",
+  "ja": "グレーバッジ"
+ },
+ {
+  "id": 22,
+  "const": "CASCADEBADGE",
+  "ja": "ブルーバッジ"
+ },
+ {
+  "id": 23,
+  "const": "THUNDERBADGE",
+  "ja": "オレンジバッジ"
+ },
+ {
+  "id": 24,
+  "const": "RAINBOWBADGE",
+  "ja": "レインボーバッジ"
+ },
+ {
+  "id": 25,
+  "const": "SOULBADGE",
+  "ja": "ピンクバッジ"
+ },
+ {
+  "id": 26,
+  "const": "MARSHBADGE",
+  "ja": "ゴールドバッジ"
+ },
+ {
+  "id": 27,
+  "const": "VOLCANOBADGE",
+  "ja": "クリムゾンバッジ"
+ },
+ {
+  "id": 28,
+  "const": "EARTHBADGE",
+  "ja": "グリーンバッジ"
+ },
+ {
+  "id": 29,
+  "const": "ESCAPE_ROPE",
+  "ja": "あなぬけのヒモ"
+ },
+ {
+  "id": 30,
+  "const": "REPEL",
+  "ja": "むしよけスプレー"
+ },
+ {
+  "id": 31,
+  "const": "OLD_AMBER",
+  "ja": "ひみつのコハク"
+ },
+ {
+  "id": 32,
+  "const": "FIRE_STONE",
+  "ja": "ほのおのいし"
+ },
+ {
+  "id": 33,
+  "const": "THUNDER_STONE",
+  "ja": "かみなりのいし"
+ },
+ {
+  "id": 34,
+  "const": "WATER_STONE",
+  "ja": "みずのいし"
+ },
+ {
+  "id": 35,
+  "const": "HP_UP",
+  "ja": "マックスアップ"
+ },
+ {
+  "id": 36,
+  "const": "PROTEIN",
+  "ja": "タウリン"
+ },
+ {
+  "id": 37,
+  "const": "IRON",
+  "ja": "ブロムヘキシン"
+ },
+ {
+  "id": 38,
+  "const": "CARBOS",
+  "ja": "インドメタシン"
+ },
+ {
+  "id": 39,
+  "const": "CALCIUM",
+  "ja": "リゾチウム"
+ },
+ {
+  "id": 40,
+  "const": "RARE_CANDY",
+  "ja": "ふしぎなアメ"
+ },
+ {
+  "id": 41,
+  "const": "DOME_FOSSIL",
+  "ja": "こうらのカセキ"
+ },
+ {
+  "id": 42,
+  "const": "HELIX_FOSSIL",
+  "ja": "かいのカセキ"
+ },
+ {
+  "id": 43,
+  "const": "SECRET_KEY",
+  "ja": "ひみつのカギ"
+ },
+ {
+  "id": 44,
+  "const": "ITEM_2C",
+  "ja": "？？？？？"
+ },
+ {
+  "id": 45,
+  "const": "BIKE_VOUCHER",
+  "ja": "ひきかえけん"
+ },
+ {
+  "id": 46,
+  "const": "X_ACCURACY",
+  "ja": "ヨクアタール"
+ },
+ {
+  "id": 47,
+  "const": "LEAF_STONE",
+  "ja": "リーフのいし"
+ },
+ {
+  "id": 48,
+  "const": "CARD_KEY",
+  "ja": "カードキー"
+ },
+ {
+  "id": 49,
+  "const": "NUGGET",
+  "ja": "きんのたま"
+ },
+ {
+  "id": 50,
+  "const": "ITEM_32",
+  "ja": "ポイントアップ"
+ },
+ {
+  "id": 51,
+  "const": "POKE_DOLL",
+  "ja": "ピッピにんぎょう"
+ },
+ {
+  "id": 52,
+  "const": "FULL_HEAL",
+  "ja": "なんでもなおし"
+ },
+ {
+  "id": 53,
+  "const": "REVIVE",
+  "ja": "げんきのかけら"
+ },
+ {
+  "id": 54,
+  "const": "MAX_REVIVE",
+  "ja": "げんきのかたまり"
+ },
+ {
+  "id": 55,
+  "const": "GUARD_SPEC",
+  "ja": "エフェクトガード"
+ },
+ {
+  "id": 56,
+  "const": "SUPER_REPEL",
+  "ja": "シルバースプレー"
+ },
+ {
+  "id": 57,
+  "const": "MAX_REPEL",
+  "ja": "ゴールドスプレー"
+ },
+ {
+  "id": 58,
+  "const": "DIRE_HIT",
+  "ja": "クリティカッター"
+ },
+ {
+  "id": 59,
+  "const": "COIN",
+  "ja": "コイン"
+ },
+ {
+  "id": 60,
+  "const": "FRESH_WATER",
+  "ja": "おいしいみず"
+ },
+ {
+  "id": 61,
+  "const": "SODA_POP",
+  "ja": "サイコソーダ"
+ },
+ {
+  "id": 62,
+  "const": "LEMONADE",
+  "ja": "ミックスオレ"
+ },
+ {
+  "id": 63,
+  "const": "S_S_TICKET",
+  "ja": "ふねのチケット"
+ },
+ {
+  "id": 64,
+  "const": "GOLD_TEETH",
+  "ja": "きんのいれば"
+ },
+ {
+  "id": 65,
+  "const": "X_ATTACK",
+  "ja": "プラスパワー"
+ },
+ {
+  "id": 66,
+  "const": "X_DEFEND",
+  "ja": "ディフェンダー"
+ },
+ {
+  "id": 67,
+  "const": "X_SPEED",
+  "ja": "スピーダー"
+ },
+ {
+  "id": 68,
+  "const": "X_SPECIAL",
+  "ja": "スペシャルアップ"
+ },
+ {
+  "id": 69,
+  "const": "COIN_CASE",
+  "ja": "コインケース"
+ },
+ {
+  "id": 70,
+  "const": "OAKS_PARCEL",
+  "ja": "おとどけもの"
+ },
+ {
+  "id": 71,
+  "const": "ITEMFINDER",
+  "ja": "ダウジングマシン"
+ },
+ {
+  "id": 72,
+  "const": "SILPH_SCOPE",
+  "ja": "シルフスコープ"
+ },
+ {
+  "id": 73,
+  "const": "POKE_FLUTE",
+  "ja": "ポケモンのふえ"
+ },
+ {
+  "id": 74,
+  "const": "LIFT_KEY",
+  "ja": "エレベータのカギ"
+ },
+ {
+  "id": 75,
+  "const": "EXP_ALL",
+  "ja": "がくしゅうそうち"
+ },
+ {
+  "id": 76,
+  "const": "OLD_ROD",
+  "ja": "ボロのつりざお"
+ },
+ {
+  "id": 77,
+  "const": "GOOD_ROD",
+  "ja": "いいつりざお"
+ },
+ {
+  "id": 78,
+  "const": "SUPER_ROD",
+  "ja": "すごいつりざお"
+ },
+ {
+  "id": 79,
+  "const": "PP_UP",
+  "ja": "ポイントアップ"
+ },
+ {
+  "id": 80,
+  "const": "ETHER",
+  "ja": "ピーピーエイド"
+ },
+ {
+  "id": 81,
+  "const": "MAX_ETHER",
+  "ja": "ピーピーリカバー"
+ },
+ {
+  "id": 82,
+  "const": "ELIXER",
+  "ja": "ピーピーエイダー"
+ },
+ {
+  "id": 83,
+  "const": "MAX_ELIXER",
+  "ja": "ピーピーマックス"
+ },
+ {
+  "id": 84,
+  "const": "FLOOR_B2F",
+  "ja": "ちか２かい"
+ },
+ {
+  "id": 85,
+  "const": "FLOOR_B1F",
+  "ja": "ちか１かい"
+ },
+ {
+  "id": 86,
+  "const": "FLOOR_1F",
+  "ja": "１かい"
+ },
+ {
+  "id": 87,
+  "const": "FLOOR_2F",
+  "ja": "２かい"
+ },
+ {
+  "id": 88,
+  "const": "FLOOR_3F",
+  "ja": "３かい"
+ },
+ {
+  "id": 89,
+  "const": "FLOOR_4F",
+  "ja": "４かい"
+ },
+ {
+  "id": 90,
+  "const": "FLOOR_5F",
+  "ja": "５かい"
+ },
+ {
+  "id": 91,
+  "const": "FLOOR_6F",
+  "ja": "６かい"
+ },
+ {
+  "id": 92,
+  "const": "FLOOR_7F",
+  "ja": "７かい"
+ },
+ {
+  "id": 93,
+  "const": "FLOOR_8F",
+  "ja": "８かい"
+ },
+ {
+  "id": 94,
+  "const": "FLOOR_9F",
+  "ja": "９かい"
+ },
+ {
+  "id": 95,
+  "const": "FLOOR_10F",
+  "ja": "１０かい"
+ },
+ {
+  "id": 96,
+  "const": "FLOOR_11F",
+  "ja": "１１かい"
+ },
+ {
+  "id": 97,
+  "const": "FLOOR_B4F",
+  "ja": "ちか４かい"
+ }
+]

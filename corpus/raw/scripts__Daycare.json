@@ -1,0 +1,116 @@
+{
+ "source": "scripts/Daycare.asm",
+ "entries": [
+  {
+   "label": "DaycareGentlemanText.IntroText",
+   "line": 213,
+   "text": "わたしは　そだてやさん\nなにか　そだてて　みるかね？"
+  },
+  {
+   "label": "DaycareGentlemanText.WhichMonText",
+   "line": 218,
+   "text": "それでは\nなにを　そだてて　みるかね？"
+  },
+  {
+   "label": "DaycareGentlemanText.WillLookAfterMonText",
+   "line": 223,
+   "text": "わかった\nしばらく"
+  },
+  {
+   "label": "DaycareGentlemanText.WillLookAfterMonText",
+   "line": 226,
+   "text": "を　あずかろう",
+   "continuation": true
+  },
+  {
+   "label": "DaycareGentlemanText.ComeSeeMeInAWhileText",
+   "line": 230,
+   "text": "てきとうに　じかんが　たったら\nまた　きなさい"
+  },
+  {
+   "label": "DaycareGentlemanText.MonHasGrownText",
+   "line": 235,
+   "text": "おまえの"
+  },
+  {
+   "label": "DaycareGentlemanText.MonHasGrownText",
+   "line": 237,
+   "text": "ずいぶんと　せいちょうしたぞ\n\nそうだな　レベルで　いうと",
+   "continuation": true
+  },
+  {
+   "label": "DaycareGentlemanText.MonHasGrownText",
+   "line": 243,
+   "text": "くらい　そだってるな\n\nやっぱり　わたしは　てんさいだ！",
+   "continuation": true
+  },
+  {
+   "label": "DaycareGentlemanText.OweMoneyText",
+   "line": 249,
+   "text": "……で　ポケモンを　ひきとるなら\nりょうきんは"
+  },
+  {
+   "label": "DaycareGentlemanText.OweMoneyText",
+   "line": 252,
+   "text": "円　だよ",
+   "continuation": true
+  },
+  {
+   "label": "DaycareGentlemanText.GotMonBackText",
+   "line": 256,
+   "text": "{player}は　そだてやさんから"
+  },
+  {
+   "label": "DaycareGentlemanText.GotMonBackText",
+   "line": 259,
+   "text": "を　ひきとった！",
+   "continuation": true
+  },
+  {
+   "label": "DaycareGentlemanText.MonNeedsMoreTimeText",
+   "line": 263,
+   "text": "なんだ　もう　きたのか\nおまえの"
+  },
+  {
+   "label": "DaycareGentlemanText.MonNeedsMoreTimeText",
+   "line": 266,
+   "text": "は……\n\nまだ　じかんが　かかるぞ",
+   "continuation": true
+  },
+  {
+   "label": "DaycareGentlemanText.AllRightThenText",
+   "line": 272,
+   "text": "そうか　それじゃ"
+  },
+  {
+   "label": "DaycareGentlemanText.ComeAgainText",
+   "line": 275,
+   "text": "また　きなさいよ"
+  },
+  {
+   "label": "DaycareGentlemanText.NoRoomForMonText",
+   "line": 279,
+   "text": "だけど　つれていくには\nポケモンが　いっぱいのようだな"
+  },
+  {
+   "label": "DaycareGentlemanText.OnlyHaveOneMonText",
+   "line": 284,
+   "text": "おや？　ポケモンが\n１ぴきしか　いないようだな"
+  },
+  {
+   "label": "DaycareGentlemanText.CantAcceptMonWithHMText",
+   "line": 289,
+   "text": "わるいけど　ひでんのわざを　もった\nポケモンは　あずかれないなぁ"
+  },
+  {
+   "label": "DaycareGentlemanText.HeresYourMonText",
+   "line": 294,
+   "text": "ほい　たしかに！\nじゃ　ポケモン　つれて　いきなよ"
+  },
+  {
+   "label": "DaycareGentlemanText.NotEnoughMoneyText",
+   "line": 299,
+   "text": "かねが　たらんな"
+  }
+ ]
+}

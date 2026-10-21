@@ -1,0 +1,45 @@
+{
+ "source": "scripts/SilphCo10F.asm",
+ "entries": [
+  {
+   "label": "SilphCo10FRocketBattleText",
+   "line": 63,
+   "text": "１０かいに　ようこそ！\nよく　ここまで　たどり　ついたな！"
+  },
+  {
+   "label": "SilphCo10FRocketEndBattleText",
+   "line": 68,
+   "text": "なんてこった"
+  },
+  {
+   "label": "SilphCo10FRocketAfterBattleText",
+   "line": 72,
+   "text": "ここまで　きたのは　ほめるが\nしゃちょう　しつは\nさらに　うえの　かい　だぜ"
+  },
+  {
+   "label": "SilphCo10FScientistBattleText",
+   "line": 84,
+   "text": "もう……\nあそびは　おわりに　しよう！"
+  },
+  {
+   "label": "SilphCo10FScientistEndBattleText",
+   "line": 89,
+   "text": "あうーん"
+  },
+  {
+   "label": "SilphCo10FScientistAfterBattleText",
+   "line": 93,
+   "text": "おれに　かって　まんぞくか\nじゃ　おうちに　かえんな"
+  },
+  {
+   "label": "SilphCo10FSilphWorkerFText.ImScaredText",
+   "line": 108,
+   "text": "うえーん！\nこわいよー！"
+  },
+  {
+   "label": "SilphCo10FSilphWorkerFText.QuietAboutMyCryingText",
+   "line": 113,
+   "text": "あたしが　ないてた　こと……\nないしょに　してね"
+  }
+ ]
+}

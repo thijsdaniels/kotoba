@@ -1,0 +1,67 @@
+{
+ "source": "engine/menus/start_sub_menus.asm",
+ "entries": [
+  {
+   "label": "StartMenu_Pokemon",
+   "line": 9,
+   "text": "まばゆい　ひかりが\nあたりを　あかるく　てらす……"
+  },
+  {
+   "label": "StartMenu_Pokemon",
+   "line": 197,
+   "text": "さいごに　やすんだ\nポケモンセンターへ　とびます！",
+   "continuation": true
+  },
+  {
+   "label": "StartMenu_Pokemon",
+   "line": 233,
+   "text": "ここでは",
+   "continuation": true
+  },
+  {
+   "label": "StartMenu_Pokemon",
+   "line": 236,
+   "text": "で\nテレポートすることは　できません！",
+   "continuation": true
+  },
+  {
+   "label": "StartMenu_Pokemon",
+   "line": 239,
+   "text": "ここでは",
+   "continuation": true
+  },
+  {
+   "label": "StartMenu_Pokemon",
+   "line": 242,
+   "text": "で\nそらを　とぶことは　できません！",
+   "continuation": true
+  },
+  {
+   "label": "StartMenu_Pokemon",
+   "line": 245,
+   "text": "たいりょくが　たりません！",
+   "continuation": true
+  },
+  {
+   "label": "StartMenu_Pokemon",
+   "line": 284,
+   "text": "あたらしい　バッジを　てにするまで\nまだ　つかえません！",
+   "continuation": true
+  },
+  {
+   "label": "CannotUseItemsHereText",
+   "line": 452,
+   "text": "ここでは　どうぐを\nつかうことは　できません"
+  },
+  {
+   "label": "CannotGetOffHereText",
+   "line": 457,
+   "text": "おりることが　できない！"
+  },
+  {
+   "label": "TrainerInfo_NameMoneyTimeText",
+   "line": 584,
+   "text": "なまえ／\nおこづかい／\nプレイじかん／"
+  }
+ ]
+}

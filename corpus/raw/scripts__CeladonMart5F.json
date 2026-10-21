@@ -1,0 +1,20 @@
+{
+ "source": "scripts/CeladonMart5F.asm",
+ "entries": [
+  {
+   "label": "CeladonMart5FGentlemanText",
+   "line": 12,
+   "text": "ポケモンの　のうりょくを　あげる\nアイテムは　ここでしか　かえない\n\nリゾチウムは\nとくしゅ　のうりょくを　アップ\n\nインドメタシンは\nすばやさを　アップ　させるのだ"
+  },
+  {
+   "label": "CeladonMart5FSailorText",
+   "line": 23,
+   "text": "ポケモンの　のうりょくを　あげる\nアイテムを　かいに　きたんだ！\n\nタウリンは\nこうげき　りょく　アップ！\n\nブロムヘキシンは\nぼうぎょ　りょく　アップ　だぜ！"
+  },
+  {
+   "label": "CeladonMart5FCurrentFloorSignText",
+   "line": 34,
+   "text": "５かい……ドラッグ　ストア"
+  }
+ ]
+}

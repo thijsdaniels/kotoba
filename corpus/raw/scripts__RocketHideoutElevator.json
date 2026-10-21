@@ -1,0 +1,10 @@
+{
+ "source": "scripts/RocketHideoutElevator.asm",
+ "entries": [
+  {
+   "label": "RocketHideoutElevatorText.AppearsToNeedKeyText",
+   "line": 82,
+   "text": "カギが　ひつよう　みたいだな"
+  }
+ ]
+}

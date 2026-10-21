@@ -1,0 +1,15 @@
+{
+ "source": "scripts/SafariZoneCenter.asm",
+ "entries": [
+  {
+   "label": "SafariZoneCenterRestHouseSignText",
+   "line": 10,
+   "text": "きゅうけい　ハウス　……　いこい"
+  },
+  {
+   "label": "SafariZoneCenterTrainerTipsSignText",
+   "line": 14,
+   "text": "……　おとくな　けいじばん！\n\nスタート　ボタン　おして！\nのこり　じかんの　かくにん！"
+  }
+ ]
+}

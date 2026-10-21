@@ -1,0 +1,96 @@
+{
+ "source": "scripts/FuchsiaCity.asm",
+ "entries": [
+  {
+   "label": "FuchsiaCityYoungster1Text",
+   "line": 31,
+   "text": "サファリ　ゲーム　もう　やった？\nあそこでしか　とれない\nめずらしい　ポケモンも　いるよ！"
+  },
+  {
+   "label": "FuchsiaCityGamblerText",
+   "line": 37,
+   "text": "サファリ　ゾーンは\nいりぐち　ふきんは　どうぶつえんで\n\nおくに　いくと　ポケモンが\nとりほうだいの　サファリ　ゲームじゃ"
+  },
+  {
+   "label": "FuchsiaCityErikText",
+   "line": 45,
+   "text": "おかしいな？　アツコと\nポケモンとりで　まちあわせって……\nとりポケモンが　みつからない！",
+   "speaker": "コージ"
+  },
+  {
+   "label": "FuchsiaCityYoungster2Text",
+   "line": 51,
+   "text": "あの　アイテム　ボール\nほしいって　おもった？\n……　……　……　ぼくもさ！\n……　え　あれ　いきものなの？"
+  },
+  {
+   "label": "FuchsiaCityPokemonText",
+   "line": 58,
+   "text": "！"
+  },
+  {
+   "label": "FuchsiaCitySignText",
+   "line": 62,
+   "text": "ここは　セキチク　シティ\nセキチクは　ピンク　はなやかな　いろ"
+  },
+  {
+   "label": "FuchsiaCitySafariGameSignText",
+   "line": 67,
+   "text": "めいぶつ！　サファリ　ゲーム！\n……　……　ポケモン　とりほうだい！"
+  },
+  {
+   "label": "FuchsiaCityWardensHomeSignText",
+   "line": 72,
+   "text": "サファリ　ゾーン\nえんちょうの　いえ"
+  },
+  {
+   "label": "FuchsiaCitySafariZoneSignText",
+   "line": 77,
+   "text": "いろんな　ポケモン　いっぱい！\nサファリ　ゾーンに　ようこそ！"
+  },
+  {
+   "label": "FuchsiaCityGymSignText",
+   "line": 82,
+   "text": "セキチク　シティ　ポケモン　ジム\nリーダー　キョウ\nどくの　ことなら　なんでも　ござれ"
+  },
+  {
+   "label": "FuchsiaCityChanseySignText.Text",
+   "line": 96,
+   "text": "なまえ　ラッキー\nつかまえたら　スーパー　ラッキー！"
+  },
+  {
+   "label": "FuchsiaCityVoltorbSignText.Text",
+   "line": 109,
+   "text": "なまえ　ビリリダマ\nモンスター　ボールに　そっくり！"
+  },
+  {
+   "label": "FuchsiaCityKangaskhanSignText.Text",
+   "line": 122,
+   "text": "なまえ　ガルーラ\nなかの　よい　おやこ　ポケモン！\n\nおなかに　こどもを　いれて\nそだてて　います！"
+  },
+  {
+   "label": "FuchsiaCitySlowpokeSignText.Text",
+   "line": 138,
+   "text": "なまえ　ヤドン\nひとなつこい　せいかくが　にんき！\nうごきが　のろい　ポケモン！"
+  },
+  {
+   "label": "FuchsiaCityLaprasSignText.Text",
+   "line": 152,
+   "text": "なまえ　ラプラス\nシー　ドラゴン　とも　よばれる\nうみの　おうじゃ　です！"
+  },
+  {
+   "label": "FuchsiaCityFossilSignText.OmanyteText",
+   "line": 181,
+   "text": "なまえ　オムナイト\nカセキ　から　いき　かえった\nめずらしい　ポケモン！"
+  },
+  {
+   "label": "FuchsiaCityFossilSignText.KabutoText",
+   "line": 187,
+   "text": "なまえ　カブト\nカセキ　から　いき　かえった\nめずらしい　ポケモン！"
+  },
+  {
+   "label": "FuchsiaCityFossilSignText.UndeterminedText",
+   "line": 193,
+   "text": "……"
+  }
+ ]
+}

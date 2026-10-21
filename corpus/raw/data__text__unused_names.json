@@ -1,0 +1,15 @@
+{
+ "source": "data/text/unused_names.asm",
+ "entries": [
+  {
+   "label": "UnusedBadgeNames",
+   "line": 1,
+   "text": "かみなりバッヂ\nかいがらバッヂ\nおじぞうバッヂ\nはやぶさバッヂ\nひんやりバッヂ\nなかよしバッヂ\nバラバッヂ\nひのたまバッヂ\nゴールドバッヂ"
+  },
+  {
+   "label": "UnusedRankingNames",
+   "line": 12,
+   "text": "たまご\nひよこ\nブロンズ\nシルバー\nゴールド\nプチキャプテン\nキャプテン\nプチマスター\nマスター\nエクセレント"
+  }
+ ]
+}

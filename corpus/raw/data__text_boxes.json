@@ -1,0 +1,65 @@
+{
+ "source": "data/text_boxes.asm",
+ "entries": [
+  {
+   "label": "BuySellQuitText",
+   "line": 39,
+   "text": "かいに　きた\nうりに　きた\nべつに　いいです"
+  },
+  {
+   "label": "UseTossText",
+   "line": 46,
+   "text": "つかう\nすてる"
+  },
+  {
+   "label": "SaveMessageText",
+   "line": 50,
+   "text": "きろく\nメッセージ"
+  },
+  {
+   "label": "SpeedOptionsText",
+   "line": 54,
+   "text": "はやい\nおそい"
+  },
+  {
+   "label": "MoneyText",
+   "line": 58,
+   "text": "おかね"
+  },
+  {
+   "label": "MochimonoText",
+   "line": 61,
+   "text": "もちもの"
+  },
+  {
+   "label": "MainMenuText",
+   "line": 64,
+   "text": "つづきから\nさいしょから"
+  },
+  {
+   "label": "BattleMenuText",
+   "line": 68,
+   "text": "たたかう　どうぐ\nポケモン　にげる"
+  },
+  {
+   "label": "SafariZoneBattleMenuText",
+   "line": 72,
+   "text": "サファリボール×　　　エサをなげる\nいしをなげる　　　　　にげる"
+  },
+  {
+   "label": "SwitchStatsCancelText",
+   "line": 76,
+   "text": "とりかえる\nつよさをみる\nキャンセル"
+  },
+  {
+   "label": "AhText",
+   "line": 81,
+   "text": "アッ！"
+  },
+  {
+   "label": "PokedexMenuText",
+   "line": 84,
+   "text": "データをみる\nなきごえ\nぶんぷをみる\nキャンセル"
+  }
+ ]
+}

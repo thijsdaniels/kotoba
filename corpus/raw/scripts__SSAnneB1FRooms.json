@@ -1,0 +1,106 @@
+{
+ "source": "scripts/SSAnneB1FRooms.asm",
+ "entries": [
+  {
+   "label": "SSAnneB1FRoomsSailor1BattleText",
+   "line": 45,
+   "text": "ふなのりに\nケンカは　つきものだ　やるか！"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor1EndBattleText",
+   "line": 50,
+   "text": "おし！\nいい　しょうぶ　だった"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor1AfterBattleText",
+   "line": 55,
+   "text": "ははは！\nぼうずも　ふなのりに　ならんか？"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor2BattleText",
+   "line": 66,
+   "text": "そら　こい！\nふなのり　だましいに　かけて　かつ"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor2EndBattleText",
+   "line": 71,
+   "text": "ふなのり　だましいも\nおまえには　まけた！"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor2AfterBattleText",
+   "line": 76,
+   "text": "クチバの　みなと　といえば\nつりおやじは　げんき　かなー？"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor3BattleText",
+   "line": 87,
+   "text": "ふなのり　だって\nポケモン　ぐらい　もってるぜ！"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor3EndBattleText",
+   "line": 92,
+   "text": "なかなか\nやるじゃねーか"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor3AfterBattleText",
+   "line": 97,
+   "text": "おれたちの　ポケモンは\nうみに　でた　ときに\nじぶんで　とった　もの　ばかり　だぜ"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor4BattleText",
+   "line": 109,
+   "text": "こういう　げんきな　こども\nおれは　すきだぜ！"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor4EndBattleText",
+   "line": 114,
+   "text": "ええい！\nまけたぜ！"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor4AfterBattleText",
+   "line": 119,
+   "text": "うみの　ポケモンは\nふかい　ところに　いるから\nつりざおで　つり　あげるんだ！"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor5BattleText",
+   "line": 131,
+   "text": "うっしゃー！\nまけたら　うみ　に　おとすぞー！"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor5EndBattleText",
+   "line": 136,
+   "text": "くー　やられた！"
+  },
+  {
+   "label": "SSAnneB1FRoomsSailor5AfterBattleText",
+   "line": 140,
+   "text": "うみに　でてると\nたまーに　クラゲ　ポケモンが\nながれて　くるぜ"
+  },
+  {
+   "label": "SSAnneB1FRoomsFisherBattleText",
+   "line": 152,
+   "text": "うみのもの　とも　やまのもの　とも\nわからない　しんいり　さん！\n\nわたしが　もってるのは\nうみのもの　ばかり　です！"
+  },
+  {
+   "label": "SSAnneB1FRoomsFisherEndBattleText",
+   "line": 160,
+   "text": "ちっ！\nつり　のがしたよ"
+  },
+  {
+   "label": "SSAnneB1FRoomsFisherAfterBattleText",
+   "line": 165,
+   "text": "あなた　まかしたら　つりびとの\nつきびとに　しようと　おもってた"
+  },
+  {
+   "label": "SSAnneB1FRoomsSuperNerdText",
+   "line": 170,
+   "text": "おれの　あいぼう　ゴーリキーは\nごっつい　ちから　もち！\n\nすごく　おもい　いわ　だって\nかいりきで　うごかせるぜ！"
+  },
+  {
+   "label": "SSAnneB1FRoomsMachokeText",
+   "line": 178,
+   "text": "ごおー　ごごごー",
+   "speaker": "ゴーリキー"
+  }
+ ]
+}

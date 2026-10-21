@@ -1,0 +1,15 @@
+{
+ "source": "scripts/SaffronPokecenter.asm",
+ "entries": [
+  {
+   "label": "SaffronPokecenterBeautyText",
+   "line": 15,
+   "text": "ポケモンは　しゅるいに　よって\nせいちょうする　テンポが\nちがう　らしいわ"
+  },
+  {
+   "label": "SaffronPokecenterGentlemanText",
+   "line": 21,
+   "text": "だれもが　みんな　しってる\nシルフ　カンパニー　だが\nゆうめい　だと　それだけ\nねらわれる　きけんも　あるのだ"
+  }
+ ]
+}

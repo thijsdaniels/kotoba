@@ -1,0 +1,10 @@
+{
+ "source": "engine/battle/move_effects/conversion.asm",
+ "entries": [
+  {
+   "label": "ConvertedTypeText",
+   "line": 26,
+   "text": "{target}の　ぞくせいを\nじぶんに　はりつけた！"
+  }
+ ]
+}

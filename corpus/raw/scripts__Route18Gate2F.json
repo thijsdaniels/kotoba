@@ -1,0 +1,15 @@
+{
+ "source": "scripts/Route18Gate2F.asm",
+ "entries": [
+  {
+   "label": "Route18Gate2FLeftBinocularsText.Text",
+   "line": 22,
+   "text": "ぼうえんきょうを　のぞいた！\n\nにしに　マサラ　タウンが　みえる"
+  },
+  {
+   "label": "Route18Gate2FRightBinocularsText.Text",
+   "line": 33,
+   "text": "ぼうえんきょうを　のぞいた！\n\nおよいでる　ひとが　みえる！"
+  }
+ ]
+}

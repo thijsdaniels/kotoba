@@ -1,0 +1,15 @@
+{
+ "source": "scripts/LavenderPokecenter.asm",
+ "entries": [
+  {
+   "label": "LavenderPokecenterGentlemanText",
+   "line": 18,
+   "text": "ロケットだんの　れんちゅう……\nおかね　もうけの　ためなら\nどんな　わるい　ことでも　やるのさ"
+  },
+  {
+   "label": "LavenderPokecenterLittleGirlText",
+   "line": 24,
+   "text": "カラカラの　おかあさんが\nロケットだんから　にげる　ところ\nわたしも　みたわ……\n\nにげる　とちゅうで　ころされたわ"
+  }
+ ]
+}

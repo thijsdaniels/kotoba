@@ -1,0 +1,15 @@
+{
+ "source": "scripts/CeladonPokecenter.asm",
+ "entries": [
+  {
+   "label": "CeladonPokecenterGentlemanText",
+   "line": 18,
+   "text": "ポケモンのふえで　ねてる　ポケモンが\nとび　おきるのは\n\nひとには　きこえない\nとくべつな　おとも　でてる　からだよ"
+  },
+  {
+   "label": "CeladonPokecenterBeautyText",
+   "line": 26,
+   "text": "セキチク　シティから　きたんだけど\nサイクリング　ロード\nのぼりざか　だから　つかれちゃった！"
+  }
+ ]
+}

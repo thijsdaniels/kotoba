@@ -1,0 +1,25 @@
+{
+ "id": "pewter",
+ "name": "Pewter City",
+ "levelCap": 30,
+ "strings": [],
+ "pokemon": [],
+ "moves": [],
+ "items": [
+  {
+   "const": "POTION",
+   "ja": "キズぐすり",
+   "from": "PewterMartClerkText"
+  },
+  {
+   "const": "ESCAPE_ROPE",
+   "ja": "あなぬけのヒモ",
+   "from": "PewterMartClerkText"
+  },
+  {
+   "const": "AWAKENING",
+   "ja": "ねむけざまし",
+   "from": "PewterMartClerkText"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "source": "engine/menus/pc.asm",
+ "entries": [
+  {
+   "label": "TurnedOnPC1Text",
+   "line": 101,
+   "text": "{player}は\nパソコンの　スイッチを　いれた！"
+  },
+  {
+   "label": "AccessedBillsPCText",
+   "line": 106,
+   "text": "マサキの　パソコンと　つないだ！\n\nポケモンの　あずかり　システムを\nよびだした！"
+  },
+  {
+   "label": "AccessedSomeonesPCText",
+   "line": 113,
+   "text": "だれかの　パソコンと　つないだ！\n\nポケモンの　あずかり　システムを\nよびだした！"
+  },
+  {
+   "label": "AccessedMyPCText",
+   "line": 120,
+   "text": "じぶんの　パソコンと　つないだ！\n\nどうぐの　あずかり　システムを\nよびだした！"
+  }
+ ]
+}

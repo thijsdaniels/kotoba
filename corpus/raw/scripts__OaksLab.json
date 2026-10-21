@@ -1,0 +1,253 @@
+{
+ "source": "scripts/OaksLab.asm",
+ "entries": [
+  {
+   "label": "OaksLabRivalText.GrampsIsntAroundText",
+   "line": 785,
+   "text": "なんだー　{player}か！\nオーキドの　じいさんなら　いねーよ",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabRivalText.GoAheadAndChooseText",
+   "line": 790,
+   "text": "へへーんだ！　おれは\nおとな　だから　がっつかないのさ\n\n{player}から　さきに\nえらばせて　やるぜ！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabRivalText.MyPokemonLooksStrongerText",
+   "line": 798,
+   "text": "おれの　えらんだ\nポケモンの　ほうが　つよそうだぜ",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabThoseArePokeBallsText",
+   "line": 845,
+   "text": "モンスターボールだ\nなかに　ポケモンが　はいってるぞ！"
+  },
+  {
+   "label": "OaksLabYouWantCharmanderText.Text",
+   "line": 881,
+   "text": "ほう！　ほのおのポケモン\nヒトカゲに　するんじゃな？"
+  },
+  {
+   "label": "OaksLabYouWantSquirtleText.Text",
+   "line": 889,
+   "text": "ふむ　みずのポケモン\nゼニガメに　きめるのじゃな？"
+  },
+  {
+   "label": "OaksLabYouWantBulbasaurText.Text",
+   "line": 897,
+   "text": "そうか！　しょくぶつポケモン\nフシギダネが　いいんじゃな？"
+  },
+  {
+   "label": "OaksLabMonEnergeticText",
+   "line": 951,
+   "text": "この　ポケモンは\nほんとに　げんきが　いいぞ！"
+  },
+  {
+   "label": "OaksLabReceivedMonText",
+   "line": 956,
+   "text": "{player}は　オーキドから"
+  },
+  {
+   "label": "OaksLabReceivedMonText",
+   "line": 959,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "OaksLabLastMonText",
+   "line": 975,
+   "text": "オーキドはかせの　ポケモン\nさいごの　いっぴきだ……！"
+  },
+  {
+   "label": "OaksLabOak1Text.WhichPokemonDoYouWantText",
+   "line": 1061,
+   "text": "さあ　{player}\nどの　ポケモンに　する？",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabOak1Text.YourPokemonCanFightText",
+   "line": 1066,
+   "text": "そうじゃ！\nやせいの　ポケモンが　でて　きても\n\nそいつを　たたかわせて　いけば\nとなりまちへ　いける！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabOak1Text.RaiseYourYoungPokemonText",
+   "line": 1074,
+   "text": "{player}も\nまけずに　ポケモンを\nたたかわせて　そだてると　いいぞ！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabOak1Text.DeliverParcelText",
+   "line": 1080,
+   "text": "おお！　{player}\n\nどーだい？\nわしの　やったポケモンは……ほう\n\nだいぶ\nなついた　みたいだな？\n\nおまえ　ポケモントレーナーの\nさいのうが　あるな！\n\n……え　わしに　わたす　ものが？\n\n{player}は　オーキド　はかせに\nとどけものを　わたした！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabOak1Text.DeliverParcelText",
+   "line": 1096,
+   "text": "おお！　これは\nわしが　ちゅうもん　してた\n\nとくせいの　モンスターボールじゃ\nどうも　ありがとよ！",
+   "continuation": true
+  },
+  {
+   "label": "OaksLabOak1Text.PokemonAroundTheWorldText",
+   "line": 1106,
+   "text": "せかい　じゅうに　すんでいる\nポケモンたちが\n{player}を　まって　おるぞー！"
+  },
+  {
+   "label": "OaksLabOak1Text.GivePokeballsText",
+   "line": 1112,
+   "text": "ポケモンを\nただ　みつけただけ　では\nくわしい　データを\nてに　いれる　ことは　できん！\n\nかならず\nつかまえなければ　ならんのだ！\nほれ　そのために……\nひつような　どうぐを　わたそう！\n\n{player}は　５こ\nモンスターボールを　もらった！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabOak1Text.GivePokeballsText",
+   "line": 1125,
+   "text": "やせいの　ポケモンが\nとびだして　きたら　チャンス！\n\nモンスターボールを\nポイ！と　なげれば\nポケモンを　つかまえ　られる！\n\nただし……　うまく　とれるか\nどうかは　わからんぞ！\n\nげんきな　ポケモンは　にげやすいし\nうんも　あるからな！",
+   "continuation": true
+  },
+  {
+   "label": "OaksLabOak1Text.ComeSeeMeSometimesText",
+   "line": 1142,
+   "text": "ときどきは\nわしの　とこに　かおを　だせ！\n\nポケモンずかんの　ページが\nきに　なるんでな！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabOak1Text.HowIsYourPokedexComingText",
+   "line": 1150,
+   "text": "よく　きた！\nポケモンずかんの\nちょうしは　どうかな？\nどれ……　ちょっと\nみて　あげようか！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabPokedexText.Text",
+   "line": 1164,
+   "text": "ずかん　みたいな　ものが　ある！\nなかは　しろいページ　ばっかりだ！"
+  },
+  {
+   "label": "OaksLabOak2Text",
+   "line": 1169,
+   "text": "？"
+  },
+  {
+   "label": "OaksLabGirlText.Text",
+   "line": 1179,
+   "text": "ああ　みえても　オーキドはかせは\nポケモンの　オーソリティなの！\n\nはかせを　そんけいする\nポケモン　トレーナーも　おおいわよ！"
+  },
+  {
+   "label": "OaksLabRivalFedUpWithWaitingText.Text",
+   "line": 1193,
+   "text": "じいさん！\nまちくたびれたぞー！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabOakChooseMonText.Text",
+   "line": 1204,
+   "text": "{rival}か？\n……　……　……\n\nおお　そうか\nわしが　よんだのじゃった！\nちょっと　まって　おれ！\n\nほれ　{player}！\n\nそこに　３びき\nポケモンが　いる　じゃろう！\n\nほっほ！\n\nモンスターボールの　なかに\nポケモンが　いれて　あるんじゃ\n\nむかしは　わしも　バリバリの\nポケモン　トレーナーとして\nならした　もの！\n\nおいぼれた　いまは　ポケモンも\n３びき　しか　のこっとらんが\nおまえに　１ぴき　やろう！\n……　さあ　えらべ！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabRivalWhatAboutMeText.Text",
+   "line": 1238,
+   "text": "あッ！　ずるい！\nじいさん！　おれにも　くれよお！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabOakBePatientText.Text",
+   "line": 1249,
+   "text": "まー！\nあわてるな　{rival}！\nおまえも　すきなものを　とれ！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabOakDontGoAwayYetText.Text",
+   "line": 1261,
+   "text": "こら　どこへいく！\nもどってこんか！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabRivalIllTakeThisOneText.Text",
+   "line": 1272,
+   "text": "じゃ　おれは　これ！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabRivalReceivedMonText.Text",
+   "line": 1282,
+   "text": "{rival}は　オーキドから"
+  },
+  {
+   "label": "OaksLabRivalReceivedMonText.Text",
+   "line": 1285,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "OaksLabRivalIllTakeYouOnText.Text",
+   "line": 1296,
+   "text": "まてよ！　{player}！\nせっかく　じーさんに\nポケモン　もらったんだぜ！\n\n……　ちょっと\nおれの　あいて　してみろ！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabRivalIPickedTheWrongPokemonText",
+   "line": 1305,
+   "text": "えー　そんな　バカな！\nおまえの　ポケモンに\nすりゃあ　よかった！"
+  },
+  {
+   "label": "OaksLabRivalAmIGreatOrWhatText",
+   "line": 1311,
+   "text": "やりー！\nおれって　てんさい？",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabRivalSmellYouLaterText.Text",
+   "line": 1322,
+   "text": "よーし！\nほかの　ポケモンと　たたかわせて\nもっと　もっと　つよくするぜ！\n\n{player}！　じいさん！\nそんじゃ　あばよ！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabRivalGrampsText",
+   "line": 1331,
+   "text": "じいさん！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabRivalWhatDidYouCallMeForText",
+   "line": 1335,
+   "text": "すっかり　わすれてた！\nおれに　なんか　よーじ　だって？",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabOakIHaveARequestText",
+   "line": 1340,
+   "text": "おお　そうじゃ！\nおまえたちに　たのみが　あるんじゃ",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabOakMyInventionPokedexText",
+   "line": 1345,
+   "text": "つくえの　うえに　あるのは\nわしが　つくった　ポケモンずかん！\n\nみつけた　ポケモンの　データが\nじどうてきに　かきこまれて\nページが　ふえて　いく　という\n\nたいへん　ハイテクな\nずかん　なのじゃ！"
+  },
+  {
+   "label": "OaksLabOakGotPokedexText",
+   "line": 1357,
+   "text": "{player}　{rival}\nこれを　おまえたちに　あずける！\n\n{player}は　オーキドから\nポケモンずかんを　もらった！",
+   "speaker": "オーキド"
+  },
+  {
+   "label": "OaksLabOakThatWasMyDreamText",
+   "line": 1366,
+   "text": "この　せかいの　すべての\nポケモンを　きろくした\nかんぺきな　ずかんを　つくること！\n\nそれが　わしの　ゆめ　だった！\n\nしかし　わしも　もう　ジジイ！\nそこまで　ムリは　できん！\n\nそこで　おまえ　たちには\nわしの　かわりに\nゆめを　はたして　ほしいのじゃ！\n\nさあ　ふたりとも\nさっそく　しゅっぱつ　してくれい！\n\nこれは　ポケモンの　れきしに　のこる\nいだいな　しごとじゃー！"
+  },
+  {
+   "label": "OaksLabRivalLeaveItAllToMeText",
+   "line": 1387,
+   "text": "よーし！　じいさん！\nぜんぶ　おれに　まかせなー！\n\n{player}！\nざんねんだが　おまえの　でばんは\nまったく　ねーぜ！\n\nそうだ！　うちの　ねえちゃん　から\nタウンマップを　かりて　いこう！\n\n{player}　には　かさない　ように\nねえちゃんに　いって　おくから\nおれんちへ　きても　むだ　だからな！",
+   "speaker": "{rival}"
+  },
+  {
+   "label": "OaksLabScientistText.Text",
+   "line": 1409,
+   "text": "わたしも　はかせの　じょしゅ　として\nポケモンを　けんきゅう　してます"
+  }
+ ]
+}

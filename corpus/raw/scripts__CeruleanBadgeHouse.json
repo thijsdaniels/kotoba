@@ -1,0 +1,60 @@
+{
+ "source": "scripts/CeruleanBadgeHouse.asm",
+ "entries": [
+  {
+   "label": "CeruleanBadgeHouseMiddleAgedManText.Text",
+   "line": 68,
+   "text": "うでが　あがった\nポケモントレーナーだけが　もらえる\nポケモン　バッジ\n\nあなたも　いくつか　もってるね\n\nその　バッジには\nすごい　ひみつが　あるのです"
+  },
+  {
+   "label": "CeruleanBadgeHouseMiddleAgedManText.WhichBadgeText",
+   "line": 79,
+   "text": "では……\n\nポケモン　バッジ　８つの　ひみつ\nどれに　ついて　はなし　ましょう？"
+  },
+  {
+   "label": "CeruleanBadgeHouseMiddleAgedManText.VisitAnyTimeText",
+   "line": 86,
+   "text": "はなしを　ききたく　なったら\nまた　いらっしゃい"
+  },
+  {
+   "label": "CeruleanBadgeHouseBoulderBadgeText",
+   "line": 103,
+   "text": "すべての\nポケモンの　こうげき　りょくが\nすこし　たかく　なります\n\nそれから　フラッシュの　わざは\nたたかって　いない　ときでも\nつかえるように　なります"
+  },
+  {
+   "label": "CeruleanBadgeHouseCascadeBadgeText",
+   "line": 113,
+   "text": "レベル３０までの　ポケモンは\nおとなしく　いうことを　ききます\n\nそれいじょう　レベルが　たかいと\nうまく　あつかえません\n\nそれから　いあいぎりの　わざは\nたたかって　いない　ときでも\nつかえるように　なります"
+  },
+  {
+   "label": "CeruleanBadgeHouseThunderBadgeText",
+   "line": 125,
+   "text": "すべての\nポケモンの　すばやさが\nすこし　たかく　なります\n\nそれから　そらをとぶ　わざは\nたたかって　いない　ときでも\nつかえるように　なります"
+  },
+  {
+   "label": "CeruleanBadgeHouseRainbowBadgeText",
+   "line": 135,
+   "text": "レベル５０までの　ポケモンは\nおとなしく　いうことを　ききます\n\nそれいじょう　レベルが　たかいと\nうまく　あつかえません\n\nそれから　かいりきの　わざは\nたたかって　いない　ときでも\nつかえるように　なります"
+  },
+  {
+   "label": "CeruleanBadgeHouseSoulBadgeText",
+   "line": 147,
+   "text": "すべての\nポケモンの　ぼうぎょ　りょくが\nすこし　たかく　なります\n\nそれから　なみのりの　わざは\nたたかって　いない　ときでも\nつかえるように　なります"
+  },
+  {
+   "label": "CeruleanBadgeHouseMarshBadgeText",
+   "line": 157,
+   "text": "レベル７０までの　ポケモンは\nおとなしく　いうことを　ききます\n\nそれいじょう　レベルが　たかいと\nうまく　あつかえません"
+  },
+  {
+   "label": "CeruleanBadgeHouseVolcanoBadgeText",
+   "line": 165,
+   "text": "すべての\nポケモンの　とくしゅ　のうりょくが\nすこし　たかく　なります"
+  },
+  {
+   "label": "CeruleanBadgeHouseEarthBadgeText",
+   "line": 171,
+   "text": "すべての　ポケモンは\nおとなしく　いうことを　ききます"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "source": "engine/events/hidden_events/magazines.asm",
+ "entries": [
+  {
+   "label": "MagazinesText",
+   "line": 6,
+   "text": "ポケモン　ざっしが　ならんでる！\n\n……ポケモン　てちょう\n\n……ポケモン　グラフ"
+  }
+ ]
+}

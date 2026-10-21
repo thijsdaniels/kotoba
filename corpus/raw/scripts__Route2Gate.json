@@ -1,0 +1,15 @@
+{
+ "source": "scripts/Route2Gate.asm",
+ "entries": [
+  {
+   "label": "Route2GateOaksAideText.FlashExplanationText",
+   "line": 34,
+   "text": "ひでんの　フラッシュで\nどんなに　くらいばしょでも\nバッチリ　あかるく　なります"
+  },
+  {
+   "label": "Route2GateYoungsterText",
+   "line": 40,
+   "text": "ポケモンが\nフラッシュを　おぼえたら\nイワヤマトンネルが　とおれるね"
+  }
+ ]
+}

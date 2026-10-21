@@ -1,0 +1,35 @@
+{
+ "source": "scripts/PokemonMansion1F.asm",
+ "entries": [
+  {
+   "label": "PokemonMansion1FScientistBattleText",
+   "line": 81,
+   "text": "だれも　いない　はずの\nいえを　あるき　まわる\nきみは　だれだね？"
+  },
+  {
+   "label": "PokemonMansion1FScientistEndBattleText",
+   "line": 87,
+   "text": "まいったな"
+  },
+  {
+   "label": "PokemonMansion1FScientistAfterBattleText",
+   "line": 91,
+   "text": "……　なに？\nカギを　さがして　いるのか\nさあ　しらないねえ……"
+  },
+  {
+   "label": "PokemonMansion1FSwitchText.Text",
+   "line": 123,
+   "text": "ひみつの　スイッチが　ある！\n\nおして　みますか？"
+  },
+  {
+   "label": "PokemonMansion1FSwitchText.PressedText",
+   "line": 129,
+   "text": "おしてみよう！　……ポチッとな"
+  },
+  {
+   "label": "PokemonMansion1FSwitchText.NotPressedText",
+   "line": 133,
+   "text": "おすのは　あきらめた"
+  }
+ ]
+}

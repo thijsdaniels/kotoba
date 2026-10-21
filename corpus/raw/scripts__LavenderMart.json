@@ -1,0 +1,21 @@
+{
+ "source": "scripts/LavenderMart.asm",
+ "entries": [
+  {
+   "label": "LavenderMartBaldingGuyText",
+   "line": 10,
+   "text": "おじさんが　さがしてる　のは……\n\nポケモンが　たたかってる　とき\nのうりょくを　いちじ　てきに\nあげる　どうぐ　なんだが……\n\nプラスパワー　ディフェンダー\nスピーダー　スペシャルアップ……\n\n……という\nなまえ　なんだが　しらんかな？"
+  },
+  {
+   "label": "LavenderMartCooltrainerMText",
+   "line": 24,
+   "text": "げんきのかけらは　かった？\nひんしじょうたいの　ポケモンを\nげんきに　する　べんりな　どうぐさ"
+  },
+  {
+   "label": "LavenderMartCooltrainerMText",
+   "line": 41,
+   "text": "この　あいだ　やまおくで\nきんのたまを　ひろい　ましてね！\n\nつかえない　しなもの　ですが\nうったら　なんと　５０００円でした",
+   "continuation": true
+  }
+ ]
+}

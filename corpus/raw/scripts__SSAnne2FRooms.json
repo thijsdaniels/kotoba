@@ -1,0 +1,100 @@
+{
+ "source": "scripts/SSAnne2FRooms.asm",
+ "entries": [
+  {
+   "label": "SSAnne2FRoomsGentleman1BattleText",
+   "line": 48,
+   "text": "わかもの　との　しょうぶ　こそ\nじんせいの　たのしみ！"
+  },
+  {
+   "label": "SSAnne2FRoomsGentleman1EndBattleText",
+   "line": 53,
+   "text": "いい　しょうぶ！\nわかがえる　ようだ"
+  },
+  {
+   "label": "SSAnne2FRoomsGentleman1AfterBattleText",
+   "line": 58,
+   "text": "１５ねん　まえ　なら\nわたしが　かって　いた　だろう！"
+  },
+  {
+   "label": "SSAnne2FRoomsFisherBattleText",
+   "line": 69,
+   "text": "おれが　つった\nじまんの　さかなを　みろ！"
+  },
+  {
+   "label": "SSAnne2FRoomsFisherEndBattleText",
+   "line": 74,
+   "text": "もう　からっぽ！"
+  },
+  {
+   "label": "SSAnne2FRoomsFisherAfterBattleText",
+   "line": 78,
+   "text": "……　パーティ？\n\nせんじょう　パーティは\nもう　おわった　ころ　じゃないかな"
+  },
+  {
+   "label": "SSAnne2FRoomsGentleman2BattleText",
+   "line": 91,
+   "text": "きみは……　つよい　ポケモンと\nめずらしい　ポケモン\nどっちに　かちを　かんじるかね？"
+  },
+  {
+   "label": "SSAnne2FRoomsGentleman2EndBattleText",
+   "line": 97,
+   "text": "やる　ものだね！"
+  },
+  {
+   "label": "SSAnne2FRoomsGentleman2AfterBattleText",
+   "line": 101,
+   "text": "わたしは……　めずらしくて\nつよい　ポケモンが　ほしいねえ"
+  },
+  {
+   "label": "SSAnne2FRoomsCooltrainerFBattleText",
+   "line": 112,
+   "text": "あら　せんじょう　パーティでは\nみかけ　なかった　けど……？"
+  },
+  {
+   "label": "SSAnne2FRoomsCooltrainerFEndBattleText",
+   "line": 117,
+   "text": "てかげん　してよ"
+  },
+  {
+   "label": "SSAnne2FRoomsCooltrainerFAfterBattleText",
+   "line": 121,
+   "text": "いいな　つよい　ポケモン！\nいいな……　いいな……！"
+  },
+  {
+   "label": "SSAnne2FRoomsGentleman3Text.Text",
+   "line": 136,
+   "text": "せかい　じゅうを　たび　してきたが\nねむって　ばかりの　あいつを\nみつけたときは　ほんとに　あきれた\n\nたしか……！\nこんな　ポケモン　だった"
+  },
+  {
+   "label": "SSAnne2FRoomsGentleman4Text.Text",
+   "line": 151,
+   "text": "にんげんを　のせて\nみずの　うえ　はしる　ポケモン\nみたこと　ある　アルよ！"
+  },
+  {
+   "label": "SSAnne2FRoomsGrampsText.Text",
+   "line": 163,
+   "text": "ほそい　き　なら　ポケモンの\nいあいぎりで　きりたおせる　じゃろ"
+  },
+  {
+   "label": "SSAnne2FRoomsGentleman5Text.Text",
+   "line": 174,
+   "text": "セキチク　シティ　サファリ　ゾーン\nいった　こと　あるかね？\n\nあそこは　めずらしい　ポケモンが\nたくさん　いた！"
+  },
+  {
+   "label": "SSAnne2FRoomsLittleBoyText.Text",
+   "line": 188,
+   "text": "パパも　ぼくも\nサファリ　ゾーン　だいすき！\nまた　あそびに　いきたいな！"
+  },
+  {
+   "label": "SSAnne2FRoomsBrunetteGirlText.Text",
+   "line": 200,
+   "text": "せんちょうさん　みたんだけど\nぐあい　わるいって\nまっさおな　かお　してたよ！"
+  },
+  {
+   "label": "SSAnne2FRoomsBeautyText.Text",
+   "line": 212,
+   "text": "けっこう　おおい　らしいわ！\nふなよい　する　ひと！"
+  }
+ ]
+}

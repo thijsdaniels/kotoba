@@ -1,0 +1,10 @@
+{
+ "source": "scripts/Route5.asm",
+ "entries": [
+  {
+   "label": "Route5UndergroundPathSignText",
+   "line": 8,
+   "text": "ここから　ちか　つうろ\nハナダ　シティ　……　クチバ　シティ"
+  }
+ ]
+}

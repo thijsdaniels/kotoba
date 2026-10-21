@@ -1,0 +1,21 @@
+{
+ "source": "scripts/PewterNidoranHouse.asm",
+ "entries": [
+  {
+   "label": "PewterNidoranHouseNidoranText",
+   "line": 10,
+   "text": "バウバウ！",
+   "speaker": "ニドラン"
+  },
+  {
+   "label": "PewterNidoranHouseLittleBoyText",
+   "line": 23,
+   "text": "ニドラン　おすわり！"
+  },
+  {
+   "label": "PewterNidoranHouseMiddleAgedManText",
+   "line": 27,
+   "text": "うちの　ポケモン　よそもの\nだから　き　むずかしいよ\n\nよそもの　ってのは　ひとと\nこうかん　した　ポケモンだよ\n\nそだつのは　はやいが\nちからのない　トレーナーの\nいうことは　きかん！\n\nバッジさえ　あれば……"
+  }
+ ]
+}

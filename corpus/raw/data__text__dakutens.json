@@ -1,0 +1,15 @@
+{
+ "source": "data/text/dakutens.asm",
+ "entries": [
+  {
+   "label": "Dakutens",
+   "line": 1,
+   "text": "かが\nさざ\nただ\nはば\nカガ\nサザ\nタダ\nハバ"
+  },
+  {
+   "label": "Handakutens",
+   "line": 12,
+   "text": "はぱ\nハパ"
+  }
+ ]
+}

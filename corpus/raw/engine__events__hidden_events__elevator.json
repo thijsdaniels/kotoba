@@ -1,0 +1,10 @@
+{
+ "source": "engine/events/hidden_events/elevator.asm",
+ "entries": [
+  {
+   "label": "ElevatorText",
+   "line": 1,
+   "text": "ここは　エレベーターだ！"
+  }
+ ]
+}

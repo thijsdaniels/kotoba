@@ -1,0 +1,15 @@
+{
+ "source": "engine/menus/league_pc.asm",
+ "entries": [
+  {
+   "label": "HallOfFameNoText",
+   "line": 115,
+   "text": "だい　　　かい　でんどういり"
+  },
+  {
+   "label": "AccessedHoFPCText",
+   "line": 118,
+   "text": "ポケモンリーグ　ホストと　つないだ！\n\nでんどう　いり　リスト\nかんり　システムを　よびだした！"
+  }
+ ]
+}

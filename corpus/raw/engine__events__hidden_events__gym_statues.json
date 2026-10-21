@@ -1,0 +1,27 @@
+{
+ "source": "engine/events/hidden_events/gym_statues.asm",
+ "entries": [
+  {
+   "label": "GymStatueText1",
+   "line": 33,
+   "text": "ポケモン　ジム"
+  },
+  {
+   "label": "GymStatueText1",
+   "line": 37,
+   "text": "にんてい　トレーナー！\n{rival}",
+   "continuation": true
+  },
+  {
+   "label": "GymStatueText2",
+   "line": 42,
+   "text": "ポケモン　ジム"
+  },
+  {
+   "label": "GymStatueText2",
+   "line": 46,
+   "text": "にんてい　トレーナー！\n{rival}　{player}",
+   "continuation": true
+  }
+ ]
+}

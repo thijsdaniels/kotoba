@@ -1,0 +1,145 @@
+{
+ "source": "scripts/Route8.asm",
+ "entries": [
+  {
+   "label": "Route8SuperNerd1BattleText",
+   "line": 47,
+   "text": "きみ　ポケモン　つよそう　だけど\nりかは　とくい　なのかい？"
+  },
+  {
+   "label": "Route8SuperNerd1EndBattleText",
+   "line": 52,
+   "text": "がーん！　ばったり"
+  },
+  {
+   "label": "Route8SuperNerd1AfterBattleText",
+   "line": 56,
+   "text": "ぼくは　やっぱり\nべんきょうの　ほうが　あってる"
+  },
+  {
+   "label": "Route8Gambler1BattleText",
+   "line": 67,
+   "text": "よっしゃ！\nたたかって　うんだめし　するか"
+  },
+  {
+   "label": "Route8Gambler1EndBattleText",
+   "line": 72,
+   "text": "……　きょうは\nしょうぶ　うん　わるし！"
+  },
+  {
+   "label": "Route8Gambler1AfterBattleText",
+   "line": 77,
+   "text": "どうも　きょうは　ついてねえ\nじっと　してよう"
+  },
+  {
+   "label": "Route8SuperNerd2BattleText",
+   "line": 88,
+   "text": "あのね\nたたかい　には　せんりゃくが\nひつよう　なんだ"
+  },
+  {
+   "label": "Route8SuperNerd2EndBattleText",
+   "line": 94,
+   "text": "りかい　できない！"
+  },
+  {
+   "label": "Route8SuperNerd2AfterBattleText",
+   "line": 98,
+   "text": "はじめに　ベトベター　だして……\nいいや　ほかので　いっきに……\n……　うーん　ブツ　ブツ……"
+  },
+  {
+   "label": "Route8CooltrainerF1BattleText",
+   "line": 110,
+   "text": "あたし　ニドラン　すき　だから\nたくさん　あつめてるの"
+  },
+  {
+   "label": "Route8CooltrainerF1EndBattleText",
+   "line": 115,
+   "text": "なんで　なんでー"
+  },
+  {
+   "label": "Route8CooltrainerF1AfterBattleText",
+   "line": 119,
+   "text": "ポケモンって　そだって　くると\nかわいく　なくなって　きちゃう\nしんか　しないほうが　かわいいわ！"
+  },
+  {
+   "label": "Route8SuperNerd3BattleText",
+   "line": 131,
+   "text": "べんきょうも　いいけど……\nポケモンも　いいね"
+  },
+  {
+   "label": "Route8SuperNerd3EndBattleText",
+   "line": 136,
+   "text": "……　わかった\nぼくには　べんきょう　しか　ない"
+  },
+  {
+   "label": "Route8SuperNerd3AfterBattleText",
+   "line": 141,
+   "text": "たまには　そとの　くうき　すいに\nいこうと　おもったのに\nヤマブキの　ゲートの　せいで\nみんな　ここで　あしどめだ"
+  },
+  {
+   "label": "Route8CooltrainerF2BattleText",
+   "line": 154,
+   "text": "ニャース　って\nちょー　かわいーの！\nにゃー　にゃー　にゃー！"
+  },
+  {
+   "label": "Route8CooltrainerF2EndBattleText",
+   "line": 160,
+   "text": "そんにゃー！"
+  },
+  {
+   "label": "Route8CooltrainerF2AfterBattleText",
+   "line": 164,
+   "text": "やーん！\nポッポも　コラッタも　かわいー\nあたし　まよっちゃう！"
+  },
+  {
+   "label": "Route8CooltrainerF3BattleText",
+   "line": 176,
+   "text": "こうして　ならんでると\nはないち　もんめ　してる　みたい"
+  },
+  {
+   "label": "Route8CooltrainerF3EndBattleText",
+   "line": 181,
+   "text": "ひどーい！\nみんな　かわいい　ポケモン　なのに"
+  },
+  {
+   "label": "Route8CooltrainerF3AfterBattleText",
+   "line": 186,
+   "text": "ヤマブキ　シティの　けいびいん\nゲート　とおらせて　くれないの\nまじめ　だけど……　いじわるね"
+  },
+  {
+   "label": "Route8Gambler2BattleText",
+   "line": 198,
+   "text": "おれは　いまどき\nさすらいの　ギャンブラー！"
+  },
+  {
+   "label": "Route8Gambler2EndBattleText",
+   "line": 203,
+   "text": "……！\nここ　いちばんを　のがす　とは！"
+  },
+  {
+   "label": "Route8Gambler2AfterBattleText",
+   "line": 208,
+   "text": "ギャンブルも　ポケモンも\nしょうぶには　かわりない！\nはじめたら　やめられ　ないのさ"
+  },
+  {
+   "label": "Route8CooltrainerF4BattleText",
+   "line": 220,
+   "text": "まるくって　ふわふわで\nぬいぐるみ　みたいな　ポケモン！\n……　なーんだ？"
+  },
+  {
+   "label": "Route8CooltrainerF4EndBattleText",
+   "line": 226,
+   "text": "やめてー！\n\nわたしの　ピッピに\nらんぼう　しないでよう！"
+  },
+  {
+   "label": "Route8CooltrainerF4AfterBattleText",
+   "line": 233,
+   "text": "つきのいしで　ピッピが　なんかに\nしんか　するって\nポケモン　ジャーナルで　よんだの\n……　ほんと　かしら？"
+  },
+  {
+   "label": "Route8UndergroundSignText",
+   "line": 240,
+   "text": "ここから　ちかつうろ\nタマムシ　……　シオン"
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+[
+ {
+  "id": 1,
+  "const": "POUND",
+  "ja": "はたく"
+ },
+ {
+  "id": 2,
+  "const": "KARATE_CHOP",
+  "ja": "からてチョップ"
+ },
+ {
+  "id": 3,
+  "const": "DOUBLESLAP",
+  "ja": "おうふくビンタ"
+ },
+ {
+  "id": 4,
+  "const": "COMET_PUNCH",
+  "ja": "れんぞくパンチ"
+ },
+ {
+  "id": 5,
+  "const": "MEGA_PUNCH",
+  "ja": "メガトンパンチ"
+ },
+ {
+  "id": 6,
+  "const": "PAY_DAY",
+  "ja": "ネコにこばん"
+ },
+ {
+  "id": 7,
+  "const": "FIRE_PUNCH",
+  "ja": "ほのおのパンチ"
+ },
+ {
+  "id": 8,
+  "const": "ICE_PUNCH",
+  "ja": "れいとうパンチ"
+ },
+ {
+  "id": 9,
+  "const": "THUNDERPUNCH",
+  "ja": "かみなりパンチ"
+ },
+ {
+  "id": 10,
+  "const": "SCRATCH",
+  "ja": "ひっかく"
+ },
+ {
+  "id": 11,
+  "const": "VICEGRIP",
+  "ja": "はさむ"
+ },
+ {
+  "id": 12,
+  "const": "GUILLOTINE",
+  "ja": "ハサミギロチン"
+ },
+ {
+  "id": 13,
+  "const": "RAZOR_WIND",
+  "ja": "かまいたち"
+ },
+ {
+  "id": 14,
+  "const": "SWORDS_DANCE",
+  "ja": "つるぎのまい"
+ },
+ {
+  "id": 15,
+  "const": "CUT",
+  "ja": "いあいぎり"
+ },
+ {
+  "id": 16,
+  "const": "GUST",
+  "ja": "かぜおこし"
+ },
+ {
+  "id": 17,
+  "const": "WING_ATTACK",
+  "ja": "つばさでうつ"
+ },
+ {
+  "id": 18,
+  "const": "WHIRLWIND",
+  "ja": "ふきとばし"
+ },
+ {
+  "id": 19,
+  "const": "FLY",
+  "ja": "そらをとぶ"
+ },
+ {
+  "id": 20,
+  "const": "BIND",
+  "ja": "しめつける"
+ },
+ {
+  "id": 21,
+  "const": "SLAM",
+  "ja": "たたきつける"
+ },
+ {
+  "id": 22,
+  "const": "VINE_WHIP",
+  "ja": "つるのムチ"
+ },
+ {
+  "id": 23,
+  "const": "STOMP",
+  "ja": "ふみつけ"
+ },
+ {
+  "id": 24,
+  "const": "DOUBLE_KICK",
+  "ja": "にどげり"
+ },
+ {
+  "id": 25,
+  "const": "MEGA_KICK",
+  "ja": "メガトンキック"
+ },
+ {
+  "id": 26,
+  "const": "JUMP_KICK",
+  "ja": "とびげり"
+ },
+ {
+  "id": 27,
+  "const": "ROLLING_KICK",
+  "ja": "まわしげり"
+ },
+ {
+  "id": 28,
+  "const": "SAND_ATTACK",
+  "ja": "すなかけ"
+ },
+ {
+  "id": 29,
+  "const": "HEADBUTT",
+  "ja": "ずつき"
+ },
+ {
+  "id": 30,
+  "const": "HORN_ATTACK",
+  "ja": "つのでつく"
+ },
+ {
+  "id": 31,
+  "const": "FURY_ATTACK",
+  "ja": "みだれづき"
+ },
+ {
+  "id": 32,
+  "const": "HORN_DRILL",
+  "ja": "つのドリル"
+ },
+ {
+  "id": 33,
+  "const": "TACKLE",
+  "ja": "たいあたり"
+ },
+ {
+  "id": 34,
+  "const": "BODY_SLAM",
+  "ja": "のしかかり"
+ },
+ {
+  "id": 35,
+  "const": "WRAP",
+  "ja": "まきつく"
+ },
+ {
+  "id": 36,
+  "const": "TAKE_DOWN",
+  "ja": "とっしん"
+ },
+ {
+  "id": 37,
+  "const": "THRASH",
+  "ja": "あばれる"
+ },
+ {
+  "id": 38,
+  "const": "DOUBLE_EDGE",
+  "ja": "すてみタックル"
+ },
+ {
+  "id": 39,
+  "const": "TAIL_WHIP",
+  "ja": "しっぽをふる"
+ },
+ {
+  "id": 40,
+  "const": "POISON_STING",
+  "ja": "どくばり"
+ },
+ {
+  "id": 41,
+  "const": "TWINEEDLE",
+  "ja": "ダブルニードル"
+ },
+ {
+  "id": 42,
+  "const": "PIN_MISSILE",
+  "ja": "ミサイルばり"
+ },
+ {
+  "id": 43,
+  "const": "LEER",
+  "ja": "にらみつける"
+ },
+ {
+  "id": 44,
+  "const": "BITE",
+  "ja": "かみつく"
+ },
+ {
+  "id": 45,
+  "const": "GROWL",
+  "ja": "なきごえ"
+ },
+ {
+  "id": 46,
+  "const": "ROAR",
+  "ja": "ほえる"
+ },
+ {
+  "id": 47,
+  "const": "SING",
+  "ja": "うたう"
+ },
+ {
+  "id": 48,
+  "const": "SUPERSONIC",
+  "ja": "ちょうおんぱ"
+ },
+ {
+  "id": 49,
+  "const": "SONICBOOM",
+  "ja": "ソニックブーム"
+ },
+ {
+  "id": 50,
+  "const": "DISABLE",
+  "ja": "かなしばり"
+ },
+ {
+  "id": 51,
+  "const": "ACID",
+  "ja": "ようかいえき"
+ },
+ {
+  "id": 52,
+  "const": "EMBER",
+  "ja": "ひのこ"
+ },
+ {
+  "id": 53,
+  "const": "FLAMETHROWER",
+  "ja": "かえんほうしゃ"
+ },
+ {
+  "id": 54,
+  "const": "MIST",
+  "ja": "しろいきり"
+ },
+ {
+  "id": 55,
+  "const": "WATER_GUN",
+  "ja": "みずでっぽう"
+ },
+ {
+  "id": 56,
+  "const": "HYDRO_PUMP",
+  "ja": "ハイドロポンプ"
+ },
+ {
+  "id": 57,
+  "const": "SURF",
+  "ja": "なみのり"
+ },
+ {
+  "id": 58,
+  "const": "ICE_BEAM",
+  "ja": "れいとうビーム"
+ },
+ {
+  "id": 59,
+  "const": "BLIZZARD",
+  "ja": "ふぶき"
+ },
+ {
+  "id": 60,
+  "const": "PSYBEAM",
+  "ja": "サイケこうせん"
+ },
+ {
+  "id": 61,
+  "const": "BUBBLEBEAM",
+  "ja": "バブルこうせん"
+ },
+ {
+  "id": 62,
+  "const": "AURORA_BEAM",
+  "ja": "オーロラビーム"
+ },
+ {
+  "id": 63,
+  "const": "HYPER_BEAM",
+  "ja": "はかいこうせん"
+ },
+ {
+  "id": 64,
+  "const": "PECK",
+  "ja": "つつく"
+ },
+ {
+  "id": 65,
+  "const": "DRILL_PECK",
+  "ja": "ドリルくちばし"
+ },
+ {
+  "id": 66,
+  "const": "SUBMISSION",
+  "ja": "じごくぐるま　"
+ },
+ {
+  "id": 67,
+  "const": "LOW_KICK",
+  "ja": "けたぐり"
+ },
+ {
+  "id": 68,
+  "const": "COUNTER",
+  "ja": "カウンター"
+ },
+ {
+  "id": 69,
+  "const": "SEISMIC_TOSS",
+  "ja": "ちきゅうなげ"
+ },
+ {
+  "id": 70,
+  "const": "STRENGTH",
+  "ja": "かいりき"
+ },
+ {
+  "id": 71,
+  "const": "ABSORB",
+  "ja": "すいとる"
+ },
+ {
+  "id": 72,
+  "const": "MEGA_DRAIN",
+  "ja": "メガドレイン"
+ },
+ {
+  "id": 73,
+  "const": "LEECH_SEED",
+  "ja": "やどりぎのタネ"
+ },
+ {
+  "id": 74,
+  "const": "GROWTH",
+  "ja": "せいちょう"
+ },
+ {
+  "id": 75,
+  "const": "RAZOR_LEAF",
+  "ja": "はっぱカッター"
+ },
+ {
+  "id": 76,
+  "const": "SOLARBEAM",
+  "ja": "ソーラービーム"
+ },
+ {
+  "id": 77,
+  "const": "POISONPOWDER",
+  "ja": "どくのこな"
+ },
+ {
+  "id": 78,
+  "const": "STUN_SPORE",
+  "ja": "しびれごな"
+ },
+ {
+  "id": 79,
+  "const": "SLEEP_POWDER",
+  "ja": "ねむりごな"
+ },
+ {
+  "id": 80,
+  "const": "PETAL_DANCE",
+  "ja": "はなびらのまい"
+ },
+ {
+  "id": 81,
+  "const": "STRING_SHOT",
+  "ja": "いとをはく"
+ },
+ {
+  "id": 82,
+  "const": "DRAGON_RAGE",
+  "ja": "りゅうのいかり"
+ },
+ {
+  "id": 83,
+  "const": "FIRE_SPIN",
+  "ja": "ほのおのうず"
+ },
+ {
+  "id": 84,
+  "const": "THUNDERSHOCK",
+  "ja": "でんきショック"
+ },
+ {
+  "id": 85,
+  "const": "THUNDERBOLT",
+  "ja": "１０まんボルト"
+ },
+ {
+  "id": 86,
+  "const": "THUNDER_WAVE",
+  "ja": "でんじは"
+ },
+ {
+  "id": 87,
+  "const": "THUNDER",
+  "ja": "かみなり"
+ },
+ {
+  "id": 88,
+  "const": "ROCK_THROW",
+  "ja": "いわおとし"
+ },
+ {
+  "id": 89,
+  "const": "EARTHQUAKE",
+  "ja": "じしん"
+ },
+ {
+  "id": 90,
+  "const": "FISSURE",
+  "ja": "じわれ"
+ },
+ {
+  "id": 91,
+  "const": "DIG",
+  "ja": "あなをほる"
+ },
+ {
+  "id": 92,
+  "const": "TOXIC",
+  "ja": "どくどく"
+ },
+ {
+  "id": 93,
+  "const": "CONFUSION",
+  "ja": "ねんりき"
+ },
+ {
+  "id": 94,
+  "const": "PSYCHIC_M",
+  "ja": "サイコキネシス"
+ },
+ {
+  "id": 95,
+  "const": "HYPNOSIS",
+  "ja": "さいみんじゅつ"
+ },
+ {
+  "id": 96,
+  "const": "MEDITATE",
+  "ja": "ヨガのポーズ"
+ },
+ {
+  "id": 97,
+  "const": "AGILITY",
+  "ja": "こうそくいどう"
+ },
+ {
+  "id": 98,
+  "const": "QUICK_ATTACK",
+  "ja": "でんこうせっか"
+ },
+ {
+  "id": 99,
+  "const": "RAGE",
+  "ja": "いかり"
+ },
+ {
+  "id": 100,
+  "const": "TELEPORT",
+  "ja": "テレポート"
+ },
+ {
+  "id": 101,
+  "const": "NIGHT_SHADE",
+  "ja": "ナイトヘッド"
+ },
+ {
+  "id": 102,
+  "const": "MIMIC",
+  "ja": "ものまね"
+ },
+ {
+  "id": 103,
+  "const": "SCREECH",
+  "ja": "いやなおと"
+ },
+ {
+  "id": 104,
+  "const": "DOUBLE_TEAM",
+  "ja": "かげぶんしん"
+ },
+ {
+  "id": 105,
+  "const": "RECOVER",
+  "ja": "じこさいせい"
+ },
+ {
+  "id": 106,
+  "const": "HARDEN",
+  "ja": "かたくなる"
+ },
+ {
+  "id": 107,
+  "const": "MINIMIZE",
+  "ja": "ちいさくなる"
+ },
+ {
+  "id": 108,
+  "const": "SMOKESCREEN",
+  "ja": "えんまく"
+ },
+ {
+  "id": 109,
+  "const": "CONFUSE_RAY",
+  "ja": "あやしいひかり"
+ },
+ {
+  "id": 110,
+  "const": "WITHDRAW",
+  "ja": "からにこもる"
+ },
+ {
+  "id": 111,
+  "const": "DEFENSE_CURL",
+  "ja": "まるくなる"
+ },
+ {
+  "id": 112,
+  "const": "BARRIER",
+  "ja": "バリアー"
+ },
+ {
+  "id": 113,
+  "const": "LIGHT_SCREEN",
+  "ja": "ひかりのかべ"
+ },
+ {
+  "id": 114,
+  "const": "HAZE",
+  "ja": "くろいきり"
+ },
+ {
+  "id": 115,
+  "const": "REFLECT",
+  "ja": "リフレクター"
+ },
+ {
+  "id": 116,
+  "const": "FOCUS_ENERGY",
+  "ja": "きあいだめ"
+ },
+ {
+  "id": 117,
+  "const": "BIDE",
+  "ja": "がまん"
+ },
+ {
+  "id": 118,
+  "const": "METRONOME",
+  "ja": "ゆびをふる"
+ },
+ {
+  "id": 119,
+  "const": "MIRROR_MOVE",
+  "ja": "オウムがえし"
+ },
+ {
+  "id": 120,
+  "const": "SELFDESTRUCT",
+  "ja": "じばく"
+ },
+ {
+  "id": 121,
+  "const": "EGG_BOMB",
+  "ja": "タマゴばくだん"
+ },
+ {
+  "id": 122,
+  "const": "LICK",
+  "ja": "したでなめる"
+ },
+ {
+  "id": 123,
+  "const": "SMOG",
+  "ja": "スモッグ"
+ },
+ {
+  "id": 124,
+  "const": "SLUDGE",
+  "ja": "ヘドロこうげき"
+ },
+ {
+  "id": 125,
+  "const": "BONE_CLUB",
+  "ja": "ホネこんぼう"
+ },
+ {
+  "id": 126,
+  "const": "FIRE_BLAST",
+  "ja": "だいもんじ"
+ },
+ {
+  "id": 127,
+  "const": "WATERFALL",
+  "ja": "たきのぼり"
+ },
+ {
+  "id": 128,
+  "const": "CLAMP",
+  "ja": "からではさむ"
+ },
+ {
+  "id": 129,
+  "const": "SWIFT",
+  "ja": "スピードスター"
+ },
+ {
+  "id": 130,
+  "const": "SKULL_BASH",
+  "ja": "ロケットずつき"
+ },
+ {
+  "id": 131,
+  "const": "SPIKE_CANNON",
+  "ja": "とげキャノン"
+ },
+ {
+  "id": 132,
+  "const": "CONSTRICT",
+  "ja": "からみつく"
+ },
+ {
+  "id": 133,
+  "const": "AMNESIA",
+  "ja": "ドわすれ"
+ },
+ {
+  "id": 134,
+  "const": "KINESIS",
+  "ja": "スプーンまげ"
+ },
+ {
+  "id": 135,
+  "const": "SOFTBOILED",
+  "ja": "タマゴうみ"
+ },
+ {
+  "id": 136,
+  "const": "HI_JUMP_KICK",
+  "ja": "とびひざげり"
+ },
+ {
+  "id": 137,
+  "const": "GLARE",
+  "ja": "へびにらみ"
+ },
+ {
+  "id": 138,
+  "const": "DREAM_EATER",
+  "ja": "ゆめくい"
+ },
+ {
+  "id": 139,
+  "const": "POISON_GAS",
+  "ja": "どくガス"
+ },
+ {
+  "id": 140,
+  "const": "BARRAGE",
+  "ja": "たまなげ"
+ },
+ {
+  "id": 141,
+  "const": "LEECH_LIFE",
+  "ja": "きゅうけつ"
+ },
+ {
+  "id": 142,
+  "const": "LOVELY_KISS",
+  "ja": "あくまのキッス"
+ },
+ {
+  "id": 143,
+  "const": "SKY_ATTACK",
+  "ja": "ゴッドバード"
+ },
+ {
+  "id": 144,
+  "const": "TRANSFORM",
+  "ja": "へんしん"
+ },
+ {
+  "id": 145,
+  "const": "BUBBLE",
+  "ja": "あわ"
+ },
+ {
+  "id": 146,
+  "const": "DIZZY_PUNCH",
+  "ja": "ピヨピヨパンチ"
+ },
+ {
+  "id": 147,
+  "const": "SPORE",
+  "ja": "キノコのほうし"
+ },
+ {
+  "id": 148,
+  "const": "FLASH",
+  "ja": "フラッシュ"
+ },
+ {
+  "id": 149,
+  "const": "PSYWAVE",
+  "ja": "サイコウェーブ"
+ },
+ {
+  "id": 150,
+  "const": "SPLASH",
+  "ja": "はねる"
+ },
+ {
+  "id": 151,
+  "const": "ACID_ARMOR",
+  "ja": "とける"
+ },
+ {
+  "id": 152,
+  "const": "CRABHAMMER",
+  "ja": "クラブハンマー"
+ },
+ {
+  "id": 153,
+  "const": "EXPLOSION",
+  "ja": "だいばくはつ"
+ },
+ {
+  "id": 154,
+  "const": "FURY_SWIPES",
+  "ja": "みだれひっかき"
+ },
+ {
+  "id": 155,
+  "const": "BONEMERANG",
+  "ja": "ホネブーメラン"
+ },
+ {
+  "id": 156,
+  "const": "REST",
+  "ja": "ねむる"
+ },
+ {
+  "id": 157,
+  "const": "ROCK_SLIDE",
+  "ja": "いわなだれ"
+ },
+ {
+  "id": 158,
+  "const": "HYPER_FANG",
+  "ja": "ひっさつまえば"
+ },
+ {
+  "id": 159,
+  "const": "SHARPEN",
+  "ja": "かくばる"
+ },
+ {
+  "id": 160,
+  "const": "CONVERSION",
+  "ja": "テクスチャー"
+ },
+ {
+  "id": 161,
+  "const": "TRI_ATTACK",
+  "ja": "トライアタック"
+ },
+ {
+  "id": 162,
+  "const": "SUPER_FANG",
+  "ja": "いかりのまえば"
+ },
+ {
+  "id": 163,
+  "const": "SLASH",
+  "ja": "きりさく"
+ },
+ {
+  "id": 164,
+  "const": "SUBSTITUTE",
+  "ja": "みがわり"
+ },
+ {
+  "id": 165,
+  "const": "STRUGGLE",
+  "ja": "わるあがき"
+ }
+]

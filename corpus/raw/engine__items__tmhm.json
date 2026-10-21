@@ -1,0 +1,16 @@
+{
+ "source": "engine/items/tmhm.asm",
+ "entries": [
+  {
+   "label": "AlreadyKnowsText",
+   "line": 24,
+   "text": "は　すでに"
+  },
+  {
+   "label": "AlreadyKnowsText",
+   "line": 28,
+   "text": "を　おぼえています",
+   "continuation": true
+  }
+ ]
+}

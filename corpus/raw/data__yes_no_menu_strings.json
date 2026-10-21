@@ -1,0 +1,40 @@
+{
+ "source": "data/yes_no_menu_strings.asm",
+ "entries": [
+  {
+   "label": "TwoOptionMenuStrings.NoYesMenu",
+   "line": 20,
+   "text": "いいえ\nはい"
+  },
+  {
+   "label": "TwoOptionMenuStrings.YesNoMenu",
+   "line": 24,
+   "text": "はい\nいいえ"
+  },
+  {
+   "label": "TwoOptionMenuStrings.NorthWestMenu",
+   "line": 28,
+   "text": "きた\nにし"
+  },
+  {
+   "label": "TwoOptionMenuStrings.SouthEastMenu",
+   "line": 32,
+   "text": "みなみ\nひがし"
+  },
+  {
+   "label": "TwoOptionMenuStrings.NorthEastMenu",
+   "line": 36,
+   "text": "きた\nひがし"
+  },
+  {
+   "label": "TwoOptionMenuStrings.TradeCancelMenu",
+   "line": 40,
+   "text": "こうかん\nやめる"
+  },
+  {
+   "label": "TwoOptionMenuStrings.HealCancelMenu",
+   "line": 44,
+   "text": "あずける\nやめる"
+  }
+ ]
+}

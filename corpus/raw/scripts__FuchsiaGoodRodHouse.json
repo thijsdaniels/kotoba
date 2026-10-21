@@ -1,0 +1,41 @@
+{
+ "source": "scripts/FuchsiaGoodRodHouse.asm",
+ "entries": [
+  {
+   "label": "FuchsiaGoodRodHouseFishingGuruText.Text",
+   "line": 38,
+   "text": "わしは　つりおやじの　あに　じゃ！\n\nもう　しぬほど\nつりが　すき　なんだが\n\nきみは　つり　すき　かな？"
+  },
+  {
+   "label": "FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText",
+   "line": 47,
+   "text": "そうか！\nきみとは　きが　あいそうだ！\n\nこれ　あげるから\nきみも　つり　まくりなさいよ！\n\n{player}は　つりおやじから"
+  },
+  {
+   "label": "FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText",
+   "line": 56,
+   "text": "を　もらった！",
+   "continuation": true
+  },
+  {
+   "label": "FuchsiaGoodRodHouseFishingGuruText.UnusedText",
+   "line": 61,
+   "text": "つり　こそ\nおとこの　ロマン　だ！\n\nへぼいつりざおは\nコイキングしか　つれ　なんだが\nこの　いいつりざおなら\nもっと　いいもんが　つれるんじゃ！"
+  },
+  {
+   "label": "FuchsiaGoodRodHouseFishingGuruText.ThatsSoDisappointingText",
+   "line": 71,
+   "text": "なんじゃ……　がっかりだ"
+  },
+  {
+   "label": "FuchsiaGoodRodHouseFishingGuruText.HowAreTheFishText",
+   "line": 75,
+   "text": "やー　{player}くん！\n\nつり　まくっとる　かね！"
+  },
+  {
+   "label": "FuchsiaGoodRodHouseFishingGuruText.NoRoomText",
+   "line": 81,
+   "text": "ありゃー！\n\nいいもの　あげようと　したのに\nにもつが　いっぱいじゃ！"
+  }
+ ]
+}

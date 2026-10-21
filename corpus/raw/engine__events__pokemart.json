@@ -1,0 +1,72 @@
+{
+ "source": "engine/events/pokemart.asm",
+ "entries": [
+  {
+   "label": "PokemartBuyingGreetingText",
+   "line": 229,
+   "text": "ゆっくり　ごらんになって　ください"
+  },
+  {
+   "label": "PokemartTellBuyPriceText",
+   "line": 233,
+   "text": "ですね"
+  },
+  {
+   "label": "PokemartTellBuyPriceText",
+   "line": 237,
+   "text": "円に　なりますが？",
+   "continuation": true
+  },
+  {
+   "label": "PokemartBoughtItemText",
+   "line": 241,
+   "text": "はい　どうぞ\nまいど　ありがとう　ございます"
+  },
+  {
+   "label": "PokemartNotEnoughMoneyText",
+   "line": 246,
+   "text": "おかねが　たりないようですね"
+  },
+  {
+   "label": "PokemartItemBagFullText",
+   "line": 250,
+   "text": "それいじょう　もちきれませんね\nいらないモノを　せいりしてください"
+  },
+  {
+   "label": "PokemonSellingGreetingText",
+   "line": 255,
+   "text": "どれを　うっていただけますか？"
+  },
+  {
+   "label": "PokemartTellSellPriceText",
+   "line": 259,
+   "text": "それでしたら"
+  },
+  {
+   "label": "PokemartTellSellPriceText",
+   "line": 261,
+   "text": "円で\nおひきとりいたしましょう",
+   "continuation": true
+  },
+  {
+   "label": "PokemartItemBagEmptyText",
+   "line": 266,
+   "text": "かいとれる　しなものは\nおもちで　ないようです"
+  },
+  {
+   "label": "PokemartUnsellableItemText",
+   "line": 271,
+   "text": "……そのしなものに　おねだんを\nおつけするわけには　まいりません"
+  },
+  {
+   "label": "PokemartThankYouText",
+   "line": 276,
+   "text": "ありがとう　ございました"
+  },
+  {
+   "label": "PokemartAnythingElseText",
+   "line": 280,
+   "text": "そのほかに　わたくしどもで\nおちからに　なれることは？"
+  }
+ ]
+}

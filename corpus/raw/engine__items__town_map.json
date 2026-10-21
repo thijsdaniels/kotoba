@@ -1,0 +1,20 @@
+{
+ "source": "engine/items/town_map.asm",
+ "entries": [
+  {
+   "label": "MonsNestText",
+   "line": 137,
+   "text": "の　すみか"
+  },
+  {
+   "label": "ToText",
+   "line": 254,
+   "text": "へ　とぶ"
+  },
+  {
+   "label": "AreaUnknownText",
+   "line": 427,
+   "text": "せいそくち　ふめい"
+  }
+ ]
+}

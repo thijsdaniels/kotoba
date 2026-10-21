@@ -1,0 +1,160 @@
+{
+ "source": "scripts/Route19.asm",
+ "entries": [
+  {
+   "label": "Route19CooltrainerM1BattleText",
+   "line": 49,
+   "text": "みずに　はいる　まえに\nじゅんび　たいそう　しなきゃ！"
+  },
+  {
+   "label": "Route19CooltrainerM1EndBattleText",
+   "line": 54,
+   "text": "たいそう　おわり！"
+  },
+  {
+   "label": "Route19CooltrainerM1AfterBattleText",
+   "line": 58,
+   "text": "よしッ！　おかげで\nいい　うんどうに　なった！"
+  },
+  {
+   "label": "Route19CooltrainerM2BattleText",
+   "line": 69,
+   "text": "まて　あわてるな！\nしんぞう　マヒに　なったら　どうする"
+  },
+  {
+   "label": "Route19CooltrainerM2EndBattleText",
+   "line": 74,
+   "text": "うー　さむい"
+  },
+  {
+   "label": "Route19CooltrainerM2AfterBattleText",
+   "line": 78,
+   "text": "メノクラゲに　さされないよう\nきを　つけて　およげよ！"
+  },
+  {
+   "label": "Route19Swimmer1BattleText",
+   "line": 89,
+   "text": "およぐの　だいすき！\n……　きみは　どうなの？"
+  },
+  {
+   "label": "Route19Swimmer1EndBattleText",
+   "line": 94,
+   "text": "ドッポーン！"
+  },
+  {
+   "label": "Route19Swimmer1AfterBattleText",
+   "line": 98,
+   "text": "およぎ　なら\nうみの　ポケモンにも　まけない！"
+  },
+  {
+   "label": "Route19Swimmer2BattleText",
+   "line": 109,
+   "text": "すいへいせんの　むこう\n……　なにが　あるんだろ？"
+  },
+  {
+   "label": "Route19Swimmer2EndBattleText",
+   "line": 114,
+   "text": "ありゃりゃ……"
+  },
+  {
+   "label": "Route19Swimmer2AfterBattleText",
+   "line": 118,
+   "text": "……　むこうに\nいくつか　しまが　みえるぞ！"
+  },
+  {
+   "label": "Route19Swimmer3BattleText",
+   "line": 129,
+   "text": "もぐって……　うみ　ポケモン\nとろうとしたけど　だめ　みたいだ！"
+  },
+  {
+   "label": "Route19Swimmer3EndBattleText",
+   "line": 134,
+   "text": "ごぼ　ごぼッ"
+  },
+  {
+   "label": "Route19Swimmer3AfterBattleText",
+   "line": 138,
+   "text": "うみの　ポケモンは　やっぱり\nつりで　とる　しか　ないや"
+  },
+  {
+   "label": "Route19Swimmer4BattleText",
+   "line": 149,
+   "text": "あおい　うみを　みてれば\nいやな　ことも　わすれるぞ！"
+  },
+  {
+   "label": "Route19Swimmer4EndBattleText",
+   "line": 154,
+   "text": "いやな　まけかただ"
+  },
+  {
+   "label": "Route19Swimmer4AfterBattleText",
+   "line": 158,
+   "text": "あおい　うみを　みて……\nいやな　ことを　わすれよう"
+  },
+  {
+   "label": "Route19Swimmer5BattleText",
+   "line": 169,
+   "text": "ま！　いい　ものに　のってるわね\nかったら　わたしに　ちょうだい！"
+  },
+  {
+   "label": "Route19Swimmer5EndBattleText",
+   "line": 174,
+   "text": "わたしの　まけか"
+  },
+  {
+   "label": "Route19Swimmer5AfterBattleText",
+   "line": 178,
+   "text": "ふたごじま　まで\nまだ　ありそうだし……\nセキチクに　かえりたいわ"
+  },
+  {
+   "label": "Route19Swimmer6BattleText",
+   "line": 190,
+   "text": "およぐの　すき　だけど\nひやけ　するのは　いやだわ！"
+  },
+  {
+   "label": "Route19Swimmer6EndBattleText",
+   "line": 195,
+   "text": "くらくら……"
+  },
+  {
+   "label": "Route19Swimmer6AfterBattleText",
+   "line": 199,
+   "text": "かれが　ふたごじま　まで\nおよごうって　いったのよ"
+  },
+  {
+   "label": "Route19Swimmer7BattleText",
+   "line": 210,
+   "text": "そこの　しょうねん！\nこの　うみは　きけんだ！"
+  },
+  {
+   "label": "Route19Swimmer7EndBattleText",
+   "line": 215,
+   "text": "あぶない　めに　あった"
+  },
+  {
+   "label": "Route19Swimmer7AfterBattleText",
+   "line": 219,
+   "text": "あ　あしが　つった！\nぶく……　ぶくぶく……"
+  },
+  {
+   "label": "Route19Swimmer8BattleText",
+   "line": 230,
+   "text": "みんなで　ここまで　およいで\nきたけど……　くたびれたわ"
+  },
+  {
+   "label": "Route19Swimmer8EndBattleText",
+   "line": 235,
+   "text": "つかれた……"
+  },
+  {
+   "label": "Route19Swimmer8AfterBattleText",
+   "line": 239,
+   "text": "うみで　ポケモンに　のるなら\nラプラスが　いいわ\nおおきいから　ぬれない　もの"
+  },
+  {
+   "label": "Route19SignText",
+   "line": 245,
+   "text": "ここは　１９ばん　すいどう\nセキチク　……　ふたごじま"
+  }
+ ]
+}
