@@ -1,0 +1,176 @@
+{
+ "ContinueText": {
+  "en": "Begin from the continuation",
+  "loose": "Continue"
+ },
+ "NewGameText": {
+  "en": "Begin from the start\nChange the settings"
+ },
+ "SaveScreenInfoText": {
+  "en": "Protagonist\nBadges held: (count)\nPokédex: (count) animals\nPlay time"
+ },
+ "TextSpeedOptionText": {
+  "en": "Speed of talk\nFast  Normal  Slow"
+ },
+ "BattleAnimationOptionText": {
+  "en": "Battle animation\nWatch carefully  Skip and watch"
+ },
+ "BattleStyleOptionText": {
+  "en": "Rules of the match\nSwitch type  Knockout type"
+ },
+ "OptionMenuCancelText": {
+  "en": "End"
+ },
+ "ClearSaveDataText": {
+  "en": "Clear all of the save data area?"
+ },
+ "StartMenuPokedexText": {
+  "en": "Encyclopedia",
+  "loose": "Pokédex"
+ },
+ "StartMenuPokemonText": {
+  "en": "Pokémon"
+ },
+ "StartMenuItemText": {
+  "en": "Tools",
+  "loose": "Items"
+ },
+ "StartMenuSaveText": {
+  "en": "Report",
+  "loose": "Save"
+ },
+ "StartMenuResetText": {
+  "en": "Reset"
+ },
+ "StartMenuExitText": {
+  "en": "Close"
+ },
+ "StartMenuOptionText": {
+  "en": "Settings"
+ },
+ "CannotUseItemsHereText": {
+  "en": "Here, using tools cannot be done.",
+  "loose": "You can't use items here."
+ },
+ "CannotGetOffHereText": {
+  "en": "Getting off cannot be done!"
+ },
+ "TrainerInfo_NameMoneyTimeText": {
+  "en": "Name\nPocket money\nPlay time"
+ },
+ "RedrawPartyMenu_": {
+  "en": "Can learn\nCannot learn\nCan use\nCannot use"
+ },
+ "PartyMenuNormalText": {
+  "en": "Please choose a Pokémon."
+ },
+ "PartyMenuItemUseText": {
+  "en": "On which Pokémon will (you) use (it)?"
+ },
+ "PartyMenuBattleText": {
+  "en": "Which Pokémon will (you) send out?"
+ },
+ "PartyMenuSwapMonText": {
+  "en": "To where will (you) move (it)?"
+ },
+ "PokemonMenuEntries": {
+  "en": "See strength\nRearrange\nCancel"
+ },
+ "FileDataDestroyedText": {
+  "en": "The file's data is broken!"
+ },
+ "WouldYouLikeToSaveText": {
+  "en": "Write (your) activity up to here into the Pokémon report?",
+  "loose": "Save your progress?"
+ },
+ "GameSavedText": {
+  "en": "{player} wrote (it) down firmly in the report!",
+  "loose": "{player} saved the game."
+ },
+ "OlderFileWillBeErasedText": {
+  "en": "The previously written report will disappear, but is writing over (it) okay?"
+ },
+ "WhenYouChangeBoxText": {
+  "en": "When (you) change the Pokémon box, the report is written at the same time.\n\n...Even so, is (it) okay?"
+ },
+ "ChooseABoxText": {
+  "en": "Please choose a Pokémon box."
+ },
+ "BoxNames": {
+  "en": "Box 1 through Box 8"
+ },
+ "BoxNoText": {
+  "en": "Current box"
+ },
+ "TypesIDNoOTText": {
+  "en": "Type 1\nType 2\nID no.\nParent",
+  "loose": "Parent means the original trainer."
+ },
+ "StatusText": {
+  "en": "Condition"
+ },
+ "OKText": {
+  "en": "Normal"
+ },
+ "PrintStatsBox.StatsText": {
+  "en": "Attack\nDefense\nSpeed\nSpecial"
+ },
+ "StatusScreenExpText": {
+  "en": "Experience points\n(points) remaining"
+ },
+ "ThrewAwayItemText": {
+  "en": "Threw away {name}!"
+ },
+ "IsItOKToTossItemText": {
+  "en": "(This) throws away {name}. Is (that) really all right?"
+ },
+ "TypeText": {
+  "en": "Move type"
+ },
+ "ListMenuCancelText": {
+  "en": "Quit"
+ },
+ "TechnicalPrefix": {
+  "en": "Move machine",
+  "loose": "TM"
+ },
+ "HiddenPrefix": {
+  "en": "Secret machine",
+  "loose": "HM"
+ },
+ "UseTossText": {
+  "en": "Use\nThrow away"
+ },
+ "SaveMessageText": {
+  "en": "Record\nMessage"
+ },
+ "SpeedOptionsText": {
+  "en": "Fast\nSlow"
+ },
+ "MoneyText": {
+  "en": "Money"
+ },
+ "MochimonoText": {
+  "en": "Belongings",
+  "loose": "Items carried"
+ },
+ "MainMenuText": {
+  "en": "From the continuation\nFrom the start"
+ },
+ "SwitchStatsCancelText": {
+  "en": "Swap\nSee strength\nCancel"
+ },
+ "PokedexMenuText": {
+  "en": "See data\nCry\nSee distribution\nCancel"
+ },
+ "TwoOptionMenuStrings.NoYesMenu": {
+  "en": "No\nYes"
+ },
+ "TwoOptionMenuStrings.YesNoMenu": {
+  "en": "Yes\nNo"
+ },
+ "FieldMoveNames": {
+  "en": "Iai cut\nFly through the sky\nWave riding\nSuperhuman strength\nFlash\nDig a hole\nTeleport\nEgg laying",
+  "loose": "Cut, Fly, Surf, Strength, Flash, Dig, Teleport, Softboiled"
+ }
+}

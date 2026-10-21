@@ -1,0 +1,443 @@
+{
+ "ViridianCityYoungster1Text": {
+  "en": "That Monster Ball you have attached at (your) waist...! (It's) unmistakably a Pokémon, isn't it!\n\nThat taking out and putting in of Pokémon can be done freely any time, what a convenient world it is.",
+  "who": "Boy in Viridian City"
+ },
+ "ViridianCityGambler1Text.GymAlwaysClosedText": {
+  "en": "Whenever (I) come, this Pokémon gym is shut.\n\nWhat kind of fellow on earth is doing the leader (job), (I) wonder?",
+  "who": "Gambler in Viridian City"
+ },
+ "ViridianCityGambler1Text.GymLeaderReturnedText": {
+  "en": "The leader of the Tokiwa gym has come back!",
+  "who": "Gambler in Viridian City"
+ },
+ "ViridianCityYoungster2Text.YouWantToKnowAboutText": {
+  "en": "Don't (you) know there are two kinds of caterpillar Pokémon?",
+  "who": "Boy in Viridian City"
+ },
+ "ViridianCityYoungster2Text.OkThenText": {
+  "en": "In that case, fine!",
+  "who": "Boy in Viridian City"
+ },
+ "ViridianCityYoungster2Text.CaterpieAndWeedleDescriptionText": {
+  "en": "Caterpie has no poison, but Beedle has poison.\n\nSo that (your) Pokémon doesn't get stung, let's be careful.",
+  "who": "Boy in Viridian City"
+ },
+ "ViridianCityGirlText.HasntHadHisCoffeeYetText": {
+  "en": "Oh dear, grandpa! Ending up asleep in a place like this, it can't be helped! Until the drunkenness wears off, there's nothing to do but wait.",
+  "who": "Girl in Viridian City"
+ },
+ "ViridianCityGirlText.WhenIGoShopText": {
+  "en": "Sometimes (I) go as far as Nibi City for shopping, but...\n\nThe Tokiwa Forest, the road winds and twists, you know.",
+  "who": "Girl in Viridian City"
+ },
+ "ViridianCityOldManSleepyText.PrivatePropertyText": {
+  "en": "Urgh! Hic... Wait, damn you! Listen to my talk!\n\n...Hey! Don't go! (I'm) telling you!",
+  "who": "Old man in Viridian City, drunk"
+ },
+ "ViridianCityFisherText.YouCanHaveThisText": {
+  "en": "Yawn! (I) was basking in the sun and fell asleep!\n\n...(I) saw a strange dream. A Sleep was eating the dream! ...Huh? Before I knew it, I have a move machine, but?\n\nHmm, (it's) creepy! I'll give this to you!",
+  "who": "Napping man in Viridian City"
+ },
+ "ViridianCityFisherText.ReceivedTM42Text": {
+  "en": "{player} received Move Machine 42 from the guy!"
+ },
+ "ViridianCityFisherText.TM42ExplanationText": {
+  "en": "The contents of Move Machine 42 are... Dream Eater... ...Zzz...",
+  "who": "Napping man in Viridian City"
+ },
+ "ViridianCityFisherText.TM42NoRoomText": {
+  "en": "(Your) luggage is full, isn't it.",
+  "who": "Napping man in Viridian City"
+ },
+ "ViridianCityOldManText.HadMyCoffeeNowText": {
+  "en": "Hmm... (I) seem to have been drunk!\n\n(My) head hurts...\n\nBy the way, in a hurry... are you?",
+  "who": "Old man in Viridian City"
+ },
+ "ViridianCityOldManText.KnowHowToCatchPokemonText": {
+  "en": "Ho ho! Making a Pokédex, are you.\n\nThen, advice from me! If (you) catch Pokémon and examine them, the pages increase automatically!\n\nWhat, (you) don't know how to catch them!\n\nWell then... shall I show (you) an example!",
+  "who": "Old man in Viridian City"
+ },
+ "ViridianCityOldManText.TimeIsMoneyText": {
+  "en": "Time is money... ...time is money, eh.",
+  "who": "Old man in Viridian City"
+ },
+ "ViridianCityOldManYouNeedToWeakenTheTargetText": {
+  "en": "In the beginning, the trick is to weaken the Pokémon first and then take it!",
+  "who": "Old man in Viridian City"
+ },
+ "ViridianCitySignText": {
+  "en": "Here is Tokiwa City. Tokiwa is green, the color of eternity.",
+  "who": "Sign"
+ },
+ "ViridianCityTrainerTips1Text": {
+  "en": "...A bargain bulletin board!\n\nAnyway, catch Pokémon and increase them steadily! In matches with trainers too, having many is an advantage!",
+  "who": "Trainer tips board"
+ },
+ "ViridianCityTrainerTips2Text": {
+  "en": "...A bargain bulletin board!\n\nBesides stamina, Pokémon have power points, the source of energy for letting out moves.\n\nAlso when the power points for each move have run out, let them rest at a Pokémon Center!",
+  "who": "Trainer tips board"
+ },
+ "ViridianCityGymSignText": {
+  "en": "Tokiwa Pokémon Gym",
+  "who": "Sign"
+ },
+ "ViridianCityGymLockedText": {
+  "en": "On the door of the Tokiwa gym a key was hanging...!",
+  "loose": "The Tokiwa gym's door was locked.",
+  "who": "Narration"
+ },
+ "ViridianPokecenterGentlemanText": {
+  "en": "The computer in the corner, please, use it freely!\n\n...so the young lady at reception was saying. Kind, isn't she.",
+  "who": "Gentleman in the Pokémon Center"
+ },
+ "ViridianPokecenterCooltrainerMText": {
+  "en": "Pokémon Centers, from here on, exist whatever town (you) go to!\n\nHowever many (Pokémon you) deposit, (it's) free, so using them often is good!",
+  "who": "Man in the Pokémon Center"
+ },
+ "ViridianMartClerkSayHiToOakText": {
+  "en": "Well! Give (my) regards to Professor Okido!",
+  "who": "Mart clerk"
+ },
+ "ViridianMartClerkYouCameFromPalletTownText": {
+  "en": "Oh! You came from Masara Town, didn't you?",
+  "who": "Mart clerk"
+ },
+ "ViridianMartClerkParcelQuestText": {
+  "en": "(You) know Professor Okido, right?\n\n(I've) been asked (to deliver) this, would you hand it over!\n\n{player} took charge of a delivery from the shop!",
+  "who": "Mart clerk"
+ },
+ "ViridianMartYoungsterText": {
+  "en": "Hey, this shop's best seller is antidote, they say!",
+  "who": "Boy in the mart"
+ },
+ "ViridianMartCooltrainerMText": {
+  "en": "There isn't any, wound medicine... Here it seems to be sold out.",
+  "who": "Man in the mart"
+ },
+ "ViridianSchoolHouseBrunetteGirlText": {
+  "en": "Phew. The things inside the notebook, I'm memorizing all of them.",
+  "who": "Girl in the school"
+ },
+ "ViridianSchoolHouseCooltrainerFText": {
+  "en": "Yes!\n\nWhat is written on the blackboard, look at it properly!",
+  "who": "Teacher in the school"
+ },
+ "ViridianNicknameHouseBaldingGuyText": {
+  "en": "Thinking up nicknames is fun... but difficult!\n\nElaborate nicknames are fine too, but easy to remember is number one, right!",
+  "who": "Balding man in the nickname house"
+ },
+ "ViridianNicknameHouseLittleGirlText": {
+  "en": "My dad also loves Pokémon!",
+  "who": "Little girl in the nickname house"
+ },
+ "ViridianNicknameHouseSpearowText.Text": {
+  "en": "Chirp chirp!",
+  "who": "Onichan the Spearow"
+ },
+ "ViridianNicknameHouseSpearySignText": {
+  "en": "Onisuzume, named 'Onichan'",
+  "who": "Sign"
+ },
+ "AccessedBillsPCText": {
+  "en": "Connected with Masaki's computer!\n\nCalled up the Pokémon deposit system!"
+ },
+ "AccessedSomeonesPCText": {
+  "en": "Connected with someone's computer!\n\nCalled up the Pokémon deposit system!"
+ },
+ "PartyMenuUseTMText": {
+  "en": "Which Pokémon will (you) teach (it) to?"
+ },
+ "AntidoteText": {
+  "en": "{name}'s poison disappeared clean and completely!"
+ },
+ "ParlyzHealText": {
+  "en": "The numbness of {name}'s body came off."
+ },
+ "BurnHealText": {
+  "en": "{name}'s burn healed."
+ },
+ "ItemUseBallText00": {
+  "en": "(It) was dodged! This one looks like it won't be caught!"
+ },
+ "ItemUseBallText01": {
+  "en": "(It) didn't hit the Pokémon well!"
+ },
+ "ItemUseBallText02": {
+  "en": "Too bad! The Pokémon came out of the ball!"
+ },
+ "ItemUseBallText03": {
+  "en": "Ah! And (I) thought (I) had caught it!"
+ },
+ "ItemUseBallText04": {
+  "en": "So close! (It) was just a little bit more!"
+ },
+ "ItemUseBallText05": {
+  "en": "Yay! Caught {enemy}!"
+ },
+ "ItemUseBallText06": {
+  "en": "{enemy}'s data will be newly saved in the Pokédex!"
+ },
+ "BootedUpTMText": {
+  "en": "Booted up the move machine!"
+ },
+ "TeachMachineMoveText": {
+  "en": "Inside, {name} was recorded!\n\nMake a Pokémon learn {name}?"
+ },
+ "MonCannotLearnMachineMoveText": {
+  "en": "{name} and {name} had bad compatibility!\n\n{name} cannot learn (it)!"
+ },
+ "ItemUseNotTimeText": {
+  "en": "Okido's words... {player}! For things like this there is a time to use them!"
+ },
+ "ItemUseNotYoursToUseText": {
+  "en": "(It's) an important thing (you) were entrusted with! Using it cannot be done!"
+ },
+ "TooImportantToTossText": {
+  "en": "That is a very important thing. Throwing it away cannot be done!"
+ },
+ "DisplayBattleMenu": {
+  "en": "Old man",
+  "loose": "Shown as the trainer name while the old man demonstrates catching."
+ },
+ "PokemartGreetingText": {
+  "en": "Welcome! Is there something (you're) looking for?",
+  "who": "Mart clerk"
+ },
+ "MartSignText": {
+  "en": "Full of Pokémon goods! Friendly Shop",
+  "who": "Sign"
+ },
+ "PokeCenterSignText": {
+  "en": "Pokémon stamina recovery! Pokémon Center",
+  "who": "Sign"
+ },
+ "BuySellQuitText": {
+  "en": "Came to buy\nCame to sell\nNothing in particular"
+ },
+ "TwoOptionMenuStrings.HealCancelMenu": {
+  "en": "Deposit\nQuit"
+ },
+ "PokemonCenterWelcomeText": {
+  "en": "Welcome! To the Pokémon Center.\n\nHere (we) do stamina recovery of Pokémon.",
+  "who": "Nurse"
+ },
+ "ShallWeHealYourPokemonText": {
+  "en": "Will (you) deposit (your) Monster Balls?",
+  "who": "Nurse"
+ },
+ "NeedYourPokemonText": {
+  "en": "Well then, (I) will humbly take them into (my) care!",
+  "who": "Nurse"
+ },
+ "PokemonFightingFitText": {
+  "en": "Thank you for waiting! The Pokémon (we) took care of have all become healthy!",
+  "who": "Nurse"
+ },
+ "PokemonCenterFarewellText": {
+  "en": "(We) await your next use!",
+  "loose": "We hope to see you again!",
+  "who": "Nurse"
+ },
+ "PokemartBuyingGreetingText": {
+  "en": "Please take your time looking.",
+  "who": "Mart clerk"
+ },
+ "PokemartTellBuyPriceText": {
+  "en": "{name}, is it. That comes to {n} yen, but (is that okay)?",
+  "who": "Mart clerk"
+ },
+ "PokemartBoughtItemText": {
+  "en": "Yes, here you are. Thank you, as always.",
+  "who": "Mart clerk"
+ },
+ "PokemartNotEnoughMoneyText": {
+  "en": "(It) seems the money isn't enough.",
+  "who": "Mart clerk"
+ },
+ "PokemartItemBagFullText": {
+  "en": "(You) can't carry more than that. Please sort out things (you) don't need.",
+  "who": "Mart clerk"
+ },
+ "PokemonSellingGreetingText": {
+  "en": "Which would (you) sell (us)?",
+  "who": "Mart clerk"
+ },
+ "PokemartTellSellPriceText": {
+  "en": "If (it's) that, (we) shall take it off (your) hands for {n} yen.",
+  "who": "Mart clerk"
+ },
+ "PokemartItemBagEmptyText": {
+  "en": "(You) don't seem to have goods (we) can buy.",
+  "who": "Mart clerk"
+ },
+ "PokemartUnsellableItemText": {
+  "en": "...(We) cannot put a price on that item.",
+  "who": "Mart clerk"
+ },
+ "PokemartThankYouText": {
+  "en": "Thank you very much.",
+  "who": "Mart clerk"
+ },
+ "PokemartAnythingElseText": {
+  "en": "Is there anything else we can be of help with?",
+  "who": "Mart clerk"
+ },
+ "LinkCableHelpText1": {
+  "en": "...Pokémon lecture!\n\nAbout how to play using the communication cable.",
+  "who": "Blackboard"
+ },
+ "LinkCableHelpText2": {
+  "en": "Which item will (you) read?",
+  "who": "Blackboard"
+ },
+ "HowToLinkText": {
+  "en": "To play with the cable\nColosseum\nTrade Center\nStop reading"
+ },
+ "LinkCableInfoText1": {
+  "en": "Once (you) connect with a friend's Game Boy by cable, the young lady at the counter on the right side of the Pokémon Center will guide (you).",
+  "who": "Blackboard"
+ },
+ "LinkCableInfoText2": {
+  "en": "The Colosseum is the room (you) enter when battling with a friend.",
+  "who": "Blackboard"
+ },
+ "LinkCableInfoText3": {
+  "en": "The Trade Center is the room (you) enter when exchanging Pokémon with a friend.",
+  "who": "Blackboard"
+ },
+ "ViridianSchoolBlackboardText1": {
+  "en": "On the blackboard is written about the changes of condition that happen while Pokémon are fighting.",
+  "who": "Narration"
+ },
+ "ViridianSchoolBlackboardText2": {
+  "en": "Which item will (you) look at?"
+ },
+ "StatusAilmentText1": {
+  "en": "Sleep\nPoison\nParalysis"
+ },
+ "StatusAilmentText2": {
+  "en": "Burn\nIce\nQuit"
+ },
+ "ViridianBlackboardSleepText": {
+  "en": "When (it) ends up asleep, during that interval (it) cannot attack!\n\nEven when the fight ends (it) stays asleep. With a sleep-waker (its) eyes open.",
+  "who": "Blackboard"
+ },
+ "ViridianBlackboardPoisonText": {
+  "en": "When (it) takes poison, (its) stamina keeps decreasing.\n\nEven when the fight ends the poison remains, but with an antidote it disappears!",
+  "who": "Blackboard"
+ },
+ "ViridianBlackboardPrlzText": {
+  "en": "When paralyzed, moves sometimes stop coming out!\n\nEven when the fight ends the paralysis remains. Also, with a paralysis-healer it heals.",
+  "who": "Blackboard"
+ },
+ "ViridianBlackboardBurnText": {
+  "en": "A burn decreases stamina, and attack power and speed also end up going down!\n\nEven when the fight ends the burn remains. Also, with a burn-healer it heals.",
+  "who": "Blackboard"
+ },
+ "ViridianBlackboardFrozenText": {
+  "en": "When (it) ends up frozen, (it) becomes completely unable to move!\n\nEven when the fight ends (it) stays frozen. If (you) don't thaw (it) with an ice-healer, the poor Pokémon.",
+  "who": "Blackboard"
+ },
+ "TMNotebook": {
+  "en": "(It's) a pamphlet on move machines! ......\n\nMove machines, fifty kinds in all!\n\nSecret machines are the type that doesn't run out even when used. There are five kinds in all.\n\n...Silph Company",
+  "who": "Pamphlet"
+ },
+ "TurnPageText": {
+  "en": "Shall (I) open the next page?"
+ },
+ "ViridianSchoolNotebookText5": {
+  "en": "Ah! Don't look at (my) notebook!",
+  "who": "Girl in the school"
+ },
+ "ViridianSchoolNotebookText1": {
+  "en": "Peeked into the notebook!\n\nPage 1...\n\nPokémon are caught with Monster Balls, and up to six can be carried around.\n\nA person who raises Pokémon and makes them fight is called a Pokémon trainer.",
+  "who": "Notebook"
+ },
+ "ViridianSchoolNotebookText2": {
+  "en": "Page 2...\n\nWhen catching Pokémon, first weaken them! Weakening them with poison or burns is fine too!\n\nIf (they're) healthy, (you) may not be able to take them well.",
+  "who": "Notebook"
+ },
+ "ViridianSchoolNotebookText3": {
+  "en": "Page 3...\n\nMaking Pokémon fight each other and winning is, for a trainer, the greatest joy!\n\nAt the Pokémon gyms in each region, fierce fights are always unfolding!",
+  "who": "Notebook"
+ },
+ "ViridianSchoolNotebookText4": {
+  "en": "Page 4...\n\nThe goal of a Pokémon trainer is to defeat the strong trainers in the gyms of each region, the group of eight!\n\nFurthermore, at the Pokémon League headquarters... fiercely strong! The Four Heavenly Kings reign!",
+  "loose": "The Four Heavenly Kings are the Elite Four.",
+  "who": "Notebook"
+ },
+ "BillsPCMenuText": {
+  "en": "Take a Pokémon along\nDeposit a Pokémon\nRelease a Pokémon\nChange box\nGoodbye"
+ },
+ "BoxNoPCText": {
+  "en": "Current box"
+ },
+ "StatsCancelPCText": {
+  "en": "See strength\nCancel"
+ },
+ "SwitchOnText": {
+  "en": "Switch on!"
+ },
+ "WhatText": {
+  "en": "What'll (you) do?",
+  "loose": "Kansai dialect: なんに するん = なにに するの",
+  "who": "Masaki's PC"
+ },
+ "DepositWhichMonText": {
+  "en": "Which Pokémon do (you) want to deposit?",
+  "loose": "Kansai dialect: あずけたいんや = あずけたいの",
+  "who": "Masaki's PC"
+ },
+ "MonWasStoredText": {
+  "en": "Deposited {name} in box {boxnumstring}!"
+ },
+ "CantDepositLastMonText": {
+  "en": "If (you) deposit that, won't (you) be in trouble?",
+  "loose": "Kansai dialect: こまるん ちゃう = こまるんじゃない",
+  "who": "Masaki's PC"
+ },
+ "BoxFullText": {
+  "en": "Oops! I'm full of Pokémon.",
+  "loose": "Kansai dialect: ウチは ... いっぱいや = わたしは ... いっぱいだ",
+  "who": "Masaki's PC"
+ },
+ "MonIsTakenOutText": {
+  "en": "Decided to take {name} along again! Received {name}!"
+ },
+ "NoMonText": {
+  "en": "What? I'm not holding anything, you know?",
+  "loose": "Kansai dialect: あずかっとらんで = あずかっていないよ",
+  "who": "Masaki's PC"
+ },
+ "CantTakeMonText": {
+  "en": "Even if (you) say that, (you) can't carry (more) Pokémon!\n\nFor now, if (you) deposit or release (one), wouldn't that be good?",
+  "loose": "Kansai dialect: もちきれへんやんけ = もちきれないじゃないか; したら ええんちゃう = したら いいんじゃない",
+  "who": "Masaki's PC"
+ },
+ "ReleaseWhichMonText": {
+  "en": "Which Pokémon will (you) release?",
+  "loose": "Kansai dialect: にがすんや = にがすの",
+  "who": "Masaki's PC"
+ },
+ "OnceReleasedText": {
+  "en": "If released, {name} won't come back anymore. Is that fine?",
+  "loose": "Kansai dialect: もどってこんで ええんか = もどってこないで いいのか",
+  "who": "Masaki's PC"
+ },
+ "MonWasReleasedText": {
+  "en": "Let {name} go free outside! Bye bye, {name}!"
+ },
+ "JustAMomentText": {
+  "en": "Wait a moment, okay."
+ },
+ "GetDexRatedText": {
+  "en": "Have the current Pokédex evaluated?"
+ },
+ "ClosedOaksPCText": {
+  "en": "...Ended the connection with Okido's computer!"
+ },
+ "AccessedOaksPCText": {
+  "en": "Connected with Okido's computer!\n\nCalled up the Pokédex evaluation system!"
+ }
+}

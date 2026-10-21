@@ -1,0 +1,73 @@
+{
+ "OakSpeechText1": {
+  "en": "(We meet) for the first time! To the world of Pocket Monsters, welcome!\n\nMy name is Okido. By everyone (I) am looked up to as the Pokémon professor.",
+  "loose": "Nice to meet you! Welcome to the world of Pocket Monsters! My name is Oak. People call me the Pokémon professor.",
+  "who": "Professor Okido"
+ },
+ "OakSpeechText2": {
+  "en": "In this world, living things called Pocket Monsters live everywhere!\n\nThose living things called Pokémon, people make into pets, or use in matches...\n\nAnd...\n\nI am doing research on these Pokémon, that's what it is.",
+  "who": "Professor Okido"
+ },
+ "IntroducePlayerText": {
+  "en": "Well then, first, your name, let (me) be told it!",
+  "loose": "First, tell me your name.",
+  "who": "Professor Okido"
+ },
+ "IntroduceRivalText": {
+  "en": "This guy is my grandchild. (He) is your childhood friend and is (your) rival.\n\n...Er? What was (his) name again?",
+  "who": "Professor Okido"
+ },
+ "OakSpeechText3": {
+  "en": "{player}!\n\nAt last, from now, the beginning of your story!\n\nDreams and adventure! To the world of Pocket Monsters! Let's go!",
+  "who": "Professor Okido"
+ },
+ "YourNameIsText": {
+  "en": "Hmm... {player}, (you) are called, then!",
+  "loose": "So you're called {player}.",
+  "who": "Professor Okido"
+ },
+ "HisNameIsText": {
+  "en": "That's right, that's right! (I) remembered! (He) is the name {rival}.",
+  "loose": "Right, I remember now! His name is {rival}.",
+  "who": "Professor Okido"
+ },
+ "DisplayIntroNameTextBox": {
+  "en": "Name candidates"
+ },
+ "YourTextString": {
+  "en": "You"
+ },
+ "RivalsTextString": {
+  "en": "Rival"
+ },
+ "NameTextString": {
+  "en": "'s name is?"
+ },
+ "HiraganaCharacters": {
+  "en": "The hiragana table, as laid out on the name-entry screen, with small ya yu yo tsu, dakuten, handakuten, the long-vowel mark, and a switch to katakana."
+ },
+ "KatakanaCharacters": {
+  "en": "The katakana table, as laid out on the name-entry screen, with a switch to hiragana."
+ },
+ "KanaInputText": {
+  "en": "Input"
+ },
+ "Dakutens": {
+  "en": "Pairs of plain and dakuten kana: ka ga, sa za, ta da, ha ba, and the same in katakana."
+ },
+ "Handakutens": {
+  "en": "Pairs of plain and handakuten kana: ha pa, and the same in katakana."
+ },
+ "DefaultNamesPlayer": {
+  "en": "Decide by yourself"
+ },
+ "DefaultNamesRival": {
+  "en": "Decide by yourself"
+ },
+ "DefaultNamesPlayerList": {
+  "en": "Decide by yourself"
+ },
+ "DefaultNamesRivalList": {
+  "en": "Decide by yourself"
+ }
+}

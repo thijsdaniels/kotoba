@@ -1,0 +1,535 @@
+{
+ "PalletTownOakText.HeyWaitDontGoOutText": {
+  "en": "Hey! Wait! Wait, (I say)!",
+  "who": "Professor Okido"
+ },
+ "PalletTownOakText.ItsUnsafeText": {
+  "en": "That was a dangerous spot! In the grass, wild Pokémon jump out!\n\nIf (you) too had a Pokémon with (you), (you) could fight, but... That's it!\n\n...Come, follow me for a bit!",
+  "who": "Professor Okido"
+ },
+ "PalletTownGirlText": {
+  "en": "I'm raising Pokémon too!\n\nIf (they) get strong, (they) can serve instead of a guard, you see.",
+  "who": "Girl in Pallet Town"
+ },
+ "PalletTownFisherText": {
+  "en": "The power of science is amazing!\n\nNowadays, by computer communication, (they) turn tools and Pokémon into data and send them for you, (they) say.",
+  "who": "Man in Pallet Town"
+ },
+ "PalletTownOaksLabSignText": {
+  "en": "Here is Professor Okido's Pokémon research institute.",
+  "who": "Sign"
+ },
+ "PalletTownSignText": {
+  "en": "Here is Masara Town. Masara is pure white, the color of beginnings.",
+  "who": "Sign"
+ },
+ "PalletTownPlayersHouseSignText": {
+  "en": "Here is {player}'s house.",
+  "who": "Sign"
+ },
+ "PalletTownRivalsHouseSignText": {
+  "en": "Here is {rival}'s house.",
+  "who": "Sign"
+ },
+ "RedsHouse1FMomText.WakeUpText": {
+  "en": "...That's right. Boys are things that someday set out on a journey. Yes... (I'm) talking about the TV!\n\nCome to think of it, Professor Okido next door was calling for you.",
+  "who": "Mom"
+ },
+ "RedsHouse1FMomYouShouldRestText": {
+  "en": "{player}...! How about resting a little before going...? ... ... ...",
+  "who": "Mom"
+ },
+ "RedsHouse1FMomLookingGreatText": {
+  "en": "Oh my! You and (your) Pokémon are both full of energy! Then take care! Off you go!",
+  "loose": "いってらっしゃい is the set phrase said to someone leaving.",
+  "who": "Mom"
+ },
+ "RedsHouse1FTVText.StandByMeMovieText": {
+  "en": "A movie is on the TV! Four boys are walking on the railroad tracks...\n\n...I have to go too!",
+  "who": "Narration"
+ },
+ "RedsHouse1FTVText.WrongSideText": {
+  "en": "(I) can't see...",
+  "who": "Narration"
+ },
+ "BluesHouseDaisyRivalAtLabText": {
+  "en": "Hello, {player}! (If it's) my little brother {rival} (you want), (he's) at grandpa's research institute.",
+  "who": "Rival's sister"
+ },
+ "BluesHouseDaisyOfferMapText": {
+  "en": "Grandpa Okido asked (you) to do a job, (I) hear? That's tough, isn't it. I'll give (you) this, so use it!",
+  "who": "Rival's sister"
+ },
+ "GotMapText": {
+  "en": "{player} received {name} from the young lady!"
+ },
+ "BluesHouseDaisyBagFullText": {
+  "en": "(Your) luggage is full.",
+  "who": "Rival's sister"
+ },
+ "BluesHouseDaisyUseMapText": {
+  "en": "When (you) want to know the place you are or the name of a town, using the town map is good.",
+  "who": "Rival's sister"
+ },
+ "BluesHouseDaisyWalkingText": {
+  "en": "Just like humans, Pokémon are alive too! When (they) have no stamina, let them rest!",
+  "who": "Rival's sister"
+ },
+ "BluesHouseTownMapText": {
+  "en": "(It's) a map of the Kanto region! ...Would (you) be happy to get it?",
+  "who": "Narration"
+ },
+ "OaksLabRivalText.GrampsIsntAroundText": {
+  "en": "What, (it's) {player}! If (it's) old man Okido (you want), (he) ain't here.",
+  "who": "Rival"
+ },
+ "OaksLabRivalText.GoAheadAndChooseText": {
+  "en": "Heh heh! I'm an adult, so I don't get greedy.\n\nI'll let {player} choose first!",
+  "who": "Rival"
+ },
+ "OaksLabRivalText.MyPokemonLooksStrongerText": {
+  "en": "The Pokémon I chose looks stronger.",
+  "who": "Rival"
+ },
+ "OaksLabThoseArePokeBallsText": {
+  "en": "(They're) Monster Balls. There are Pokémon inside!",
+  "who": "Narration"
+ },
+ "OaksLabYouWantCharmanderText.Text": {
+  "en": "Oh! The fire Pokémon Hitokage, (you'll) go with that?",
+  "who": "Professor Okido"
+ },
+ "OaksLabYouWantSquirtleText.Text": {
+  "en": "Hmm, the water Pokémon Zenigame, (you'll) decide on that?",
+  "who": "Professor Okido"
+ },
+ "OaksLabYouWantBulbasaurText.Text": {
+  "en": "I see! The plant Pokémon Fushigidane is good (for you)?",
+  "who": "Professor Okido"
+ },
+ "OaksLabMonEnergeticText": {
+  "en": "This Pokémon is really full of energy!",
+  "who": "Professor Okido"
+ },
+ "OaksLabReceivedMonText": {
+  "en": "{player} received {name} from Okido!"
+ },
+ "OaksLabLastMonText": {
+  "en": "Professor Okido's Pokémon, the last one...!",
+  "who": "Narration"
+ },
+ "OaksLabOak1Text.WhichPokemonDoYouWantText": {
+  "en": "Now, {player}, which Pokémon will (you) go with?",
+  "who": "Professor Okido"
+ },
+ "OaksLabOak1Text.YourPokemonCanFightText": {
+  "en": "That's it! Even if a wild Pokémon comes out,\n\nif (you) go on making that one fight, (you) can get to the next town!",
+  "who": "Professor Okido"
+ },
+ "OaksLabOak1Text.RaiseYourYoungPokemonText": {
+  "en": "{player}, you too, don't lose out: make (your) Pokémon fight and raise it!",
+  "who": "Professor Okido"
+ },
+ "OaksLabOak1Text.DeliverParcelText": {
+  "en": "Oh! {player}.\n\nHow is it? The Pokémon I gave... oh.\n\n(It) seems to have taken quite a liking to (you)?\n\nYou have talent as a Pokémon trainer!\n\n...Eh, something to hand to me?\n\n{player} handed the delivery to Professor Okido!\n\nOh! This is the custom-made Monster Ball I had ordered. Thanks a lot!",
+  "who": "Professor Okido"
+ },
+ "OaksLabOak1Text.PokemonAroundTheWorldText": {
+  "en": "The Pokémon living all over the world are waiting for {player}!",
+  "who": "Professor Okido"
+ },
+ "OaksLabOak1Text.GivePokeballsText": {
+  "en": "Just finding Pokémon, detailed data cannot be obtained!\n\n(You) absolutely must catch them! Here, for that purpose... I'll hand (you) the necessary tools!\n\n{player} received 5 Monster Balls!\n\nWhen a wild Pokémon jumps out, (that's your) chance!\n\nIf (you) throw a Monster Ball, toss!, (you) can catch the Pokémon!\n\nHowever... whether (you) can take it well or not, (I) don't know!\n\nEnergetic Pokémon escape easily, and there's luck too!",
+  "who": "Professor Okido"
+ },
+ "OaksLabOak1Text.ComeSeeMeSometimesText": {
+  "en": "Once in a while, show (your) face at my place!\n\nThe pages of the Pokédex, (I'm) curious about them, you see!",
+  "who": "Professor Okido"
+ },
+ "OaksLabOak1Text.HowIsYourPokedexComingText": {
+  "en": "Good of (you) to come! How is the Pokédex going? Let's see... shall I take a little look!",
+  "who": "Professor Okido"
+ },
+ "OaksLabPokedexText.Text": {
+  "en": "There's something like an encyclopedia! Inside is nothing but white pages!",
+  "who": "Narration"
+ },
+ "OaksLabOak2Text": {
+  "en": "?"
+ },
+ "OaksLabGirlText.Text": {
+  "en": "(He) may look like that, but Professor Okido is an authority on Pokémon!\n\nThere are many Pokémon trainers who respect the professor!",
+  "who": "Girl in the lab"
+ },
+ "OaksLabRivalFedUpWithWaitingText.Text": {
+  "en": "Old man! (I'm) tired of waiting!",
+  "who": "Rival"
+ },
+ "OaksLabOakChooseMonText.Text": {
+  "en": "{rival}? ... ... ...\n\nOh, right. I was the one who called (you)! Wait a moment!\n\nHere, {player}!\n\nThere are three Pokémon there, aren't there!\n\nHo ho!\n\nInside the Monster Balls, Pokémon have been put in.\n\nLong ago I too made a name as a top-notch Pokémon trainer!\n\nNow that (I'm) old and decrepit, only three Pokémon remain, but I'll give you one!\n\n...Now, choose!",
+  "who": "Professor Okido"
+ },
+ "OaksLabRivalWhatAboutMeText.Text": {
+  "en": "Ah! Unfair! Old man! Give me one too!",
+  "who": "Rival"
+ },
+ "OaksLabOakBePatientText.Text": {
+  "en": "Now now! Don't panic, {rival}! You take one you like too!",
+  "who": "Professor Okido"
+ },
+ "OaksLabOakDontGoAwayYetText.Text": {
+  "en": "Hey, where are (you) going! Come back!",
+  "who": "Professor Okido"
+ },
+ "OaksLabRivalIllTakeThisOneText.Text": {
+  "en": "Then, I (take) this one!",
+  "who": "Rival"
+ },
+ "OaksLabRivalReceivedMonText.Text": {
+  "en": "{rival} received {name} from Okido!"
+ },
+ "OaksLabRivalIllTakeYouOnText.Text": {
+  "en": "Wait, {player}! (We) went to the trouble of getting Pokémon from the old man!\n\n...Try being my opponent for a bit!",
+  "who": "Rival"
+ },
+ "OaksLabRivalIPickedTheWrongPokemonText": {
+  "en": "Eh, no way! (I) should have made it your Pokémon!",
+  "who": "Rival"
+ },
+ "OaksLabRivalAmIGreatOrWhatText": {
+  "en": "Yay! Am I a genius?",
+  "who": "Rival"
+ },
+ "OaksLabRivalSmellYouLaterText.Text": {
+  "en": "All right! I'll make (it) fight other Pokémon and make (it) stronger and stronger!\n\n{player}! Old man! Well then, see ya!",
+  "who": "Rival"
+ },
+ "OaksLabRivalGrampsText": {
+  "en": "Old man!",
+  "who": "Rival"
+ },
+ "OaksLabRivalWhatDidYouCallMeForText": {
+  "en": "(I) completely forgot! (You) have some business with me?",
+  "who": "Rival"
+ },
+ "OaksLabOakIHaveARequestText": {
+  "en": "Oh, that's right! I have a request for you two.",
+  "who": "Professor Okido"
+ },
+ "OaksLabOakMyInventionPokedexText": {
+  "en": "What's on the desk is the Pokédex I made!\n\nThe data of Pokémon (you) found is written in automatically and the pages increase,\n\na very high-tech encyclopedia, it is!",
+  "who": "Professor Okido"
+ },
+ "OaksLabOakGotPokedexText": {
+  "en": "{player}, {rival}, I entrust these to you two!\n\n{player} received a Pokédex from Okido!",
+  "who": "Professor Okido"
+ },
+ "OaksLabOakThatWasMyDreamText": {
+  "en": "To make a perfect encyclopedia that recorded every Pokémon in this world!\n\nThat was my dream!\n\nBut I'm already an old geezer! (I) can't push myself that far!\n\nSo I want you two to fulfill the dream in my place!\n\nNow, both of you, set out right away!\n\nThis is a great job that will remain in Pokémon history!",
+  "who": "Professor Okido"
+ },
+ "OaksLabRivalLeaveItAllToMeText": {
+  "en": "All right! Old man! Leave it all to me!\n\n{player}! Too bad, but there's absolutely no turn for you!\n\nThat's it! I'll borrow a town map from my sister and go!\n\nI'll tell (my) sister not to lend (one) to {player}, so coming to my house is useless!",
+  "who": "Rival"
+ },
+ "OaksLabScientistText.Text": {
+  "en": "I too, as the professor's assistant, am researching Pokémon.",
+  "who": "Scientist in the lab"
+ },
+ "DoYouWantToNicknameText": {
+  "en": "Give {name} a nickname?"
+ },
+ "NicknameTextString": {
+  "en": "The nickname is?"
+ },
+ "RedBedroomSNESText": {
+  "en": "{player} is playing the Famicom! ... ...Okay! (It's) about time to head out!",
+  "who": "Narration"
+ },
+ "BookcaseText": {
+  "en": "What's lined up on the bookshelf is nothing but Pokémon books.",
+  "who": "Narration"
+ },
+ "OakLabEmailText": {
+  "en": "Looking at the computer, why, an e-mail had come!\n\n... ... ...\n\nPokémon trainers who raise Pokémon strong and fight! Here the strongest trainers have gathered.\n\nThe place is the Pokémon League headquarters on the Sekiei Plateau! Professor Okido, please come see it once too.\n\n...From the Pokémon League ... ... ...",
+  "who": "E-mail"
+ },
+ "PushStartText": {
+  "en": "Push the start button! Pressing it opens the menu, it does.",
+  "loose": "なり is an old-fashioned copula, like a robot or a textbook speaking.",
+  "who": "Poster"
+ },
+ "SaveOptionText": {
+  "en": "To save, the Pokémon report. Writing it often is good, it is.",
+  "who": "Poster"
+ },
+ "StrengthsAndWeaknessesText": {
+  "en": "Pokémon, depending on type, have types (they're) good against and types (they're) bad against, they do.",
+  "who": "Poster"
+ },
+ "TownMapText": {
+  "en": "(It's) the town map!"
+ },
+ "MonsNestText": {
+  "en": "'s habitat"
+ },
+ "ToText": {
+  "en": "Jump to"
+ },
+ "AreaUnknownText": {
+  "en": "Habitat unknown"
+ },
+ "TurnedOnPC1Text": {
+  "en": "{player} turned on the computer's switch!"
+ },
+ "AccessedMyPCText": {
+  "en": "Connected with (my) own computer!\n\nCalled up the tool deposit system!"
+ },
+ "PlayersPCMenuEntries": {
+  "en": "Withdraw tools\nDeposit tools\nThrow away tools\nTurn off the switch"
+ },
+ "TurnedOnPC2Text": {
+  "en": "{player} turned on the computer's switch!"
+ },
+ "WhatDoYouWantText": {
+  "en": "What will (you) do?"
+ },
+ "WhatToDepositText": {
+  "en": "What will (you) deposit?"
+ },
+ "DepositHowManyText": {
+  "en": "How many will (you) deposit?"
+ },
+ "ItemWasStoredText": {
+  "en": "Deposited {name} by computer communication!"
+ },
+ "NothingToDepositText": {
+  "en": "(You) don't have tools that can be deposited!"
+ },
+ "NoRoomToStoreText": {
+  "en": "The tools are full. No more can be deposited!"
+ },
+ "WhatToWithdrawText": {
+  "en": "What will (you) withdraw?"
+ },
+ "WithdrawHowManyText": {
+  "en": "How many will (you) withdraw?"
+ },
+ "WithdrewItemText": {
+  "en": "Withdrew {name} by computer communication!"
+ },
+ "NothingStoredText": {
+  "en": "Nothing is deposited!"
+ },
+ "CantCarryMoreText": {
+  "en": "The tools are full. (You) can't hold any more!"
+ },
+ "WhatToTossText": {
+  "en": "What will (you) throw away?"
+ },
+ "TossHowManyText": {
+  "en": "How many will (you) throw away?"
+ },
+ "PokedexSeenText": {
+  "en": "Number found"
+ },
+ "PokedexOwnText": {
+  "en": "Number caught"
+ },
+ "PokedexContentsText": {
+  "en": "Contents"
+ },
+ "PokedexMenuItemsText": {
+  "en": "See data\nCry\nSee distribution\nQuit"
+ },
+ "HeightWeightText": {
+  "en": "Height ???m\nWeight ???kg"
+ },
+ "PokeText": {
+  "en": "Pokémon"
+ },
+ "GotMonText": {
+  "en": "{player} obtained {name}!"
+ },
+ "DexCompletionText": {
+  "en": "... ...The current degree of completion of the Pokédex is...\n\nPokémon found: {n}! Pokémon caught: {n}!\n\nProfessor Okido's evaluation..."
+ },
+ "DexRatingText_Own0To9": {
+  "en": "Not yet, not yet... (it's) just the beginning. Go into the grass here and there and catch Pokémon!",
+  "who": "Professor Okido"
+ },
+ "EnemyMonFaintedText": {
+  "en": "The enemy {enemy} fell!",
+  "loose": "fainted"
+ },
+ "MoneyForWinningText": {
+  "en": "{player} obtained {n} yen as prize money!"
+ },
+ "TrainerDefeatedText": {
+  "en": "Won the match with {trainer}!"
+ },
+ "PlayerMonFaintedText": {
+  "en": "{mon} fell!",
+  "loose": "fainted"
+ },
+ "UseNextMonText": {
+  "en": "Use the next Pokémon?"
+ },
+ "Rival1WinText": {
+  "en": "Yay! As expected, am I a genius?",
+  "who": "Rival"
+ },
+ "PlayerBlackedOutText2": {
+  "en": "At {player}'s hand there is no Pokémon that can fight!\n\nBefore {player}'s eyes, everything went pitch black!"
+ },
+ "TrainerAboutToUseText": {
+  "en": "{trainer} seems about to send out {enemy}.\n\nWill {player} also switch Pokémon?"
+ },
+ "TrainerSentOutText": {
+  "en": "{trainer} sent out {enemy}!"
+ },
+ "NoWillText": {
+  "en": "(It has) no will to fight!"
+ },
+ "NoRunningText": {
+  "en": "No good! In the middle of a match, (you) can't show (your) back to the opponent!"
+ },
+ "AlreadyOutText": {
+  "en": "{mon} is already out."
+ },
+ "AttackMissedText": {
+  "en": "But {user}'s attack missed!"
+ },
+ "CriticalHitText": {
+  "en": "(It) hit a vital point!",
+  "loose": "A critical hit!"
+ },
+ "EnemyAppearedText": {
+  "en": "{enemy} appeared!"
+ },
+ "TrainerWantsToFightText": {
+  "en": "{trainer} challenged (you) to a match!"
+ },
+ "GoText": {
+  "en": "Go!"
+ },
+ "DoItText": {
+  "en": "Go get 'em!",
+  "loose": "literally: go and come back"
+ },
+ "GetmText": {
+  "en": "Do your best!"
+ },
+ "EnemysWeakText": {
+  "en": "The opponent is weakened! (It's a) chance!"
+ },
+ "PlayerMon1Text": {
+  "en": "{mon}!"
+ },
+ "PlayerMon2Text": {
+  "en": "{mon}"
+ },
+ "EnoughText": {
+  "en": "That's enough!"
+ },
+ "OKExclamationText": {
+  "en": "Good!"
+ },
+ "GoodText": {
+  "en": "Well done!"
+ },
+ "ComeBackText": {
+  "en": "Come back!"
+ },
+ "SuperEffectiveText": {
+  "en": "The effect is outstanding!",
+  "loose": "It's super effective!"
+ },
+ "NotVeryEffectiveText": {
+  "en": "The effect seems lacking.",
+  "loose": "It's not very effective."
+ },
+ "MonsStatsFellText": {
+  "en": "{target}'s {name}"
+ },
+ "FellText": {
+  "en": "fell!"
+ },
+ "NoEffectText": {
+  "en": "But there was no effect!"
+ },
+ "NothingHappenedText": {
+  "en": "But nothing happens."
+ },
+ "ButItFailedText": {
+  "en": "But (it) didn't come off well!",
+  "loose": "But it failed!"
+ },
+ "DidntAffectText": {
+  "en": "But (it) didn't work on {target}!"
+ },
+ "IsUnaffectedText": {
+  "en": "{target} is making an unbothered face!"
+ },
+ "GainedText": {
+  "en": "{name}"
+ },
+ "ExpPointsText": {
+  "en": "received {n} experience points!"
+ },
+ "GrewLevelText": {
+  "en": "{name} rose to level {n}!"
+ },
+ "UsedMoveText": {
+  "en": "{user}"
+ },
+ "UserNoText": {
+  "en": "'s",
+  "loose": "の, used when the move name reads as a noun: X's Tackle!"
+ },
+ "UserWaText": {
+  "en": "(as for)",
+  "loose": "は, used when the move name reads as a verb: X used Growl!"
+ },
+ "UsedMoveText_CheckObedience.UsedInsteadText": {
+  "en": "ignoring orders,"
+ },
+ "MoveNameText": {
+  "en": "{name}"
+ },
+ "EndUsedMove1Text": {
+  "en": "used (it)!",
+  "loose": "one of five endings the game picks per move: Xは Yを つかった！"
+ },
+ "EndUsedMove2Text": {
+  "en": "did (it)!",
+  "loose": "Xは Yを した！"
+ },
+ "EndUsedMove3Text": {
+  "en": "did!",
+  "loose": "Xは Y した！"
+ },
+ "EndUsedMove4Text": {
+  "en": "attack!",
+  "loose": "Xの Y こうげき！"
+ },
+ "EndUsedMove5Text": {
+  "en": "!",
+  "loose": "Xの Y！"
+ },
+ "PokemonFaintedText": {
+  "en": "{name} ran out of strength."
+ },
+ "PlayerBlackedOutText": {
+  "en": "At {player}'s hand there are no more Pokémon that can fight!\n\nBefore {player}'s eyes, everything went pitch black!"
+ },
+ "ExclamationText": {
+  "en": "!"
+ },
+ "BattleMenuText": {
+  "en": "Fight  Tools\nPokémon  Run"
+ },
+ "AhText": {
+  "en": "Ah!"
+ }
+}

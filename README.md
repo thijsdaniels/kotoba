@@ -14,10 +14,12 @@ corpus/
   data/             Pokémon, moves, items, types, wild encounters, mart stock (generated)
   stages/           one JSON per stage plus system.json: strings, Pokémon with known moves, moves, items (generated)
   coverage.json     sources no stage claims yet, and engine strings whose trigger lies past the mapped stages (generated)
+  translations/     one JSON per stage, keyed by label: literal English, an optional looser rendering, and who says it
 tools/
   extract.py        disassembly → corpus/raw
   extract_data.py   disassembly → corpus/data
-  build_corpus.py   corpus/raw + data + stages.json → corpus/stages
+  build_corpus.py   corpus/raw + data + stages.json + engine.json → corpus/stages
+  check_translations.py  which strings still lack a translation
 ```
 
 ## Rebuilding the corpus
@@ -38,4 +40,4 @@ The generated files are committed so the deck can be built without the disassemb
 - Every source file belongs to exactly one stage, the stage where its text is first met. `coverage.json` lists what is still unassigned; the goal is an empty list.
 - `levelCap` per stage is the highest level your Pokémon plausibly have there; it bounds which level-up moves count as known. Wild and trainer Pokémon use their actual levels.
 - Engine text has no map, so `engine.json` says where it is first met. Menus and messages with no place in the game at all are "system" and always unlocked. A string triggered by a move, a move effect or an item is placed at the first stage where that trigger is available, computed from the data, so "speed fell" lands where String Shot does.
-- Translations are literal. A looser rendering may be added next to one, never instead of it.
+- Translations are literal, line for line; a looser rendering may sit next to one in `loose`, never instead of it. Words Japanese leaves out but English needs are in parentheses, which the app renders lighter. `who` names the speaker in English when the game doesn't write one inline.

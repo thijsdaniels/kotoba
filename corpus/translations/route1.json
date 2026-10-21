@@ -1,0 +1,56 @@
+{
+ "Route1Youngster1Text.MartSampleText": {
+  "en": "I am a clerk of the Friendly Shop.\n\n(We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!\n\nThat's right! Let me present (you) a sample. ...Here you go!",
+  "who": "Shop clerk on Route 1"
+ },
+ "Route1Youngster1Text.GotPotionText": {
+  "en": "{player} received '{name}'!"
+ },
+ "Route1Youngster1Text.AlsoGotPokeballsText": {
+  "en": "Also when buying Monster Balls to catch Pokémon, please come to the shop!",
+  "who": "Shop clerk on Route 1"
+ },
+ "Route1Youngster1Text.NoRoomText": {
+  "en": "(Your) luggage is full!"
+ },
+ "Route1Youngster2Text": {
+  "en": "There's a ledge in the road, right!\n\nJumping down is a little scary, but...\n\nWhen going back to Masara Town, (you) can go back fast, which is good.",
+  "who": "Boy on Route 1"
+ },
+ "Route1SignText": {
+  "en": "Here is Route 1. Masara Town ...... Tokiwa City",
+  "who": "Sign"
+ },
+ "PotionText": {
+  "en": "{name}'s stamina recovered by {n}.",
+  "loose": "{name} recovered {n} HP."
+ },
+ "LearnedMove1Text": {
+  "en": "{learnmovemon} newly learned {name}!"
+ },
+ "ItemUseNoEffectText": {
+  "en": "Even if used, there's no effect."
+ },
+ "ItemUseText00": {
+  "en": "{player} used {name}!"
+ },
+ "HurtByLeechSeedText": {
+  "en": "The leech seed robs {user}'s stamina!"
+ },
+ "GotAwayText": {
+  "en": "Got away cleanly!"
+ },
+ "MoveNoPPText": {
+  "en": "The move's remaining points are gone!",
+  "loose": "No PP left for this move."
+ },
+ "WildMonAppearedText": {
+  "en": "Ah! A wild {enemy} jumped out!"
+ },
+ "WasSeededText": {
+  "en": "Planted a seed on {target}!"
+ },
+ "EvadedAttackText": {
+  "en": "{target} dodged the attack!"
+ }
+}
