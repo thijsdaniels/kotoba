@@ -38,6 +38,8 @@
   --screen: #2a2a2a; --screen-ink: var(--g0); --back: #2a2a2a; --back-ink: var(--g1);
   --k-word: #5cc4bc; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --k-pokemon: #e6b25a; --k-move: #e58073; --k-item: #7cc96f; --tint: 16%; color-scheme: dark }
 html, body { height: 100%; margin: 0; }
+[hidden] { display: none !important; }
+.practice { display: flex; flex-direction: column; gap: 12px; }
 body { background: var(--bg); color: var(--fg); font-family: var(--f-jp); font-size: 15px; line-height: 1.55; }
 .wrap { max-width: 560px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 14px 40px; display: flex; flex-direction: column; gap: 14px; }
 header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
