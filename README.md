@@ -41,3 +41,16 @@ The generated files are committed so the deck can be built without the disassemb
 - `levelCap` per stage is the highest level your Pokémon plausibly have there; it bounds which level-up moves count as known. Wild and trainer Pokémon use their actual levels.
 - Engine text has no map, so `engine.json` says where it is first met. Menus and messages with no place in the game at all are "system" and always unlocked. A string triggered by a move, a move effect or an item is placed at the first stage where that trigger is available, computed from the data, so "speed fell" lands where String Shot does.
 - Translations are literal, line for line; a looser rendering may sit next to one in `loose`, never instead of it. Words Japanese leaves out but English needs are in parentheses, which the app renders lighter. `who` names the speaker in English when the game doesn't write one inline.
+
+## The deck
+
+```
+deck/
+  vocab/<stage>.json  hand-written cards: words, forms, endings, Pokémon, moves, jargon; each names the corpus string it came from (`ref`)
+  cards.json          the built deck (generated): every card with its stage, speaker, game line and translation, plus the kana
+tools/
+  vocab_candidates.py <stage>  vocabulary in a stage's strings that no card covers yet, for curating
+  build_deck.py                deck/vocab + corpus + translations → deck/cards.json
+```
+
+A card's stage is the stage of its `ref`; a card without a ref is an everyday example and belongs to its file's stage. Pokémon, moves and mart items a stage introduces get a plain card automatically unless a hand-written one covers the same kana.
