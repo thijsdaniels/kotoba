@@ -19,7 +19,14 @@ const PRACTICE_BUTTONS: [string, string, Grade][] = [["Forgot", "again", 0], ["G
 const REVIEW_BUTTONS: [string, string, Grade][] = [["Forgot", "again", 0], ["Barely", "hard", 1], ["Got It", "good", 2], ["Instant", "easy", 3]];
 
 const byId = (id: string) => document.getElementById(id)!;
-const escapeHtml = (text: unknown) => String(text ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]!));
+const escapeHtmlOnly = (text: unknown) => String(text ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]!));
+// {player} and {rival} become the names from the settings; other slots the game fills at runtime are shown as a light label
+const SLOT_LABELS: Record<string, string> = { enemy: "enemy", mon: "your Pokémon", name: "name", n: "number", trainer: "trainer", target: "target", user: "user", learnmovemon: "Pokémon", boxmonnicks: "Pokémon", boxnumstring: "number", item: "item", move: "move" };
+const fillSlots = (html: string) => html.replace(/\{(\w+)\}/g, (_, slot: string) =>
+  slot === "player" ? escapeHtmlOnly(state.settings.playerName || "タイス")
+  : slot === "rival" ? escapeHtmlOnly(state.settings.rivalName || "シゲル")
+  : `<span class="slot">${escapeHtmlOnly(SLOT_LABELS[slot] ?? slot)}</span>`);
+const escapeHtml = (text: unknown) => fillSlots(escapeHtmlOnly(text));
 // implied words that Japanese leaves out are stored as "(I)" and shown lighter, without brackets
 const implied = (text: unknown) => escapeHtml(text).replace(/\(([^()]*)\)/g, '<span class="imp">$1</span>');
 function mark(line: string | undefined, kana: string | undefined): string {
@@ -272,6 +279,9 @@ function renderSettings() {
   if (document.activeElement !== newInput) newInput.value = String(state.settings.newPerDay);
   const keyInput = byId("setting-key") as HTMLInputElement;
   if (document.activeElement !== keyInput) keyInput.value = readKey();
+  const playerInput = byId("setting-player") as HTMLInputElement, rivalInput = byId("setting-rival") as HTMLInputElement;
+  if (document.activeElement !== playerInput) playerInput.value = state.settings.playerName ?? "";
+  if (document.activeElement !== rivalInput) rivalInput.value = state.settings.rivalName ?? "";
   let open = 0, locked = 0;
   for (const card of cards.values()) { if (unlocked(card)) open++; else locked++; }
   byId("setting-stage-help").textContent = `Cards from later in the game stay out of Review and Practice until you get there. ${open} unlocked` + (locked ? `, ${locked} waiting.` : ".");
@@ -305,6 +315,8 @@ byId("filter").onclick = event => {
 byId("search").oninput = renderCards;
 (byId("setting-stage") as HTMLSelectElement).onchange = event => { saveSettings({ stage: (event.target as HTMLSelectElement).value }); buildQueue(); render(); };
 (byId("setting-new") as HTMLInputElement).onchange = event => { const input = event.target as HTMLInputElement; const value = Math.max(0, Math.min(100, Math.round(Number(input.value) || 0))); input.value = String(value); saveSettings({ newPerDay: value }); render(); };
+(byId("setting-player") as HTMLInputElement).onchange = event => saveSettings({ playerName: (event.target as HTMLInputElement).value.trim() });
+(byId("setting-rival") as HTMLInputElement).onchange = event => saveSettings({ rivalName: (event.target as HTMLInputElement).value.trim() });
 (byId("setting-key") as HTMLInputElement).onchange = event => { writeKey((event.target as HTMLInputElement).value.trim()); void start(); };
 
 async function start() {

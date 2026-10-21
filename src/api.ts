@@ -1,7 +1,7 @@
 import type { Schedule } from "./srs";
 
 export type Side = "r" | "p";
-export interface Settings { newPerDay: number; stage: string }
+export interface Settings { newPerDay: number; stage: string; playerName?: string; rivalName?: string }
 export interface State { version: number; settings: Settings; srs: Record<string, Partial<Record<Side, Schedule>>> }
 
 const KEY_STORAGE = "kotoba-key";

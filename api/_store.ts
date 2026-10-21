@@ -11,7 +11,7 @@ export type Schedule = Record<string, unknown>;
 export type CardState = Partial<Record<Side, Schedule>>;
 export interface State {
   version: number;
-  settings: { newPerDay: number; stage: string };
+  settings: { newPerDay: number; stage: string; playerName?: string; rivalName?: string };
   srs: Record<string, CardState>;
 }
 
