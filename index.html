@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f4f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
+  <title>Pokémon Kotoba</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>ことば<small>from Pokémon</small></h1>
+      <div class="stats"><span><b id="stat-due">0</b> due</span><span><b id="stat-new">0</b> new</span><span><b id="stat-total">0</b> cards</span></div>
+    </header>
+    <nav role="tablist">
+      <button id="tab-review" role="tab" aria-selected="true">Review</button>
+      <button id="tab-practice" role="tab" aria-selected="false">Practice</button>
+      <button id="tab-cards" role="tab" aria-selected="false">Cards</button>
+      <button id="tab-settings" role="tab" aria-selected="false">Settings</button>
+    </nav>
+    <section id="view-review">
+      <div id="deck-review" class="scene"></div>
+    </section>
+    <section id="view-practice" hidden style="display:flex;flex-direction:column;gap:12px">
+      <div class="filter" id="filter"></div>
+      <div id="deck-practice" class="scene"></div>
+    </section>
+    <section id="view-cards" hidden>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <input id="search" type="search" placeholder="Search kana, kanji, meaning or speaker" autocomplete="off">
+        <div id="list" class="list"></div>
+      </div>
+    </section>
+    <section id="view-settings" hidden>
+      <div class="settings">
+        <label class="setting"><span class="label">I'm At</span><select id="setting-stage"></select><span class="help" id="setting-stage-help"></span></label>
+        <label class="setting"><span class="label">New Cards per Day</span><input id="setting-new" type="number" min="0" max="100" step="1" inputmode="numeric"><span class="help">Each new card comes back as roughly ten reviews over the following weeks. Twelve a day is a comfortable pace while traveling.</span></label>
+        <label class="setting"><span class="label">Key</span><input id="setting-key" type="password" autocomplete="off"><span class="help">The key that lets this device read and save your progress.</span></label>
+      </div>
+    </section>
+    <p class="msg" id="message"></p>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

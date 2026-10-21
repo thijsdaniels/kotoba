@@ -1,5 +1,8 @@
 __pycache__/
 .DS_Store
 node_modules/
+dist/
 .vercel
 .env*
+public/cards.json
+public/stages.json
