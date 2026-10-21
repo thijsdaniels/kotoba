@@ -42,19 +42,7 @@
   {
    "label": "MrFujisHouseMrFujiText.ReceivedPokeFluteText",
    "line": 117,
-   "text": "{player}は　フジ　ろうじんから"
-  },
-  {
-   "label": "MrFujisHouseMrFujiText.ReceivedPokeFluteText",
-   "line": 120,
-   "text": "を　もらった！",
-   "continuation": true
-  },
-  {
-   "label": "MrFujisHouseMrFujiText.ReceivedPokeFluteText",
-   "line": 122,
-   "text": "ポケモンのふえを　ふくと\nグーグー　ねむってる　ポケモンでも\nげんきが　わいて　とびおきる！\n\nポケモンが　いねむり　して\nこまったら　つかって　みなさい",
-   "continuation": true
+   "text": "{player}は　フジ　ろうじんから{name}を　もらった！\n\nポケモンのふえを　ふくと\nグーグー　ねむってる　ポケモンでも\nげんきが　わいて　とびおきる！\n\nポケモンが　いねむり　して\nこまったら　つかって　みなさい"
   },
   {
    "label": "MrFujisHouseMrFujiText.PokeFluteNoRoomText",

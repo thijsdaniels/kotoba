@@ -9,13 +9,7 @@
   {
    "label": "MrPsychicsHouseMrPsychicText.ReceivedTM29Text",
    "line": 37,
-   "text": "{player}は　エスパー　から"
-  },
-  {
-   "label": "MrPsychicsHouseMrPsychicText.ReceivedTM29Text",
-   "line": 40,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　エスパー　から{name}を　もらった！"
   },
   {
    "label": "MrPsychicsHouseMrPsychicText.TM29ExplanationText",

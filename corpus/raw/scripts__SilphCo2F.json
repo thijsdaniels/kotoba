@@ -9,13 +9,7 @@
   {
    "label": "SilphCo2FSilphWorkerFText.ReceivedTM36Text",
    "line": 141,
-   "text": "{player}は　おねえさんから"
-  },
-  {
-   "label": "SilphCo2FSilphWorkerFText.ReceivedTM36Text",
-   "line": 144,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　おねえさんから{name}を　もらった！"
   },
   {
    "label": "SilphCo2FSilphWorkerFText.TM36ExplanationText",

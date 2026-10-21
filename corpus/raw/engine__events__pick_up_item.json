@@ -4,13 +4,7 @@
   {
    "label": "FoundItemText",
    "line": 47,
-   "text": "{player}は"
-  },
-  {
-   "label": "FoundItemText",
-   "line": 50,
-   "text": "を　みつけた！",
-   "continuation": true
+   "text": "{player}は{name}を　みつけた！"
   },
   {
    "label": "NoMoreRoomForItemText",

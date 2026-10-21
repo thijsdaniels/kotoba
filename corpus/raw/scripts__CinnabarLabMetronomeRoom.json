@@ -9,13 +9,7 @@
   {
    "label": "CinnabarLabMetronomeRoomScientist1Text.ReceivedTM35Text",
    "line": 43,
-   "text": "{player}は　けんきゅうしゃから"
-  },
-  {
-   "label": "CinnabarLabMetronomeRoomScientist1Text.ReceivedTM35Text",
-   "line": 46,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　けんきゅうしゃから{name}を　もらった！"
   },
   {
    "label": "CinnabarLabMetronomeRoomScientist1Text.TM35ExplanationText",

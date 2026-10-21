@@ -4,19 +4,7 @@
   {
    "label": "DexCompletionText",
    "line": 54,
-   "text": "……　……　ポケモンずかんの\nげんざいの　かんせいど　は……\n\nみつけた　ポケモン"
-  },
-  {
-   "label": "DexCompletionText",
-   "line": 59,
-   "text": "！\nつかまえた　ポケモン",
-   "continuation": true
-  },
-  {
-   "label": "DexCompletionText",
-   "line": 62,
-   "text": "！\n\nオーキドはかせの　ひょうか……",
-   "continuation": true
+   "text": "……　……　ポケモンずかんの\nげんざいの　かんせいど　は……\n\nみつけた　ポケモン{n}！\nつかまえた　ポケモン{n}！\n\nオーキドはかせの　ひょうか……"
   },
   {
    "label": "DexRatingText_Own0To9",

@@ -4,13 +4,7 @@
   {
    "label": "LearnedMove1Text",
    "line": 176,
-   "text": "は　あたらしく"
-  },
-  {
-   "label": "LearnedMove1Text",
-   "line": 180,
-   "text": "を　おぼえた！",
-   "continuation": true
+   "text": "{learnmovemon}は　あたらしく{name}を　おぼえた！"
   },
   {
    "label": "WhichMoveToForgetText",
@@ -20,47 +14,17 @@
   {
    "label": "AbandonLearningText",
    "line": 191,
-   "text": "それでは……"
-  },
-  {
-   "label": "AbandonLearningText",
-   "line": 193,
-   "text": "を\nおぼえるのを　あきらめますか？",
-   "continuation": true
+   "text": "それでは……{name}を\nおぼえるのを　あきらめますか？"
   },
   {
    "label": "DidNotLearnText",
    "line": 198,
-   "text": "は"
-  },
-  {
-   "label": "DidNotLearnText",
-   "line": 201,
-   "text": "を\nおぼえずに　おわった！",
-   "continuation": true
+   "text": "{learnmovemon}は{name}を\nおぼえずに　おわった！"
   },
   {
    "label": "TryingToLearnText",
    "line": 206,
-   "text": "は　あたらしく"
-  },
-  {
-   "label": "TryingToLearnText",
-   "line": 210,
-   "text": "を　おぼえたい……！\n\nしかし",
-   "continuation": true
-  },
-  {
-   "label": "TryingToLearnText",
-   "line": 214,
-   "text": "は　わざを　４つ\nおぼえるので　せいいっぱいだ！",
-   "continuation": true
-  },
-  {
-   "label": "TryingToLearnText",
-   "line": 219,
-   "text": "の　かわりに\nほかの　わざを　わすれさせますか？",
-   "continuation": true
+   "text": "{learnmovemon}は　あたらしく{name}を　おぼえたい……！\n\nしかし{learnmovemon}は　わざを　４つ\nおぼえるので　せいいっぱいだ！\n\n{name}の　かわりに\nほかの　わざを　わすれさせますか？"
   },
   {
    "label": "OneTwoAndText",
@@ -70,19 +34,7 @@
   {
    "label": "PoofForgotAndText",
    "line": 233,
-   "text": "ポカン！"
-  },
-  {
-   "label": "PoofForgotAndText",
-   "line": 239,
-   "text": "は",
-   "continuation": true
-  },
-  {
-   "label": "PoofForgotAndText",
-   "line": 241,
-   "text": "の\nつかいかたを　きれいに　わすれた！\n\nそして……！",
-   "continuation": true
+   "text": "ポカン！\n\n{learnmovemon}は{name}の\nつかいかたを　きれいに　わすれた！\n\nそして……！"
   },
   {
    "label": "HMCantDeleteText",

@@ -19,13 +19,7 @@
   {
    "label": "PickUpPayDayMoneyText",
    "line": 86,
-   "text": "{player}は"
-  },
-  {
-   "label": "PickUpPayDayMoneyText",
-   "line": 88,
-   "text": "円\nひろった！",
-   "continuation": true
+   "text": "{player}は{n}円\nひろった！"
   }
  ]
 }

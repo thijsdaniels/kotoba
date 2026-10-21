@@ -22,6 +22,11 @@
    "text": "めいれいをむしして"
   },
   {
+   "label": "MoveNameText",
+   "line": 67,
+   "text": "{name}"
+  },
+  {
    "label": "EndUsedMove1Text",
    "line": 93,
    "text": "を　つかった！"

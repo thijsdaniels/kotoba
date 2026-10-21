@@ -1,154 +1,206 @@
 {
-  "_comment": "Stages in play order. Each lists the disassembly source files whose text you first meet there, the wild-encounter maps, the mart clerks, and the level cap used for learnsets. A source file belongs to exactly one stage; tools/build_corpus.py reports files that are in no stage.",
-  "stages": [
+ "_comment": "Stages in play order. Each lists the map scripts whose text is first met there, the wild-encounter maps, trainers fought, items that become obtainable (mart stock is read from the data), and the highest level your Pokémon plausibly have, which bounds the learnsets. Engine text is placed by corpus/engine.json. tools/build_corpus.py reports sources that no stage claims.",
+ "stages": [
+  {
+   "id": "intro",
+   "name": "Introduction",
+   "levelCap": 0,
+   "sources": [],
+   "items": [],
+   "trainers": [],
+   "wild": [],
+   "marts": []
+  },
+  {
+   "id": "pallet",
+   "name": "Pallet Town",
+   "levelCap": 5,
+   "sources": [
+    "scripts/PalletTown.asm",
+    "scripts/RedsHouse1F.asm",
+    "scripts/RedsHouse2F.asm",
+    "scripts/BluesHouse.asm",
+    "scripts/OaksLab.asm"
+   ],
+   "wild": [],
+   "marts": [],
+   "items": [
+    "TOWN_MAP",
+    "POKEDEX"
+   ],
+   "trainers": [
     {
-      "id": "intro",
-      "name": "Introduction",
-      "levelCap": 0,
-      "sources": [
-        "engine/movie/title.asm",
-        "engine/menus/main_menu.asm",
-        "engine/movie/oak_speech/oak_speech.asm",
-        "engine/movie/oak_speech/oak_speech2.asm",
-        "engine/movie/oak_speech/clear_save.asm",
-        "engine/menus/naming_screen.asm",
-        "data/text/kana.asm",
-        "data/text/dakutens.asm",
-        "data/player/names.asm",
-        "data/player/names_list.asm"
-      ]
+     "who": "rival",
+     "level": 5,
+     "pokemon": "BULBASAUR"
     },
     {
-      "id": "pallet",
-      "name": "Pallet Town",
-      "levelCap": 10,
-      "sources": [
-        "scripts/PalletTown.asm",
-        "scripts/RedsHouse1F.asm",
-        "scripts/RedsHouse2F.asm",
-        "scripts/BluesHouse.asm",
-        "scripts/OaksLab.asm",
-        "engine/events/hidden_events/reds_room.asm",
-        "engine/events/hidden_events/blues_room.asm",
-        "engine/events/hidden_events/oaks_lab_email.asm",
-        "engine/events/hidden_events/oaks_lab_posters.asm",
-        "engine/events/hidden_events/town_map.asm",
-        "engine/items/town_map.asm",
-        "engine/menus/pc.asm",
-        "engine/menus/players_pc.asm",
-        "engine/menus/draw_start_menu.asm",
-        "engine/menus/start_sub_menus.asm",
-        "engine/menus/party_menu.asm",
-        "engine/menus/text_box.asm",
-        "engine/menus/save.asm",
-        "engine/menus/pokedex.asm",
-        "engine/pokemon/status_screen.asm",
-        "engine/pokemon/learn_move.asm",
-        "engine/pokemon/evos_moves.asm",
-        "engine/events/give_pokemon.asm",
-        "engine/events/pick_up_item.asm",
-        "engine/events/pokedex_rating.asm",
-        "engine/items/item_effects.asm",
-        "engine/battle/core.asm",
-        "engine/battle/common_text.asm",
-        "engine/battle/display_effectiveness.asm",
-        "engine/battle/effects.asm",
-        "engine/battle/end_of_battle.asm",
-        "engine/battle/experience.asm",
-        "engine/battle/used_move_text.asm",
-        "engine/battle/trainer_ai2.asm",
-        "engine/battle/move_effects/drain_hp.asm",
-        "engine/battle/move_effects/leech_seed.asm",
-        "engine/battle/move_effects/heal.asm",
-        "engine/battle/move_effects/recoil.asm",
-        "engine/battle/move_effects/focus_energy.asm",
-        "engine/battle/move_effects/mist.asm",
-        "engine/battle/move_effects/haze.asm",
-        "engine/battle/move_effects/reflect_light_screen.asm",
-        "engine/battle/move_effects/substitute.asm",
-        "engine/battle/move_effects/transform.asm",
-        "engine/battle/move_effects/conversion.asm",
-        "engine/battle/move_effects/pay_day.asm",
-        "engine/overworld/field_move_messages.asm",
-        "engine/overworld/player_state.asm",
-        "engine/overworld/player_animations.asm",
-        "home/text.asm",
-        "home/text_script.asm",
-        "home/overworld_text.asm",
-        "home/list_menu.asm",
-        "home/names.asm",
-        "home/trainers.asm",
-        "data/text_boxes.asm",
-        "data/yes_no_menu_strings.asm",
-        "data/moves/field_move_names.asm"
-      ],
-      "wild": [],
-      "marts": []
+     "who": "rival",
+     "level": 5,
+     "pokemon": "CHARMANDER"
     },
     {
-      "id": "route1",
-      "name": "Route 1",
-      "levelCap": 10,
-      "sources": ["scripts/Route1.asm"],
-      "wild": ["Route1"],
-      "marts": []
-    },
-    {
-      "id": "viridian",
-      "name": "Viridian City",
-      "levelCap": 10,
-      "sources": [
-        "scripts/ViridianCity.asm",
-        "scripts/ViridianPokecenter.asm",
-        "scripts/ViridianMart.asm",
-        "scripts/ViridianSchoolHouse.asm",
-        "scripts/ViridianNicknameHouse.asm",
-        "engine/events/pokecenter.asm",
-        "engine/events/pokemart.asm",
-        "engine/events/hidden_events/school_blackboard.asm",
-        "engine/events/hidden_events/school_notebooks.asm",
-        "engine/pokemon/bills_pc.asm",
-        "engine/menus/oaks_pc.asm"
-      ],
-      "wild": [],
-      "marts": ["ViridianMartClerkText"]
-    },
-    {
-      "id": "route22",
-      "name": "Route 22",
-      "levelCap": 10,
-      "sources": ["scripts/Route22.asm"],
-      "wild": ["Route22"],
-      "marts": []
-    },
-    {
-      "id": "route2",
-      "name": "Route 2",
-      "levelCap": 10,
-      "sources": ["scripts/Route2.asm"],
-      "wild": ["Route2"],
-      "marts": []
-    },
-    {
-      "id": "viridian-forest",
-      "name": "Viridian Forest",
-      "levelCap": 10,
-      "sources": [
-        "scripts/ViridianForestSouthGate.asm",
-        "scripts/ViridianForest.asm",
-        "scripts/ViridianForestNorthGate.asm",
-        "engine/events/hidden_items.asm"
-      ],
-      "wild": ["ViridianForest"],
-      "marts": []
-    },
-    {
-      "id": "pewter",
-      "name": "Pewter City",
-      "levelCap": 30,
-      "sources": [],
-      "wild": [],
-      "marts": ["PewterMartClerkText"]
+     "who": "rival",
+     "level": 5,
+     "pokemon": "SQUIRTLE"
     }
-  ]
+   ]
+  },
+  {
+   "id": "route1",
+   "name": "Route 1",
+   "levelCap": 7,
+   "sources": [
+    "scripts/Route1.asm"
+   ],
+   "wild": [
+    "Route1"
+   ],
+   "marts": [],
+   "items": [
+    "POTION"
+   ],
+   "trainers": []
+  },
+  {
+   "id": "viridian",
+   "name": "Viridian City",
+   "levelCap": 8,
+   "sources": [
+    "scripts/ViridianCity.asm",
+    "scripts/ViridianPokecenter.asm",
+    "scripts/ViridianMart.asm",
+    "scripts/ViridianSchoolHouse.asm",
+    "scripts/ViridianNicknameHouse.asm"
+   ],
+   "wild": [],
+   "marts": [
+    "ViridianMartClerkText"
+   ],
+   "items": [
+    "OAKS_PARCEL",
+    "TM_42",
+    "POKE_BALL"
+   ],
+   "trainers": []
+  },
+  {
+   "id": "route22",
+   "name": "Route 22",
+   "levelCap": 9,
+   "sources": [
+    "scripts/Route22.asm"
+   ],
+   "wild": [
+    "Route22"
+   ],
+   "marts": [],
+   "items": [],
+   "trainers": [
+    {
+     "who": "rival",
+     "level": 9,
+     "pokemon": "PIDGEY"
+    },
+    {
+     "who": "rival",
+     "level": 8,
+     "pokemon": "BULBASAUR"
+    },
+    {
+     "who": "rival",
+     "level": 8,
+     "pokemon": "CHARMANDER"
+    },
+    {
+     "who": "rival",
+     "level": 8,
+     "pokemon": "SQUIRTLE"
+    }
+   ]
+  },
+  {
+   "id": "route2",
+   "name": "Route 2",
+   "levelCap": 10,
+   "sources": [
+    "scripts/Route2.asm"
+   ],
+   "wild": [
+    "Route2"
+   ],
+   "marts": [],
+   "items": [],
+   "trainers": []
+  },
+  {
+   "id": "viridian-forest",
+   "name": "Viridian Forest",
+   "levelCap": 12,
+   "sources": [
+    "scripts/ViridianForestSouthGate.asm",
+    "scripts/ViridianForest.asm",
+    "scripts/ViridianForestNorthGate.asm"
+   ],
+   "wild": [
+    "ViridianForest"
+   ],
+   "marts": [],
+   "items": [
+    "ANTIDOTE",
+    "POTION",
+    "POKE_BALL"
+   ],
+   "trainers": [
+    {
+     "who": "bug catcher",
+     "level": 6,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "who": "bug catcher",
+     "level": 6,
+     "pokemon": "CATERPIE"
+    },
+    {
+     "who": "bug catcher",
+     "level": 7,
+     "pokemon": "WEEDLE"
+    },
+    {
+     "who": "bug catcher",
+     "level": 7,
+     "pokemon": "KAKUNA"
+    },
+    {
+     "who": "bug catcher",
+     "level": 9,
+     "pokemon": "WEEDLE"
+    }
+   ]
+  },
+  {
+   "id": "pewter",
+   "name": "Pewter City",
+   "levelCap": 14,
+   "sources": [],
+   "wild": [],
+   "marts": [
+    "PewterMartClerkText"
+   ],
+   "items": [],
+   "trainers": [
+    {
+     "who": "Brock",
+     "level": 12,
+     "pokemon": "GEODUDE"
+    },
+    {
+     "who": "Brock",
+     "level": 14,
+     "pokemon": "ONIX"
+    }
+   ]
+  }
+ ]
 }

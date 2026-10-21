@@ -4,40 +4,22 @@
   {
    "label": "EvolvedText",
    "line": 301,
-   "text": "おめでとう！"
-  },
-  {
-   "label": "EvolvedText",
-   "line": 303,
-   "text": "は",
-   "continuation": true
+   "text": "おめでとう！{name}は"
   },
   {
    "label": "IntoText",
    "line": 307,
-   "text": "に　しんかした"
+   "text": "{name}に　しんかした"
   },
   {
    "label": "StoppedEvolvingText",
    "line": 314,
-   "text": "あれ……？"
-  },
-  {
-   "label": "StoppedEvolvingText",
-   "line": 317,
-   "text": "の　へんかが　とまった！",
-   "continuation": true
+   "text": "あれ……？{name}の　へんかが　とまった！"
   },
   {
    "label": "IsEvolvingText",
    "line": 321,
-   "text": "……　おや！？"
-  },
-  {
-   "label": "IsEvolvingText",
-   "line": 324,
-   "text": "の　ようすが……！",
-   "continuation": true
+   "text": "……　おや！？{name}の　ようすが……！"
   }
  ]
 }

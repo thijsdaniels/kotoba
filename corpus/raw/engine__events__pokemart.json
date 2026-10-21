@@ -9,13 +9,7 @@
   {
    "label": "PokemartTellBuyPriceText",
    "line": 233,
-   "text": "ですね"
-  },
-  {
-   "label": "PokemartTellBuyPriceText",
-   "line": 237,
-   "text": "円に　なりますが？",
-   "continuation": true
+   "text": "{name}ですね{n}円に　なりますが？"
   },
   {
    "label": "PokemartBoughtItemText",
@@ -40,13 +34,7 @@
   {
    "label": "PokemartTellSellPriceText",
    "line": 259,
-   "text": "それでしたら"
-  },
-  {
-   "label": "PokemartTellSellPriceText",
-   "line": 261,
-   "text": "円で\nおひきとりいたしましょう",
-   "continuation": true
+   "text": "それでしたら{n}円で\nおひきとりいたしましょう"
   },
   {
    "label": "PokemartItemBagEmptyText",

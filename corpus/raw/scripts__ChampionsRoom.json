@@ -31,14 +31,8 @@
   {
    "label": "ChampionsRoomOakCongratulatesPlayerText.Text",
    "line": 348,
-   "text": "とうとう　かったな！\nポケモン　リーグ　せいは！\nこころ　から　おめでとう！\n\nはじめて",
+   "text": "とうとう　かったな！\nポケモン　リーグ　せいは！\nこころ　から　おめでとう！\n\nはじめて{name}を　もらって\nポケモン　ずかん　あつめに\nでかけた　ころと　くらべると\nたくましく　なったな！\n\n……　いやいや！\n{player}は　おとなに　なった！",
    "speaker": "オーキド"
-  },
-  {
-   "label": "ChampionsRoomOakCongratulatesPlayerText.Text",
-   "line": 354,
-   "text": "を　もらって\nポケモン　ずかん　あつめに\nでかけた　ころと　くらべると\nたくましく　なったな！\n\n……　いやいや！\n{player}は　おとなに　なった！",
-   "continuation": true
   },
   {
    "label": "ChampionsRoomOakDisappointedWithRivalText",

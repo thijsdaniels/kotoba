@@ -31,13 +31,7 @@
   {
    "label": "CeruleanCityRocketText.ReceivedTM28Text",
    "line": 364,
-   "text": "{player}は　ロケットだんいんから\nわざマシン２８を　とりかえした！"
-  },
-  {
-   "label": "CeruleanCityRocketText.ReceivedTM28Text",
-   "line": 367,
-   "text": "そ　それじゃ……！\nおれは　たいさん　するから！\n……　……　ばいばーい！",
-   "continuation": true
+   "text": "{player}は　ロケットだんいんから\nわざマシン２８を　とりかえした！\n\nそ　それじゃ……！\nおれは　たいさん　するから！\n……　……　ばいばーい！"
   },
   {
    "label": "CeruleanCityRocketText.TM28NoRoomText",

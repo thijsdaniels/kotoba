@@ -1,7 +1,7 @@
 {
  "id": "route1",
  "name": "Route 1",
- "levelCap": 10,
+ "levelCap": 7,
  "strings": [
   {
    "source": "scripts/Route1.asm",
@@ -13,14 +13,7 @@
    "source": "scripts/Route1.asm",
    "label": "Route1Youngster1Text.GotPotionText",
    "line": 43,
-   "text": "{player}は\n「"
-  },
-  {
-   "source": "scripts/Route1.asm",
-   "label": "Route1Youngster1Text.GotPotionText",
-   "line": 46,
-   "text": "」を　もらった！",
-   "continuation": true
+   "text": "{player}は\n「{name}」を　もらった！"
   },
   {
    "source": "scripts/Route1.asm",
@@ -45,6 +38,96 @@
    "label": "Route1SignText",
    "line": 71,
    "text": "ここは　１ばん　どうろ\nマサラ　タウン　……　トキワ　シティ"
+  },
+  {
+   "source": "engine/menus/party_menu.asm",
+   "label": "PotionText",
+   "line": 251,
+   "text": "{name}の　たいりょくが{n}かいふくした",
+   "trigger": {
+    "item": [
+     "POTION"
+    ]
+   }
+  },
+  {
+   "source": "engine/pokemon/learn_move.asm",
+   "label": "LearnedMove1Text",
+   "line": 176,
+   "text": "{learnmovemon}は　あたらしく{name}を　おぼえた！"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ItemUseNoEffectText",
+   "line": 2354,
+   "text": "つかっても　こうかがないよ",
+   "trigger": {
+    "item": [
+     "POTION"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ItemUseText00",
+   "line": 2383,
+   "text": "{player}は{name}を　つかった！",
+   "trigger": {
+    "item": [
+     "POTION"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "HurtByLeechSeedText",
+   "line": 576,
+   "text": "やどりぎが　{user}の\nたいりょくを　うばう！",
+   "trigger": {
+    "move": [
+     "LEECH_SEED"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "GotAwayText",
+   "line": 1683,
+   "text": "うまく　にげきれた！"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "MoveNoPPText",
+   "line": 2720,
+   "text": "わざの　のこりポイントが　ない！"
+  },
+  {
+   "source": "engine/battle/common_text.asm",
+   "label": "WildMonAppearedText",
+   "line": 73,
+   "text": "あ！　やせいの{enemy}が　とびだしてきた！"
+  },
+  {
+   "source": "engine/battle/move_effects/leech_seed.asm",
+   "label": "WasSeededText",
+   "line": 34,
+   "text": "{target}に\nたねを　うえつけた！",
+   "trigger": {
+    "move": [
+     "LEECH_SEED"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/leech_seed.asm",
+   "label": "EvadedAttackText",
+   "line": 39,
+   "text": "{target}は\nこうげきを　かわした！",
+   "trigger": {
+    "move": [
+     "LEECH_SEED"
+    ]
+   }
   }
  ],
  "pokemon": [
@@ -92,18 +175,32 @@
   {
    "const": "GUST",
    "ja": "かぜおこし",
+   "effect": "NO_ADDITIONAL_EFFECT",
    "learnedBy": "PIDGEY"
   },
   {
    "const": "SAND_ATTACK",
    "ja": "すなかけ",
+   "effect": "ACCURACY_DOWN1_EFFECT",
    "learnedBy": "PIDGEY"
   },
   {
    "const": "QUICK_ATTACK",
    "ja": "でんこうせっか",
+   "effect": "NO_ADDITIONAL_EFFECT",
    "learnedBy": "RATTATA"
+  },
+  {
+   "const": "LEECH_SEED",
+   "ja": "やどりぎのタネ",
+   "effect": "LEECH_SEED_EFFECT",
+   "learnedBy": "BULBASAUR"
   }
  ],
- "items": []
+ "items": [
+  {
+   "const": "POTION",
+   "ja": "キズぐすり"
+  }
+ ]
 }

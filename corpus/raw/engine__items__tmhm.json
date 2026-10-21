@@ -4,13 +4,7 @@
   {
    "label": "AlreadyKnowsText",
    "line": 24,
-   "text": "は　すでに"
-  },
-  {
-   "label": "AlreadyKnowsText",
-   "line": 28,
-   "text": "を　おぼえています",
-   "continuation": true
+   "text": "{name}は　すでに{name}を　おぼえています"
   }
  ]
 }

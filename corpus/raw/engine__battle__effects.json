@@ -39,13 +39,7 @@
   {
    "label": "MonsStatsRoseText",
    "line": 522,
-   "text": "{user}の"
-  },
-  {
-   "label": "MonsStatsRoseText",
-   "line": 525,
-   "text": "が",
-   "continuation": true
+   "text": "{user}の{name}が"
   },
   {
    "label": "GreatlyRoseText",
@@ -60,13 +54,7 @@
   {
    "label": "MonsStatsFellText",
    "line": 727,
-   "text": "{target}の"
-  },
-  {
-   "label": "MonsStatsFellText",
-   "line": 730,
-   "text": "が",
-   "continuation": true
+   "text": "{target}の{name}が"
   },
   {
    "label": "GreatlyFellText",
@@ -136,24 +124,12 @@
   {
    "label": "MimicLearnedMoveText",
    "line": 1296,
-   "text": "{user}は"
-  },
-  {
-   "label": "MimicLearnedMoveText",
-   "line": 1299,
-   "text": "を　おぼえた！",
-   "continuation": true
+   "text": "{user}は{name}を　おぼえた！"
   },
   {
    "label": "MoveWasDisabledText",
    "line": 1393,
-   "text": "{target}の"
-  },
-  {
-   "label": "MoveWasDisabledText",
-   "line": 1396,
-   "text": "を　ふうじこめた！",
-   "continuation": true
+   "text": "{target}の{name}を　ふうじこめた！"
   },
   {
    "label": "NoEffectText",

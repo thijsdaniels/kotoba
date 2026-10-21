@@ -39,13 +39,7 @@
   {
    "label": "LinedUpText",
    "line": 495,
-   "text": "が　そろった！\nコイン"
-  },
-  {
-   "label": "LinedUpText",
-   "line": 498,
-   "text": "まい　いただき！",
-   "continuation": true
+   "text": "が　そろった！\nコイン{name}まい　いただき！"
   },
   {
    "label": "NotThisTimeText",

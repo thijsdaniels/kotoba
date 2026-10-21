@@ -9,13 +9,7 @@
   {
    "label": "SaffronGateGuardGiveDrinkText",
    "line": 106,
-   "text": "あ　それは\nおいしそうな　のみもの……\n……　……\nえ？\nぼくに　くれる？\nサンキュー！"
-  },
-  {
-   "label": "SaffronGateGuardGiveDrinkText",
-   "line": 113,
-   "text": "……　……\nゴクゴク……\n……\nゴクゴク……　……\nヤマブキ　シティに\nいく　なら……\n……\n……　……\nとおって　いいよ\nジュースを\nむこうの　ゲートの\nけいびいんにも　わけてあげよう……",
-   "continuation": true
+   "text": "あ　それは\nおいしそうな　のみもの……\n……　……\nえ？\nぼくに　くれる？\nサンキュー！\n\n……　……\nゴクゴク……\n……\nゴクゴク……　……\nヤマブキ　シティに\nいく　なら……\n……\n……　……\nとおって　いいよ\nジュースを\nむこうの　ゲートの\nけいびいんにも　わけてあげよう……"
   },
   {
    "label": "SaffronGateGuardThanksForTheDrinkText",

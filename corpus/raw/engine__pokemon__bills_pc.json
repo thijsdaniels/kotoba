@@ -34,13 +34,7 @@
   {
    "label": "MonWasStoredText",
    "line": 447,
-   "text": "を　ボックス"
-  },
-  {
-   "label": "MonWasStoredText",
-   "line": 450,
-   "text": "に\nあずけた！",
-   "continuation": true
+   "text": "{name}を　ボックス{boxnumstring}に\nあずけた！"
   },
   {
    "label": "CantDepositLastMonText",
@@ -55,13 +49,7 @@
   {
    "label": "MonIsTakenOutText",
    "line": 465,
-   "text": "を\nまた　つれていく　ことにした！"
-  },
-  {
-   "label": "MonIsTakenOutText",
-   "line": 470,
-   "text": "を　うけとった！",
-   "continuation": true
+   "text": "{name}を\nまた　つれていく　ことにした！{name}を　うけとった！"
   },
   {
    "label": "NoMonText",
@@ -81,24 +69,12 @@
   {
    "label": "OnceReleasedText",
    "line": 492,
-   "text": "にがすと"
-  },
-  {
-   "label": "OnceReleasedText",
-   "line": 494,
-   "text": "は\nもう　もどってこんで　ええんか？",
-   "continuation": true
+   "text": "にがすと{name}は\nもう　もどってこんで　ええんか？"
   },
   {
    "label": "MonWasReleasedText",
    "line": 499,
-   "text": "を\nそとに　にがして　あげた！\nばいばい"
-  },
-  {
-   "label": "MonWasReleasedText",
-   "line": 504,
-   "text": "！",
-   "continuation": true
+   "text": "{name}を\nそとに　にがして　あげた！\nばいばい{name}！"
   },
   {
    "label": "JustAMomentText",

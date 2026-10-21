@@ -1,7 +1,7 @@
 {
  "id": "viridian-forest",
  "name": "Viridian Forest",
- "levelCap": 10,
+ "levelCap": 12,
  "strings": [
   {
    "source": "scripts/ViridianForestSouthGate.asm",
@@ -130,56 +130,96 @@
    "text": "どうろの　あちこちに\nほそい　きが　あったろ？\n\nあそこは　ポケモンの　わざで\nきって　とおれる　そうじゃ"
   },
   {
-   "source": "engine/events/hidden_items.asm",
-   "label": "FoundHiddenItemText",
-   "line": 23,
-   "text": "{player}は"
+   "source": "engine/pokemon/evos_moves.asm",
+   "label": "EvolvedText",
+   "line": 301,
+   "text": "おめでとう！{name}は"
+  },
+  {
+   "source": "engine/pokemon/evos_moves.asm",
+   "label": "IntoText",
+   "line": 307,
+   "text": "{name}に　しんかした"
+  },
+  {
+   "source": "engine/pokemon/evos_moves.asm",
+   "label": "StoppedEvolvingText",
+   "line": 314,
+   "text": "あれ……？{name}の　へんかが　とまった！"
+  },
+  {
+   "source": "engine/pokemon/evos_moves.asm",
+   "label": "IsEvolvingText",
+   "line": 321,
+   "text": "……　おや！？{name}の　ようすが……！"
+  },
+  {
+   "source": "engine/events/pick_up_item.asm",
+   "label": "FoundItemText",
+   "line": 47,
+   "text": "{player}は{name}を　みつけた！"
+  },
+  {
+   "source": "engine/events/pick_up_item.asm",
+   "label": "NoMoreRoomForItemText",
+   "line": 55,
+   "text": "もちものが　いっぱい！"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "FullyParalyzedText",
+   "line": 3688,
+   "text": "{user}は\nからだが　しびれて　うごけない",
+   "trigger": {
+    "effect": [
+     "PARALYZE*"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "MonsStatsRoseText",
+   "line": 522,
+   "text": "{user}の{name}が",
+   "trigger": {
+    "effect": [
+     "*_UP*_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "RoseText",
+   "line": 544,
+   "text": "あがった！",
+   "trigger": {
+    "effect": [
+     "*_UP*_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "ParalyzedMayNotAttackText",
+   "line": 1464,
+   "text": "{target}は　まひして\nわざが　でにくくなった！",
+   "trigger": {
+    "effect": [
+     "PARALYZE*"
+    ]
+   }
   },
   {
    "source": "engine/events/hidden_items.asm",
    "label": "FoundHiddenItemText",
-   "line": 26,
-   "text": "を　みつけた！",
-   "continuation": true
+   "line": 23,
+   "text": "{player}は{name}を　みつけた！"
   },
   {
    "source": "engine/events/hidden_items.asm",
    "label": "HiddenItemBagFullText",
    "line": 51,
    "text": "しかし　{player}は\nどうぐを　もう　もてない！"
-  },
-  {
-   "source": "engine/events/hidden_items.asm",
-   "label": "FoundHiddenCoinsText",
-   "line": 127,
-   "text": "{player}は\nコインを"
-  },
-  {
-   "source": "engine/events/hidden_items.asm",
-   "label": "FoundHiddenCoinsText",
-   "line": 130,
-   "text": "まい　みつけた！",
-   "continuation": true
-  },
-  {
-   "source": "engine/events/hidden_items.asm",
-   "label": "DroppedHiddenCoinsText",
-   "line": 135,
-   "text": "{player}は\nコイン　を"
-  },
-  {
-   "source": "engine/events/hidden_items.asm",
-   "label": "DroppedHiddenCoinsText",
-   "line": 138,
-   "text": "まい　みつけた！",
-   "continuation": true
-  },
-  {
-   "source": "engine/events/hidden_items.asm",
-   "label": "DroppedHiddenCoinsText",
-   "line": 140,
-   "text": "しかし　{player}は\nなんまいか　おとしてしまった！",
-   "continuation": true
   }
  ],
  "pokemon": [
@@ -194,7 +234,10 @@
    "levels": [
     3,
     4,
-    5
+    5,
+    6,
+    7,
+    9
    ],
    "moves": [
     "POISON_STING",
@@ -213,7 +256,8 @@
    "levels": [
     4,
     5,
-    6
+    6,
+    7
    ],
    "moves": [
     "HARDEN"
@@ -247,7 +291,8 @@
    "levels": [
     3,
     4,
-    5
+    5,
+    6
    ],
    "moves": [
     "TACKLE",
@@ -278,16 +323,19 @@
   {
    "const": "HARDEN",
    "ja": "かたくなる",
+   "effect": "DEFENSE_UP1_EFFECT",
    "learnedBy": "KAKUNA"
   },
   {
    "const": "THUNDERSHOCK",
    "ja": "でんきショック",
+   "effect": "PARALYZE_SIDE_EFFECT1",
    "learnedBy": "PIKACHU"
   },
   {
    "const": "THUNDER_WAVE",
    "ja": "でんじは",
+   "effect": "PARALYZE_EFFECT",
    "learnedBy": "PIKACHU"
   }
  ],

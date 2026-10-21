@@ -4,24 +4,12 @@
   {
    "label": "Route24CooltrainerM1Text.YouBeatOurContestText",
    "line": 141,
-   "text": "おみごとーッ！\n５にんぬき　おめでとう！"
-  },
-  {
-   "label": "Route24CooltrainerM1Text.YouBeatOurContestText",
-   "line": 144,
-   "text": "しょうひんに\nこれを　プレゼント　しよう！",
-   "continuation": true
+   "text": "おみごとーッ！\n５にんぬき　おめでとう！\n\nしょうひんに\nこれを　プレゼント　しよう！"
   },
   {
    "label": "Route24CooltrainerM1Text.ReceivedNuggetText",
    "line": 151,
-   "text": "{player}は　なぞのトレーナーから"
-  },
-  {
-   "label": "Route24CooltrainerM1Text.ReceivedNuggetText",
-   "line": 154,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　なぞのトレーナーから{name}を　もらった！"
   },
   {
    "label": "Route24CooltrainerM1Text.NoRoomText",

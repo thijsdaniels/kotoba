@@ -16,13 +16,7 @@
   {
    "label": "SSAnneCaptainsRoomCaptainReceivedHM01Text",
    "line": 95,
-   "text": "{player}は　せんちょう　から"
-  },
-  {
-   "label": "SSAnneCaptainsRoomCaptainReceivedHM01Text",
-   "line": 98,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　せんちょう　から{name}を　もらった！"
   },
   {
    "label": "SSAnneCaptainsRoomCaptainNotSickAnymoreText",

@@ -29,13 +29,7 @@
   {
    "label": "CeladonDinerGymGuideText.ReceivedCoinCaseText",
    "line": 75,
-   "text": "{player}は　おっさん　から"
-  },
-  {
-   "label": "CeladonDinerGymGuideText.ReceivedCoinCaseText",
-   "line": 78,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　おっさん　から{name}を　もらった！"
   },
   {
    "label": "CeladonDinerGymGuideText.CoinCaseNoRoomText",

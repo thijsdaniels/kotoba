@@ -7,43 +7,31 @@
    "text": "まばゆい　ひかりが\nあたりを　あかるく　てらす……"
   },
   {
-   "label": "StartMenu_Pokemon",
+   "label": "StartMenu_Pokemon#2",
    "line": 197,
    "text": "さいごに　やすんだ\nポケモンセンターへ　とびます！",
    "continuation": true
   },
   {
-   "label": "StartMenu_Pokemon",
+   "label": "StartMenu_Pokemon#3",
    "line": 233,
-   "text": "ここでは",
+   "text": "ここでは{name}で\nテレポートすることは　できません！",
    "continuation": true
   },
   {
-   "label": "StartMenu_Pokemon",
-   "line": 236,
-   "text": "で\nテレポートすることは　できません！",
-   "continuation": true
-  },
-  {
-   "label": "StartMenu_Pokemon",
+   "label": "StartMenu_Pokemon#4",
    "line": 239,
-   "text": "ここでは",
+   "text": "ここでは{name}で\nそらを　とぶことは　できません！",
    "continuation": true
   },
   {
-   "label": "StartMenu_Pokemon",
-   "line": 242,
-   "text": "で\nそらを　とぶことは　できません！",
-   "continuation": true
-  },
-  {
-   "label": "StartMenu_Pokemon",
+   "label": "StartMenu_Pokemon#5",
    "line": 245,
    "text": "たいりょくが　たりません！",
    "continuation": true
   },
   {
-   "label": "StartMenu_Pokemon",
+   "label": "StartMenu_Pokemon#6",
    "line": 284,
    "text": "あたらしい　バッジを　てにするまで\nまだ　つかえません！",
    "continuation": true

@@ -15,19 +15,7 @@
   {
    "label": "CopycatsHouse2FCopycatText.ReceivedTM31Text",
    "line": 74,
-   "text": "{player}は　むすめさんから"
-  },
-  {
-   "label": "CopycatsHouse2FCopycatText.ReceivedTM31Text",
-   "line": 77,
-   "text": "を　もらった！",
-   "continuation": true
-  },
-  {
-   "label": "CopycatsHouse2FCopycatText.ReceivedTM31Text",
-   "line": 79,
-   "text": "わざマシン３１の　なかは\nわたしの　だいすきな　ものまね！\n\nあなたの　すきな　ポケモンに\nつかって　あげて！",
-   "continuation": true
+   "text": "{player}は　むすめさんから{name}を　もらった！\n\nわざマシン３１の　なかは\nわたしの　だいすきな　ものまね！\n\nあなたの　すきな　ポケモンに\nつかって　あげて！"
   },
   {
    "label": "CopycatsHouse2FCopycatText.TM31ExplanationText",

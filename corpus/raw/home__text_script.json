@@ -9,7 +9,7 @@
   {
    "label": "PokemonFaintedText",
    "line": 194,
-   "text": "は　ちからつきた"
+   "text": "{name}は　ちからつきた"
   },
   {
    "label": "PlayerBlackedOutText",

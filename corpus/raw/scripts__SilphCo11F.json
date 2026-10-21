@@ -10,13 +10,7 @@
   {
    "label": "SilphCo11FSilphPresidentText.ReceivedMasterBallText",
    "line": 333,
-   "text": "{player}は　しゃちょうから"
-  },
-  {
-   "label": "SilphCo11FSilphPresidentText.ReceivedMasterBallText",
-   "line": 336,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　しゃちょうから{name}を　もらった！"
   },
   {
    "label": "SilphCo11FSilphPresidentText.MasterBallDescriptionText",

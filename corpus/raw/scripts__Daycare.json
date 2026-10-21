@@ -14,13 +14,7 @@
   {
    "label": "DaycareGentlemanText.WillLookAfterMonText",
    "line": 223,
-   "text": "わかった\nしばらく"
-  },
-  {
-   "label": "DaycareGentlemanText.WillLookAfterMonText",
-   "line": 226,
-   "text": "を　あずかろう",
-   "continuation": true
+   "text": "わかった\nしばらく{name}を　あずかろう"
   },
   {
    "label": "DaycareGentlemanText.ComeSeeMeInAWhileText",
@@ -30,52 +24,22 @@
   {
    "label": "DaycareGentlemanText.MonHasGrownText",
    "line": 235,
-   "text": "おまえの"
-  },
-  {
-   "label": "DaycareGentlemanText.MonHasGrownText",
-   "line": 237,
-   "text": "ずいぶんと　せいちょうしたぞ\n\nそうだな　レベルで　いうと",
-   "continuation": true
-  },
-  {
-   "label": "DaycareGentlemanText.MonHasGrownText",
-   "line": 243,
-   "text": "くらい　そだってるな\n\nやっぱり　わたしは　てんさいだ！",
-   "continuation": true
+   "text": "おまえの{name}\nずいぶんと　せいちょうしたぞ\n\nそうだな　レベルで　いうと{n}くらい　そだってるな\n\nやっぱり　わたしは　てんさいだ！"
   },
   {
    "label": "DaycareGentlemanText.OweMoneyText",
    "line": 249,
-   "text": "……で　ポケモンを　ひきとるなら\nりょうきんは"
-  },
-  {
-   "label": "DaycareGentlemanText.OweMoneyText",
-   "line": 252,
-   "text": "円　だよ",
-   "continuation": true
+   "text": "……で　ポケモンを　ひきとるなら\nりょうきんは{n}円　だよ"
   },
   {
    "label": "DaycareGentlemanText.GotMonBackText",
    "line": 256,
-   "text": "{player}は　そだてやさんから"
-  },
-  {
-   "label": "DaycareGentlemanText.GotMonBackText",
-   "line": 259,
-   "text": "を　ひきとった！",
-   "continuation": true
+   "text": "{player}は　そだてやさんから{daycaremon}を　ひきとった！"
   },
   {
    "label": "DaycareGentlemanText.MonNeedsMoreTimeText",
    "line": 263,
-   "text": "なんだ　もう　きたのか\nおまえの"
-  },
-  {
-   "label": "DaycareGentlemanText.MonNeedsMoreTimeText",
-   "line": 266,
-   "text": "は……\n\nまだ　じかんが　かかるぞ",
-   "continuation": true
+   "text": "なんだ　もう　きたのか\nおまえの{name}は……\n\nまだ　じかんが　かかるぞ"
   },
   {
    "label": "DaycareGentlemanText.AllRightThenText",

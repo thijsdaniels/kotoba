@@ -4,24 +4,12 @@
   {
    "label": "SafariZoneEatingText",
    "line": 30,
-   "text": "やせいの"
-  },
-  {
-   "label": "SafariZoneEatingText",
-   "line": 32,
-   "text": "は\nエサを　たべてる！",
-   "continuation": true
+   "text": "やせいの{enemy}は\nエサを　たべてる！"
   },
   {
    "label": "SafariZoneAngryText",
    "line": 37,
-   "text": "やせいの"
-  },
-  {
-   "label": "SafariZoneAngryText",
-   "line": 39,
-   "text": "は\nおこってる！",
-   "continuation": true
+   "text": "やせいの{enemy}は\nおこってる！"
   }
  ]
 }

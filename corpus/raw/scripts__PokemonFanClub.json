@@ -46,19 +46,7 @@
   {
    "label": "PokemonFanClubChairmanText.BikeVoucherText",
    "line": 189,
-   "text": "{player}は　かいちょうから"
-  },
-  {
-   "label": "PokemonFanClubChairmanText.BikeVoucherText",
-   "line": 192,
-   "text": "を　もらった！",
-   "continuation": true
-  },
-  {
-   "label": "PokemonFanClubChairmanText.BikeVoucherText",
-   "line": 194,
-   "text": "その　ひきかえけんで\nタダで　じてんしゃが　もらえる！\n\nなに　わしには　おきにいりの\nとりポケモン　オニドリルが　おる\nいきたい　ところへ　ひとっとびじゃ\n\nだから　じてんしゃ　など　いらん！\n\nじてんしゃは　きみが\nすきに　のったら　ええ！",
-   "continuation": true
+   "text": "{player}は　かいちょうから{name}を　もらった！\n\nその　ひきかえけんで\nタダで　じてんしゃが　もらえる！\n\nなに　わしには　おきにいりの\nとりポケモン　オニドリルが　おる\nいきたい　ところへ　ひとっとびじゃ\n\nだから　じてんしゃ　など　いらん！\n\nじてんしゃは　きみが\nすきに　のったら　ええ！"
   },
   {
    "label": "PokemonFanClubChairmanText.NoStoryText",

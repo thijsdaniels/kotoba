@@ -4,78 +4,42 @@
   {
    "label": "TradeWentToText",
    "line": 799,
-   "text": "は　ぶじ"
-  },
-  {
-   "label": "TradeWentToText",
-   "line": 803,
-   "text": "に　ひきとられました",
-   "continuation": true
+   "text": "{name}は　ぶじ{linkenemytrainer}に　ひきとられました"
   },
   {
    "label": "TradeForText",
    "line": 815,
-   "text": "{player}が"
-  },
-  {
-   "label": "TradeForText",
-   "line": 818,
-   "text": "を　おくったかわりに",
-   "continuation": true
+   "text": "{player}が{name}を　おくったかわりに"
   },
   {
    "label": "TradeSendsText",
    "line": 822,
-   "text": "は"
-  },
-  {
-   "label": "TradeSendsText",
-   "line": 826,
-   "text": "を　くれます",
-   "continuation": true
+   "text": "{linkenemytrainer}は{name}を　くれます"
   },
   {
    "label": "TradeWavesFarewellText",
    "line": 839,
-   "text": "が\nなごりを　おしみながら"
+   "text": "{linkenemytrainer}が\nなごりを　おしみながら"
   },
   {
    "label": "TradeTransferredText",
    "line": 845,
-   "text": "を\nおくってきます"
+   "text": "{name}を\nおくってきます"
   },
   {
    "label": "TradeTakeCareText",
    "line": 856,
-   "text": "を\nかわいがってやってください"
+   "text": "{name}を\nかわいがってやってください"
   },
   {
    "label": "TradeWillTradeText",
    "line": 870,
-   "text": "これから"
-  },
-  {
-   "label": "TradeWillTradeText",
-   "line": 873,
-   "text": "の",
-   "continuation": true
-  },
-  {
-   "label": "TradeWillTradeText",
-   "line": 875,
-   "text": "と",
-   "continuation": true
+   "text": "これから{linkenemytrainer}の{name}と"
   },
   {
    "label": "TradeforText",
    "line": 879,
-   "text": "{player}の"
-  },
-  {
-   "label": "TradeforText",
-   "line": 881,
-   "text": "を\nこうかんします！",
-   "continuation": true
+   "text": "{player}の{name}を\nこうかんします！"
   }
  ]
 }

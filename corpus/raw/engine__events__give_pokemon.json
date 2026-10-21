@@ -4,30 +4,12 @@
   {
    "label": "GotMonText",
    "line": 62,
-   "text": "{player}は"
-  },
-  {
-   "label": "GotMonText",
-   "line": 65,
-   "text": "を　てにいれた！",
-   "continuation": true
+   "text": "{player}は{name}を　てにいれた！"
   },
   {
    "label": "SentToBoxText",
    "line": 70,
-   "text": "ポケモンを　もちきれないので\nパソコンの　ボックス"
-  },
-  {
-   "label": "SentToBoxText",
-   "line": 73,
-   "text": "に",
-   "continuation": true
-  },
-  {
-   "label": "SentToBoxText",
-   "line": 76,
-   "text": "を　てんそうした！",
-   "continuation": true
+   "text": "ポケモンを　もちきれないので\nパソコンの　ボックス{name}に{boxmonnicks}を　てんそうした！"
   },
   {
    "label": "BoxIsFullText",

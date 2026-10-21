@@ -29,13 +29,7 @@
   {
    "label": "PewterGymReceivedTM34Text",
    "line": 170,
-   "text": "{player}は　タケシから\nわざマシン３４を　もらった！"
-  },
-  {
-   "label": "PewterGymReceivedTM34Text",
-   "line": 173,
-   "text": "わざマシンを　つかうと　ポケモンは\nすぐ　その　わざを　おぼえる！\nただし　マシンは　つかい　すてだ！\nどの　ポケモンに　おぼえさせるか\nよく　かんがえた　ほうが　いい\n\nところで……\nわざマシン３４には\nがまん　が　はいっている！\n\nこうげき　されてる　とき\nじっと　たえて……　あとで\nいっきに　２ばいにして　かえす！\nおもしろい　わざだ！",
-   "continuation": true
+   "text": "{player}は　タケシから\nわざマシン３４を　もらった！\n\nわざマシンを　つかうと　ポケモンは\nすぐ　その　わざを　おぼえる！\nただし　マシンは　つかい　すてだ！\nどの　ポケモンに　おぼえさせるか\nよく　かんがえた　ほうが　いい\n\nところで……\nわざマシン３４には\nがまん　が　はいっている！\n\nこうげき　されてる　とき\nじっと　たえて……　あとで\nいっきに　２ばいにして　かえす！\nおもしろい　わざだ！"
   },
   {
    "label": "PewterGymTM34NoRoomText",
@@ -45,13 +39,7 @@
   {
    "label": "PewterGymBrockReceivedBoulderBadgeText",
    "line": 196,
-   "text": "きみを\nみくびって　いた　ようだ\n\nぼくに　かった　あかしに\nポケモン　リーグ　こうにん\nグレー　バッジを　さずけよう！\n\n{player}は　タケシから\nグレー　バッジを　もらった！"
-  },
-  {
-   "label": "PewterGymBrockReceivedBoulderBadgeText",
-   "line": 206,
-   "text": "グレー　バッジを　つけてると\nそれだけで\nきみの　ポケモンは　つよくなる！\n\nフラッシュ　という　わざを\nもっている　ポケモンは\nたたかって　なくても　フラッシュを\nつかえる　ように　なる！",
-   "continuation": true
+   "text": "きみを\nみくびって　いた　ようだ\n\nぼくに　かった　あかしに\nポケモン　リーグ　こうにん\nグレー　バッジを　さずけよう！\n\n{player}は　タケシから\nグレー　バッジを　もらった！\n\nグレー　バッジを　つけてると\nそれだけで\nきみの　ポケモンは　つよくなる！\n\nフラッシュ　という　わざを\nもっている　ポケモンは\nたたかって　なくても　フラッシュを\nつかえる　ように　なる！"
   },
   {
    "label": "PewterGymCooltrainerMBattleText",

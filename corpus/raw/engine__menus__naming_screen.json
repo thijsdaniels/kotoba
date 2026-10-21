@@ -4,7 +4,7 @@
   {
    "label": "DoYouWantToNicknameText",
    "line": 52,
-   "text": "に\nニックネームを　つけますか？"
+   "text": "{name}に\nニックネームを　つけますか？"
   },
   {
    "label": "YourTextString",

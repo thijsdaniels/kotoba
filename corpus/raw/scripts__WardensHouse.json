@@ -20,13 +20,7 @@
   {
    "label": "WardensHouseWardenText.GaveTheGoldTeethText",
    "line": 78,
-   "text": "えんちょうは　{player}から\nきんのいればを　もらった！"
-  },
-  {
-   "label": "WardensHouseWardenText.GaveTheGoldTeethText",
-   "line": 81,
-   "text": "もらった　いればを\nいそいで　くちに　はめた！",
-   "continuation": true
+   "text": "えんちょうは　{player}から\nきんのいればを　もらった！\n\nもらった　いればを\nいそいで　くちに　はめた！"
   },
   {
    "label": "WardensHouseWardenText.ThanksText",
@@ -37,13 +31,7 @@
   {
    "label": "WardensHouseWardenText.ReceivedHM04Text",
    "line": 101,
-   "text": "{player}は　えんちょうから"
-  },
-  {
-   "label": "WardensHouseWardenText.ReceivedHM04Text",
-   "line": 104,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　えんちょうから{name}を　もらった！"
   },
   {
    "label": "WardensHouseWardenText.HM04ExplanationText",

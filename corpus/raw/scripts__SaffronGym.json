@@ -34,13 +34,7 @@
   {
    "label": "SaffronGymSabrinaReceivedTM46Text",
    "line": 185,
-   "text": "{player}は　ナツメから\nわざマシン４６を　もらった！"
-  },
-  {
-   "label": "SaffronGymSabrinaReceivedTM46Text",
-   "line": 188,
-   "text": "わざマシン４６は　サイコウェーブ！\nきょうりょくな　ねんぱが\nおおきな　ダメージを　あたえるわ！",
-   "continuation": true
+   "text": "{player}は　ナツメから\nわざマシン４６を　もらった！\n\nわざマシン４６は　サイコウェーブ！\nきょうりょくな　ねんぱが\nおおきな　ダメージを　あたえるわ！"
   },
   {
    "label": "SaffronGymSabrinaTM46NoRoomText",

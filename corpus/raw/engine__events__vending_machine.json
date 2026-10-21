@@ -19,7 +19,7 @@
   {
    "label": "VendingMachineText5",
    "line": 95,
-   "text": "が　でてきた！"
+   "text": "{name}が　でてきた！"
   },
   {
    "label": "VendingMachineText6",

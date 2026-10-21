@@ -34,19 +34,7 @@
   {
    "label": "CinnabarGymBlaineReceivedTM38Text",
    "line": 280,
-   "text": "{player}は　カツラから"
-  },
-  {
-   "label": "CinnabarGymBlaineReceivedTM38Text",
-   "line": 283,
-   "text": "を　もらった！",
-   "continuation": true
-  },
-  {
-   "label": "CinnabarGymBlaineReceivedTM38Text",
-   "line": 285,
-   "text": "わざマシン３８は\nもえる　おおわざ！　だいもんじ！\n\nだいもんじは\nほのお　タイプの　ポケモン！\n\nロコンや　リザードに\nおぼえさせると　よいぞ！",
-   "continuation": true
+   "text": "{player}は　カツラから{name}を　もらった！\n\nわざマシン３８は\nもえる　おおわざ！　だいもんじ！\n\nだいもんじは\nほのお　タイプの　ポケモン！\n\nロコンや　リザードに\nおぼえさせると　よいぞ！"
   },
   {
    "label": "CinnabarGymBlaineTM38NoRoomText",

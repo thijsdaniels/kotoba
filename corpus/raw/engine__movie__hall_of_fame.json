@@ -24,13 +24,7 @@
   {
    "label": "DexSeenOwnedText",
    "line": 269,
-   "text": "ポケモンずかん:みつけたかず"
-  },
-  {
-   "label": "DexSeenOwnedText",
-   "line": 271,
-   "text": "つかまえたかず",
-   "continuation": true
+   "text": "ポケモンずかん:みつけたかず{n}\nつかまえたかず{n}"
   },
   {
    "label": "DexRatingText",

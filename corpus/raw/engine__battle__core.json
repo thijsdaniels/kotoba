@@ -10,24 +10,12 @@
   {
    "label": "WildRanText",
    "line": 275,
-   "text": "やせいの"
-  },
-  {
-   "label": "WildRanText",
-   "line": 277,
-   "text": "は　にげだした！",
-   "continuation": true
+   "text": "やせいの{enemy}は　にげだした！"
   },
   {
    "label": "EnemyRanText",
    "line": 281,
-   "text": "てきの"
-  },
-  {
-   "label": "EnemyRanText",
-   "line": 283,
-   "text": "は　にげだした！",
-   "continuation": true
+   "text": "てきの{enemy}は　にげだした！"
   },
   {
    "label": "HurtByPoisonText",
@@ -47,34 +35,22 @@
   {
    "label": "EnemyMonFaintedText",
    "line": 895,
-   "text": "てきの"
-  },
-  {
-   "label": "EnemyMonFaintedText",
-   "line": 897,
-   "text": "は　たおれた！",
-   "continuation": true
+   "text": "てきの{enemy}は　たおれた！"
   },
   {
    "label": "MoneyForWinningText",
    "line": 988,
-   "text": "{player}は　しょうきんとして"
-  },
-  {
-   "label": "MoneyForWinningText",
-   "line": 991,
-   "text": "円　てにいれた！",
-   "continuation": true
+   "text": "{player}は　しょうきんとして{n}円　てにいれた！"
   },
   {
    "label": "TrainerDefeatedText",
    "line": 995,
-   "text": "との\nしょうぶに　かった！"
+   "text": "{trainer}との\nしょうぶに　かった！"
   },
   {
    "label": "PlayerMonFaintedText",
    "line": 1088,
-   "text": "は　たおれた！"
+   "text": "{mon}は　たおれた！"
   },
   {
    "label": "UseNextMonText",
@@ -95,29 +71,17 @@
   {
    "label": "LinkBattleLostText",
    "line": 1225,
-   "text": "との\nしょうぶに　まけた！"
+   "text": "{trainer}との\nしょうぶに　まけた！"
   },
   {
    "label": "TrainerAboutToUseText",
    "line": 1494,
-   "text": "は"
-  },
-  {
-   "label": "TrainerAboutToUseText",
-   "line": 1497,
-   "text": "を\nくりだそうと　しているようだ\n\n{player}も　ポケモンを\nとりかえますか？",
-   "continuation": true
+   "text": "{trainer}は{enemy}を\nくりだそうと　しているようだ\n\n{player}も　ポケモンを\nとりかえますか？"
   },
   {
    "label": "TrainerSentOutText",
    "line": 1505,
-   "text": "は"
-  },
-  {
-   "label": "TrainerSentOutText",
-   "line": 1509,
-   "text": "を　くりだした！",
-   "continuation": true
+   "text": "{trainer}は{enemy}を　くりだした！"
   },
   {
    "label": "NoWillText",
@@ -152,7 +116,7 @@
   {
    "label": "AlreadyOutText",
    "line": 2510,
-   "text": "はもうでています"
+   "text": "{mon}はもうでています"
   },
   {
    "label": "MoveNoPPText",
@@ -172,7 +136,7 @@
   {
    "label": "NoMovesLeftText",
    "line": 2799,
-   "text": "は　だすことの　できる\nわざが　ない！"
+   "text": "{mon}は　だすことの　できる\nわざが　ない！"
   },
   {
    "label": "DisabledText",
@@ -187,18 +151,12 @@
   {
    "label": "MultiHitText",
    "line": 3343,
-   "text": "あいてに"
-  },
-  {
-   "label": "MultiHitText",
-   "line": 3345,
-   "text": "かい　あたった！",
-   "continuation": true
+   "text": "あいてに{n}かい　あたった！"
   },
   {
    "label": "ScaredText",
    "line": 3375,
-   "text": "は　こわがっている！\nわざを　だすことが　できない！"
+   "text": "{mon}は　こわがっている！\nわざを　だすことが　できない！"
   },
   {
    "label": "GetOutText",
@@ -284,13 +242,7 @@
   {
    "label": "MoveIsDisabledText",
    "line": 3763,
-   "text": "{user}は　かなしばりで"
-  },
-  {
-   "label": "MoveIsDisabledText",
-   "line": 3766,
-   "text": "がだせない！",
-   "continuation": true
+   "text": "{user}は　かなしばりで{name}がだせない！"
   },
   {
    "label": "AttackMissedText",
@@ -325,27 +277,27 @@
   {
    "label": "LoafingAroundText",
    "line": 4101,
-   "text": "は　なまけている"
+   "text": "{mon}は　なまけている"
   },
   {
    "label": "BeganToNapText",
    "line": 4106,
-   "text": "は　ひるねをはじめた！"
+   "text": "{mon}は　ひるねをはじめた！"
   },
   {
    "label": "WontObeyText",
    "line": 4111,
-   "text": "は　いうことを　きかない"
+   "text": "{mon}は　いうことを　きかない"
   },
   {
    "label": "TurnedAwayText",
    "line": 4116,
-   "text": "は　そっぽを　むいた"
+   "text": "{mon}は　そっぽを　むいた"
   },
   {
    "label": "IgnoredOrdersText",
    "line": 4121,
-   "text": "は　しらんぷりをした"
+   "text": "{mon}は　しらんぷりをした"
   },
   {
    "label": "SubstituteTookDamageText",
@@ -370,7 +322,7 @@
   {
    "label": "HitXTimesText",
    "line": 5770,
-   "text": "かい　ダメージをうけた！"
+   "text": "{n}かい　ダメージをうけた！"
   }
  ]
 }

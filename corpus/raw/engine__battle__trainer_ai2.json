@@ -4,30 +4,12 @@
   {
    "label": "AIBattleWithdrawText",
    "line": 326,
-   "text": "は"
-  },
-  {
-   "label": "AIBattleWithdrawText",
-   "line": 330,
-   "text": "をひっこめた！",
-   "continuation": true
+   "text": "{trainer}は{enemy}をひっこめた！"
   },
   {
    "label": "AIBattleUseItemText",
    "line": 455,
-   "text": "は"
-  },
-  {
-   "label": "AIBattleUseItemText",
-   "line": 458,
-   "text": "に",
-   "continuation": true
-  },
-  {
-   "label": "AIBattleUseItemText",
-   "line": 461,
-   "text": "を　つかった",
-   "continuation": true
+   "text": "{trainer}は{enemy}に{name}を　つかった"
   }
  ]
 }

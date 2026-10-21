@@ -9,13 +9,7 @@
   {
    "label": "FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText",
    "line": 47,
-   "text": "そうか！\nきみとは　きが　あいそうだ！\n\nこれ　あげるから\nきみも　つり　まくりなさいよ！\n\n{player}は　つりおやじから"
-  },
-  {
-   "label": "FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText",
-   "line": 56,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "そうか！\nきみとは　きが　あいそうだ！\n\nこれ　あげるから\nきみも　つり　まくりなさいよ！\n\n{player}は　つりおやじから{name}を　もらった！"
   },
   {
    "label": "FuchsiaGoodRodHouseFishingGuruText.UnusedText",

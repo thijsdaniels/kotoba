@@ -8,11 +8,12 @@ The source of truth is the game itself, through the [pokegreen](https://github.c
 
 ```
 corpus/
-  stages.json       which disassembly sources, wild maps and marts belong to which stage, in play order
+  stages.json       the stages in play order: map scripts, wild maps, trainers, items, marts, level cap
+  engine.json       where each engine string is first met: a stage, "system", or a move/effect/item trigger
   raw/              every text block in the disassembly, one JSON per source file (generated)
   data/             Pokémon, moves, items, types, wild encounters, mart stock (generated)
-  stages/           one JSON per stage: its strings, Pokémon with known moves, moves, items (generated)
-  coverage.json     which sources are claimed by a stage and which are not yet (generated)
+  stages/           one JSON per stage plus system.json: strings, Pokémon with known moves, moves, items (generated)
+  coverage.json     sources no stage claims yet, and engine strings whose trigger lies past the mapped stages (generated)
 tools/
   extract.py        disassembly → corpus/raw
   extract_data.py   disassembly → corpus/data
@@ -35,5 +36,6 @@ The generated files are committed so the deck can be built without the disassemb
 - Placeholders in strings: `{player}`, `{rival}`, `{target}`, `{user}`. `#` in the ROM is already expanded to ポケモン, `<PC>` to パソコン, and so on.
 - A speaker is recorded when the game writes it inline (`オーキド『…`); otherwise the label names the NPC.
 - Every source file belongs to exactly one stage, the stage where its text is first met. `coverage.json` lists what is still unassigned; the goal is an empty list.
-- `levelCap` per stage bounds which level-up moves count as known. The game's own obedience ladder is 10 with no badges, then 30 after the Cascade Badge, 50 after Rainbow, 70 after Marsh, everything after Earth.
+- `levelCap` per stage is the highest level your Pokémon plausibly have there; it bounds which level-up moves count as known. Wild and trainer Pokémon use their actual levels.
+- Engine text has no map, so `engine.json` says where it is first met. Menus and messages with no place in the game at all are "system" and always unlocked. A string triggered by a move, a move effect or an item is placed at the first stage where that trigger is available, computed from the data, so "speed fell" lands where String Shot does.
 - Translations are literal. A looser rendering may be added next to one, never instead of it.

@@ -9,19 +9,7 @@
   {
    "label": "VermilionOldRodHouseFishingGuruText.TakeThisText",
    "line": 47,
-   "text": "そうか！\nきみとは　きが　あいそうだ！\n\nこれ　あげるから\nきみも　つり　まくりなさいよ！\n\n{player}は　つりおやじから"
-  },
-  {
-   "label": "VermilionOldRodHouseFishingGuruText.TakeThisText",
-   "line": 56,
-   "text": "を　もらった！",
-   "continuation": true
-  },
-  {
-   "label": "VermilionOldRodHouseFishingGuruText.TakeThisText",
-   "line": 58,
-   "text": "つり　こそ\nおとこの　ロマン　だ！\n\nうみでも　かわでも！\n\nえんりょ　なく\nつりざおを　つかって　くれい！",
-   "continuation": true
+   "text": "そうか！\nきみとは　きが　あいそうだ！\n\nこれ　あげるから\nきみも　つり　まくりなさいよ！\n\n{player}は　つりおやじから{name}を　もらった！\n\nつり　こそ\nおとこの　ロマン　だ！\n\nうみでも　かわでも！\n\nえんりょ　なく\nつりざおを　つかって　くれい！"
   },
   {
    "label": "VermilionOldRodHouseFishingGuruText.ThatsSoDisappointingText",

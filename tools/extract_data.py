@@ -58,7 +58,10 @@ def main(root):
     item_names = name_list(read(root, "data/items/names.asm"), "li")
     type_names = {m.group(1).upper(): m.group(2).replace("@", "").strip("　") for m in re.finditer(r'^\.(\w+):\s*db "([^"]*)"', read(root, "data/types/names.asm"), re.M)}
 
-    moves = [{"id": i + 1, "const": id_to_move.get(i + 1), "ja": n} for i, n in enumerate(move_names)]
+    move_stats = {}
+    for m in re.finditer(r"^\s*move\s+(\w+),\s*(\w+),\s*(\d+),\s*(\w+),\s*(\d+),\s*(\d+)", read(root, "data/moves/moves.asm"), re.M):
+        move_stats[m.group(1)] = {"effect": m.group(2), "power": int(m.group(3)), "type": m.group(4), "accuracy": int(m.group(5)), "pp": int(m.group(6))}
+    moves = [{"id": i + 1, "const": id_to_move.get(i + 1), "ja": n, **move_stats.get(id_to_move.get(i + 1), {})} for i, n in enumerate(move_names)]
     items = [{"id": i + 1, "const": id_to_item.get(i + 1), "ja": n} for i, n in enumerate(item_names)]
 
     # evolutions and level-up learnsets, per internal id

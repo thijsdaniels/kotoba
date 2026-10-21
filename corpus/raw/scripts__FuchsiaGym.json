@@ -35,19 +35,7 @@
   {
    "label": "FuchsiaGymKogaReceivedTM06Text",
    "line": 177,
-   "text": "{player}は　キョウ　から"
-  },
-  {
-   "label": "FuchsiaGymKogaReceivedTM06Text",
-   "line": 180,
-   "text": "を　もらった！",
-   "continuation": true
-  },
-  {
-   "label": "FuchsiaGymKogaReceivedTM06Text",
-   "line": 182,
-   "text": "４００ねん　むかし　より\nわがやに　つたわる　ポケモン　わざ\n\nわざマシン０６には　ごくい！\nどくどくが　ふういん　してある！",
-   "continuation": true
+   "text": "{player}は　キョウ　から{name}を　もらった！\n\n４００ねん　むかし　より\nわがやに　つたわる　ポケモン　わざ\n\nわざマシン０６には　ごくい！\nどくどくが　ふういん　してある！"
   },
   {
    "label": "FuchsiaGymKogaTM06NoRoomText",

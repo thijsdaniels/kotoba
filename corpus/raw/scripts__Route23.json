@@ -39,42 +39,12 @@
   {
    "label": "Route23YouDontHaveTheBadgeYetText",
    "line": 229,
-   "text": "ここから　さきは……"
-  },
-  {
-   "label": "Route23YouDontHaveTheBadgeYetText",
-   "line": 232,
-   "text": "バッジを\nもった　もの　だけが　すすめる！\n\nきみは　まだ",
-   "continuation": true
-  },
-  {
-   "label": "Route23YouDontHaveTheBadgeYetText",
-   "line": 238,
-   "text": "バッジを　もって　いない\n\nポケモン　リーグを　めざす　なら\nでなおして　きなさい",
-   "continuation": true
+   "text": "ここから　さきは……{name}バッジを\nもった　もの　だけが　すすめる！\n\nきみは　まだ{name}バッジを　もって　いない\n\nポケモン　リーグを　めざす　なら\nでなおして　きなさい"
   },
   {
    "label": "Route23OhThatIsTheBadgeText",
    "line": 249,
-   "text": "ここから　さきは……"
-  },
-  {
-   "label": "Route23OhThatIsTheBadgeText",
-   "line": 252,
-   "text": "バッジを\nもった　もの　だけが　すすめる！\n\nむむッ……！\nそれは",
-   "continuation": true
-  },
-  {
-   "label": "Route23OhThatIsTheBadgeText",
-   "line": 258,
-   "text": "バッジ！",
-   "continuation": true
-  },
-  {
-   "label": "Route23OhThatIsTheBadgeText",
-   "line": 260,
-   "text": "わかった……！\nこの　さきへ　すすみなさい！",
-   "continuation": true
+   "text": "ここから　さきは……{name}バッジを\nもった　もの　だけが　すすめる！\n\nむむッ……！\nそれは{name}バッジ！\n\nわかった……！\nこの　さきへ　すすみなさい！"
   },
   {
    "label": "Route23VictoryRoadGateSignText",

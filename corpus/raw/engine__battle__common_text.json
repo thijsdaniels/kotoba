@@ -4,34 +4,22 @@
   {
    "label": "WildMonAppearedText",
    "line": 73,
-   "text": "あ！　やせいの"
-  },
-  {
-   "label": "WildMonAppearedText",
-   "line": 76,
-   "text": "が　とびだしてきた！",
-   "continuation": true
+   "text": "あ！　やせいの{enemy}が　とびだしてきた！"
   },
   {
    "label": "HookedMonAttackedText",
    "line": 80,
-   "text": "つりあげた"
-  },
-  {
-   "label": "HookedMonAttackedText",
-   "line": 82,
-   "text": "が\nとびかかってきた！",
-   "continuation": true
+   "text": "つりあげた{enemy}が\nとびかかってきた！"
   },
   {
    "label": "EnemyAppearedText",
    "line": 87,
-   "text": "が\nあらわれた！"
+   "text": "{enemy}が\nあらわれた！"
   },
   {
    "label": "TrainerWantsToFightText",
    "line": 93,
-   "text": "が\nしょうぶを　しかけてきた！"
+   "text": "{trainer}が\nしょうぶを　しかけてきた！"
   },
   {
    "label": "UnveiledGhostText",
@@ -66,7 +54,12 @@
   {
    "label": "PlayerMon1Text",
    "line": 176,
-   "text": "！"
+   "text": "{mon}！"
+  },
+  {
+   "label": "PlayerMon2Text",
+   "line": 185,
+   "text": "{mon}"
   },
   {
    "label": "EnoughText",

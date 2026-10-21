@@ -1,7 +1,7 @@
 {
  "id": "route22",
  "name": "Route 22",
- "levelCap": 10,
+ "levelCap": 9,
  "strings": [
   {
    "source": "scripts/Route22.asm",
@@ -60,6 +60,18 @@
    "label": "Route22PokemonLeagueSignText",
    "line": 507,
    "text": "ここは　ポケモン　リーグ\nしょうめん　ゲート"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ThrowBallAtTrainerMonText1",
+   "line": 2358,
+   "text": "トレーナーに　ボールを　はじかれた！"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ThrowBallAtTrainerMonText2",
+   "line": 2362,
+   "text": "ひとの　ものを　とったら　どろぼう！"
   }
  ],
  "pokemon": [
@@ -138,22 +150,93 @@
     "SCRATCH"
    ],
    "new": true
+  },
+  {
+   "const": "PIDGEY",
+   "ja": "ポッポ",
+   "dex": 16,
+   "types": [
+    "NORMAL",
+    "FLYING"
+   ],
+   "levels": [
+    9
+   ],
+   "moves": [
+    "GUST",
+    "SAND_ATTACK"
+   ],
+   "new": false
+  },
+  {
+   "const": "BULBASAUR",
+   "ja": "フシギダネ",
+   "dex": 1,
+   "types": [
+    "GRASS",
+    "POISON"
+   ],
+   "levels": [
+    8
+   ],
+   "moves": [
+    "TACKLE",
+    "GROWL",
+    "LEECH_SEED"
+   ],
+   "new": false
+  },
+  {
+   "const": "CHARMANDER",
+   "ja": "ヒトカゲ",
+   "dex": 4,
+   "types": [
+    "FIRE"
+   ],
+   "levels": [
+    8
+   ],
+   "moves": [
+    "SCRATCH",
+    "GROWL"
+   ],
+   "new": false
+  },
+  {
+   "const": "SQUIRTLE",
+   "ja": "ゼニガメ",
+   "dex": 7,
+   "types": [
+    "WATER"
+   ],
+   "levels": [
+    8
+   ],
+   "moves": [
+    "TACKLE",
+    "TAIL_WHIP",
+    "BUBBLE"
+   ],
+   "new": false
   }
  ],
  "moves": [
   {
    "const": "LEER",
    "ja": "にらみつける",
+   "effect": "DEFENSE_DOWN1_EFFECT",
    "learnedBy": "NIDORAN_M"
   },
   {
    "const": "HORN_ATTACK",
    "ja": "つのでつく",
+   "effect": "NO_ADDITIONAL_EFFECT",
    "learnedBy": "NIDORAN_M"
   },
   {
    "const": "PECK",
    "ja": "つつく",
+   "effect": "NO_ADDITIONAL_EFFECT",
    "learnedBy": "SPEAROW"
   }
  ],

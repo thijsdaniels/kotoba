@@ -34,13 +34,7 @@
   {
    "label": "ViridianGymGiovanniReceivedTM27Text",
    "line": 301,
-   "text": "{player}は　サカキから\nわざマシン２７を　もらった！"
-  },
-  {
-   "label": "ViridianGymGiovanniReceivedTM27Text",
-   "line": 304,
-   "text": "わざマシン２７は　じわれ　だ！\nじわれに　さそいこまれた　てきは\nいちげきで　ダウン　する！\nさいきょうの　わざだ！\n\nおれが　むかし……　ここで\nポケモン　ジムを　やってる　とき\nつくった　ものだ……",
-   "continuation": true
+   "text": "{player}は　サカキから\nわざマシン２７を　もらった！\n\nわざマシン２７は　じわれ　だ！\nじわれに　さそいこまれた　てきは\nいちげきで　ダウン　する！\nさいきょうの　わざだ！\n\nおれが　むかし……　ここで\nポケモン　ジムを　やってる　とき\nつくった　ものだ……"
   },
   {
    "label": "ViridianGymGiovanniTM27NoRoomText",

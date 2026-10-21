@@ -315,5 +315,1496 @@
   "scripts/VictoryRoad3F.asm",
   "scripts/ViridianGym.asm",
   "scripts/WardensHouse.asm"
+ ],
+ "deferred": [
+  {
+   "source": "engine/menus/start_sub_menus.asm",
+   "label": "StartMenu_Pokemon",
+   "line": 9,
+   "text": "まばゆい　ひかりが\nあたりを　あかるく　てらす……",
+   "trigger": {
+    "move": [
+     "FLASH"
+    ]
+   }
+  },
+  {
+   "source": "engine/menus/start_sub_menus.asm",
+   "label": "StartMenu_Pokemon#2",
+   "line": 197,
+   "text": "さいごに　やすんだ\nポケモンセンターへ　とびます！",
+   "continuation": true,
+   "trigger": {
+    "move": [
+     "TELEPORT"
+    ]
+   }
+  },
+  {
+   "source": "engine/menus/start_sub_menus.asm",
+   "label": "StartMenu_Pokemon#3",
+   "line": 233,
+   "text": "ここでは{name}で\nテレポートすることは　できません！",
+   "continuation": true,
+   "trigger": {
+    "move": [
+     "TELEPORT"
+    ]
+   }
+  },
+  {
+   "source": "engine/menus/start_sub_menus.asm",
+   "label": "StartMenu_Pokemon#4",
+   "line": 239,
+   "text": "ここでは{name}で\nそらを　とぶことは　できません！",
+   "continuation": true,
+   "trigger": {
+    "move": [
+     "FLY"
+    ]
+   }
+  },
+  {
+   "source": "engine/menus/start_sub_menus.asm",
+   "label": "StartMenu_Pokemon#5",
+   "line": 245,
+   "text": "たいりょくが　たりません！",
+   "continuation": true,
+   "trigger": {
+    "move": [
+     "SOFTBOILED"
+    ]
+   }
+  },
+  {
+   "source": "engine/menus/start_sub_menus.asm",
+   "label": "StartMenu_Pokemon#6",
+   "line": 284,
+   "text": "あたらしい　バッジを　てにするまで\nまだ　つかえません！",
+   "continuation": true,
+   "trigger": {
+    "move": [
+     "CUT"
+    ]
+   }
+  },
+  {
+   "source": "engine/menus/party_menu.asm",
+   "label": "IceHealText",
+   "line": 277,
+   "text": "{name}の　からだの\nこおりが　とけた",
+   "trigger": {
+    "item": [
+     "ICE_HEAL"
+    ]
+   }
+  },
+  {
+   "source": "engine/menus/party_menu.asm",
+   "label": "FullHealText",
+   "line": 289,
+   "text": "{name}は\nけんこうになった！",
+   "trigger": {
+    "item": [
+     "FULL_HEAL"
+    ]
+   }
+  },
+  {
+   "source": "engine/menus/party_menu.asm",
+   "label": "ReviveText",
+   "line": 295,
+   "text": "{name}は\nげんきを　とりもどした！",
+   "trigger": {
+    "item": [
+     "REVIVE"
+    ]
+   }
+  },
+  {
+   "source": "engine/menus/party_menu.asm",
+   "label": "RareCandyText",
+   "line": 301,
+   "text": "{name}の　レベルが{n}になった",
+   "trigger": {
+    "item": [
+     "RARE_CANDY"
+    ]
+   }
+  },
+  {
+   "source": "engine/pokemon/learn_move.asm",
+   "label": "WhichMoveToForgetText",
+   "line": 186,
+   "text": "どの　わざを\nわすれさせたい？"
+  },
+  {
+   "source": "engine/pokemon/learn_move.asm",
+   "label": "AbandonLearningText",
+   "line": 191,
+   "text": "それでは……{name}を\nおぼえるのを　あきらめますか？"
+  },
+  {
+   "source": "engine/pokemon/learn_move.asm",
+   "label": "DidNotLearnText",
+   "line": 198,
+   "text": "{learnmovemon}は{name}を\nおぼえずに　おわった！"
+  },
+  {
+   "source": "engine/pokemon/learn_move.asm",
+   "label": "TryingToLearnText",
+   "line": 206,
+   "text": "{learnmovemon}は　あたらしく{name}を　おぼえたい……！\n\nしかし{learnmovemon}は　わざを　４つ\nおぼえるので　せいいっぱいだ！\n\n{name}の　かわりに\nほかの　わざを　わすれさせますか？"
+  },
+  {
+   "source": "engine/pokemon/learn_move.asm",
+   "label": "OneTwoAndText",
+   "line": 224,
+   "text": "１　２の　……"
+  },
+  {
+   "source": "engine/pokemon/learn_move.asm",
+   "label": "PoofForgotAndText",
+   "line": 233,
+   "text": "ポカン！\n\n{learnmovemon}は{name}の\nつかいかたを　きれいに　わすれた！\n\nそして……！"
+  },
+  {
+   "source": "engine/pokemon/learn_move.asm",
+   "label": "HMCantDeleteText",
+   "line": 248,
+   "text": "それは　たいせつなわざです\nわすれさせることは　できません！"
+  },
+  {
+   "source": "engine/events/give_pokemon.asm",
+   "label": "SentToBoxText",
+   "line": 70,
+   "text": "ポケモンを　もちきれないので\nパソコンの　ボックス{name}に{boxmonnicks}を　てんそうした！"
+  },
+  {
+   "source": "engine/events/give_pokemon.asm",
+   "label": "BoxIsFullText",
+   "line": 80,
+   "text": "ポケモンを　もちきれません！\n\nボックスも　いっぱいで\nてんそうできません！\n\nポケモンセンターなどで\nボックスを　かえてきて　ください"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own10To19",
+   "line": 92,
+   "text": "どうにか　ちょうしが　でてきたな！\nじょしゅに　フラッシュを\nもたせたぞ！　もらって　くれい！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own20To29",
+   "line": 98,
+   "text": "ポケモンずかんに　しては　まだ\nボリュームが　たりん！　いろいろな\nしゅるいの　ポケモンを　とるのじゃ！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own30To39",
+   "line": 104,
+   "text": "ふむ……　がんばってるな！\nじょしゅに　ダウジングマシンを\nもたせたぞ！　もらって　くれい！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own40To49",
+   "line": 110,
+   "text": "いい　できばえ　じゃないか！\nじょしゅに　がくしゅうそうちを\nもたせたぞ！　もらって　くれい！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own50To59",
+   "line": 116,
+   "text": "ついに　５０しゅるいを　こえたか！\n……　この　ちょうし　じゃ！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own60To69",
+   "line": 121,
+   "text": "ほっほう！　……　こりゃ　いい\nポケモンずかんに　なって　きとる！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own70To79",
+   "line": 126,
+   "text": "ぜっこうちょう！　うみで　ポケモン\nつれば　もっと　あつまり　そうじゃ！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own80To89",
+   "line": 131,
+   "text": "ワンダフル！　もしかして　きみは\nものを　あつめるの　すきなのか……？"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own90To99",
+   "line": 136,
+   "text": "いやはや……　こりゃ　すごい！\nあつめるのは　たいへん　だったろ！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own100To109",
+   "line": 141,
+   "text": "とうとう　１００しゅるい　こえたか！\n……　しんじられない　うでまえじゃ！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own110To119",
+   "line": 146,
+   "text": "ポケモンの　しんか　けいたいも\nはいって　きとる……　すばらしい！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own120To129",
+   "line": 151,
+   "text": "エクセレント！　ともだちと　こうかん\nすると　もっと　あつまる　かもしれん"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own130To139",
+   "line": 156,
+   "text": "ここまで　ずかんが　できたら\nもはや　プロフェッショナル　じゃ！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own140To149",
+   "line": 161,
+   "text": "わしゃ　もう　いうことは　ない！\nきみが　ポケモンはかせ　じゃ！"
+  },
+  {
+   "source": "engine/events/pokedex_rating.asm",
+   "label": "DexRatingText_Own150To151",
+   "line": 166,
+   "text": "ついに　パーフェクトな　ずかんの\nかんせいじゃ！　……　おめでとう！"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ItemUseBallText07",
+   "line": 624,
+   "text": "{boxmonnicks}は　マサキの　ところへ\nてんそうされた！"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ItemUseBallText08",
+   "line": 631,
+   "text": "{boxmonnicks}は　だれかの　パソコンに\nてんそうされた！"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "SurfingGotOnText",
+   "line": 758,
+   "text": "{player}は{name}にのった！",
+   "trigger": {
+    "move": [
+     "SURF"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "SurfingNoPlaceToGetOffText",
+   "line": 764,
+   "text": "おりる　ばしょが　ない！",
+   "trigger": {
+    "move": [
+     "SURF"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "VitaminStatRoseText",
+   "line": 1408,
+   "text": "{name}の{name}の\nきそ　ポイントが　あがった！",
+   "trigger": {
+    "item": [
+     "HP_UP",
+     "PROTEIN",
+     "IRON",
+     "CARBOS",
+     "CALCIUM"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "VitaminNoEffectText",
+   "line": 1416,
+   "text": "つかっても　こうかが　ないよ",
+   "trigger": {
+    "item": [
+     "HP_UP",
+     "PROTEIN",
+     "IRON",
+     "CARBOS",
+     "CALCIUM"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ThrewBaitText",
+   "line": 1475,
+   "text": "{player}は　エサを　なげた！"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ThrewRockText",
+   "line": 1479,
+   "text": "{player}は　いしを　なげた！"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "PlayedFluteNoEffectText",
+   "line": 1778,
+   "text": "ポケモンのふえを　ふいた！\n\nうーん！\nすばらしい　ねいろだ！",
+   "trigger": {
+    "item": [
+     "POKE_FLUTE"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "FluteWokeUpText",
+   "line": 1785,
+   "text": "すべての　ポケモンが\nめを　さました！",
+   "trigger": {
+    "item": [
+     "POKE_FLUTE"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "PlayedFluteHadEffectText",
+   "line": 1790,
+   "text": "{player}は\nポケモンのふえを　ふいてみた！",
+   "trigger": {
+    "item": [
+     "POKE_FLUTE"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "CoinCaseNumCoinsText",
+   "line": 1819,
+   "text": "あなたの　コイン{n}まい",
+   "trigger": {
+    "item": [
+     "COIN_CASE"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ItemfinderFoundItemText",
+   "line": 1941,
+   "text": "おッ！\nマシンが　はんのう　してるぞ！\nちかくに　アイテムが　うまってる！",
+   "trigger": {
+    "item": [
+     "ITEMFINDER"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "ItemfinderFoundNothingText",
+   "line": 1947,
+   "text": "……　……　ふう！\n……　なんにも　はんのう　しない",
+   "trigger": {
+    "item": [
+     "ITEMFINDER"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "RaisePPWhichTechniqueText",
+   "line": 2129,
+   "text": "どのわざの\nポイントをふやす？",
+   "trigger": {
+    "item": [
+     "PP_UP"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "RestorePPWhichTechniqueText",
+   "line": 2134,
+   "text": "どのわざを\nかいふくする？",
+   "trigger": {
+    "item": [
+     "ETHER",
+     "MAX_ETHER",
+     "ELIXER",
+     "MAX_ELIXER"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "PPMaxedOutText",
+   "line": 2139,
+   "text": "{name}は　これいじょう\nふやすことが　できません",
+   "trigger": {
+    "item": [
+     "PP_UP"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "PPIncreasedText",
+   "line": 2145,
+   "text": "{name}の\nわざポイントが　ふえた！",
+   "trigger": {
+    "item": [
+     "PP_UP"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "PPRestoredText",
+   "line": 2151,
+   "text": "わざポイントが\nかいふくした！",
+   "trigger": {
+    "item": [
+     "ETHER",
+     "MAX_ETHER",
+     "ELIXER",
+     "MAX_ELIXER"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "BootedUpHMText",
+   "line": 2261,
+   "text": "ひでんマシンを　きどうした！"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "NoCyclingAllowedHereText",
+   "line": 2366,
+   "text": "ここでは　じてんしゃに\nのることは　できません",
+   "trigger": {
+    "item": [
+     "BICYCLE"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "NoSurfingHereText",
+   "line": 2371,
+   "text": "ここでは{name}に\nのることは　できません",
+   "trigger": {
+    "move": [
+     "SURF"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "BoxFullCannotThrowBallText",
+   "line": 2378,
+   "text": "ボックスに　あずけている　ポケモンが\nいっぱいなので　つかえません！"
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "GotOnBicycleText",
+   "line": 2390,
+   "text": "{player}は{name}に　のった",
+   "trigger": {
+    "item": [
+     "BICYCLE"
+    ]
+   }
+  },
+  {
+   "source": "engine/items/item_effects.asm",
+   "label": "GotOffBicycleText",
+   "line": 2397,
+   "text": "{player}は{name}から　おりた",
+   "trigger": {
+    "item": [
+     "BICYCLE"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "StartBattle",
+   "line": 132,
+   "text": "ピンポーン！\n\nサファリ　ボールを\nぜんぶ　なげました！",
+   "speaker": "アナウンス"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "WildRanText",
+   "line": 275,
+   "text": "やせいの{enemy}は　にげだした！"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "EnemyRanText",
+   "line": 281,
+   "text": "てきの{enemy}は　にげだした！"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "CantEscapeText",
+   "line": 1673,
+   "text": "にげられない！",
+   "trigger": {
+    "effect": [
+     "TRAPPING_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "MoveDisabledText",
+   "line": 2724,
+   "text": "わざを　ふうじられている！",
+   "trigger": {
+    "effect": [
+     "DISABLE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "WhichTechniqueString",
+   "line": 2728,
+   "text": "どのわざを\nものまねする？",
+   "trigger": {
+    "effect": [
+     "MIMIC_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "NoMovesLeftText",
+   "line": 2799,
+   "text": "{mon}は　だすことの　できる\nわざが　ない！"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "DisabledText",
+   "line": 2952,
+   "text": "ふうじられている！",
+   "trigger": {
+    "effect": [
+     "DISABLE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "MultiHitText",
+   "line": 3343,
+   "text": "あいてに{n}かい　あたった！",
+   "trigger": {
+    "effect": [
+     "TWO_TO_FIVE_ATTACKS_EFFECT",
+     "ATTACK_TWICE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "ScaredText",
+   "line": 3375,
+   "text": "{mon}は　こわがっている！\nわざを　だすことが　できない！"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "GetOutText",
+   "line": 3381,
+   "text": "タチサレ……タチサレ……",
+   "speaker": "ゆうれい"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "FastAsleepText",
+   "line": 3674,
+   "text": "{user}は\nぐうぐう　ねむっている",
+   "trigger": {
+    "effect": [
+     "SLEEP_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "WokeUpText",
+   "line": 3679,
+   "text": "{user}は　めをさました！",
+   "trigger": {
+    "effect": [
+     "SLEEP_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "IsFrozenText",
+   "line": 3683,
+   "text": "{user}は\nこおって　しまって　うごかない！",
+   "trigger": {
+    "effect": [
+     "FREEZE*"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "MustRechargeText",
+   "line": 3697,
+   "text": "こうげきの　はんどうで\n{user}は　うごけない！",
+   "trigger": {
+    "effect": [
+     "HYPER_BEAM_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "DisabledNoMoreText",
+   "line": 3702,
+   "text": "{user}の\nかなしばりが　とけた！",
+   "trigger": {
+    "effect": [
+     "DISABLE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "IsConfusedText",
+   "line": 3707,
+   "text": "{user}は\nこんらんしている！",
+   "trigger": {
+    "effect": [
+     "CONFUSION*"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "HurtItselfText",
+   "line": 3712,
+   "text": "わけも　わからず\nじぶんを　こうげきした！",
+   "trigger": {
+    "effect": [
+     "CONFUSION*"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "ConfusedNoMoreText",
+   "line": 3717,
+   "text": "{user}の\nこんらんが　とけた！",
+   "trigger": {
+    "effect": [
+     "CONFUSION*"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "SavingEnergyText",
+   "line": 3722,
+   "text": "{user}は　がまんしている",
+   "trigger": {
+    "effect": [
+     "BIDE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "UnleashedEnergyText",
+   "line": 3726,
+   "text": "{user}の\nがまんが　とかれた！",
+   "trigger": {
+    "effect": [
+     "BIDE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "ThrashingAboutText",
+   "line": 3731,
+   "text": "{user}は　あばれている",
+   "trigger": {
+    "effect": [
+     "THRASH_PETAL_DANCE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "AttackContinuesText",
+   "line": 3735,
+   "text": "{user}の　こうげきは\nまだ　つづいている",
+   "trigger": {
+    "effect": [
+     "TRAPPING_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "CantMoveText",
+   "line": 3740,
+   "text": "{user}は\nみうごきが　とれない！",
+   "trigger": {
+    "effect": [
+     "TRAPPING_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "MoveIsDisabledText",
+   "line": 3763,
+   "text": "{user}は　かなしばりで{name}がだせない！",
+   "trigger": {
+    "effect": [
+     "DISABLE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "KeptGoingAndCrashedText",
+   "line": 3878,
+   "text": "いきおい　あまって\n{user}は\nじめんに　ぶつかった！",
+   "trigger": {
+    "effect": [
+     "JUMP_KICK_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "UnaffectedText",
+   "line": 3884,
+   "text": "{target}には\nぜんぜんきいてない！"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "DoesntAffectMonText",
+   "line": 3893,
+   "text": "{target}には\nこうかが　ない　みたいだ……"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "OHKOText",
+   "line": 3927,
+   "text": "いちげき　ひっさつ！",
+   "trigger": {
+    "effect": [
+     "OHKO_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "LoafingAroundText",
+   "line": 4101,
+   "text": "{mon}は　なまけている"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "BeganToNapText",
+   "line": 4106,
+   "text": "{mon}は　ひるねをはじめた！"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "WontObeyText",
+   "line": 4111,
+   "text": "{mon}は　いうことを　きかない"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "TurnedAwayText",
+   "line": 4116,
+   "text": "{mon}は　そっぽを　むいた"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "IgnoredOrdersText",
+   "line": 4121,
+   "text": "{mon}は　しらんぷりをした"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "SubstituteTookDamageText",
+   "line": 5001,
+   "text": "{target}に　かわって\nぶんしんが　こうげきを　うけた！",
+   "trigger": {
+    "effect": [
+     "SUBSTITUTE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "SubstituteBrokeText",
+   "line": 5006,
+   "text": "{target}の　ぶんしんは\nきえてしまった……",
+   "trigger": {
+    "effect": [
+     "SUBSTITUTE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "BuildingRageText",
+   "line": 5054,
+   "text": "{user}の　いかりの\nボルテージが　あがっていく！",
+   "trigger": {
+    "effect": [
+     "RAGE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "MirrorMoveFailedText",
+   "line": 5091,
+   "text": "しかし　オウムがえしは\nしっぱいにおわった！",
+   "trigger": {
+    "effect": [
+     "MIRROR_MOVE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "HitXTimesText",
+   "line": 5770,
+   "text": "{n}かい　ダメージをうけた！",
+   "trigger": {
+    "effect": [
+     "TWO_TO_FIVE_ATTACKS_EFFECT",
+     "ATTACK_TWICE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/common_text.asm",
+   "label": "HookedMonAttackedText",
+   "line": 80,
+   "text": "つりあげた{enemy}が\nとびかかってきた！",
+   "trigger": {
+    "item": [
+     "OLD_ROD"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/common_text.asm",
+   "label": "UnveiledGhostText",
+   "line": 99,
+   "text": "シルフスコープが　ゆうれいの\nしょうたいを　みやぶった！"
+  },
+  {
+   "source": "engine/battle/common_text.asm",
+   "label": "GhostCantBeIDdText",
+   "line": 104,
+   "text": "だめだ！　ゆうれい　ポケモンの\nしょうたいが　わからない！"
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "FellAsleepText",
+   "line": 70,
+   "text": "{target}は\nねむってしまった！",
+   "trigger": {
+    "effect": [
+     "SLEEP_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "AlreadyAsleepText",
+   "line": 75,
+   "text": "{target}は　すでに\nねむっている",
+   "trigger": {
+    "effect": [
+     "SLEEP_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "BadlyPoisonedText",
+   "line": 170,
+   "text": "{target}は\nもうどくをあびた！",
+   "trigger": {
+    "effect": [
+     "POISON_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "FrozenText",
+   "line": 312,
+   "text": "{target}は\nこおりづけになった！",
+   "trigger": {
+    "effect": [
+     "FREEZE_SIDE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "FireDefrostedText",
+   "line": 352,
+   "text": "ほのおをあびて{target}の\nこおりが　とけた！"
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "GreatlyRoseText",
+   "line": 540,
+   "text": "ぐーんと",
+   "trigger": {
+    "effect": [
+     "*_UP2_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "RanFromBattleText",
+   "line": 925,
+   "text": "{user}は　せんとうから\nりだつした！",
+   "trigger": {
+    "effect": [
+     "SWITCH_AND_TELEPORT_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "RanAwayScaredText",
+   "line": 930,
+   "text": "{target}は　おじけずいて\nにげだした！",
+   "trigger": {
+    "effect": [
+     "SWITCH_AND_TELEPORT_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "WasBlownAwayText",
+   "line": 935,
+   "text": "{target}は　ふきとばされた！",
+   "trigger": {
+    "effect": [
+     "SWITCH_AND_TELEPORT_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "ChargeMoveEffectText",
+   "line": 1046,
+   "text": "{user}",
+   "trigger": {
+    "effect": [
+     "CHARGE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "MadeWhirlwindText",
+   "line": 1070,
+   "text": "の　まわりで\nくうきが　うずを　まく！",
+   "trigger": {
+    "move": [
+     "RAZOR_WIND"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "TookInSunlightText",
+   "line": 1075,
+   "text": "は\nひかりを　きゅうしゅうした！",
+   "trigger": {
+    "move": [
+     "SOLARBEAM"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "LoweredItsHeadText",
+   "line": 1080,
+   "text": "は\nくびを　ひっこめた！",
+   "trigger": {
+    "move": [
+     "SKULL_BASH"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "SkyAttackGlowingText",
+   "line": 1085,
+   "text": "を\nはげしい　ひかりが　つつむ！",
+   "trigger": {
+    "move": [
+     "SKY_ATTACK"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "FlewUpHighText",
+   "line": 1090,
+   "text": "は\nそらたかく　とびあがった！",
+   "trigger": {
+    "move": [
+     "FLY"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "DugAHoleText",
+   "line": 1095,
+   "text": "は\nあなをほって　ちちゅうに　もぐった！",
+   "trigger": {
+    "move": [
+     "DIG"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "BecameConfusedText",
+   "line": 1174,
+   "text": "{target}は\nこんらんした！",
+   "trigger": {
+    "effect": [
+     "CONFUSION*"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "MimicLearnedMoveText",
+   "line": 1296,
+   "text": "{user}は{name}を　おぼえた！",
+   "trigger": {
+    "effect": [
+     "MIMIC_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "MoveWasDisabledText",
+   "line": 1393,
+   "text": "{target}の{name}を　ふうじこめた！",
+   "trigger": {
+    "effect": [
+     "DISABLE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/end_of_battle.asm",
+   "label": "PickUpPayDayMoneyText",
+   "line": 86,
+   "text": "{player}は{n}円\nひろった！",
+   "trigger": {
+    "effect": [
+     "PAY_DAY_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/experience.asm",
+   "label": "WithExpAllText",
+   "line": 357,
+   "text": "がくしゅうそうちで",
+   "trigger": {
+    "item": [
+     "EXP_ALL"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/experience.asm",
+   "label": "BoostedText",
+   "line": 363,
+   "text": "おおめに"
+  },
+  {
+   "source": "engine/battle/trainer_ai2.asm",
+   "label": "AIBattleWithdrawText",
+   "line": 326,
+   "text": "{trainer}は{enemy}をひっこめた！"
+  },
+  {
+   "source": "engine/battle/trainer_ai2.asm",
+   "label": "AIBattleUseItemText",
+   "line": 455,
+   "text": "{trainer}は{enemy}に{name}を　つかった"
+  },
+  {
+   "source": "engine/battle/move_effects/drain_hp.asm",
+   "label": "SuckedHealthText",
+   "line": 98,
+   "text": "{target}から\nたいりょくを　すいとった！",
+   "trigger": {
+    "effect": [
+     "DRAIN_HP_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/drain_hp.asm",
+   "label": "DreamWasEatenText",
+   "line": 103,
+   "text": "{target}の\nゆめを　くった！",
+   "trigger": {
+    "effect": [
+     "DRAIN_HP_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/heal.asm",
+   "label": "StartedSleepingEffect",
+   "line": 110,
+   "text": "{user}は\nねむりはじめた！",
+   "trigger": {
+    "effect": [
+     "HEAL_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/heal.asm",
+   "label": "FellAsleepBecameHealthyText",
+   "line": 115,
+   "text": "{user}は　けんこうになって\nねむりはじめた！",
+   "trigger": {
+    "effect": [
+     "HEAL_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/heal.asm",
+   "label": "RegainedHealthText",
+   "line": 120,
+   "text": "{user}は　たいりょくを\nかいふくした！",
+   "trigger": {
+    "effect": [
+     "HEAL_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/recoil.asm",
+   "label": "HitWithRecoilText",
+   "line": 69,
+   "text": "{user}は　こうげきの\nはんどうを　うけた！",
+   "trigger": {
+    "effect": [
+     "RECOIL_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/focus_energy.asm",
+   "label": "GettingPumpedText",
+   "line": 19,
+   "text": "{user}は\nはりきっている！",
+   "trigger": {
+    "effect": [
+     "FOCUS_ENERGY_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/mist.asm",
+   "label": "ShroudedInMistText",
+   "line": 17,
+   "text": "{user}は\nしろい　きりに　つつまれた！",
+   "trigger": {
+    "effect": [
+     "MIST_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/haze.asm",
+   "label": "StatusChangesEliminatedText",
+   "line": 89,
+   "text": "すべての　ステータスが\nもとに　もどった！",
+   "trigger": {
+    "effect": [
+     "HAZE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/reflect_light_screen.asm",
+   "label": "LightScreenProtectedText",
+   "line": 35,
+   "text": "{user}は\nとくしゅこうげきに　つよくなった！",
+   "trigger": {
+    "effect": [
+     "REFLECT_EFFECT",
+     "LIGHT_SCREEN_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/reflect_light_screen.asm",
+   "label": "ReflectGainedArmorText",
+   "line": 40,
+   "text": "{user}は\nだげきこうげきに　つよくなった！",
+   "trigger": {
+    "effect": [
+     "REFLECT_EFFECT",
+     "LIGHT_SCREEN_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/substitute.asm",
+   "label": "SubstituteText",
+   "line": 67,
+   "text": "{user}の\nぶんしんが　あらわれた",
+   "trigger": {
+    "effect": [
+     "SUBSTITUTE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/substitute.asm",
+   "label": "HasSubstituteText",
+   "line": 72,
+   "text": "しかし　{user}の\nみがわりは　すでに　でていた！",
+   "trigger": {
+    "effect": [
+     "SUBSTITUTE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/substitute.asm",
+   "label": "TooWeakSubstituteText",
+   "line": 77,
+   "text": "しかし　ぶんしんを　だすには\nたいりょくが　たりなかった！",
+   "trigger": {
+    "effect": [
+     "SUBSTITUTE_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/transform.asm",
+   "label": "TransformedText",
+   "line": 144,
+   "text": "{user}は{name}に　へんしんした！",
+   "trigger": {
+    "effect": [
+     "TRANSFORM_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/conversion.asm",
+   "label": "ConvertedTypeText",
+   "line": 26,
+   "text": "{target}の　ぞくせいを\nじぶんに　はりつけた！",
+   "trigger": {
+    "effect": [
+     "CONVERSION_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/move_effects/pay_day.asm",
+   "label": "CoinsScatteredText",
+   "line": 43,
+   "text": "こばんが　あたりに　ちらばった！",
+   "trigger": {
+    "effect": [
+     "PAY_DAY_EFFECT"
+    ]
+   }
+  },
+  {
+   "source": "engine/overworld/field_move_messages.asm",
+   "label": "UsedStrengthText",
+   "line": 9,
+   "text": "{name}は\nかいりきを　はっきした！",
+   "trigger": {
+    "move": [
+     "STRENGTH"
+    ]
+   }
+  },
+  {
+   "source": "engine/overworld/field_move_messages.asm",
+   "label": "CanMoveBouldersText",
+   "line": 19,
+   "text": "{name}の　かいりきの　おかげで\nいわを　おせるように　なった！",
+   "trigger": {
+    "move": [
+     "STRENGTH"
+    ]
+   }
+  },
+  {
+   "source": "engine/overworld/field_move_messages.asm",
+   "label": "CurrentTooFastText",
+   "line": 56,
+   "text": "ながれが　はやくて\nダメだ！",
+   "trigger": {
+    "move": [
+     "SURF"
+    ]
+   }
+  },
+  {
+   "source": "engine/overworld/field_move_messages.asm",
+   "label": "CyclingIsFunText",
+   "line": 61,
+   "text": "せっかくの　サイクリング！\n……　なみのりは　やめとこう",
+   "trigger": {
+    "move": [
+     "SURF"
+    ]
+   }
+  },
+  {
+   "source": "engine/overworld/player_state.asm",
+   "label": "SafariBallText",
+   "line": 248,
+   "text": "ボール　　　こ"
+  },
+  {
+   "source": "engine/overworld/player_animations.asm",
+   "label": "NoNibbleText",
+   "line": 462,
+   "text": "つれないなー……",
+   "trigger": {
+    "item": [
+     "OLD_ROD"
+    ]
+   }
+  },
+  {
+   "source": "engine/overworld/player_animations.asm",
+   "label": "NothingHereText",
+   "line": 466,
+   "text": "なにも　いない　みたい……",
+   "trigger": {
+    "item": [
+     "OLD_ROD"
+    ]
+   }
+  },
+  {
+   "source": "engine/overworld/player_animations.asm",
+   "label": "ItsABiteText",
+   "line": 470,
+   "text": "おっ！\nひいてる　ひいてる！",
+   "trigger": {
+    "item": [
+     "OLD_ROD"
+    ]
+   }
+  },
+  {
+   "source": "home/text_script.asm",
+   "label": "RepelWoreOffText",
+   "line": 217,
+   "text": "スプレーの　こうかがきれた",
+   "trigger": {
+    "item": [
+     "REPEL"
+    ]
+   }
+  },
+  {
+   "source": "home/overworld_text.asm",
+   "label": "GroundRoseText",
+   "line": 12,
+   "text": "どこかで　じめんがもりあがった！"
+  },
+  {
+   "source": "home/overworld_text.asm",
+   "label": "BoulderText",
+   "line": 16,
+   "text": "「かいりき」　で　うごかせるかも……",
+   "trigger": {
+    "move": [
+     "STRENGTH"
+    ]
+   }
+  },
+  {
+   "source": "data/text_boxes.asm",
+   "label": "SafariZoneBattleMenuText",
+   "line": 72,
+   "text": "サファリボール×　　　エサをなげる\nいしをなげる　　　　　にげる"
+  },
+  {
+   "source": "data/yes_no_menu_strings.asm",
+   "label": "TwoOptionMenuStrings.NorthWestMenu",
+   "line": 28,
+   "text": "きた\nにし"
+  },
+  {
+   "source": "data/yes_no_menu_strings.asm",
+   "label": "TwoOptionMenuStrings.SouthEastMenu",
+   "line": 32,
+   "text": "みなみ\nひがし"
+  },
+  {
+   "source": "data/yes_no_menu_strings.asm",
+   "label": "TwoOptionMenuStrings.NorthEastMenu",
+   "line": 36,
+   "text": "きた\nひがし"
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "FoundHiddenCoinsText",
+   "line": 127,
+   "text": "{player}は\nコインを{n}まい　みつけた！"
+  },
+  {
+   "source": "engine/events/hidden_items.asm",
+   "label": "DroppedHiddenCoinsText",
+   "line": 135,
+   "text": "{player}は\nコイン　を{n}まい　みつけた！\n\nしかし　{player}は\nなんまいか　おとしてしまった！"
+  }
  ]
 }

@@ -25,13 +25,7 @@
   {
    "label": "BillsHouseBillSSTicketText.SSTicketReceivedText",
    "line": 227,
-   "text": "{player}は　マサキから"
-  },
-  {
-   "label": "BillsHouseBillSSTicketText.SSTicketReceivedText",
-   "line": 230,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　マサキから{name}を　もらった！"
   },
   {
    "label": "BillsHouseBillSSTicketText.SSTicketNoRoomText",

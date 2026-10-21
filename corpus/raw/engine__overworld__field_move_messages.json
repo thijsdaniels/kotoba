@@ -4,12 +4,12 @@
   {
    "label": "UsedStrengthText",
    "line": 9,
-   "text": "は\nかいりきを　はっきした！"
+   "text": "{name}は\nかいりきを　はっきした！"
   },
   {
    "label": "CanMoveBouldersText",
    "line": 19,
-   "text": "の　かいりきの　おかげで\nいわを　おせるように　なった！"
+   "text": "{name}の　かいりきの　おかげで\nいわを　おせるように　なった！"
   },
   {
    "label": "CurrentTooFastText",

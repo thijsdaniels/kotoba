@@ -4,7 +4,7 @@
   {
    "label": "GainedText",
    "line": 342,
-   "text": "は"
+   "text": "{name}は"
   },
   {
    "label": "WithExpAllText",
@@ -19,18 +19,12 @@
   {
    "label": "ExpPointsText",
    "line": 366,
-   "text": "けいけんちを　もらった！"
+   "text": "{n}けいけんちを　もらった！"
   },
   {
    "label": "GrewLevelText",
    "line": 373,
-   "text": "は\nレベル"
-  },
-  {
-   "label": "GrewLevelText",
-   "line": 377,
-   "text": "に　あがった！",
-   "continuation": true
+   "text": "{name}は\nレベル{n}に　あがった！"
   }
  ]
 }

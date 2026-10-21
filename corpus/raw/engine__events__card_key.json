@@ -4,13 +4,7 @@
   {
    "label": "CardKeySuccessText",
    "line": 60,
-   "text": "……ピンポーン！"
-  },
-  {
-   "label": "CardKeySuccessText",
-   "line": 62,
-   "text": "カードキーで　ロック　をはずした！",
-   "continuation": true
+   "text": "……ピンポーン！\nカードキーで　ロック　をはずした！"
   },
   {
    "label": "CardKeyFailText",

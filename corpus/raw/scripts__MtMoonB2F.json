@@ -99,13 +99,7 @@
   {
    "label": "MtMoonB2FReceivedFossilText.Text",
    "line": 392,
-   "text": "{player}は"
-  },
-  {
-   "label": "MtMoonB2FReceivedFossilText.Text",
-   "line": 395,
-   "text": "を　てにいれた！",
-   "continuation": true
+   "text": "{player}は{name}を　てにいれた！"
   },
   {
    "label": "MtMoonB2FYouHaveNoRoomText.Text",

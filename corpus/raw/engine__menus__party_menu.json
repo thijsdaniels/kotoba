@@ -34,59 +34,47 @@
   {
    "label": "PotionText",
    "line": 251,
-   "text": "の　たいりょくが"
-  },
-  {
-   "label": "PotionText",
-   "line": 255,
-   "text": "かいふくした",
-   "continuation": true
+   "text": "{name}の　たいりょくが{n}かいふくした"
   },
   {
    "label": "AntidoteText",
    "line": 259,
-   "text": "の　どくは\nきれい　さっぱり　なくなった！"
+   "text": "{name}の　どくは\nきれい　さっぱり　なくなった！"
   },
   {
    "label": "ParlyzHealText",
    "line": 265,
-   "text": "の　からだの\nしびれが　とれた"
+   "text": "{name}の　からだの\nしびれが　とれた"
   },
   {
    "label": "BurnHealText",
    "line": 271,
-   "text": "の\nやけどが　なおった"
+   "text": "{name}の\nやけどが　なおった"
   },
   {
    "label": "IceHealText",
    "line": 277,
-   "text": "の　からだの\nこおりが　とけた"
+   "text": "{name}の　からだの\nこおりが　とけた"
   },
   {
    "label": "AwakeningText",
    "line": 283,
-   "text": "は\nめを　さました"
+   "text": "{name}は\nめを　さました"
   },
   {
    "label": "FullHealText",
    "line": 289,
-   "text": "は\nけんこうになった！"
+   "text": "{name}は\nけんこうになった！"
   },
   {
    "label": "ReviveText",
    "line": 295,
-   "text": "は\nげんきを　とりもどした！"
+   "text": "{name}は\nげんきを　とりもどした！"
   },
   {
    "label": "RareCandyText",
    "line": 301,
-   "text": "の　レベルが"
-  },
-  {
-   "label": "RareCandyText",
-   "line": 304,
-   "text": "になった",
-   "continuation": true
+   "text": "{name}の　レベルが{n}になった"
   }
  ]
 }

@@ -4,30 +4,12 @@
   {
    "label": "GiveFossilToCinnabarLab.ScientistSeesFossilText",
    "line": 75,
-   "text": "おお！\nそれは"
-  },
-  {
-   "label": "GiveFossilToCinnabarLab.ScientistSeesFossilText",
-   "line": 78,
-   "text": "！\n\nおお　むかしの　ポケモン",
-   "continuation": true
-  },
-  {
-   "label": "GiveFossilToCinnabarLab.ScientistSeesFossilText",
-   "line": 83,
-   "text": "いう　カセキね！\n\nわたしの　つくった\nカセキ　さいせい　マシンで\n\nこれ！\nいきかえらせて　みせるね！",
-   "continuation": true
+   "text": "おお！\nそれは{name}！\n\nおお　むかしの　ポケモン{name}いう　カセキね！\n\nわたしの　つくった\nカセキ　さいせい　マシンで\n\nこれ！\nいきかえらせて　みせるね！"
   },
   {
    "label": "GiveFossilToCinnabarLab.ScientistTakesFossilText",
    "line": 93,
-   "text": "はいー！　じゃ　それ\nはやく　こっちに　よこす　よろし！\n\n{player}は　へんな　はかせに"
-  },
-  {
-   "label": "GiveFossilToCinnabarLab.ScientistTakesFossilText",
-   "line": 99,
-   "text": "を　あずけた！",
-   "continuation": true
+   "text": "はいー！　じゃ　それ\nはやく　こっちに　よこす　よろし！\n\n{player}は　へんな　はかせに{name}を　あずけた！"
   },
   {
    "label": "GiveFossilToCinnabarLab.GoForAWalkText",

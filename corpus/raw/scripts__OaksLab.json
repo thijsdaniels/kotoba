@@ -47,13 +47,7 @@
   {
    "label": "OaksLabReceivedMonText",
    "line": 956,
-   "text": "{player}は　オーキドから"
-  },
-  {
-   "label": "OaksLabReceivedMonText",
-   "line": 959,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　オーキドから{name}を　もらった！"
   },
   {
    "label": "OaksLabLastMonText",
@@ -81,14 +75,8 @@
   {
    "label": "OaksLabOak1Text.DeliverParcelText",
    "line": 1080,
-   "text": "おお！　{player}\n\nどーだい？\nわしの　やったポケモンは……ほう\n\nだいぶ\nなついた　みたいだな？\n\nおまえ　ポケモントレーナーの\nさいのうが　あるな！\n\n……え　わしに　わたす　ものが？\n\n{player}は　オーキド　はかせに\nとどけものを　わたした！",
+   "text": "おお！　{player}\n\nどーだい？\nわしの　やったポケモンは……ほう\n\nだいぶ\nなついた　みたいだな？\n\nおまえ　ポケモントレーナーの\nさいのうが　あるな！\n\n……え　わしに　わたす　ものが？\n\n{player}は　オーキド　はかせに\nとどけものを　わたした！\n\nおお！　これは\nわしが　ちゅうもん　してた\n\nとくせいの　モンスターボールじゃ\nどうも　ありがとよ！",
    "speaker": "オーキド"
-  },
-  {
-   "label": "OaksLabOak1Text.DeliverParcelText",
-   "line": 1096,
-   "text": "おお！　これは\nわしが　ちゅうもん　してた\n\nとくせいの　モンスターボールじゃ\nどうも　ありがとよ！",
-   "continuation": true
   },
   {
    "label": "OaksLabOak1Text.PokemonAroundTheWorldText",
@@ -98,14 +86,8 @@
   {
    "label": "OaksLabOak1Text.GivePokeballsText",
    "line": 1112,
-   "text": "ポケモンを\nただ　みつけただけ　では\nくわしい　データを\nてに　いれる　ことは　できん！\n\nかならず\nつかまえなければ　ならんのだ！\nほれ　そのために……\nひつような　どうぐを　わたそう！\n\n{player}は　５こ\nモンスターボールを　もらった！",
+   "text": "ポケモンを\nただ　みつけただけ　では\nくわしい　データを\nてに　いれる　ことは　できん！\n\nかならず\nつかまえなければ　ならんのだ！\nほれ　そのために……\nひつような　どうぐを　わたそう！\n\n{player}は　５こ\nモンスターボールを　もらった！\n\nやせいの　ポケモンが\nとびだして　きたら　チャンス！\n\nモンスターボールを\nポイ！と　なげれば\nポケモンを　つかまえ　られる！\n\nただし……　うまく　とれるか\nどうかは　わからんぞ！\n\nげんきな　ポケモンは　にげやすいし\nうんも　あるからな！",
    "speaker": "オーキド"
-  },
-  {
-   "label": "OaksLabOak1Text.GivePokeballsText",
-   "line": 1125,
-   "text": "やせいの　ポケモンが\nとびだして　きたら　チャンス！\n\nモンスターボールを\nポイ！と　なげれば\nポケモンを　つかまえ　られる！\n\nただし……　うまく　とれるか\nどうかは　わからんぞ！\n\nげんきな　ポケモンは　にげやすいし\nうんも　あるからな！",
-   "continuation": true
   },
   {
    "label": "OaksLabOak1Text.ComeSeeMeSometimesText",
@@ -173,13 +155,7 @@
   {
    "label": "OaksLabRivalReceivedMonText.Text",
    "line": 1282,
-   "text": "{rival}は　オーキドから"
-  },
-  {
-   "label": "OaksLabRivalReceivedMonText.Text",
-   "line": 1285,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{rival}は　オーキドから{name}を　もらった！"
   },
   {
    "label": "OaksLabRivalIllTakeYouOnText.Text",

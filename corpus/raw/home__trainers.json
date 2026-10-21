@@ -4,7 +4,8 @@
   {
    "label": "TrainerEndBattleText",
    "line": 368,
-   "text": "『"
+   "text": "",
+   "speaker": "{name}"
   }
  ]
 }

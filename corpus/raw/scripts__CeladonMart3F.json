@@ -9,13 +9,7 @@
   {
    "label": "CeladonMart3FClerkText.ReceivedTM18Text",
    "line": 55,
-   "text": "{player}は　てんいん　から"
-  },
-  {
-   "label": "CeladonMart3FClerkText.ReceivedTM18Text",
-   "line": 58,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　てんいん　から{name}を　もらった！"
   },
   {
    "label": "CeladonMart3FClerkText.TM18ExplanationText",

@@ -29,13 +29,7 @@
   {
    "label": "ItemWasStoredText",
    "line": 266,
-   "text": "パソコンつうしんで"
-  },
-  {
-   "label": "ItemWasStoredText",
-   "line": 269,
-   "text": "を　あずけた！",
-   "continuation": true
+   "text": "パソコンつうしんで{name}を　あずけた！"
   },
   {
    "label": "NothingToDepositText",
@@ -60,13 +54,7 @@
   {
    "label": "WithdrewItemText",
    "line": 291,
-   "text": "パソコンつうしんで"
-  },
-  {
-   "label": "WithdrewItemText",
-   "line": 294,
-   "text": "を　ひきだした！",
-   "continuation": true
+   "text": "パソコンつうしんで{name}を　ひきだした！"
   },
   {
    "label": "NothingStoredText",

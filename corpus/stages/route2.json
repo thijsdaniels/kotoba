@@ -14,6 +14,51 @@
    "label": "Route2DiglettsCaveSignText",
    "line": 16,
    "text": "ここは　ディグダの　あな"
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "HurtByPoisonText",
+   "line": 566,
+   "text": "{user}は\nどくの　ダメージを　うけている！",
+   "trigger": {
+    "effect": [
+     "POISON*"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/core.asm",
+   "label": "HurtByBurnText",
+   "line": 571,
+   "text": "{user}は\nやけどの　ダメージを　うけている！",
+   "trigger": {
+    "effect": [
+     "BURN*"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "PoisonedText",
+   "line": 166,
+   "text": "{target}は　どくをあびた！",
+   "trigger": {
+    "effect": [
+     "POISON_EFFECT",
+     "POISON_SIDE_EFFECT*"
+    ]
+   }
+  },
+  {
+   "source": "engine/battle/effects.asm",
+   "label": "BurnedText",
+   "line": 307,
+   "text": "{target}は\nやけどをおった！",
+   "trigger": {
+    "effect": [
+     "BURN_SIDE_EFFECT*"
+    ]
+   }
   }
  ],
  "pokemon": [
@@ -98,12 +143,20 @@
   {
    "const": "POISON_STING",
    "ja": "どくばり",
+   "effect": "POISON_SIDE_EFFECT1",
    "learnedBy": "WEEDLE"
   },
   {
    "const": "STRING_SHOT",
    "ja": "いとをはく",
+   "effect": "SPEED_DOWN1_EFFECT",
    "learnedBy": "WEEDLE"
+  },
+  {
+   "const": "EMBER",
+   "ja": "ひのこ",
+   "effect": "BURN_SIDE_EFFECT1",
+   "learnedBy": "CHARMANDER"
   }
  ],
  "items": []

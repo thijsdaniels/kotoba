@@ -14,36 +14,12 @@
   {
    "label": "TradedForText",
    "line": 284,
-   "text": "{player}は"
-  },
-  {
-   "label": "TradedForText",
-   "line": 286,
-   "text": "と",
-   "continuation": true
-  },
-  {
-   "label": "TradedForText",
-   "line": 289,
-   "text": "を　こうかんした！",
-   "continuation": true
+   "text": "{player}は{ingametradegivemon}と{ingametradereceivemon}を　こうかんした！"
   },
   {
    "label": "WannaTrade1Text",
    "line": 295,
-   "text": "おれ"
-  },
-  {
-   "label": "WannaTrade1Text",
-   "line": 297,
-   "text": "さがしてるんだ！\n\nきみ　もってたら",
-   "continuation": true
-  },
-  {
-   "label": "WannaTrade1Text",
-   "line": 301,
-   "text": "と\nこうかんしようぜ？",
-   "continuation": true
+   "text": "おれ{ingametradegivemon}さがしてるんだ！\n\nきみ　もってたら{ingametradereceivemon}と\nこうかんしようぜ？"
   },
   {
    "label": "NoTrade1Text",
@@ -53,13 +29,7 @@
   {
    "label": "WrongMon1Text",
    "line": 311,
-   "text": "……なんだ"
-  },
-  {
-   "label": "WrongMon1Text",
-   "line": 314,
-   "text": "じゃ　ないじゃん\n\nもし　つかまえたら\nまっさきに　ここへ　こいよ！",
-   "continuation": true
+   "text": "……なんだ{ingametradegivemon}じゃ　ないじゃん\n\nもし　つかまえたら\nまっさきに　ここへ　こいよ！"
   },
   {
    "label": "Thanks1Text",
@@ -69,30 +39,12 @@
   {
    "label": "AfterTrade1Text",
    "line": 325,
-   "text": "おれの　やった"
-  },
-  {
-   "label": "AfterTrade1Text",
-   "line": 328,
-   "text": "イイだろ？",
-   "continuation": true
+   "text": "おれの　やった{ingametradereceivemon}イイだろ？"
   },
   {
    "label": "WannaTrade2Text",
    "line": 332,
-   "text": "これこれ\nきみ"
-  },
-  {
-   "label": "WannaTrade2Text",
-   "line": 335,
-   "text": "もっとる？\n\nわしの",
-   "continuation": true
-  },
-  {
-   "label": "WannaTrade2Text",
-   "line": 339,
-   "text": "と\nこうかん　しないか？",
-   "continuation": true
+   "text": "これこれ\nきみ{ingametradegivemon}もっとる？\n\nわしの{ingametradereceivemon}と\nこうかん　しないか？"
   },
   {
    "label": "NoTrade2Text",
@@ -102,13 +54,7 @@
   {
    "label": "WrongMon2Text",
    "line": 348,
-   "text": "……む？"
-  },
-  {
-   "label": "WrongMon2Text",
-   "line": 351,
-   "text": "では　ないじゃないか\n\nてに　いれた　ときは\nよろしく　たのむよ",
-   "continuation": true
+   "text": "……む？{ingametradegivemon}では　ないじゃないか\n\nてに　いれた　ときは\nよろしく　たのむよ"
   },
   {
    "label": "Thanks2Text",
@@ -118,30 +64,12 @@
   {
    "label": "AfterTrade2Text",
    "line": 362,
-   "text": "こうかんした"
-  },
-  {
-   "label": "AfterTrade2Text",
-   "line": 364,
-   "text": "つよくなったかい？",
-   "continuation": true
+   "text": "こうかんした{ingametradereceivemon}\nつよくなったかい？"
   },
   {
    "label": "WannaTrade3Text",
    "line": 369,
-   "text": "ねー　きみ"
-  },
-  {
-   "label": "WannaTrade3Text",
-   "line": 372,
-   "text": "もってる？\n\nわたしの",
-   "continuation": true
-  },
-  {
-   "label": "WannaTrade3Text",
-   "line": 376,
-   "text": "と\nとりかえて　くれない？",
-   "continuation": true
+   "text": "ねー　きみ{ingametradegivemon}もってる？\n\nわたしの{ingametradereceivemon}と\nとりかえて　くれない？"
   },
   {
    "label": "NoTrade3Text",
@@ -151,13 +79,7 @@
   {
    "label": "WrongMon3Text",
    "line": 385,
-   "text": "……　これ"
-  },
-  {
-   "label": "WrongMon3Text",
-   "line": 388,
-   "text": "じゃ　ないわー\n\nてに　いれたら\nぜったい　とりかえてよねっ！",
-   "continuation": true
+   "text": "……　これ{ingametradegivemon}じゃ　ないわー\n\nてに　いれたら\nぜったい　とりかえてよねっ！"
   },
   {
    "label": "Thanks3Text",
@@ -167,13 +89,7 @@
   {
    "label": "AfterTrade3Text",
    "line": 399,
-   "text": "げんき？\nわたしの"
-  },
-  {
-   "label": "AfterTrade3Text",
-   "line": 403,
-   "text": "は　げんきよ",
-   "continuation": true
+   "text": "{ingametradereceivemon}げんき？\nわたしの{ingametradegivemon}は　げんきよ"
   }
  ]
 }

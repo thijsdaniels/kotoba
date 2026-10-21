@@ -18,10 +18,11 @@ CHAR_SUBS = {
     "<PROMPT>": "", "<NULL>": "", "<SCROLL>": "",
 }
 TEXT_MACROS = {"text", "line", "cont", "para", "next", "db", "text_start"}
-END_MACROS = {"done", "prompt", "text_end", "text_asm", "text_far", "text_low", "text_waitbutton",
-              "text_promptbutton", "text_pause", "text_dots", "text_decimal", "text_bcd", "text_ram",
-              "text_bcd", "sound_get_item_1", "sound_get_item_2", "sound_get_key_item", "sound_caught_mon",
-              "sound_dex_page_added", "sound_level_up", "sound_cry_nidorina", "sound_cry_pidgeot", "sound_cry_dewgong"}
+END_MACROS = {"done", "prompt", "text_end", "text_asm", "text_far"}
+# values the game fills in at runtime become placeholders inside the same string
+RAM_NAMES = {"wEnemyMonNick": "{enemy}", "wBattleMonNick": "{mon}", "wTrainerName": "{trainer}", "wPlayerName": "{player}",
+             "wRivalName": "{rival}", "wNameBuffer": "{name}", "wStringBuffer": "{name}", "wcd6d": "{name}", "wcf4b": "{name}",
+             "wEnemyMonName": "{enemy}", "wMonName": "{mon}", "wItemName": "{item}", "wMoveName": "{move}"}
 STRING_RE = re.compile(r'^\s*(\w+)\s+"((?:[^"\\]|\\.)*)"')
 LABEL_RE = re.compile(r'^(\.?\w+):')
 SPEAKER_RE = re.compile(r'^([^『「]{1,12})『')
@@ -63,16 +64,30 @@ def parse_file(path):
                     continue  # ascii data, not game text
                 if text == "" and macro != "para":
                     continue
-                current["lines"].append(text)
+                if current.pop("join_next", False) and macro == "text" and current["lines"]:
+                    current["lines"][-1] += text
+                else:
+                    current["lines"].append(text)
                 continue
             macro = line.strip().split(" ")[0] if line.strip() else ""
+            if macro in ("text_ram", "text_decimal", "text_bcd") and current is not None:
+                arg = line.strip().split(" ", 1)[1].split(",")[0].strip() if " " in line.strip() else ""
+                ph = RAM_NAMES.get(arg, "{n}" if macro != "text_ram" else "{" + re.sub(r"^w|Name$|Nick$", "", arg).lower() + "}")
+                if current["lines"]: current["lines"][-1] += ph
+                else: current["lines"].append(ph)
+                current["join_next"] = True
+                continue
             if macro in END_MACROS and current and current["lines"]:
                 blocks.append(current)
                 current = {"label": label, "line": n, "lines": [], "paragraphs": 0, "continuation": True}
     if current and current["lines"]:
         blocks.append(current)
-    out = []
+    out, seen = [], {}
     for b in blocks:
+        # the same label can head several text blocks; number the later ones
+        n = seen.get(b["label"], 0) + 1; seen[b["label"]] = n
+        if n > 1: b["label"] = f'{b["label"]}#{n}'
+
         if not any(b["lines"]):
             continue
         joined = "\n".join(b["lines"]).strip()

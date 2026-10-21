@@ -34,7 +34,7 @@
   {
    "label": "SoYouWantPrizeText",
    "line": 265,
-   "text": "で\nいいんだね？"
+   "text": "{name}で\nいいんだね？"
   },
   {
    "label": "SorryNeedMoreCoinsText",

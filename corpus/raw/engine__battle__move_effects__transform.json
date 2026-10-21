@@ -4,13 +4,7 @@
   {
    "label": "TransformedText",
    "line": 144,
-   "text": "{user}は"
-  },
-  {
-   "label": "TransformedText",
-   "line": 147,
-   "text": "に　へんしんした！",
-   "continuation": true
+   "text": "{user}は{name}に　へんしんした！"
   }
  ]
 }

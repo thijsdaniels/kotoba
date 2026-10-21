@@ -34,19 +34,7 @@
   {
    "label": "CeladonGymReceivedTM21Text",
    "line": 188,
-   "text": "{player}は　エリカ　から"
-  },
-  {
-   "label": "CeladonGymReceivedTM21Text",
-   "line": 191,
-   "text": "を　もらった！",
-   "continuation": true
-  },
-  {
-   "label": "CeladonGymReceivedTM21Text",
-   "line": 193,
-   "text": "わざマシン２１の　なかは\nメガドレイン　です\n\nあたえた　ダメージの　はんぶんが\nポケモンの　えいように　なる\nすばらしい　わざ　です",
-   "continuation": true
+   "text": "{player}は　エリカ　から{name}を　もらった！\n\nわざマシン２１の　なかは\nメガドレイン　です\n\nあたえた　ダメージの　はんぶんが\nポケモンの　えいように　なる\nすばらしい　わざ　です"
   },
   {
    "label": "CeladonGymTM21NoRoomText",

@@ -12,25 +12,19 @@
    "text": "この　ひろい　サファリで\nいろんな　ポケモン　とりほうだいの\nゲームが　たった　５００円！\n\nさっそく　やりますか？"
   },
   {
-   "label": "SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText",
+   "label": "SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText#2",
    "line": 154,
-   "text": "それでは……！\n５００円　いただきまーす！\n\nここでは　サファリ　せんようの\nモンスターボールを　つかいます！\n……　これです！\n\n{player}は　うけつけ　から\nサファリボール　３０こ　もらった！",
+   "text": "それでは……！\n５００円　いただきまーす！\n\nここでは　サファリ　せんようの\nモンスターボールを　つかいます！\n……　これです！\n\n{player}は　うけつけ　から\nサファリボール　３０こ　もらった！\n\nのこり　じかんが　なくなるか！\nサファリボールが　なくなったら\nメガホンで　しらせます！\nでは……！　ぐっど　らっく！",
    "continuation": true
   },
   {
-   "label": "SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText",
-   "line": 225,
-   "text": "のこり　じかんが　なくなるか！\nサファリボールが　なくなったら\nメガホンで　しらせます！\nでは……！　ぐっど　らっく！",
-   "continuation": true
-  },
-  {
-   "label": "SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText",
+   "label": "SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText#3",
    "line": 232,
    "text": "そうか……！　また　きて　ください",
    "continuation": true
   },
   {
-   "label": "SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText",
+   "label": "SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText#4",
    "line": 236,
    "text": "あッ　おかねが　たりない！",
    "continuation": true
@@ -41,13 +35,13 @@
    "text": "もう　おわりに　する？"
   },
   {
-   "label": "SafariZoneGateSafariZoneWorker1LeavingEarlyText",
+   "label": "SafariZoneGateSafariZoneWorker1LeavingEarlyText#2",
    "line": 244,
    "text": "サファリボールの\nのこりは　ぜんぶ　ひきとります！",
    "continuation": true
   },
   {
-   "label": "SafariZoneGateSafariZoneWorker1LeavingEarlyText",
+   "label": "SafariZoneGateSafariZoneWorker1LeavingEarlyText#3",
    "line": 278,
    "text": "では　がんばって！",
    "continuation": true
@@ -63,13 +57,13 @@
    "text": "こんちわ！\nサファリ　ゲームは　はじめて？"
   },
   {
-   "label": "SafariZoneGateSafariZoneWorker2Text",
+   "label": "SafariZoneGateSafariZoneWorker2Text#2",
    "line": 307,
    "text": "サファリ　ゲームは\n４つの　ゾーンに　わかれてます！\n\nそれぞれに　めずらしい　ポケモンが\nせいそく　してますから\nせんようの　サファリボールで\nつかまえて　ください！\n\nただし　じかんが　なくなるか\nサファリボールを　ぜんぶ　なげたら\nゲームは　おわり　だよ！",
    "continuation": true
   },
   {
-   "label": "SafariZoneGateSafariZoneWorker2Text",
+   "label": "SafariZoneGateSafariZoneWorker2Text#3",
    "line": 321,
    "text": "おっと　しつれい！\nじょうれん　さん　だったね！",
    "continuation": true

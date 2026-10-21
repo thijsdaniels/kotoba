@@ -4,13 +4,7 @@
   {
    "label": "FoundHiddenItemText",
    "line": 23,
-   "text": "{player}は"
-  },
-  {
-   "label": "FoundHiddenItemText",
-   "line": 26,
-   "text": "を　みつけた！",
-   "continuation": true
+   "text": "{player}は{name}を　みつけた！"
   },
   {
    "label": "HiddenItemBagFullText",
@@ -20,30 +14,12 @@
   {
    "label": "FoundHiddenCoinsText",
    "line": 127,
-   "text": "{player}は\nコインを"
-  },
-  {
-   "label": "FoundHiddenCoinsText",
-   "line": 130,
-   "text": "まい　みつけた！",
-   "continuation": true
+   "text": "{player}は\nコインを{n}まい　みつけた！"
   },
   {
    "label": "DroppedHiddenCoinsText",
    "line": 135,
-   "text": "{player}は\nコイン　を"
-  },
-  {
-   "label": "DroppedHiddenCoinsText",
-   "line": 138,
-   "text": "まい　みつけた！",
-   "continuation": true
-  },
-  {
-   "label": "DroppedHiddenCoinsText",
-   "line": 140,
-   "text": "しかし　{player}は\nなんまいか　おとしてしまった！",
-   "continuation": true
+   "text": "{player}は\nコイン　を{n}まい　みつけた！\n\nしかし　{player}は\nなんまいか　おとしてしまった！"
   }
  ]
 }

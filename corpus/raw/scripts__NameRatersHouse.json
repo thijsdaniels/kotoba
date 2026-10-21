@@ -14,13 +14,7 @@
   {
    "label": "NameRatersHouseNameRaterText.GiveItANiceNameText",
    "line": 96,
-   "text": "うーむ"
-  },
-  {
-   "label": "NameRatersHouseNameRaterText.GiveItANiceNameText",
-   "line": 98,
-   "text": "か……\nなかなか\nいい　ニックネームを　つけたね\n\nでもねー\nもう　すこしだけ　いい　なまえ\n\nわたしが　つけて　あげようか？\nどうかな？",
-   "continuation": true
+   "text": "うーむ{name}か……\nなかなか\nいい　ニックネームを　つけたね\n\nでもねー\nもう　すこしだけ　いい　なまえ\n\nわたしが　つけて　あげようか？\nどうかな？"
   },
   {
    "label": "NameRatersHouseNameRaterText.WhatShouldWeNameItText",
@@ -30,13 +24,7 @@
   {
    "label": "NameRatersHouseNameRaterText.PokemonHasBeenRenamedText",
    "line": 115,
-   "text": "よし　これから\nこの　ポケモンは"
-  },
-  {
-   "label": "NameRatersHouseNameRaterText.PokemonHasBeenRenamedText",
-   "line": 118,
-   "text": "だ！\n\nまえより　いい　なまえ　じゃないか\nよかったな！",
-   "continuation": true
+   "text": "よし　これから\nこの　ポケモンは{buffer}だ！\n\nまえより　いい　なまえ　じゃないか\nよかったな！"
   },
   {
    "label": "NameRatersHouseNameRaterText.ComeAnyTimeYouLikeText",
@@ -46,19 +34,7 @@
   {
    "label": "NameRatersHouseNameRaterText.ATrulyImpeccableNameText",
    "line": 130,
-   "text": "うむ"
-  },
-  {
-   "label": "NameRatersHouseNameRaterText.ATrulyImpeccableNameText",
-   "line": 132,
-   "text": "か！\nこれは　すばらしい　ニックネームだ\nけちの　つけようもない！\n\nこれからも",
-   "continuation": true
-  },
-  {
-   "label": "NameRatersHouseNameRaterText.ATrulyImpeccableNameText",
-   "line": 138,
-   "text": "を\nかわいがって　あげなさいよ！",
-   "continuation": true
+   "text": "うむ{name}か！\nこれは　すばらしい　ニックネームだ\nけちの　つけようもない！\n\nこれからも{name}を\nかわいがって　あげなさいよ！"
   }
  ]
 }

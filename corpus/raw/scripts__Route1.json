@@ -9,13 +9,7 @@
   {
    "label": "Route1Youngster1Text.GotPotionText",
    "line": 43,
-   "text": "{player}は\n「"
-  },
-  {
-   "label": "Route1Youngster1Text.GotPotionText",
-   "line": 46,
-   "text": "」を　もらった！",
-   "continuation": true
+   "text": "{player}は\n「{name}」を　もらった！"
   },
   {
    "label": "Route1Youngster1Text.AlsoGotPokeballsText",

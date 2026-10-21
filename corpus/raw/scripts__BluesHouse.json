@@ -14,13 +14,7 @@
   {
    "label": "GotMapText",
    "line": 77,
-   "text": "{player}は　おねえさんから"
-  },
-  {
-   "label": "GotMapText",
-   "line": 80,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　おねえさんから{name}を　もらった！"
   },
   {
    "label": "BluesHouseDaisyBagFullText",

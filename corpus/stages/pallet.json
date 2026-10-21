@@ -1,7 +1,7 @@
 {
  "id": "pallet",
  "name": "Pallet Town",
- "levelCap": 10,
+ "levelCap": 5,
  "strings": [
   {
    "source": "scripts/PalletTown.asm",
@@ -102,14 +102,7 @@
    "source": "scripts/BluesHouse.asm",
    "label": "GotMapText",
    "line": 77,
-   "text": "{player}は　おねえさんから"
-  },
-  {
-   "source": "scripts/BluesHouse.asm",
-   "label": "GotMapText",
-   "line": 80,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　おねえさんから{name}を　もらった！"
   },
   {
    "source": "scripts/BluesHouse.asm",
@@ -190,14 +183,7 @@
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabReceivedMonText",
    "line": 956,
-   "text": "{player}は　オーキドから"
-  },
-  {
-   "source": "scripts/OaksLab.asm",
-   "label": "OaksLabReceivedMonText",
-   "line": 959,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{player}は　オーキドから{name}を　もらった！"
   },
   {
    "source": "scripts/OaksLab.asm",
@@ -230,15 +216,8 @@
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.DeliverParcelText",
    "line": 1080,
-   "text": "おお！　{player}\n\nどーだい？\nわしの　やったポケモンは……ほう\n\nだいぶ\nなついた　みたいだな？\n\nおまえ　ポケモントレーナーの\nさいのうが　あるな！\n\n……え　わしに　わたす　ものが？\n\n{player}は　オーキド　はかせに\nとどけものを　わたした！",
+   "text": "おお！　{player}\n\nどーだい？\nわしの　やったポケモンは……ほう\n\nだいぶ\nなついた　みたいだな？\n\nおまえ　ポケモントレーナーの\nさいのうが　あるな！\n\n……え　わしに　わたす　ものが？\n\n{player}は　オーキド　はかせに\nとどけものを　わたした！\n\nおお！　これは\nわしが　ちゅうもん　してた\n\nとくせいの　モンスターボールじゃ\nどうも　ありがとよ！",
    "speaker": "オーキド"
-  },
-  {
-   "source": "scripts/OaksLab.asm",
-   "label": "OaksLabOak1Text.DeliverParcelText",
-   "line": 1096,
-   "text": "おお！　これは\nわしが　ちゅうもん　してた\n\nとくせいの　モンスターボールじゃ\nどうも　ありがとよ！",
-   "continuation": true
   },
   {
    "source": "scripts/OaksLab.asm",
@@ -250,15 +229,8 @@
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.GivePokeballsText",
    "line": 1112,
-   "text": "ポケモンを\nただ　みつけただけ　では\nくわしい　データを\nてに　いれる　ことは　できん！\n\nかならず\nつかまえなければ　ならんのだ！\nほれ　そのために……\nひつような　どうぐを　わたそう！\n\n{player}は　５こ\nモンスターボールを　もらった！",
+   "text": "ポケモンを\nただ　みつけただけ　では\nくわしい　データを\nてに　いれる　ことは　できん！\n\nかならず\nつかまえなければ　ならんのだ！\nほれ　そのために……\nひつような　どうぐを　わたそう！\n\n{player}は　５こ\nモンスターボールを　もらった！\n\nやせいの　ポケモンが\nとびだして　きたら　チャンス！\n\nモンスターボールを\nポイ！と　なげれば\nポケモンを　つかまえ　られる！\n\nただし……　うまく　とれるか\nどうかは　わからんぞ！\n\nげんきな　ポケモンは　にげやすいし\nうんも　あるからな！",
    "speaker": "オーキド"
-  },
-  {
-   "source": "scripts/OaksLab.asm",
-   "label": "OaksLabOak1Text.GivePokeballsText",
-   "line": 1125,
-   "text": "やせいの　ポケモンが\nとびだして　きたら　チャンス！\n\nモンスターボールを\nポイ！と　なげれば\nポケモンを　つかまえ　られる！\n\nただし……　うまく　とれるか\nどうかは　わからんぞ！\n\nげんきな　ポケモンは　にげやすいし\nうんも　あるからな！",
-   "continuation": true
   },
   {
    "source": "scripts/OaksLab.asm",
@@ -338,14 +310,7 @@
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalReceivedMonText.Text",
    "line": 1282,
-   "text": "{rival}は　オーキドから"
-  },
-  {
-   "source": "scripts/OaksLab.asm",
-   "label": "OaksLabRivalReceivedMonText.Text",
-   "line": 1285,
-   "text": "を　もらった！",
-   "continuation": true
+   "text": "{rival}は　オーキドから{name}を　もらった！"
   },
   {
    "source": "scripts/OaksLab.asm",
@@ -428,6 +393,18 @@
    "text": "わたしも　はかせの　じょしゅ　として\nポケモンを　けんきゅう　してます"
   },
   {
+   "source": "engine/menus/naming_screen.asm",
+   "label": "DoYouWantToNicknameText",
+   "line": 52,
+   "text": "{name}に\nニックネームを　つけますか？"
+  },
+  {
+   "source": "engine/menus/naming_screen.asm",
+   "label": "NicknameTextString",
+   "line": 471,
+   "text": "ニックネームは？"
+  },
+  {
    "source": "engine/events/hidden_events/reds_room.asm",
    "label": "RedBedroomSNESText",
    "line": 5,
@@ -473,37 +450,40 @@
    "source": "engine/items/town_map.asm",
    "label": "MonsNestText",
    "line": 137,
-   "text": "の　すみか"
+   "text": "の　すみか",
+   "trigger": {
+    "item": [
+     "TOWN_MAP"
+    ]
+   }
   },
   {
    "source": "engine/items/town_map.asm",
    "label": "ToText",
    "line": 254,
-   "text": "へ　とぶ"
+   "text": "へ　とぶ",
+   "trigger": {
+    "item": [
+     "TOWN_MAP"
+    ]
+   }
   },
   {
    "source": "engine/items/town_map.asm",
    "label": "AreaUnknownText",
    "line": 427,
-   "text": "せいそくち　ふめい"
+   "text": "せいそくち　ふめい",
+   "trigger": {
+    "item": [
+     "TOWN_MAP"
+    ]
+   }
   },
   {
    "source": "engine/menus/pc.asm",
    "label": "TurnedOnPC1Text",
    "line": 101,
    "text": "{player}は\nパソコンの　スイッチを　いれた！"
-  },
-  {
-   "source": "engine/menus/pc.asm",
-   "label": "AccessedBillsPCText",
-   "line": 106,
-   "text": "マサキの　パソコンと　つないだ！\n\nポケモンの　あずかり　システムを\nよびだした！"
-  },
-  {
-   "source": "engine/menus/pc.asm",
-   "label": "AccessedSomeonesPCText",
-   "line": 113,
-   "text": "だれかの　パソコンと　つないだ！\n\nポケモンの　あずかり　システムを\nよびだした！"
   },
   {
    "source": "engine/menus/pc.asm",
@@ -545,14 +525,7 @@
    "source": "engine/menus/players_pc.asm",
    "label": "ItemWasStoredText",
    "line": 266,
-   "text": "パソコンつうしんで"
-  },
-  {
-   "source": "engine/menus/players_pc.asm",
-   "label": "ItemWasStoredText",
-   "line": 269,
-   "text": "を　あずけた！",
-   "continuation": true
+   "text": "パソコンつうしんで{name}を　あずけた！"
   },
   {
    "source": "engine/menus/players_pc.asm",
@@ -582,14 +555,7 @@
    "source": "engine/menus/players_pc.asm",
    "label": "WithdrewItemText",
    "line": 291,
-   "text": "パソコンつうしんで"
-  },
-  {
-   "source": "engine/menus/players_pc.asm",
-   "label": "WithdrewItemText",
-   "line": 294,
-   "text": "を　ひきだした！",
-   "continuation": true
+   "text": "パソコンつうしんで{name}を　ひきだした！"
   },
   {
    "source": "engine/menus/players_pc.asm",
@@ -614,285 +580,6 @@
    "label": "TossHowManyText",
    "line": 311,
    "text": "いくつ　すてますか？"
-  },
-  {
-   "source": "engine/menus/draw_start_menu.asm",
-   "label": "StartMenuPokedexText",
-   "line": 62,
-   "text": "ずかん"
-  },
-  {
-   "source": "engine/menus/draw_start_menu.asm",
-   "label": "StartMenuPokemonText",
-   "line": 65,
-   "text": "ポケモン"
-  },
-  {
-   "source": "engine/menus/draw_start_menu.asm",
-   "label": "StartMenuItemText",
-   "line": 68,
-   "text": "どうぐ"
-  },
-  {
-   "source": "engine/menus/draw_start_menu.asm",
-   "label": "StartMenuSaveText",
-   "line": 71,
-   "text": "レポート"
-  },
-  {
-   "source": "engine/menus/draw_start_menu.asm",
-   "label": "StartMenuResetText",
-   "line": 74,
-   "text": "リセット"
-  },
-  {
-   "source": "engine/menus/draw_start_menu.asm",
-   "label": "StartMenuExitText",
-   "line": 77,
-   "text": "とじる"
-  },
-  {
-   "source": "engine/menus/draw_start_menu.asm",
-   "label": "StartMenuOptionText",
-   "line": 80,
-   "text": "せってい"
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "StartMenu_Pokemon",
-   "line": 9,
-   "text": "まばゆい　ひかりが\nあたりを　あかるく　てらす……"
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "StartMenu_Pokemon",
-   "line": 197,
-   "text": "さいごに　やすんだ\nポケモンセンターへ　とびます！",
-   "continuation": true
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "StartMenu_Pokemon",
-   "line": 233,
-   "text": "ここでは",
-   "continuation": true
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "StartMenu_Pokemon",
-   "line": 236,
-   "text": "で\nテレポートすることは　できません！",
-   "continuation": true
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "StartMenu_Pokemon",
-   "line": 239,
-   "text": "ここでは",
-   "continuation": true
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "StartMenu_Pokemon",
-   "line": 242,
-   "text": "で\nそらを　とぶことは　できません！",
-   "continuation": true
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "StartMenu_Pokemon",
-   "line": 245,
-   "text": "たいりょくが　たりません！",
-   "continuation": true
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "StartMenu_Pokemon",
-   "line": 284,
-   "text": "あたらしい　バッジを　てにするまで\nまだ　つかえません！",
-   "continuation": true
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "CannotUseItemsHereText",
-   "line": 452,
-   "text": "ここでは　どうぐを\nつかうことは　できません"
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "CannotGetOffHereText",
-   "line": 457,
-   "text": "おりることが　できない！"
-  },
-  {
-   "source": "engine/menus/start_sub_menus.asm",
-   "label": "TrainerInfo_NameMoneyTimeText",
-   "line": 584,
-   "text": "なまえ／\nおこづかい／\nプレイじかん／"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "RedrawPartyMenu_",
-   "line": 8,
-   "text": "おぼえられる\nおぼえられない\nつかえる\nつかえない"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "PartyMenuNormalText",
-   "line": 231,
-   "text": "ポケモンを　えらんで　ください"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "PartyMenuItemUseText",
-   "line": 235,
-   "text": "どのポケモンに　つかいますか？"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "PartyMenuBattleText",
-   "line": 239,
-   "text": "どのポケモンを　だしますか？"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "PartyMenuUseTMText",
-   "line": 243,
-   "text": "どのポケモンに　おしえますか？"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "PartyMenuSwapMonText",
-   "line": 247,
-   "text": "どこに　いどうしますか？"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "PotionText",
-   "line": 251,
-   "text": "の　たいりょくが"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "PotionText",
-   "line": 255,
-   "text": "かいふくした",
-   "continuation": true
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "AntidoteText",
-   "line": 259,
-   "text": "の　どくは\nきれい　さっぱり　なくなった！"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "ParlyzHealText",
-   "line": 265,
-   "text": "の　からだの\nしびれが　とれた"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "BurnHealText",
-   "line": 271,
-   "text": "の\nやけどが　なおった"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "IceHealText",
-   "line": 277,
-   "text": "の　からだの\nこおりが　とけた"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "AwakeningText",
-   "line": 283,
-   "text": "は\nめを　さました"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "FullHealText",
-   "line": 289,
-   "text": "は\nけんこうになった！"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "ReviveText",
-   "line": 295,
-   "text": "は\nげんきを　とりもどした！"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "RareCandyText",
-   "line": 301,
-   "text": "の　レベルが"
-  },
-  {
-   "source": "engine/menus/party_menu.asm",
-   "label": "RareCandyText",
-   "line": 304,
-   "text": "になった",
-   "continuation": true
-  },
-  {
-   "source": "engine/menus/text_box.asm",
-   "label": "PokemonMenuEntries",
-   "line": 453,
-   "text": "つよさをみる\nならびかえ\nキャンセル"
-  },
-  {
-   "source": "engine/menus/save.asm",
-   "label": "FileDataDestroyedText",
-   "line": 28,
-   "text": "フアイルの　データが\nこわれています！"
-  },
-  {
-   "source": "engine/menus/save.asm",
-   "label": "WouldYouLikeToSaveText",
-   "line": 188,
-   "text": "ここまでの　かつやくを\nポケモンレポートに　かきこみますか？"
-  },
-  {
-   "source": "engine/menus/save.asm",
-   "label": "GameSavedText",
-   "line": 193,
-   "text": "{player}は\nレポートに　しっかり　かきのこした！"
-  },
-  {
-   "source": "engine/menus/save.asm",
-   "label": "OlderFileWillBeErasedText",
-   "line": 198,
-   "text": "まえに　かかれた　レポートが\nきえて　しまいますが\nうえから　かいても　いいですか？"
-  },
-  {
-   "source": "engine/menus/save.asm",
-   "label": "WhenYouChangeBoxText",
-   "line": 375,
-   "text": "ポケモン　ボックスを　かえると\nどうじに　レポートが　かかれます\n\n……　それでも　いいですか？"
-  },
-  {
-   "source": "engine/menus/save.asm",
-   "label": "ChooseABoxText",
-   "line": 470,
-   "text": "ポケモン　ボックスを\nえらんでください"
-  },
-  {
-   "source": "engine/menus/save.asm",
-   "label": "BoxNames",
-   "line": 475,
-   "text": "ボックス１\nボックス２\nボックス３\nボックス４\nボックス５\nボックス６\nボックス７\nボックス８"
-  },
-  {
-   "source": "engine/menus/save.asm",
-   "label": "BoxNoText",
-   "line": 485,
-   "text": "いまのボックス"
-  },
-  {
-   "source": "engine/menus/pokedex.asm",
-   "label": "HandlePokedexListMenu",
-   "line": 148,
-   "text": "ーーーーー"
   },
   {
    "source": "engine/menus/pokedex.asm",
@@ -931,261 +618,16 @@
    "text": "ポケモン"
   },
   {
-   "source": "engine/pokemon/status_screen.asm",
-   "label": "TypesIDNoOTText",
-   "line": 198,
-   "text": "タイプ１／\nタイプ２／\nID№／\nおや／"
-  },
-  {
-   "source": "engine/pokemon/status_screen.asm",
-   "label": "StatusText",
-   "line": 205,
-   "text": "じょうたい／"
-  },
-  {
-   "source": "engine/pokemon/status_screen.asm",
-   "label": "OKText",
-   "line": 208,
-   "text": "ふつう"
-  },
-  {
-   "source": "engine/pokemon/status_screen.asm",
-   "label": "PrintStatsBox.StatsText",
-   "line": 276,
-   "text": "こうげき\nぼうぎょ\nすばやさ\nとくしゅ"
-  },
-  {
-   "source": "engine/pokemon/status_screen.asm",
-   "label": "StatusScreenExpText",
-   "line": 452,
-   "text": "けいけんち／\nあと"
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "LearnedMove1Text",
-   "line": 176,
-   "text": "は　あたらしく"
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "LearnedMove1Text",
-   "line": 180,
-   "text": "を　おぼえた！",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "WhichMoveToForgetText",
-   "line": 186,
-   "text": "どの　わざを\nわすれさせたい？"
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "AbandonLearningText",
-   "line": 191,
-   "text": "それでは……"
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "AbandonLearningText",
-   "line": 193,
-   "text": "を\nおぼえるのを　あきらめますか？",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "DidNotLearnText",
-   "line": 198,
-   "text": "は"
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "DidNotLearnText",
-   "line": 201,
-   "text": "を\nおぼえずに　おわった！",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "TryingToLearnText",
-   "line": 206,
-   "text": "は　あたらしく"
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "TryingToLearnText",
-   "line": 210,
-   "text": "を　おぼえたい……！\n\nしかし",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "TryingToLearnText",
-   "line": 214,
-   "text": "は　わざを　４つ\nおぼえるので　せいいっぱいだ！",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "TryingToLearnText",
-   "line": 219,
-   "text": "の　かわりに\nほかの　わざを　わすれさせますか？",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "OneTwoAndText",
-   "line": 224,
-   "text": "１　２の　……"
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "PoofForgotAndText",
-   "line": 233,
-   "text": "ポカン！"
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "PoofForgotAndText",
-   "line": 239,
-   "text": "は",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "PoofForgotAndText",
-   "line": 241,
-   "text": "の\nつかいかたを　きれいに　わすれた！\n\nそして……！",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/learn_move.asm",
-   "label": "HMCantDeleteText",
-   "line": 248,
-   "text": "それは　たいせつなわざです\nわすれさせることは　できません！"
-  },
-  {
-   "source": "engine/pokemon/evos_moves.asm",
-   "label": "EvolvedText",
-   "line": 301,
-   "text": "おめでとう！"
-  },
-  {
-   "source": "engine/pokemon/evos_moves.asm",
-   "label": "EvolvedText",
-   "line": 303,
-   "text": "は",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/evos_moves.asm",
-   "label": "IntoText",
-   "line": 307,
-   "text": "に　しんかした"
-  },
-  {
-   "source": "engine/pokemon/evos_moves.asm",
-   "label": "StoppedEvolvingText",
-   "line": 314,
-   "text": "あれ……？"
-  },
-  {
-   "source": "engine/pokemon/evos_moves.asm",
-   "label": "StoppedEvolvingText",
-   "line": 317,
-   "text": "の　へんかが　とまった！",
-   "continuation": true
-  },
-  {
-   "source": "engine/pokemon/evos_moves.asm",
-   "label": "IsEvolvingText",
-   "line": 321,
-   "text": "……　おや！？"
-  },
-  {
-   "source": "engine/pokemon/evos_moves.asm",
-   "label": "IsEvolvingText",
-   "line": 324,
-   "text": "の　ようすが……！",
-   "continuation": true
-  },
-  {
    "source": "engine/events/give_pokemon.asm",
    "label": "GotMonText",
    "line": 62,
-   "text": "{player}は"
-  },
-  {
-   "source": "engine/events/give_pokemon.asm",
-   "label": "GotMonText",
-   "line": 65,
-   "text": "を　てにいれた！",
-   "continuation": true
-  },
-  {
-   "source": "engine/events/give_pokemon.asm",
-   "label": "SentToBoxText",
-   "line": 70,
-   "text": "ポケモンを　もちきれないので\nパソコンの　ボックス"
-  },
-  {
-   "source": "engine/events/give_pokemon.asm",
-   "label": "SentToBoxText",
-   "line": 73,
-   "text": "に",
-   "continuation": true
-  },
-  {
-   "source": "engine/events/give_pokemon.asm",
-   "label": "SentToBoxText",
-   "line": 76,
-   "text": "を　てんそうした！",
-   "continuation": true
-  },
-  {
-   "source": "engine/events/give_pokemon.asm",
-   "label": "BoxIsFullText",
-   "line": 80,
-   "text": "ポケモンを　もちきれません！\n\nボックスも　いっぱいで\nてんそうできません！\n\nポケモンセンターなどで\nボックスを　かえてきて　ください"
-  },
-  {
-   "source": "engine/events/pick_up_item.asm",
-   "label": "FoundItemText",
-   "line": 47,
-   "text": "{player}は"
-  },
-  {
-   "source": "engine/events/pick_up_item.asm",
-   "label": "FoundItemText",
-   "line": 50,
-   "text": "を　みつけた！",
-   "continuation": true
-  },
-  {
-   "source": "engine/events/pick_up_item.asm",
-   "label": "NoMoreRoomForItemText",
-   "line": 55,
-   "text": "もちものが　いっぱい！"
+   "text": "{player}は{name}を　てにいれた！"
   },
   {
    "source": "engine/events/pokedex_rating.asm",
    "label": "DexCompletionText",
    "line": 54,
-   "text": "……　……　ポケモンずかんの\nげんざいの　かんせいど　は……\n\nみつけた　ポケモン"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexCompletionText",
-   "line": 59,
-   "text": "！\nつかまえた　ポケモン",
-   "continuation": true
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexCompletionText",
-   "line": 62,
-   "text": "！\n\nオーキドはかせの　ひょうか……",
-   "continuation": true
+   "text": "……　……　ポケモンずかんの\nげんざいの　かんせいど　は……\n\nみつけた　ポケモン{n}！\nつかまえた　ポケモン{n}！\n\nオーキドはかせの　ひょうか……"
   },
   {
    "source": "engine/events/pokedex_rating.asm",
@@ -1194,531 +636,28 @@
    "text": "まだまだ……　これからだ\nあちこちの　くさむらに　はいって\nポケモンを　つかまえるのじゃ！"
   },
   {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own10To19",
-   "line": 92,
-   "text": "どうにか　ちょうしが　でてきたな！\nじょしゅに　フラッシュを\nもたせたぞ！　もらって　くれい！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own20To29",
-   "line": 98,
-   "text": "ポケモンずかんに　しては　まだ\nボリュームが　たりん！　いろいろな\nしゅるいの　ポケモンを　とるのじゃ！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own30To39",
-   "line": 104,
-   "text": "ふむ……　がんばってるな！\nじょしゅに　ダウジングマシンを\nもたせたぞ！　もらって　くれい！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own40To49",
-   "line": 110,
-   "text": "いい　できばえ　じゃないか！\nじょしゅに　がくしゅうそうちを\nもたせたぞ！　もらって　くれい！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own50To59",
-   "line": 116,
-   "text": "ついに　５０しゅるいを　こえたか！\n……　この　ちょうし　じゃ！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own60To69",
-   "line": 121,
-   "text": "ほっほう！　……　こりゃ　いい\nポケモンずかんに　なって　きとる！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own70To79",
-   "line": 126,
-   "text": "ぜっこうちょう！　うみで　ポケモン\nつれば　もっと　あつまり　そうじゃ！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own80To89",
-   "line": 131,
-   "text": "ワンダフル！　もしかして　きみは\nものを　あつめるの　すきなのか……？"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own90To99",
-   "line": 136,
-   "text": "いやはや……　こりゃ　すごい！\nあつめるのは　たいへん　だったろ！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own100To109",
-   "line": 141,
-   "text": "とうとう　１００しゅるい　こえたか！\n……　しんじられない　うでまえじゃ！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own110To119",
-   "line": 146,
-   "text": "ポケモンの　しんか　けいたいも\nはいって　きとる……　すばらしい！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own120To129",
-   "line": 151,
-   "text": "エクセレント！　ともだちと　こうかん\nすると　もっと　あつまる　かもしれん"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own130To139",
-   "line": 156,
-   "text": "ここまで　ずかんが　できたら\nもはや　プロフェッショナル　じゃ！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own140To149",
-   "line": 161,
-   "text": "わしゃ　もう　いうことは　ない！\nきみが　ポケモンはかせ　じゃ！"
-  },
-  {
-   "source": "engine/events/pokedex_rating.asm",
-   "label": "DexRatingText_Own150To151",
-   "line": 166,
-   "text": "ついに　パーフェクトな　ずかんの\nかんせいじゃ！　……　おめでとう！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText00",
-   "line": 582,
-   "text": "よけられた！\nこいつは　つかまりそうにないぞ！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText01",
-   "line": 589,
-   "text": "ポケモンに\nうまく　あたらなかった！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText02",
-   "line": 595,
-   "text": "ざんねん！　ポケモンが\nボールから　でてしまった！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText03",
-   "line": 601,
-   "text": "ああ！\nつかまえたと　おもったのに！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText04",
-   "line": 607,
-   "text": "おしい！\nあと　ちょっとの　ところだったのに！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText05",
-   "line": 613,
-   "text": "やったー！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText05",
-   "line": 618,
-   "text": "を　つかまえたぞ！",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText07",
-   "line": 624,
-   "text": "は　マサキの　ところへ\nてんそうされた！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText08",
-   "line": 631,
-   "text": "は　だれかの　パソコンに\nてんそうされた！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseBallText06",
-   "line": 638,
-   "text": "の　データが　あたらしく\nポケモンずかんに　セーブされます！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "SurfingGotOnText",
-   "line": 758,
-   "text": "{player}は"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "SurfingGotOnText",
-   "line": 760,
-   "text": "にのった！",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "SurfingNoPlaceToGetOffText",
-   "line": 764,
-   "text": "おりる　ばしょが　ない！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "VitaminStatRoseText",
-   "line": 1408,
-   "text": "の"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "VitaminStatRoseText",
-   "line": 1411,
-   "text": "の\nきそ　ポイントが　あがった！",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "VitaminNoEffectText",
-   "line": 1416,
-   "text": "つかっても　こうかが　ないよ"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ThrewBaitText",
-   "line": 1475,
-   "text": "{player}は　エサを　なげた！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ThrewRockText",
-   "line": 1479,
-   "text": "{player}は　いしを　なげた！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "PlayedFluteNoEffectText",
-   "line": 1778,
-   "text": "ポケモンのふえを　ふいた！\n\nうーん！\nすばらしい　ねいろだ！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "FluteWokeUpText",
-   "line": 1785,
-   "text": "すべての　ポケモンが\nめを　さました！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "PlayedFluteHadEffectText",
-   "line": 1790,
-   "text": "{player}は\nポケモンのふえを　ふいてみた！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "CoinCaseNumCoinsText",
-   "line": 1819,
-   "text": "あなたの　コイン"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "CoinCaseNumCoinsText",
-   "line": 1822,
-   "text": "まい",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemfinderFoundItemText",
-   "line": 1941,
-   "text": "おッ！\nマシンが　はんのう　してるぞ！\nちかくに　アイテムが　うまってる！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemfinderFoundNothingText",
-   "line": 1947,
-   "text": "……　……　ふう！\n……　なんにも　はんのう　しない"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "RaisePPWhichTechniqueText",
-   "line": 2129,
-   "text": "どのわざの\nポイントをふやす？"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "RestorePPWhichTechniqueText",
-   "line": 2134,
-   "text": "どのわざを\nかいふくする？"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "PPMaxedOutText",
-   "line": 2139,
-   "text": "は　これいじょう\nふやすことが　できません"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "PPIncreasedText",
-   "line": 2145,
-   "text": "の\nわざポイントが　ふえた！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "PPRestoredText",
-   "line": 2151,
-   "text": "わざポイントが\nかいふくした！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "BootedUpTMText",
-   "line": 2257,
-   "text": "わざマシンを　きどうした！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "BootedUpHMText",
-   "line": 2261,
-   "text": "ひでんマシンを　きどうした！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "TeachMachineMoveText",
-   "line": 2265,
-   "text": "なかには"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "TeachMachineMoveText",
-   "line": 2267,
-   "text": "が\nきろくされていた！",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "TeachMachineMoveText",
-   "line": 2272,
-   "text": "を\nポケモンに　おぼえさせますか？",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "MonCannotLearnMachineMoveText",
-   "line": 2277,
-   "text": "と"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "MonCannotLearnMachineMoveText",
-   "line": 2280,
-   "text": "は\nあいしょうが　わるかった！",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "MonCannotLearnMachineMoveText",
-   "line": 2285,
-   "text": "は　おぼえられない！",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseNotTimeText",
-   "line": 2343,
-   "text": "オーキドの　ことば……\n{player}よ！　こういうものには\nつかいどきが　あるのじゃ！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseNotYoursToUseText",
-   "line": 2349,
-   "text": "たいせつな　あずかりものです！\nつかうことは　できません！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseNoEffectText",
-   "line": 2354,
-   "text": "つかっても　こうかがないよ"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ThrowBallAtTrainerMonText1",
-   "line": 2358,
-   "text": "トレーナーに　ボールを　はじかれた！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ThrowBallAtTrainerMonText2",
-   "line": 2362,
-   "text": "ひとの　ものを　とったら　どろぼう！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "NoCyclingAllowedHereText",
-   "line": 2366,
-   "text": "ここでは　じてんしゃに\nのることは　できません"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "NoSurfingHereText",
-   "line": 2371,
-   "text": "ここでは"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "NoSurfingHereText",
-   "line": 2373,
-   "text": "に\nのることは　できません",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "BoxFullCannotThrowBallText",
-   "line": 2378,
-   "text": "ボックスに　あずけている　ポケモンが\nいっぱいなので　つかえません！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseText00",
-   "line": 2383,
-   "text": "{player}は"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ItemUseText00",
-   "line": 2385,
-   "text": "を　つかった！",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "GotOnBicycleText",
-   "line": 2390,
-   "text": "{player}は"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "GotOnBicycleText",
-   "line": 2392,
-   "text": "に　のった",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "GotOffBicycleText",
-   "line": 2397,
-   "text": "{player}は"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "GotOffBicycleText",
-   "line": 2399,
-   "text": "から　おりた",
-   "continuation": true
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "ThrewAwayItemText",
-   "line": 2630,
-   "text": "を\nすてました！"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "IsItOKToTossItemText",
-   "line": 2636,
-   "text": "を　すてます\nほんとに　よろしいですか？"
-  },
-  {
-   "source": "engine/items/item_effects.asm",
-   "label": "TooImportantToTossText",
-   "line": 2642,
-   "text": "それは　とても　たいせつなモノです\nすてることは　できません！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "StartBattle",
-   "line": 132,
-   "text": "ピンポーン！\n\nサファリ　ボールを\nぜんぶ　なげました！",
-   "speaker": "アナウンス"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "WildRanText",
-   "line": 275,
-   "text": "やせいの"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "WildRanText",
-   "line": 277,
-   "text": "は　にげだした！",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "EnemyRanText",
-   "line": 281,
-   "text": "てきの"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "EnemyRanText",
-   "line": 283,
-   "text": "は　にげだした！",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "HurtByPoisonText",
-   "line": 566,
-   "text": "{user}は\nどくの　ダメージを　うけている！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "HurtByBurnText",
-   "line": 571,
-   "text": "{user}は\nやけどの　ダメージを　うけている！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "HurtByLeechSeedText",
-   "line": 576,
-   "text": "やどりぎが　{user}の\nたいりょくを　うばう！"
-  },
-  {
    "source": "engine/battle/core.asm",
    "label": "EnemyMonFaintedText",
    "line": 895,
-   "text": "てきの"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "EnemyMonFaintedText",
-   "line": 897,
-   "text": "は　たおれた！",
-   "continuation": true
+   "text": "てきの{enemy}は　たおれた！"
   },
   {
    "source": "engine/battle/core.asm",
    "label": "MoneyForWinningText",
    "line": 988,
-   "text": "{player}は　しょうきんとして"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "MoneyForWinningText",
-   "line": 991,
-   "text": "円　てにいれた！",
-   "continuation": true
+   "text": "{player}は　しょうきんとして{n}円　てにいれた！"
   },
   {
    "source": "engine/battle/core.asm",
    "label": "TrainerDefeatedText",
    "line": 995,
-   "text": "との\nしょうぶに　かった！"
+   "text": "{trainer}との\nしょうぶに　かった！"
   },
   {
    "source": "engine/battle/core.asm",
    "label": "PlayerMonFaintedText",
    "line": 1088,
-   "text": "は　たおれた！"
+   "text": "{mon}は　たおれた！"
   },
   {
    "source": "engine/battle/core.asm",
@@ -1741,35 +680,15 @@
   },
   {
    "source": "engine/battle/core.asm",
-   "label": "LinkBattleLostText",
-   "line": 1225,
-   "text": "との\nしょうぶに　まけた！"
-  },
-  {
-   "source": "engine/battle/core.asm",
    "label": "TrainerAboutToUseText",
    "line": 1494,
-   "text": "は"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "TrainerAboutToUseText",
-   "line": 1497,
-   "text": "を\nくりだそうと　しているようだ\n\n{player}も　ポケモンを\nとりかえますか？",
-   "continuation": true
+   "text": "{trainer}は{enemy}を\nくりだそうと　しているようだ\n\n{player}も　ポケモンを\nとりかえますか？"
   },
   {
    "source": "engine/battle/core.asm",
    "label": "TrainerSentOutText",
    "line": 1505,
-   "text": "は"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "TrainerSentOutText",
-   "line": 1509,
-   "text": "を　くりだした！",
-   "continuation": true
+   "text": "{trainer}は{enemy}を　くりだした！"
   },
   {
    "source": "engine/battle/core.asm",
@@ -1779,204 +698,15 @@
   },
   {
    "source": "engine/battle/core.asm",
-   "label": "CantEscapeText",
-   "line": 1673,
-   "text": "にげられない！"
-  },
-  {
-   "source": "engine/battle/core.asm",
    "label": "NoRunningText",
    "line": 1677,
    "text": "ダメだ！\nしょうぶの　さいちゅうに\nあいてに　せなかは　みせられない！"
   },
   {
    "source": "engine/battle/core.asm",
-   "label": "GotAwayText",
-   "line": 1683,
-   "text": "うまく　にげきれた！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "DisplayBattleMenu",
-   "line": 2084,
-   "text": "おじいさん"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "ItemsCantBeUsedHereText",
-   "line": 2362,
-   "text": "ここでは　どうぐを\nつかうことは　できません"
-  },
-  {
-   "source": "engine/battle/core.asm",
    "label": "AlreadyOutText",
    "line": 2510,
-   "text": "はもうでています"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "MoveNoPPText",
-   "line": 2720,
-   "text": "わざの　のこりポイントが　ない！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "MoveDisabledText",
-   "line": 2724,
-   "text": "わざを　ふうじられている！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "WhichTechniqueString",
-   "line": 2728,
-   "text": "どのわざを\nものまねする？"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "NoMovesLeftText",
-   "line": 2799,
-   "text": "は　だすことの　できる\nわざが　ない！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "DisabledText",
-   "line": 2952,
-   "text": "ふうじられている！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "TypeText",
-   "line": 2955,
-   "text": "わざタイプ"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "MultiHitText",
-   "line": 3343,
-   "text": "あいてに"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "MultiHitText",
-   "line": 3345,
-   "text": "かい　あたった！",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "ScaredText",
-   "line": 3375,
-   "text": "は　こわがっている！\nわざを　だすことが　できない！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "GetOutText",
-   "line": 3381,
-   "text": "タチサレ……タチサレ……",
-   "speaker": "ゆうれい"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "FastAsleepText",
-   "line": 3674,
-   "text": "{user}は\nぐうぐう　ねむっている"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "WokeUpText",
-   "line": 3679,
-   "text": "{user}は　めをさました！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "IsFrozenText",
-   "line": 3683,
-   "text": "{user}は\nこおって　しまって　うごかない！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "FullyParalyzedText",
-   "line": 3688,
-   "text": "{user}は\nからだが　しびれて　うごけない"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "FlinchedText",
-   "line": 3693,
-   "text": "{user}は　ひるんだ！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "MustRechargeText",
-   "line": 3697,
-   "text": "こうげきの　はんどうで\n{user}は　うごけない！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "DisabledNoMoreText",
-   "line": 3702,
-   "text": "{user}の\nかなしばりが　とけた！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "IsConfusedText",
-   "line": 3707,
-   "text": "{user}は\nこんらんしている！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "HurtItselfText",
-   "line": 3712,
-   "text": "わけも　わからず\nじぶんを　こうげきした！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "ConfusedNoMoreText",
-   "line": 3717,
-   "text": "{user}の\nこんらんが　とけた！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "SavingEnergyText",
-   "line": 3722,
-   "text": "{user}は　がまんしている"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "UnleashedEnergyText",
-   "line": 3726,
-   "text": "{user}の\nがまんが　とかれた！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "ThrashingAboutText",
-   "line": 3731,
-   "text": "{user}は　あばれている"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "AttackContinuesText",
-   "line": 3735,
-   "text": "{user}の　こうげきは\nまだ　つづいている"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "CantMoveText",
-   "line": 3740,
-   "text": "{user}は\nみうごきが　とれない！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "MoveIsDisabledText",
-   "line": 3763,
-   "text": "{user}は　かなしばりで"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "MoveIsDisabledText",
-   "line": 3766,
-   "text": "がだせない！",
-   "continuation": true
+   "text": "{mon}はもうでています"
   },
   {
    "source": "engine/battle/core.asm",
@@ -1986,143 +716,21 @@
   },
   {
    "source": "engine/battle/core.asm",
-   "label": "KeptGoingAndCrashedText",
-   "line": 3878,
-   "text": "いきおい　あまって\n{user}は\nじめんに　ぶつかった！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "UnaffectedText",
-   "line": 3884,
-   "text": "{target}には\nぜんぜんきいてない！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "DoesntAffectMonText",
-   "line": 3893,
-   "text": "{target}には\nこうかが　ない　みたいだ……"
-  },
-  {
-   "source": "engine/battle/core.asm",
    "label": "CriticalHitText",
    "line": 3923,
    "text": "きゅうしょに　あたった！"
   },
   {
-   "source": "engine/battle/core.asm",
-   "label": "OHKOText",
-   "line": 3927,
-   "text": "いちげき　ひっさつ！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "LoafingAroundText",
-   "line": 4101,
-   "text": "は　なまけている"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "BeganToNapText",
-   "line": 4106,
-   "text": "は　ひるねをはじめた！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "WontObeyText",
-   "line": 4111,
-   "text": "は　いうことを　きかない"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "TurnedAwayText",
-   "line": 4116,
-   "text": "は　そっぽを　むいた"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "IgnoredOrdersText",
-   "line": 4121,
-   "text": "は　しらんぷりをした"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "SubstituteTookDamageText",
-   "line": 5001,
-   "text": "{target}に　かわって\nぶんしんが　こうげきを　うけた！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "SubstituteBrokeText",
-   "line": 5006,
-   "text": "{target}の　ぶんしんは\nきえてしまった……"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "BuildingRageText",
-   "line": 5054,
-   "text": "{user}の　いかりの\nボルテージが　あがっていく！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "MirrorMoveFailedText",
-   "line": 5091,
-   "text": "しかし　オウムがえしは\nしっぱいにおわった！"
-  },
-  {
-   "source": "engine/battle/core.asm",
-   "label": "HitXTimesText",
-   "line": 5770,
-   "text": "かい　ダメージをうけた！"
-  },
-  {
-   "source": "engine/battle/common_text.asm",
-   "label": "WildMonAppearedText",
-   "line": 73,
-   "text": "あ！　やせいの"
-  },
-  {
-   "source": "engine/battle/common_text.asm",
-   "label": "WildMonAppearedText",
-   "line": 76,
-   "text": "が　とびだしてきた！",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/common_text.asm",
-   "label": "HookedMonAttackedText",
-   "line": 80,
-   "text": "つりあげた"
-  },
-  {
-   "source": "engine/battle/common_text.asm",
-   "label": "HookedMonAttackedText",
-   "line": 82,
-   "text": "が\nとびかかってきた！",
-   "continuation": true
-  },
-  {
    "source": "engine/battle/common_text.asm",
    "label": "EnemyAppearedText",
    "line": 87,
-   "text": "が\nあらわれた！"
+   "text": "{enemy}が\nあらわれた！"
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "TrainerWantsToFightText",
    "line": 93,
-   "text": "が\nしょうぶを　しかけてきた！"
-  },
-  {
-   "source": "engine/battle/common_text.asm",
-   "label": "UnveiledGhostText",
-   "line": 99,
-   "text": "シルフスコープが　ゆうれいの\nしょうたいを　みやぶった！"
-  },
-  {
-   "source": "engine/battle/common_text.asm",
-   "label": "GhostCantBeIDdText",
-   "line": 104,
-   "text": "だめだ！　ゆうれい　ポケモンの\nしょうたいが　わからない！"
+   "text": "{trainer}が\nしょうぶを　しかけてきた！"
   },
   {
    "source": "engine/battle/common_text.asm",
@@ -2152,7 +760,13 @@
    "source": "engine/battle/common_text.asm",
    "label": "PlayerMon1Text",
    "line": 176,
-   "text": "！"
+   "text": "{mon}！"
+  },
+  {
+   "source": "engine/battle/common_text.asm",
+   "label": "PlayerMon2Text",
+   "line": 185,
+   "text": "{mon}"
   },
   {
    "source": "engine/battle/common_text.asm",
@@ -2192,187 +806,25 @@
   },
   {
    "source": "engine/battle/effects.asm",
-   "label": "FellAsleepText",
-   "line": 70,
-   "text": "{target}は\nねむってしまった！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "AlreadyAsleepText",
-   "line": 75,
-   "text": "{target}は　すでに\nねむっている"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "PoisonedText",
-   "line": 166,
-   "text": "{target}は　どくをあびた！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "BadlyPoisonedText",
-   "line": 170,
-   "text": "{target}は\nもうどくをあびた！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "BurnedText",
-   "line": 307,
-   "text": "{target}は\nやけどをおった！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "FrozenText",
-   "line": 312,
-   "text": "{target}は\nこおりづけになった！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "FireDefrostedText",
-   "line": 352,
-   "text": "ほのおをあびて{target}の\nこおりが　とけた！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "MonsStatsRoseText",
-   "line": 522,
-   "text": "{user}の"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "MonsStatsRoseText",
-   "line": 525,
-   "text": "が",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "GreatlyRoseText",
-   "line": 540,
-   "text": "ぐーんと"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "RoseText",
-   "line": 544,
-   "text": "あがった！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
    "label": "MonsStatsFellText",
    "line": 727,
-   "text": "{target}の"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "MonsStatsFellText",
-   "line": 730,
-   "text": "が",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "GreatlyFellText",
-   "line": 748,
-   "text": "がくっと"
+   "text": "{target}の{name}が",
+   "trigger": {
+    "effect": [
+     "*_DOWN*_EFFECT"
+    ]
+   }
   },
   {
    "source": "engine/battle/effects.asm",
    "label": "FellText",
    "line": 752,
-   "text": "さがった！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "RanFromBattleText",
-   "line": 925,
-   "text": "{user}は　せんとうから\nりだつした！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "RanAwayScaredText",
-   "line": 930,
-   "text": "{target}は　おじけずいて\nにげだした！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "WasBlownAwayText",
-   "line": 935,
-   "text": "{target}は　ふきとばされた！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "ChargeMoveEffectText",
-   "line": 1046,
-   "text": "{user}"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "MadeWhirlwindText",
-   "line": 1070,
-   "text": "の　まわりで\nくうきが　うずを　まく！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "TookInSunlightText",
-   "line": 1075,
-   "text": "は\nひかりを　きゅうしゅうした！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "LoweredItsHeadText",
-   "line": 1080,
-   "text": "は\nくびを　ひっこめた！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "SkyAttackGlowingText",
-   "line": 1085,
-   "text": "を\nはげしい　ひかりが　つつむ！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "FlewUpHighText",
-   "line": 1090,
-   "text": "は\nそらたかく　とびあがった！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "DugAHoleText",
-   "line": 1095,
-   "text": "は\nあなをほって　ちちゅうに　もぐった！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "BecameConfusedText",
-   "line": 1174,
-   "text": "{target}は\nこんらんした！"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "MimicLearnedMoveText",
-   "line": 1296,
-   "text": "{user}は"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "MimicLearnedMoveText",
-   "line": 1299,
-   "text": "を　おぼえた！",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "MoveWasDisabledText",
-   "line": 1393,
-   "text": "{target}の"
-  },
-  {
-   "source": "engine/battle/effects.asm",
-   "label": "MoveWasDisabledText",
-   "line": 1396,
-   "text": "を　ふうじこめた！",
-   "continuation": true
+   "text": "さがった！",
+   "trigger": {
+    "effect": [
+     "*_DOWN*_EFFECT"
+    ]
+   }
   },
   {
    "source": "engine/battle/effects.asm",
@@ -2405,78 +857,22 @@
    "text": "{target}は\nへいきな　かおを　している！"
   },
   {
-   "source": "engine/battle/effects.asm",
-   "label": "ParalyzedMayNotAttackText",
-   "line": 1464,
-   "text": "{target}は　まひして\nわざが　でにくくなった！"
-  },
-  {
-   "source": "engine/battle/end_of_battle.asm",
-   "label": "YouWinText",
-   "line": 77,
-   "text": "あなたの　かち"
-  },
-  {
-   "source": "engine/battle/end_of_battle.asm",
-   "label": "YouLoseText",
-   "line": 80,
-   "text": "あなたの　まけ"
-  },
-  {
-   "source": "engine/battle/end_of_battle.asm",
-   "label": "DrawText",
-   "line": 83,
-   "text": "ひきわけ"
-  },
-  {
-   "source": "engine/battle/end_of_battle.asm",
-   "label": "PickUpPayDayMoneyText",
-   "line": 86,
-   "text": "{player}は"
-  },
-  {
-   "source": "engine/battle/end_of_battle.asm",
-   "label": "PickUpPayDayMoneyText",
-   "line": 88,
-   "text": "円\nひろった！",
-   "continuation": true
-  },
-  {
    "source": "engine/battle/experience.asm",
    "label": "GainedText",
    "line": 342,
-   "text": "は"
-  },
-  {
-   "source": "engine/battle/experience.asm",
-   "label": "WithExpAllText",
-   "line": 357,
-   "text": "がくしゅうそうちで"
-  },
-  {
-   "source": "engine/battle/experience.asm",
-   "label": "BoostedText",
-   "line": 363,
-   "text": "おおめに"
+   "text": "{name}は"
   },
   {
    "source": "engine/battle/experience.asm",
    "label": "ExpPointsText",
    "line": 366,
-   "text": "けいけんちを　もらった！"
+   "text": "{n}けいけんちを　もらった！"
   },
   {
    "source": "engine/battle/experience.asm",
    "label": "GrewLevelText",
    "line": 373,
-   "text": "は\nレベル"
-  },
-  {
-   "source": "engine/battle/experience.asm",
-   "label": "GrewLevelText",
-   "line": 377,
-   "text": "に　あがった！",
-   "continuation": true
+   "text": "{name}は\nレベル{n}に　あがった！"
   },
   {
    "source": "engine/battle/used_move_text.asm",
@@ -2501,6 +897,12 @@
    "label": "UsedMoveText_CheckObedience.UsedInsteadText",
    "line": 58,
    "text": "めいれいをむしして"
+  },
+  {
+   "source": "engine/battle/used_move_text.asm",
+   "label": "MoveNameText",
+   "line": 67,
+   "text": "{name}"
   },
   {
    "source": "engine/battle/used_move_text.asm",
@@ -2533,224 +935,10 @@
    "text": "！"
   },
   {
-   "source": "engine/battle/trainer_ai2.asm",
-   "label": "AIBattleWithdrawText",
-   "line": 326,
-   "text": "は"
-  },
-  {
-   "source": "engine/battle/trainer_ai2.asm",
-   "label": "AIBattleWithdrawText",
-   "line": 330,
-   "text": "をひっこめた！",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/trainer_ai2.asm",
-   "label": "AIBattleUseItemText",
-   "line": 455,
-   "text": "は"
-  },
-  {
-   "source": "engine/battle/trainer_ai2.asm",
-   "label": "AIBattleUseItemText",
-   "line": 458,
-   "text": "に",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/trainer_ai2.asm",
-   "label": "AIBattleUseItemText",
-   "line": 461,
-   "text": "を　つかった",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/move_effects/drain_hp.asm",
-   "label": "SuckedHealthText",
-   "line": 98,
-   "text": "{target}から\nたいりょくを　すいとった！"
-  },
-  {
-   "source": "engine/battle/move_effects/drain_hp.asm",
-   "label": "DreamWasEatenText",
-   "line": 103,
-   "text": "{target}の\nゆめを　くった！"
-  },
-  {
-   "source": "engine/battle/move_effects/leech_seed.asm",
-   "label": "WasSeededText",
-   "line": 34,
-   "text": "{target}に\nたねを　うえつけた！"
-  },
-  {
-   "source": "engine/battle/move_effects/leech_seed.asm",
-   "label": "EvadedAttackText",
-   "line": 39,
-   "text": "{target}は\nこうげきを　かわした！"
-  },
-  {
-   "source": "engine/battle/move_effects/heal.asm",
-   "label": "StartedSleepingEffect",
-   "line": 110,
-   "text": "{user}は\nねむりはじめた！"
-  },
-  {
-   "source": "engine/battle/move_effects/heal.asm",
-   "label": "FellAsleepBecameHealthyText",
-   "line": 115,
-   "text": "{user}は　けんこうになって\nねむりはじめた！"
-  },
-  {
-   "source": "engine/battle/move_effects/heal.asm",
-   "label": "RegainedHealthText",
-   "line": 120,
-   "text": "{user}は　たいりょくを\nかいふくした！"
-  },
-  {
-   "source": "engine/battle/move_effects/recoil.asm",
-   "label": "HitWithRecoilText",
-   "line": 69,
-   "text": "{user}は　こうげきの\nはんどうを　うけた！"
-  },
-  {
-   "source": "engine/battle/move_effects/focus_energy.asm",
-   "label": "GettingPumpedText",
-   "line": 19,
-   "text": "{user}は\nはりきっている！"
-  },
-  {
-   "source": "engine/battle/move_effects/mist.asm",
-   "label": "ShroudedInMistText",
-   "line": 17,
-   "text": "{user}は\nしろい　きりに　つつまれた！"
-  },
-  {
-   "source": "engine/battle/move_effects/haze.asm",
-   "label": "StatusChangesEliminatedText",
-   "line": 89,
-   "text": "すべての　ステータスが\nもとに　もどった！"
-  },
-  {
-   "source": "engine/battle/move_effects/reflect_light_screen.asm",
-   "label": "LightScreenProtectedText",
-   "line": 35,
-   "text": "{user}は\nとくしゅこうげきに　つよくなった！"
-  },
-  {
-   "source": "engine/battle/move_effects/reflect_light_screen.asm",
-   "label": "ReflectGainedArmorText",
-   "line": 40,
-   "text": "{user}は\nだげきこうげきに　つよくなった！"
-  },
-  {
-   "source": "engine/battle/move_effects/substitute.asm",
-   "label": "SubstituteText",
-   "line": 67,
-   "text": "{user}の\nぶんしんが　あらわれた"
-  },
-  {
-   "source": "engine/battle/move_effects/substitute.asm",
-   "label": "HasSubstituteText",
-   "line": 72,
-   "text": "しかし　{user}の\nみがわりは　すでに　でていた！"
-  },
-  {
-   "source": "engine/battle/move_effects/substitute.asm",
-   "label": "TooWeakSubstituteText",
-   "line": 77,
-   "text": "しかし　ぶんしんを　だすには\nたいりょくが　たりなかった！"
-  },
-  {
-   "source": "engine/battle/move_effects/transform.asm",
-   "label": "TransformedText",
-   "line": 144,
-   "text": "{user}は"
-  },
-  {
-   "source": "engine/battle/move_effects/transform.asm",
-   "label": "TransformedText",
-   "line": 147,
-   "text": "に　へんしんした！",
-   "continuation": true
-  },
-  {
-   "source": "engine/battle/move_effects/conversion.asm",
-   "label": "ConvertedTypeText",
-   "line": 26,
-   "text": "{target}の　ぞくせいを\nじぶんに　はりつけた！"
-  },
-  {
-   "source": "engine/battle/move_effects/pay_day.asm",
-   "label": "CoinsScatteredText",
-   "line": 43,
-   "text": "こばんが　あたりに　ちらばった！"
-  },
-  {
-   "source": "engine/overworld/field_move_messages.asm",
-   "label": "UsedStrengthText",
-   "line": 9,
-   "text": "は\nかいりきを　はっきした！"
-  },
-  {
-   "source": "engine/overworld/field_move_messages.asm",
-   "label": "CanMoveBouldersText",
-   "line": 19,
-   "text": "の　かいりきの　おかげで\nいわを　おせるように　なった！"
-  },
-  {
-   "source": "engine/overworld/field_move_messages.asm",
-   "label": "CurrentTooFastText",
-   "line": 56,
-   "text": "ながれが　はやくて\nダメだ！"
-  },
-  {
-   "source": "engine/overworld/field_move_messages.asm",
-   "label": "CyclingIsFunText",
-   "line": 61,
-   "text": "せっかくの　サイクリング！\n……　なみのりは　やめとこう"
-  },
-  {
-   "source": "engine/overworld/player_state.asm",
-   "label": "SafariBallText",
-   "line": 248,
-   "text": "ボール　　　こ"
-  },
-  {
-   "source": "engine/overworld/player_animations.asm",
-   "label": "NoNibbleText",
-   "line": 462,
-   "text": "つれないなー……"
-  },
-  {
-   "source": "engine/overworld/player_animations.asm",
-   "label": "NothingHereText",
-   "line": 466,
-   "text": "なにも　いない　みたい……"
-  },
-  {
-   "source": "engine/overworld/player_animations.asm",
-   "label": "ItsABiteText",
-   "line": 470,
-   "text": "おっ！\nひいてる　ひいてる！"
-  },
-  {
-   "source": "home/text.asm",
-   "label": "TextIDErrorText",
-   "line": 184,
-   "text": "エラー"
-  },
-  {
-   "source": "home/text_script.asm",
-   "label": "PokemartGreetingText",
-   "line": 153,
-   "text": "ようこそ！\nおさがしものですか？"
-  },
-  {
    "source": "home/text_script.asm",
    "label": "PokemonFaintedText",
    "line": 194,
-   "text": "は　ちからつきた"
+   "text": "{name}は　ちからつきた"
   },
   {
    "source": "home/text_script.asm",
@@ -2759,106 +947,10 @@
    "text": "{player}の　てもとには\nたたかえるポケモンが　もういない！\n\n{player}は\nめのまえが　まっくらに　なった！"
   },
   {
-   "source": "home/text_script.asm",
-   "label": "RepelWoreOffText",
-   "line": 217,
-   "text": "スプレーの　こうかがきれた"
-  },
-  {
    "source": "home/overworld_text.asm",
    "label": "ExclamationText",
    "line": 8,
    "text": "！"
-  },
-  {
-   "source": "home/overworld_text.asm",
-   "label": "GroundRoseText",
-   "line": 12,
-   "text": "どこかで　じめんがもりあがった！"
-  },
-  {
-   "source": "home/overworld_text.asm",
-   "label": "BoulderText",
-   "line": 16,
-   "text": "「かいりき」　で　うごかせるかも……"
-  },
-  {
-   "source": "home/overworld_text.asm",
-   "label": "MartSignText",
-   "line": 20,
-   "text": "ポケモン　グッズが　いっぱい！\nフレンドリィショップ"
-  },
-  {
-   "source": "home/overworld_text.asm",
-   "label": "PokeCenterSignText",
-   "line": 25,
-   "text": "ポケモンの　たいりょく　かいふく！\nポケモンセンター"
-  },
-  {
-   "source": "home/list_menu.asm",
-   "label": "ListMenuCancelText",
-   "line": 525,
-   "text": "やめる"
-  },
-  {
-   "source": "home/names.asm",
-   "label": "TechnicalPrefix",
-   "line": 107,
-   "text": "わざマシン"
-  },
-  {
-   "source": "home/names.asm",
-   "label": "HiddenPrefix",
-   "line": 109,
-   "text": "ひでんマシン"
-  },
-  {
-   "source": "home/trainers.asm",
-   "label": "TrainerEndBattleText",
-   "line": 368,
-   "text": "『"
-  },
-  {
-   "source": "data/text_boxes.asm",
-   "label": "BuySellQuitText",
-   "line": 39,
-   "text": "かいに　きた\nうりに　きた\nべつに　いいです"
-  },
-  {
-   "source": "data/text_boxes.asm",
-   "label": "UseTossText",
-   "line": 46,
-   "text": "つかう\nすてる"
-  },
-  {
-   "source": "data/text_boxes.asm",
-   "label": "SaveMessageText",
-   "line": 50,
-   "text": "きろく\nメッセージ"
-  },
-  {
-   "source": "data/text_boxes.asm",
-   "label": "SpeedOptionsText",
-   "line": 54,
-   "text": "はやい\nおそい"
-  },
-  {
-   "source": "data/text_boxes.asm",
-   "label": "MoneyText",
-   "line": 58,
-   "text": "おかね"
-  },
-  {
-   "source": "data/text_boxes.asm",
-   "label": "MochimonoText",
-   "line": 61,
-   "text": "もちもの"
-  },
-  {
-   "source": "data/text_boxes.asm",
-   "label": "MainMenuText",
-   "line": 64,
-   "text": "つづきから\nさいしょから"
   },
   {
    "source": "data/text_boxes.asm",
@@ -2868,75 +960,9 @@
   },
   {
    "source": "data/text_boxes.asm",
-   "label": "SafariZoneBattleMenuText",
-   "line": 72,
-   "text": "サファリボール×　　　エサをなげる\nいしをなげる　　　　　にげる"
-  },
-  {
-   "source": "data/text_boxes.asm",
-   "label": "SwitchStatsCancelText",
-   "line": 76,
-   "text": "とりかえる\nつよさをみる\nキャンセル"
-  },
-  {
-   "source": "data/text_boxes.asm",
    "label": "AhText",
    "line": 81,
    "text": "アッ！"
-  },
-  {
-   "source": "data/text_boxes.asm",
-   "label": "PokedexMenuText",
-   "line": 84,
-   "text": "データをみる\nなきごえ\nぶんぷをみる\nキャンセル"
-  },
-  {
-   "source": "data/yes_no_menu_strings.asm",
-   "label": "TwoOptionMenuStrings.NoYesMenu",
-   "line": 20,
-   "text": "いいえ\nはい"
-  },
-  {
-   "source": "data/yes_no_menu_strings.asm",
-   "label": "TwoOptionMenuStrings.YesNoMenu",
-   "line": 24,
-   "text": "はい\nいいえ"
-  },
-  {
-   "source": "data/yes_no_menu_strings.asm",
-   "label": "TwoOptionMenuStrings.NorthWestMenu",
-   "line": 28,
-   "text": "きた\nにし"
-  },
-  {
-   "source": "data/yes_no_menu_strings.asm",
-   "label": "TwoOptionMenuStrings.SouthEastMenu",
-   "line": 32,
-   "text": "みなみ\nひがし"
-  },
-  {
-   "source": "data/yes_no_menu_strings.asm",
-   "label": "TwoOptionMenuStrings.NorthEastMenu",
-   "line": 36,
-   "text": "きた\nひがし"
-  },
-  {
-   "source": "data/yes_no_menu_strings.asm",
-   "label": "TwoOptionMenuStrings.TradeCancelMenu",
-   "line": 40,
-   "text": "こうかん\nやめる"
-  },
-  {
-   "source": "data/yes_no_menu_strings.asm",
-   "label": "TwoOptionMenuStrings.HealCancelMenu",
-   "line": 44,
-   "text": "あずける\nやめる"
-  },
-  {
-   "source": "data/moves/field_move_names.asm",
-   "label": "FieldMoveNames",
-   "line": 2,
-   "text": "いあいぎり\nそらをとぶ\nなみのり\nかいりき\nフラッシュ\nあなをほる\nテレポート\nタマゴうみ"
   }
  ],
  "pokemon": [
@@ -2948,11 +974,12 @@
     "GRASS",
     "POISON"
    ],
-   "levels": [],
+   "levels": [
+    5
+   ],
    "moves": [
     "TACKLE",
-    "GROWL",
-    "LEECH_SEED"
+    "GROWL"
    ],
    "new": true
   },
@@ -2963,11 +990,12 @@
    "types": [
     "FIRE"
    ],
-   "levels": [],
+   "levels": [
+    5
+   ],
    "moves": [
     "SCRATCH",
-    "GROWL",
-    "EMBER"
+    "GROWL"
    ],
    "new": true
   },
@@ -2978,11 +1006,12 @@
    "types": [
     "WATER"
    ],
-   "levels": [],
+   "levels": [
+    5
+   ],
    "moves": [
     "TACKLE",
-    "TAIL_WHIP",
-    "BUBBLE"
+    "TAIL_WHIP"
    ],
    "new": true
   }
@@ -2991,38 +1020,36 @@
   {
    "const": "TACKLE",
    "ja": "たいあたり",
+   "effect": "NO_ADDITIONAL_EFFECT",
    "learnedBy": "BULBASAUR"
   },
   {
    "const": "GROWL",
    "ja": "なきごえ",
-   "learnedBy": "BULBASAUR"
-  },
-  {
-   "const": "LEECH_SEED",
-   "ja": "やどりぎのタネ",
+   "effect": "ATTACK_DOWN1_EFFECT",
    "learnedBy": "BULBASAUR"
   },
   {
    "const": "SCRATCH",
    "ja": "ひっかく",
-   "learnedBy": "CHARMANDER"
-  },
-  {
-   "const": "EMBER",
-   "ja": "ひのこ",
+   "effect": "NO_ADDITIONAL_EFFECT",
    "learnedBy": "CHARMANDER"
   },
   {
    "const": "TAIL_WHIP",
    "ja": "しっぽをふる",
-   "learnedBy": "SQUIRTLE"
-  },
-  {
-   "const": "BUBBLE",
-   "ja": "あわ",
+   "effect": "DEFENSE_DOWN1_EFFECT",
    "learnedBy": "SQUIRTLE"
   }
  ],
- "items": []
+ "items": [
+  {
+   "const": "TOWN_MAP",
+   "ja": "タウンマップ"
+  },
+  {
+   "const": "POKEDEX",
+   "ja": "ポケモンずかん"
+  }
+ ]
 }

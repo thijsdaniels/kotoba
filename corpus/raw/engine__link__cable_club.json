@@ -4,10 +4,10 @@
   {
    "label": "CableClub_DoBattleOrTradeAgain",
    "line": 34,
-   "text": "の　データが\nこわれています！"
+   "text": "{name}の　データが\nこわれています！"
   },
   {
-   "label": "CableClub_DoBattleOrTradeAgain",
+   "label": "CableClub_DoBattleOrTradeAgain#2",
    "line": 342,
    "text": "じぶん\nあいて",
    "continuation": true
@@ -30,13 +30,7 @@
   {
    "label": "WillBeTradedText",
    "line": 907,
-   "text": "と"
-  },
-  {
-   "label": "WillBeTradedText",
-   "line": 910,
-   "text": "を\nこうかんします",
-   "continuation": true
+   "text": "{nameofplayermontobetraded}と{name}を\nこうかんします"
   },
   {
    "label": "TradeCompleted",

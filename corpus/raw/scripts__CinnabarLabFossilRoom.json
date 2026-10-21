@@ -19,13 +19,7 @@
   {
    "label": "CinnabarLabFossilRoomScientist1Text.FossilIsBackToLifeText",
    "line": 108,
-   "text": "おそいねー！\n\nもう　カセキ　いきかえったよー！\n\nやっぱり　カセキは"
-  },
-  {
-   "label": "CinnabarLabFossilRoomScientist1Text.FossilIsBackToLifeText",
-   "line": 115,
-   "text": "だった　アルね！",
-   "continuation": true
+   "text": "おそいねー！\n\nもう　カセキ　いきかえったよー！\n\nやっぱり　カセキは{name}だった　アルね！"
   }
  ]
 }
