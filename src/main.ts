@@ -15,7 +15,7 @@ interface QueueEntry { id: string; side: Side }
 
 const KINDS: Record<Kind, string> = { word: "Word", form: "Form", ending: "Ending", kana: "Kana", pokemon: "Pokémon", move: "Move", item: "Item", term: "Jargon" };
 const PRODUCE_CHOICES: [Kind, string][] = [["word", "Words"], ["form", "Forms"], ["ending", "Endings"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
-const FILTERS: [string, string][] = [["all", "All"], ["word", "Words"], ["grammar", "Grammar"], ["kana", "Kana"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
+const KIND_CHOICES: [Kind, string][] = [["word", "Words"], ["form", "Forms"], ["ending", "Endings"], ["kana", "Kana"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
 const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
 const REVIEW_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Hard", "hard", 1], ["Good", "good", 2], ["Easy", "easy", 3]];
 
@@ -48,28 +48,19 @@ let current: QueueEntry | null = null;
 let revealed = false, drawn = false, busy = false, justDrawn = false, flipped = false;
 let openId: string | null = null;
 let view: "review" | "practice" | "cards" | "settings" = "review";
-let mode = "all"; // practice: which kinds
-let stageFilter = "all"; // practice: which stage
+// practice filters: the chosen stages and kinds; an empty set means all of them
+let chosenStages = new Set<string>();
+let chosenKinds = new Set<string>();
+let openFilter: "stage" | "kind" | null = null;
 let openStages = new Set<string>(); // stages unfolded in the card list; everything starts folded
 try { openStages = new Set(JSON.parse(localStorage.getItem("kotoba-open-stages") ?? "[]") as string[]); } catch { /* private mode */ }
 let kanaFont: "game" | "normal" = "game";
-try { mode = localStorage.getItem("kotoba-mode") ?? "all"; stageFilter = localStorage.getItem("kotoba-stage-filter") ?? "all"; kanaFont = (localStorage.getItem("kotoba-kfont") as "game" | "normal") ?? "game"; } catch { /* private mode */ }
+try { chosenStages = new Set(JSON.parse(localStorage.getItem("kotoba-stages") ?? "[]") as string[]); chosenKinds = new Set(JSON.parse(localStorage.getItem("kotoba-kinds") ?? "[]") as string[]); kanaFont = (localStorage.getItem("kotoba-kfont") as "game" | "normal") ?? "game"; } catch { /* private mode */ }
 let pendingWrite: Promise<unknown> = Promise.resolve();
 
 const practicing = () => view === "practice";
 const kindOf = (card: Card): Kind => (KINDS[card.kind] ? card.kind : "word");
-const isGrammar = (card: Card) => card.kind === "form" || card.kind === "ending";
-const inMode = (card: Card) =>
-  mode === "all" ? true
-  : mode === "word" ? card.kind === "word"
-  : mode === "grammar" ? isGrammar(card)
-  : mode === "kana" ? card.kind === "kana"
-  : mode === "pokemon" ? card.kind === "pokemon"
-  : mode === "move" ? card.kind === "move"
-  : mode === "item" ? card.kind === "item"
-  : card.kind === "term";
-const inStage = (card: Card) => stageFilter === "all" || card.stage === stageFilter;
-const inPractice = (card: Card) => inMode(card) && inStage(card) && unlocked(card);
+const inPractice = (card: Card) => unlocked(card) && (!chosenKinds.size || chosenKinds.has(card.kind)) && (!chosenStages.size || chosenStages.has(card.stage));
 // a card with no stage, or one that isn't in the list, stays locked until it's fixed; system cards are always open
 const stageIndex = (id: string | undefined) => { const index = stages.findIndex(stage => stage.id === id); return index < 0 ? Infinity : index; };
 const stageLabel = (id: string | undefined) => stages.find(stage => stage.id === id)?.name ?? (id === "system" ? "Menus and Messages" : "No stage");
@@ -216,14 +207,15 @@ function listDetailHtml(card: Card) {
 
 /* views */
 function renderFilter() {
-  const stageSelect = byId("filter-stage") as HTMLSelectElement, kindSelect = byId("filter-kind") as HTMLSelectElement;
-  const open = stages.filter(stage => stageIndex(stage.id) <= stageIndex(state.settings.stage));
-  const stageOptions = [["all", "All Stages"], ...open.map(stage => [stage.id, stage.name]), ["system", "Menus and Messages"]];
-  if (!stageOptions.some(([id]) => id === stageFilter)) stageFilter = "all";
-  stageSelect.innerHTML = stageOptions.map(([id, label]) => `<option value="${id}">${escapeHtml(label)}</option>`).join("");
-  stageSelect.value = stageFilter;
-  if (!kindSelect.options.length) kindSelect.innerHTML = FILTERS.map(([id, label]) => `<option value="${id}">${escapeHtml(id === "all" ? "All Kinds" : label)}</option>`).join("");
-  kindSelect.value = mode;
+  const stageChoices: [string, string][] = [...stages.filter(stage => stageIndex(stage.id) <= stageIndex(state.settings.stage)).map(stage => [stage.id, stage.name] as [string, string]), ["system", "Menus and Messages"]];
+  for (const id of chosenStages) if (!stageChoices.some(([choice]) => choice === id)) chosenStages.delete(id); // a stage locked again drops out of the filter
+  const summary = (name: string, chosen: Set<string>, choices: [string, string][]) =>
+    `${name}: ${chosen.size ? choices.filter(([id]) => chosen.has(id)).map(([, label]) => label).join(", ") : "All"}`;
+  const chips = (which: "stage" | "kind", chosen: Set<string>, choices: [string, string][]) =>
+    `<div class="filter" data-filter="${which}">${choices.map(([id, label]) => `<button data-choice="${escapeHtml(id)}" aria-pressed="${chosen.has(id)}">${which === "kind" ? `<span class="dot" style="--kc: var(--k-${id})"></span>` : ""}${escapeHtml(label)}</button>`).join("")}</div>`;
+  byId("filters").innerHTML =
+    `<div class="filter-heads"><button data-open="stage" aria-expanded="${openFilter === "stage"}">${escapeHtml(summary("Stages", chosenStages, stageChoices))}</button><button data-open="kind" aria-expanded="${openFilter === "kind"}">${escapeHtml(summary("Kinds", chosenKinds, KIND_CHOICES))}</button></div>`
+    + (openFilter === "stage" ? chips("stage", chosenStages, stageChoices) : openFilter === "kind" ? chips("kind", chosenKinds, KIND_CHOICES) : "");
 }
 function renderDeck() {
   const container = deckElement(), practice = practicing();
@@ -331,12 +323,16 @@ function saveSettings(patch: Partial<Settings>) {
 }
 
 for (const name of ["review", "practice", "cards", "settings"] as const) byId("tab-" + name).onclick = () => showTab(name);
-(byId("filter-kind") as HTMLSelectElement).onchange = event => {
-  mode = (event.target as HTMLSelectElement).value; try { localStorage.setItem("kotoba-mode", mode); } catch { /* private mode */ }
-  buildQueue(); render();
-};
-(byId("filter-stage") as HTMLSelectElement).onchange = event => {
-  stageFilter = (event.target as HTMLSelectElement).value; try { localStorage.setItem("kotoba-stage-filter", stageFilter); } catch { /* private mode */ }
+byId("filters").onclick = event => {
+  const target = event.target as HTMLElement;
+  const head = target.closest<HTMLElement>("[data-open]");
+  if (head) { const which = head.dataset.open as "stage" | "kind"; openFilter = openFilter === which ? null : which; renderFilter(); return; }
+  const chip = target.closest<HTMLElement>("[data-choice]");
+  if (!chip) return;
+  const which = chip.closest<HTMLElement>("[data-filter]")!.dataset.filter, choice = chip.dataset.choice!;
+  const chosen = which === "stage" ? chosenStages : chosenKinds;
+  if (chosen.has(choice)) chosen.delete(choice); else chosen.add(choice);
+  try { localStorage.setItem(which === "stage" ? "kotoba-stages" : "kotoba-kinds", JSON.stringify([...chosen])); } catch { /* private mode */ }
   buildQueue(); render();
 };
 byId("search").oninput = renderCards;

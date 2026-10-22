@@ -51,7 +51,10 @@ h1 small { font-size: 13px; color: var(--muted); margin-left: 6px; letter-spacin
 nav { display: flex; gap: 4px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 4px; }
 nav button { flex: 1; border: 0; background: transparent; color: var(--muted); font: 500 14px var(--f-jp); padding: 8px; border-radius: 7px; cursor: pointer; }
 nav button[aria-selected="true"] { background: var(--accent-soft); color: var(--fg); }
-.filters { display: flex; gap: 8px; }
+.filters { display: flex; flex-direction: column; gap: 8px; }
+.filter-heads { display: flex; gap: 8px; }
+.filter-heads button { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--panel); color: var(--fg); font: 14px var(--f-jp); padding: 9px 10px; border-radius: 8px; cursor: pointer; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.filter-heads button[aria-expanded="true"] { border-color: var(--accent); background: var(--accent-soft); }
 .filter { display: flex; gap: 6px; flex-wrap: wrap; }
 .filter button { border: 1px solid var(--line); background: transparent; color: var(--muted); font: 13px var(--f-jp); padding: 4px 12px; border-radius: 99px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
 .filter button[aria-pressed="true"] { border-color: var(--accent); color: var(--fg); background: var(--accent-soft); }
