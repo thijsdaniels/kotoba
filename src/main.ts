@@ -264,8 +264,9 @@ function renderCards() {
   if (!items.length) { list.innerHTML = `<div class="empty">No matches.</div>`; return; }
   list.innerHTML = items.slice(0, 400).map(card => {
     const [cls, label] = status(card), open = openId === card.id;
-    const tag = `<span class="tag">${escapeHtml(card.kind === "form" ? (card.form ?? "form") : KINDS[kindOf(card)])}</span>`;
-    return `<div class="item" style="${kindColor(card)}"><button data-id="${escapeHtml(card.id)}" aria-expanded="${open}"><span class="k">${escapeHtml(card.kana)}${card.kanji ? `<small>${escapeHtml(card.kanji)}</small>` : ""}${tag}</span><span class="chip ${cls}">${label}</span><span class="m">${implied(card.meaning)}</span></button>
+    const tag = `<span class="tag">${escapeHtml(KINDS[kindOf(card)])}</span>`;
+    const meaning = (card.kind === "form" && card.form ? `<span class="form">${escapeHtml(card.form)}</span> · ` : "") + implied(card.meaning);
+    return `<div class="item" style="${kindColor(card)}"><button data-id="${escapeHtml(card.id)}" aria-expanded="${open}"><span class="k">${escapeHtml(card.kana)}${card.kanji ? `<small>${escapeHtml(card.kanji)}</small>` : ""}${tag}</span><span class="chip ${cls}">${label}</span><span class="m">${meaning}</span></button>
       ${open ? `<div class="detail">${listDetailHtml(card)}<div class="sub">${escapeHtml(stageLabel(card.stage))}</div></div>` : ""}</div>`;
   }).join("") + (items.length > 400 ? `<div class="empty">${items.length - 400} more. Narrow the search.</div>` : "");
   list.querySelectorAll<HTMLButtonElement>("[data-id]").forEach(button => button.onclick = () => { openId = openId === button.dataset.id ? null : button.dataset.id!; renderCards(); });

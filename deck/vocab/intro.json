@@ -113,7 +113,7 @@
   "kind": "form",
   "kana": "〜て おる",
   "base": "いる",
-  "form": "progressive, ている with おる",
+  "form": "ongoing 〜ておる",
   "register": "old-fashioned, Oak's speech",
   "meaning": "to be doing · おる replaces いる",
   "ref": "intro/OakSpeechText1",
@@ -121,7 +121,8 @@
   "units": [
    2,
    2
-  ]
+  ],
+  "note": "Old-fashioned: おる in place of いる."
  },
  {
   "id": "f-oshietemorau",
@@ -130,7 +131,7 @@
   "meaning": "(I) have (someone) tell (me)",
   "scope": "general",
   "base": "おしえる",
-  "form": "receive the favor of (〜てもらう)",
+  "form": "receive the favor 〜てもらう",
   "register": "plain",
   "vclass": "",
   "ref": "intro/IntroducePlayerText",
