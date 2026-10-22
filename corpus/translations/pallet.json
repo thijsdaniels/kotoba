@@ -446,23 +446,23 @@
    },
    {
     "ja": "ほれ　そのために…… ひつような　どうぐを　わたそう！",
-    "en": "Here, for that purpose..."
+    "en": "Here, for that purpose... I'll hand (you) the necessary tools!"
    },
    {
     "ja": "{player}は　５こ モンスターボールを　もらった！",
-    "en": "I'll hand (you) the necessary tools!"
-   },
-   {
-    "ja": "やせいの　ポケモンが とびだして　きたら　チャンス！",
     "en": "{player} received 5 Monster Balls!"
    },
    {
-    "ja": "モンスターボールを ポイ！",
+    "ja": "やせいの　ポケモンが とびだして　きたら　チャンス！",
     "en": "When a wild Pokémon jumps out, (that's your) chance!"
    },
    {
+    "ja": "モンスターボールを ポイ！",
+    "en": "A Monster Ball, toss!"
+   },
+   {
     "ja": "と　なげれば ポケモンを　つかまえ　られる！",
-    "en": "If (you) throw a Monster Ball, toss!, (you) can catch the Pokémon!"
+    "en": "If (you) throw it like that, (you) can catch the Pokémon!"
    },
    {
     "ja": "ただし……　うまく　とれるか どうかは　わからんぞ！",

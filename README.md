@@ -54,7 +54,7 @@ tools/
   build_deck.py                deck/vocab + corpus + translations → deck/cards.json
 ```
 
-A card that quotes the game carries `ref` (the string), `sentence` (the unit index) and `surface` (the word as it appears there, which must occur exactly once in that unit); the build validates all three and attaches the sentence and its translation, with no guessing. A card's stage is the stage of its `ref`; a card without a ref is an everyday example and belongs to its file's stage. Pokémon, moves and mart items a stage introduces get a plain card automatically unless a hand-written one covers the same kana.
+A card that quotes the game carries `ref` (the string), `units` (`[first, last]`, the sentence units it quotes, usually one) and `surface` (the word as it appears there, which must occur exactly once in the quoted units); the build validates all three and attaches the sentence and its translation, with no guessing. A card's stage is the stage of its `ref`; a card without a ref is an everyday example and belongs to its file's stage. Pokémon, moves and mart items a stage introduces get a plain card automatically unless a hand-written one covers the same kana.
 
 ## The app
 

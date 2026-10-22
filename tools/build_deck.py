@@ -2,9 +2,9 @@
 """Build deck/cards.json from deck/vocab/*.json, the corpus and its translations.
 
 A hand-written card that quotes the game names the string it came from (`ref`, as
-"<stage>/<label>"), the sentence in it (`sentence`, an index into the splitter's units)
-and the word's surface form there (`surface`, which must occur exactly once in that
-sentence). The build attaches that sentence, its translation and the speaker, and stamps
+"<stage>/<label>"), the units it quotes (`units`, [first, last] indexes into the
+splitter's units, usually one sentence) and the word's surface form there (`surface`,
+which must occur exactly once in the joined units). The build attaches that sentence, its translation and the speaker, and stamps
 the card with the ref's stage. Nothing is guessed: a card that doesn't validate fails the
 build. A card without a ref is an everyday example and belongs to its file's stage.
 
@@ -59,15 +59,18 @@ def main():
         entry, translation = strings.get(ref), translations.get(ref)
         if not entry: errors.append(f"{card['id']}: unknown ref {ref}"); return card
         if not translation: errors.append(f"{card['id']}: {ref} has no translation"); return card
-        index, surface = card.get("sentence"), card.get("surface")
-        if not isinstance(index, int) or not (0 <= index < len(entry["sentences"])): errors.append(f"{card['id']}: sentence {index} out of range for {ref}"); return card
-        sentence = entry["sentences"][index]
-        if not surface or sentence.count(surface) != 1: errors.append(f"{card['id']}: surface {surface!r} does not occur exactly once in {ref}#{index}: {sentence}"); return card
+        units, surface = card.get("units"), card.get("surface")
+        count = len(entry["sentences"])
+        if not (isinstance(units, list) and len(units) == 2 and all(isinstance(u, int) for u in units) and 0 <= units[0] <= units[1] < count):
+            errors.append(f"{card['id']}: units {units} are not a valid range for {ref} with {count} units"); return card
+        first, last = units
+        sentence = " ".join(entry["sentences"][first:last + 1])
+        if not surface or sentence.count(surface) != 1: errors.append(f"{card['id']}: surface {surface!r} does not occur exactly once in {ref}#{first}-{last}: {sentence}"); return card
         card["stage"] = ref.split("/")[0]
         if entry.get("speaker"): card["speaker"] = entry["speaker"]
         if translation.get("who"): card["who"] = translation["who"]
         card["line"] = sentence
-        card["lineEn"] = translation["sentences"][index]["en"]
+        card["lineEn"] = " ".join(pair["en"] for pair in translation["sentences"][first:last + 1])
         return card
 
     for fn in sorted(os.listdir(os.path.join(DECK, "vocab"))):

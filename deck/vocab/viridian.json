@@ -7,8 +7,11 @@
   "ref": "viridian/CantDepositLastMonText",
   "example": "こまるん ちゃう？",
   "exampleEn": "won't you be in trouble?",
-  "sentence": 0,
-  "surface": "ちゃう"
+  "surface": "ちゃう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-hen",
@@ -18,8 +21,11 @@
   "ref": "viridian/CantTakeMonText",
   "example": "もちきれへん",
   "exampleEn": "can't carry",
-  "sentence": 0,
-  "surface": "へん"
+  "surface": "へん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-nante",
@@ -33,8 +39,11 @@
   "example": "ここで あえる なんて",
   "exampleEn": "To think that (we) can meet here!",
   "note": "Often followed by the speaker's reaction: X なんて, Y だね.",
-  "sentence": 2,
-  "surface": "なんて"
+  "surface": "なんて",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "e-ndesune",
@@ -44,8 +53,11 @@
   "ref": "viridian/ViridianCityYoungster1Text",
   "example": "ポケモンだね",
   "exampleEn": "it's a Pokémon, isn't it",
-  "sentence": 1,
-  "surface": "ポケモンだね"
+  "surface": "ポケモンだね",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-ne",
@@ -59,8 +71,11 @@
   "example": "きれいだね",
   "exampleEn": "(It) is pretty, huh.",
   "note": "だね after nouns and な-adjectives, casual. Polite: ですね.",
-  "sentence": 1,
-  "surface": "ね"
+  "surface": "ね",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-nou",
@@ -70,8 +85,11 @@
   "ref": "viridian/ViridianPokecenterGentlemanText",
   "example": "しんせつやのう",
   "exampleEn": "kind, isn't she",
-  "sentence": 1,
-  "surface": "のう"
+  "surface": "のう",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-ntoru",
@@ -81,8 +99,11 @@
   "ref": "viridian/NoMonText",
   "example": "あずかっとらんで",
   "exampleEn": "I'm not holding any",
-  "sentence": 1,
-  "surface": "とらん"
+  "surface": "とらん",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-sakini",
@@ -92,8 +113,11 @@
   "ref": "viridian/ViridianPokecenterCooltrainerMText",
   "example": "このさき",
   "exampleEn": "from here on, beyond here",
-  "sentence": 0,
-  "surface": "さき"
+  "surface": "さき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-wane",
@@ -103,8 +127,11 @@
   "ref": "viridian/ViridianCityGirlText.HasntHadHisCoffeeYetText",
   "example": "しょーが ないわね",
   "exampleEn": "it can't be helped, can it",
-  "sentence": 1,
-  "surface": "わね"
+  "surface": "わね",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-ya-kansai",
@@ -114,8 +141,11 @@
   "ref": "viridian/BoxFullText",
   "example": "いっぱいや",
   "exampleEn": "is full",
-  "sentence": 1,
-  "surface": "や"
+  "surface": "や",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-yanke",
@@ -123,8 +153,11 @@
   "kana": "〜やんけ",
   "meaning": "isn't it! · Kansai, blunt",
   "ref": "viridian/CantTakeMonText",
-  "sentence": 0,
-  "surface": "やんけ"
+  "surface": "やんけ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "itsukitemo",
@@ -138,8 +171,11 @@
   "example": "なにを たべても おいしい",
   "exampleEn": "Whatever (I) eat is tasty.",
   "note": "Question word + て-form + も: いつ きても = whenever (I) come, なにを しても = whatever (I) do.",
-  "sentence": 0,
-  "surface": "いつ　きても この"
+  "surface": "いつ　きても この",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kai",
@@ -151,8 +187,11 @@
   "scope": "general",
   "ref": "viridian/ViridianMartClerkParcelQuestText",
   "note": "Softer than か. Older-sounding.",
-  "sentence": 1,
-  "surface": "かい"
+  "surface": "かい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-itadakeru",
@@ -165,8 +204,11 @@
   "ref": "viridian/PokemonSellingGreetingText",
   "example": "うっていただけますか",
   "exampleEn": "could you sell it to us",
-  "sentence": 0,
-  "surface": "ていただけますか"
+  "surface": "ていただけますか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-masenka",
@@ -194,8 +236,11 @@
   "exampleEn": "(I) became not understanding.",
   "exampleLoose": "I got confused.",
   "note": "ない → なく + なる: たべなく なった = (I) stopped eating.",
-  "sentence": 0,
-  "surface": "でなく　なります"
+  "surface": "でなく　なります",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-nechau",
@@ -211,8 +256,11 @@
   "example": "でんしゃで ねちゃった",
   "exampleEn": "(I) ended up sleeping on the train.",
   "note": "Casual speech: てしまう → ちゃう. Past: ねちゃった.",
-  "sentence": 1,
-  "surface": "ねちゃって しょーが　ないわね"
+  "surface": "ねちゃって しょーが　ないわね",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-ninaru",
@@ -230,8 +278,11 @@
   "example": "すきに なった",
   "exampleEn": "(I) came to like (it).",
   "note": "な-adjectives and nouns: + に なる. い-adjectives: い → く なる (つよくなる).",
-  "sentence": 1,
-  "surface": "げんきに　なりましたよ"
+  "surface": "げんきに　なりましたよ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-ninaru2",
@@ -244,8 +295,11 @@
   "ref": "viridian/PokemonFightingFitText",
   "example": "げんきに なりました",
   "exampleEn": "became healthy",
-  "sentence": 1,
-  "surface": "に　なりましたよ"
+  "surface": "に　なりましたよ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-ou",
@@ -258,8 +312,11 @@
   "ref": "viridian/ViridianCityTrainerTips1Text",
   "example": "ふやそう",
   "exampleEn": "let's increase",
-  "sentence": 1,
-  "surface": "ふやそう"
+  "surface": "ふやそう",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-shikanai",
@@ -272,8 +329,11 @@
   "ref": "viridian/ViridianCityGirlText.HasntHadHisCoffeeYetText",
   "example": "まつしかないわ",
   "exampleEn": "there's nothing to do but wait",
-  "sentence": 2,
-  "surface": "しかない"
+  "surface": "しかない",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "f-sou",
@@ -286,8 +346,11 @@
   "ref": "viridian/ItemUseBallText00",
   "example": "つかまりそうにない",
   "exampleEn": "doesn't look like it will be caught",
-  "sentence": 1,
-  "surface": "そう"
+  "surface": "そう",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-teiku",
@@ -305,8 +368,11 @@
   "example": "さむく なっていく",
   "exampleEn": "(It) goes on becoming cold.",
   "note": "て-form + いく: change continuing away from now. Opposite of 〜てくる.",
-  "sentence": 0,
-  "surface": "へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます"
+  "surface": "へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-tekureru",
@@ -324,8 +390,11 @@
   "example": "おしえて くれますか？",
   "exampleEn": "Will (you) tell (me)?",
   "note": "て-form + くれる (to give me). Asking: 〜てくれますか. Compare 〜てもらう, same favor seen from the receiver.",
-  "sentence": 1,
-  "surface": "わたして　くれる"
+  "surface": "わたして　くれる",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-teru",
@@ -338,8 +407,11 @@
   "ref": "viridian/ViridianSchoolHouseCooltrainerFText",
   "example": "かかれてる",
   "exampleEn": "is written",
-  "sentence": 1,
-  "surface": "てる"
+  "surface": "てる",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-teshimau",
@@ -352,8 +424,11 @@
   "ref": "viridian/ViridianCityFisherText.YouCanHaveThisText",
   "example": "ねむって しまった",
   "exampleEn": "ended up asleep",
-  "sentence": 1,
-  "surface": "て　しまった"
+  "surface": "て　しまった",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-yagaru",
@@ -366,8 +441,11 @@
   "ref": "viridian/ViridianCityOldManSleepyText.PrivatePropertyText",
   "example": "まちやがれ",
   "exampleEn": "wait, damn you",
-  "sentence": 1,
-  "surface": "やがれ"
+  "surface": "やがれ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "i-colosseum",
@@ -377,8 +455,11 @@
   "meaning": "Colosseum · the link-battle room",
   "scope": "game",
   "ref": "viridian/HowToLinkText",
-  "sentence": 1,
-  "surface": "コロシアム"
+  "surface": "コロシアム",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "i-dokukeshi",
@@ -388,8 +469,11 @@
   "meaning": "Antidote · poison-eraser",
   "scope": "game",
   "ref": "viridian/ViridianMartYoungsterText",
-  "sentence": 0,
-  "surface": "どくけし"
+  "surface": "どくけし",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-koorinaoshi",
@@ -399,8 +483,11 @@
   "meaning": "Ice Heal · ice-fixer",
   "scope": "game",
   "ref": "viridian/ViridianBlackboardFrozenText",
-  "sentence": 1,
-  "surface": "こおりなおし"
+  "surface": "こおりなおし",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "i-mahinaoshi",
@@ -410,8 +497,11 @@
   "meaning": "Parlyz Heal · paralysis-fixer",
   "scope": "game",
   "ref": "viridian/ViridianBlackboardPrlzText",
-  "sentence": 1,
-  "surface": "マヒなおし"
+  "surface": "マヒなおし",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "i-masaki",
@@ -421,8 +511,11 @@
   "meaning": "Bill · Masaki, whose PC stores Pokémon",
   "scope": "game",
   "ref": "viridian/AccessedBillsPCText",
-  "sentence": 0,
-  "surface": "マサキ"
+  "surface": "マサキ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-nemukezamashi",
@@ -432,8 +525,11 @@
   "meaning": "Awakening · sleep-waker",
   "scope": "game",
   "ref": "viridian/ViridianBlackboardSleepText",
-  "sentence": 1,
-  "surface": "ねむけざまし"
+  "surface": "ねむけざまし",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "i-nibicity",
@@ -443,8 +539,11 @@
   "meaning": "Pewter City · Nibi City",
   "scope": "game",
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
-  "sentence": 0,
-  "surface": "ニビシティ"
+  "surface": "ニビシティ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-otodokemono",
@@ -465,8 +564,11 @@
   "meaning": "Pokémon Center",
   "scope": "game",
   "ref": "viridian/ViridianCityTrainerTips2Text",
-  "sentence": 1,
-  "surface": "ポケモンセンター"
+  "surface": "ポケモンセンター",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "i-shitennou",
@@ -476,8 +578,11 @@
   "meaning": "Elite Four · the Four Heavenly Kings",
   "scope": "game",
   "ref": "viridian/ViridianSchoolNotebookText4",
-  "sentence": 2,
-  "surface": "してんのう"
+  "surface": "してんのう",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "i-silph",
@@ -487,8 +592,11 @@
   "meaning": "Silph Company",
   "scope": "game",
   "ref": "viridian/TMNotebook",
-  "sentence": 2,
-  "surface": "シルフ　カンパニー"
+  "surface": "シルフ　カンパニー",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "i-tokiwanomori",
@@ -498,8 +606,11 @@
   "meaning": "Viridian Forest · the Tokiwa forest",
   "scope": "game",
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
-  "sentence": 0,
-  "surface": "トキワのもり"
+  "surface": "トキワのもり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-tradecenter",
@@ -509,8 +620,11 @@
   "meaning": "Trade Center",
   "scope": "game",
   "ref": "viridian/HowToLinkText",
-  "sentence": 2,
-  "surface": "トレード　センター"
+  "surface": "トレード　センター",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "i-wazamashin",
@@ -520,8 +634,11 @@
   "meaning": "TM · move machine",
   "scope": "game",
   "ref": "viridian/ViridianCityFisherText.YouCanHaveThisText",
-  "sentence": 4,
-  "surface": "わざマシン"
+  "surface": "わざマシン",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "i-yakedonaoshi",
@@ -531,8 +648,11 @@
   "meaning": "Burn Heal · burn-fixer",
   "scope": "game",
   "ref": "viridian/ViridianBlackboardBurnText",
-  "sentence": 1,
-  "surface": "やけどなおし"
+  "surface": "やけどなおし",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "monsterball",
@@ -544,8 +664,11 @@
   "loose": "Monster Ball",
   "scope": "game",
   "ref": "viridian/ViridianCityYoungster1Text",
-  "sentence": 0,
-  "surface": "モンスターボール"
+  "surface": "モンスターボール",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "pokemon",
@@ -557,8 +680,11 @@
   "scope": "game",
   "ref": "viridian/ViridianCityYoungster1Text",
   "note": "Short for ポケットモンスター, pocket monsters.",
-  "sentence": 1,
-  "surface": "ポケモン"
+  "surface": "ポケモン",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "m-yumekui",
@@ -568,8 +694,11 @@
   "meaning": "Dream Eater · dream-eating",
   "scope": "game",
   "ref": "viridian/ViridianCityFisherText.TM42ExplanationText",
-  "sentence": 0,
-  "surface": "ゆめくい"
+  "surface": "ゆめくい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "p-beedle",
@@ -579,8 +708,11 @@
   "meaning": "Weedle · Beedle",
   "scope": "game",
   "ref": "viridian/ViridianCityYoungster2Text.CaterpieAndWeedleDescriptionText",
-  "sentence": 0,
-  "surface": "ビードル"
+  "surface": "ビードル",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "p-caterpie",
@@ -590,8 +722,11 @@
   "meaning": "Caterpie",
   "scope": "game",
   "ref": "viridian/ViridianCityYoungster2Text.CaterpieAndWeedleDescriptionText",
-  "sentence": 0,
-  "surface": "キャタピー"
+  "surface": "キャタピー",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "p-onisuzume",
@@ -601,8 +736,11 @@
   "meaning": "Spearow · demon sparrow",
   "scope": "game",
   "ref": "viridian/ViridianNicknameHouseSpearySignText",
-  "sentence": 0,
-  "surface": "オニスズメ"
+  "surface": "オニスズメ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "p-sleep",
@@ -612,8 +750,11 @@
   "meaning": "Drowzee · Sleep",
   "scope": "game",
   "ref": "viridian/ViridianCityFisherText.YouCanHaveThisText",
-  "sentence": 2,
-  "surface": "スリープ"
+  "surface": "スリープ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "adobaisu",
@@ -623,8 +764,11 @@
   "meaning": "advice",
   "scope": "general",
   "ref": "viridian/ViridianCityOldManText.KnowHowToCatchPokemonText",
-  "sentence": 1,
-  "surface": "アドバイス"
+  "surface": "アドバイス",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "aida",
@@ -636,8 +780,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardSleepText",
   "note": "その あいだ = during that time.",
-  "sentence": 0,
-  "surface": "あいだ"
+  "surface": "あいだ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "aishou",
@@ -648,8 +795,11 @@
   "scope": "general",
   "ref": "viridian/MonCannotLearnMachineMoveText",
   "kanji": "相性",
-  "sentence": 0,
-  "surface": "あいしょう"
+  "surface": "あいしょう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "akeru",
@@ -660,8 +810,11 @@
   "scope": "general",
   "ref": "viridian/TurnPageText",
   "kanji": "開ける",
-  "sentence": 0,
-  "surface": "あけちゃおうか"
+  "surface": "あけちゃおうか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "annai",
@@ -672,8 +825,11 @@
   "scope": "general",
   "ref": "viridian/LinkCableInfoText1",
   "kanji": "案内",
-  "sentence": 0,
-  "surface": "あんない"
+  "surface": "あんない",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "asobu",
@@ -685,8 +841,11 @@
   "ref": "viridian/LinkCableHelpText1",
   "kanji": "遊ぶ",
   "note": "あそびかた: way of playing.",
-  "sentence": 1,
-  "surface": "あそびかた　に　ついて"
+  "surface": "あそびかた　に　ついて",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "atama",
@@ -697,8 +856,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityOldManText.HadMyCoffeeNowText",
   "kanji": "頭",
-  "sentence": 1,
-  "surface": "あたま"
+  "surface": "あたま",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "atarashii",
@@ -709,8 +871,11 @@
   "scope": "general",
   "ref": "viridian/ItemUseBallText06",
   "kanji": "新しい",
-  "sentence": 0,
-  "surface": "あたらしく"
+  "surface": "あたらしく",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ato",
@@ -721,8 +886,11 @@
   "scope": "general",
   "ref": "viridian/ItemUseBallText04",
   "kanji": "後",
-  "sentence": 1,
-  "surface": "あと"
+  "surface": "あと",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "benri",
@@ -736,8 +904,11 @@
   "example": "べんりですね",
   "exampleEn": "(It) is convenient, huh.",
   "note": "べんりですね = that's handy.",
-  "sentence": 2,
-  "surface": "べんり"
+  "surface": "べんり",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "betsuni",
@@ -748,8 +919,11 @@
   "scope": "general",
   "ref": "viridian/BuySellQuitText",
   "kanji": "別に",
-  "sentence": 2,
-  "surface": "べつに"
+  "surface": "べつに",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "bokkusu",
@@ -759,8 +933,11 @@
   "meaning": "box",
   "scope": "general",
   "ref": "viridian/BillsPCMenuText",
-  "sentence": 3,
-  "surface": "ボックス"
+  "surface": "ボックス",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "chanto",
@@ -770,8 +947,11 @@
   "meaning": "properly",
   "scope": "general",
   "ref": "viridian/ViridianSchoolHouseCooltrainerFText",
-  "sentence": 1,
-  "surface": "ちゃんと"
+  "surface": "ちゃんと",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "daisuki",
@@ -782,8 +962,11 @@
   "scope": "general",
   "ref": "viridian/ViridianNicknameHouseLittleGirlText",
   "kanji": "大好き",
-  "sentence": 0,
-  "surface": "だいすき"
+  "surface": "だいすき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "dashiire",
@@ -797,8 +980,11 @@
   "example": "おかねの だしいれが できます",
   "exampleEn": "Taking-out-and-putting-in of money can be done.",
   "note": "だす (take out) + いれる (put in). Deposit and withdraw.",
-  "sentence": 2,
-  "surface": "だしいれ"
+  "surface": "だしいれ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "doa",
@@ -809,8 +995,11 @@
   "meaning": "door",
   "scope": "general",
   "ref": "viridian/ViridianCityGymLockedText",
-  "sentence": 0,
-  "surface": "ドア"
+  "surface": "ドア",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "doku",
@@ -821,8 +1010,11 @@
   "meaning": "poison",
   "scope": "general",
   "ref": "viridian/ViridianBlackboardPoisonText",
-  "sentence": 0,
-  "surface": "どくを"
+  "surface": "どくを",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "dondon",
@@ -832,8 +1024,11 @@
   "meaning": "steadily, more and more",
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips1Text",
-  "sentence": 1,
-  "surface": "ドンドン"
+  "surface": "ドンドン",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "donna",
@@ -843,8 +1038,11 @@
   "meaning": "what kind of",
   "scope": "general",
   "ref": "viridian/ViridianCityGambler1Text.GymAlwaysClosedText",
-  "sentence": 0,
-  "surface": "どんな"
+  "surface": "どんな",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "eien",
@@ -855,8 +1053,11 @@
   "meaning": "eternity",
   "scope": "general",
   "ref": "viridian/ViridianCitySignText",
-  "sentence": 0,
-  "surface": "えいえん"
+  "surface": "えいえん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "fuyasu",
@@ -867,8 +1068,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips1Text",
   "kanji": "増やす",
-  "sentence": 1,
-  "surface": "ふやそう"
+  "surface": "ふやそう",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "geemubooi",
@@ -878,8 +1082,11 @@
   "meaning": "Game Boy",
   "scope": "general",
   "ref": "viridian/LinkCableInfoText1",
-  "sentence": 0,
-  "surface": "ゲームボーイ"
+  "surface": "ゲームボーイ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "gozaimasu",
@@ -889,8 +1096,11 @@
   "meaning": "is, there is · very polite",
   "scope": "general",
   "ref": "viridian/PokemartBoughtItemText",
-  "sentence": 0,
-  "surface": "ございます"
+  "surface": "ございます",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "guzzu",
@@ -900,8 +1110,11 @@
   "meaning": "goods",
   "scope": "general",
   "ref": "viridian/MartSignText",
-  "sentence": 0,
-  "surface": "グッズ"
+  "surface": "グッズ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "hageshii",
@@ -912,8 +1125,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText3",
   "kanji": "激しい",
-  "sentence": 1,
-  "surface": "はげしい"
+  "surface": "はげしい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "heru",
@@ -928,8 +1144,11 @@
   "exampleEn": "(My) stomach decreased.",
   "exampleLoose": "I'm hungry.",
   "note": "おなかが へった = (my) stomach decreased = I'm hungry.",
-  "sentence": 0,
-  "surface": "へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます"
+  "surface": "へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "heya",
@@ -940,8 +1159,11 @@
   "scope": "general",
   "ref": "viridian/LinkCableInfoText2",
   "kanji": "部屋",
-  "sentence": 0,
-  "surface": "へや"
+  "surface": "へや",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "hikitoru",
@@ -952,8 +1174,11 @@
   "scope": "general",
   "ref": "viridian/PokemartTellSellPriceText",
   "kanji": "引き取る",
-  "sentence": 0,
-  "surface": "ひきとりいたしましょう"
+  "surface": "ひきとりいたしましょう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "hinatabokko",
@@ -964,8 +1189,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityFisherText.YouCanHaveThisText",
   "kanji": "日向ぼっこ",
-  "sentence": 1,
-  "surface": "ひなたぼっこ"
+  "surface": "ひなたぼっこ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "ichiban",
@@ -976,8 +1204,11 @@
   "scope": "general",
   "ref": "viridian/ViridianNicknameHouseBaldingGuyText",
   "kanji": "一番",
-  "sentence": 1,
-  "surface": "いちばん"
+  "surface": "いちばん",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "ijou",
@@ -988,8 +1219,11 @@
   "scope": "general",
   "ref": "viridian/PokemartItemBagFullText",
   "kanji": "以上",
-  "sentence": 0,
-  "surface": "いじょう"
+  "surface": "いじょう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "imomushi",
@@ -1000,8 +1234,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityYoungster2Text.YouWantToKnowAboutText",
   "kanji": "芋虫",
-  "sentence": 0,
-  "surface": "いもむし"
+  "surface": "いもむし",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "isogu",
@@ -1012,8 +1249,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityOldManText.HadMyCoffeeNowText",
   "kanji": "急ぐ",
-  "sentence": 1,
-  "surface": "いそぎ"
+  "surface": "いそぎ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "itadaku",
@@ -1023,8 +1263,11 @@
   "meaning": "to receive · humble",
   "scope": "general",
   "ref": "viridian/NeedYourPokemonText",
-  "sentence": 0,
-  "surface": "いただきます"
+  "surface": "いただきます",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "itashimasu",
@@ -1036,8 +1279,11 @@
   "scope": "general",
   "ref": "viridian/PokemonCenterWelcomeText",
   "note": "Humble する. You'll hear it from staff everywhere: おねがいいたします.",
-  "sentence": 1,
-  "surface": "いたします"
+  "surface": "いたします",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "itasu",
@@ -1048,8 +1294,11 @@
   "scope": "general",
   "ref": "viridian/PokemonCenterWelcomeText",
   "kanji": "致す",
-  "sentence": 1,
-  "surface": "いたします"
+  "surface": "いたします",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "itsudemo",
@@ -1063,8 +1312,11 @@
   "example": "いつでも どうぞ",
   "exampleEn": "Anytime, please.",
   "note": "いつ (when) + でも (even).",
-  "sentence": 2,
-  "surface": "いつでも"
+  "surface": "いつでも",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "itsumo",
@@ -1074,8 +1326,11 @@
   "meaning": "always",
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText3",
-  "sentence": 1,
-  "surface": "いつも"
+  "surface": "いつも",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "ittai",
@@ -1086,8 +1341,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityGambler1Text.GymAlwaysClosedText",
   "kanji": "一体",
-  "sentence": 0,
-  "surface": "いったい"
+  "surface": "いったい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "jimu",
@@ -1097,8 +1355,11 @@
   "meaning": "gym",
   "scope": "general",
   "ref": "viridian/ViridianCityGambler1Text.GymAlwaysClosedText",
-  "sentence": 0,
-  "surface": "ジム"
+  "surface": "ジム",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "jiyuu",
@@ -1113,8 +1374,11 @@
   "exampleEn": "Freely, please.",
   "exampleLoose": "Help yourself.",
   "note": "じゆうに = freely.",
-  "sentence": 2,
-  "surface": "じゆう"
+  "surface": "じゆう",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "kagi",
@@ -1126,8 +1390,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityGymLockedText",
   "note": "カギが かかっている = (it) is locked.",
-  "sentence": 0,
-  "surface": "カギ"
+  "surface": "カギ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kaifuku",
@@ -1139,8 +1406,11 @@
   "scope": "general",
   "ref": "viridian/PokemonCenterWelcomeText",
   "note": "かいふくする = to recover.",
-  "sentence": 1,
-  "surface": "かいふく"
+  "surface": "かいふく",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "kaimono",
@@ -1151,8 +1421,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
   "kanji": "買い物",
-  "sentence": 0,
-  "surface": "かいもの"
+  "surface": "かいもの",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kaitoru",
@@ -1163,8 +1436,11 @@
   "scope": "general",
   "ref": "viridian/PokemartItemBagEmptyText",
   "kanji": "買い取る",
-  "sentence": 0,
-  "surface": "かいとれる　しなものは おもちで　ないようです"
+  "surface": "かいとれる　しなものは おもちで　ないようです",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kakareru",
@@ -1175,8 +1451,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolHouseCooltrainerFText",
   "kanji": "書かれる",
-  "sentence": 1,
-  "surface": "かかれてる　こと ちゃんと　みて"
+  "surface": "かかれてる　こと ちゃんと　みて",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "kakaru",
@@ -1189,8 +1468,11 @@
   "ref": "viridian/ViridianCityGymLockedText",
   "example": "どのくらい かかりますか？",
   "exampleEn": "About how much does (it) take?",
-  "sentence": 0,
-  "surface": "かかって　いた"
+  "surface": "かかって　いた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kane",
@@ -1201,8 +1483,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityOldManText.TimeIsMoneyText",
   "kanji": "金",
-  "sentence": 0,
-  "surface": "かね"
+  "surface": "かね",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kangaeru",
@@ -1213,8 +1498,11 @@
   "scope": "general",
   "ref": "viridian/ViridianNicknameHouseBaldingGuyText",
   "kanji": "考える",
-  "sentence": 0,
-  "surface": "かんがえる"
+  "surface": "かんがえる",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kanpanii",
@@ -1224,8 +1512,11 @@
   "meaning": "company",
   "scope": "general",
   "ref": "viridian/TMNotebook",
-  "sentence": 2,
-  "surface": "カンパニー"
+  "surface": "カンパニー",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "karada",
@@ -1236,8 +1527,11 @@
   "scope": "general",
   "ref": "viridian/ParlyzHealText",
   "kanji": "体",
-  "sentence": 0,
-  "surface": "からだ"
+  "surface": "からだ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kauntaa",
@@ -1247,8 +1541,11 @@
   "meaning": "counter",
   "scope": "general",
   "ref": "viridian/LinkCableInfoText1",
-  "sentence": 0,
-  "surface": "カウンター"
+  "surface": "カウンター",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kawaisou",
@@ -1258,8 +1555,11 @@
   "meaning": "poor thing, pitiful",
   "scope": "general",
   "ref": "viridian/ViridianBlackboardFrozenText",
-  "sentence": 1,
-  "surface": "かわいそう"
+  "surface": "かわいそう",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "keeburu",
@@ -1269,8 +1569,11 @@
   "meaning": "cable",
   "scope": "general",
   "ref": "viridian/LinkCableHelpText1",
-  "sentence": 1,
-  "surface": "ケーブル"
+  "surface": "ケーブル",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "keijiban",
@@ -1281,8 +1584,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips1Text",
   "kanji": "掲示板",
-  "sentence": 0,
-  "surface": "けいじばん"
+  "surface": "けいじばん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kieru",
@@ -1293,8 +1599,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardPoisonText",
   "kanji": "消える",
-  "sentence": 0,
-  "surface": "きえます"
+  "surface": "きえます",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kiku2",
@@ -1305,8 +1614,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityOldManSleepyText.PrivatePropertyText",
   "kanji": "聞く",
-  "sentence": 2,
-  "surface": "きけ"
+  "surface": "きけ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "kirei",
@@ -1316,8 +1628,11 @@
   "meaning": "clean, pretty",
   "scope": "general",
   "ref": "viridian/AntidoteText",
-  "sentence": 0,
-  "surface": "きれい"
+  "surface": "きれい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kokuban",
@@ -1328,8 +1643,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolHouseCooltrainerFText",
   "kanji": "黒板",
-  "sentence": 1,
-  "surface": "こくばん"
+  "surface": "こくばん",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "komaru",
@@ -1340,8 +1658,11 @@
   "scope": "general",
   "ref": "viridian/CantDepositLastMonText",
   "kanji": "困る",
-  "sentence": 0,
-  "surface": "こまる"
+  "surface": "こまる",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "konna",
@@ -1356,8 +1677,11 @@
   "exampleEn": "This kind of feeling.",
   "exampleLoose": "Like this.",
   "note": "こんな / そんな / あんな / どんな.",
-  "sentence": 1,
-  "surface": "こんな"
+  "surface": "こんな",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "koori",
@@ -1368,8 +1692,11 @@
   "scope": "general",
   "ref": "viridian/StatusAilmentText2",
   "kanji": "氷",
-  "sentence": 1,
-  "surface": "こおり"
+  "surface": "こおり",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "kooru",
@@ -1380,8 +1707,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardFrozenText",
   "kanji": "凍る",
-  "sentence": 1,
-  "surface": "こおりなおしで　とかさないと"
+  "surface": "こおりなおしで　とかさないと",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "kotoba",
@@ -1392,8 +1722,11 @@
   "scope": "general",
   "ref": "viridian/ItemUseNotTimeText",
   "kanji": "言葉",
-  "sentence": 0,
-  "surface": "ことば"
+  "surface": "ことば",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kotsu",
@@ -1403,8 +1736,11 @@
   "meaning": "the trick, the knack",
   "scope": "general",
   "ref": "viridian/ViridianCityOldManYouNeedToWeakenTheTargetText",
-  "sentence": 0,
-  "surface": "コツ"
+  "surface": "コツ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "koukan",
@@ -1415,8 +1751,11 @@
   "scope": "general",
   "ref": "viridian/LinkCableInfoText3",
   "kanji": "交換",
-  "sentence": 0,
-  "surface": "こうかん"
+  "surface": "こうかん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "koumoku",
@@ -1427,8 +1766,11 @@
   "scope": "general",
   "ref": "viridian/LinkCableHelpText2",
   "kanji": "項目",
-  "sentence": 0,
-  "surface": "こうもく"
+  "surface": "こうもく",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kuneru",
@@ -1438,8 +1780,11 @@
   "meaning": "to wind, to twist",
   "scope": "general",
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
-  "sentence": 0,
-  "surface": "くねってるのよ"
+  "surface": "くねってるのよ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kurau",
@@ -1450,8 +1795,11 @@
   "meaning": "to take (a hit), to suffer",
   "scope": "general",
   "ref": "viridian/ViridianBlackboardPoisonText",
-  "sentence": 0,
-  "surface": "くらう"
+  "surface": "くらう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "magaru",
@@ -1462,8 +1810,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
   "kanji": "曲がる",
-  "sentence": 0,
-  "surface": "まがり　くねってるのよ"
+  "surface": "まがり　くねってるのよ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "mahi",
@@ -1475,8 +1826,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardPrlzText",
   "note": "The game writes it in katakana.",
-  "sentence": 0,
-  "surface": "マヒ"
+  "surface": "マヒ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "maido",
@@ -1487,8 +1841,11 @@
   "scope": "general",
   "ref": "viridian/PokemartBoughtItemText",
   "kanji": "毎度",
-  "sentence": 0,
-  "surface": "まいど"
+  "surface": "まいど",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "mama",
@@ -1498,8 +1855,11 @@
   "meaning": "as is, still in that state",
   "scope": "general",
   "ref": "viridian/ViridianBlackboardSleepText",
-  "sentence": 1,
-  "surface": "まま"
+  "surface": "まま",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "masashiku",
@@ -1514,8 +1874,11 @@
   "exampleEn": "Unmistakably, (it) is that way.",
   "exampleLoose": "Exactly right.",
   "note": "A stronger たしかに.",
-  "sentence": 1,
-  "surface": "まさしく"
+  "surface": "まさしく",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "mashin",
@@ -1525,8 +1888,11 @@
   "meaning": "machine",
   "scope": "general",
   "ref": "viridian/ViridianCityFisherText.YouCanHaveThisText",
-  "sentence": 4,
-  "surface": "マシン"
+  "surface": "マシン",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "mata",
@@ -1541,8 +1907,11 @@
   "exampleEn": "Again tomorrow.",
   "exampleLoose": "See you tomorrow.",
   "note": "またね = see you (again).",
-  "sentence": 0,
-  "surface": "また"
+  "surface": "また",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "mazu",
@@ -1552,8 +1921,11 @@
   "meaning": "first of all",
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText2",
-  "sentence": 0,
-  "surface": "まず"
+  "surface": "まず",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "midori",
@@ -1565,8 +1937,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCitySignText",
   "note": "The name of your game.",
-  "sentence": 0,
-  "surface": "みどり"
+  "surface": "みどり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "migigawa",
@@ -1577,8 +1952,11 @@
   "scope": "general",
   "ref": "viridian/LinkCableInfoText1",
   "kanji": "右側",
-  "sentence": 0,
-  "surface": "みぎがわ"
+  "surface": "みぎがわ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "mokuhyou",
@@ -1589,8 +1967,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText4",
   "kanji": "目標",
-  "sentence": 0,
-  "surface": "もくひょう"
+  "surface": "もくひょう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "mori",
@@ -1601,8 +1982,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
   "kanji": "森",
-  "sentence": 0,
-  "surface": "もり"
+  "surface": "もり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "mouretsu",
@@ -1613,8 +1997,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText4",
   "kanji": "猛烈",
-  "sentence": 1,
-  "surface": "もうれつ"
+  "surface": "もうれつ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "muzukashii",
@@ -1625,8 +2012,11 @@
   "scope": "general",
   "ref": "viridian/ViridianNicknameHouseBaldingGuyText",
   "kanji": "難しい",
-  "sentence": 0,
-  "surface": "むずかしい"
+  "surface": "むずかしい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nakami",
@@ -1637,8 +2027,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityFisherText.TM42ExplanationText",
   "kanji": "中身",
-  "sentence": 0,
-  "surface": "なかみ"
+  "surface": "なかみ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nakunaru",
@@ -1648,8 +2041,11 @@
   "meaning": "to run out, to disappear",
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips2Text",
-  "sentence": 1,
-  "surface": "なくなった　ときも"
+  "surface": "なくなった　ときも",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "naoru",
@@ -1660,8 +2056,11 @@
   "scope": "general",
   "ref": "viridian/BurnHealText",
   "kanji": "治る",
-  "sentence": 0,
-  "surface": "なおった"
+  "surface": "なおった",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "naosu",
@@ -1672,8 +2071,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardPrlzText",
   "kanji": "治す",
-  "sentence": 1,
-  "surface": "なおしで　なおります"
+  "surface": "なおしで　なおります",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "nedan",
@@ -1684,8 +2086,11 @@
   "scope": "general",
   "ref": "viridian/PokemartUnsellableItemText",
   "kanji": "値段",
-  "sentence": 0,
-  "surface": "ねだん"
+  "surface": "ねだん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nemuri",
@@ -1696,8 +2101,11 @@
   "scope": "general",
   "ref": "viridian/StatusAilmentText1",
   "kanji": "眠り",
-  "sentence": 0,
-  "surface": "ねむり"
+  "surface": "ねむり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nemuru",
@@ -1708,8 +2116,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityFisherText.YouCanHaveThisText",
   "kanji": "眠る",
-  "sentence": 1,
-  "surface": "ねむって　しまった"
+  "surface": "ねむって　しまった",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "nigasu",
@@ -1720,8 +2131,11 @@
   "scope": "general",
   "ref": "viridian/BillsPCMenuText",
   "kanji": "逃がす",
-  "sentence": 2,
-  "surface": "にがす"
+  "surface": "にがす",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "niichan",
@@ -1732,8 +2146,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityFisherText.ReceivedTM42Text",
   "kanji": "兄ちゃん",
-  "sentence": 0,
-  "surface": "にいちゃん"
+  "surface": "にいちゃん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nooto",
@@ -1743,8 +2160,11 @@
   "meaning": "notebook",
   "scope": "general",
   "ref": "viridian/ViridianSchoolHouseBrunetteGirlText",
-  "sentence": 0,
-  "surface": "ノート"
+  "surface": "ノート",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nozoku",
@@ -1755,8 +2175,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText1",
   "kanji": "覗く",
-  "sentence": 0,
-  "surface": "のぞいた"
+  "surface": "のぞいた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "omachidou",
@@ -1768,8 +2191,11 @@
   "scope": "general",
   "ref": "viridian/PokemonFightingFitText",
   "note": "Said when bringing your order.",
-  "sentence": 0,
-  "surface": "おまちどうさま"
+  "surface": "おまちどうさま",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "omou",
@@ -1780,8 +2206,11 @@
   "scope": "general",
   "ref": "viridian/ItemUseBallText03",
   "kanji": "思う",
-  "sentence": 1,
-  "surface": "おもったのに"
+  "surface": "おもったのに",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "oneesan",
@@ -1792,8 +2221,11 @@
   "scope": "general",
   "ref": "viridian/LinkCableInfoText1",
   "kanji": "お姉さん",
-  "sentence": 0,
-  "surface": "おねえさん"
+  "surface": "おねえさん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "oshii",
@@ -1804,8 +2236,11 @@
   "scope": "general",
   "ref": "viridian/ItemUseBallText04",
   "kanji": "惜しい",
-  "sentence": 0,
-  "surface": "おしい"
+  "surface": "おしい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "otoku",
@@ -1816,8 +2251,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips1Text",
   "kanji": "お得",
-  "sentence": 0,
-  "surface": "おとく"
+  "surface": "おとく",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "owaru",
@@ -1828,8 +2266,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardSleepText",
   "kanji": "終わる",
-  "sentence": 1,
-  "surface": "おわっても　ねたまま ねむけざましで　めが　さめます"
+  "surface": "おわっても　ねたまま ねむけざましで　めが　さめます",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "panfuretto",
@@ -1839,8 +2280,11 @@
   "meaning": "pamphlet",
   "scope": "general",
   "ref": "viridian/TMNotebook",
-  "sentence": 0,
-  "surface": "パンフレット"
+  "surface": "パンフレット",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "pawaapointo",
@@ -1850,8 +2294,11 @@
   "meaning": "power points · PP",
   "scope": "game",
   "ref": "viridian/ViridianCityTrainerTips2Text",
-  "sentence": 1,
-  "surface": "パワーポイントが　あります"
+  "surface": "パワーポイントが　あります",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "riidaa",
@@ -1861,8 +2308,11 @@
   "meaning": "leader",
   "scope": "general",
   "ref": "viridian/ViridianCityGambler1Text.GymAlwaysClosedText",
-  "sentence": 0,
-  "surface": "リーダー"
+  "surface": "リーダー",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "riyou",
@@ -1874,8 +2324,11 @@
   "scope": "general",
   "ref": "viridian/PokemonCenterFarewellText",
   "note": "ごりよう = your use (polite). On every ticket machine.",
-  "sentence": 0,
-  "surface": "りよう"
+  "surface": "りよう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sagasu-mono",
@@ -1887,8 +2340,11 @@
   "scope": "general",
   "ref": "viridian/PokemartGreetingText",
   "note": "さがす (search) + もの (thing).",
-  "sentence": 1,
-  "surface": "おさがしもの"
+  "surface": "おさがしもの",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "saikou",
@@ -1899,8 +2355,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText3",
   "kanji": "最高",
-  "sentence": 0,
-  "surface": "さいこう"
+  "surface": "さいこう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sameru",
@@ -1911,8 +2370,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityGirlText.HasntHadHisCoffeeYetText",
   "kanji": "覚める",
-  "sentence": 2,
-  "surface": "さめる"
+  "surface": "さめる",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "sappari",
@@ -1922,8 +2384,11 @@
   "meaning": "completely, refreshingly",
   "scope": "general",
   "ref": "viridian/AntidoteText",
-  "sentence": 0,
-  "surface": "さっぱり"
+  "surface": "さっぱり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sarani",
@@ -1933,8 +2398,11 @@
   "meaning": "furthermore",
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText4",
-  "sentence": 1,
-  "surface": "さらに"
+  "surface": "さらに",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "sasu",
@@ -1945,8 +2413,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityYoungster2Text.CaterpieAndWeedleDescriptionText",
   "kanji": "刺す",
-  "sentence": 0,
-  "surface": "さされないように きを　つけようね"
+  "surface": "さされないように きを　つけようね",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sayounara",
@@ -1956,8 +2427,11 @@
   "meaning": "goodbye",
   "scope": "general",
   "ref": "viridian/BillsPCMenuText",
-  "sentence": 4,
-  "surface": "さようなら"
+  "surface": "さようなら",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "seiri",
@@ -1968,8 +2442,11 @@
   "scope": "general",
   "ref": "viridian/PokemartItemBagFullText",
   "kanji": "整理",
-  "sentence": 0,
-  "surface": "せいり"
+  "surface": "せいり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sentaa",
@@ -1979,8 +2456,11 @@
   "meaning": "center",
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips2Text",
-  "sentence": 1,
-  "surface": "センター"
+  "surface": "センター",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "setsuzoku",
@@ -1991,8 +2471,11 @@
   "scope": "general",
   "ref": "viridian/ClosedOaksPCText",
   "kanji": "接続",
-  "sentence": 0,
-  "surface": "せつぞく"
+  "surface": "せつぞく",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shibire",
@@ -2003,8 +2486,11 @@
   "scope": "general",
   "ref": "viridian/ParlyzHealText",
   "kanji": "痺れ",
-  "sentence": 0,
-  "surface": "しびれ"
+  "surface": "しびれ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shimaru",
@@ -2018,8 +2504,11 @@
   "example": "みせは しまっている",
   "exampleEn": "The shop is closed.",
   "note": "しまっとる = しまっている in old-man speech.",
-  "sentence": 0,
-  "surface": "しまっとる いったい　どんな"
+  "surface": "しまっとる いったい　どんな",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shinamono",
@@ -2030,8 +2519,11 @@
   "scope": "general",
   "ref": "viridian/PokemartItemBagEmptyText",
   "kanji": "品物",
-  "sentence": 0,
-  "surface": "しなもの"
+  "surface": "しなもの",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shinsetsu",
@@ -2042,8 +2534,11 @@
   "scope": "general",
   "ref": "viridian/ViridianPokecenterGentlemanText",
   "kanji": "親切",
-  "sentence": 1,
-  "surface": "しんせつ"
+  "surface": "しんせつ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "shiraberu",
@@ -2054,8 +2549,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityOldManText.KnowHowToCatchPokemonText",
   "kanji": "調べる",
-  "sentence": 2,
-  "surface": "しらべれば じどうてきに"
+  "surface": "しらべれば じどうてきに",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "shouganai",
@@ -2070,8 +2568,11 @@
   "example": "まあ、しょうがない",
   "exampleEn": "Well, there is no way (around it).",
   "note": "The game spells it しょーが ない, as it is said. Politer: しかたが ない.",
-  "sentence": 1,
-  "surface": "しょーが　ないわね"
+  "surface": "しょーが　ないわね",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "shurui",
@@ -2082,8 +2583,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityYoungster2Text.YouWantToKnowAboutText",
   "kanji": "種類",
-  "sentence": 0,
-  "surface": "しゅるい"
+  "surface": "しゅるい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "soto",
@@ -2094,8 +2598,11 @@
   "scope": "general",
   "ref": "viridian/MonWasReleasedText",
   "kanji": "外",
-  "sentence": 0,
-  "surface": "そと"
+  "surface": "そと",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "subayasa",
@@ -2106,8 +2613,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardBurnText",
   "kanji": "素早さ",
-  "sentence": 0,
-  "surface": "すばやさ"
+  "surface": "すばやさ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "taichou",
@@ -2118,8 +2628,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolBlackboardText1",
   "kanji": "体調",
-  "sentence": 0,
-  "surface": "たいちょう"
+  "surface": "たいちょう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "taisen",
@@ -2130,8 +2643,11 @@
   "scope": "general",
   "ref": "viridian/LinkCableInfoText2",
   "kanji": "対戦",
-  "sentence": 0,
-  "surface": "たいせん"
+  "surface": "たいせん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "taisetsu",
@@ -2142,8 +2658,11 @@
   "scope": "general",
   "ref": "viridian/ItemUseNotYoursToUseText",
   "kanji": "大切",
-  "sentence": 0,
-  "surface": "たいせつ"
+  "surface": "たいせつ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "takusan",
@@ -2153,8 +2672,11 @@
   "meaning": "many, a lot",
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips1Text",
-  "sentence": 2,
-  "surface": "たくさん"
+  "surface": "たくさん",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "tanoshii",
@@ -2165,8 +2687,11 @@
   "scope": "general",
   "ref": "viridian/ViridianNicknameHouseBaldingGuyText",
   "kanji": "楽しい",
-  "sentence": 0,
-  "surface": "たのしい"
+  "surface": "たのしい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "taosu",
@@ -2177,8 +2702,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText4",
   "kanji": "倒す",
-  "sentence": 0,
-  "surface": "たおす"
+  "surface": "たおす",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tariru",
@@ -2189,8 +2717,11 @@
   "scope": "general",
   "ref": "viridian/PokemartNotEnoughMoneyText",
   "kanji": "足りる",
-  "sentence": 0,
-  "surface": "たりないようですね"
+  "surface": "たりないようですね",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tatakai",
@@ -2201,8 +2732,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardSleepText",
   "kanji": "戦い",
-  "sentence": 1,
-  "surface": "たたかい"
+  "surface": "たたかい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "tokasu",
@@ -2213,8 +2747,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardFrozenText",
   "kanji": "溶かす",
-  "sentence": 1,
-  "surface": "とかさないと"
+  "surface": "とかさないと",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "tokoro",
@@ -2229,8 +2766,11 @@
   "exampleEn": "Now (I am at) the point of leaving.",
   "exampleLoose": "I'm just about to leave.",
   "note": "あぶない ところだった = (it) was a dangerous place → that was close. Casual: とこ.",
-  "sentence": 1,
-  "surface": "ところ"
+  "surface": "ところ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "tomodachi",
@@ -2241,8 +2781,11 @@
   "scope": "general",
   "ref": "viridian/LinkCableInfoText1",
   "kanji": "友達",
-  "sentence": 0,
-  "surface": "ともだち"
+  "surface": "ともだち",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tonikaku",
@@ -2252,8 +2795,11 @@
   "meaning": "anyway, in any case",
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips1Text",
-  "sentence": 1,
-  "surface": "とにかく"
+  "surface": "とにかく",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "toriaezu",
@@ -2263,8 +2809,11 @@
   "meaning": "for now, for the time being",
   "scope": "general",
   "ref": "viridian/CantTakeMonText",
-  "sentence": 1,
-  "surface": "とりあえず"
+  "surface": "とりあえず",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "totemo",
@@ -2274,8 +2823,11 @@
   "meaning": "very",
   "scope": "general",
   "ref": "viridian/TooImportantToTossText",
-  "sentence": 0,
-  "surface": "とても"
+  "surface": "とても",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "touchan",
@@ -2286,8 +2838,11 @@
   "scope": "general",
   "ref": "viridian/ViridianNicknameHouseLittleGirlText",
   "kanji": "父ちゃん",
-  "sentence": 0,
-  "surface": "とうちゃん"
+  "surface": "とうちゃん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tsukaidoki",
@@ -2298,8 +2853,11 @@
   "scope": "general",
   "ref": "viridian/ItemUseNotTimeText",
   "kanji": "使い時",
-  "sentence": 1,
-  "surface": "つかいどき"
+  "surface": "つかいどき",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "tsukamaru",
@@ -2310,8 +2868,11 @@
   "scope": "general",
   "ref": "viridian/ItemUseBallText00",
   "kanji": "捕まる",
-  "sentence": 1,
-  "surface": "つかまりそうにないぞ"
+  "surface": "つかまりそうにないぞ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "tsureru",
@@ -2322,8 +2883,11 @@
   "scope": "general",
   "ref": "viridian/BillsPCMenuText",
   "kanji": "連れる",
-  "sentence": 0,
-  "surface": "つれていく"
+  "surface": "つれていく",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ugoku",
@@ -2334,8 +2898,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardFrozenText",
   "kanji": "動く",
-  "sentence": 0,
-  "surface": "うごけなく　なります"
+  "surface": "うごけなく　なります",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "uketoru",
@@ -2346,8 +2913,11 @@
   "scope": "general",
   "ref": "viridian/MonIsTakenOutText",
   "kanji": "受け取る",
-  "sentence": 1,
-  "surface": "うけとった"
+  "surface": "うけとった",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "uketsuke",
@@ -2358,8 +2928,11 @@
   "scope": "general",
   "ref": "viridian/ViridianPokecenterGentlemanText",
   "kanji": "受付",
-  "sentence": 1,
-  "surface": "うけつけ"
+  "surface": "うけつけ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "uresuji",
@@ -2370,8 +2943,11 @@
   "scope": "general",
   "ref": "viridian/ViridianMartYoungsterText",
   "kanji": "売れ筋",
-  "sentence": 0,
-  "surface": "うれすじ"
+  "surface": "うれすじ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "urikireru",
@@ -2382,8 +2958,11 @@
   "scope": "general",
   "ref": "viridian/ViridianMartCooltrainerMText",
   "kanji": "売り切れる",
-  "sentence": 0,
-  "surface": "うりきれてる　みたい"
+  "surface": "うりきれてる　みたい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "uru",
@@ -2394,8 +2973,11 @@
   "scope": "general",
   "ref": "viridian/PokemonSellingGreetingText",
   "kanji": "売る",
-  "sentence": 0,
-  "surface": "うっていただけますか"
+  "surface": "うっていただけますか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "uun",
@@ -2405,8 +2987,11 @@
   "meaning": "hmm",
   "scope": "general",
   "ref": "viridian/ViridianCityFisherText.YouCanHaveThisText",
-  "sentence": 5,
-  "surface": "うーん"
+  "surface": "うーん",
+  "units": [
+   5,
+   5
+  ]
  },
  {
   "id": "warui",
@@ -2418,8 +3003,11 @@
   "ref": "viridian/ViridianCityFisherText.YouCanHaveThisText",
   "kanji": "悪い",
   "note": "きみが わるい: creepy, literally the feeling is bad.",
-  "sentence": 5,
-  "surface": "わるい"
+  "surface": "わるい",
+  "units": [
+   5,
+   5
+  ]
  },
  {
   "id": "watakushi",
@@ -2430,8 +3018,11 @@
   "scope": "general",
   "ref": "viridian/PokemartAnythingElseText",
   "kanji": "私",
-  "sentence": 0,
-  "surface": "わたくし"
+  "surface": "わたくし",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "waza",
@@ -2443,8 +3034,11 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardPrlzText",
   "note": "Also a craft skill in daily life.",
-  "sentence": 0,
-  "surface": "わざ"
+  "surface": "わざ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yakedo",
@@ -2455,8 +3049,11 @@
   "scope": "general",
   "ref": "viridian/BurnHealText",
   "kanji": "火傷",
-  "sentence": 0,
-  "surface": "やけど"
+  "surface": "やけど",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yatsu",
@@ -2467,8 +3064,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityGambler1Text.GymAlwaysClosedText",
   "kanji": "奴",
-  "sentence": 0,
-  "surface": "ヤツ"
+  "surface": "ヤツ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yokeru",
@@ -2479,8 +3079,11 @@
   "scope": "general",
   "ref": "viridian/ItemUseBallText00",
   "kanji": "避ける",
-  "sentence": 0,
-  "surface": "よけられた"
+  "surface": "よけられた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yomu",
@@ -2491,8 +3094,11 @@
   "scope": "general",
   "ref": "viridian/LinkCableHelpText2",
   "kanji": "読む",
-  "sentence": 0,
-  "surface": "よみますか"
+  "surface": "よみますか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yononaka",
@@ -2507,8 +3113,11 @@
   "exampleEn": "The world is not that sweet.",
   "exampleLoose": "Life isn't that easy.",
   "note": "Literally 'inside the world'.",
-  "sentence": 2,
-  "surface": "よのなか"
+  "surface": "よのなか",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "yopparau",
@@ -2520,8 +3129,11 @@
   "scope": "general",
   "ref": "viridian/ViridianCityOldManText.HadMyCoffeeNowText",
   "note": "よっぱらい = a drunk.",
-  "sentence": 0,
-  "surface": "よっぱらってた　みたいじゃ"
+  "surface": "よっぱらってた　みたいじゃ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yorokobi",
@@ -2532,8 +3144,11 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolNotebookText3",
   "kanji": "喜び",
-  "sentence": 0,
-  "surface": "よろこび"
+  "surface": "よろこび",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yoroshiku",
@@ -2545,8 +3160,11 @@
   "scope": "general",
   "ref": "viridian/ViridianMartClerkSayHiToOakText",
   "note": "X に よろしく = say hi to X. よろしく おねがいします = the all-purpose 'please'.",
-  "sentence": 1,
-  "surface": "よろしく"
+  "surface": "よろしく",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "yukkuri",
@@ -2556,8 +3174,11 @@
   "meaning": "slowly, at one's leisure",
   "scope": "general",
   "ref": "viridian/PokemartBuyingGreetingText",
-  "sentence": 0,
-  "surface": "ゆっくり"
+  "surface": "ゆっくり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yuuri",
@@ -2568,7 +3189,10 @@
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips1Text",
   "kanji": "有利",
-  "sentence": 2,
-  "surface": "ゆうり"
+  "surface": "ゆうり",
+  "units": [
+   2,
+   2
+  ]
  }
 ]

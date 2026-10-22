@@ -7,8 +7,11 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "example": "なげれば",
   "exampleEn": "if you throw",
-  "sentence": 1,
-  "surface": "ば"
+  "surface": "ば",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-datte",
@@ -18,8 +21,11 @@
   "ref": "pallet/BluesHouseDaisyOfferMapText",
   "example": "たのんだんだって？",
   "exampleEn": "he asked you, I hear?",
-  "sentence": 0,
-  "surface": "だって"
+  "surface": "だって",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-de",
@@ -29,8 +35,11 @@
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "example": "くさむらでは",
   "exampleEn": "as for in the grass",
-  "sentence": 1,
-  "surface": "で"
+  "surface": "で",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-ga",
@@ -40,8 +49,11 @@
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "example": "やせいの ポケモンが とびだす",
   "exampleEn": "wild Pokémon jump out",
-  "sentence": 1,
-  "surface": "が"
+  "surface": "が",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-he",
@@ -51,8 +63,11 @@
   "ref": "pallet/OaksLabOak1Text.YourPokemonCanFightText",
   "example": "となりまちへ",
   "exampleEn": "to the next town",
-  "sentence": 1,
-  "surface": "へ"
+  "surface": "へ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-ja",
@@ -62,8 +77,11 @@
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "example": "そうじゃ！",
   "exampleEn": "that's it!",
-  "sentence": 2,
-  "surface": "じゃ"
+  "surface": "じゃ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "e-ka",
@@ -73,8 +91,11 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "example": "とれるか どうかは わからんぞ",
   "exampleEn": "whether you can take it or not, I don't know",
-  "sentence": 7,
-  "surface": "とれるか"
+  "surface": "とれるか",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "e-kashira",
@@ -84,8 +105,11 @@
   "ref": "pallet/RedsHouse1FMomYouShouldRestText",
   "example": "どうかしら",
   "exampleEn": "how about it, I wonder",
-  "sentence": 1,
-  "surface": "かしら"
+  "surface": "かしら",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-mo",
@@ -95,8 +119,11 @@
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "example": "こちらも",
   "exampleEn": "this side too",
-  "sentence": 2,
-  "surface": "こちらも"
+  "surface": "こちらも",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "e-mono",
@@ -106,8 +133,11 @@
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "example": "たびに でるもの",
   "exampleEn": "things that set out on a journey",
-  "sentence": 0,
-  "surface": "もの"
+  "surface": "もの",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-n",
@@ -117,8 +147,11 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "example": "わからんぞ",
   "exampleEn": "I don't know",
-  "sentence": 0,
-  "surface": "ん"
+  "surface": "ん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-na",
@@ -128,8 +161,11 @@
   "ref": "pallet/OaksLabOakBePatientText.Text",
   "example": "あわてるな",
   "exampleEn": "don't panic",
-  "sentence": 1,
-  "surface": "な"
+  "surface": "な",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-nara",
@@ -139,8 +175,11 @@
   "ref": "pallet/BluesHouseDaisyRivalAtLabText",
   "example": "{rival}なら",
   "exampleEn": "if it's {rival} you want",
-  "sentence": 1,
-  "surface": "なら"
+  "surface": "なら",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-ndesu",
@@ -150,8 +189,11 @@
   "ref": "pallet/BluesHouseDaisyOfferMapText",
   "example": "たのんだんだ",
   "exampleEn": "it's that he asked",
-  "sentence": 0,
-  "surface": "たのんだんだって"
+  "surface": "たのんだんだって",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-nee",
@@ -161,8 +203,11 @@
   "ref": "pallet/BluesHouseDaisyOfferMapText",
   "example": "たいへんねー",
   "exampleEn": "tough, isn't it",
-  "sentence": 1,
-  "surface": "ねー"
+  "surface": "ねー",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-ni",
@@ -170,8 +215,11 @@
   "kana": "〜に",
   "meaning": "to, at, in · direction, place, target",
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
-  "sentence": 3,
-  "surface": "に"
+  "surface": "に",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "e-no",
@@ -181,8 +229,11 @@
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "example": "やせいの ポケモン",
   "exampleEn": "wild Pokémon, Pokémon of the wild",
-  "sentence": 1,
-  "surface": "の"
+  "surface": "の",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-noja",
@@ -192,8 +243,11 @@
   "ref": "viridian/ItemUseNotTimeText",
   "example": "つかいどきが あるのじゃ",
   "exampleEn": "it's that there is a time to use them",
-  "sentence": 1,
-  "surface": "あるのじゃ"
+  "surface": "あるのじゃ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-noyo",
@@ -203,8 +257,11 @@
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "example": "たびに でるもの なのよ",
   "exampleEn": "it's that they are things that set out on a journey",
-  "sentence": 0,
-  "surface": "のよ"
+  "surface": "のよ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-sa",
@@ -214,8 +271,11 @@
   "ref": "pallet/OaksLabRivalText.GoAheadAndChooseText",
   "example": "がっつかないのさ",
   "exampleEn": "I don't get greedy, you know",
-  "sentence": 1,
-  "surface": "がっつかないのさ"
+  "surface": "がっつかないのさ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-shi",
@@ -225,8 +285,11 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "example": "にげやすいし うんも あるからな",
   "exampleEn": "they escape easily, and there's luck too",
-  "sentence": 0,
-  "surface": "し"
+  "surface": "し",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-tara",
@@ -236,8 +299,11 @@
   "ref": "pallet/BluesHouseDaisyUseMapText",
   "example": "しりたいとき",
   "exampleEn": "when you want to know",
-  "sentence": 0,
-  "surface": "しりたいとき"
+  "surface": "しりたいとき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-tomo",
@@ -247,8 +313,11 @@
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "example": "ふたりとも",
   "exampleEn": "both of you",
-  "sentence": 5,
-  "surface": "とも"
+  "surface": "とも",
+  "units": [
+   5,
+   5
+  ]
  },
  {
   "id": "e-toru",
@@ -258,8 +327,11 @@
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "example": "のこっとらん",
   "exampleEn": "is not remaining",
-  "sentence": 7,
-  "surface": "とらんが おまえに"
+  "surface": "とらんが おまえに",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "e-toshite",
@@ -269,8 +341,11 @@
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "example": "トレーナーとして",
   "exampleEn": "as a trainer",
-  "sentence": 6,
-  "surface": "として"
+  "surface": "として",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "e-wa",
@@ -278,8 +353,11 @@
   "kana": "〜は",
   "meaning": "as for · topic marker",
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
-  "sentence": 1,
-  "surface": "は"
+  "surface": "は",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-wayo",
@@ -289,8 +367,11 @@
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "example": "よんでたわよ",
   "exampleEn": "was calling for you",
-  "sentence": 1,
-  "surface": "わよ"
+  "surface": "わよ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-wo",
@@ -300,8 +381,11 @@
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "example": "ポケモンを もって いれば",
   "exampleEn": "if you have a Pokémon",
-  "sentence": 2,
-  "surface": "を"
+  "surface": "を",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "e-ya",
@@ -311,8 +395,11 @@
   "ref": "pallet/PalletTownFisherText",
   "example": "どうぐや ポケモンを",
   "exampleEn": "tools and Pokémon and such",
-  "sentence": 1,
-  "surface": "や"
+  "surface": "や",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "e-yo",
@@ -322,8 +409,11 @@
   "ref": "pallet/BluesHouseDaisyWalkingText",
   "example": "いきてるの！",
   "exampleEn": "they are alive, you know!",
-  "sentence": 0,
-  "surface": "よ"
+  "surface": "よ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-you",
@@ -333,8 +423,11 @@
   "ref": "pallet/BluesHouseDaisyWalkingText",
   "example": "おなじように",
   "exampleEn": "in the same way",
-  "sentence": 0,
-  "surface": "ように"
+  "surface": "ように",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "e-zo",
@@ -344,8 +437,11 @@
   "ref": "pallet/OaksLabThoseArePokeBallsText",
   "example": "はいってるぞ！",
   "exampleEn": "they're inside!",
-  "sentence": 0,
-  "surface": "ぞ"
+  "surface": "ぞ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "hou",
@@ -359,8 +455,11 @@
   "example": "こっちの ほうが やすい",
   "exampleEn": "This one is cheaper.",
   "note": "Comparison: A の ほうが B より つよい = A is stronger than B.",
-  "sentence": 0,
-  "surface": "の　ほうが"
+  "surface": "の　ほうが",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "koto",
@@ -374,8 +473,11 @@
   "example": "およぐことが すき",
   "exampleEn": "(I) like swimming.",
   "note": "つくること = making. Also X は Y こと = X is to Y.",
-  "sentence": 0,
-  "surface": "こと"
+  "surface": "こと",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "mitai",
@@ -389,8 +491,11 @@
   "example": "あめ みたい",
   "exampleEn": "(It) seems like rain.",
   "note": "After a plain form or noun. Casual; polite-ish: 〜ようだ.",
-  "sentence": 2,
-  "surface": "みたい"
+  "surface": "みたい",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "nisuru",
@@ -404,8 +509,11 @@
   "example": "これに します",
   "exampleEn": "(I)'ll go with this one.",
   "note": "Ordering: コーヒーに します = (I)'ll have coffee.",
-  "sentence": 0,
-  "surface": "に　する"
+  "surface": "に　する",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "to-when",
@@ -419,8 +527,11 @@
   "example": "ボタンを おすと でます",
   "exampleEn": "When (you) push the button, (it) comes out.",
   "note": "Plain form + と: a natural consequence. はるに なると さくらが さく.",
-  "sentence": 0,
-  "surface": "つかうと"
+  "surface": "つかうと",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ze",
@@ -432,8 +543,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalText.MyPokemonLooksStrongerText",
   "note": "The rival's trademark. Don't use it yourself; recognize it.",
-  "sentence": 0,
-  "surface": "ぜ"
+  "surface": "ぜ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-areba",
@@ -449,8 +563,11 @@
   "example": "じかんが あれば",
   "exampleEn": "If there is time.",
   "note": "う-verbs: final -u → -eba.",
-  "sentence": 2,
-  "surface": "いれば"
+  "surface": "いれば",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "f-dekiru",
@@ -467,8 +584,11 @@
   "exampleEn": "Can a reservation be done?",
   "exampleLoose": "Can I make a reservation?",
   "note": "する → できる. くる → こられる.",
-  "sentence": 0,
-  "surface": "できん"
+  "surface": "できん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-erabaseru",
@@ -486,8 +606,11 @@
   "example": "いかせて ください",
   "exampleEn": "Please let (me) go.",
   "note": "う-verbs: final -u → -aseru. たたかう → たたかわせる. 〜させてください = please let me.",
-  "sentence": 1,
-  "surface": "えらばせて　やるぜ"
+  "surface": "えらばせて　やるぜ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-erabe",
@@ -505,8 +628,11 @@
   "example": "まて！",
   "exampleEn": "Wait!",
   "note": "う-verbs: final -u → -e. Rough; used by Oak, in battle text, and on signs. Polite: えらんで ください.",
-  "sentence": 8,
-  "surface": "えらべ"
+  "surface": "えらべ",
+  "units": [
+   8,
+   8
+  ]
  },
  {
   "id": "f-eru",
@@ -519,8 +645,11 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "example": "とれる",
   "exampleEn": "can take",
-  "sentence": 6,
-  "surface": "え　られる"
+  "surface": "え　られる",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "f-hanaseru",
@@ -536,8 +665,11 @@
   "example": "にほんごが はなせる",
   "exampleEn": "(I) can speak Japanese.",
   "note": "う-verbs: final -u → -eru. はらう → はらえる, たたかう → たたかえる. What you can do takes が.",
-  "sentence": 2,
-  "surface": "たたかえる"
+  "surface": "たたかえる",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "f-ikimashou",
@@ -580,8 +712,11 @@
   "example": "そろそろ いこう",
   "exampleEn": "Soon, let's go.",
   "note": "う-verbs: final -u → -ō. いく → いこう, もらう → もらおう.",
-  "sentence": 2,
-  "surface": "でかけよう"
+  "surface": "でかけよう",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "f-kinasai",
@@ -595,8 +730,11 @@
   "vclass": "irregular",
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "note": "くる → きなさい, する → しなさい.",
-  "sentence": 3,
-  "surface": "きなさい"
+  "surface": "きなさい",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "f-masen",
@@ -609,8 +747,11 @@
   "ref": "pallet/NothingToDepositText",
   "example": "もっていません",
   "exampleEn": "do not have",
-  "sentence": 0,
-  "surface": "ません"
+  "surface": "ません",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-mashita",
@@ -623,8 +764,11 @@
   "ref": "system/ThrewAwayItemText",
   "example": "すてました",
   "exampleEn": "threw away",
-  "sentence": 0,
-  "surface": "ました"
+  "surface": "ました",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-masu",
@@ -637,8 +781,11 @@
   "ref": "pallet/WhatToDepositText",
   "example": "あずけますか",
   "exampleEn": "will you deposit",
-  "sentence": 0,
-  "surface": "ます"
+  "surface": "ます",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-matteiru",
@@ -678,8 +825,11 @@
   "ref": "pallet/NoEffectText",
   "example": "こうかが なかった",
   "exampleEn": "there was no effect",
-  "sentence": 0,
-  "surface": "なかった"
+  "surface": "なかった",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-nakerebanaranai",
@@ -692,8 +842,11 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "example": "つかまえなければ ならんのだ",
   "exampleEn": "you must catch them",
-  "sentence": 1,
-  "surface": "つかまえなければ　ならんのだ"
+  "surface": "つかまえなければ　ならんのだ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-nenasai",
@@ -734,8 +887,11 @@
   "ref": "pallet/NoRunningText",
   "example": "みせられない",
   "exampleEn": "cannot show",
-  "sentence": 1,
-  "surface": "られない"
+  "surface": "られない",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-reru",
@@ -748,8 +904,11 @@
   "ref": "pallet/OaksLabOakMyInventionPokedexText",
   "example": "かきこまれて",
   "exampleEn": "is written in",
-  "sentence": 1,
-  "surface": "れて"
+  "surface": "れて",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-sareru",
@@ -893,8 +1052,11 @@
   "ref": "pallet/EnemyMonFaintedText",
   "example": "たおれた",
   "exampleEn": "fell",
-  "sentence": 0,
-  "surface": "たおれた"
+  "surface": "たおれた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-tabemashou",
@@ -1024,8 +1186,11 @@
   "ref": "pallet/BluesHouseDaisyUseMapText",
   "example": "しりたい",
   "exampleEn": "want to know",
-  "sentence": 0,
-  "surface": "たい"
+  "surface": "たい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-tearu",
@@ -1038,8 +1203,11 @@
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "example": "いれて あるんじゃ",
   "exampleEn": "it's that they have been put in",
-  "sentence": 6,
-  "surface": "て　ある"
+  "surface": "て　ある",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "f-tehoshii",
@@ -1057,8 +1225,11 @@
   "example": "おしえて ほしい",
   "exampleEn": "(I) want (you) to tell (me).",
   "note": "て-form + ほしい. Same for every verb: きてほしい, おしえてほしい.",
-  "sentence": 4,
-  "surface": "はたして　ほしい"
+  "surface": "はたして　ほしい",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "f-teiku2",
@@ -1071,8 +1242,11 @@
   "ref": "pallet/OaksLabOak1Text.YourPokemonCanFightText",
   "example": "たたかわせて いけば",
   "exampleEn": "if you go on making it fight",
-  "sentence": 1,
-  "surface": "て　いけば となりまちへ　いける"
+  "surface": "て　いけば となりまちへ　いける",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-tekure",
@@ -1085,8 +1259,11 @@
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "example": "しゅっぱつ してくれい",
   "exampleEn": "set out for me",
-  "sentence": 5,
-  "surface": "てくれ"
+  "surface": "てくれ",
+  "units": [
+   5,
+   5
+  ]
  },
  {
   "id": "f-tekureru2",
@@ -1097,8 +1274,11 @@
   "register": "plain",
   "meaning": "does for me",
   "ref": "viridian/ViridianMartClerkParcelQuestText",
-  "sentence": 1,
-  "surface": "わたして　くれるかい"
+  "surface": "わたして　くれるかい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-tekuru",
@@ -1111,8 +1291,11 @@
   "ref": "pallet/OaksLabOakDontGoAwayYetText.Text",
   "example": "もどってこんか",
   "exampleEn": "won't you come back",
-  "sentence": 1,
-  "surface": "もどってこんか"
+  "surface": "もどってこんか",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-temiru",
@@ -1125,8 +1308,11 @@
   "ref": "pallet/OaksLabRivalIllTakeYouOnText.Text",
   "example": "おれの あいて してみろ",
   "exampleEn": "try being my opponent",
-  "sentence": 3,
-  "surface": "てみろ"
+  "surface": "てみろ",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "f-teoku",
@@ -1139,8 +1325,11 @@
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "example": "いって おくから",
   "exampleEn": "because I'll have told her",
-  "sentence": 7,
-  "surface": "て　おく"
+  "surface": "て　おく",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "f-tsuyokusuru",
@@ -1158,8 +1347,11 @@
   "example": "へやを あたたかくする",
   "exampleEn": "(I) make the room warm.",
   "note": "い → く + する. Becoming by itself: つよくなる.",
-  "sentence": 1,
-  "surface": "つよくする"
+  "surface": "つよくする",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-tsuyosou",
@@ -1177,8 +1369,11 @@
   "example": "おいしそう！",
   "exampleEn": "(It) looks tasty!",
   "note": "Drop い, add そう. おいしそう = looks tasty. Verbs: ます-stem + そう (ふりそう = looks like rain).",
-  "sentence": 0,
-  "surface": "つよそう"
+  "surface": "つよそう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "f-wasureteshimau",
@@ -1205,8 +1400,11 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "example": "にげやすい",
   "exampleEn": "easy to escape, escapes easily",
-  "sentence": 8,
-  "surface": "やすい"
+  "surface": "やすい",
+  "units": [
+   8,
+   8
+  ]
  },
  {
   "id": "f-yondeta",
@@ -1224,8 +1422,11 @@
   "example": "なにしてた？",
   "exampleEn": "What were (you) doing?",
   "note": "よんでいた → よんでた. Past of 〜てる.",
-  "sentence": 1,
-  "surface": "よんでた"
+  "surface": "よんでた",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "f-zuni",
@@ -1238,8 +1439,11 @@
   "ref": "pallet/OaksLabOak1Text.RaiseYourYoungPokemonText",
   "example": "まけずに",
   "exampleEn": "without losing",
-  "sentence": 0,
-  "surface": "ずに"
+  "surface": "ずに",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "famikon",
@@ -1251,8 +1455,11 @@
   "loose": "the Japanese NES",
   "scope": "game",
   "ref": "pallet/RedBedroomSNESText",
-  "sentence": 0,
-  "surface": "ファミコン"
+  "surface": "ファミコン",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-league",
@@ -1262,8 +1469,11 @@
   "meaning": "Pokémon League",
   "scope": "game",
   "ref": "pallet/OakLabEmailText",
-  "sentence": 3,
-  "surface": "ポケモン　リーグ"
+  "surface": "ポケモン　リーグ",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "i-monsterball2",
@@ -1273,8 +1483,11 @@
   "meaning": "ball · short for Monster Ball",
   "scope": "game",
   "ref": "pallet/OaksLabThoseArePokeBallsText",
-  "sentence": 0,
-  "surface": "ボール"
+  "surface": "ボール",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-report",
@@ -1284,8 +1497,11 @@
   "meaning": "Report · the game's word for saving",
   "scope": "game",
   "ref": "pallet/SaveOptionText",
-  "sentence": 0,
-  "surface": "レポート"
+  "surface": "レポート",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-townmap",
@@ -1295,8 +1511,11 @@
   "meaning": "Town Map",
   "scope": "game",
   "ref": "pallet/BluesHouseDaisyUseMapText",
-  "sentence": 0,
-  "surface": "タウンマップ"
+  "surface": "タウンマップ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-trainer",
@@ -1306,8 +1525,11 @@
   "meaning": "Trainer",
   "scope": "game",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
-  "sentence": 3,
-  "surface": "トレーナー"
+  "surface": "トレーナー",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "i-type",
@@ -1317,8 +1539,11 @@
   "meaning": "Type · Pokémon and move types",
   "scope": "game",
   "ref": "pallet/StrengthsAndWeaknessesText",
-  "sentence": 0,
-  "surface": "タイプに"
+  "surface": "タイプに",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-zukan",
@@ -1330,8 +1555,11 @@
   "loose": "Pokémon illustrated encyclopedia",
   "scope": "game",
   "ref": "pallet/OaksLabOakMyInventionPokedexText",
-  "sentence": 0,
-  "surface": "ポケモンずかん"
+  "surface": "ポケモンずかん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "masara",
@@ -1343,8 +1571,11 @@
   "loose": "Masara, from まっしろ, pure white",
   "scope": "game",
   "ref": "pallet/PalletTownSignText",
-  "sentence": 0,
-  "surface": "マサラ　タウン"
+  "surface": "マサラ　タウン",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "m-hikkaku",
@@ -1432,8 +1663,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabGirlText.Text",
   "note": "ああ みえても: even looking like that.",
-  "sentence": 0,
-  "surface": "ああ"
+  "surface": "ああ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "abayo",
@@ -1443,8 +1677,11 @@
   "meaning": "see ya · rough goodbye",
   "scope": "general",
   "ref": "pallet/OaksLabRivalSmellYouLaterText.Text",
-  "sentence": 4,
-  "surface": "あばよ"
+  "surface": "あばよ",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "abunai",
@@ -1455,8 +1692,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "kanji": "危ない",
-  "sentence": 0,
-  "surface": "あぶない"
+  "surface": "あぶない",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "achikochi",
@@ -1466,8 +1706,11 @@
   "meaning": "here and there",
   "scope": "general",
   "ref": "pallet/DexRatingText_Own0To9",
-  "sentence": 0,
-  "surface": "あちこち"
+  "surface": "あちこち",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "agaru",
@@ -1478,8 +1721,11 @@
   "scope": "general",
   "ref": "pallet/GrewLevelText",
   "kanji": "上がる",
-  "sentence": 0,
-  "surface": "あがった"
+  "surface": "あがった",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ageru",
@@ -1489,8 +1735,11 @@
   "meaning": "to give · from me to you",
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyOfferMapText",
-  "sentence": 1,
-  "surface": "あげる"
+  "surface": "あげる",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "aite",
@@ -1501,8 +1750,11 @@
   "scope": "general",
   "ref": "pallet/NoRunningText",
   "kanji": "相手",
-  "sentence": 1,
-  "surface": "あいて"
+  "surface": "あいて",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "araara",
@@ -1513,8 +1765,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomLookingGreatText",
   "loose": "あらら, shorter, by the girl in Viridian",
-  "sentence": 0,
-  "surface": "あらあら"
+  "surface": "あらあら",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "arawareru",
@@ -1525,8 +1780,11 @@
   "scope": "general",
   "ref": "pallet/EnemyAppearedText",
   "kanji": "現れる",
-  "sentence": 0,
-  "surface": "あらわれた"
+  "surface": "あらわれた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "arigatou",
@@ -1537,8 +1795,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "loose": "ありがとよ, Oak's gruff version",
-  "sentence": 7,
-  "surface": "ありがとよ"
+  "surface": "ありがとよ",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "aru",
@@ -1561,8 +1822,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FTVText.StandByMeMovieText",
   "kanji": "歩く",
-  "sentence": 1,
-  "surface": "あるいてる"
+  "surface": "あるいてる",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "ataru",
@@ -1573,8 +1837,11 @@
   "scope": "general",
   "ref": "pallet/CriticalHitText",
   "kanji": "当たる",
-  "sentence": 0,
-  "surface": "あたった"
+  "surface": "あたった",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "atsumaru",
@@ -1585,8 +1852,11 @@
   "scope": "general",
   "ref": "pallet/OakLabEmailText",
   "kanji": "集まる",
-  "sentence": 3,
-  "surface": "あつまり　ました ばしょは"
+  "surface": "あつまり　ました ばしょは",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "awateru",
@@ -1597,8 +1867,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakBePatientText.Text",
   "kanji": "慌てる",
-  "sentence": 1,
-  "surface": "あわてる"
+  "surface": "あわてる",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "azukaru",
@@ -1610,8 +1883,11 @@
   "scope": "general",
   "ref": "pallet/AccessedMyPCText",
   "note": "にもつを あずかる = keep luggage. Hotels and lockers.",
-  "sentence": 1,
-  "surface": "あずかり"
+  "surface": "あずかり",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "azukeru",
@@ -1622,8 +1898,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakGotPokedexText",
   "kanji": "預ける",
-  "sentence": 0,
-  "surface": "あずける"
+  "surface": "あずける",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "bakana",
@@ -1635,8 +1914,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalIPickedTheWrongPokemonText",
   "note": "そんな ばかな = that's absurd!",
-  "sentence": 0,
-  "surface": "バカな"
+  "surface": "バカな",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "baribari",
@@ -1646,8 +1928,11 @@
   "meaning": "top-notch, going strong",
   "scope": "general",
   "ref": "pallet/OaksLabOakChooseMonText.Text",
-  "sentence": 6,
-  "surface": "バリバリ"
+  "surface": "バリバリ",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "basho",
@@ -1658,8 +1943,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyUseMapText",
   "kanji": "場所",
-  "sentence": 0,
-  "surface": "ばしょ"
+  "surface": "ばしょ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "batsugun",
@@ -1670,8 +1958,11 @@
   "scope": "general",
   "ref": "pallet/SuperEffectiveText",
   "kanji": "抜群",
-  "sentence": 0,
-  "surface": "ばつぐん"
+  "surface": "ばつぐん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "boku",
@@ -1682,8 +1973,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FTVText.StandByMeMovieText",
   "kanji": "僕",
-  "sentence": 1,
-  "surface": "ぼく"
+  "surface": "ぼく",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "botan",
@@ -1693,8 +1987,11 @@
   "meaning": "button",
   "scope": "general",
   "ref": "pallet/PushStartText",
-  "sentence": 0,
-  "surface": "ボタン"
+  "surface": "ボタン",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "chansu",
@@ -1704,8 +2001,11 @@
   "meaning": "chance",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
-  "sentence": 4,
-  "surface": "チャンス"
+  "surface": "チャンス",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "chihou",
@@ -1716,8 +2016,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseTownMapText",
   "kanji": "地方",
-  "sentence": 0,
-  "surface": "ちほう"
+  "surface": "ちほう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "chikara",
@@ -1728,8 +2031,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownFisherText",
   "kanji": "力",
-  "sentence": 0,
-  "surface": "ちから"
+  "surface": "ちから",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "chikaratsukiru",
@@ -1740,8 +2046,11 @@
   "scope": "general",
   "ref": "pallet/PokemonFaintedText",
   "kanji": "力尽きる",
-  "sentence": 0,
-  "surface": "ちからつきた"
+  "surface": "ちからつきた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "chizu",
@@ -1752,8 +2061,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseTownMapText",
   "kanji": "地図",
-  "sentence": 0,
-  "surface": "ちず"
+  "surface": "ちず",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "chotto",
@@ -1767,8 +2079,11 @@
   "example": "ちょっと まって",
   "exampleEn": "Wait a little.",
   "note": "Also a soft 'no': ちょっと… = that's a bit…",
-  "sentence": 3,
-  "surface": "ちょっと"
+  "surface": "ちょっと",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "choushi",
@@ -1779,8 +2094,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.HowIsYourPokedexComingText",
   "kanji": "調子",
-  "sentence": 1,
-  "surface": "ちょうし"
+  "surface": "ちょうし",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "daibu",
@@ -1790,8 +2108,11 @@
   "meaning": "quite, considerably",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
-  "sentence": 2,
-  "surface": "だいぶ"
+  "surface": "だいぶ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "dakara",
@@ -1804,8 +2125,11 @@
   "ref": "pallet/OaksLabRivalText.GoAheadAndChooseText",
   "example": "あめ だから いかない",
   "exampleEn": "(It)'s rain, so (I) don't go.",
-  "sentence": 1,
-  "surface": "だから"
+  "surface": "だから",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "dake",
@@ -1815,8 +2139,11 @@
   "meaning": "only, just",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
-  "sentence": 0,
-  "surface": "だけ"
+  "surface": "だけ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "dame",
@@ -1826,8 +2153,11 @@
   "meaning": "no good, not allowed",
   "scope": "general",
   "ref": "pallet/NoRunningText",
-  "sentence": 0,
-  "surface": "ダメ"
+  "surface": "ダメ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "daredemo",
@@ -1850,8 +2180,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "出番",
-  "sentence": 4,
-  "surface": "でばん"
+  "surface": "でばん",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "deeta",
@@ -1861,8 +2194,11 @@
   "meaning": "data",
   "scope": "general",
   "ref": "pallet/PalletTownFisherText",
-  "sentence": 1,
-  "surface": "データ"
+  "surface": "データ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "dekakeru",
@@ -1875,8 +2211,11 @@
   "ref": "pallet/RedBedroomSNESText",
   "example": "あさ でかける",
   "exampleEn": "(I) go out in the morning.",
-  "sentence": 2,
-  "surface": "でかけよう"
+  "surface": "でかけよう",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "denshimeeru",
@@ -1887,8 +2226,11 @@
   "scope": "general",
   "ref": "pallet/OakLabEmailText",
   "kanji": "電子メール",
-  "sentence": 0,
-  "surface": "でんしメール"
+  "surface": "でんしメール",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "deru",
@@ -1901,8 +2243,11 @@
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "example": "いえを でる",
   "exampleEn": "(I) leave the house.",
-  "sentence": 0,
-  "surface": "でる"
+  "surface": "でる",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "dokodemo",
@@ -1926,8 +2271,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.WhichPokemonDoYouWantText",
   "note": "どの + noun. どれ when standing alone.",
-  "sentence": 0,
-  "surface": "どの"
+  "surface": "どの",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "dore",
@@ -1937,8 +2285,11 @@
   "meaning": "which one · also let's see",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.HowIsYourPokedexComingText",
-  "sentence": 2,
-  "surface": "どれ"
+  "surface": "どれ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "dou",
@@ -1948,8 +2299,11 @@
   "meaning": "how",
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomYouShouldRestText",
-  "sentence": 1,
-  "surface": "どう"
+  "surface": "どう",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "dougu",
@@ -1960,8 +2314,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownFisherText",
   "kanji": "道具",
-  "sentence": 1,
-  "surface": "どうぐ"
+  "surface": "どうぐ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "eiga",
@@ -1972,8 +2329,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FTVText.StandByMeMovieText",
   "kanji": "映画",
-  "sentence": 0,
-  "surface": "えいが"
+  "surface": "えいが",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "en",
@@ -1983,8 +2343,11 @@
   "meaning": "yen",
   "scope": "general",
   "ref": "pallet/MoneyForWinningText",
-  "sentence": 0,
-  "surface": "円"
+  "surface": "円",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "erabu",
@@ -1997,8 +2360,11 @@
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "example": "ひとつ えらんで ください",
   "exampleEn": "Please choose one.",
-  "sentence": 8,
-  "surface": "えらべ"
+  "surface": "えらべ",
+  "units": [
+   8,
+   8
+  ]
  },
  {
   "id": "fueru",
@@ -2009,8 +2375,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakMyInventionPokedexText",
   "kanji": "増える",
-  "sentence": 1,
-  "surface": "ふえて　いく　という たいへん"
+  "surface": "ふえて　いく　という たいへん",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "fumei",
@@ -2021,8 +2390,11 @@
   "scope": "general",
   "ref": "pallet/AreaUnknownText",
   "kanji": "不明",
-  "sentence": 0,
-  "surface": "ふめい"
+  "surface": "ふめい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "futari",
@@ -2033,8 +2405,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "kanji": "二人",
-  "sentence": 5,
-  "surface": "ふたり"
+  "surface": "ふたり",
+  "units": [
+   5,
+   5
+  ]
  },
  {
   "id": "gaadoman",
@@ -2044,8 +2419,11 @@
   "meaning": "guard, security guard",
   "scope": "general",
   "ref": "pallet/PalletTownGirlText",
-  "sentence": 1,
-  "surface": "ガードマン"
+  "surface": "ガードマン",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "ganbaru",
@@ -2056,8 +2434,11 @@
   "scope": "general",
   "ref": "pallet/GetmText",
   "kanji": "頑張る",
-  "sentence": 0,
-  "surface": "がんばれ"
+  "surface": "がんばれ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "gattsuku",
@@ -2067,8 +2448,11 @@
   "meaning": "to be greedy, to grab",
   "scope": "general",
   "ref": "pallet/OaksLabRivalText.GoAheadAndChooseText",
-  "sentence": 1,
-  "surface": "がっつかないのさ"
+  "surface": "がっつかないのさ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "genki",
@@ -2081,8 +2465,11 @@
   "ref": "pallet/RedsHouse1FMomLookingGreatText",
   "example": "おげんきですか？",
   "exampleEn": "Are (you) well?",
-  "sentence": 1,
-  "surface": "げんき"
+  "surface": "げんき",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "genzai",
@@ -2093,8 +2480,11 @@
   "scope": "general",
   "ref": "pallet/DexCompletionText",
   "kanji": "現在",
-  "sentence": 0,
-  "surface": "げんざい"
+  "surface": "げんざい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "goran",
@@ -2105,8 +2495,11 @@
   "scope": "general",
   "ref": "pallet/OakLabEmailText",
   "kanji": "ご覧",
-  "sentence": 4,
-  "surface": "ごらん"
+  "surface": "ごらん",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "hairu",
@@ -2117,8 +2510,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabThoseArePokeBallsText",
   "kanji": "入る",
-  "sentence": 0,
-  "surface": "はいってるぞ"
+  "surface": "はいってるぞ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "haiteku",
@@ -2128,8 +2524,11 @@
   "meaning": "high-tech",
   "scope": "general",
   "ref": "pallet/OaksLabOakMyInventionPokedexText",
-  "sentence": 1,
-  "surface": "ハイテク"
+  "surface": "ハイテク",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "hanashi",
@@ -2140,8 +2539,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "kanji": "話",
-  "sentence": 0,
-  "surface": "はなし"
+  "surface": "はなし",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "hanasu",
@@ -2163,8 +2565,11 @@
   "meaning": "to fulfill, to carry out",
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
-  "sentence": 4,
-  "surface": "はたして　ほしいのじゃ"
+  "surface": "はたして　ほしいのじゃ",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "hazureru",
@@ -2175,8 +2580,11 @@
   "scope": "general",
   "ref": "pallet/AttackMissedText",
   "kanji": "外れる",
-  "sentence": 0,
-  "surface": "はずれた"
+  "surface": "はずれた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "hehen",
@@ -2187,8 +2595,11 @@
   "meaning": "heh, so there (taunt)",
   "scope": "general",
   "ref": "pallet/OaksLabRivalText.GoAheadAndChooseText",
-  "sentence": 0,
-  "surface": "へへーんだ"
+  "surface": "へへーんだ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "heiki",
@@ -2199,8 +2610,11 @@
   "scope": "general",
   "ref": "pallet/IsUnaffectedText",
   "kanji": "平気",
-  "sentence": 0,
-  "surface": "へいき"
+  "surface": "へいき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "hiki",
@@ -2212,8 +2626,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "note": "1ぴき, 2ひき, 3びき, 4ひき, 5ひき, 6ぴき, 8ぴき, 10ぴき.",
-  "sentence": 4,
-  "surface": "３びき"
+  "surface": "３びき",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "hikidasu",
@@ -2224,8 +2641,11 @@
   "scope": "general",
   "ref": "pallet/PlayersPCMenuEntries",
   "kanji": "引き出す",
-  "sentence": 0,
-  "surface": "ひきだす"
+  "surface": "ひきだす",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "hiraku",
@@ -2236,8 +2656,11 @@
   "scope": "general",
   "ref": "pallet/PushStartText",
   "kanji": "開く",
-  "sentence": 1,
-  "surface": "ひらく"
+  "surface": "ひらく",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "hitsuyou",
@@ -2248,8 +2671,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "必要",
-  "sentence": 2,
-  "surface": "ひつよう"
+  "surface": "ひつよう",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "hoka",
@@ -2263,8 +2689,11 @@
   "example": "ほかに ありますか？",
   "exampleEn": "Is there another?",
   "exampleLoose": "Anything else?",
-  "sentence": 1,
-  "surface": "ほか"
+  "surface": "ほか",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "hon",
@@ -2275,8 +2704,11 @@
   "scope": "general",
   "ref": "pallet/BookcaseText",
   "kanji": "本",
-  "sentence": 0,
-  "surface": "ほん　ばかりだ"
+  "surface": "ほん　ばかりだ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "honbu",
@@ -2287,8 +2719,11 @@
   "scope": "general",
   "ref": "pallet/OakLabEmailText",
   "kanji": "本部",
-  "sentence": 3,
-  "surface": "ほんぶ"
+  "surface": "ほんぶ",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "hondana",
@@ -2299,8 +2734,11 @@
   "scope": "general",
   "ref": "pallet/BookcaseText",
   "kanji": "本棚",
-  "sentence": 0,
-  "surface": "ほんだな"
+  "surface": "ほんだな",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "honoo",
@@ -2311,8 +2749,11 @@
   "meaning": "flame",
   "scope": "general",
   "ref": "pallet/OaksLabYouWantCharmanderText.Text",
-  "sentence": 1,
-  "surface": "ほのお"
+  "surface": "ほのお",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "honto",
@@ -2324,8 +2765,11 @@
   "ref": "pallet/OaksLabMonEnergeticText",
   "kanji": "本当",
   "loose": "ほんとう in full",
-  "sentence": 0,
-  "surface": "ほんと"
+  "surface": "ほんと",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "hore",
@@ -2335,8 +2779,11 @@
   "meaning": "here, look · old man's attention-getter",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
-  "sentence": 2,
-  "surface": "ほれ"
+  "surface": "ほれ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "hyouka",
@@ -2347,8 +2794,11 @@
   "scope": "general",
   "ref": "pallet/DexCompletionText",
   "kanji": "評価",
-  "sentence": 2,
-  "surface": "ひょうか"
+  "surface": "ひょうか",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "ichido",
@@ -2359,8 +2809,11 @@
   "scope": "general",
   "ref": "pallet/OakLabEmailText",
   "kanji": "一度",
-  "sentence": 4,
-  "surface": "いちど"
+  "surface": "いちど",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "ii",
@@ -2370,8 +2823,11 @@
   "meaning": "good, fine",
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyUseMapText",
-  "sentence": 0,
-  "surface": "いい"
+  "surface": "いい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ikutsu",
@@ -2381,8 +2837,11 @@
   "meaning": "how many",
   "scope": "general",
   "ref": "pallet/DepositHowManyText",
-  "sentence": 0,
-  "surface": "いくつ"
+  "surface": "いくつ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ima",
@@ -2393,8 +2852,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownFisherText",
   "kanji": "今",
-  "sentence": 1,
-  "surface": "いま"
+  "surface": "いま",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "imahitotsu",
@@ -2405,8 +2867,11 @@
   "scope": "general",
   "ref": "pallet/NotVeryEffectiveText",
   "kanji": "今一つ",
-  "sentence": 0,
-  "surface": "いまひとつ"
+  "surface": "いまひとつ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ippai",
@@ -2417,8 +2882,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomLookingGreatText",
   "kanji": "一杯",
-  "sentence": 1,
-  "surface": "いっぱい"
+  "surface": "いっぱい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "ireru",
@@ -2431,8 +2899,11 @@
   "ref": "pallet/TurnedOnPC1Text",
   "example": "おさとうを いれますか？",
   "exampleEn": "Do (you) put in sugar?",
-  "sentence": 0,
-  "surface": "いれた"
+  "surface": "いれた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "iro",
@@ -2443,8 +2914,11 @@
   "meaning": "color",
   "scope": "general",
   "ref": "pallet/PalletTownSignText",
-  "sentence": 0,
-  "surface": "いろ"
+  "surface": "いろ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "iru",
@@ -2458,8 +2932,11 @@
   "example": "ねこが いる",
   "exampleEn": "There is a cat.",
   "note": "For things: ある.",
-  "sentence": 4,
-  "surface": "いる"
+  "surface": "いる",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "ittekimasu",
@@ -2481,8 +2958,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakMyInventionPokedexText",
   "kanji": "自動的",
-  "sentence": 1,
-  "surface": "じどうてき"
+  "surface": "じどうてき",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "jiisan",
@@ -2494,8 +2974,11 @@
   "ref": "pallet/OaksLabRivalText.GrampsIsntAroundText",
   "kanji": "爺さん",
   "loose": "おじいちゃん when his sister says it, じじい when Oak says it about himself",
-  "sentence": 1,
-  "surface": "じいさん"
+  "surface": "じいさん",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "jijii",
@@ -2505,8 +2988,11 @@
   "meaning": "old geezer",
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
-  "sentence": 2,
-  "surface": "ジジイ"
+  "surface": "ジジイ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "joshu",
@@ -2517,8 +3003,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabScientistText.Text",
   "kanji": "助手",
-  "sentence": 0,
-  "surface": "じょしゅ"
+  "surface": "じょしゅ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kagaku",
@@ -2529,8 +3018,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownFisherText",
   "kanji": "科学",
-  "sentence": 0,
-  "surface": "かがく"
+  "surface": "かがく",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kakikomu",
@@ -2541,8 +3033,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakMyInventionPokedexText",
   "kanji": "書き込む",
-  "sentence": 1,
-  "surface": "かきこまれて"
+  "surface": "かきこまれて",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "kanarazu",
@@ -2553,8 +3048,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "必ず",
-  "sentence": 1,
-  "surface": "かならず"
+  "surface": "かならず",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "kanpeki",
@@ -2567,8 +3065,11 @@
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "example": "かんぺきです！",
   "exampleEn": "(It) is perfect!",
-  "sentence": 0,
-  "surface": "かんぺき"
+  "surface": "かんぺき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kantou",
@@ -2578,8 +3079,11 @@
   "meaning": "Kanto · the region",
   "scope": "game",
   "ref": "pallet/BluesHouseTownMapText",
-  "sentence": 0,
-  "surface": "カントー"
+  "surface": "カントー",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kao",
@@ -2591,8 +3095,11 @@
   "ref": "pallet/OaksLabOak1Text.ComeSeeMeSometimesText",
   "kanji": "顔",
   "note": "かおを だす: to show one's face, to drop by.",
-  "sentence": 0,
-  "surface": "かお"
+  "surface": "かお",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kariru",
@@ -2603,8 +3110,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "借りる",
-  "sentence": 6,
-  "surface": "かりて　いこう"
+  "surface": "かりて　いこう",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "kasu",
@@ -2615,8 +3125,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "貸す",
-  "sentence": 7,
-  "surface": "かさない　ように ねえちゃんに　いって　おくから おれんちへ　きても　むだ　だからな"
+  "surface": "かさない　ように ねえちゃんに　いって　おくから おれんちへ　きても　むだ　だからな",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "katsu",
@@ -2627,8 +3140,11 @@
   "scope": "general",
   "ref": "pallet/TrainerDefeatedText",
   "kanji": "勝つ",
-  "sentence": 0,
-  "surface": "かった"
+  "surface": "かった",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kau",
@@ -2652,8 +3168,11 @@
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "example": "わたしの かわりに いって ください",
   "exampleEn": "Please go in my place.",
-  "sentence": 4,
-  "surface": "かわりに"
+  "surface": "かわりに",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "kazu",
@@ -2664,8 +3183,11 @@
   "scope": "general",
   "ref": "pallet/PokedexSeenText",
   "kanji": "数",
-  "sentence": 0,
-  "surface": "かず"
+  "surface": "かず",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "keikenchi",
@@ -2676,8 +3198,11 @@
   "scope": "general",
   "ref": "pallet/ExpPointsText",
   "kanji": "経験値",
-  "sentence": 0,
-  "surface": "けいけんち"
+  "surface": "けいけんち",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kenkyuujo",
@@ -2688,8 +3213,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownOaksLabSignText",
   "kanji": "研究所",
-  "sentence": 0,
-  "surface": "けんきゅうじょ"
+  "surface": "けんきゅうじょ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kiku",
@@ -2700,8 +3228,11 @@
   "scope": "general",
   "ref": "pallet/DidntAffectText",
   "kanji": "効く",
-  "sentence": 0,
-  "surface": "きかなかった"
+  "surface": "きかなかった",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kimaru",
@@ -2712,8 +3243,11 @@
   "scope": "general",
   "ref": "pallet/ButItFailedText",
   "kanji": "決まる",
-  "sentence": 0,
-  "surface": "きまらなかった"
+  "surface": "きまらなかった",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kiotsukeru",
@@ -2724,8 +3258,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomLookingGreatText",
   "kanji": "気を付ける",
-  "sentence": 2,
-  "surface": "きを　つけて"
+  "surface": "きを　つけて",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "kiroku",
@@ -2737,8 +3274,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "note": "きろくする = to record.",
-  "sentence": 0,
-  "surface": "きろく"
+  "surface": "きろく",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kiru",
@@ -2749,8 +3289,11 @@
   "scope": "general",
   "ref": "pallet/PlayersPCMenuEntries",
   "kanji": "切る",
-  "sentence": 3,
-  "surface": "きる"
+  "surface": "きる",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "kiryoku",
@@ -2761,8 +3304,11 @@
   "scope": "general",
   "ref": "pallet/NoWillText",
   "kanji": "気力",
-  "sentence": 0,
-  "surface": "きりょく"
+  "surface": "きりょく",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kochira",
@@ -2772,8 +3318,11 @@
   "meaning": "this side, this way · here, you too",
   "scope": "general",
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
-  "sentence": 2,
-  "surface": "こちら"
+  "surface": "こちら",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "koko",
@@ -2783,8 +3332,11 @@
   "meaning": "here",
   "scope": "general",
   "ref": "pallet/PalletTownOaksLabSignText",
-  "sentence": 0,
-  "surface": "ここ"
+  "surface": "ここ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "komame",
@@ -2794,8 +3346,11 @@
   "meaning": "frequently, diligently",
   "scope": "general",
   "ref": "pallet/SaveOptionText",
-  "sentence": 0,
-  "surface": "こまめ"
+  "surface": "こまめ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "konnichiwa",
@@ -2805,8 +3360,11 @@
   "meaning": "hello, good day",
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyRivalAtLabText",
-  "sentence": 0,
-  "surface": "こんにちは"
+  "surface": "こんにちは",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kora",
@@ -2816,8 +3374,11 @@
   "meaning": "hey!, now then · scolding",
   "scope": "general",
   "ref": "pallet/OaksLabOakDontGoAwayYetText.Text",
-  "sentence": 0,
-  "surface": "こら"
+  "surface": "こら",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kougeki",
@@ -2828,8 +3389,11 @@
   "meaning": "attack",
   "scope": "general",
   "ref": "pallet/AttackMissedText",
-  "sentence": 0,
-  "surface": "こうげき"
+  "surface": "こうげき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kouka",
@@ -2840,8 +3404,11 @@
   "scope": "general",
   "ref": "pallet/NoEffectText",
   "kanji": "効果",
-  "sentence": 0,
-  "surface": "こうか"
+  "surface": "こうか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kudasai",
@@ -2851,8 +3418,11 @@
   "meaning": "please · give me",
   "scope": "general",
   "ref": "pallet/OakLabEmailText",
-  "sentence": 4,
-  "surface": "ください"
+  "surface": "ください",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "kureru",
@@ -2862,8 +3432,11 @@
   "meaning": "to give · to me",
   "scope": "general",
   "ref": "pallet/OaksLabRivalWhatAboutMeText.Text",
-  "sentence": 3,
-  "surface": "くれよお"
+  "surface": "くれよお",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "kuridasu",
@@ -2874,8 +3447,11 @@
   "scope": "general",
   "ref": "pallet/TrainerSentOutText",
   "kanji": "繰り出す",
-  "sentence": 0,
-  "surface": "くりだした"
+  "surface": "くりだした",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kuru",
@@ -2908,8 +3484,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "詳しい",
-  "sentence": 0,
-  "surface": "くわしい"
+  "surface": "くわしい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kyuusho",
@@ -2920,8 +3499,11 @@
   "scope": "general",
   "ref": "pallet/CriticalHitText",
   "kanji": "急所",
-  "sentence": 0,
-  "surface": "きゅうしょ"
+  "surface": "きゅうしょ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "machi",
@@ -2932,8 +3514,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyUseMapText",
   "kanji": "町",
-  "sentence": 0,
-  "surface": "まち"
+  "surface": "まち",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "machikutabireru",
@@ -2944,8 +3529,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalFedUpWithWaitingText.Text",
   "kanji": "待ちくたびれる",
-  "sentence": 1,
-  "surface": "まちくたびれたぞー"
+  "surface": "まちくたびれたぞー",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "madamada",
@@ -2955,8 +3543,11 @@
   "meaning": "not yet, still a long way",
   "scope": "general",
   "ref": "pallet/DexRatingText_Own0To9",
-  "sentence": 0,
-  "surface": "まだまだ"
+  "surface": "まだまだ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "makaseru",
@@ -2967,8 +3558,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "任せる",
-  "sentence": 2,
-  "surface": "まかせなー"
+  "surface": "まかせなー",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "makeru",
@@ -2980,8 +3574,11 @@
   "ref": "pallet/OaksLabOak1Text.RaiseYourYoungPokemonText",
   "kanji": "負ける",
   "note": "まけずに: without losing, don't lose out.",
-  "sentence": 0,
-  "surface": "まけずに"
+  "surface": "まけずに",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "makkura",
@@ -2992,8 +3589,11 @@
   "scope": "general",
   "ref": "pallet/PlayerBlackedOutText2",
   "kanji": "真っ暗",
-  "sentence": 1,
-  "surface": "まっくら"
+  "surface": "まっくら",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "masshiro",
@@ -3005,8 +3605,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownSignText",
   "note": "まっ + いろ: まっくろ pure black, まっか bright red.",
-  "sentence": 0,
-  "surface": "まっしろ"
+  "surface": "まっしろ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "matsu",
@@ -3028,8 +3631,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "全く",
-  "sentence": 4,
-  "surface": "まったく"
+  "surface": "まったく",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "mayou",
@@ -3052,8 +3658,11 @@
   "scope": "general",
   "ref": "pallet/UsedMoveText_CheckObedience.UsedInsteadText",
   "kanji": "命令",
-  "sentence": 0,
-  "surface": "めいれい"
+  "surface": "めいれい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "menomae",
@@ -3064,8 +3673,11 @@
   "scope": "general",
   "ref": "pallet/PlayerBlackedOutText",
   "kanji": "目の前",
-  "sentence": 1,
-  "surface": "めのまえ"
+  "surface": "めのまえ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "menyuu",
@@ -3075,8 +3687,11 @@
   "meaning": "menu",
   "scope": "general",
   "ref": "pallet/PushStartText",
-  "sentence": 1,
-  "surface": "メニュー"
+  "surface": "メニュー",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "mieru",
@@ -3087,8 +3702,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FTVText.WrongSideText",
   "kanji": "見える",
-  "sentence": 0,
-  "surface": "みえない"
+  "surface": "みえない",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "miru",
@@ -3099,8 +3717,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.HowIsYourPokedexComingText",
   "kanji": "見る",
-  "sentence": 2,
-  "surface": "みて"
+  "surface": "みて",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "miseru",
@@ -3111,8 +3732,11 @@
   "scope": "general",
   "ref": "pallet/NoRunningText",
   "kanji": "見せる",
-  "sentence": 1,
-  "surface": "みせられない"
+  "surface": "みせられない",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "mitsukeru",
@@ -3123,8 +3747,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "見つける",
-  "sentence": 0,
-  "surface": "みつけただけ　では くわしい"
+  "surface": "みつけただけ　では くわしい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "mizu",
@@ -3137,8 +3764,11 @@
   "ref": "pallet/OaksLabYouWantSquirtleText.Text",
   "example": "みずを ください",
   "exampleEn": "Water, please.",
-  "sentence": 0,
-  "surface": "みず"
+  "surface": "みず",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "modoru",
@@ -3149,8 +3779,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakDontGoAwayYetText.Text",
   "kanji": "戻る",
-  "sentence": 1,
-  "surface": "もどってこんか"
+  "surface": "もどってこんか",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "mokuji",
@@ -3161,8 +3794,11 @@
   "scope": "general",
   "ref": "pallet/PokedexContentsText",
   "kanji": "目次",
-  "sentence": 0,
-  "surface": "もくじ"
+  "surface": "もくじ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "mono",
@@ -3173,8 +3809,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "kanji": "物",
-  "sentence": 0,
-  "surface": "もの"
+  "surface": "もの",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "motsu",
@@ -3187,8 +3826,11 @@
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "example": "かさを もつ",
   "exampleEn": "(I) hold an umbrella.",
-  "sentence": 2,
-  "surface": "もって　いれば たたかえるのだが"
+  "surface": "もって　いれば たたかえるのだが",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "motto",
@@ -3201,8 +3843,11 @@
   "ref": "pallet/OaksLabRivalSmellYouLaterText.Text",
   "example": "もっと ゆっくり おねがいします",
   "exampleEn": "More slowly, please.",
-  "sentence": 1,
-  "surface": "もっと　もっと"
+  "surface": "もっと　もっと",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "mou",
@@ -3212,8 +3857,11 @@
   "meaning": "already · also, more, another",
   "scope": "general",
   "ref": "pallet/RedsHouse1FTVText.StandByMeMovieText",
-  "sentence": 1,
-  "surface": "もう"
+  "surface": "もう",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "muda",
@@ -3224,8 +3872,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "無駄",
-  "sentence": 7,
-  "surface": "むだ"
+  "surface": "むだ",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "mukashi",
@@ -3236,8 +3887,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "kanji": "昔",
-  "sentence": 6,
-  "surface": "むかし"
+  "surface": "むかし",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "muri",
@@ -3248,8 +3902,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "kanji": "無理",
-  "sentence": 3,
-  "surface": "ムリ"
+  "surface": "ムリ",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "mushi",
@@ -3260,8 +3917,11 @@
   "scope": "general",
   "ref": "pallet/UsedMoveText_CheckObedience.UsedInsteadText",
   "kanji": "無視",
-  "sentence": 0,
-  "surface": "むし"
+  "surface": "むし",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nageru",
@@ -3272,8 +3932,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "投げる",
-  "sentence": 6,
-  "surface": "なげれば"
+  "surface": "なげれば",
+  "units": [
+   5,
+   6
+  ]
  },
  {
   "id": "nai",
@@ -3283,8 +3946,11 @@
   "meaning": "not existing, not there · negative of ある",
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyWalkingText",
-  "sentence": 1,
-  "surface": "ない"
+  "surface": "ない",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "najimi",
@@ -3308,8 +3974,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabThoseArePokeBallsText",
   "kanji": "中",
-  "sentence": 0,
-  "surface": "なか"
+  "surface": "なか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nandemo",
@@ -3333,8 +4002,11 @@
   "scope": "general",
   "ref": "pallet/WhatDoYouWantText",
   "kanji": "何",
-  "sentence": 0,
-  "surface": "なに"
+  "surface": "なに",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "narasu",
@@ -3345,8 +4017,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "kanji": "鳴らす",
-  "sentence": 6,
-  "surface": "ならした　もの"
+  "surface": "ならした　もの",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "naru",
@@ -3356,8 +4031,11 @@
   "meaning": "to become",
   "scope": "general",
   "ref": "pallet/PalletTownGirlText",
-  "sentence": 1,
-  "surface": "なる"
+  "surface": "なる",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "natsuku",
@@ -3368,8 +4046,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "kanji": "懐く",
-  "sentence": 2,
-  "surface": "なついた　みたいだな"
+  "surface": "なついた　みたいだな",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "neechan",
@@ -3380,8 +4061,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "姉ちゃん",
-  "sentence": 6,
-  "surface": "ねえちゃん"
+  "surface": "ねえちゃん",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "neru",
@@ -3403,8 +4087,11 @@
   "scope": "general",
   "ref": "pallet/StrengthsAndWeaknessesText",
   "kanji": "苦手",
-  "sentence": 0,
-  "surface": "にがて"
+  "surface": "にがて",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nigeru",
@@ -3415,8 +4102,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "逃げる",
-  "sentence": 8,
-  "surface": "にげやすいし うんも　あるからな"
+  "surface": "にげやすいし うんも　あるからな",
+  "units": [
+   8,
+   8
+  ]
  },
  {
   "id": "nikkuneemu",
@@ -3426,8 +4116,11 @@
   "meaning": "nickname",
   "scope": "general",
   "ref": "pallet/DoYouWantToNicknameText",
-  "sentence": 0,
-  "surface": "ニックネーム"
+  "surface": "ニックネーム",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nimotsu",
@@ -3438,8 +4131,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyBagFullText",
   "kanji": "荷物",
-  "sentence": 0,
-  "surface": "にもつ"
+  "surface": "にもつ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ningen",
@@ -3450,8 +4146,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyWalkingText",
   "kanji": "人間",
-  "sentence": 0,
-  "surface": "にんげん"
+  "surface": "にんげん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "nokoru",
@@ -3462,8 +4161,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "kanji": "残る",
-  "sentence": 6,
-  "surface": "のこる"
+  "surface": "のこる",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "nomu",
@@ -3485,8 +4187,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "kanji": "老いぼれる",
-  "sentence": 7,
-  "surface": "おいぼれた　いまは"
+  "surface": "おいぼれた　いまは",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "okoru",
@@ -3497,8 +4202,11 @@
   "scope": "general",
   "ref": "pallet/NothingHappenedText",
   "kanji": "起こる",
-  "sentence": 0,
-  "surface": "おこらない"
+  "surface": "おこらない",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "okuru",
@@ -3510,8 +4218,11 @@
   "ref": "pallet/PalletTownFisherText",
   "kanji": "送る",
   "note": "おくれる here is the potential: can send.",
-  "sentence": 1,
-  "surface": "おくれるんだと"
+  "surface": "おくれるんだと",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "omae",
@@ -3523,8 +4234,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "note": "Oak to the kids, the rival to you. Rude to a stranger.",
-  "sentence": 4,
-  "surface": "おまえ"
+  "surface": "おまえ",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "omosa",
@@ -3535,8 +4249,11 @@
   "scope": "general",
   "ref": "pallet/HeightWeightText",
   "kanji": "重さ",
-  "sentence": 1,
-  "surface": "おもさ"
+  "surface": "おもさ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "onaji",
@@ -3547,8 +4264,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyWalkingText",
   "kanji": "同じ",
-  "sentence": 0,
-  "surface": "おなじ"
+  "surface": "おなじ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "oo",
@@ -3558,8 +4278,11 @@
   "meaning": "oh!",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
-  "sentence": 0,
-  "surface": "おお"
+  "surface": "おお",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ooi",
@@ -3569,8 +4292,11 @@
   "meaning": "hey!, oi! · calling from a distance",
   "scope": "general",
   "ref": "pallet/PalletTownOakText.HeyWaitDontGoOutText",
-  "sentence": 0,
-  "surface": "おーい"
+  "surface": "おーい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ooi2",
@@ -3581,8 +4307,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabGirlText.Text",
   "kanji": "多い",
-  "sentence": 1,
-  "surface": "おおい"
+  "surface": "おおい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "ore",
@@ -3594,8 +4323,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalText.GoAheadAndChooseText",
   "note": "The rival's 'I'. Oak says わし, the game narration says you.",
-  "sentence": 1,
-  "surface": "おれ"
+  "surface": "おれ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "osu",
@@ -3606,8 +4338,11 @@
   "scope": "general",
   "ref": "pallet/PushStartText",
   "kanji": "押す",
-  "sentence": 1,
-  "surface": "おす"
+  "surface": "おす",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "otokonoko",
@@ -3618,8 +4353,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "kanji": "男の子",
-  "sentence": 0,
-  "surface": "おとこのこ"
+  "surface": "おとこのこ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "otona",
@@ -3630,8 +4368,11 @@
   "meaning": "adult",
   "scope": "general",
   "ref": "pallet/OaksLabRivalText.GoAheadAndChooseText",
-  "sentence": 1,
-  "surface": "おとな"
+  "surface": "おとな",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "otouto",
@@ -3642,8 +4383,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyRivalAtLabText",
   "kanji": "弟",
-  "sentence": 1,
-  "surface": "おとうと"
+  "surface": "おとうと",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "pasokon",
@@ -3655,8 +4399,11 @@
   "scope": "general",
   "ref": "pallet/TurnedOnPC1Text",
   "note": "From 'personal computer'.",
-  "sentence": 0,
-  "surface": "パソコン"
+  "surface": "パソコン",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "peeji",
@@ -3666,8 +4413,11 @@
   "meaning": "page",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.ComeSeeMeSometimesText",
-  "sentence": 1,
-  "surface": "ページ"
+  "surface": "ページ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "poi",
@@ -3677,8 +4427,11 @@
   "meaning": "toss! · the sound of throwing something lightly",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
-  "sentence": 5,
-  "surface": "ポイ"
+  "surface": "ポイ",
+  "units": [
+   5,
+   6
+  ]
  },
  {
   "id": "reberu",
@@ -3688,8 +4441,11 @@
   "meaning": "level",
   "scope": "general",
   "ref": "pallet/GrewLevelText",
-  "sentence": 0,
-  "surface": "レベル"
+  "surface": "レベル",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "rekishi",
@@ -3700,8 +4456,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "kanji": "歴史",
-  "sentence": 6,
-  "surface": "れきし"
+  "surface": "れきし",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "riigu",
@@ -3711,8 +4470,11 @@
   "meaning": "league",
   "scope": "general",
   "ref": "pallet/OakLabEmailText",
-  "sentence": 3,
-  "surface": "リーグ"
+  "surface": "リーグ",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "saa",
@@ -3724,8 +4486,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "note": "Prompts someone to act.",
-  "sentence": 8,
-  "surface": "さあ"
+  "surface": "さあ",
+  "units": [
+   8,
+   8
+  ]
  },
  {
   "id": "sagaru",
@@ -3736,8 +4501,11 @@
   "scope": "general",
   "ref": "pallet/FellText",
   "kanji": "下がる",
-  "sentence": 0,
-  "surface": "さがった"
+  "surface": "さがった",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "saichuu",
@@ -3748,8 +4516,11 @@
   "scope": "general",
   "ref": "pallet/NoRunningText",
   "kanji": "最中",
-  "sentence": 1,
-  "surface": "さいちゅう"
+  "surface": "さいちゅう",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "saigo",
@@ -3760,8 +4531,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabLastMonText",
   "kanji": "最後",
-  "sentence": 0,
-  "surface": "さいご"
+  "surface": "さいご",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "saikyou",
@@ -3772,8 +4546,11 @@
   "scope": "general",
   "ref": "pallet/OakLabEmailText",
   "kanji": "最強",
-  "sentence": 3,
-  "surface": "さいきょう"
+  "surface": "さいきょう",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "sainou",
@@ -3784,8 +4561,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "kanji": "才能",
-  "sentence": 3,
-  "surface": "さいのう"
+  "surface": "さいのう",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "sakini",
@@ -3799,8 +4579,11 @@
   "example": "おさきに どうぞ",
   "exampleEn": "Ahead, please.",
   "exampleLoose": "After you.",
-  "sentence": 1,
-  "surface": "さきに"
+  "surface": "さきに",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "sassoku",
@@ -3810,8 +4593,11 @@
   "meaning": "right away",
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
-  "sentence": 5,
-  "surface": "さっそく"
+  "surface": "さっそく",
+  "units": [
+   5,
+   5
+  ]
  },
  {
   "id": "seebu",
@@ -3821,8 +4607,11 @@
   "meaning": "save",
   "scope": "general",
   "ref": "pallet/SaveOptionText",
-  "sentence": 0,
-  "surface": "セーブ"
+  "surface": "セーブ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "seisokuchi",
@@ -3833,8 +4622,11 @@
   "scope": "general",
   "ref": "pallet/AreaUnknownText",
   "kanji": "生息地",
-  "sentence": 0,
-  "surface": "せいそくち"
+  "surface": "せいそくち",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sekaijuu",
@@ -3845,8 +4637,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.PokemonAroundTheWorldText",
   "kanji": "世界中",
-  "sentence": 0,
-  "surface": "せかい　じゅう"
+  "surface": "せかい　じゅう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sekieikougen",
@@ -3856,8 +4651,11 @@
   "meaning": "Indigo Plateau · Sekiei Plateau",
   "scope": "game",
   "ref": "pallet/OakLabEmailText",
-  "sentence": 3,
-  "surface": "セキエイ　こうげん"
+  "surface": "セキエイ　こうげん",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "sekkaku",
@@ -3867,8 +4665,11 @@
   "meaning": "having gone to the trouble, at great pains",
   "scope": "general",
   "ref": "pallet/OaksLabRivalIllTakeYouOnText.Text",
-  "sentence": 2,
-  "surface": "せっかく"
+  "surface": "せっかく",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "senaka",
@@ -3879,8 +4680,11 @@
   "scope": "general",
   "ref": "pallet/NoRunningText",
   "kanji": "背中",
-  "sentence": 1,
-  "surface": "せなか"
+  "surface": "せなか",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "senro",
@@ -3891,8 +4695,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FTVText.StandByMeMovieText",
   "kanji": "線路",
-  "sentence": 1,
-  "surface": "せんろ"
+  "surface": "せんろ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "shigoto",
@@ -3903,8 +4710,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyOfferMapText",
   "kanji": "仕事",
-  "sentence": 0,
-  "surface": "しごと"
+  "surface": "しごと",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shikakeru",
@@ -3915,8 +4725,11 @@
   "scope": "general",
   "ref": "pallet/TrainerWantsToFightText",
   "kanji": "仕掛ける",
-  "sentence": 0,
-  "surface": "しかけてきた"
+  "surface": "しかけてきた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shikashi",
@@ -3926,8 +4739,11 @@
   "meaning": "however, but",
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
-  "sentence": 2,
-  "surface": "しかし"
+  "surface": "しかし",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "shiroi",
@@ -3938,8 +4754,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabPokedexText.Text",
   "kanji": "白い",
-  "sentence": 1,
-  "surface": "しろい"
+  "surface": "しろい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "shiru",
@@ -3950,8 +4769,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyUseMapText",
   "kanji": "知る",
-  "sentence": 0,
-  "surface": "しりたいとき"
+  "surface": "しりたいとき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shisutemu",
@@ -3961,8 +4783,11 @@
   "meaning": "system",
   "scope": "general",
   "ref": "pallet/AccessedMyPCText",
-  "sentence": 1,
-  "surface": "システム"
+  "surface": "システム",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "shokubutsu",
@@ -3973,8 +4798,11 @@
   "meaning": "plant",
   "scope": "general",
   "ref": "pallet/OaksLabYouWantBulbasaurText.Text",
-  "sentence": 1,
-  "surface": "しょくぶつ"
+  "surface": "しょくぶつ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "shoukin",
@@ -3985,8 +4813,11 @@
   "scope": "general",
   "ref": "pallet/MoneyForWinningText",
   "kanji": "賞金",
-  "sentence": 0,
-  "surface": "しょうきん"
+  "surface": "しょうきん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shuppatsu",
@@ -3997,8 +4828,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
   "kanji": "出発",
-  "sentence": 5,
-  "surface": "しゅっぱつ"
+  "surface": "しゅっぱつ",
+  "units": [
+   5,
+   5
+  ]
  },
  {
   "id": "sodateru",
@@ -4009,8 +4843,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownGirlText",
   "kanji": "育てる",
-  "sentence": 0,
-  "surface": "そだててるの"
+  "surface": "そだててるの",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "soitsu",
@@ -4020,8 +4857,11 @@
   "meaning": "that one, that guy",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.YourPokemonCanFightText",
-  "sentence": 1,
-  "surface": "そいつ"
+  "surface": "そいつ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "soko",
@@ -4031,8 +4871,11 @@
   "meaning": "there",
   "scope": "general",
   "ref": "pallet/OaksLabOakChooseMonText.Text",
-  "sentence": 4,
-  "surface": "そこ"
+  "surface": "そこ",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "sonkei",
@@ -4043,8 +4886,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabGirlText.Text",
   "kanji": "尊敬",
-  "sentence": 1,
-  "surface": "そんけい"
+  "surface": "そんけい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "sonna",
@@ -4054,8 +4900,11 @@
   "meaning": "that kind of, such",
   "scope": "general",
   "ref": "pallet/OaksLabRivalIPickedTheWrongPokemonText",
-  "sentence": 0,
-  "surface": "そんな"
+  "surface": "そんな",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sore",
@@ -4065,8 +4914,11 @@
   "meaning": "that · near you",
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomLookingGreatText",
-  "sentence": 2,
-  "surface": "それ"
+  "surface": "それ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "sorosoro",
@@ -4080,8 +4932,11 @@
   "example": "そろそろ いきましょうか",
   "exampleEn": "Soon, shall (we) go?",
   "note": "Literally 'slowly, gradually'. Used to say it is time to move on.",
-  "sentence": 2,
-  "surface": "そろそろ"
+  "surface": "そろそろ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "souieba",
@@ -4093,8 +4948,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "note": "Literally 'if (one) says so'. Used to bring up something you just remembered.",
-  "sentence": 1,
-  "surface": "そういえば"
+  "surface": "そういえば",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "subete",
@@ -4105,8 +4963,11 @@
   "meaning": "all, everything",
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
-  "sentence": 0,
-  "surface": "すべて"
+  "surface": "すべて",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sugee",
@@ -4116,8 +4977,11 @@
   "meaning": "amazing · rough form of すごい",
   "scope": "general",
   "ref": "pallet/PalletTownFisherText",
-  "sentence": 0,
-  "surface": "すげー"
+  "surface": "すげー",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "suicchi",
@@ -4127,8 +4991,11 @@
   "meaning": "switch",
   "scope": "general",
   "ref": "pallet/TurnedOnPC1Text",
-  "sentence": 0,
-  "surface": "スイッチ"
+  "surface": "スイッチ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "suki",
@@ -4139,8 +5006,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakBePatientText.Text",
   "kanji": "好き",
-  "sentence": 2,
-  "surface": "すき"
+  "surface": "すき",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "sukkari",
@@ -4150,8 +5020,11 @@
   "meaning": "completely",
   "scope": "general",
   "ref": "pallet/OaksLabRivalWhatDidYouCallMeForText",
-  "sentence": 0,
-  "surface": "すっかり"
+  "surface": "すっかり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sukoshi",
@@ -4162,8 +5035,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomYouShouldRestText",
   "kanji": "少し",
-  "sentence": 1,
-  "surface": "すこし"
+  "surface": "すこし",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "sumika",
@@ -4174,8 +5050,11 @@
   "scope": "general",
   "ref": "pallet/MonsNestText",
   "kanji": "住処",
-  "sentence": 0,
-  "surface": "すみか"
+  "surface": "すみか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sutaato",
@@ -4185,8 +5064,11 @@
   "meaning": "start",
   "scope": "general",
   "ref": "pallet/PushStartText",
-  "sentence": 0,
-  "surface": "スタート"
+  "surface": "スタート",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "suteru",
@@ -4197,8 +5079,11 @@
   "scope": "general",
   "ref": "pallet/WhatToTossText",
   "kanji": "捨てる",
-  "sentence": 0,
-  "surface": "すてますか"
+  "surface": "すてますか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "taberu",
@@ -4220,8 +5105,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "kanji": "旅",
-  "sentence": 0,
-  "surface": "たび"
+  "surface": "たび",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tada",
@@ -4231,8 +5119,11 @@
   "meaning": "just, only · also free of charge",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
-  "sentence": 0,
-  "surface": "ただ　みつけただけ"
+  "surface": "ただ　みつけただけ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tadashi",
@@ -4242,8 +5133,11 @@
   "meaning": "however, provided that",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
-  "sentence": 7,
-  "surface": "ただし"
+  "surface": "ただし",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "taihen",
@@ -4254,8 +5148,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyOfferMapText",
   "kanji": "大変",
-  "sentence": 1,
-  "surface": "たいへん"
+  "surface": "たいへん",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "taipu",
@@ -4265,8 +5162,11 @@
   "meaning": "type",
   "scope": "general",
   "ref": "pallet/StrengthsAndWeaknessesText",
-  "sentence": 0,
-  "surface": "タイプが"
+  "surface": "タイプが",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tairyoku",
@@ -4277,8 +5177,11 @@
   "meaning": "physical strength, stamina (HP)",
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyWalkingText",
-  "sentence": 1,
-  "surface": "たいりょく"
+  "surface": "たいりょく",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "takasa",
@@ -4289,8 +5192,11 @@
   "scope": "general",
   "ref": "pallet/HeightWeightText",
   "kanji": "高さ",
-  "sentence": 0,
-  "surface": "たかさ"
+  "surface": "たかさ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tame",
@@ -4300,8 +5206,11 @@
   "meaning": "sake, purpose · そのために: for that purpose",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
-  "sentence": 2,
-  "surface": "ため"
+  "surface": "ため",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "tanomu",
@@ -4315,8 +5224,11 @@
   "example": "たのむよ！",
   "exampleEn": "(I)'m asking (you)!",
   "exampleLoose": "Please, I'm counting on you.",
-  "sentence": 0,
-  "surface": "たのんだんだって"
+  "surface": "たのんだんだって",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "taoreru",
@@ -4327,8 +5239,11 @@
   "scope": "general",
   "ref": "pallet/EnemyMonFaintedText",
   "kanji": "倒れる",
-  "sentence": 0,
-  "surface": "たおれた"
+  "surface": "たおれた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tatakau",
@@ -4339,8 +5254,11 @@
   "meaning": "to fight",
   "scope": "general",
   "ref": "pallet/OaksLabRivalSmellYouLaterText.Text",
-  "sentence": 1,
-  "surface": "たたかわせて もっと　もっと　つよくするぜ"
+  "surface": "たたかわせて もっと　もっと　つよくするぜ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "teki",
@@ -4351,8 +5269,11 @@
   "scope": "general",
   "ref": "pallet/EnemyMonFaintedText",
   "kanji": "敵",
-  "sentence": 0,
-  "surface": "てき"
+  "surface": "てき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "temoto",
@@ -4363,8 +5284,11 @@
   "scope": "general",
   "ref": "pallet/PlayerBlackedOutText2",
   "kanji": "手元",
-  "sentence": 0,
-  "surface": "てもと"
+  "surface": "てもと",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "teniireru",
@@ -4375,8 +5299,11 @@
   "scope": "general",
   "ref": "pallet/MoneyForWinningText",
   "kanji": "手に入れる",
-  "sentence": 0,
-  "surface": "てにいれた"
+  "surface": "てにいれた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tensai",
@@ -4387,8 +5314,11 @@
   "meaning": "genius",
   "scope": "general",
   "ref": "pallet/Rival1WinText",
-  "sentence": 1,
-  "surface": "てんさい"
+  "surface": "てんさい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "terebi",
@@ -4398,8 +5328,11 @@
   "meaning": "TV",
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
-  "sentence": 0,
-  "surface": "テレビ"
+  "surface": "テレビ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tobidasu",
@@ -4413,8 +5346,11 @@
   "example": "ねこが とびだす",
   "exampleEn": "A cat darts out.",
   "note": "Road sign: 飛び出し注意, darting-out caution.",
-  "sentence": 1,
-  "surface": "とびだす"
+  "surface": "とびだす",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "tobu",
@@ -4425,8 +5361,11 @@
   "scope": "general",
   "ref": "pallet/ToText",
   "kanji": "飛ぶ",
-  "sentence": 0,
-  "surface": "とぶ"
+  "surface": "とぶ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "todokeru",
@@ -4437,8 +5376,11 @@
   "meaning": "to deliver",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
-  "sentence": 5,
-  "surface": "とどけものを　わたした"
+  "surface": "とどけものを　わたした",
+  "units": [
+   5,
+   5
+  ]
  },
  {
   "id": "toki",
@@ -4450,8 +5392,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseDaisyUseMapText",
   "note": "Verb + とき = when (verb).",
-  "sentence": 0,
-  "surface": "とき"
+  "surface": "とき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tokidoki",
@@ -4464,8 +5409,11 @@
   "ref": "pallet/OaksLabOak1Text.ComeSeeMeSometimesText",
   "example": "ときどき あめ",
   "exampleEn": "Sometimes rain. (weather forecast)",
-  "sentence": 0,
-  "surface": "ときどき"
+  "surface": "ときどき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tokui",
@@ -4476,8 +5424,11 @@
   "scope": "general",
   "ref": "pallet/StrengthsAndWeaknessesText",
   "kanji": "得意",
-  "sentence": 0,
-  "surface": "とくい"
+  "surface": "とくい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tonari",
@@ -4500,8 +5451,11 @@
   "scope": "general",
   "ref": "pallet/TrainerAboutToUseText",
   "kanji": "取り替える",
-  "sentence": 0,
-  "surface": "とりかえますか"
+  "surface": "とりかえますか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "toru",
@@ -4513,8 +5467,11 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "取る",
   "note": "とれる: can take, can be caught.",
-  "sentence": 7,
-  "surface": "とれるか どうかは　わからんぞ"
+  "surface": "とれるか どうかは　わからんぞ",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "tsugi",
@@ -4525,8 +5482,11 @@
   "scope": "general",
   "ref": "pallet/UseNextMonText",
   "kanji": "次",
-  "sentence": 0,
-  "surface": "つぎ"
+  "surface": "つぎ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tsukamaeru",
@@ -4537,8 +5497,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "捕まえる",
-  "sentence": 6,
-  "surface": "つかまえ　られる"
+  "surface": "つかまえ　られる",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "tsukeru",
@@ -4548,8 +5511,11 @@
   "meaning": "to attach, to put on",
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomLookingGreatText",
-  "sentence": 2,
-  "surface": "つけて"
+  "surface": "つけて",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "tsukue",
@@ -4560,8 +5526,11 @@
   "meaning": "desk",
   "scope": "general",
   "ref": "pallet/OaksLabOakMyInventionPokedexText",
-  "sentence": 0,
-  "surface": "つくえ"
+  "surface": "つくえ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tsukuru",
@@ -4574,8 +5543,11 @@
   "ref": "pallet/OaksLabOakMyInventionPokedexText",
   "example": "ばんごはんを つくる",
   "exampleEn": "(I) make dinner.",
-  "sentence": 0,
-  "surface": "つくった"
+  "surface": "つくった",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tsunagu",
@@ -4586,8 +5558,11 @@
   "scope": "general",
   "ref": "pallet/AccessedMyPCText",
   "kanji": "繋ぐ",
-  "sentence": 0,
-  "surface": "つないだ"
+  "surface": "つないだ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tsuushin",
@@ -4598,8 +5573,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownFisherText",
   "kanji": "通信",
-  "sentence": 1,
-  "surface": "つうしん"
+  "surface": "つうしん",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "tsuyoi",
@@ -4612,8 +5590,11 @@
   "ref": "pallet/OaksLabRivalText.MyPokemonLooksStrongerText",
   "example": "あの ひとは つよい",
   "exampleEn": "That person is strong.",
-  "sentence": 0,
-  "surface": "つよそうだぜ"
+  "surface": "つよそうだぜ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "uchi",
@@ -4623,8 +5604,11 @@
   "meaning": "my home, my family",
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
-  "sentence": 6,
-  "surface": "うち"
+  "surface": "うち",
+  "units": [
+   6,
+   6
+  ]
  },
  {
   "id": "ue",
@@ -4638,8 +5622,11 @@
   "example": "テーブルの うえ",
   "exampleEn": "On top of the table.",
   "note": "X の うえに = on top of X.",
-  "sentence": 0,
-  "surface": "うえ"
+  "surface": "うえ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "umaku",
@@ -4649,8 +5636,11 @@
   "meaning": "well, skillfully",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
-  "sentence": 7,
-  "surface": "うまく"
+  "surface": "うまく",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "un",
@@ -4660,8 +5650,11 @@
   "meaning": "yeah, mm-hm",
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
-  "sentence": 0,
-  "surface": "うん"
+  "surface": "うん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ureshii",
@@ -4672,8 +5665,11 @@
   "scope": "general",
   "ref": "pallet/BluesHouseTownMapText",
   "kanji": "嬉しい",
-  "sentence": 1,
-  "surface": "うれしい"
+  "surface": "うれしい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "wakaru",
@@ -4684,8 +5680,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "分かる",
-  "sentence": 7,
-  "surface": "わからんぞ"
+  "surface": "わからんぞ",
+  "units": [
+   7,
+   7
+  ]
  },
  {
   "id": "washi",
@@ -4696,8 +5695,11 @@
   "scope": "general",
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "note": "Oak's pronoun. わたし in the intro, わし in the lab.",
-  "sentence": 3,
-  "surface": "わし"
+  "surface": "わし",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "wasureru",
@@ -4719,8 +5721,11 @@
   "meaning": "to hand over",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
-  "sentence": 4,
-  "surface": "わたす"
+  "surface": "わたす",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "yameru",
@@ -4730,8 +5735,11 @@
   "meaning": "to quit, to stop",
   "scope": "general",
   "ref": "pallet/PokedexMenuItemsText",
-  "sentence": 3,
-  "surface": "やめる"
+  "surface": "やめる",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "yappari",
@@ -4745,8 +5753,11 @@
   "example": "やっぱり おいしい",
   "exampleEn": "As expected, (it)'s tasty.",
   "note": "やっぱ is the casual clip.",
-  "sentence": 1,
-  "surface": "やっぱ　おれって　てんさい"
+  "surface": "やっぱ　おれって　てんさい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "yaru",
@@ -4757,8 +5768,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FTVText.StandByMeMovieText",
   "note": "やってる: is doing, is on. やろう in the lab: I'll give you one.",
-  "sentence": 0,
-  "surface": "やってる"
+  "surface": "やってる",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yasai",
@@ -4793,8 +5807,11 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomYouShouldRestText",
   "kanji": "休む",
-  "sentence": 1,
-  "surface": "やすんで　いったら どうかしら"
+  "surface": "やすんで　いったら どうかしら",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "yobidasu",
@@ -4805,8 +5822,11 @@
   "scope": "general",
   "ref": "pallet/AccessedMyPCText",
   "kanji": "呼び出す",
-  "sentence": 1,
-  "surface": "よびだした"
+  "surface": "よびだした",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "yoshi",
@@ -4817,8 +5837,11 @@
   "scope": "general",
   "ref": "pallet/RedBedroomSNESText",
   "loose": "よーし drawn out, by the rival",
-  "sentence": 1,
-  "surface": "よし"
+  "surface": "よし",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "youji",
@@ -4829,8 +5852,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalWhatDidYouCallMeForText",
   "kanji": "用事",
-  "sentence": 1,
-  "surface": "よーじ"
+  "surface": "よーじ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "yowaru",
@@ -4841,8 +5867,11 @@
   "scope": "general",
   "ref": "pallet/EnemysWeakText",
   "kanji": "弱る",
-  "sentence": 0,
-  "surface": "よわっている"
+  "surface": "よわっている",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "zannen",
@@ -4853,8 +5882,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "残念",
-  "sentence": 4,
-  "surface": "ざんねん"
+  "surface": "ざんねん",
+  "units": [
+   4,
+   4
+  ]
  },
  {
   "id": "zenbu",
@@ -4865,8 +5897,11 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "全部",
-  "sentence": 2,
-  "surface": "ぜんぶ"
+  "surface": "ぜんぶ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "zurui",
@@ -4876,7 +5911,10 @@
   "meaning": "unfair, sneaky",
   "scope": "general",
   "ref": "pallet/OaksLabRivalWhatAboutMeText.Text",
-  "sentence": 1,
-  "surface": "ずるい"
+  "surface": "ずるい",
+  "units": [
+   1,
+   1
+  ]
  }
 ]

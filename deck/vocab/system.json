@@ -7,8 +7,11 @@
   "meaning": "HM · secret machine",
   "scope": "game",
   "ref": "system/HiddenPrefix",
-  "sentence": 0,
-  "surface": "ひでんマシン"
+  "surface": "ひでんマシン",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "i-zukan-short",
@@ -18,8 +21,11 @@
   "meaning": "Pokédex · encyclopedia, short",
   "scope": "game",
   "ref": "system/StartMenuPokedexText",
-  "sentence": 0,
-  "surface": "ずかん"
+  "surface": "ずかん",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "animeeshon",
@@ -29,8 +35,11 @@
   "meaning": "animation",
   "scope": "general",
   "ref": "system/BattleAnimationOptionText",
-  "sentence": 0,
-  "surface": "アニメーション"
+  "surface": "アニメーション",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "bajji",
@@ -40,8 +49,11 @@
   "meaning": "badge",
   "scope": "general",
   "ref": "system/SaveScreenInfoText",
-  "sentence": 1,
-  "surface": "バッジ"
+  "surface": "バッジ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "bougyo",
@@ -52,8 +64,11 @@
   "scope": "general",
   "ref": "system/PrintStatsBox.StatsText",
   "kanji": "防御",
-  "sentence": 1,
-  "surface": "ぼうぎょ"
+  "surface": "ぼうぎょ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "bunpu",
@@ -64,8 +79,11 @@
   "scope": "general",
   "ref": "system/PokedexMenuText",
   "kanji": "分布",
-  "sentence": 2,
-  "surface": "ぶんぷ"
+  "surface": "ぶんぷ",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "dasu",
@@ -76,8 +94,11 @@
   "scope": "general",
   "ref": "system/PartyMenuBattleText",
   "kanji": "出す",
-  "sentence": 0,
-  "surface": "だしますか"
+  "surface": "だしますか",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "doko",
@@ -87,8 +108,11 @@
   "meaning": "where",
   "scope": "general",
   "ref": "system/PartyMenuSwapMonText",
-  "sentence": 0,
-  "surface": "どこ"
+  "surface": "どこ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "douji",
@@ -99,8 +123,11 @@
   "scope": "general",
   "ref": "system/WhenYouChangeBoxText",
   "kanji": "同時",
-  "sentence": 0,
-  "surface": "どうじ"
+  "surface": "どうじ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "eria",
@@ -110,8 +137,11 @@
   "meaning": "area",
   "scope": "general",
   "ref": "system/ClearSaveDataText",
-  "sentence": 0,
-  "surface": "エリア"
+  "surface": "エリア",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "fairu",
@@ -121,8 +151,11 @@
   "meaning": "file",
   "scope": "general",
   "ref": "system/FileDataDestroyedText",
-  "sentence": 0,
-  "surface": "フアイル"
+  "surface": "フアイル",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "futsuu",
@@ -133,8 +166,11 @@
   "scope": "general",
   "ref": "system/TextSpeedOptionText",
   "kanji": "普通",
-  "sentence": 1,
-  "surface": "ふつう"
+  "surface": "ふつう",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "hai",
@@ -144,8 +180,11 @@
   "meaning": "yes",
   "scope": "general",
   "ref": "system/TwoOptionMenuStrings.YesNoMenu",
-  "sentence": 0,
-  "surface": "はい"
+  "surface": "はい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "idou",
@@ -156,8 +195,11 @@
   "scope": "general",
   "ref": "system/PartyMenuSwapMonText",
   "kanji": "移動",
-  "sentence": 0,
-  "surface": "いどう"
+  "surface": "いどう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "iie",
@@ -167,8 +209,11 @@
   "meaning": "no",
   "scope": "general",
   "ref": "system/TwoOptionMenuStrings.NoYesMenu",
-  "sentence": 0,
-  "surface": "いいえ"
+  "surface": "いいえ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "irekae",
@@ -179,8 +224,11 @@
   "scope": "general",
   "ref": "system/BattleStyleOptionText",
   "kanji": "入れ替え",
-  "sentence": 1,
-  "surface": "いれかえ"
+  "surface": "いれかえ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "jikan",
@@ -191,8 +239,11 @@
   "scope": "general",
   "ref": "system/SaveScreenInfoText",
   "kanji": "時間",
-  "sentence": 3,
-  "surface": "じかん"
+  "surface": "じかん",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "jikkuri",
@@ -202,8 +253,11 @@
   "meaning": "carefully, taking one's time",
   "scope": "general",
   "ref": "system/BattleAnimationOptionText",
-  "sentence": 1,
-  "surface": "じっくり"
+  "surface": "じっくり",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "joutai",
@@ -214,8 +268,11 @@
   "scope": "general",
   "ref": "system/StatusText",
   "kanji": "状態",
-  "sentence": 0,
-  "surface": "じょうたい"
+  "surface": "じょうたい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kachinuki",
@@ -226,8 +283,11 @@
   "scope": "general",
   "ref": "system/BattleStyleOptionText",
   "kanji": "勝ち抜き",
-  "sentence": 1,
-  "surface": "かちぬき"
+  "surface": "かちぬき",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "kaeru-change",
@@ -239,8 +299,11 @@
   "ref": "system/WhenYouChangeBoxText",
   "kanji": "変える",
   "note": "Same sound as かえる to return, different kanji.",
-  "sentence": 0,
-  "surface": "かえる"
+  "surface": "かえる",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kakinokosu",
@@ -251,8 +314,11 @@
   "scope": "general",
   "ref": "system/GameSavedText",
   "kanji": "書き残す",
-  "sentence": 0,
-  "surface": "かきのこした"
+  "surface": "かきのこした",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kaku",
@@ -263,8 +329,11 @@
   "scope": "general",
   "ref": "system/OlderFileWillBeErasedText",
   "kanji": "書く",
-  "sentence": 0,
-  "surface": "かかれた"
+  "surface": "かかれた",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "katsuyaku",
@@ -275,8 +344,11 @@
   "scope": "general",
   "ref": "system/WouldYouLikeToSaveText",
   "kanji": "活躍",
-  "sentence": 0,
-  "surface": "かつやく"
+  "surface": "かつやく",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kowareru",
@@ -287,8 +359,11 @@
   "scope": "general",
   "ref": "system/FileDataDestroyedText",
   "kanji": "壊れる",
-  "sentence": 0,
-  "surface": "こわれています"
+  "surface": "こわれています",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kuria",
@@ -298,8 +373,11 @@
   "meaning": "clear",
   "scope": "general",
   "ref": "system/ClearSaveDataText",
-  "sentence": 0,
-  "surface": "クリア"
+  "surface": "クリア",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "kyanseru",
@@ -309,8 +387,11 @@
   "meaning": "cancel",
   "scope": "general",
   "ref": "system/PokemonMenuEntries",
-  "sentence": 2,
-  "surface": "キャンセル"
+  "surface": "キャンセル",
+  "units": [
+   2,
+   2
+  ]
  },
  {
   "id": "mae",
@@ -321,8 +402,11 @@
   "scope": "general",
   "ref": "system/OlderFileWillBeErasedText",
   "kanji": "前",
-  "sentence": 0,
-  "surface": "まえ"
+  "surface": "まえ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "messeeji",
@@ -332,8 +416,11 @@
   "meaning": "message",
   "scope": "general",
   "ref": "system/SaveMessageText",
-  "sentence": 1,
-  "surface": "メッセージ"
+  "surface": "メッセージ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "mochimono",
@@ -344,8 +431,11 @@
   "scope": "general",
   "ref": "system/MochimonoText",
   "kanji": "持ち物",
-  "sentence": 0,
-  "surface": "もちもの"
+  "surface": "もちもの",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "narabikae",
@@ -356,8 +446,11 @@
   "scope": "general",
   "ref": "system/PokemonMenuEntries",
   "kanji": "並び替え",
-  "sentence": 1,
-  "surface": "ならびかえ"
+  "surface": "ならびかえ",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "okane",
@@ -368,8 +461,11 @@
   "scope": "general",
   "ref": "system/MoneyText",
   "kanji": "お金",
-  "sentence": 0,
-  "surface": "おかね"
+  "surface": "おかね",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "okozukai",
@@ -380,8 +476,11 @@
   "scope": "general",
   "ref": "system/TrainerInfo_NameMoneyTimeText",
   "kanji": "お小遣い",
-  "sentence": 1,
-  "surface": "おこづかい"
+  "surface": "おこづかい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "oriru",
@@ -392,8 +491,11 @@
   "scope": "general",
   "ref": "system/CannotGetOffHereText",
   "kanji": "降りる",
-  "sentence": 0,
-  "surface": "おりる"
+  "surface": "おりる",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "osoi",
@@ -404,8 +506,11 @@
   "scope": "general",
   "ref": "system/TextSpeedOptionText",
   "kanji": "遅い",
-  "sentence": 1,
-  "surface": "おそい"
+  "surface": "おそい",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "owari",
@@ -416,8 +521,11 @@
   "scope": "general",
   "ref": "system/OptionMenuCancelText",
   "kanji": "終わり",
-  "sentence": 0,
-  "surface": "おわり"
+  "surface": "おわり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "oya",
@@ -428,8 +536,11 @@
   "scope": "general",
   "ref": "system/TypesIDNoOTText",
   "kanji": "親",
-  "sentence": 3,
-  "surface": "おや"
+  "surface": "おや",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "risetto",
@@ -439,8 +550,11 @@
   "meaning": "reset",
   "scope": "general",
   "ref": "system/StartMenuResetText",
-  "sentence": 0,
-  "surface": "リセット"
+  "surface": "リセット",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "ruuru",
@@ -450,8 +564,11 @@
   "meaning": "rule",
   "scope": "general",
   "ref": "system/BattleStyleOptionText",
-  "sentence": 0,
-  "surface": "ルール"
+  "surface": "ルール",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "saisho",
@@ -462,8 +579,11 @@
   "scope": "general",
   "ref": "system/NewGameText",
   "kanji": "最初",
-  "sentence": 0,
-  "surface": "さいしょ"
+  "surface": "さいしょ",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "sentou",
@@ -474,8 +594,11 @@
   "scope": "general",
   "ref": "system/BattleAnimationOptionText",
   "kanji": "戦闘",
-  "sentence": 0,
-  "surface": "せんとう"
+  "surface": "せんとう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "settei",
@@ -486,8 +609,11 @@
   "scope": "general",
   "ref": "system/StartMenuOptionText",
   "kanji": "設定",
-  "sentence": 0,
-  "surface": "せってい"
+  "surface": "せってい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shiai",
@@ -498,8 +624,11 @@
   "scope": "general",
   "ref": "system/BattleStyleOptionText",
   "kanji": "試合",
-  "sentence": 0,
-  "surface": "しあい"
+  "surface": "しあい",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shikkari",
@@ -509,8 +638,11 @@
   "meaning": "firmly, properly",
   "scope": "general",
   "ref": "system/GameSavedText",
-  "sentence": 0,
-  "surface": "しっかり"
+  "surface": "しっかり",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "shujinkou",
@@ -521,8 +653,11 @@
   "scope": "general",
   "ref": "system/SaveScreenInfoText",
   "kanji": "主人公",
-  "sentence": 0,
-  "surface": "しゅじんこう"
+  "surface": "しゅじんこう",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "soredemo",
@@ -532,8 +667,11 @@
   "meaning": "even so",
   "scope": "general",
   "ref": "system/WhenYouChangeBoxText",
-  "sentence": 0,
-  "surface": "それでも"
+  "surface": "それでも",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tobasu",
@@ -544,8 +682,11 @@
   "scope": "general",
   "ref": "system/BattleAnimationOptionText",
   "kanji": "飛ばす",
-  "sentence": 1,
-  "surface": "とばして　みる"
+  "surface": "とばして　みる",
+  "units": [
+   1,
+   1
+  ]
  },
  {
   "id": "tojiru",
@@ -556,8 +697,11 @@
   "scope": "general",
   "ref": "system/StartMenuExitText",
   "kanji": "閉じる",
-  "sentence": 0,
-  "surface": "とじる"
+  "surface": "とじる",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "tokushu",
@@ -568,8 +712,11 @@
   "scope": "general",
   "ref": "system/PrintStatsBox.StatsText",
   "kanji": "特殊",
-  "sentence": 3,
-  "surface": "とくしゅ"
+  "surface": "とくしゅ",
+  "units": [
+   3,
+   3
+  ]
  },
  {
   "id": "tsuzuki",
@@ -580,8 +727,11 @@
   "scope": "general",
   "ref": "system/ContinueText",
   "kanji": "続き",
-  "sentence": 0,
-  "surface": "つづき"
+  "surface": "つづき",
+  "units": [
+   0,
+   0
+  ]
  },
  {
   "id": "yoroshii",
@@ -591,7 +741,10 @@
   "meaning": "all right, fine · polite",
   "scope": "general",
   "ref": "system/IsItOKToTossItemText",
-  "sentence": 0,
-  "surface": "よろしい"
+  "surface": "よろしい",
+  "units": [
+   0,
+   0
+  ]
  }
 ]
