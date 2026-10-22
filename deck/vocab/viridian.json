@@ -570,8 +570,8 @@
   "ref": "viridian/ViridianCityTrainerTips2Text",
   "surface": "ポケモンセンター",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -584,8 +584,8 @@
   "ref": "viridian/ViridianSchoolNotebookText4",
   "surface": "してんのう",
   "units": [
-   2,
-   2
+   4,
+   4
   ]
  },
  {
@@ -598,8 +598,8 @@
   "ref": "viridian/TMNotebook",
   "surface": "シルフ　カンパニー",
   "units": [
-   2,
-   2
+   4,
+   4
   ]
  },
  {
@@ -612,8 +612,8 @@
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
   "surface": "トキワのもり",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -770,8 +770,8 @@
   "ref": "viridian/ViridianCityOldManText.KnowHowToCatchPokemonText",
   "surface": "アドバイス",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -1045,8 +1045,8 @@
   "ref": "viridian/ViridianCityGambler1Text.GymAlwaysClosedText",
   "surface": "どんな",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -1132,8 +1132,8 @@
   "kanji": "激しい",
   "surface": "はげしい",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -1256,8 +1256,8 @@
   "kanji": "急ぐ",
   "surface": "いそぎ",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -1286,8 +1286,8 @@
   "note": "Humble する. You'll hear it from staff everywhere: おねがいいたします.",
   "surface": "いたします",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -1301,8 +1301,8 @@
   "kanji": "致す",
   "surface": "いたします",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -1333,8 +1333,8 @@
   "ref": "viridian/ViridianSchoolNotebookText3",
   "surface": "いつも",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -1348,8 +1348,8 @@
   "kanji": "一体",
   "surface": "いったい",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -1413,8 +1413,8 @@
   "note": "かいふくする = to recover.",
   "surface": "かいふく",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -1519,8 +1519,8 @@
   "ref": "viridian/TMNotebook",
   "surface": "カンパニー",
   "units": [
-   2,
-   2
+   4,
+   4
   ]
  },
  {
@@ -1606,8 +1606,8 @@
   "kanji": "消える",
   "surface": "きえます",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -1787,8 +1787,8 @@
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
   "surface": "くねってるのよ",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -1817,8 +1817,8 @@
   "kanji": "曲がる",
   "surface": "まがり",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -1928,8 +1928,8 @@
   "ref": "viridian/ViridianSchoolNotebookText2",
   "surface": "まず",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -1974,8 +1974,8 @@
   "kanji": "目標",
   "surface": "もくひょう",
   "units": [
-   0,
-   0
+   1,
+   2
   ]
  },
  {
@@ -1989,8 +1989,8 @@
   "kanji": "森",
   "surface": "もり",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -2004,8 +2004,8 @@
   "kanji": "猛烈",
   "surface": "もうれつ",
   "units": [
-   1,
-   1
+   3,
+   3
   ]
  },
  {
@@ -2048,8 +2048,8 @@
   "ref": "viridian/ViridianCityTrainerTips2Text",
   "surface": "なくなった",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -2315,8 +2315,8 @@
   "ref": "viridian/ViridianCityGambler1Text.GymAlwaysClosedText",
   "surface": "リーダー",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -2362,8 +2362,8 @@
   "kanji": "最高",
   "surface": "さいこう",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -2405,8 +2405,8 @@
   "ref": "viridian/ViridianSchoolNotebookText4",
   "surface": "さらに",
   "units": [
-   1,
-   1
+   3,
+   3
   ]
  },
  {
@@ -2420,8 +2420,8 @@
   "kanji": "刺す",
   "surface": "さされない",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -2463,8 +2463,8 @@
   "ref": "viridian/ViridianCityTrainerTips2Text",
   "surface": "センター",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -2556,8 +2556,8 @@
   "kanji": "調べる",
   "surface": "しらべれば",
   "units": [
-   2,
-   2
+   3,
+   3
   ]
  },
  {
@@ -2709,8 +2709,8 @@
   "kanji": "倒す",
   "surface": "たおす",
   "units": [
-   0,
-   0
+   1,
+   2
   ]
  },
  {
@@ -3071,8 +3071,8 @@
   "kanji": "奴",
   "surface": "ヤツ",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -3151,8 +3151,8 @@
   "kanji": "喜び",
   "surface": "よろこび",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {

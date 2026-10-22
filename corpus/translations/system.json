@@ -289,8 +289,12 @@
  "WhenYouChangeBoxText": {
   "sentences": [
    {
-    "ja": "ポケモン　ボックスを　かえると どうじに　レポートが　かかれます ……　それでも　いいですか？",
-    "en": "When (you) change the Pokémon box, the report is written at the same time. ...Even so, is (it) okay?"
+    "ja": "ポケモン　ボックスを　かえると どうじに　レポートが　かかれます",
+    "en": "When (you) change the Pokémon box, the report is written at the same time."
+   },
+   {
+    "ja": "……　それでも　いいですか？",
+    "en": "...Even so, is (it) okay?"
    }
   ]
  },

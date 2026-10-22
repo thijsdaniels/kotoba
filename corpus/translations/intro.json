@@ -21,12 +21,24 @@
   "who": "Professor Okido",
   "sentences": [
    {
-    "ja": "この　せかいには ポケット　モンスターと　よばれる いきもの　たちが いたるところに　すんでいる！",
-    "en": "In this world, living things called Pocket Monsters live everywhere!"
+    "ja": "この　せかいには ポケット　モンスターと　よばれる",
+    "en": "In this world, living things called Pocket Monsters"
    },
    {
-    "ja": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-    "en": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+    "ja": "いきもの　たちが いたるところに　すんでいる！",
+    "en": "live everywhere!"
+   },
+   {
+    "ja": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり···",
+    "en": "Those living things called Pokémon, people make into pets, or use in matches..."
+   },
+   {
+    "ja": "そして···",
+    "en": "And..."
+   },
+   {
+    "ja": "わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
+    "en": "I am doing research on these Pokémon, that's what it is."
    }
   ]
  },
@@ -44,8 +56,12 @@
   "who": "Professor Okido",
   "sentences": [
    {
-    "ja": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である ···えーと？",
-    "en": "This guy is my grandchild. (He) is your childhood friend and is (your) rival. ...Er?"
+    "ja": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である",
+    "en": "This guy is my grandchild. (He) is your childhood friend and is (your) rival."
+   },
+   {
+    "ja": "···えーと？",
+    "en": "...Er?"
    },
    {
     "ja": "なまえは　なんて　いったかな？",

@@ -3,8 +3,12 @@
   "who": "Shop clerk on Route 1",
   "sentences": [
    {
-    "ja": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-    "en": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+    "ja": "わたし　フレンドリィ　ショップの てんいん　です",
+    "en": "I am a clerk of the Friendly Shop."
+   },
+   {
+    "ja": "べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
+    "en": "(We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
    },
    {
     "ja": "そうだ！",
@@ -49,8 +53,12 @@
     "en": "There's a ledge in the road, right!"
    },
    {
-    "ja": "とび　おりるのは ちょっと　こわいけど…… マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
-    "en": "Jumping down is a little scary, but... When going back to Masara Town, (you) can go back fast, which is good."
+    "ja": "とび　おりるのは ちょっと　こわいけど……",
+    "en": "Jumping down is a little scary, but..."
+   },
+   {
+    "ja": "マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
+    "en": "When going back to Masara Town, (you) can go back fast, which is good."
    }
   ]
  },

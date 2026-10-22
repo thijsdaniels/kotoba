@@ -20,8 +20,12 @@
   "who": "Gambler in Viridian City",
   "sentences": [
    {
-    "ja": "いつ　きても この　ポケモン　ジムは　しまっとる いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
-    "en": "Whenever (I) come, this Pokémon gym is shut. What kind of fellow on earth is doing the leader (job), (I) wonder?"
+    "ja": "いつ　きても この　ポケモン　ジムは　しまっとる",
+    "en": "Whenever (I) come, this Pokémon gym is shut."
+   },
+   {
+    "ja": "いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
+    "en": "What kind of fellow on earth is doing the leader (job), (I) wonder?"
    }
   ]
  },
@@ -56,8 +60,12 @@
   "who": "Boy in Viridian City",
   "sentences": [
    {
-    "ja": "キャタピーは　どくが　ないけど ビードルには　どくが　あるよ ポケモンが　さされないように きを　つけようね",
-    "en": "Caterpie has no poison, but Beedle has poison. So that (your) Pokémon doesn't get stung, let's be careful."
+    "ja": "キャタピーは　どくが　ないけど ビードルには　どくが　あるよ",
+    "en": "Caterpie has no poison, but Beedle has poison."
+   },
+   {
+    "ja": "ポケモンが　さされないように きを　つけようね",
+    "en": "So that (your) Pokémon doesn't get stung, let's be careful."
    }
   ]
  },
@@ -82,8 +90,12 @@
   "who": "Girl in Viridian City",
   "sentences": [
    {
-    "ja": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-    "en": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+    "ja": "ときどき　ニビシティまで おかいものに　いきますけど",
+    "en": "Sometimes (I) go as far as Nibi City for shopping, but..."
+   },
+   {
+    "ja": "トキワのもり　って みちが　まがり　くねってるのよ",
+    "en": "The Tokiwa Forest, the road winds and twists, you know."
    }
   ]
  },
@@ -183,8 +195,12 @@
     "en": "Hmm... (I) seem to have been drunk!"
    },
    {
-    "ja": "あたまが　いたい…… ときに　おいそぎ……　かな？",
-    "en": "(My) head hurts... By the way, in a hurry... are you?"
+    "ja": "あたまが　いたい……",
+    "en": "(My) head hurts..."
+   },
+   {
+    "ja": "ときに　おいそぎ……　かな？",
+    "en": "By the way, in a hurry... are you?"
    }
   ]
  },
@@ -196,8 +212,12 @@
     "en": "Ho ho!"
    },
    {
-    "ja": "ポケモンずかん　つくっとるか なら　わしから　アドバイスじゃ！",
-    "en": "Making a Pokédex, are you. Then, advice from me!"
+    "ja": "ポケモンずかん　つくっとるか",
+    "en": "Making a Pokédex, are you."
+   },
+   {
+    "ja": "なら　わしから　アドバイスじゃ！",
+    "en": "Then, advice from me!"
    },
    {
     "ja": "ポケモンを　つかまえて　しらべれば じどうてきに　ページが ふえて　いくんじゃよ！",
@@ -265,8 +285,12 @@
     "en": "...A bargain bulletin board!"
    },
    {
-    "ja": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
-    "en": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
+    "ja": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります",
+    "en": "Besides stamina, Pokémon have power points, the source of energy for letting out moves."
+   },
+   {
+    "ja": "わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
+    "en": "Also when the power points for each move have run out, let them rest at a Pokémon Center!"
    }
   ]
  },
@@ -718,8 +742,12 @@
     "en": "Welcome!"
    },
    {
-    "ja": "ポケモンセンターへ ここでは　ポケモンの たいりょく　かいふくを　いたします",
-    "en": "To the Pokémon Center. Here (we) do stamina recovery of Pokémon."
+    "ja": "ポケモンセンターへ",
+    "en": "To the Pokémon Center."
+   },
+   {
+    "ja": "ここでは　ポケモンの たいりょく　かいふくを　いたします",
+    "en": "Here (we) do stamina recovery of Pokémon."
    }
   ]
  },
@@ -998,8 +1026,12 @@
   "who": "Blackboard",
   "sentences": [
    {
-    "ja": "どくを　くらうと たいりょくが　へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます！",
-    "en": "When (it) takes poison, (its) stamina keeps decreasing. Even when the fight ends the poison remains, but with an antidote it disappears!"
+    "ja": "どくを　くらうと たいりょくが　へって　いきます",
+    "en": "When (it) takes poison, (its) stamina keeps decreasing."
+   },
+   {
+    "ja": "たたかい　おわっても どくは　のこりますが どくけしで　きえます！",
+    "en": "Even when the fight ends the poison remains, but with an antidote it disappears!"
    }
   ]
  },
@@ -1050,12 +1082,20 @@
     "en": "(It's) a pamphlet on move machines!"
    },
    {
-    "ja": "……　…… わざマシンは ぜんぶで　５０しゅるい！",
-    "en": "...... Move machines, fifty kinds in all!"
+    "ja": "……　……",
+    "en": "......"
    },
    {
-    "ja": "ひでんマシンは つかっても　なくならない　タイプ ぜんぶで　５しゅるい　あります ……　シルフ　カンパニー",
-    "en": "Secret machines are the type that doesn't run out even when used. There are five kinds in all. ...Silph Company"
+    "ja": "わざマシンは ぜんぶで　５０しゅるい！",
+    "en": "Move machines, fifty kinds in all!"
+   },
+   {
+    "ja": "ひでんマシンは つかっても　なくならない　タイプ ぜんぶで　５しゅるい　あります",
+    "en": "Secret machines are the type that doesn't run out even when used. There are five kinds in all."
+   },
+   {
+    "ja": "……　シルフ　カンパニー",
+    "en": "...Silph Company"
    }
   ]
  },
@@ -1088,8 +1128,16 @@
     "en": "Peeked into the notebook!"
    },
    {
-    "ja": "１ページめ　…… ポケモンは モンスターボールで　つかまえて ６つまで　もち　あるける ポケモンを　そだてて　たたかわせる ひとを　ポケモン　トレーナーという",
-    "en": "Page 1... Pokémon are caught with Monster Balls, and up to six can be carried around. A person who raises Pokémon and makes them fight is called a Pokémon trainer."
+    "ja": "１ページめ　……",
+    "en": "Page 1..."
+   },
+   {
+    "ja": "ポケモンは モンスターボールで　つかまえて ６つまで　もち　あるける",
+    "en": "Pokémon are caught with Monster Balls, and up to six can be carried around."
+   },
+   {
+    "ja": "ポケモンを　そだてて　たたかわせる ひとを　ポケモン　トレーナーという",
+    "en": "A person who raises Pokémon and makes them fight is called a Pokémon trainer."
    }
   ]
  },
@@ -1097,12 +1145,20 @@
   "who": "Notebook",
   "sentences": [
    {
-    "ja": "２ページめ　…… ポケモンを　つかまえる　ときは まず　よわらせてから！",
-    "en": "Page 2... When catching Pokémon, first weaken them!"
+    "ja": "２ページめ　……",
+    "en": "Page 2..."
    },
    {
-    "ja": "どくや　やけどで よわらせても　いいよ！",
-    "en": "Weakening them with poison or burns is fine too!"
+    "ja": "ポケモンを　つかまえる　ときは まず　よわらせてから！",
+    "en": "When catching Pokémon, first weaken them!"
+   },
+   {
+    "ja": "どくや　やけどで",
+    "en": "With poison or burns,"
+   },
+   {
+    "ja": "よわらせても　いいよ！",
+    "en": "weakening them is fine too!"
    },
    {
     "ja": "げんきだと　うまく　とれないかも",
@@ -1114,8 +1170,12 @@
   "who": "Notebook",
   "sentences": [
    {
-    "ja": "３ページめ　…… ポケモンどうしを　たたかわせ かつことは　トレーナーに　とって さいこうの　よろこび　である！",
-    "en": "Page 3... Making Pokémon fight each other and winning is, for a trainer, the greatest joy!"
+    "ja": "３ページめ　……",
+    "en": "Page 3..."
+   },
+   {
+    "ja": "ポケモンどうしを　たたかわせ かつことは　トレーナーに　とって さいこうの　よろこび　である！",
+    "en": "Making Pokémon fight each other and winning is, for a trainer, the greatest joy!"
    },
    {
     "ja": "かくちの　ポケモン　ジムでは いつも　はげしい たたかいが　くりひろげられてる！",
@@ -1128,8 +1188,16 @@
   "who": "Notebook",
   "sentences": [
    {
-    "ja": "４ページめ　…… ポケモントレーナーの　もくひょうは かくちの　ジムに　いる つよい　トレーナー ８にんしゅうを　たおすこと！",
-    "en": "Page 4... The goal of a Pokémon trainer is to defeat the strong trainers in the gyms of each region, the group of eight!"
+    "ja": "４ページめ　……",
+    "en": "Page 4..."
+   },
+   {
+    "ja": "ポケモントレーナーの　もくひょうは かくちの　ジムに　いる",
+    "en": "The goal of a Pokémon trainer is, (of those) in the gyms of each region,"
+   },
+   {
+    "ja": "つよい　トレーナー ８にんしゅうを　たおすこと！",
+    "en": "to defeat the strong trainers, the group of eight!"
    },
    {
     "ja": "さらに　ポケモンリーグ　ほんぶには ……　もうれつに　つよい！",

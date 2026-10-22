@@ -16,8 +16,8 @@
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である ···えーと？",
-  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival. ...Er?"
+  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である",
+  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival."
  },
  {
   "id": "e-kana",
@@ -32,8 +32,8 @@
   "exampleEn": "Tomorrow (it) clears up, I wonder.",
   "surface": "かな",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "intro",
   "who": "Professor Okido",
@@ -68,13 +68,13 @@
   "exampleEn": "making (them) into pets, using (them) in matches, and such",
   "surface": "ペットに　したり しょうぶに　つかったり",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり···",
+  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches..."
  },
  {
   "id": "e-toiu",
@@ -108,13 +108,13 @@
   "exampleEn": "(I'm) doing research, that's what it is",
   "surface": "というわけ",
   "units": [
-   1,
-   1
+   4,
+   4
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
+  "lineEn": "I am doing research on these Pokémon, that's what it is."
  },
  {
   "id": "tachi",
@@ -129,7 +129,7 @@
   "surface": "たち",
   "units": [
    0,
-   0
+   1
   ],
   "stage": "intro",
   "who": "Professor Okido",
@@ -221,7 +221,7 @@
   "surface": "よばれる",
   "units": [
    0,
-   0
+   1
   ],
   "stage": "intro",
   "who": "Professor Okido",
@@ -1237,13 +1237,13 @@
   "exampleEn": "Uhm, this, please.",
   "surface": "えーと",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である ···えーと？",
-  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival. ...Er?"
+  "line": "···えーと？",
+  "lineEn": "...Er?"
  },
  {
   "id": "fumu",
@@ -1357,13 +1357,13 @@
   "kanji": "人",
   "surface": "ひと",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり···",
+  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches..."
  },
  {
   "id": "ikimono",
@@ -1378,7 +1378,7 @@
   "surface": "いきもの",
   "units": [
    0,
-   0
+   1
   ],
   "stage": "intro",
   "who": "Professor Okido",
@@ -1398,8 +1398,8 @@
   "ref": "intro/IntroduceRivalText",
   "surface": "いったかな",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "intro",
   "who": "Professor Okido",
@@ -1419,7 +1419,7 @@
   "surface": "いたるところ",
   "units": [
    0,
-   0
+   1
   ],
   "stage": "intro",
   "who": "Professor Okido",
@@ -1494,13 +1494,13 @@
   "kanji": "研究",
   "surface": "けんきゅう",
   "units": [
-   1,
-   1
+   4,
+   4
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
+  "lineEn": "I am doing research on these Pokémon, that's what it is."
  },
  {
   "id": "kimeru",
@@ -1563,8 +1563,8 @@
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である ···えーと？",
-  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival. ...Er?"
+  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である",
+  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival."
  },
  {
   "id": "kono",
@@ -1577,7 +1577,7 @@
   "surface": "この",
   "units": [
    0,
-   0
+   1
   ],
   "stage": "intro",
   "who": "Professor Okido",
@@ -1638,8 +1638,8 @@
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である ···えーと？",
-  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival. ...Er?"
+  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である",
+  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival."
  },
  {
   "id": "minna",
@@ -1779,8 +1779,8 @@
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である ···えーと？",
-  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival. ...Er?"
+  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である",
+  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival."
  },
  {
   "id": "oshieru",
@@ -1813,13 +1813,13 @@
   "ref": "intro/OakSpeechText2",
   "surface": "ペット",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり···",
+  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches..."
  },
  {
   "id": "raibaru",
@@ -1836,8 +1836,8 @@
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である ···えーと？",
-  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival. ...Er?"
+  "line": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である",
+  "lineEn": "This guy is my grandchild. (He) is your childhood friend and is (your) rival."
  },
  {
   "id": "retsugo",
@@ -1890,13 +1890,13 @@
   "kanji": "勝負",
   "surface": "しょうぶ",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり···",
+  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches..."
  },
  {
   "id": "sono",
@@ -1908,13 +1908,13 @@
   "ref": "intro/OakSpeechText2",
   "surface": "その",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり···",
+  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches..."
  },
  {
   "id": "soshite",
@@ -1926,13 +1926,13 @@
   "ref": "intro/OakSpeechText2",
   "surface": "そして",
   "units": [
-   1,
-   1
+   3,
+   3
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "そして···",
+  "lineEn": "And..."
  },
  {
   "id": "sumu",
@@ -1948,7 +1948,7 @@
   "surface": "すんでいる",
   "units": [
    0,
-   0
+   1
   ],
   "stage": "intro",
   "who": "Professor Okido",
@@ -1968,13 +1968,13 @@
   "ref": "intro/OakSpeechText2",
   "surface": "したり",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり···",
+  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches..."
  },
  {
   "id": "tsukau",
@@ -1987,13 +1987,13 @@
   "kanji": "使う",
   "surface": "つかったり",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "intro",
   "who": "Professor Okido",
-  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
-  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+  "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり···",
+  "lineEn": "Those living things called Pokémon, people make into pets, or use in matches..."
  },
  {
   "id": "watashi",
@@ -2029,7 +2029,7 @@
   "surface": "よばれる",
   "units": [
    0,
-   0
+   1
   ],
   "stage": "intro",
   "who": "Professor Okido",
@@ -2163,7 +2163,7 @@
   "surface": "へ",
   "units": [
    1,
-   1
+   2
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -2429,8 +2429,8 @@
   "stage": "pallet",
   "speaker": "{rival}",
   "who": "Rival",
-  "line": "おれは おとな　だから　がっつかないのさ {player}から　さきに えらばせて　やるぜ！",
-  "lineEn": "I'm an adult, so I don't get greedy. I'll let {player} choose first!"
+  "line": "おれは おとな　だから　がっつかないのさ",
+  "lineEn": "I'm an adult, so I don't get greedy."
  },
  {
   "id": "e-shi",
@@ -2497,8 +2497,8 @@
   "exampleEn": "is not remaining",
   "surface": "とらんが",
   "units": [
-   7,
-   7
+   9,
+   9
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -2516,14 +2516,14 @@
   "exampleEn": "as a trainer",
   "surface": "として",
   "units": [
-   6,
-   6
+   8,
+   8
   ],
   "stage": "pallet",
   "speaker": "オーキド",
   "who": "Professor Okido",
-  "line": "モンスターボールの　なかに ポケモンが　いれて　あるんじゃ むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
-  "lineEn": "Inside the Monster Balls, Pokémon have been put in. Long ago I too made a name as a top-notch Pokémon trainer!"
+  "line": "むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
+  "lineEn": "Long ago I too made a name as a top-notch Pokémon trainer!"
  },
  {
   "id": "e-wa",
@@ -2711,14 +2711,14 @@
   "note": "After a plain form or noun. Casual; polite-ish: 〜ようだ.",
   "surface": "みたい",
   "units": [
-   2,
-   2
+   4,
+   4
   ],
   "stage": "pallet",
   "speaker": "オーキド",
   "who": "Professor Okido",
-  "line": "わしの　やったポケモンは……ほう だいぶ なついた　みたいだな？",
-  "lineEn": "The Pokémon I gave... oh. (It) seems to have taken quite a liking to (you)?"
+  "line": "だいぶ なついた　みたいだな？",
+  "lineEn": "(It) seems to have taken quite a liking to (you)?"
  },
  {
   "id": "nisuru",
@@ -2855,14 +2855,14 @@
   "note": "う-verbs: final -u → -aseru. たたかう → たたかわせる. 〜させてください = please let me.",
   "surface": "えらばせて　やるぜ",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "pallet",
   "speaker": "{rival}",
   "who": "Rival",
-  "line": "おれは おとな　だから　がっつかないのさ {player}から　さきに えらばせて　やるぜ！",
-  "lineEn": "I'm an adult, so I don't get greedy. I'll let {player} choose first!"
+  "line": "{player}から　さきに えらばせて　やるぜ！",
+  "lineEn": "I'll let {player} choose first!"
  },
  {
   "id": "f-erabe",
@@ -2882,8 +2882,8 @@
   "note": "う-verbs: final -u → -e. Rough; used by Oak, in battle text, and on signs. Polite: えらんで ください.",
   "surface": "えらべ",
   "units": [
-   8,
-   8
+   10,
+   10
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -3189,7 +3189,7 @@
   "surface": "れて",
   "units": [
    1,
-   1
+   2
   ],
   "stage": "pallet",
   "who": "Professor Okido",
@@ -3515,14 +3515,14 @@
   "exampleEn": "it's that they have been put in",
   "surface": "て　ある",
   "units": [
-   6,
-   6
+   7,
+   7
   ],
   "stage": "pallet",
   "speaker": "オーキド",
   "who": "Professor Okido",
-  "line": "モンスターボールの　なかに ポケモンが　いれて　あるんじゃ むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
-  "lineEn": "Inside the Monster Balls, Pokémon have been put in. Long ago I too made a name as a top-notch Pokémon trainer!"
+  "line": "モンスターボールの　なかに ポケモンが　いれて　あるんじゃ",
+  "lineEn": "Inside the Monster Balls, Pokémon have been put in."
  },
  {
   "id": "f-tehoshii",
@@ -3564,7 +3564,7 @@
   "surface": "て　いけば",
   "units": [
    1,
-   1
+   2
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -3969,13 +3969,13 @@
   "ref": "pallet/OakLabEmailText",
   "surface": "ポケモン　リーグ",
   "units": [
-   3,
-   3
+   4,
+   4
   ],
   "stage": "pallet",
   "who": "E-mail",
-  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
-  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
+  "line": "ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
+  "lineEn": "The place is the Pokémon League headquarters on the Sekiei Plateau!"
  },
  {
   "id": "i-report",
@@ -4005,8 +4005,8 @@
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "surface": "トレーナー",
   "units": [
-   3,
-   3
+   5,
+   5
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -4080,13 +4080,13 @@
   "ref": "pallet/OakLabEmailText",
   "surface": "セキエイ　こうげん",
   "units": [
-   3,
-   3
+   4,
+   4
   ],
   "stage": "pallet",
   "who": "E-mail",
-  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
-  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
+  "line": "ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
+  "lineEn": "The place is the Pokémon League headquarters on the Sekiei Plateau!"
  },
  {
   "id": "aa",
@@ -4267,14 +4267,14 @@
   "loose": "ありがとよ, Oak's gruff version",
   "surface": "ありがとよ",
   "units": [
-   7,
-   7
+   9,
+   10
   ],
   "stage": "pallet",
   "speaker": "オーキド",
   "who": "Professor Okido",
   "line": "これは わしが　ちゅうもん　してた とくせいの　モンスターボールじゃ どうも　ありがとよ！",
-  "lineEn": "This is the custom-made Monster Ball I had ordered. Thanks a lot!"
+  "lineEn": "This is the one I had ordered, the custom-made Monster Ball. Thanks a lot!"
  },
  {
   "id": "aru",
@@ -4305,8 +4305,8 @@
   ],
   "stage": "pallet",
   "who": "Narration",
-  "line": "おとこのこが　４にん せんろのうえを　あるいてる…… ……　ぼくも　もう　いかなきゃ！",
-  "lineEn": "Four boys are walking on the railroad tracks... ...I have to go too!"
+  "line": "おとこのこが　４にん せんろのうえを　あるいてる……",
+  "lineEn": "Four boys are walking on the railroad tracks..."
  },
  {
   "id": "ataru",
@@ -4342,8 +4342,8 @@
   ],
   "stage": "pallet",
   "who": "E-mail",
-  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
-  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
+  "line": "ここに　さいきょうの トレーナーが　あつまり　ました",
+  "lineEn": "Here the strongest trainers have gathered."
  },
  {
   "id": "awateru",
@@ -4434,14 +4434,14 @@
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "surface": "バリバリ",
   "units": [
-   6,
-   6
+   8,
+   8
   ],
   "stage": "pallet",
   "speaker": "オーキド",
   "who": "Professor Okido",
-  "line": "モンスターボールの　なかに ポケモンが　いれて　あるんじゃ むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
-  "lineEn": "Inside the Monster Balls, Pokémon have been put in. Long ago I too made a name as a top-notch Pokémon trainer!"
+  "line": "むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
+  "lineEn": "Long ago I too made a name as a top-notch Pokémon trainer!"
  },
  {
   "id": "basho",
@@ -4491,13 +4491,13 @@
   "kanji": "僕",
   "surface": "ぼく",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "pallet",
   "who": "Narration",
-  "line": "おとこのこが　４にん せんろのうえを　あるいてる…… ……　ぼくも　もう　いかなきゃ！",
-  "lineEn": "Four boys are walking on the railroad tracks... ...I have to go too!"
+  "line": "……　ぼくも　もう　いかなきゃ！",
+  "lineEn": "...I have to go too!"
  },
  {
   "id": "botan",
@@ -4664,14 +4664,14 @@
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "surface": "だいぶ",
   "units": [
-   2,
-   2
+   4,
+   4
   ],
   "stage": "pallet",
   "speaker": "オーキド",
   "who": "Professor Okido",
-  "line": "わしの　やったポケモンは……ほう だいぶ なついた　みたいだな？",
-  "lineEn": "The Pokémon I gave... oh. (It) seems to have taken quite a liking to (you)?"
+  "line": "だいぶ なついた　みたいだな？",
+  "lineEn": "(It) seems to have taken quite a liking to (you)?"
  },
  {
   "id": "dakara",
@@ -4692,8 +4692,8 @@
   "stage": "pallet",
   "speaker": "{rival}",
   "who": "Rival",
-  "line": "おれは おとな　だから　がっつかないのさ {player}から　さきに えらばせて　やるぜ！",
-  "lineEn": "I'm an adult, so I don't get greedy. I'll let {player} choose first!"
+  "line": "おれは おとな　だから　がっつかないのさ",
+  "lineEn": "I'm an adult, so I don't get greedy."
  },
  {
   "id": "dake",
@@ -4984,8 +4984,8 @@
   "exampleEn": "Please choose one.",
   "surface": "えらべ",
   "units": [
-   8,
-   8
+   10,
+   10
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -5005,7 +5005,7 @@
   "surface": "ふえて",
   "units": [
    1,
-   1
+   2
   ],
   "stage": "pallet",
   "who": "Professor Okido",
@@ -5101,8 +5101,8 @@
   "stage": "pallet",
   "speaker": "{rival}",
   "who": "Rival",
-  "line": "おれは おとな　だから　がっつかないのさ {player}から　さきに えらばせて　やるぜ！",
-  "lineEn": "I'm an adult, so I don't get greedy. I'll let {player} choose first!"
+  "line": "おれは おとな　だから　がっつかないのさ",
+  "lineEn": "I'm an adult, so I don't get greedy."
  },
  {
   "id": "genki",
@@ -5141,8 +5141,8 @@
    0
   ],
   "stage": "pallet",
-  "line": "……　……　ポケモンずかんの げんざいの　かんせいど　は…… みつけた　ポケモン{n}！",
-  "lineEn": "... ...The current degree of completion of the Pokédex is... Pokémon found: {n}!"
+  "line": "……　……　ポケモンずかんの げんざいの　かんせいど　は……",
+  "lineEn": "... ...The current degree of completion of the Pokédex is..."
  },
  {
   "id": "goran",
@@ -5155,8 +5155,8 @@
   "kanji": "ご覧",
   "surface": "ごらん",
   "units": [
-   4,
-   4
+   5,
+   5
   ],
   "stage": "pallet",
   "who": "E-mail",
@@ -5193,7 +5193,7 @@
   "surface": "ハイテク",
   "units": [
    1,
-   1
+   2
   ],
   "stage": "pallet",
   "who": "Professor Okido",
@@ -5319,8 +5319,8 @@
   "note": "1ぴき, 2ひき, 3びき, 4ひき, 5ひき, 6ぴき, 8ぴき, 10ぴき.",
   "surface": "３びき",
   "units": [
-   4,
-   4
+   5,
+   5
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -5438,13 +5438,13 @@
   "kanji": "本部",
   "surface": "ほんぶ",
   "units": [
-   3,
-   3
+   4,
+   4
   ],
   "stage": "pallet",
   "who": "E-mail",
-  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
-  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
+  "line": "ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
+  "lineEn": "The place is the Pokémon League headquarters on the Sekiei Plateau!"
  },
  {
   "id": "hondana",
@@ -5534,8 +5534,8 @@
   "kanji": "評価",
   "surface": "ひょうか",
   "units": [
-   2,
-   2
+   3,
+   3
   ],
   "stage": "pallet",
   "line": "オーキドはかせの　ひょうか……",
@@ -5552,8 +5552,8 @@
   "kanji": "一度",
   "surface": "いちど",
   "units": [
-   4,
-   4
+   5,
+   5
   ],
   "stage": "pallet",
   "who": "E-mail",
@@ -5705,8 +5705,8 @@
   "note": "For things: ある.",
   "surface": "いる",
   "units": [
-   4,
-   4
+   5,
+   5
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -5738,7 +5738,7 @@
   "surface": "じどうてき",
   "units": [
    1,
-   1
+   2
   ],
   "stage": "pallet",
   "who": "Professor Okido",
@@ -5834,7 +5834,7 @@
   "surface": "かきこまれて",
   "units": [
    1,
-   1
+   2
   ],
   "stage": "pallet",
   "who": "Professor Okido",
@@ -6299,8 +6299,8 @@
   "ref": "pallet/OakLabEmailText",
   "surface": "ください",
   "units": [
-   4,
-   4
+   5,
+   5
   ],
   "stage": "pallet",
   "who": "E-mail",
@@ -6851,13 +6851,13 @@
   "ref": "pallet/RedsHouse1FTVText.StandByMeMovieText",
   "surface": "もう",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "pallet",
   "who": "Narration",
-  "line": "おとこのこが　４にん せんろのうえを　あるいてる…… ……　ぼくも　もう　いかなきゃ！",
-  "lineEn": "Four boys are walking on the railroad tracks... ...I have to go too!"
+  "line": "……　ぼくも　もう　いかなきゃ！",
+  "lineEn": "...I have to go too!"
  },
  {
   "id": "muda",
@@ -6890,14 +6890,14 @@
   "kanji": "昔",
   "surface": "むかし",
   "units": [
-   6,
-   6
+   8,
+   8
   ],
   "stage": "pallet",
   "speaker": "オーキド",
   "who": "Professor Okido",
-  "line": "モンスターボールの　なかに ポケモンが　いれて　あるんじゃ むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
-  "lineEn": "Inside the Monster Balls, Pokémon have been put in. Long ago I too made a name as a top-notch Pokémon trainer!"
+  "line": "むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
+  "lineEn": "Long ago I too made a name as a top-notch Pokémon trainer!"
  },
  {
   "id": "muri",
@@ -7050,14 +7050,14 @@
   "kanji": "鳴らす",
   "surface": "ならした",
   "units": [
-   6,
-   6
+   8,
+   8
   ],
   "stage": "pallet",
   "speaker": "オーキド",
   "who": "Professor Okido",
-  "line": "モンスターボールの　なかに ポケモンが　いれて　あるんじゃ むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
-  "lineEn": "Inside the Monster Balls, Pokémon have been put in. Long ago I too made a name as a top-notch Pokémon trainer!"
+  "line": "むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
+  "lineEn": "Long ago I too made a name as a top-notch Pokémon trainer!"
  },
  {
   "id": "naru",
@@ -7088,14 +7088,14 @@
   "kanji": "懐く",
   "surface": "なついた",
   "units": [
-   2,
-   2
+   4,
+   4
   ],
   "stage": "pallet",
   "speaker": "オーキド",
   "who": "Professor Okido",
-  "line": "わしの　やったポケモンは……ほう だいぶ なついた　みたいだな？",
-  "lineEn": "The Pokémon I gave... oh. (It) seems to have taken quite a liking to (you)?"
+  "line": "だいぶ なついた　みたいだな？",
+  "lineEn": "(It) seems to have taken quite a liking to (you)?"
  },
  {
   "id": "neechan",
@@ -7265,8 +7265,8 @@
   "kanji": "老いぼれる",
   "surface": "おいぼれた",
   "units": [
-   7,
-   7
+   9,
+   9
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -7444,8 +7444,8 @@
   "stage": "pallet",
   "speaker": "{rival}",
   "who": "Rival",
-  "line": "おれは おとな　だから　がっつかないのさ {player}から　さきに えらばせて　やるぜ！",
-  "lineEn": "I'm an adult, so I don't get greedy. I'll let {player} choose first!"
+  "line": "おれは おとな　だから　がっつかないのさ",
+  "lineEn": "I'm an adult, so I don't get greedy."
  },
  {
   "id": "osu",
@@ -7503,8 +7503,8 @@
   "stage": "pallet",
   "speaker": "{rival}",
   "who": "Rival",
-  "line": "おれは おとな　だから　がっつかないのさ {player}から　さきに えらばせて　やるぜ！",
-  "lineEn": "I'm an adult, so I don't get greedy. I'll let {player} choose first!"
+  "line": "おれは おとな　だから　がっつかないのさ",
+  "lineEn": "I'm an adult, so I don't get greedy."
  },
  {
   "id": "otouto",
@@ -7628,13 +7628,13 @@
   "ref": "pallet/OakLabEmailText",
   "surface": "リーグ",
   "units": [
-   3,
-   3
+   4,
+   4
   ],
   "stage": "pallet",
   "who": "E-mail",
-  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
-  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
+  "line": "ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
+  "lineEn": "The place is the Pokémon League headquarters on the Sekiei Plateau!"
  },
  {
   "id": "saa",
@@ -7648,8 +7648,8 @@
   "note": "Prompts someone to act.",
   "surface": "さあ",
   "units": [
-   8,
-   8
+   10,
+   10
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -7728,8 +7728,8 @@
   ],
   "stage": "pallet",
   "who": "E-mail",
-  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
-  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
+  "line": "ここに　さいきょうの トレーナーが　あつまり　ました",
+  "lineEn": "Here the strongest trainers have gathered."
  },
  {
   "id": "sainou",
@@ -7742,8 +7742,8 @@
   "kanji": "才能",
   "surface": "さいのう",
   "units": [
-   3,
-   3
+   5,
+   5
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -7765,14 +7765,14 @@
   "exampleLoose": "After you.",
   "surface": "さきに",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "pallet",
   "speaker": "{rival}",
   "who": "Rival",
-  "line": "おれは おとな　だから　がっつかないのさ {player}から　さきに えらばせて　やるぜ！",
-  "lineEn": "I'm an adult, so I don't get greedy. I'll let {player} choose first!"
+  "line": "{player}から　さきに えらばせて　やるぜ！",
+  "lineEn": "I'll let {player} choose first!"
  },
  {
   "id": "sassoku",
@@ -7900,8 +7900,8 @@
   ],
   "stage": "pallet",
   "who": "Narration",
-  "line": "おとこのこが　４にん せんろのうえを　あるいてる…… ……　ぼくも　もう　いかなきゃ！",
-  "lineEn": "Four boys are walking on the railroad tracks... ...I have to go too!"
+  "line": "おとこのこが　４にん せんろのうえを　あるいてる……",
+  "lineEn": "Four boys are walking on the railroad tracks..."
  },
  {
   "id": "shigoto",
@@ -8099,7 +8099,7 @@
   "surface": "そいつ",
   "units": [
    1,
-   1
+   2
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -8117,8 +8117,8 @@
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "surface": "そこ",
   "units": [
-   4,
-   4
+   5,
+   5
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -8762,8 +8762,8 @@
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "surface": "とどけもの",
   "units": [
-   5,
-   5
+   7,
+   7
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -8856,12 +8856,12 @@
   "kanji": "取り替える",
   "surface": "とりかえますか",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "pallet",
-  "line": "{trainer}は{enemy}を くりだそうと　しているようだ {player}も　ポケモンを とりかえますか？",
-  "lineEn": "{trainer} seems about to send out {enemy}. Will {player} also switch Pokémon?"
+  "line": "{player}も　ポケモンを とりかえますか？",
+  "lineEn": "Will {player} also switch Pokémon?"
  },
  {
   "id": "toru",
@@ -9201,8 +9201,8 @@
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "surface": "わたす",
   "units": [
-   4,
-   4
+   6,
+   6
   ],
   "stage": "pallet",
   "speaker": "オーキド",
@@ -9486,8 +9486,8 @@
   ],
   "stage": "route1",
   "who": "Boy on Route 1",
-  "line": "とび　おりるのは ちょっと　こわいけど…… マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
-  "lineEn": "Jumping down is a little scary, but... When going back to Masara Town, (you) can go back fast, which is good."
+  "line": "とび　おりるのは ちょっと　こわいけど……",
+  "lineEn": "Jumping down is a little scary, but..."
  },
  {
   "id": "f-kattekuru",
@@ -9546,13 +9546,13 @@
   "exampleEn": "please drop by",
   "surface": "て　ください",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
-  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+  "line": "べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
+  "lineEn": "(We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
  },
  {
   "id": "f-mashou",
@@ -9567,8 +9567,8 @@
   "exampleEn": "let me present you",
   "surface": "ましょう",
   "units": [
-   2,
-   2
+   3,
+   3
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
@@ -9696,8 +9696,8 @@
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
-  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+  "line": "わたし　フレンドリィ　ショップの てんいん　です",
+  "lineEn": "I am a clerk of the Friendly Shop."
  },
  {
   "id": "i-wazapoint",
@@ -9728,13 +9728,13 @@
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "トキワ　シティ",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
-  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+  "line": "べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
+  "lineEn": "(We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
  },
  {
   "id": "dansa",
@@ -9787,8 +9787,8 @@
   "note": "Offering something or permission.",
   "surface": "どうぞ",
   "units": [
-   2,
-   2
+   3,
+   3
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
@@ -9806,13 +9806,13 @@
   "kanji": "早い",
   "surface": "はやく",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "route1",
   "who": "Boy on Route 1",
-  "line": "とび　おりるのは ちょっと　こわいけど…… マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
-  "lineEn": "Jumping down is a little scary, but... When going back to Masara Town, (you) can go back fast, which is good."
+  "line": "マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
+  "lineEn": "When going back to Masara Town, (you) can go back fast, which is good."
  },
  {
   "id": "hayaku",
@@ -9828,13 +9828,13 @@
   "note": "はやい (fast, early) + く = adverb.",
   "surface": "はやく",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "route1",
   "who": "Boy on Route 1",
-  "line": "とび　おりるのは ちょっと　こわいけど…… マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
-  "lineEn": "Jumping down is a little scary, but... When going back to Masara Town, (you) can go back fast, which is good."
+  "line": "マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
+  "lineEn": "When going back to Masara Town, (you) can go back fast, which is good."
  },
  {
   "id": "irassharu",
@@ -9868,13 +9868,13 @@
   "exampleEn": "(I) return home.",
   "surface": "かえる",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "route1",
   "who": "Boy on Route 1",
-  "line": "とび　おりるのは ちょっと　こわいけど…… マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
-  "lineEn": "Jumping down is a little scary, but... When going back to Masara Town, (you) can go back fast, which is good."
+  "line": "マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
+  "lineEn": "When going back to Masara Town, (you) can go back fast, which is good."
  },
  {
   "id": "kawasu",
@@ -9911,8 +9911,8 @@
   ],
   "stage": "route1",
   "who": "Boy on Route 1",
-  "line": "とび　おりるのは ちょっと　こわいけど…… マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
-  "lineEn": "Jumping down is a little scary, but... When going back to Masara Town, (you) can go back fast, which is good."
+  "line": "とび　おりるのは ちょっと　こわいけど……",
+  "lineEn": "Jumping down is a little scary, but..."
  },
  {
   "id": "michi",
@@ -9946,8 +9946,8 @@
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "みほん",
   "units": [
-   2,
-   2
+   3,
+   3
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
@@ -10019,8 +10019,8 @@
   "note": "Shop staff use it toward customers. Normal: あげる.",
   "surface": "さしあげましょう",
   "units": [
-   2,
-   2
+   3,
+   3
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
@@ -10042,8 +10042,8 @@
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
-  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+  "line": "わたし　フレンドリィ　ショップの てんいん　です",
+  "lineEn": "I am a clerk of the Friendly Shop."
  },
  {
   "id": "souda",
@@ -10057,8 +10057,8 @@
   "note": "At the start of a sentence: a thought just occurred.",
   "surface": "そうだ",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
@@ -10099,8 +10099,8 @@
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
-  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+  "line": "わたし　フレンドリィ　ショップの てんいん　です",
+  "lineEn": "I am a clerk of the Friendly Shop."
  },
  {
   "id": "tobioriru",
@@ -10119,8 +10119,8 @@
   ],
   "stage": "route1",
   "who": "Boy on Route 1",
-  "line": "とび　おりるのは ちょっと　こわいけど…… マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
-  "lineEn": "Jumping down is a little scary, but... When going back to Masara Town, (you) can go back fast, which is good."
+  "line": "とび　おりるのは ちょっと　こわいけど……",
+  "lineEn": "Jumping down is a little scary, but..."
  },
  {
   "id": "ubau",
@@ -10187,13 +10187,13 @@
   "kanji": "寄る",
   "surface": "よって",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
-  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+  "line": "べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
+  "lineEn": "(We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
  },
  {
   "id": "zehi",
@@ -10205,13 +10205,13 @@
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "ぜひ",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "route1",
   "who": "Shop clerk on Route 1",
-  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+  "line": "べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
+  "lineEn": "(We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
  },
  {
   "id": "e-chau",
@@ -10263,8 +10263,8 @@
   ],
   "stage": "viridian",
   "who": "Girl in Viridian City",
-  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+  "line": "ときどき　ニビシティまで おかいものに　いきますけど",
+  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but..."
  },
  {
   "id": "e-nante",
@@ -10471,8 +10471,8 @@
   ],
   "stage": "viridian",
   "who": "Gambler in Viridian City",
-  "line": "いつ　きても この　ポケモン　ジムは　しまっとる いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
-  "lineEn": "Whenever (I) come, this Pokémon gym is shut. What kind of fellow on earth is doing the leader (job), (I) wonder?"
+  "line": "いつ　きても この　ポケモン　ジムは　しまっとる",
+  "lineEn": "Whenever (I) come, this Pokémon gym is shut."
  },
  {
   "id": "kai",
@@ -10708,8 +10708,8 @@
   ],
   "stage": "viridian",
   "who": "Blackboard",
-  "line": "どくを　くらうと たいりょくが　へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます！",
-  "lineEn": "When (it) takes poison, (its) stamina keeps decreasing. Even when the fight ends the poison remains, but with an antidote it disappears!"
+  "line": "どくを　くらうと たいりょくが　へって　いきます",
+  "lineEn": "When (it) takes poison, (its) stamina keeps decreasing."
  },
  {
   "id": "f-tekureru",
@@ -11003,8 +11003,8 @@
   ],
   "stage": "viridian",
   "who": "Boy in Viridian City",
-  "line": "キャタピーは　どくが　ないけど ビードルには　どくが　あるよ ポケモンが　さされないように きを　つけようね",
-  "lineEn": "Caterpie has no poison, but Beedle has poison. So that (your) Pokémon doesn't get stung, let's be careful."
+  "line": "キャタピーは　どくが　ないけど ビードルには　どくが　あるよ",
+  "lineEn": "Caterpie has no poison, but Beedle has poison."
  },
  {
   "id": "p-caterpie",
@@ -11021,8 +11021,8 @@
   ],
   "stage": "viridian",
   "who": "Boy in Viridian City",
-  "line": "キャタピーは　どくが　ないけど ビードルには　どくが　あるよ ポケモンが　さされないように きを　つけようね",
-  "lineEn": "Caterpie has no poison, but Beedle has poison. So that (your) Pokémon doesn't get stung, let's be careful."
+  "line": "キャタピーは　どくが　ないけど ビードルには　どくが　あるよ",
+  "lineEn": "Caterpie has no poison, but Beedle has poison."
  },
  {
   "id": "p-onisuzume",
@@ -11109,8 +11109,8 @@
   ],
   "stage": "viridian",
   "who": "Girl in Viridian City",
-  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+  "line": "ときどき　ニビシティまで おかいものに　いきますけど",
+  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but..."
  },
  {
   "id": "i-pokemoncenter",
@@ -11122,13 +11122,13 @@
   "ref": "viridian/ViridianCityTrainerTips2Text",
   "surface": "ポケモンセンター",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Trainer tips board",
-  "line": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
-  "lineEn": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
+  "line": "わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
+  "lineEn": "Also when the power points for each move have run out, let them rest at a Pokémon Center!"
  },
  {
   "id": "i-shitennou",
@@ -11140,8 +11140,8 @@
   "ref": "viridian/ViridianSchoolNotebookText4",
   "surface": "してんのう",
   "units": [
-   2,
-   2
+   4,
+   4
   ],
   "stage": "viridian",
   "who": "Notebook",
@@ -11158,13 +11158,13 @@
   "ref": "viridian/TMNotebook",
   "surface": "シルフ　カンパニー",
   "units": [
-   2,
-   2
+   4,
+   4
   ],
   "stage": "viridian",
   "who": "Pamphlet",
-  "line": "ひでんマシンは つかっても　なくならない　タイプ ぜんぶで　５しゅるい　あります ……　シルフ　カンパニー",
-  "lineEn": "Secret machines are the type that doesn't run out even when used. There are five kinds in all. ...Silph Company"
+  "line": "……　シルフ　カンパニー",
+  "lineEn": "...Silph Company"
  },
  {
   "id": "i-tokiwanomori",
@@ -11176,13 +11176,13 @@
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
   "surface": "トキワのもり",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Girl in Viridian City",
-  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+  "line": "トキワのもり　って みちが　まがり　くねってるのよ",
+  "lineEn": "The Tokiwa Forest, the road winds and twists, you know."
  },
  {
   "id": "i-tradecenter",
@@ -11216,8 +11216,8 @@
   ],
   "stage": "viridian",
   "who": "Trainer tips board",
-  "line": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
-  "lineEn": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
+  "line": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります",
+  "lineEn": "Besides stamina, Pokémon have power points, the source of energy for letting out moves."
  },
  {
   "id": "pokemon",
@@ -11249,13 +11249,13 @@
   "ref": "viridian/ViridianCityOldManText.KnowHowToCatchPokemonText",
   "surface": "アドバイス",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Old man in Viridian City",
-  "line": "ポケモンずかん　つくっとるか なら　わしから　アドバイスじゃ！",
-  "lineEn": "Making a Pokédex, are you. Then, advice from me!"
+  "line": "なら　わしから　アドバイスじゃ！",
+  "lineEn": "Then, advice from me!"
  },
  {
   "id": "aida",
@@ -11368,8 +11368,8 @@
   ],
   "stage": "viridian",
   "who": "Old man in Viridian City",
-  "line": "あたまが　いたい…… ときに　おいそぎ……　かな？",
-  "lineEn": "(My) head hurts... By the way, in a hurry... are you?"
+  "line": "あたまが　いたい……",
+  "lineEn": "(My) head hurts..."
  },
  {
   "id": "atarashii",
@@ -11559,8 +11559,8 @@
   ],
   "stage": "viridian",
   "who": "Blackboard",
-  "line": "どくを　くらうと たいりょくが　へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます！",
-  "lineEn": "When (it) takes poison, (its) stamina keeps decreasing. Even when the fight ends the poison remains, but with an antidote it disappears!"
+  "line": "どくを　くらうと たいりょくが　へって　いきます",
+  "lineEn": "When (it) takes poison, (its) stamina keeps decreasing."
  },
  {
   "id": "dondon",
@@ -11590,13 +11590,13 @@
   "ref": "viridian/ViridianCityGambler1Text.GymAlwaysClosedText",
   "surface": "どんな",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Gambler in Viridian City",
-  "line": "いつ　きても この　ポケモン　ジムは　しまっとる いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
-  "lineEn": "Whenever (I) come, this Pokémon gym is shut. What kind of fellow on earth is doing the leader (job), (I) wonder?"
+  "line": "いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
+  "lineEn": "What kind of fellow on earth is doing the leader (job), (I) wonder?"
  },
  {
   "id": "eien",
@@ -11701,8 +11701,8 @@
   "kanji": "激しい",
   "surface": "はげしい",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Notebook",
@@ -11729,8 +11729,8 @@
   ],
   "stage": "viridian",
   "who": "Blackboard",
-  "line": "どくを　くらうと たいりょくが　へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます！",
-  "lineEn": "When (it) takes poison, (its) stamina keeps decreasing. Even when the fight ends the poison remains, but with an antidote it disappears!"
+  "line": "どくを　くらうと たいりょくが　へって　いきます",
+  "lineEn": "When (it) takes poison, (its) stamina keeps decreasing."
  },
  {
   "id": "heya",
@@ -11857,13 +11857,13 @@
   "kanji": "急ぐ",
   "surface": "いそぎ",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Old man in Viridian City",
-  "line": "あたまが　いたい…… ときに　おいそぎ……　かな？",
-  "lineEn": "(My) head hurts... By the way, in a hurry... are you?"
+  "line": "ときに　おいそぎ……　かな？",
+  "lineEn": "By the way, in a hurry... are you?"
  },
  {
   "id": "itadaku",
@@ -11895,13 +11895,13 @@
   "note": "Humble する. You'll hear it from staff everywhere: おねがいいたします.",
   "surface": "いたします",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Nurse",
-  "line": "ポケモンセンターへ ここでは　ポケモンの たいりょく　かいふくを　いたします",
-  "lineEn": "To the Pokémon Center. Here (we) do stamina recovery of Pokémon."
+  "line": "ここでは　ポケモンの たいりょく　かいふくを　いたします",
+  "lineEn": "Here (we) do stamina recovery of Pokémon."
  },
  {
   "id": "itasu",
@@ -11914,13 +11914,13 @@
   "kanji": "致す",
   "surface": "いたします",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Nurse",
-  "line": "ポケモンセンターへ ここでは　ポケモンの たいりょく　かいふくを　いたします",
-  "lineEn": "To the Pokémon Center. Here (we) do stamina recovery of Pokémon."
+  "line": "ここでは　ポケモンの たいりょく　かいふくを　いたします",
+  "lineEn": "Here (we) do stamina recovery of Pokémon."
  },
  {
   "id": "itsudemo",
@@ -11954,8 +11954,8 @@
   "ref": "viridian/ViridianSchoolNotebookText3",
   "surface": "いつも",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Notebook",
@@ -11973,13 +11973,13 @@
   "kanji": "一体",
   "surface": "いったい",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Gambler in Viridian City",
-  "line": "いつ　きても この　ポケモン　ジムは　しまっとる いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
-  "lineEn": "Whenever (I) come, this Pokémon gym is shut. What kind of fellow on earth is doing the leader (job), (I) wonder?"
+  "line": "いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
+  "lineEn": "What kind of fellow on earth is doing the leader (job), (I) wonder?"
  },
  {
   "id": "jimu",
@@ -11996,8 +11996,8 @@
   ],
   "stage": "viridian",
   "who": "Gambler in Viridian City",
-  "line": "いつ　きても この　ポケモン　ジムは　しまっとる いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
-  "lineEn": "Whenever (I) come, this Pokémon gym is shut. What kind of fellow on earth is doing the leader (job), (I) wonder?"
+  "line": "いつ　きても この　ポケモン　ジムは　しまっとる",
+  "lineEn": "Whenever (I) come, this Pokémon gym is shut."
  },
  {
   "id": "jiyuu",
@@ -12054,13 +12054,13 @@
   "note": "かいふくする = to recover.",
   "surface": "かいふく",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Nurse",
-  "line": "ポケモンセンターへ ここでは　ポケモンの たいりょく　かいふくを　いたします",
-  "lineEn": "To the Pokémon Center. Here (we) do stamina recovery of Pokémon."
+  "line": "ここでは　ポケモンの たいりょく　かいふくを　いたします",
+  "lineEn": "Here (we) do stamina recovery of Pokémon."
  },
  {
   "id": "kaimono",
@@ -12078,8 +12078,8 @@
   ],
   "stage": "viridian",
   "who": "Girl in Viridian City",
-  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+  "line": "ときどき　ニビシティまで おかいものに　いきますけど",
+  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but..."
  },
  {
   "id": "kaitoru",
@@ -12188,13 +12188,13 @@
   "ref": "viridian/TMNotebook",
   "surface": "カンパニー",
   "units": [
-   2,
-   2
+   4,
+   4
   ],
   "stage": "viridian",
   "who": "Pamphlet",
-  "line": "ひでんマシンは つかっても　なくならない　タイプ ぜんぶで　５しゅるい　あります ……　シルフ　カンパニー",
-  "lineEn": "Secret machines are the type that doesn't run out even when used. There are five kinds in all. ...Silph Company"
+  "line": "……　シルフ　カンパニー",
+  "lineEn": "...Silph Company"
  },
  {
   "id": "karada",
@@ -12298,13 +12298,13 @@
   "kanji": "消える",
   "surface": "きえます",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Blackboard",
-  "line": "どくを　くらうと たいりょくが　へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます！",
-  "lineEn": "When (it) takes poison, (its) stamina keeps decreasing. Even when the fight ends the poison remains, but with an antidote it disappears!"
+  "line": "たたかい　おわっても どくは　のこりますが どくけしで　きえます！",
+  "lineEn": "Even when the fight ends the poison remains, but with an antidote it disappears!"
  },
  {
   "id": "kiku2",
@@ -12524,13 +12524,13 @@
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
   "surface": "くねってるのよ",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Girl in Viridian City",
-  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+  "line": "トキワのもり　って みちが　まがり　くねってるのよ",
+  "lineEn": "The Tokiwa Forest, the road winds and twists, you know."
  },
  {
   "id": "kurau",
@@ -12548,8 +12548,8 @@
   ],
   "stage": "viridian",
   "who": "Blackboard",
-  "line": "どくを　くらうと たいりょくが　へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます！",
-  "lineEn": "When (it) takes poison, (its) stamina keeps decreasing. Even when the fight ends the poison remains, but with an antidote it disappears!"
+  "line": "どくを　くらうと たいりょくが　へって　いきます",
+  "lineEn": "When (it) takes poison, (its) stamina keeps decreasing."
  },
  {
   "id": "magaru",
@@ -12562,13 +12562,13 @@
   "kanji": "曲がる",
   "surface": "まがり",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Girl in Viridian City",
-  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+  "line": "トキワのもり　って みちが　まがり　くねってるのよ",
+  "lineEn": "The Tokiwa Forest, the road winds and twists, you know."
  },
  {
   "id": "mahi",
@@ -12701,13 +12701,13 @@
   "ref": "viridian/ViridianSchoolNotebookText2",
   "surface": "まず",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Notebook",
-  "line": "２ページめ　…… ポケモンを　つかまえる　ときは まず　よわらせてから！",
-  "lineEn": "Page 2... When catching Pokémon, first weaken them!"
+  "line": "ポケモンを　つかまえる　ときは まず　よわらせてから！",
+  "lineEn": "When catching Pokémon, first weaken them!"
  },
  {
   "id": "midori",
@@ -12759,13 +12759,13 @@
   "kanji": "目標",
   "surface": "もくひょう",
   "units": [
-   0,
-   0
+   1,
+   2
   ],
   "stage": "viridian",
   "who": "Notebook",
-  "line": "４ページめ　…… ポケモントレーナーの　もくひょうは かくちの　ジムに　いる つよい　トレーナー ８にんしゅうを　たおすこと！",
-  "lineEn": "Page 4... The goal of a Pokémon trainer is to defeat the strong trainers in the gyms of each region, the group of eight!"
+  "line": "ポケモントレーナーの　もくひょうは かくちの　ジムに　いる つよい　トレーナー ８にんしゅうを　たおすこと！",
+  "lineEn": "The goal of a Pokémon trainer is, (of those) in the gyms of each region, to defeat the strong trainers, the group of eight!"
  },
  {
   "id": "mori",
@@ -12778,13 +12778,13 @@
   "kanji": "森",
   "surface": "もり",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Girl in Viridian City",
-  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+  "line": "トキワのもり　って みちが　まがり　くねってるのよ",
+  "lineEn": "The Tokiwa Forest, the road winds and twists, you know."
  },
  {
   "id": "mouretsu",
@@ -12797,8 +12797,8 @@
   "kanji": "猛烈",
   "surface": "もうれつ",
   "units": [
-   1,
-   1
+   3,
+   3
   ],
   "stage": "viridian",
   "who": "Notebook",
@@ -12853,13 +12853,13 @@
   "ref": "viridian/ViridianCityTrainerTips2Text",
   "surface": "なくなった",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Trainer tips board",
-  "line": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
-  "lineEn": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
+  "line": "わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
+  "lineEn": "Also when the power points for each move have run out, let them rest at a Pokémon Center!"
  },
  {
   "id": "naoru",
@@ -13168,13 +13168,13 @@
   "ref": "viridian/ViridianCityGambler1Text.GymAlwaysClosedText",
   "surface": "リーダー",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Gambler in Viridian City",
-  "line": "いつ　きても この　ポケモン　ジムは　しまっとる いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
-  "lineEn": "Whenever (I) come, this Pokémon gym is shut. What kind of fellow on earth is doing the leader (job), (I) wonder?"
+  "line": "いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
+  "lineEn": "What kind of fellow on earth is doing the leader (job), (I) wonder?"
  },
  {
   "id": "riyou",
@@ -13227,13 +13227,13 @@
   "kanji": "最高",
   "surface": "さいこう",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Notebook",
-  "line": "３ページめ　…… ポケモンどうしを　たたかわせ かつことは　トレーナーに　とって さいこうの　よろこび　である！",
-  "lineEn": "Page 3... Making Pokémon fight each other and winning is, for a trainer, the greatest joy!"
+  "line": "ポケモンどうしを　たたかわせ かつことは　トレーナーに　とって さいこうの　よろこび　である！",
+  "lineEn": "Making Pokémon fight each other and winning is, for a trainer, the greatest joy!"
  },
  {
   "id": "sameru",
@@ -13281,8 +13281,8 @@
   "ref": "viridian/ViridianSchoolNotebookText4",
   "surface": "さらに",
   "units": [
-   1,
-   1
+   3,
+   3
   ],
   "stage": "viridian",
   "who": "Notebook",
@@ -13300,13 +13300,13 @@
   "kanji": "刺す",
   "surface": "さされない",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Boy in Viridian City",
-  "line": "キャタピーは　どくが　ないけど ビードルには　どくが　あるよ ポケモンが　さされないように きを　つけようね",
-  "lineEn": "Caterpie has no poison, but Beedle has poison. So that (your) Pokémon doesn't get stung, let's be careful."
+  "line": "ポケモンが　さされないように きを　つけようね",
+  "lineEn": "So that (your) Pokémon doesn't get stung, let's be careful."
  },
  {
   "id": "sayounara",
@@ -13354,13 +13354,13 @@
   "ref": "viridian/ViridianCityTrainerTips2Text",
   "surface": "センター",
   "units": [
-   1,
-   1
+   2,
+   2
   ],
   "stage": "viridian",
   "who": "Trainer tips board",
-  "line": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
-  "lineEn": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
+  "line": "わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
+  "lineEn": "Also when the power points for each move have run out, let them rest at a Pokémon Center!"
  },
  {
   "id": "setsuzoku",
@@ -13417,8 +13417,8 @@
   ],
   "stage": "viridian",
   "who": "Gambler in Viridian City",
-  "line": "いつ　きても この　ポケモン　ジムは　しまっとる いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
-  "lineEn": "Whenever (I) come, this Pokémon gym is shut. What kind of fellow on earth is doing the leader (job), (I) wonder?"
+  "line": "いつ　きても この　ポケモン　ジムは　しまっとる",
+  "lineEn": "Whenever (I) come, this Pokémon gym is shut."
  },
  {
   "id": "shinamono",
@@ -13469,8 +13469,8 @@
   "kanji": "調べる",
   "surface": "しらべれば",
   "units": [
-   2,
-   2
+   3,
+   3
   ],
   "stage": "viridian",
   "who": "Old man in Viridian City",
@@ -13660,13 +13660,13 @@
   "kanji": "倒す",
   "surface": "たおす",
   "units": [
-   0,
-   0
+   1,
+   2
   ],
   "stage": "viridian",
   "who": "Notebook",
-  "line": "４ページめ　…… ポケモントレーナーの　もくひょうは かくちの　ジムに　いる つよい　トレーナー ８にんしゅうを　たおすこと！",
-  "lineEn": "Page 4... The goal of a Pokémon trainer is to defeat the strong trainers in the gyms of each region, the group of eight!"
+  "line": "ポケモントレーナーの　もくひょうは かくちの　ジムに　いる つよい　トレーナー ８にんしゅうを　たおすこと！",
+  "lineEn": "The goal of a Pokémon trainer is, (of those) in the gyms of each region, to defeat the strong trainers, the group of eight!"
  },
  {
   "id": "tariru",
@@ -14112,13 +14112,13 @@
   "kanji": "奴",
   "surface": "ヤツ",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Gambler in Viridian City",
-  "line": "いつ　きても この　ポケモン　ジムは　しまっとる いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
-  "lineEn": "Whenever (I) come, this Pokémon gym is shut. What kind of fellow on earth is doing the leader (job), (I) wonder?"
+  "line": "いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
+  "lineEn": "What kind of fellow on earth is doing the leader (job), (I) wonder?"
  },
  {
   "id": "yokeru",
@@ -14211,13 +14211,13 @@
   "kanji": "喜び",
   "surface": "よろこび",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "viridian",
   "who": "Notebook",
-  "line": "３ページめ　…… ポケモンどうしを　たたかわせ かつことは　トレーナーに　とって さいこうの　よろこび　である！",
-  "lineEn": "Page 3... Making Pokémon fight each other and winning is, for a trainer, the greatest joy!"
+  "line": "ポケモンどうしを　たたかわせ かつことは　トレーナーに　とって さいこうの　よろこび　である！",
+  "lineEn": "Making Pokémon fight each other and winning is, for a trainer, the greatest joy!"
  },
  {
   "id": "yoroshiku",
@@ -14638,8 +14638,8 @@
    0
   ],
   "stage": "system",
-  "line": "ポケモン　ボックスを　かえると どうじに　レポートが　かかれます ……　それでも　いいですか？",
-  "lineEn": "When (you) change the Pokémon box, the report is written at the same time. ...Even so, is (it) okay?"
+  "line": "ポケモン　ボックスを　かえると どうじに　レポートが　かかれます",
+  "lineEn": "When (you) change the Pokémon box, the report is written at the same time."
  },
  {
   "id": "eria",
@@ -14850,8 +14850,8 @@
    0
   ],
   "stage": "system",
-  "line": "ポケモン　ボックスを　かえると どうじに　レポートが　かかれます ……　それでも　いいですか？",
-  "lineEn": "When (you) change the Pokémon box, the report is written at the same time. ...Even so, is (it) okay?"
+  "line": "ポケモン　ボックスを　かえると どうじに　レポートが　かかれます",
+  "lineEn": "When (you) change the Pokémon box, the report is written at the same time."
  },
  {
   "id": "kakinokosu",
@@ -15289,12 +15289,12 @@
   "ref": "system/WhenYouChangeBoxText",
   "surface": "それでも",
   "units": [
-   0,
-   0
+   1,
+   1
   ],
   "stage": "system",
-  "line": "ポケモン　ボックスを　かえると どうじに　レポートが　かかれます ……　それでも　いいですか？",
-  "lineEn": "When (you) change the Pokémon box, the report is written at the same time. ...Even so, is (it) okay?"
+  "line": "……　それでも　いいですか？",
+  "lineEn": "...Even so, is (it) okay?"
  },
  {
   "id": "tobasu",

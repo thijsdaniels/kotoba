@@ -94,8 +94,8 @@
   "exampleEn": "please drop by",
   "surface": "て　ください",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -111,8 +111,8 @@
   "exampleEn": "let me present you",
   "surface": "ましょう",
   "units": [
-   2,
-   2
+   3,
+   3
   ]
  },
  {
@@ -183,8 +183,8 @@
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "トキワ　シティ",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -288,8 +288,8 @@
   "note": "Offering something or permission.",
   "surface": "どうぞ",
   "units": [
-   2,
-   2
+   3,
+   3
   ]
  },
  {
@@ -303,8 +303,8 @@
   "kanji": "早い",
   "surface": "はやく",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -321,8 +321,8 @@
   "note": "はやい (fast, early) + く = adverb.",
   "surface": "はやく",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -353,8 +353,8 @@
   "exampleEn": "(I) return home.",
   "surface": "かえる",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -416,8 +416,8 @@
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "みほん",
   "units": [
-   2,
-   2
+   3,
+   3
   ]
  },
  {
@@ -476,8 +476,8 @@
   "note": "Shop staff use it toward customers. Normal: あげる.",
   "surface": "さしあげましょう",
   "units": [
-   2,
-   2
+   3,
+   3
   ]
  },
  {
@@ -506,8 +506,8 @@
   "note": "At the start of a sentence: a thought just occurred.",
   "surface": "そうだ",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -612,8 +612,8 @@
   "kanji": "寄る",
   "surface": "よって",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -626,8 +626,8 @@
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "ぜひ",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  }
 ]

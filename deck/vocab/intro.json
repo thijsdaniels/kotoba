@@ -28,8 +28,8 @@
   "exampleEn": "Tomorrow (it) clears up, I wonder.",
   "surface": "かな",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -56,8 +56,8 @@
   "exampleEn": "making (them) into pets, using (them) in matches, and such",
   "surface": "ペットに　したり しょうぶに　つかったり",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -88,8 +88,8 @@
   "exampleEn": "(I'm) doing research, that's what it is",
   "surface": "というわけ",
   "units": [
-   1,
-   1
+   4,
+   4
   ]
  },
  {
@@ -105,7 +105,7 @@
   "surface": "たち",
   "units": [
    0,
-   0
+   1
   ]
  },
  {
@@ -181,7 +181,7 @@
   "surface": "よばれる",
   "units": [
    0,
-   0
+   1
   ]
  },
  {
@@ -244,8 +244,8 @@
   "exampleEn": "Uhm, this, please.",
   "surface": "えーと",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -340,8 +340,8 @@
   "kanji": "人",
   "surface": "ひと",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -357,7 +357,7 @@
   "surface": "いきもの",
   "units": [
    0,
-   0
+   1
   ]
  },
  {
@@ -373,8 +373,8 @@
   "ref": "intro/IntroduceRivalText",
   "surface": "いったかな",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -390,7 +390,7 @@
   "surface": "いたるところ",
   "units": [
    0,
-   0
+   1
   ]
  },
  {
@@ -451,8 +451,8 @@
   "kanji": "研究",
   "surface": "けんきゅう",
   "units": [
-   1,
-   1
+   4,
+   4
   ]
  },
  {
@@ -519,7 +519,7 @@
   "surface": "この",
   "units": [
    0,
-   0
+   1
   ]
  },
  {
@@ -709,8 +709,8 @@
   "ref": "intro/OakSpeechText2",
   "surface": "ペット",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -784,8 +784,8 @@
   "kanji": "勝負",
   "surface": "しょうぶ",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -798,8 +798,8 @@
   "ref": "intro/OakSpeechText2",
   "surface": "その",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -812,8 +812,8 @@
   "ref": "intro/OakSpeechText2",
   "surface": "そして",
   "units": [
-   1,
-   1
+   3,
+   3
   ]
  },
  {
@@ -830,7 +830,7 @@
   "surface": "すんでいる",
   "units": [
    0,
-   0
+   1
   ]
  },
  {
@@ -846,8 +846,8 @@
   "ref": "intro/OakSpeechText2",
   "surface": "したり",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -861,8 +861,8 @@
   "kanji": "使う",
   "surface": "つかったり",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -895,7 +895,7 @@
   "surface": "よばれる",
   "units": [
    0,
-   0
+   1
   ]
  },
  {

@@ -159,8 +159,12 @@
     "en": "A movie is on the TV!"
    },
    {
-    "ja": "おとこのこが　４にん せんろのうえを　あるいてる…… ……　ぼくも　もう　いかなきゃ！",
-    "en": "Four boys are walking on the railroad tracks... ...I have to go too!"
+    "ja": "おとこのこが　４にん せんろのうえを　あるいてる……",
+    "en": "Four boys are walking on the railroad tracks..."
+   },
+   {
+    "ja": "……　ぼくも　もう　いかなきゃ！",
+    "en": "...I have to go too!"
    }
   ]
  },
@@ -272,8 +276,12 @@
     "en": "Heh heh!"
    },
    {
-    "ja": "おれは おとな　だから　がっつかないのさ {player}から　さきに えらばせて　やるぜ！",
-    "en": "I'm an adult, so I don't get greedy. I'll let {player} choose first!"
+    "ja": "おれは おとな　だから　がっつかないのさ",
+    "en": "I'm an adult, so I don't get greedy."
+   },
+   {
+    "ja": "{player}から　さきに えらばせて　やるぜ！",
+    "en": "I'll let {player} choose first!"
    }
   ]
  },
@@ -373,8 +381,12 @@
     "en": "That's it!"
    },
    {
-    "ja": "やせいの　ポケモンが　でて　きても そいつを　たたかわせて　いけば となりまちへ　いける！",
-    "en": "Even if a wild Pokémon comes out, if (you) go on making that one fight, (you) can get to the next town!"
+    "ja": "やせいの　ポケモンが　でて　きても",
+    "en": "Even if a wild Pokémon comes out,"
+   },
+   {
+    "ja": "そいつを　たたかわせて　いけば となりまちへ　いける！",
+    "en": "if (you) go on making that one fight, (you) can get to the next town!"
    }
   ]
  },
@@ -395,12 +407,20 @@
     "en": "Oh!"
    },
    {
-    "ja": "{player} どーだい？",
-    "en": "{player}. How is it?"
+    "ja": "{player}",
+    "en": "{player}."
    },
    {
-    "ja": "わしの　やったポケモンは……ほう だいぶ なついた　みたいだな？",
-    "en": "The Pokémon I gave... oh. (It) seems to have taken quite a liking to (you)?"
+    "ja": "どーだい？",
+    "en": "How is it?"
+   },
+   {
+    "ja": "わしの　やったポケモンは……ほう",
+    "en": "The Pokémon I gave... oh."
+   },
+   {
+    "ja": "だいぶ なついた　みたいだな？",
+    "en": "(It) seems to have taken quite a liking to (you)?"
    },
    {
     "ja": "おまえ　ポケモントレーナーの さいのうが　あるな！",
@@ -419,8 +439,12 @@
     "en": "Oh!"
    },
    {
-    "ja": "これは わしが　ちゅうもん　してた とくせいの　モンスターボールじゃ どうも　ありがとよ！",
-    "en": "This is the custom-made Monster Ball I had ordered. Thanks a lot!"
+    "ja": "これは わしが　ちゅうもん　してた",
+    "en": "This is the one I had ordered,"
+   },
+   {
+    "ja": "とくせいの　モンスターボールじゃ どうも　ありがとよ！",
+    "en": "the custom-made Monster Ball. Thanks a lot!"
    }
   ]
  },
@@ -559,8 +583,12 @@
     "en": "{rival}?"
    },
    {
-    "ja": "……　……　…… おお　そうか わしが　よんだのじゃった！",
-    "en": "... ... ... Oh, right. I was the one who called (you)!"
+    "ja": "……　……　……",
+    "en": "... ... ..."
+   },
+   {
+    "ja": "おお　そうか わしが　よんだのじゃった！",
+    "en": "Oh, right. I was the one who called (you)!"
    },
    {
     "ja": "ちょっと　まって　おれ！",
@@ -579,8 +607,12 @@
     "en": "Ho ho!"
    },
    {
-    "ja": "モンスターボールの　なかに ポケモンが　いれて　あるんじゃ むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
-    "en": "Inside the Monster Balls, Pokémon have been put in. Long ago I too made a name as a top-notch Pokémon trainer!"
+    "ja": "モンスターボールの　なかに ポケモンが　いれて　あるんじゃ",
+    "en": "Inside the Monster Balls, Pokémon have been put in."
+   },
+   {
+    "ja": "むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
+    "en": "Long ago I too made a name as a top-notch Pokémon trainer!"
    },
    {
     "ja": "おいぼれた　いまは　ポケモンも ３びき　しか　のこっとらんが おまえに　１ぴき　やろう！",
@@ -775,8 +807,12 @@
     "en": "What's on the desk is the Pokédex I made!"
    },
    {
-    "ja": "みつけた　ポケモンの　データが じどうてきに　かきこまれて ページが　ふえて　いく　という たいへん　ハイテクな ずかん　なのじゃ！",
-    "en": "The data of Pokémon (you) found is written in automatically and the pages increase, a very high-tech encyclopedia, it is!"
+    "ja": "みつけた　ポケモンの　データが じどうてきに　かきこまれて ページが　ふえて　いく　という",
+    "en": "The data of Pokémon (you) found is written in automatically and the pages increase,"
+   },
+   {
+    "ja": "たいへん　ハイテクな ずかん　なのじゃ！",
+    "en": "a very high-tech encyclopedia, it is!"
    }
   ]
  },
@@ -930,8 +966,12 @@
     "en": "Pokémon trainers who raise Pokémon strong and fight!"
    },
    {
-    "ja": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
-    "en": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
+    "ja": "ここに　さいきょうの トレーナーが　あつまり　ました",
+    "en": "Here the strongest trainers have gathered."
+   },
+   {
+    "ja": "ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
+    "en": "The place is the Pokémon League headquarters on the Sekiei Plateau!"
    },
    {
     "ja": "オーキドはかせも いちど　ごらん　ください ……　ポケモン　リーグ　より ……　……　……",
@@ -1230,8 +1270,12 @@
  "DexCompletionText": {
   "sentences": [
    {
-    "ja": "……　……　ポケモンずかんの げんざいの　かんせいど　は…… みつけた　ポケモン{n}！",
-    "en": "... ...The current degree of completion of the Pokédex is... Pokémon found: {n}!"
+    "ja": "……　……　ポケモンずかんの げんざいの　かんせいど　は……",
+    "en": "... ...The current degree of completion of the Pokédex is..."
+   },
+   {
+    "ja": "みつけた　ポケモン{n}！",
+    "en": "Pokémon found: {n}!"
    },
    {
     "ja": "つかまえた　ポケモン{n}！",
@@ -1322,8 +1366,12 @@
  "TrainerAboutToUseText": {
   "sentences": [
    {
-    "ja": "{trainer}は{enemy}を くりだそうと　しているようだ {player}も　ポケモンを とりかえますか？",
-    "en": "{trainer} seems about to send out {enemy}. Will {player} also switch Pokémon?"
+    "ja": "{trainer}は{enemy}を くりだそうと　しているようだ",
+    "en": "{trainer} seems about to send out {enemy}."
+   },
+   {
+    "ja": "{player}も　ポケモンを とりかえますか？",
+    "en": "Will {player} also switch Pokémon?"
    }
   ]
  },

@@ -66,7 +66,7 @@
   "surface": "へ",
   "units": [
    1,
-   1
+   2
   ]
  },
  {
@@ -329,8 +329,8 @@
   "exampleEn": "is not remaining",
   "surface": "とらんが",
   "units": [
-   7,
-   7
+   9,
+   9
   ]
  },
  {
@@ -343,8 +343,8 @@
   "exampleEn": "as a trainer",
   "surface": "として",
   "units": [
-   6,
-   6
+   8,
+   8
   ]
  },
  {
@@ -493,8 +493,8 @@
   "note": "After a plain form or noun. Casual; polite-ish: 〜ようだ.",
   "surface": "みたい",
   "units": [
-   2,
-   2
+   4,
+   4
   ]
  },
  {
@@ -608,8 +608,8 @@
   "note": "う-verbs: final -u → -aseru. たたかう → たたかわせる. 〜させてください = please let me.",
   "surface": "えらばせて　やるぜ",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -630,8 +630,8 @@
   "note": "う-verbs: final -u → -e. Rough; used by Oak, in battle text, and on signs. Polite: えらんで ください.",
   "surface": "えらべ",
   "units": [
-   8,
-   8
+   10,
+   10
   ]
  },
  {
@@ -907,7 +907,7 @@
   "surface": "れて",
   "units": [
    1,
-   1
+   2
   ]
  },
  {
@@ -1205,8 +1205,8 @@
   "exampleEn": "it's that they have been put in",
   "surface": "て　ある",
   "units": [
-   6,
-   6
+   7,
+   7
   ]
  },
  {
@@ -1245,7 +1245,7 @@
   "surface": "て　いけば",
   "units": [
    1,
-   1
+   2
   ]
  },
  {
@@ -1471,8 +1471,8 @@
   "ref": "pallet/OakLabEmailText",
   "surface": "ポケモン　リーグ",
   "units": [
-   3,
-   3
+   4,
+   4
   ]
  },
  {
@@ -1527,8 +1527,8 @@
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "surface": "トレーナー",
   "units": [
-   3,
-   3
+   5,
+   5
   ]
  },
  {
@@ -1797,8 +1797,8 @@
   "loose": "ありがとよ, Oak's gruff version",
   "surface": "ありがとよ",
   "units": [
-   7,
-   7
+   9,
+   10
   ]
  },
  {
@@ -1930,8 +1930,8 @@
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "surface": "バリバリ",
   "units": [
-   6,
-   6
+   8,
+   8
   ]
  },
  {
@@ -1975,8 +1975,8 @@
   "kanji": "僕",
   "surface": "ぼく",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -2110,8 +2110,8 @@
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "surface": "だいぶ",
   "units": [
-   2,
-   2
+   4,
+   4
   ]
  },
  {
@@ -2362,8 +2362,8 @@
   "exampleEn": "Please choose one.",
   "surface": "えらべ",
   "units": [
-   8,
-   8
+   10,
+   10
   ]
  },
  {
@@ -2378,7 +2378,7 @@
   "surface": "ふえて",
   "units": [
    1,
-   1
+   2
   ]
  },
  {
@@ -2497,8 +2497,8 @@
   "kanji": "ご覧",
   "surface": "ごらん",
   "units": [
-   4,
-   4
+   5,
+   5
   ]
  },
  {
@@ -2527,7 +2527,7 @@
   "surface": "ハイテク",
   "units": [
    1,
-   1
+   2
   ]
  },
  {
@@ -2628,8 +2628,8 @@
   "note": "1ぴき, 2ひき, 3びき, 4ひき, 5ひき, 6ぴき, 8ぴき, 10ぴき.",
   "surface": "３びき",
   "units": [
-   4,
-   4
+   5,
+   5
   ]
  },
  {
@@ -2721,8 +2721,8 @@
   "kanji": "本部",
   "surface": "ほんぶ",
   "units": [
-   3,
-   3
+   4,
+   4
   ]
  },
  {
@@ -2796,8 +2796,8 @@
   "kanji": "評価",
   "surface": "ひょうか",
   "units": [
-   2,
-   2
+   3,
+   3
   ]
  },
  {
@@ -2811,8 +2811,8 @@
   "kanji": "一度",
   "surface": "いちど",
   "units": [
-   4,
-   4
+   5,
+   5
   ]
  },
  {
@@ -2934,8 +2934,8 @@
   "note": "For things: ある.",
   "surface": "いる",
   "units": [
-   4,
-   4
+   5,
+   5
   ]
  },
  {
@@ -2961,7 +2961,7 @@
   "surface": "じどうてき",
   "units": [
    1,
-   1
+   2
   ]
  },
  {
@@ -3036,7 +3036,7 @@
   "surface": "かきこまれて",
   "units": [
    1,
-   1
+   2
   ]
  },
  {
@@ -3420,8 +3420,8 @@
   "ref": "pallet/OakLabEmailText",
   "surface": "ください",
   "units": [
-   4,
-   4
+   5,
+   5
   ]
  },
  {
@@ -3859,8 +3859,8 @@
   "ref": "pallet/RedsHouse1FTVText.StandByMeMovieText",
   "surface": "もう",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -3889,8 +3889,8 @@
   "kanji": "昔",
   "surface": "むかし",
   "units": [
-   6,
-   6
+   8,
+   8
   ]
  },
  {
@@ -4019,8 +4019,8 @@
   "kanji": "鳴らす",
   "surface": "ならした",
   "units": [
-   6,
-   6
+   8,
+   8
   ]
  },
  {
@@ -4048,8 +4048,8 @@
   "kanji": "懐く",
   "surface": "なついた",
   "units": [
-   2,
-   2
+   4,
+   4
   ]
  },
  {
@@ -4189,8 +4189,8 @@
   "kanji": "老いぼれる",
   "surface": "おいぼれた",
   "units": [
-   7,
-   7
+   9,
+   9
   ]
  },
  {
@@ -4472,8 +4472,8 @@
   "ref": "pallet/OakLabEmailText",
   "surface": "リーグ",
   "units": [
-   3,
-   3
+   4,
+   4
   ]
  },
  {
@@ -4488,8 +4488,8 @@
   "note": "Prompts someone to act.",
   "surface": "さあ",
   "units": [
-   8,
-   8
+   10,
+   10
   ]
  },
  {
@@ -4563,8 +4563,8 @@
   "kanji": "才能",
   "surface": "さいのう",
   "units": [
-   3,
-   3
+   5,
+   5
   ]
  },
  {
@@ -4581,8 +4581,8 @@
   "exampleLoose": "After you.",
   "surface": "さきに",
   "units": [
-   1,
-   1
+   2,
+   2
   ]
  },
  {
@@ -4653,8 +4653,8 @@
   "ref": "pallet/OakLabEmailText",
   "surface": "セキエイ　こうげん",
   "units": [
-   3,
-   3
+   4,
+   4
   ]
  },
  {
@@ -4860,7 +4860,7 @@
   "surface": "そいつ",
   "units": [
    1,
-   1
+   2
   ]
  },
  {
@@ -4873,8 +4873,8 @@
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "surface": "そこ",
   "units": [
-   4,
-   4
+   5,
+   5
   ]
  },
  {
@@ -5380,8 +5380,8 @@
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "surface": "とどけもの",
   "units": [
-   5,
-   5
+   7,
+   7
   ]
  },
  {
@@ -5455,8 +5455,8 @@
   "kanji": "取り替える",
   "surface": "とりかえますか",
   "units": [
-   0,
-   0
+   1,
+   1
   ]
  },
  {
@@ -5725,8 +5725,8 @@
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "surface": "わたす",
   "units": [
-   4,
-   4
+   6,
+   6
   ]
  },
  {
