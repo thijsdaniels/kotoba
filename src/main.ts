@@ -15,7 +15,7 @@ interface QueueEntry { id: string; side: Side }
 
 const KINDS: Record<Kind, string> = { word: "Word", form: "Form", ending: "Ending", kana: "Kana", pokemon: "Pokémon", move: "Move", item: "Item", term: "Jargon" };
 const PRODUCE_CHOICES: [Kind, string][] = [["word", "Words"], ["form", "Forms"], ["ending", "Endings"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
-const FILTERS: [string, string][] = [["all", "All"], ["word", "Words"], ["grammar", "Grammar"], ["kana", "Kana"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
+const FILTERS: [string, string][] = [["all", "All"], ["word", "Words"], ["grammar", "Grammar"], ["kana", "Kana"], ["game", "Game"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
 const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
 const REVIEW_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Hard", "hard", 1], ["Good", "good", 2], ["Easy", "easy", 3]];
 
@@ -59,11 +59,13 @@ let pendingWrite: Promise<unknown> = Promise.resolve();
 const practicing = () => view === "practice";
 const kindOf = (card: Card): Kind => (KINDS[card.kind] ? card.kind : "word");
 const isGrammar = (card: Card) => card.kind === "form" || card.kind === "ending";
+const isGame = (card: Card) => card.kind === "pokemon" || card.kind === "move" || card.kind === "item" || card.kind === "term";
 const inMode = (card: Card) =>
   mode === "all" ? true
   : mode === "word" ? card.kind === "word"
   : mode === "grammar" ? isGrammar(card)
   : mode === "kana" ? card.kind === "kana"
+  : mode === "game" ? isGame(card)
   : mode === "pokemon" ? card.kind === "pokemon"
   : mode === "move" ? card.kind === "move"
   : mode === "item" ? card.kind === "item"
