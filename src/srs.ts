@@ -12,7 +12,7 @@ export interface Schedule {
   due: number;
 }
 
-export type Grade = 0 | 1 | 2 | 3; // Forgot, Barely, Got It, Instant → FSRS grades 1..4
+export type Grade = 0 | 1 | 2 | 3; // Again, Hard, Good, Easy → FSRS grades 1..4
 
 const WEIGHTS = [0.4872, 1.4003, 3.7145, 13.8206, 5.1618, 1.2298, 0.8975, 0.031, 1.6474, 0.1367, 1.0461, 2.1072, 0.0793, 0.3246, 1.587, 0.2272, 2.8755];
 const RETENTION = 0.9;

@@ -15,8 +15,8 @@ interface QueueEntry { id: string; side: Side }
 
 const KINDS: Record<Kind, string> = { word: "Word", form: "Form", ending: "Ending", kana: "Kana", pokemon: "Pokémon", move: "Move", item: "Jargon" };
 const FILTERS: [string, string][] = [["all", "All"], ["word", "Words"], ["grammar", "Grammar"], ["kana", "Kana"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Jargon"]];
-const PRACTICE_BUTTONS: [string, string, Grade][] = [["Forgot", "again", 0], ["Got It", "good", 2]];
-const REVIEW_BUTTONS: [string, string, Grade][] = [["Forgot", "again", 0], ["Barely", "hard", 1], ["Got It", "good", 2], ["Instant", "easy", 3]];
+const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
+const REVIEW_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Hard", "hard", 1], ["Good", "good", 2], ["Easy", "easy", 3]];
 
 const byId = (id: string) => document.getElementById(id)!;
 const escapeHtmlOnly = (text: unknown) => String(text ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]!));
