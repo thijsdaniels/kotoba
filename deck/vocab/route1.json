@@ -134,7 +134,7 @@
  },
  {
   "id": "i-friendlyshop",
-  "kind": "item",
+  "kind": "term",
   "kana": "フレンドリィ ショップ",
   "romaji": "furendorii shoppu",
   "meaning": "Friendly Shop · the game's name for the Poké Mart",
@@ -159,7 +159,7 @@
  },
  {
   "id": "i-wazapoint",
-  "kind": "item",
+  "kind": "term",
   "kana": "わざの ポイント",
   "romaji": "waza no pointo",
   "meaning": "move points · PP",
@@ -173,7 +173,7 @@
  },
  {
   "id": "tokiwa",
-  "kind": "item",
+  "kind": "term",
   "kana": "トキワシティ",
   "kanji": "",
   "romaji": "Tokiwa Shiti",

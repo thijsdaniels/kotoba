@@ -2,7 +2,7 @@ import "./style.css";
 import { api, readKey, writeKey, type Settings, type Side, type State } from "./api";
 import { currentRecall, dayOf, formatInterval, schedule, type Grade, type Schedule } from "./srs";
 
-type Kind = "word" | "form" | "ending" | "kana" | "pokemon" | "move" | "item";
+type Kind = "word" | "form" | "ending" | "kana" | "pokemon" | "move" | "item" | "term";
 interface Card {
   id: string; kind: Kind; stage: string; kana: string; meaning: string;
   kanji?: string; romaji?: string; loose?: string; scope?: string; note?: string;
@@ -13,8 +13,8 @@ interface Card {
 interface Stage { id: string; name: string }
 interface QueueEntry { id: string; side: Side }
 
-const KINDS: Record<Kind, string> = { word: "Word", form: "Form", ending: "Ending", kana: "Kana", pokemon: "Pokémon", move: "Move", item: "Jargon" };
-const FILTERS: [string, string][] = [["all", "All"], ["word", "Words"], ["grammar", "Grammar"], ["kana", "Kana"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Jargon"]];
+const KINDS: Record<Kind, string> = { word: "Word", form: "Form", ending: "Ending", kana: "Kana", pokemon: "Pokémon", move: "Move", item: "Item", term: "Jargon" };
+const FILTERS: [string, string][] = [["all", "All"], ["word", "Words"], ["grammar", "Grammar"], ["kana", "Kana"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
 const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
 const REVIEW_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Hard", "hard", 1], ["Good", "good", 2], ["Easy", "easy", 3]];
 
@@ -55,7 +55,7 @@ let pendingWrite: Promise<unknown> = Promise.resolve();
 const practicing = () => view === "practice";
 const kindOf = (card: Card): Kind => (KINDS[card.kind] ? card.kind : "word");
 const isGrammar = (card: Card) => card.kind === "form" || card.kind === "ending";
-const isGame = (card: Card) => card.kind === "pokemon" || card.kind === "move" || card.kind === "item" || card.scope === "game";
+const isGame = (card: Card) => card.kind === "pokemon" || card.kind === "move" || card.kind === "item" || card.kind === "term";
 const inMode = (card: Card) =>
   mode === "all" ? true
   : mode === "word" ? card.kind === "word" && !isGame(card)
@@ -63,7 +63,8 @@ const inMode = (card: Card) =>
   : mode === "kana" ? card.kind === "kana"
   : mode === "pokemon" ? card.kind === "pokemon"
   : mode === "move" ? card.kind === "move"
-  : card.kind === "item" || (card.kind === "word" && card.scope === "game");
+  : mode === "item" ? card.kind === "item"
+  : card.kind === "term";
 // a card with no stage, or one that isn't in the list, stays locked until it's fixed; system cards are always open
 const stageIndex = (id: string | undefined) => { const index = stages.findIndex(stage => stage.id === id); return index < 0 ? Infinity : index; };
 const stageLabel = (id: string | undefined) => stages.find(stage => stage.id === id)?.name ?? (id === "system" ? "Menus and Messages" : "No stage");

@@ -1447,7 +1447,7 @@
  },
  {
   "id": "famikon",
-  "kind": "item",
+  "kind": "term",
   "kana": "ファミコン",
   "kanji": "",
   "romaji": "famikon",
@@ -1463,7 +1463,7 @@
  },
  {
   "id": "i-league",
-  "kind": "item",
+  "kind": "term",
   "kana": "ポケモン リーグ",
   "romaji": "pokemon riigu",
   "meaning": "Pokémon League",
@@ -1491,7 +1491,7 @@
  },
  {
   "id": "i-report",
-  "kind": "item",
+  "kind": "term",
   "kana": "レポート",
   "romaji": "repooto",
   "meaning": "Report · the game's word for saving",
@@ -1519,7 +1519,7 @@
  },
  {
   "id": "i-trainer",
-  "kind": "item",
+  "kind": "term",
   "kana": "トレーナー",
   "romaji": "toreenaa",
   "meaning": "Trainer",
@@ -1533,7 +1533,7 @@
  },
  {
   "id": "i-type",
-  "kind": "item",
+  "kind": "term",
   "kana": "タイプ",
   "romaji": "taipu",
   "meaning": "Type · Pokémon and move types",
@@ -1563,7 +1563,7 @@
  },
  {
   "id": "masara",
-  "kind": "item",
+  "kind": "term",
   "kana": "マサラタウン",
   "kanji": "",
   "romaji": "Masara Taun",
@@ -3073,7 +3073,7 @@
  },
  {
   "id": "kantou",
-  "kind": "word",
+  "kind": "term",
   "kana": "カントー",
   "romaji": "kantou",
   "meaning": "Kanto · the region",
@@ -4645,7 +4645,7 @@
  },
  {
   "id": "sekieikougen",
-  "kind": "word",
+  "kind": "term",
   "kana": "セキエイ こうげん",
   "romaji": "sekiei kougen",
   "meaning": "Indigo Plateau · Sekiei Plateau",

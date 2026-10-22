@@ -449,7 +449,7 @@
  },
  {
   "id": "i-colosseum",
-  "kind": "item",
+  "kind": "term",
   "kana": "コロシアム",
   "romaji": "koroshiamu",
   "meaning": "Colosseum · the link-battle room",
@@ -492,7 +492,7 @@
  {
   "id": "i-mahinaoshi",
   "kind": "item",
-  "kana": "マヒなおし",
+  "kana": "まひなおし",
   "romaji": "mahinaoshi",
   "meaning": "Parlyz Heal · paralysis-fixer",
   "scope": "game",
@@ -501,11 +501,12 @@
   "units": [
    1,
    1
-  ]
+  ],
+  "note": "The item list writes まひ in hiragana; the blackboard writes マヒ in katakana."
  },
  {
   "id": "i-masaki",
-  "kind": "item",
+  "kind": "term",
   "kana": "マサキ",
   "romaji": "masaki",
   "meaning": "Bill · Masaki, whose PC stores Pokémon",
@@ -533,7 +534,7 @@
  },
  {
   "id": "i-nibicity",
-  "kind": "item",
+  "kind": "term",
   "kana": "ニビ シティ",
   "romaji": "nibi shiti",
   "meaning": "Pewter City · Nibi City",
@@ -558,7 +559,7 @@
  },
  {
   "id": "i-pokemoncenter",
-  "kind": "item",
+  "kind": "term",
   "kana": "ポケモン センター",
   "romaji": "pokemon sentaa",
   "meaning": "Pokémon Center",
@@ -572,7 +573,7 @@
  },
  {
   "id": "i-shitennou",
-  "kind": "item",
+  "kind": "term",
   "kana": "してんのう",
   "romaji": "shitennou",
   "meaning": "Elite Four · the Four Heavenly Kings",
@@ -586,7 +587,7 @@
  },
  {
   "id": "i-silph",
-  "kind": "item",
+  "kind": "term",
   "kana": "シルフ カンパニー",
   "romaji": "shirufu kanpanii",
   "meaning": "Silph Company",
@@ -600,7 +601,7 @@
  },
  {
   "id": "i-tokiwanomori",
-  "kind": "item",
+  "kind": "term",
   "kana": "トキワの もり",
   "romaji": "tokiwa no mori",
   "meaning": "Viridian Forest · the Tokiwa forest",
@@ -614,7 +615,7 @@
  },
  {
   "id": "i-tradecenter",
-  "kind": "item",
+  "kind": "term",
   "kana": "トレード センター",
   "romaji": "toreedo sentaa",
   "meaning": "Trade Center",
@@ -672,7 +673,7 @@
  },
  {
   "id": "pokemon",
-  "kind": "item",
+  "kind": "term",
   "kana": "ポケモン",
   "kanji": "",
   "romaji": "pokemon",
@@ -2288,7 +2289,7 @@
  },
  {
   "id": "pawaapointo",
-  "kind": "word",
+  "kind": "term",
   "kana": "パワーポイント",
   "romaji": "pawaa pointo",
   "meaning": "power points · PP",

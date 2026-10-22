@@ -228,24 +228,6 @@
   "lineEn": "In this world, living things called Pocket Monsters live everywhere!"
  },
  {
-  "id": "okido",
-  "kind": "item",
-  "kana": "オーキド",
-  "romaji": "ookido",
-  "meaning": "Professor Oak · Okido in Japanese",
-  "scope": "game",
-  "ref": "intro/OakSpeechText1",
-  "surface": "オーキド",
-  "units": [
-   2,
-   2
-  ],
-  "stage": "intro",
-  "who": "Professor Okido",
-  "line": "わたしの　なまえは　オーキド みんなからは　ポケモン　はかせと したわれて　おるよ",
-  "lineEn": "My name is Okido. By everyone (I) am looked up to as the Pokémon professor."
- },
- {
   "id": "k-hira-a",
   "kind": "kana",
   "kana": "あ",
@@ -1166,6 +1148,42 @@
   "recogOnly": true
  },
  {
+  "id": "okido",
+  "kind": "term",
+  "kana": "オーキド",
+  "romaji": "ookido",
+  "meaning": "Professor Oak · Okido in Japanese",
+  "scope": "game",
+  "ref": "intro/OakSpeechText1",
+  "surface": "オーキド",
+  "units": [
+   2,
+   2
+  ],
+  "stage": "intro",
+  "who": "Professor Okido",
+  "line": "わたしの　なまえは　オーキド みんなからは　ポケモン　はかせと したわれて　おるよ",
+  "lineEn": "My name is Okido. By everyone (I) am looked up to as the Pokémon professor."
+ },
+ {
+  "id": "pokettomonsutaa",
+  "kind": "term",
+  "kana": "ポケット モンスター",
+  "romaji": "poketto monsutaa",
+  "meaning": "Pocket Monster · the full name the game uses in the intro",
+  "scope": "game",
+  "ref": "intro/OakSpeechText1",
+  "surface": "ポケット　モンスター",
+  "units": [
+   1,
+   1
+  ],
+  "stage": "intro",
+  "who": "Professor Okido",
+  "line": "ポケット　モンスターの　せかいへ ようこそ！",
+  "lineEn": "To the world of Pocket Monsters, welcome!"
+ },
+ {
   "id": "anata",
   "kind": "word",
   "kana": "あなた",
@@ -1801,24 +1819,6 @@
   "who": "Professor Okido",
   "line": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
   "lineEn": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
- },
- {
-  "id": "pokettomonsutaa",
-  "kind": "word",
-  "kana": "ポケット モンスター",
-  "romaji": "poketto monsutaa",
-  "meaning": "Pocket Monster · the full name the game uses in the intro",
-  "scope": "game",
-  "ref": "intro/OakSpeechText1",
-  "surface": "ポケット　モンスター",
-  "units": [
-   1,
-   1
-  ],
-  "stage": "intro",
-  "who": "Professor Okido",
-  "line": "ポケット　モンスターの　せかいへ ようこそ！",
-  "lineEn": "To the world of Pocket Monsters, welcome!"
  },
  {
   "id": "raibaru",
@@ -3799,44 +3799,6 @@
   "lineEn": "{player}, you too, don't lose out: make (your) Pokémon fight and raise it!"
  },
  {
-  "id": "famikon",
-  "kind": "item",
-  "kana": "ファミコン",
-  "kanji": "",
-  "romaji": "famikon",
-  "meaning": "Famicom",
-  "loose": "the Japanese NES",
-  "scope": "game",
-  "ref": "pallet/RedBedroomSNESText",
-  "surface": "ファミコン",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "pallet",
-  "who": "Narration",
-  "line": "{player}は ファミコンを　してる！",
-  "lineEn": "{player} is playing the Famicom!"
- },
- {
-  "id": "i-league",
-  "kind": "item",
-  "kana": "ポケモン リーグ",
-  "romaji": "pokemon riigu",
-  "meaning": "Pokémon League",
-  "scope": "game",
-  "ref": "pallet/OakLabEmailText",
-  "surface": "ポケモン　リーグ",
-  "units": [
-   3,
-   3
-  ],
-  "stage": "pallet",
-  "who": "E-mail",
-  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
-  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
- },
- {
   "id": "i-monsterball2",
   "kind": "item",
   "kana": "ボール",
@@ -3853,24 +3815,6 @@
   "who": "Narration",
   "line": "モンスターボールだ なかに　ポケモンが　はいってるぞ！",
   "lineEn": "(They're) Monster Balls. There are Pokémon inside!"
- },
- {
-  "id": "i-report",
-  "kind": "item",
-  "kana": "レポート",
-  "romaji": "repooto",
-  "meaning": "Report · the game's word for saving",
-  "scope": "game",
-  "ref": "pallet/SaveOptionText",
-  "surface": "レポート",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "pallet",
-  "who": "Poster",
-  "line": "セーブするには　ポケモン　レポート こまめに　かくと　いいなり",
-  "lineEn": "To save, the Pokémon report. Writing it often is good, it is."
  },
  {
   "id": "i-townmap",
@@ -3891,43 +3835,6 @@
   "lineEn": "When (you) want to know the place you are or the name of a town, using the town map is good."
  },
  {
-  "id": "i-trainer",
-  "kind": "item",
-  "kana": "トレーナー",
-  "romaji": "toreenaa",
-  "meaning": "Trainer",
-  "scope": "game",
-  "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
-  "surface": "トレーナー",
-  "units": [
-   3,
-   3
-  ],
-  "stage": "pallet",
-  "speaker": "オーキド",
-  "who": "Professor Okido",
-  "line": "おまえ　ポケモントレーナーの さいのうが　あるな！",
-  "lineEn": "You have talent as a Pokémon trainer!"
- },
- {
-  "id": "i-type",
-  "kind": "item",
-  "kana": "タイプ",
-  "romaji": "taipu",
-  "meaning": "Type · Pokémon and move types",
-  "scope": "game",
-  "ref": "pallet/StrengthsAndWeaknessesText",
-  "surface": "タイプに",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "pallet",
-  "who": "Poster",
-  "line": "ポケモンは　タイプに　よって とくいな　タイプ にがてな　タイプが　いるなり",
-  "lineEn": "Pokémon, depending on type, have types (they're) good against and types (they're) bad against, they do."
- },
- {
   "id": "i-zukan",
   "kind": "item",
   "kana": "ポケモンずかん",
@@ -3946,26 +3853,6 @@
   "who": "Professor Okido",
   "line": "つくえの　うえに　あるのは わしが　つくった　ポケモンずかん！",
   "lineEn": "What's on the desk is the Pokédex I made!"
- },
- {
-  "id": "masara",
-  "kind": "item",
-  "kana": "マサラタウン",
-  "kanji": "",
-  "romaji": "Masara Taun",
-  "meaning": "Pallet Town",
-  "loose": "Masara, from まっしろ, pure white",
-  "scope": "game",
-  "ref": "pallet/PalletTownSignText",
-  "surface": "マサラ　タウン",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "pallet",
-  "who": "Sign",
-  "line": "ここは　マサラ　タウン マサラは　まっしろ　はじまりのいろ",
-  "lineEn": "Here is Masara Town. Masara is pure white, the color of beginnings."
  },
  {
   "id": "m-hikkaku",
@@ -4050,6 +3937,155 @@
   "scope": "game",
   "note": "The water starter. ぜにがめ is also the real name of a baby pond turtle.",
   "stage": "pallet"
+ },
+ {
+  "id": "famikon",
+  "kind": "term",
+  "kana": "ファミコン",
+  "kanji": "",
+  "romaji": "famikon",
+  "meaning": "Famicom",
+  "loose": "the Japanese NES",
+  "scope": "game",
+  "ref": "pallet/RedBedroomSNESText",
+  "surface": "ファミコン",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "pallet",
+  "who": "Narration",
+  "line": "{player}は ファミコンを　してる！",
+  "lineEn": "{player} is playing the Famicom!"
+ },
+ {
+  "id": "i-league",
+  "kind": "term",
+  "kana": "ポケモン リーグ",
+  "romaji": "pokemon riigu",
+  "meaning": "Pokémon League",
+  "scope": "game",
+  "ref": "pallet/OakLabEmailText",
+  "surface": "ポケモン　リーグ",
+  "units": [
+   3,
+   3
+  ],
+  "stage": "pallet",
+  "who": "E-mail",
+  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
+  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
+ },
+ {
+  "id": "i-report",
+  "kind": "term",
+  "kana": "レポート",
+  "romaji": "repooto",
+  "meaning": "Report · the game's word for saving",
+  "scope": "game",
+  "ref": "pallet/SaveOptionText",
+  "surface": "レポート",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "pallet",
+  "who": "Poster",
+  "line": "セーブするには　ポケモン　レポート こまめに　かくと　いいなり",
+  "lineEn": "To save, the Pokémon report. Writing it often is good, it is."
+ },
+ {
+  "id": "i-trainer",
+  "kind": "term",
+  "kana": "トレーナー",
+  "romaji": "toreenaa",
+  "meaning": "Trainer",
+  "scope": "game",
+  "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
+  "surface": "トレーナー",
+  "units": [
+   3,
+   3
+  ],
+  "stage": "pallet",
+  "speaker": "オーキド",
+  "who": "Professor Okido",
+  "line": "おまえ　ポケモントレーナーの さいのうが　あるな！",
+  "lineEn": "You have talent as a Pokémon trainer!"
+ },
+ {
+  "id": "i-type",
+  "kind": "term",
+  "kana": "タイプ",
+  "romaji": "taipu",
+  "meaning": "Type · Pokémon and move types",
+  "scope": "game",
+  "ref": "pallet/StrengthsAndWeaknessesText",
+  "surface": "タイプに",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "pallet",
+  "who": "Poster",
+  "line": "ポケモンは　タイプに　よって とくいな　タイプ にがてな　タイプが　いるなり",
+  "lineEn": "Pokémon, depending on type, have types (they're) good against and types (they're) bad against, they do."
+ },
+ {
+  "id": "kantou",
+  "kind": "term",
+  "kana": "カントー",
+  "romaji": "kantou",
+  "meaning": "Kanto · the region",
+  "scope": "game",
+  "ref": "pallet/BluesHouseTownMapText",
+  "surface": "カントー",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "pallet",
+  "who": "Narration",
+  "line": "カントー　ちほうの　ちずだ！",
+  "lineEn": "(It's) a map of the Kanto region!"
+ },
+ {
+  "id": "masara",
+  "kind": "term",
+  "kana": "マサラタウン",
+  "kanji": "",
+  "romaji": "Masara Taun",
+  "meaning": "Pallet Town",
+  "loose": "Masara, from まっしろ, pure white",
+  "scope": "game",
+  "ref": "pallet/PalletTownSignText",
+  "surface": "マサラ　タウン",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "pallet",
+  "who": "Sign",
+  "line": "ここは　マサラ　タウン マサラは　まっしろ　はじまりのいろ",
+  "lineEn": "Here is Masara Town. Masara is pure white, the color of beginnings."
+ },
+ {
+  "id": "sekieikougen",
+  "kind": "term",
+  "kana": "セキエイ こうげん",
+  "romaji": "sekiei kougen",
+  "meaning": "Indigo Plateau · Sekiei Plateau",
+  "scope": "game",
+  "ref": "pallet/OakLabEmailText",
+  "surface": "セキエイ　こうげん",
+  "units": [
+   3,
+   3
+  ],
+  "stage": "pallet",
+  "who": "E-mail",
+  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
+  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
  },
  {
   "id": "aa",
@@ -5844,24 +5880,6 @@
   "who": "Professor Okido",
   "line": "この　せかいの　すべての ポケモンを　きろくした かんぺきな　ずかんを　つくること！",
   "lineEn": "To make a perfect encyclopedia that recorded every Pokémon in this world!"
- },
- {
-  "id": "kantou",
-  "kind": "word",
-  "kana": "カントー",
-  "romaji": "kantou",
-  "meaning": "Kanto · the region",
-  "scope": "game",
-  "ref": "pallet/BluesHouseTownMapText",
-  "surface": "カントー",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "pallet",
-  "who": "Narration",
-  "line": "カントー　ちほうの　ちずだ！",
-  "lineEn": "(It's) a map of the Kanto region!"
  },
  {
   "id": "kao",
@@ -7829,24 +7847,6 @@
   "lineEn": "The Pokémon living all over the world are waiting for {player}!"
  },
  {
-  "id": "sekieikougen",
-  "kind": "word",
-  "kana": "セキエイ こうげん",
-  "romaji": "sekiei kougen",
-  "meaning": "Indigo Plateau · Sekiei Plateau",
-  "scope": "game",
-  "ref": "pallet/OakLabEmailText",
-  "surface": "セキエイ　こうげん",
-  "units": [
-   3,
-   3
-  ],
-  "stage": "pallet",
-  "who": "E-mail",
-  "line": "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
-  "lineEn": "Here the strongest trainers have gathered. The place is the Pokémon League headquarters on the Sekiei Plateau!"
- },
- {
   "id": "sekkaku",
   "kind": "word",
   "kana": "せっかく",
@@ -9593,24 +9593,6 @@
   "lineEn": "Even if used, there's no effect."
  },
  {
-  "id": "i-friendlyshop",
-  "kind": "item",
-  "kana": "フレンドリィ ショップ",
-  "romaji": "furendorii shoppu",
-  "meaning": "Friendly Shop · the game's name for the Poké Mart",
-  "scope": "game",
-  "ref": "route1/Route1Youngster1Text.MartSampleText",
-  "surface": "フレンドリィ　ショップ",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "route1",
-  "who": "Shop clerk on Route 1",
-  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
- },
- {
   "id": "i-kizugusuri",
   "kind": "item",
   "kana": "キズぐすり",
@@ -9621,43 +9603,6 @@
   "scope": "game",
   "note": "くすり = medicine; a word you want at a pharmacy.",
   "stage": "route1"
- },
- {
-  "id": "i-wazapoint",
-  "kind": "item",
-  "kana": "わざの ポイント",
-  "romaji": "waza no pointo",
-  "meaning": "move points · PP",
-  "scope": "game",
-  "ref": "route1/MoveNoPPText",
-  "surface": "わざの　のこり",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "route1",
-  "line": "わざの　のこりポイントが　ない！",
-  "lineEn": "The move's remaining points are gone!"
- },
- {
-  "id": "tokiwa",
-  "kind": "item",
-  "kana": "トキワシティ",
-  "kanji": "",
-  "romaji": "Tokiwa Shiti",
-  "meaning": "Viridian City",
-  "loose": "Tokiwa, 常磐, evergreen",
-  "scope": "game",
-  "ref": "route1/Route1Youngster1Text.MartSampleText",
-  "surface": "トキワ　シティ",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "route1",
-  "who": "Shop clerk on Route 1",
-  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
-  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
  },
  {
   "id": "m-kazeokoshi",
@@ -9732,6 +9677,61 @@
   "scope": "game",
   "note": "Route 1.",
   "stage": "route1"
+ },
+ {
+  "id": "i-friendlyshop",
+  "kind": "term",
+  "kana": "フレンドリィ ショップ",
+  "romaji": "furendorii shoppu",
+  "meaning": "Friendly Shop · the game's name for the Poké Mart",
+  "scope": "game",
+  "ref": "route1/Route1Youngster1Text.MartSampleText",
+  "surface": "フレンドリィ　ショップ",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "route1",
+  "who": "Shop clerk on Route 1",
+  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
+  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+ },
+ {
+  "id": "i-wazapoint",
+  "kind": "term",
+  "kana": "わざの ポイント",
+  "romaji": "waza no pointo",
+  "meaning": "move points · PP",
+  "scope": "game",
+  "ref": "route1/MoveNoPPText",
+  "surface": "わざの　のこり",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "route1",
+  "line": "わざの　のこりポイントが　ない！",
+  "lineEn": "The move's remaining points are gone!"
+ },
+ {
+  "id": "tokiwa",
+  "kind": "term",
+  "kana": "トキワシティ",
+  "kanji": "",
+  "romaji": "Tokiwa Shiti",
+  "meaning": "Viridian City",
+  "loose": "Tokiwa, 常磐, evergreen",
+  "scope": "game",
+  "ref": "route1/Route1Youngster1Text.MartSampleText",
+  "surface": "トキワ　シティ",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "route1",
+  "who": "Shop clerk on Route 1",
+  "line": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
+  "lineEn": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
  },
  {
   "id": "dansa",
@@ -10815,23 +10815,6 @@
   "lineEn": "Hic... Wait, damn you!"
  },
  {
-  "id": "i-colosseum",
-  "kind": "item",
-  "kana": "コロシアム",
-  "romaji": "koroshiamu",
-  "meaning": "Colosseum · the link-battle room",
-  "scope": "game",
-  "ref": "viridian/HowToLinkText",
-  "surface": "コロシアム",
-  "units": [
-   1,
-   1
-  ],
-  "stage": "viridian",
-  "line": "コロシアム",
-  "lineEn": "Colosseum"
- },
- {
   "id": "i-dokukeshi",
   "kind": "item",
   "kana": "どくけし",
@@ -10870,7 +10853,7 @@
  {
   "id": "i-mahinaoshi",
   "kind": "item",
-  "kana": "マヒなおし",
+  "kana": "まひなおし",
   "romaji": "mahinaoshi",
   "meaning": "Parlyz Heal · paralysis-fixer",
   "scope": "game",
@@ -10880,27 +10863,11 @@
    1,
    1
   ],
+  "note": "The item list writes まひ in hiragana; the blackboard writes マヒ in katakana.",
   "stage": "viridian",
   "who": "Blackboard",
   "line": "たたかい　おわっても マヒは　のこります また　マヒなおしで　なおります",
   "lineEn": "Even when the fight ends the paralysis remains. Also, with a paralysis-healer it heals."
- },
- {
-  "id": "i-masaki",
-  "kind": "item",
-  "kana": "マサキ",
-  "romaji": "masaki",
-  "meaning": "Bill · Masaki, whose PC stores Pokémon",
-  "scope": "game",
-  "ref": "viridian/AccessedBillsPCText",
-  "surface": "マサキ",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "viridian",
-  "line": "マサキの　パソコンと　つないだ！",
-  "lineEn": "Connected with Masaki's computer!"
  },
  {
   "id": "i-nemukezamashi",
@@ -10921,24 +10888,6 @@
   "lineEn": "Even when the fight ends (it) stays asleep. With a sleep-waker (its) eyes open."
  },
  {
-  "id": "i-nibicity",
-  "kind": "item",
-  "kana": "ニビ シティ",
-  "romaji": "nibi shiti",
-  "meaning": "Pewter City · Nibi City",
-  "scope": "game",
-  "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
-  "surface": "ニビシティ",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "viridian",
-  "who": "Girl in Viridian City",
-  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
- },
- {
   "id": "i-otodokemono",
   "kind": "item",
   "kana": "おとどけもの",
@@ -10949,103 +10898,6 @@
   "scope": "game",
   "note": "とどける = to deliver. おとどけもの is what the delivery person says at your door.",
   "stage": "viridian"
- },
- {
-  "id": "i-parlyz_heal",
-  "kind": "item",
-  "kana": "まひなおし",
-  "meaning": "Parlyz Heal",
-  "scope": "game",
-  "stage": "viridian"
- },
- {
-  "id": "i-pokemoncenter",
-  "kind": "item",
-  "kana": "ポケモン センター",
-  "romaji": "pokemon sentaa",
-  "meaning": "Pokémon Center",
-  "scope": "game",
-  "ref": "viridian/ViridianCityTrainerTips2Text",
-  "surface": "ポケモンセンター",
-  "units": [
-   1,
-   1
-  ],
-  "stage": "viridian",
-  "who": "Trainer tips board",
-  "line": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
-  "lineEn": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
- },
- {
-  "id": "i-shitennou",
-  "kind": "item",
-  "kana": "してんのう",
-  "romaji": "shitennou",
-  "meaning": "Elite Four · the Four Heavenly Kings",
-  "scope": "game",
-  "ref": "viridian/ViridianSchoolNotebookText4",
-  "surface": "してんのう",
-  "units": [
-   2,
-   2
-  ],
-  "stage": "viridian",
-  "who": "Notebook",
-  "line": "してんのうが　くんりん　してる！",
-  "lineEn": "The Four Heavenly Kings reign!"
- },
- {
-  "id": "i-silph",
-  "kind": "item",
-  "kana": "シルフ カンパニー",
-  "romaji": "shirufu kanpanii",
-  "meaning": "Silph Company",
-  "scope": "game",
-  "ref": "viridian/TMNotebook",
-  "surface": "シルフ　カンパニー",
-  "units": [
-   2,
-   2
-  ],
-  "stage": "viridian",
-  "who": "Pamphlet",
-  "line": "ひでんマシンは つかっても　なくならない　タイプ ぜんぶで　５しゅるい　あります ……　シルフ　カンパニー",
-  "lineEn": "Secret machines are the type that doesn't run out even when used. There are five kinds in all. ...Silph Company"
- },
- {
-  "id": "i-tokiwanomori",
-  "kind": "item",
-  "kana": "トキワの もり",
-  "romaji": "tokiwa no mori",
-  "meaning": "Viridian Forest · the Tokiwa forest",
-  "scope": "game",
-  "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
-  "surface": "トキワのもり",
-  "units": [
-   0,
-   0
-  ],
-  "stage": "viridian",
-  "who": "Girl in Viridian City",
-  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
-  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
- },
- {
-  "id": "i-tradecenter",
-  "kind": "item",
-  "kana": "トレード センター",
-  "romaji": "toreedo sentaa",
-  "meaning": "Trade Center",
-  "scope": "game",
-  "ref": "viridian/HowToLinkText",
-  "surface": "トレード　センター",
-  "units": [
-   2,
-   2
-  ],
-  "stage": "viridian",
-  "line": "トレード　センター",
-  "lineEn": "Trade Center"
  },
  {
   "id": "i-wazamashin",
@@ -11102,26 +10954,6 @@
   "who": "Boy in Viridian City",
   "line": "きみが　こしに　つけてる その　モンスターボールは……！",
   "lineEn": "That Monster Ball you have attached at (your) waist...!"
- },
- {
-  "id": "pokemon",
-  "kind": "item",
-  "kana": "ポケモン",
-  "kanji": "",
-  "romaji": "pokemon",
-  "meaning": "Pokémon",
-  "scope": "game",
-  "ref": "viridian/ViridianCityYoungster1Text",
-  "note": "Short for ポケットモンスター, pocket monsters.",
-  "surface": "ポケモン",
-  "units": [
-   1,
-   1
-  ],
-  "stage": "viridian",
-  "who": "Boy in Viridian City",
-  "line": "まさしく　ポケモンだね！",
-  "lineEn": "(It's) unmistakably a Pokémon, isn't it!"
  },
  {
   "id": "m-bubble",
@@ -11221,6 +11053,185 @@
   "who": "Napping man in Viridian City",
   "line": "……　へんな　ゆめを　みた スリープが　ゆめを　くっていた！",
   "lineEn": "...(I) saw a strange dream. A Sleep was eating the dream!"
+ },
+ {
+  "id": "i-colosseum",
+  "kind": "term",
+  "kana": "コロシアム",
+  "romaji": "koroshiamu",
+  "meaning": "Colosseum · the link-battle room",
+  "scope": "game",
+  "ref": "viridian/HowToLinkText",
+  "surface": "コロシアム",
+  "units": [
+   1,
+   1
+  ],
+  "stage": "viridian",
+  "line": "コロシアム",
+  "lineEn": "Colosseum"
+ },
+ {
+  "id": "i-masaki",
+  "kind": "term",
+  "kana": "マサキ",
+  "romaji": "masaki",
+  "meaning": "Bill · Masaki, whose PC stores Pokémon",
+  "scope": "game",
+  "ref": "viridian/AccessedBillsPCText",
+  "surface": "マサキ",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "viridian",
+  "line": "マサキの　パソコンと　つないだ！",
+  "lineEn": "Connected with Masaki's computer!"
+ },
+ {
+  "id": "i-nibicity",
+  "kind": "term",
+  "kana": "ニビ シティ",
+  "romaji": "nibi shiti",
+  "meaning": "Pewter City · Nibi City",
+  "scope": "game",
+  "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
+  "surface": "ニビシティ",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "viridian",
+  "who": "Girl in Viridian City",
+  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
+  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+ },
+ {
+  "id": "i-pokemoncenter",
+  "kind": "term",
+  "kana": "ポケモン センター",
+  "romaji": "pokemon sentaa",
+  "meaning": "Pokémon Center",
+  "scope": "game",
+  "ref": "viridian/ViridianCityTrainerTips2Text",
+  "surface": "ポケモンセンター",
+  "units": [
+   1,
+   1
+  ],
+  "stage": "viridian",
+  "who": "Trainer tips board",
+  "line": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
+  "lineEn": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
+ },
+ {
+  "id": "i-shitennou",
+  "kind": "term",
+  "kana": "してんのう",
+  "romaji": "shitennou",
+  "meaning": "Elite Four · the Four Heavenly Kings",
+  "scope": "game",
+  "ref": "viridian/ViridianSchoolNotebookText4",
+  "surface": "してんのう",
+  "units": [
+   2,
+   2
+  ],
+  "stage": "viridian",
+  "who": "Notebook",
+  "line": "してんのうが　くんりん　してる！",
+  "lineEn": "The Four Heavenly Kings reign!"
+ },
+ {
+  "id": "i-silph",
+  "kind": "term",
+  "kana": "シルフ カンパニー",
+  "romaji": "shirufu kanpanii",
+  "meaning": "Silph Company",
+  "scope": "game",
+  "ref": "viridian/TMNotebook",
+  "surface": "シルフ　カンパニー",
+  "units": [
+   2,
+   2
+  ],
+  "stage": "viridian",
+  "who": "Pamphlet",
+  "line": "ひでんマシンは つかっても　なくならない　タイプ ぜんぶで　５しゅるい　あります ……　シルフ　カンパニー",
+  "lineEn": "Secret machines are the type that doesn't run out even when used. There are five kinds in all. ...Silph Company"
+ },
+ {
+  "id": "i-tokiwanomori",
+  "kind": "term",
+  "kana": "トキワの もり",
+  "romaji": "tokiwa no mori",
+  "meaning": "Viridian Forest · the Tokiwa forest",
+  "scope": "game",
+  "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
+  "surface": "トキワのもり",
+  "units": [
+   0,
+   0
+  ],
+  "stage": "viridian",
+  "who": "Girl in Viridian City",
+  "line": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
+  "lineEn": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+ },
+ {
+  "id": "i-tradecenter",
+  "kind": "term",
+  "kana": "トレード センター",
+  "romaji": "toreedo sentaa",
+  "meaning": "Trade Center",
+  "scope": "game",
+  "ref": "viridian/HowToLinkText",
+  "surface": "トレード　センター",
+  "units": [
+   2,
+   2
+  ],
+  "stage": "viridian",
+  "line": "トレード　センター",
+  "lineEn": "Trade Center"
+ },
+ {
+  "id": "pawaapointo",
+  "kind": "term",
+  "kana": "パワーポイント",
+  "romaji": "pawaa pointo",
+  "meaning": "power points · PP",
+  "scope": "game",
+  "ref": "viridian/ViridianCityTrainerTips2Text",
+  "surface": "パワーポイントが　あります",
+  "units": [
+   1,
+   1
+  ],
+  "stage": "viridian",
+  "who": "Trainer tips board",
+  "line": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
+  "lineEn": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
+ },
+ {
+  "id": "pokemon",
+  "kind": "term",
+  "kana": "ポケモン",
+  "kanji": "",
+  "romaji": "pokemon",
+  "meaning": "Pokémon",
+  "scope": "game",
+  "ref": "viridian/ViridianCityYoungster1Text",
+  "note": "Short for ポケットモンスター, pocket monsters.",
+  "surface": "ポケモン",
+  "units": [
+   1,
+   1
+  ],
+  "stage": "viridian",
+  "who": "Boy in Viridian City",
+  "line": "まさしく　ポケモンだね！",
+  "lineEn": "(It's) unmistakably a Pokémon, isn't it!"
  },
  {
   "id": "adobaisu",
@@ -13139,24 +13150,6 @@
   "who": "Pamphlet",
   "line": "わざマシンの　パンフレットだ！",
   "lineEn": "(It's) a pamphlet on move machines!"
- },
- {
-  "id": "pawaapointo",
-  "kind": "word",
-  "kana": "パワーポイント",
-  "romaji": "pawaa pointo",
-  "meaning": "power points · PP",
-  "scope": "game",
-  "ref": "viridian/ViridianCityTrainerTips2Text",
-  "surface": "パワーポイントが　あります",
-  "units": [
-   1,
-   1
-  ],
-  "stage": "viridian",
-  "who": "Trainer tips board",
-  "line": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
-  "lineEn": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
  },
  {
   "id": "riidaa",

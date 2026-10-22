@@ -185,7 +185,7 @@
  },
  {
   "id": "okido",
-  "kind": "item",
+  "kind": "term",
   "kana": "オーキド",
   "romaji": "ookido",
   "meaning": "Professor Oak · Okido in Japanese",
@@ -714,7 +714,7 @@
  },
  {
   "id": "pokettomonsutaa",
-  "kind": "word",
+  "kind": "term",
   "kana": "ポケット モンスター",
   "romaji": "poketto monsutaa",
   "meaning": "Pocket Monster · the full name the game uses in the intro",

@@ -47,7 +47,7 @@ The generated files are committed so the deck can be built without the disassemb
 
 ```
 deck/
-  vocab/<stage>.json  hand-written cards: words, forms, endings, Pokémon, moves, jargon; each names the corpus string it came from (`ref`)
+  vocab/<stage>.json  hand-written cards: words, forms, endings, Pokémon, moves, items, terms (names and game jargon); each names the corpus string it came from (`ref`)
   cards.json          the built deck (generated): every card with its stage, speaker, game line and translation, plus the kana
 tools/
   vocab_candidates.py <stage>  vocabulary in a stage's strings that no card covers yet, for curating
