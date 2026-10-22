@@ -154,7 +154,7 @@
   "meaning": "to be looked up to, be adored",
   "ref": "intro/OakSpeechText1",
   "vclass": "godan",
-  "surface": "したわれて　おるよ",
+  "surface": "したわれて",
   "units": [
    2,
    2
@@ -692,7 +692,7 @@
   "ref": "intro/IntroducePlayerText",
   "example": "なまえを おしえる",
   "exampleEn": "(I) tell (my) name.",
-  "surface": "おしえて　もらおう",
+  "surface": "おしえて",
   "units": [
    0,
    0
@@ -843,7 +843,7 @@
   "example": "なにを する？",
   "exampleEn": "What (will you) do?",
   "ref": "intro/OakSpeechText2",
-  "surface": "したり しょうぶに　つかったり",
+  "surface": "したり",
   "units": [
    1,
    1
@@ -891,7 +891,7 @@
   "ref": "intro/OakSpeechText2",
   "example": "タクシーを よぶ",
   "exampleEn": "(I) call a taxi.",
-  "surface": "よばれる いきもの　たちが いたるところに　すんでいる",
+  "surface": "よばれる",
   "units": [
    0,
    0

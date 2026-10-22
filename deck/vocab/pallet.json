@@ -327,7 +327,7 @@
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "example": "のこっとらん",
   "exampleEn": "is not remaining",
-  "surface": "とらんが おまえに",
+  "surface": "とらんが",
   "units": [
    7,
    7
@@ -842,7 +842,7 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "example": "つかまえなければ ならんのだ",
   "exampleEn": "you must catch them",
-  "surface": "つかまえなければ　ならんのだ",
+  "surface": "つかまえなければ　ならん",
   "units": [
    1,
    1
@@ -1242,7 +1242,7 @@
   "ref": "pallet/OaksLabOak1Text.YourPokemonCanFightText",
   "example": "たたかわせて いけば",
   "exampleEn": "if you go on making it fight",
-  "surface": "て　いけば となりまちへ　いける",
+  "surface": "て　いけば",
   "units": [
    1,
    1
@@ -1274,7 +1274,7 @@
   "register": "plain",
   "meaning": "does for me",
   "ref": "viridian/ViridianMartClerkParcelQuestText",
-  "surface": "わたして　くれるかい",
+  "surface": "わたして　くれる",
   "units": [
    1,
    1
@@ -1852,7 +1852,7 @@
   "scope": "general",
   "ref": "pallet/OakLabEmailText",
   "kanji": "集まる",
-  "surface": "あつまり　ました ばしょは",
+  "surface": "あつまり　ました",
   "units": [
    3,
    3
@@ -2375,7 +2375,7 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakMyInventionPokedexText",
   "kanji": "増える",
-  "surface": "ふえて　いく　という たいへん",
+  "surface": "ふえて",
   "units": [
    1,
    1
@@ -2565,7 +2565,7 @@
   "meaning": "to fulfill, to carry out",
   "scope": "general",
   "ref": "pallet/OaksLabOakThatWasMyDreamText",
-  "surface": "はたして　ほしいのじゃ",
+  "surface": "はたして",
   "units": [
    4,
    4
@@ -2704,7 +2704,7 @@
   "scope": "general",
   "ref": "pallet/BookcaseText",
   "kanji": "本",
-  "surface": "ほん　ばかりだ",
+  "surface": "ほん　ばかり",
   "units": [
    0,
    0
@@ -3110,7 +3110,7 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "借りる",
-  "surface": "かりて　いこう",
+  "surface": "かりて",
   "units": [
    6,
    6
@@ -3125,7 +3125,7 @@
   "scope": "general",
   "ref": "pallet/OaksLabRivalLeaveItAllToMeText",
   "kanji": "貸す",
-  "surface": "かさない　ように ねえちゃんに　いって　おくから おれんちへ　きても　むだ　だからな",
+  "surface": "かさない",
   "units": [
    7,
    7
@@ -3747,7 +3747,7 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "見つける",
-  "surface": "みつけただけ　では くわしい",
+  "surface": "みつけた",
   "units": [
    0,
    0
@@ -3826,7 +3826,7 @@
   "ref": "pallet/PalletTownOakText.ItsUnsafeText",
   "example": "かさを もつ",
   "exampleEn": "(I) hold an umbrella.",
-  "surface": "もって　いれば たたかえるのだが",
+  "surface": "もって",
   "units": [
    2,
    2
@@ -4017,7 +4017,7 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "kanji": "鳴らす",
-  "surface": "ならした　もの",
+  "surface": "ならした",
   "units": [
    6,
    6
@@ -4046,7 +4046,7 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
   "kanji": "懐く",
-  "surface": "なついた　みたいだな",
+  "surface": "なついた",
   "units": [
    2,
    2
@@ -4102,7 +4102,7 @@
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "逃げる",
-  "surface": "にげやすいし うんも　あるからな",
+  "surface": "にげやすい",
   "units": [
    8,
    8
@@ -4187,7 +4187,7 @@
   "scope": "general",
   "ref": "pallet/OaksLabOakChooseMonText.Text",
   "kanji": "老いぼれる",
-  "surface": "おいぼれた　いまは",
+  "surface": "おいぼれた",
   "units": [
    7,
    7
@@ -5256,7 +5256,7 @@
   "meaning": "to fight",
   "scope": "general",
   "ref": "pallet/OaksLabRivalSmellYouLaterText.Text",
-  "surface": "たたかわせて もっと　もっと　つよくするぜ",
+  "surface": "たたかわせて",
   "units": [
    1,
    1
@@ -5378,7 +5378,7 @@
   "meaning": "to deliver",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.DeliverParcelText",
-  "surface": "とどけものを　わたした",
+  "surface": "とどけもの",
   "units": [
    5,
    5
@@ -5469,7 +5469,7 @@
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "kanji": "取る",
   "note": "とれる: can take, can be caught.",
-  "surface": "とれるか どうかは　わからんぞ",
+  "surface": "とれる",
   "units": [
    7,
    7
@@ -5755,7 +5755,7 @@
   "example": "やっぱり おいしい",
   "exampleEn": "As expected, (it)'s tasty.",
   "note": "やっぱ is the casual clip.",
-  "surface": "やっぱ　おれって　てんさい",
+  "surface": "やっぱ",
   "units": [
    1,
    1
@@ -5809,7 +5809,7 @@
   "scope": "general",
   "ref": "pallet/RedsHouse1FMomYouShouldRestText",
   "kanji": "休む",
-  "surface": "やすんで　いったら どうかしら",
+  "surface": "やすんで",
   "units": [
    1,
    1

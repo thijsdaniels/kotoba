@@ -173,7 +173,7 @@
   "example": "なにを たべても おいしい",
   "exampleEn": "Whatever (I) eat is tasty.",
   "note": "Question word + て-form + も: いつ きても = whenever (I) come, なにを しても = whatever (I) do.",
-  "surface": "いつ　きても この",
+  "surface": "いつ　きても",
   "units": [
    0,
    0
@@ -258,7 +258,7 @@
   "example": "でんしゃで ねちゃった",
   "exampleEn": "(I) ended up sleeping on the train.",
   "note": "Casual speech: てしまう → ちゃう. Past: ねちゃった.",
-  "surface": "ねちゃって しょーが　ないわね",
+  "surface": "ねちゃって",
   "units": [
    1,
    1
@@ -370,7 +370,7 @@
   "example": "さむく なっていく",
   "exampleEn": "(It) goes on becoming cold.",
   "note": "て-form + いく: change continuing away from now. Opposite of 〜てくる.",
-  "surface": "へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます",
+  "surface": "へって　いきます",
   "units": [
    0,
    0
@@ -844,7 +844,7 @@
   "ref": "viridian/LinkCableHelpText1",
   "kanji": "遊ぶ",
   "note": "あそびかた: way of playing.",
-  "surface": "あそびかた　に　ついて",
+  "surface": "あそびかた",
   "units": [
    1,
    1
@@ -1148,7 +1148,7 @@
   "exampleEn": "(My) stomach decreased.",
   "exampleLoose": "I'm hungry.",
   "note": "おなかが へった = (my) stomach decreased = I'm hungry.",
-  "surface": "へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます",
+  "surface": "へって",
   "units": [
    0,
    0
@@ -1440,7 +1440,7 @@
   "scope": "general",
   "ref": "viridian/PokemartItemBagEmptyText",
   "kanji": "買い取る",
-  "surface": "かいとれる　しなものは おもちで　ないようです",
+  "surface": "かいとれる",
   "units": [
    0,
    0
@@ -1455,7 +1455,7 @@
   "scope": "general",
   "ref": "viridian/ViridianSchoolHouseCooltrainerFText",
   "kanji": "書かれる",
-  "surface": "かかれてる　こと ちゃんと　みて",
+  "surface": "かかれてる",
   "units": [
    1,
    1
@@ -1472,7 +1472,7 @@
   "ref": "viridian/ViridianCityGymLockedText",
   "example": "どのくらい かかりますか？",
   "exampleEn": "About how much does (it) take?",
-  "surface": "かかって　いた",
+  "surface": "かかって",
   "units": [
    0,
    0
@@ -1711,7 +1711,7 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardFrozenText",
   "kanji": "凍る",
-  "surface": "こおりなおしで　とかさないと",
+  "surface": "こおり",
   "units": [
    1,
    1
@@ -1814,7 +1814,7 @@
   "scope": "general",
   "ref": "viridian/ViridianCityGirlText.WhenIGoShopText",
   "kanji": "曲がる",
-  "surface": "まがり　くねってるのよ",
+  "surface": "まがり",
   "units": [
    0,
    0
@@ -2045,7 +2045,7 @@
   "meaning": "to run out, to disappear",
   "scope": "general",
   "ref": "viridian/ViridianCityTrainerTips2Text",
-  "surface": "なくなった　ときも",
+  "surface": "なくなった",
   "units": [
    1,
    1
@@ -2075,7 +2075,7 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardPrlzText",
   "kanji": "治す",
-  "surface": "なおしで　なおります",
+  "surface": "なおし",
   "units": [
    1,
    1
@@ -2120,7 +2120,7 @@
   "scope": "general",
   "ref": "viridian/ViridianCityFisherText.YouCanHaveThisText",
   "kanji": "眠る",
-  "surface": "ねむって　しまった",
+  "surface": "ねむって",
   "units": [
    1,
    1
@@ -2270,7 +2270,7 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardSleepText",
   "kanji": "終わる",
-  "surface": "おわっても　ねたまま ねむけざましで　めが　さめます",
+  "surface": "おわっても",
   "units": [
    1,
    1
@@ -2417,7 +2417,7 @@
   "scope": "general",
   "ref": "viridian/ViridianCityYoungster2Text.CaterpieAndWeedleDescriptionText",
   "kanji": "刺す",
-  "surface": "さされないように きを　つけようね",
+  "surface": "さされない",
   "units": [
    0,
    0
@@ -2508,7 +2508,7 @@
   "example": "みせは しまっている",
   "exampleEn": "The shop is closed.",
   "note": "しまっとる = しまっている in old-man speech.",
-  "surface": "しまっとる いったい　どんな",
+  "surface": "しまっとる",
   "units": [
    0,
    0
@@ -2553,7 +2553,7 @@
   "scope": "general",
   "ref": "viridian/ViridianCityOldManText.KnowHowToCatchPokemonText",
   "kanji": "調べる",
-  "surface": "しらべれば じどうてきに",
+  "surface": "しらべれば",
   "units": [
    2,
    2
@@ -2572,7 +2572,7 @@
   "example": "まあ、しょうがない",
   "exampleEn": "Well, there is no way (around it).",
   "note": "The game spells it しょーが ない, as it is said. Politer: しかたが ない.",
-  "surface": "しょーが　ないわね",
+  "surface": "しょーが　ない",
   "units": [
    1,
    1
@@ -2902,7 +2902,7 @@
   "scope": "general",
   "ref": "viridian/ViridianBlackboardFrozenText",
   "kanji": "動く",
-  "surface": "うごけなく　なります",
+  "surface": "うごけなく",
   "units": [
    0,
    0
@@ -2962,7 +2962,7 @@
   "scope": "general",
   "ref": "viridian/ViridianMartCooltrainerMText",
   "kanji": "売り切れる",
-  "surface": "うりきれてる　みたい",
+  "surface": "うりきれてる",
   "units": [
    0,
    0
@@ -3133,7 +3133,7 @@
   "scope": "general",
   "ref": "viridian/ViridianCityOldManText.HadMyCoffeeNowText",
   "note": "よっぱらい = a drunk.",
-  "surface": "よっぱらってた　みたいじゃ",
+  "surface": "よっぱらってた",
   "units": [
    0,
    0

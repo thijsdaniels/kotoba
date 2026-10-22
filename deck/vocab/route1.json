@@ -301,7 +301,7 @@
   "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "kanji": "早い",
-  "surface": "はやく　かえれて　いいよ",
+  "surface": "はやく",
   "units": [
    1,
    1
@@ -334,7 +334,7 @@
   "scope": "general",
   "ref": "route1/Route1Youngster1Text.AlsoGotPokeballsText",
   "note": "いらして is its te-form.",
-  "surface": "いらして　ください",
+  "surface": "いらして",
   "units": [
    0,
    0
@@ -610,7 +610,7 @@
   "scope": "general",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "kanji": "寄る",
-  "surface": "よって　くださいね",
+  "surface": "よって",
   "units": [
    0,
    0
