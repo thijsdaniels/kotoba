@@ -23,7 +23,7 @@
   --k-pokemon: #c7861a;
   --k-move: #b84a3c;
   --k-item: #3f8a3a;
-  --k-term: #8a6d3b;
+  --k-term: #a2499a;
   --tint: 10%;
   --f-jp: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
   --f-dot: "PKMN Kana", "Zen Kaku Gothic New", monospace;
@@ -32,12 +32,12 @@
   --bg: var(--g3); --panel: #1e1e1e; --fg: var(--g0); --muted: var(--g1); --line: #3a3a3a;
   --accent: var(--g0); --accent-soft: #2e2e2e; --again: #e07a6e; --hard: #d6a556;
   --screen: #2a2a2a; --screen-ink: var(--g0); --back: #2a2a2a; --back-ink: var(--g1);
-  --k-word: #5cc4bc; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --k-pokemon: #e6b25a; --k-move: #e58073; --k-item: #7cc96f; --k-term: #d1a85c; --tint: 16%; color-scheme: dark } }
+  --k-word: #5cc4bc; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --k-pokemon: #e6b25a; --k-move: #e58073; --k-item: #7cc96f; --k-term: #d98bcc; --tint: 16%; color-scheme: dark } }
 :root[data-theme="dark"] {
   --bg: var(--g3); --panel: #1e1e1e; --fg: var(--g0); --muted: var(--g1); --line: #3a3a3a;
   --accent: var(--g0); --accent-soft: #2e2e2e; --again: #e07a6e; --hard: #d6a556;
   --screen: #2a2a2a; --screen-ink: var(--g0); --back: #2a2a2a; --back-ink: var(--g1);
-  --k-word: #5cc4bc; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --k-pokemon: #e6b25a; --k-move: #e58073; --k-item: #7cc96f; --k-term: #d1a85c; --tint: 16%; color-scheme: dark }
+  --k-word: #5cc4bc; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --k-pokemon: #e6b25a; --k-move: #e58073; --k-item: #7cc96f; --k-term: #d98bcc; --tint: 16%; color-scheme: dark }
 html, body { height: 100%; margin: 0; }
 [hidden] { display: none !important; }
 .practice { display: flex; flex-direction: column; gap: 12px; }
