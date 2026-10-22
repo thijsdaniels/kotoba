@@ -14,6 +14,7 @@ interface Stage { id: string; name: string }
 interface QueueEntry { id: string; side: Side }
 
 const KINDS: Record<Kind, string> = { word: "Word", form: "Form", ending: "Ending", kana: "Kana", pokemon: "Pokémon", move: "Move", item: "Item", term: "Jargon" };
+const PRODUCE_CHOICES: [Kind, string][] = [["word", "Words"], ["form", "Forms"], ["ending", "Endings"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
 const FILTERS: [string, string][] = [["all", "All"], ["word", "Words"], ["grammar", "Grammar"], ["kana", "Kana"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
 const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
 const REVIEW_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Hard", "hard", 1], ["Good", "good", 2], ["Easy", "easy", 3]];
@@ -40,7 +41,7 @@ function mark(line: string | undefined, surface: string | undefined): string {
 /* state */
 let cards = new Map<string, Card>();
 let stages: Stage[] = [];
-let state: State = { version: 0, settings: { newPerDay: 12, stage: "viridian" }, srs: {} };
+let state: State = { version: 0, settings: { newPerDay: 12, stage: "viridian", produce: ["word"] }, srs: {} };
 let loaded = false;
 let queue: QueueEntry[] = [];
 let current: QueueEntry | null = null;
@@ -55,10 +56,9 @@ let pendingWrite: Promise<unknown> = Promise.resolve();
 const practicing = () => view === "practice";
 const kindOf = (card: Card): Kind => (KINDS[card.kind] ? card.kind : "word");
 const isGrammar = (card: Card) => card.kind === "form" || card.kind === "ending";
-const isGame = (card: Card) => card.kind === "pokemon" || card.kind === "move" || card.kind === "item" || card.kind === "term";
 const inMode = (card: Card) =>
   mode === "all" ? true
-  : mode === "word" ? card.kind === "word" && !isGame(card)
+  : mode === "word" ? card.kind === "word"
   : mode === "grammar" ? isGrammar(card)
   : mode === "kana" ? card.kind === "kana"
   : mode === "pokemon" ? card.kind === "pokemon"
@@ -69,7 +69,8 @@ const inMode = (card: Card) =>
 const stageIndex = (id: string | undefined) => { const index = stages.findIndex(stage => stage.id === id); return index < 0 ? Infinity : index; };
 const stageLabel = (id: string | undefined) => stages.find(stage => stage.id === id)?.name ?? (id === "system" ? "Menus and Messages" : "No stage");
 const unlocked = (card: Card) => card.stage === "system" || stageIndex(card.stage) <= stageIndex(state.settings.stage);
-const sidesOf = (card: Card): Side[] => (card.kind === "kana" || card.recogOnly ? ["r"] : ["r", "p"]);
+// every card is asked for recognition; production only for the kinds chosen in Settings, and never for kana
+const sidesOf = (card: Card): Side[] => (card.kind === "kana" || card.recogOnly || !state.settings.produce.includes(card.kind) ? ["r"] : ["r", "p"]);
 const scheduleOf = (card: Card, side: Side): Schedule | null => state.srs[card.id]?.[side] ?? null;
 // every side is its own card for the scheduler; this lists them all
 const allEntries = () => { const out: { id: string; side: Side; card: Card }[] = []; for (const [id, card] of cards) for (const side of sidesOf(card)) out.push({ id, side, card }); return out; };
@@ -170,8 +171,7 @@ function frontHtml(card: Card, recognition: boolean) {
   if (card.kind === "kana") return `${fontButton()}<div class="kglyph${kanaFont === "normal" ? " normal" : ""}">${escapeHtml(card.kana)}</div>`;
   if (card.kind === "form" && !recognition) return `<div class="mid">${escapeHtml(card.base)}</div><div class="task">${escapeHtml([card.form, card.register].filter(Boolean).join(", "))}</div>`;
   if (recognition) return `<div class="big">${escapeHtml(card.kana)}</div>`;
-  const prompt = isGame(card) && card.kind !== "word" ? String(card.meaning).split(" · ")[0] : card.meaning;
-  return `<div class="mid">${implied(prompt)}</div>`;
+  return `<div class="mid">${implied(String(card.meaning).split(" · ")[0])}</div>`; // the primary gloss is the cue; the nuance waits for the answer
 }
 // an everyday example is our own text: highlight the dictionary form when it appears as written, otherwise nothing
 const exampleSurface = (card: Card) => { const core = card.kana.replace(/[〜～]/g, "").split("／")[0].trim(); return card.example?.includes(core) ? core : undefined; };
@@ -281,6 +281,7 @@ function renderSettings() {
   const playerInput = byId("setting-player") as HTMLInputElement, rivalInput = byId("setting-rival") as HTMLInputElement;
   if (document.activeElement !== playerInput) playerInput.value = state.settings.playerName ?? "";
   if (document.activeElement !== rivalInput) rivalInput.value = state.settings.rivalName ?? "";
+  byId("setting-produce").innerHTML = PRODUCE_CHOICES.map(([kind, label]) => `<button data-kind="${kind}" aria-pressed="${state.settings.produce.includes(kind)}"><span class="dot" style="--kc: var(--k-${kind})"></span>${label}</button>`).join("");
   let open = 0, locked = 0;
   for (const card of cards.values()) { if (unlocked(card)) open++; else locked++; }
   byId("setting-stage-help").textContent = `Cards from later in the game stay out of Review and Practice until you get there. ${open} unlocked` + (locked ? `, ${locked} waiting.` : ".");
@@ -314,6 +315,13 @@ byId("filter").onclick = event => {
 byId("search").oninput = renderCards;
 (byId("setting-stage") as HTMLSelectElement).onchange = event => { saveSettings({ stage: (event.target as HTMLSelectElement).value }); buildQueue(); render(); };
 (byId("setting-new") as HTMLInputElement).onchange = event => { const input = event.target as HTMLInputElement; const value = Math.max(0, Math.min(100, Math.round(Number(input.value) || 0))); input.value = String(value); saveSettings({ newPerDay: value }); render(); };
+byId("setting-produce").onclick = event => {
+  const button = (event.target as HTMLElement).closest<HTMLElement>("[data-kind]");
+  if (!button) return;
+  const kind = button.dataset.kind!;
+  const produce = state.settings.produce.includes(kind) ? state.settings.produce.filter(chosen => chosen !== kind) : [...state.settings.produce, kind];
+  saveSettings({ produce }); buildQueue(); render();
+};
 (byId("setting-player") as HTMLInputElement).onchange = event => saveSettings({ playerName: (event.target as HTMLInputElement).value.trim() });
 (byId("setting-rival") as HTMLInputElement).onchange = event => saveSettings({ rivalName: (event.target as HTMLInputElement).value.trim() });
 (byId("setting-key") as HTMLInputElement).onchange = event => { writeKey((event.target as HTMLInputElement).value.trim()); void start();

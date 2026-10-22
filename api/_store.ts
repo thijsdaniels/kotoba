@@ -11,13 +11,13 @@ export type Schedule = Record<string, unknown>;
 export type CardState = Partial<Record<Side, Schedule>>;
 export interface State {
   version: number;
-  settings: { newPerDay: number; stage: string; playerName?: string; rivalName?: string };
+  settings: { newPerDay: number; stage: string; produce: string[]; playerName?: string; rivalName?: string };
   srs: Record<string, CardState>;
 }
 
 const PREFIX = "kotoba/state/";
 const KEEP = 5;
-const DEFAULTS: State = { version: 0, settings: { newPerDay: 12, stage: "viridian" }, srs: {} };
+const DEFAULTS: State = { version: 0, settings: { newPerDay: 12, stage: "viridian", produce: ["word"] }, srs: {} };
 
 function nameOf(version: number) {
   return `${PREFIX}${String(version).padStart(9, "0")}.json`;
@@ -33,7 +33,8 @@ export async function load(): Promise<State> {
   if (!all.length) return structuredClone(DEFAULTS);
   const response = await fetch(all[0].url, { cache: "no-store" });
   if (!response.ok) throw new Error(`could not read state: ${response.status}`);
-  return (await response.json()) as State;
+  const stored = (await response.json()) as State;
+  return { ...stored, settings: { ...DEFAULTS.settings, ...stored.settings } }; // a setting added since the snapshot was written gets its default
 }
 
 export async function save(state: State): Promise<State> {

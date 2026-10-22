@@ -60,6 +60,6 @@ A card that quotes the game carries `ref` (the string), `units` (`[first, last]`
 
 Vite, plain TypeScript, no framework. `src/main.ts` is the whole interface, `src/srs.ts` the FSRS scheduler, `src/api.ts` the client. The deck is a static asset (`public/cards.json`, copied from `deck/` at build time), so a change to the corpus or the vocabulary ships with the next push.
 
-Progress and settings live in Vercel Blob through the functions in `api/`: one immutable JSON snapshot per write, newest found by listing, old ones pruned. Routes: `GET /api/state`, `POST /api/answer`, `POST /api/settings`, `POST /api/reset`. Every call needs the shared key in `x-kotoba-key`; the page stores it after opening `/?key=…` once, or from Settings.
+Progress and settings live in Vercel Blob through the functions in `api/`: one immutable JSON snapshot per write, newest found by listing, old ones pruned. Settings: `newPerDay`, `stage`, `produce` (the kinds that also get a production side; kana never do), the player and rival names. Routes: `GET /api/state`, `POST /api/answer`, `POST /api/settings`, `POST /api/reset`. Every call needs the shared key in `x-kotoba-key`; the page stores it after opening `/?key=…` once, or from Settings.
 
 Deployed on Vercel from `main`. Environment: `KOTOBA_KEY` (the shared key) and `BLOB_READ_WRITE_TOKEN` (set by the connected store).
