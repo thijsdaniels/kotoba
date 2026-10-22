@@ -1,0 +1,17 @@
+{
+  "name": "Pokémon Kotoba",
+  "short_name": "Kotoba",
+  "description": "Japanese from the text of Pokémon Green, one stage at a time.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f4f4",
+  "theme_color": "#f4f4f4",
+  "lang": "en",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

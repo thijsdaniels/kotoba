@@ -315,7 +315,8 @@ byId("search").oninput = renderCards;
 (byId("setting-new") as HTMLInputElement).onchange = event => { const input = event.target as HTMLInputElement; const value = Math.max(0, Math.min(100, Math.round(Number(input.value) || 0))); input.value = String(value); saveSettings({ newPerDay: value }); render(); };
 (byId("setting-player") as HTMLInputElement).onchange = event => saveSettings({ playerName: (event.target as HTMLInputElement).value.trim() });
 (byId("setting-rival") as HTMLInputElement).onchange = event => saveSettings({ rivalName: (event.target as HTMLInputElement).value.trim() });
-(byId("setting-key") as HTMLInputElement).onchange = event => { writeKey((event.target as HTMLInputElement).value.trim()); void start(); };
+(byId("setting-key") as HTMLInputElement).onchange = event => { writeKey((event.target as HTMLInputElement).value.trim()); void start();
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(() => { /* offline shell is optional */ }); };
 
 async function start() {
   render();
@@ -338,3 +339,4 @@ async function start() {
   render();
 }
 void start();
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(() => { /* offline shell is optional */ });

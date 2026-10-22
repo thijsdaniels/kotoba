@@ -6,3 +6,4 @@ dist/
 .env*
 public/cards.json
 public/stages.json
+public/sw.js
