@@ -1,443 +1,1356 @@
 {
  "ViridianCityYoungster1Text": {
-  "en": "That Monster Ball you have attached at (your) waist...! (It's) unmistakably a Pokémon, isn't it!\n\nThat taking out and putting in of Pokémon can be done freely any time, what a convenient world it is.",
-  "who": "Boy in Viridian City"
+  "who": "Boy in Viridian City",
+  "sentences": [
+   {
+    "ja": "きみが　こしに　つけてる その　モンスターボールは……！",
+    "en": "That Monster Ball you have attached at (your) waist...!"
+   },
+   {
+    "ja": "まさしく　ポケモンだね！",
+    "en": "(It's) unmistakably a Pokémon, isn't it!"
+   },
+   {
+    "ja": "いつでも　ポケモンの　だしいれが じゆうに　できる　なんて べんりな　よのなかだね",
+    "en": "That taking out and putting in of Pokémon can be done freely any time, what a convenient world it is."
+   }
+  ]
  },
  "ViridianCityGambler1Text.GymAlwaysClosedText": {
-  "en": "Whenever (I) come, this Pokémon gym is shut.\n\nWhat kind of fellow on earth is doing the leader (job), (I) wonder?",
-  "who": "Gambler in Viridian City"
+  "who": "Gambler in Viridian City",
+  "sentences": [
+   {
+    "ja": "いつ　きても この　ポケモン　ジムは　しまっとる いったい　どんな　ヤツが リーダーを　しとるんじゃろか？",
+    "en": "Whenever (I) come, this Pokémon gym is shut. What kind of fellow on earth is doing the leader (job), (I) wonder?"
+   }
+  ]
  },
  "ViridianCityGambler1Text.GymLeaderReturnedText": {
-  "en": "The leader of the Tokiwa gym has come back!",
-  "who": "Gambler in Viridian City"
+  "who": "Gambler in Viridian City",
+  "sentences": [
+   {
+    "ja": "トキワ　ジムの　リーダーが かえって　きたぞ！",
+    "en": "The leader of the Tokiwa gym has come back!"
+   }
+  ]
  },
  "ViridianCityYoungster2Text.YouWantToKnowAboutText": {
-  "en": "Don't (you) know there are two kinds of caterpillar Pokémon?",
-  "who": "Boy in Viridian City"
+  "who": "Boy in Viridian City",
+  "sentences": [
+   {
+    "ja": "いもむし　ポケモンには ２しゅるい　いるって　しらない？",
+    "en": "Don't (you) know there are two kinds of caterpillar Pokémon?"
+   }
+  ]
  },
  "ViridianCityYoungster2Text.OkThenText": {
-  "en": "In that case, fine!",
-  "who": "Boy in Viridian City"
+  "who": "Boy in Viridian City",
+  "sentences": [
+   {
+    "ja": "それなら　いいんだ！",
+    "en": "In that case, fine!"
+   }
+  ]
  },
  "ViridianCityYoungster2Text.CaterpieAndWeedleDescriptionText": {
-  "en": "Caterpie has no poison, but Beedle has poison.\n\nSo that (your) Pokémon doesn't get stung, let's be careful.",
-  "who": "Boy in Viridian City"
+  "who": "Boy in Viridian City",
+  "sentences": [
+   {
+    "ja": "キャタピーは　どくが　ないけど ビードルには　どくが　あるよ ポケモンが　さされないように きを　つけようね",
+    "en": "Caterpie has no poison, but Beedle has poison. So that (your) Pokémon doesn't get stung, let's be careful."
+   }
+  ]
  },
  "ViridianCityGirlText.HasntHadHisCoffeeYetText": {
-  "en": "Oh dear, grandpa! Ending up asleep in a place like this, it can't be helped! Until the drunkenness wears off, there's nothing to do but wait.",
-  "who": "Girl in Viridian City"
+  "who": "Girl in Viridian City",
+  "sentences": [
+   {
+    "ja": "あらら　じいちゃん！",
+    "en": "Oh dear, grandpa!"
+   },
+   {
+    "ja": "こんな　ところで　ねちゃって しょーが　ないわね！",
+    "en": "Ending up asleep in a place like this, it can't be helped!"
+   },
+   {
+    "ja": "よいが　さめるまで　まつしかないわ",
+    "en": "Until the drunkenness wears off, there's nothing to do but wait."
+   }
+  ]
  },
  "ViridianCityGirlText.WhenIGoShopText": {
-  "en": "Sometimes (I) go as far as Nibi City for shopping, but...\n\nThe Tokiwa Forest, the road winds and twists, you know.",
-  "who": "Girl in Viridian City"
+  "who": "Girl in Viridian City",
+  "sentences": [
+   {
+    "ja": "ときどき　ニビシティまで おかいものに　いきますけど トキワのもり　って みちが　まがり　くねってるのよ",
+    "en": "Sometimes (I) go as far as Nibi City for shopping, but... The Tokiwa Forest, the road winds and twists, you know."
+   }
+  ]
  },
  "ViridianCityOldManSleepyText.PrivatePropertyText": {
-  "en": "Urgh! Hic... Wait, damn you! Listen to my talk!\n\n...Hey! Don't go! (I'm) telling you!",
-  "who": "Old man in Viridian City, drunk"
+  "who": "Old man in Viridian City, drunk",
+  "sentences": [
+   {
+    "ja": "ういーっ！",
+    "en": "Urgh!"
+   },
+   {
+    "ja": "ひっく……　まちやがれ！",
+    "en": "Hic... Wait, damn you!"
+   },
+   {
+    "ja": "わしの　はなしを　きけ！",
+    "en": "Listen to my talk!"
+   },
+   {
+    "ja": "……　こら！",
+    "en": "...Hey!"
+   },
+   {
+    "ja": "いくな！",
+    "en": "Don't go!"
+   },
+   {
+    "ja": "と　いっとろーが！",
+    "en": "(I'm) telling you!"
+   }
+  ]
  },
  "ViridianCityFisherText.YouCanHaveThisText": {
-  "en": "Yawn! (I) was basking in the sun and fell asleep!\n\n...(I) saw a strange dream. A Sleep was eating the dream! ...Huh? Before I knew it, I have a move machine, but?\n\nHmm, (it's) creepy! I'll give this to you!",
-  "who": "Napping man in Viridian City"
+  "who": "Napping man in Viridian City",
+  "sentences": [
+   {
+    "ja": "ふあー！",
+    "en": "Yawn!"
+   },
+   {
+    "ja": "ひなたぼっこ　してて ねむって　しまった！",
+    "en": "(I) was basking in the sun and fell asleep!"
+   },
+   {
+    "ja": "……　へんな　ゆめを　みた スリープが　ゆめを　くっていた！",
+    "en": "...(I) saw a strange dream."
+   },
+   {
+    "ja": "……およ？",
+    "en": "A Sleep was eating the dream! ...Huh?"
+   },
+   {
+    "ja": "ぼく　いつのまに わざマシン　もってるけど？",
+    "en": "Before I knew it, I have a move machine, but?"
+   },
+   {
+    "ja": "うーん きみが　わるい！",
+    "en": "Hmm, (it's) creepy!"
+   },
+   {
+    "ja": "これ　きみに　あげる！",
+    "en": "I'll give this to you!"
+   }
+  ]
  },
  "ViridianCityFisherText.ReceivedTM42Text": {
-  "en": "{player} received Move Machine 42 from the guy!"
+  "sentences": [
+   {
+    "ja": "{player}は　にいちゃんから わざマシン４２を　もらった！",
+    "en": "{player} received Move Machine 42 from the guy!"
+   }
+  ]
  },
  "ViridianCityFisherText.TM42ExplanationText": {
-  "en": "The contents of Move Machine 42 are... Dream Eater... ...Zzz...",
-  "who": "Napping man in Viridian City"
+  "who": "Napping man in Viridian City",
+  "sentences": [
+   {
+    "ja": "わざマシン４２の　なかみは…… ゆめくい　だよ…… ……　ぐー……",
+    "en": "The contents of Move Machine 42 are... Dream Eater... ...Zzz..."
+   }
+  ]
  },
  "ViridianCityFisherText.TM42NoRoomText": {
-  "en": "(Your) luggage is full, isn't it.",
-  "who": "Napping man in Viridian City"
+  "who": "Napping man in Viridian City",
+  "sentences": [
+   {
+    "ja": "にもつ　いっぱい　じゃん",
+    "en": "(Your) luggage is full, isn't it."
+   }
+  ]
  },
  "ViridianCityOldManText.HadMyCoffeeNowText": {
-  "en": "Hmm... (I) seem to have been drunk!\n\n(My) head hurts...\n\nBy the way, in a hurry... are you?",
-  "who": "Old man in Viridian City"
+  "who": "Old man in Viridian City",
+  "sentences": [
+   {
+    "ja": "うーん…… よっぱらってた　みたいじゃ！",
+    "en": "Hmm... (I) seem to have been drunk!"
+   },
+   {
+    "ja": "あたまが　いたい…… ときに　おいそぎ……　かな？",
+    "en": "(My) head hurts... By the way, in a hurry... are you?"
+   }
+  ]
  },
  "ViridianCityOldManText.KnowHowToCatchPokemonText": {
-  "en": "Ho ho! Making a Pokédex, are you.\n\nThen, advice from me! If (you) catch Pokémon and examine them, the pages increase automatically!\n\nWhat, (you) don't know how to catch them!\n\nWell then... shall I show (you) an example!",
-  "who": "Old man in Viridian City"
+  "who": "Old man in Viridian City",
+  "sentences": [
+   {
+    "ja": "ほっほう！",
+    "en": "Ho ho!"
+   },
+   {
+    "ja": "ポケモンずかん　つくっとるか なら　わしから　アドバイスじゃ！",
+    "en": "Making a Pokédex, are you. Then, advice from me!"
+   },
+   {
+    "ja": "ポケモンを　つかまえて　しらべれば じどうてきに　ページが ふえて　いくんじゃよ！",
+    "en": "If (you) catch Pokémon and examine them, the pages increase automatically!"
+   },
+   {
+    "ja": "なんじゃー つかまえかたを　しらんのか！",
+    "en": "What, (you) don't know how to catch them!"
+   },
+   {
+    "ja": "では……　わしが おてほんを　みせて　やるかな！",
+    "en": "Well then... shall I show (you) an example!"
+   }
+  ]
  },
  "ViridianCityOldManText.TimeIsMoneyText": {
-  "en": "Time is money... ...time is money, eh.",
-  "who": "Old man in Viridian City"
+  "who": "Old man in Viridian City",
+  "sentences": [
+   {
+    "ja": "タイム　イズ　マネー…… ……　ときは　かねなりか",
+    "en": "Time is money... ...time is money, eh."
+   }
+  ]
  },
  "ViridianCityOldManYouNeedToWeakenTheTargetText": {
-  "en": "In the beginning, the trick is to weaken the Pokémon first and then take it!",
-  "who": "Old man in Viridian City"
+  "who": "Old man in Viridian City",
+  "sentences": [
+   {
+    "ja": "はじめの　うちは ポケモンを　よわらせてから とるのが　コツじゃ！",
+    "en": "In the beginning, the trick is to weaken the Pokémon first and then take it!"
+   }
+  ]
  },
  "ViridianCitySignText": {
-  "en": "Here is Tokiwa City. Tokiwa is green, the color of eternity.",
-  "who": "Sign"
+  "who": "Sign",
+  "sentences": [
+   {
+    "ja": "ここは　トキワシティ トキワは　みどり　えいえんのいろ",
+    "en": "Here is Tokiwa City. Tokiwa is green, the color of eternity."
+   }
+  ]
  },
  "ViridianCityTrainerTips1Text": {
-  "en": "...A bargain bulletin board!\n\nAnyway, catch Pokémon and increase them steadily! In matches with trainers too, having many is an advantage!",
-  "who": "Trainer tips board"
+  "who": "Trainer tips board",
+  "sentences": [
+   {
+    "ja": "……　おとくな　けいじばん！",
+    "en": "...A bargain bulletin board!"
+   },
+   {
+    "ja": "とにかく　ポケモンを　つかまえて ドンドン　ふやそう！",
+    "en": "Anyway, catch Pokémon and increase them steadily!"
+   },
+   {
+    "ja": "トレーナーとの　しょうぶも たくさん　もってると　ゆうり！",
+    "en": "In matches with trainers too, having many is an advantage!"
+   }
+  ]
  },
  "ViridianCityTrainerTips2Text": {
-  "en": "...A bargain bulletin board!\n\nBesides stamina, Pokémon have power points, the source of energy for letting out moves.\n\nAlso when the power points for each move have run out, let them rest at a Pokémon Center!",
-  "who": "Trainer tips board"
+  "who": "Trainer tips board",
+  "sentences": [
+   {
+    "ja": "……　おとくな　けいじばん！",
+    "en": "...A bargain bulletin board!"
+   },
+   {
+    "ja": "ポケモンには　たいりょくの　ほか わざを　くりだす　げんきの　もと パワーポイントが　あります わざ　ごとの　パワーポイントが なくなった　ときも ポケモンセンターで　やすませて！",
+    "en": "Besides stamina, Pokémon have power points, the source of energy for letting out moves. Also when the power points for each move have run out, let them rest at a Pokémon Center!"
+   }
+  ]
  },
  "ViridianCityGymSignText": {
-  "en": "Tokiwa Pokémon Gym",
-  "who": "Sign"
+  "who": "Sign",
+  "sentences": [
+   {
+    "ja": "トキワ　ポケモンジム",
+    "en": "Tokiwa Pokémon Gym"
+   }
+  ]
  },
  "ViridianCityGymLockedText": {
-  "en": "On the door of the Tokiwa gym a key was hanging...!",
   "loose": "The Tokiwa gym's door was locked.",
-  "who": "Narration"
+  "who": "Narration",
+  "sentences": [
+   {
+    "ja": "トキワ　ジムのドアには カギが　かかって　いた……！",
+    "en": "On the door of the Tokiwa gym a key was hanging...!"
+   }
+  ]
  },
  "ViridianPokecenterGentlemanText": {
-  "en": "The computer in the corner, please, use it freely!\n\n...so the young lady at reception was saying. Kind, isn't she.",
-  "who": "Gentleman in the Pokémon Center"
+  "who": "Gentleman in the Pokémon Center",
+  "sentences": [
+   {
+    "ja": "すみに　ある　パソコンは　どうぞ ごじゆうに　おつかいください！",
+    "en": "The computer in the corner, please, use it freely!"
+   },
+   {
+    "ja": "……と　うけつけの　ねーちゃんが いっとった　しんせつやのう",
+    "en": "...so the young lady at reception was saying. Kind, isn't she."
+   }
+  ]
  },
  "ViridianPokecenterCooltrainerMText": {
-  "en": "Pokémon Centers, from here on, exist whatever town (you) go to!\n\nHowever many (Pokémon you) deposit, (it's) free, so using them often is good!",
-  "who": "Man in the Pokémon Center"
+  "who": "Man in the Pokémon Center",
+  "sentences": [
+   {
+    "ja": "ポケモンセンターは　このさき どこの　まちに　いっても　ある！",
+    "en": "Pokémon Centers, from here on, exist whatever town (you) go to!"
+   },
+   {
+    "ja": "なんびき　あずけても　ただ　だし こまめに　つかうと　いいよ！",
+    "en": "However many (Pokémon you) deposit, (it's) free, so using them often is good!"
+   }
+  ]
  },
  "ViridianMartClerkSayHiToOakText": {
-  "en": "Well! Give (my) regards to Professor Okido!",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "じゃ！",
+    "en": "Well!"
+   },
+   {
+    "ja": "オーキド　はかせに　よろしく！",
+    "en": "Give (my) regards to Professor Okido!"
+   }
+  ]
  },
  "ViridianMartClerkYouCameFromPalletTownText": {
-  "en": "Oh! You came from Masara Town, didn't you?",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "お！",
+    "en": "Oh!"
+   },
+   {
+    "ja": "きみは マサラ　タウンから　きたんだね？",
+    "en": "You came from Masara Town, didn't you?"
+   }
+  ]
  },
  "ViridianMartClerkParcelQuestText": {
-  "en": "(You) know Professor Okido, right?\n\n(I've) been asked (to deliver) this, would you hand it over!\n\n{player} took charge of a delivery from the shop!",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "オーキド　はかせを　しってるね？",
+    "en": "(You) know Professor Okido, right?"
+   },
+   {
+    "ja": "これ　たのまれてるんだけど わたして　くれるかい！",
+    "en": "(I've) been asked (to deliver) this, would you hand it over!"
+   },
+   {
+    "ja": "{player}は　ショップから とどけものを　あずかった！",
+    "en": "{player} took charge of a delivery from the shop!"
+   }
+  ]
  },
  "ViridianMartYoungsterText": {
-  "en": "Hey, this shop's best seller is antidote, they say!",
-  "who": "Boy in the mart"
+  "who": "Boy in the mart",
+  "sentences": [
+   {
+    "ja": "ねえ　この　みせの　うれすじは どくけし　なんだって！",
+    "en": "Hey, this shop's best seller is antidote, they say!"
+   }
+  ]
  },
  "ViridianMartCooltrainerMText": {
-  "en": "There isn't any, wound medicine... Here it seems to be sold out.",
-  "who": "Man in the mart"
+  "who": "Man in the mart",
+  "sentences": [
+   {
+    "ja": "ないなー　キズぐすり…… ここでは　うりきれてる　みたい",
+    "en": "There isn't any, wound medicine... Here it seems to be sold out."
+   }
+  ]
  },
  "ViridianSchoolHouseBrunetteGirlText": {
-  "en": "Phew. The things inside the notebook, I'm memorizing all of them.",
-  "who": "Girl in the school"
+  "who": "Girl in the school",
+  "sentences": [
+   {
+    "ja": "ふー ノートの　なかの　こと わたし　ぜんぶ　おぼえるの",
+    "en": "Phew. The things inside the notebook, I'm memorizing all of them."
+   }
+  ]
  },
  "ViridianSchoolHouseCooltrainerFText": {
-  "en": "Yes!\n\nWhat is written on the blackboard, look at it properly!",
-  "who": "Teacher in the school"
+  "who": "Teacher in the school",
+  "sentences": [
+   {
+    "ja": "はい！",
+    "en": "Yes!"
+   },
+   {
+    "ja": "こくばんに　かかれてる　こと ちゃんと　みて！",
+    "en": "What is written on the blackboard, look at it properly!"
+   }
+  ]
  },
  "ViridianNicknameHouseBaldingGuyText": {
-  "en": "Thinking up nicknames is fun... but difficult!\n\nElaborate nicknames are fine too, but easy to remember is number one, right!",
-  "who": "Balding man in the nickname house"
+  "who": "Balding man in the nickname house",
+  "sentences": [
+   {
+    "ja": "ニックネームを　かんがえることは たのしい……が　むずかしい！",
+    "en": "Thinking up nicknames is fun... but difficult!"
+   },
+   {
+    "ja": "こった　ニックネームも　いいが おぼえやすいのが　いちばん　やな！",
+    "en": "Elaborate nicknames are fine too, but easy to remember is number one, right!"
+   }
+  ]
  },
  "ViridianNicknameHouseLittleGirlText": {
-  "en": "My dad also loves Pokémon!",
-  "who": "Little girl in the nickname house"
+  "who": "Little girl in the nickname house",
+  "sentences": [
+   {
+    "ja": "うちの　とうちゃんも ポケモン　だいすきなのよ！",
+    "en": "My dad also loves Pokémon!"
+   }
+  ]
  },
  "ViridianNicknameHouseSpearowText.Text": {
-  "en": "Chirp chirp!",
-  "who": "Onichan the Spearow"
+  "who": "Onichan the Spearow",
+  "sentences": [
+   {
+    "ja": "チュ　チュン！",
+    "en": "Chirp chirp!"
+   }
+  ]
  },
  "ViridianNicknameHouseSpearySignText": {
-  "en": "Onisuzume, named 'Onichan'",
-  "who": "Sign"
+  "who": "Sign",
+  "sentences": [
+   {
+    "ja": "オニスズメ めいめい　「オニチャン」",
+    "en": "Onisuzume, named 'Onichan'"
+   }
+  ]
  },
  "AccessedBillsPCText": {
-  "en": "Connected with Masaki's computer!\n\nCalled up the Pokémon deposit system!"
+  "sentences": [
+   {
+    "ja": "マサキの　パソコンと　つないだ！",
+    "en": "Connected with Masaki's computer!"
+   },
+   {
+    "ja": "ポケモンの　あずかり　システムを よびだした！",
+    "en": "Called up the Pokémon deposit system!"
+   }
+  ]
  },
  "AccessedSomeonesPCText": {
-  "en": "Connected with someone's computer!\n\nCalled up the Pokémon deposit system!"
+  "sentences": [
+   {
+    "ja": "だれかの　パソコンと　つないだ！",
+    "en": "Connected with someone's computer!"
+   },
+   {
+    "ja": "ポケモンの　あずかり　システムを よびだした！",
+    "en": "Called up the Pokémon deposit system!"
+   }
+  ]
  },
  "PartyMenuUseTMText": {
-  "en": "Which Pokémon will (you) teach (it) to?"
+  "sentences": [
+   {
+    "ja": "どのポケモンに　おしえますか？",
+    "en": "Which Pokémon will (you) teach (it) to?"
+   }
+  ]
  },
  "AntidoteText": {
-  "en": "{name}'s poison disappeared clean and completely!"
+  "sentences": [
+   {
+    "ja": "{name}の　どくは きれい　さっぱり　なくなった！",
+    "en": "{name}'s poison disappeared clean and completely!"
+   }
+  ]
  },
  "ParlyzHealText": {
-  "en": "The numbness of {name}'s body came off."
+  "sentences": [
+   {
+    "ja": "{name}の　からだの しびれが　とれた",
+    "en": "The numbness of {name}'s body came off."
+   }
+  ]
  },
  "BurnHealText": {
-  "en": "{name}'s burn healed."
+  "sentences": [
+   {
+    "ja": "{name}の やけどが　なおった",
+    "en": "{name}'s burn healed."
+   }
+  ]
  },
  "ItemUseBallText00": {
-  "en": "(It) was dodged! This one looks like it won't be caught!"
+  "sentences": [
+   {
+    "ja": "よけられた！",
+    "en": "(It) was dodged!"
+   },
+   {
+    "ja": "こいつは　つかまりそうにないぞ！",
+    "en": "This one looks like it won't be caught!"
+   }
+  ]
  },
  "ItemUseBallText01": {
-  "en": "(It) didn't hit the Pokémon well!"
+  "sentences": [
+   {
+    "ja": "ポケモンに うまく　あたらなかった！",
+    "en": "(It) didn't hit the Pokémon well!"
+   }
+  ]
  },
  "ItemUseBallText02": {
-  "en": "Too bad! The Pokémon came out of the ball!"
+  "sentences": [
+   {
+    "ja": "ざんねん！",
+    "en": "Too bad!"
+   },
+   {
+    "ja": "ポケモンが ボールから　でてしまった！",
+    "en": "The Pokémon came out of the ball!"
+   }
+  ]
  },
  "ItemUseBallText03": {
-  "en": "Ah! And (I) thought (I) had caught it!"
+  "sentences": [
+   {
+    "ja": "ああ！",
+    "en": "Ah!"
+   },
+   {
+    "ja": "つかまえたと　おもったのに！",
+    "en": "And (I) thought (I) had caught it!"
+   }
+  ]
  },
  "ItemUseBallText04": {
-  "en": "So close! (It) was just a little bit more!"
+  "sentences": [
+   {
+    "ja": "おしい！",
+    "en": "So close!"
+   },
+   {
+    "ja": "あと　ちょっとの　ところだったのに！",
+    "en": "(It) was just a little bit more!"
+   }
+  ]
  },
  "ItemUseBallText05": {
-  "en": "Yay! Caught {enemy}!"
+  "sentences": [
+   {
+    "ja": "やったー！",
+    "en": "Yay!"
+   },
+   {
+    "ja": "{enemy}を　つかまえたぞ！",
+    "en": "Caught {enemy}!"
+   }
+  ]
  },
  "ItemUseBallText06": {
-  "en": "{enemy}'s data will be newly saved in the Pokédex!"
+  "sentences": [
+   {
+    "ja": "{enemy}の　データが　あたらしく ポケモンずかんに　セーブされます！",
+    "en": "{enemy}'s data will be newly saved in the Pokédex!"
+   }
+  ]
  },
  "BootedUpTMText": {
-  "en": "Booted up the move machine!"
+  "sentences": [
+   {
+    "ja": "わざマシンを　きどうした！",
+    "en": "Booted up the move machine!"
+   }
+  ]
  },
  "TeachMachineMoveText": {
-  "en": "Inside, {name} was recorded!\n\nMake a Pokémon learn {name}?"
+  "sentences": [
+   {
+    "ja": "なかには{name}が きろくされていた！",
+    "en": "Inside, {name} was recorded!"
+   },
+   {
+    "ja": "{name}を ポケモンに　おぼえさせますか？",
+    "en": "Make a Pokémon learn {name}?"
+   }
+  ]
  },
  "MonCannotLearnMachineMoveText": {
-  "en": "{name} and {name} had bad compatibility!\n\n{name} cannot learn (it)!"
+  "sentences": [
+   {
+    "ja": "{name}と{name}は あいしょうが　わるかった！",
+    "en": "{name} and {name} had bad compatibility!"
+   },
+   {
+    "ja": "{name}は　おぼえられない！",
+    "en": "{name} cannot learn (it)!"
+   }
+  ]
  },
  "ItemUseNotTimeText": {
-  "en": "Okido's words... {player}! For things like this there is a time to use them!"
+  "sentences": [
+   {
+    "ja": "オーキドの　ことば…… {player}よ！",
+    "en": "Okido's words... {player}!"
+   },
+   {
+    "ja": "こういうものには つかいどきが　あるのじゃ！",
+    "en": "For things like this there is a time to use them!"
+   }
+  ]
  },
  "ItemUseNotYoursToUseText": {
-  "en": "(It's) an important thing (you) were entrusted with! Using it cannot be done!"
+  "sentences": [
+   {
+    "ja": "たいせつな　あずかりものです！",
+    "en": "(It's) an important thing (you) were entrusted with!"
+   },
+   {
+    "ja": "つかうことは　できません！",
+    "en": "Using it cannot be done!"
+   }
+  ]
  },
  "TooImportantToTossText": {
-  "en": "That is a very important thing. Throwing it away cannot be done!"
+  "sentences": [
+   {
+    "ja": "それは　とても　たいせつなモノです すてることは　できません！",
+    "en": "That is a very important thing. Throwing it away cannot be done!"
+   }
+  ]
  },
  "DisplayBattleMenu": {
-  "en": "Old man",
-  "loose": "Shown as the trainer name while the old man demonstrates catching."
+  "loose": "Shown as the trainer name while the old man demonstrates catching.",
+  "sentences": [
+   {
+    "ja": "おじいさん",
+    "en": "Old man"
+   }
+  ]
  },
  "PokemartGreetingText": {
-  "en": "Welcome! Is there something (you're) looking for?",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "ようこそ！",
+    "en": "Welcome!"
+   },
+   {
+    "ja": "おさがしものですか？",
+    "en": "Is there something (you're) looking for?"
+   }
+  ]
  },
  "MartSignText": {
-  "en": "Full of Pokémon goods! Friendly Shop",
-  "who": "Sign"
+  "who": "Sign",
+  "sentences": [
+   {
+    "ja": "ポケモン　グッズが　いっぱい！",
+    "en": "Full of Pokémon goods!"
+   },
+   {
+    "ja": "フレンドリィショップ",
+    "en": "Friendly Shop"
+   }
+  ]
  },
  "PokeCenterSignText": {
-  "en": "Pokémon stamina recovery! Pokémon Center",
-  "who": "Sign"
+  "who": "Sign",
+  "sentences": [
+   {
+    "ja": "ポケモンの　たいりょく　かいふく！",
+    "en": "Pokémon stamina recovery!"
+   },
+   {
+    "ja": "ポケモンセンター",
+    "en": "Pokémon Center"
+   }
+  ]
  },
  "BuySellQuitText": {
-  "en": "Came to buy\nCame to sell\nNothing in particular"
+  "sentences": [
+   {
+    "ja": "かいに　きた",
+    "en": "Came to buy"
+   },
+   {
+    "ja": "うりに　きた",
+    "en": "Came to sell"
+   },
+   {
+    "ja": "べつに　いいです",
+    "en": "Nothing in particular"
+   }
+  ]
  },
  "TwoOptionMenuStrings.HealCancelMenu": {
-  "en": "Deposit\nQuit"
+  "sentences": [
+   {
+    "ja": "あずける",
+    "en": "Deposit"
+   },
+   {
+    "ja": "やめる",
+    "en": "Quit"
+   }
+  ]
  },
  "PokemonCenterWelcomeText": {
-  "en": "Welcome! To the Pokémon Center.\n\nHere (we) do stamina recovery of Pokémon.",
-  "who": "Nurse"
+  "who": "Nurse",
+  "sentences": [
+   {
+    "ja": "ようこそ！",
+    "en": "Welcome!"
+   },
+   {
+    "ja": "ポケモンセンターへ ここでは　ポケモンの たいりょく　かいふくを　いたします",
+    "en": "To the Pokémon Center. Here (we) do stamina recovery of Pokémon."
+   }
+  ]
  },
  "ShallWeHealYourPokemonText": {
-  "en": "Will (you) deposit (your) Monster Balls?",
-  "who": "Nurse"
+  "who": "Nurse",
+  "sentences": [
+   {
+    "ja": "モンスターボールを おあずけに　なりますか？",
+    "en": "Will (you) deposit (your) Monster Balls?"
+   }
+  ]
  },
  "NeedYourPokemonText": {
-  "en": "Well then, (I) will humbly take them into (my) care!",
-  "who": "Nurse"
+  "who": "Nurse",
+  "sentences": [
+   {
+    "ja": "それでは あずからせて　いただきます！",
+    "en": "Well then, (I) will humbly take them into (my) care!"
+   }
+  ]
  },
  "PokemonFightingFitText": {
-  "en": "Thank you for waiting! The Pokémon (we) took care of have all become healthy!",
-  "who": "Nurse"
+  "who": "Nurse",
+  "sentences": [
+   {
+    "ja": "おまちどうさまでした！",
+    "en": "Thank you for waiting!"
+   },
+   {
+    "ja": "おあずかりした　ポケモンは みんな　げんきに　なりましたよ！",
+    "en": "The Pokémon (we) took care of have all become healthy!"
+   }
+  ]
  },
  "PokemonCenterFarewellText": {
-  "en": "(We) await your next use!",
   "loose": "We hope to see you again!",
-  "who": "Nurse"
+  "who": "Nurse",
+  "sentences": [
+   {
+    "ja": "またの ごりようを　おまちしてます！",
+    "en": "(We) await your next use!"
+   }
+  ]
  },
  "PokemartBuyingGreetingText": {
-  "en": "Please take your time looking.",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "ゆっくり　ごらんになって　ください",
+    "en": "Please take your time looking."
+   }
+  ]
  },
  "PokemartTellBuyPriceText": {
-  "en": "{name}, is it. That comes to {n} yen, but (is that okay)?",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "{name}ですね{n}円に　なりますが？",
+    "en": "{name}, is it. That comes to {n} yen, but (is that okay)?"
+   }
+  ]
  },
  "PokemartBoughtItemText": {
-  "en": "Yes, here you are. Thank you, as always.",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "はい　どうぞ まいど　ありがとう　ございます",
+    "en": "Yes, here you are. Thank you, as always."
+   }
+  ]
  },
  "PokemartNotEnoughMoneyText": {
-  "en": "(It) seems the money isn't enough.",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "おかねが　たりないようですね",
+    "en": "(It) seems the money isn't enough."
+   }
+  ]
  },
  "PokemartItemBagFullText": {
-  "en": "(You) can't carry more than that. Please sort out things (you) don't need.",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "それいじょう　もちきれませんね いらないモノを　せいりしてください",
+    "en": "(You) can't carry more than that. Please sort out things (you) don't need."
+   }
+  ]
  },
  "PokemonSellingGreetingText": {
-  "en": "Which would (you) sell (us)?",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "どれを　うっていただけますか？",
+    "en": "Which would (you) sell (us)?"
+   }
+  ]
  },
  "PokemartTellSellPriceText": {
-  "en": "If (it's) that, (we) shall take it off (your) hands for {n} yen.",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "それでしたら{n}円で おひきとりいたしましょう",
+    "en": "If (it's) that, (we) shall take it off (your) hands for {n} yen."
+   }
+  ]
  },
  "PokemartItemBagEmptyText": {
-  "en": "(You) don't seem to have goods (we) can buy.",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "かいとれる　しなものは おもちで　ないようです",
+    "en": "(You) don't seem to have goods (we) can buy."
+   }
+  ]
  },
  "PokemartUnsellableItemText": {
-  "en": "...(We) cannot put a price on that item.",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "……そのしなものに　おねだんを おつけするわけには　まいりません",
+    "en": "...(We) cannot put a price on that item."
+   }
+  ]
  },
  "PokemartThankYouText": {
-  "en": "Thank you very much.",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "ありがとう　ございました",
+    "en": "Thank you very much."
+   }
+  ]
  },
  "PokemartAnythingElseText": {
-  "en": "Is there anything else we can be of help with?",
-  "who": "Mart clerk"
+  "who": "Mart clerk",
+  "sentences": [
+   {
+    "ja": "そのほかに　わたくしどもで おちからに　なれることは？",
+    "en": "Is there anything else we can be of help with?"
+   }
+  ]
  },
  "LinkCableHelpText1": {
-  "en": "...Pokémon lecture!\n\nAbout how to play using the communication cable.",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "……　ポケモン　こうざ！",
+    "en": "...Pokémon lecture!"
+   },
+   {
+    "ja": "つうしん　ケーブルを　つかった あそびかた　に　ついて",
+    "en": "About how to play using the communication cable."
+   }
+  ]
  },
  "LinkCableHelpText2": {
-  "en": "Which item will (you) read?",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "どの　こうもくを　よみますか？",
+    "en": "Which item will (you) read?"
+   }
+  ]
  },
  "HowToLinkText": {
-  "en": "To play with the cable\nColosseum\nTrade Center\nStop reading"
+  "sentences": [
+   {
+    "ja": "ケーブルで　あそぶには",
+    "en": "To play with the cable"
+   },
+   {
+    "ja": "コロシアム",
+    "en": "Colosseum"
+   },
+   {
+    "ja": "トレード　センター",
+    "en": "Trade Center"
+   },
+   {
+    "ja": "よむ　の　やめる",
+    "en": "Stop reading"
+   }
+  ]
  },
  "LinkCableInfoText1": {
-  "en": "Once (you) connect with a friend's Game Boy by cable, the young lady at the counter on the right side of the Pokémon Center will guide (you).",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "ともだちの　ゲームボーイと ケーブルで　つないだら ポケモン　センター　みぎがわの カウンターの　おねえさんが あんない　してくれます",
+    "en": "Once (you) connect with a friend's Game Boy by cable, the young lady at the counter on the right side of the Pokémon Center will guide (you)."
+   }
+  ]
  },
  "LinkCableInfoText2": {
-  "en": "The Colosseum is the room (you) enter when battling with a friend.",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "コロシアムは ともだちと　たいせん　するとき はいる　へや　です",
+    "en": "The Colosseum is the room (you) enter when battling with a friend."
+   }
+  ]
  },
  "LinkCableInfoText3": {
-  "en": "The Trade Center is the room (you) enter when exchanging Pokémon with a friend.",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "トレードセンターは　ともだちと ポケモンを　こうかん　する　とき はいる　へや　です",
+    "en": "The Trade Center is the room (you) enter when exchanging Pokémon with a friend."
+   }
+  ]
  },
  "ViridianSchoolBlackboardText1": {
-  "en": "On the blackboard is written about the changes of condition that happen while Pokémon are fighting.",
-  "who": "Narration"
+  "who": "Narration",
+  "sentences": [
+   {
+    "ja": "こくばんに ポケモンが　たたかってる　とき おこる　たいちょうの へんかに　ついて　かかれてる",
+    "en": "On the blackboard is written about the changes of condition that happen while Pokémon are fighting."
+   }
+  ]
  },
  "ViridianSchoolBlackboardText2": {
-  "en": "Which item will (you) look at?"
+  "sentences": [
+   {
+    "ja": "どの　こうもくを　みますか？",
+    "en": "Which item will (you) look at?"
+   }
+  ]
  },
  "StatusAilmentText1": {
-  "en": "Sleep\nPoison\nParalysis"
+  "sentences": [
+   {
+    "ja": "ねむり",
+    "en": "Sleep"
+   },
+   {
+    "ja": "どく",
+    "en": "Poison"
+   },
+   {
+    "ja": "マヒ",
+    "en": "Paralysis"
+   }
+  ]
  },
  "StatusAilmentText2": {
-  "en": "Burn\nIce\nQuit"
+  "sentences": [
+   {
+    "ja": "やけど",
+    "en": "Burn"
+   },
+   {
+    "ja": "こおり",
+    "en": "Ice"
+   },
+   {
+    "ja": "やめる",
+    "en": "Quit"
+   }
+  ]
  },
  "ViridianBlackboardSleepText": {
-  "en": "When (it) ends up asleep, during that interval (it) cannot attack!\n\nEven when the fight ends (it) stays asleep. With a sleep-waker (its) eyes open.",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "ねてしまうと　その　あいだは こうげき　できません！",
+    "en": "When (it) ends up asleep, during that interval (it) cannot attack!"
+   },
+   {
+    "ja": "たたかい　おわっても　ねたまま ねむけざましで　めが　さめます",
+    "en": "Even when the fight ends (it) stays asleep. With a sleep-waker (its) eyes open."
+   }
+  ]
  },
  "ViridianBlackboardPoisonText": {
-  "en": "When (it) takes poison, (its) stamina keeps decreasing.\n\nEven when the fight ends the poison remains, but with an antidote it disappears!",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "どくを　くらうと たいりょくが　へって　いきます たたかい　おわっても どくは　のこりますが どくけしで　きえます！",
+    "en": "When (it) takes poison, (its) stamina keeps decreasing. Even when the fight ends the poison remains, but with an antidote it disappears!"
+   }
+  ]
  },
  "ViridianBlackboardPrlzText": {
-  "en": "When paralyzed, moves sometimes stop coming out!\n\nEven when the fight ends the paralysis remains. Also, with a paralysis-healer it heals.",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "マヒすると　わざが ときどき　でなく　なります！",
+    "en": "When paralyzed, moves sometimes stop coming out!"
+   },
+   {
+    "ja": "たたかい　おわっても マヒは　のこります また　マヒなおしで　なおります",
+    "en": "Even when the fight ends the paralysis remains. Also, with a paralysis-healer it heals."
+   }
+  ]
  },
  "ViridianBlackboardBurnText": {
-  "en": "A burn decreases stamina, and attack power and speed also end up going down!\n\nEven when the fight ends the burn remains. Also, with a burn-healer it heals.",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "やけどは　たいりょくが　へって こうげきりょくと　すばやさも さがって　しまいます！",
+    "en": "A burn decreases stamina, and attack power and speed also end up going down!"
+   },
+   {
+    "ja": "たたかい　おわっても やけどは　のこります また　やけどなおしで　なおります",
+    "en": "Even when the fight ends the burn remains. Also, with a burn-healer it heals."
+   }
+  ]
  },
  "ViridianBlackboardFrozenText": {
-  "en": "When (it) ends up frozen, (it) becomes completely unable to move!\n\nEven when the fight ends (it) stays frozen. If (you) don't thaw (it) with an ice-healer, the poor Pokémon.",
-  "who": "Blackboard"
+  "who": "Blackboard",
+  "sentences": [
+   {
+    "ja": "こおって　しまうと まったく　うごけなく　なります！",
+    "en": "When (it) ends up frozen, (it) becomes completely unable to move!"
+   },
+   {
+    "ja": "たたかい　おわっても　こおってます こおりなおしで　とかさないと ポケモンが　かわいそう",
+    "en": "Even when the fight ends (it) stays frozen. If (you) don't thaw (it) with an ice-healer, the poor Pokémon."
+   }
+  ]
  },
  "TMNotebook": {
-  "en": "(It's) a pamphlet on move machines! ......\n\nMove machines, fifty kinds in all!\n\nSecret machines are the type that doesn't run out even when used. There are five kinds in all.\n\n...Silph Company",
-  "who": "Pamphlet"
+  "who": "Pamphlet",
+  "sentences": [
+   {
+    "ja": "わざマシンの　パンフレットだ！",
+    "en": "(It's) a pamphlet on move machines!"
+   },
+   {
+    "ja": "……　…… わざマシンは ぜんぶで　５０しゅるい！",
+    "en": "...... Move machines, fifty kinds in all!"
+   },
+   {
+    "ja": "ひでんマシンは つかっても　なくならない　タイプ ぜんぶで　５しゅるい　あります ……　シルフ　カンパニー",
+    "en": "Secret machines are the type that doesn't run out even when used. There are five kinds in all. ...Silph Company"
+   }
+  ]
  },
  "TurnPageText": {
-  "en": "Shall (I) open the next page?"
+  "sentences": [
+   {
+    "ja": "つぎのページ　あけちゃおうか？",
+    "en": "Shall (I) open the next page?"
+   }
+  ]
  },
  "ViridianSchoolNotebookText5": {
-  "en": "Ah! Don't look at (my) notebook!",
-  "who": "Girl in the school"
+  "who": "Girl in the school",
+  "sentences": [
+   {
+    "ja": "あー！",
+    "en": "Ah!"
+   },
+   {
+    "ja": "ノート　みちゃ　だめ！",
+    "en": "Don't look at (my) notebook!"
+   }
+  ]
  },
  "ViridianSchoolNotebookText1": {
-  "en": "Peeked into the notebook!\n\nPage 1...\n\nPokémon are caught with Monster Balls, and up to six can be carried around.\n\nA person who raises Pokémon and makes them fight is called a Pokémon trainer.",
-  "who": "Notebook"
+  "who": "Notebook",
+  "sentences": [
+   {
+    "ja": "ノートを　のぞいた！",
+    "en": "Peeked into the notebook!"
+   },
+   {
+    "ja": "１ページめ　…… ポケモンは モンスターボールで　つかまえて ６つまで　もち　あるける ポケモンを　そだてて　たたかわせる ひとを　ポケモン　トレーナーという",
+    "en": "Page 1... Pokémon are caught with Monster Balls, and up to six can be carried around. A person who raises Pokémon and makes them fight is called a Pokémon trainer."
+   }
+  ]
  },
  "ViridianSchoolNotebookText2": {
-  "en": "Page 2...\n\nWhen catching Pokémon, first weaken them! Weakening them with poison or burns is fine too!\n\nIf (they're) healthy, (you) may not be able to take them well.",
-  "who": "Notebook"
+  "who": "Notebook",
+  "sentences": [
+   {
+    "ja": "２ページめ　…… ポケモンを　つかまえる　ときは まず　よわらせてから！",
+    "en": "Page 2... When catching Pokémon, first weaken them!"
+   },
+   {
+    "ja": "どくや　やけどで よわらせても　いいよ！",
+    "en": "Weakening them with poison or burns is fine too!"
+   },
+   {
+    "ja": "げんきだと　うまく　とれないかも",
+    "en": "If (they're) healthy, (you) may not be able to take them well."
+   }
+  ]
  },
  "ViridianSchoolNotebookText3": {
-  "en": "Page 3...\n\nMaking Pokémon fight each other and winning is, for a trainer, the greatest joy!\n\nAt the Pokémon gyms in each region, fierce fights are always unfolding!",
-  "who": "Notebook"
+  "who": "Notebook",
+  "sentences": [
+   {
+    "ja": "３ページめ　…… ポケモンどうしを　たたかわせ かつことは　トレーナーに　とって さいこうの　よろこび　である！",
+    "en": "Page 3... Making Pokémon fight each other and winning is, for a trainer, the greatest joy!"
+   },
+   {
+    "ja": "かくちの　ポケモン　ジムでは いつも　はげしい たたかいが　くりひろげられてる！",
+    "en": "At the Pokémon gyms in each region, fierce fights are always unfolding!"
+   }
+  ]
  },
  "ViridianSchoolNotebookText4": {
-  "en": "Page 4...\n\nThe goal of a Pokémon trainer is to defeat the strong trainers in the gyms of each region, the group of eight!\n\nFurthermore, at the Pokémon League headquarters... fiercely strong! The Four Heavenly Kings reign!",
   "loose": "The Four Heavenly Kings are the Elite Four.",
-  "who": "Notebook"
+  "who": "Notebook",
+  "sentences": [
+   {
+    "ja": "４ページめ　…… ポケモントレーナーの　もくひょうは かくちの　ジムに　いる つよい　トレーナー ８にんしゅうを　たおすこと！",
+    "en": "Page 4... The goal of a Pokémon trainer is to defeat the strong trainers in the gyms of each region, the group of eight!"
+   },
+   {
+    "ja": "さらに　ポケモンリーグ　ほんぶには ……　もうれつに　つよい！",
+    "en": "Furthermore, at the Pokémon League headquarters... fiercely strong!"
+   },
+   {
+    "ja": "してんのうが　くんりん　してる！",
+    "en": "The Four Heavenly Kings reign!"
+   }
+  ]
  },
  "BillsPCMenuText": {
-  "en": "Take a Pokémon along\nDeposit a Pokémon\nRelease a Pokémon\nChange box\nGoodbye"
+  "sentences": [
+   {
+    "ja": "ポケモンを　つれていく",
+    "en": "Take a Pokémon along"
+   },
+   {
+    "ja": "ポケモンを　あずける",
+    "en": "Deposit a Pokémon"
+   },
+   {
+    "ja": "ポケモンを　にがす",
+    "en": "Release a Pokémon"
+   },
+   {
+    "ja": "ボックスを　かえる",
+    "en": "Change box"
+   },
+   {
+    "ja": "さようなら",
+    "en": "Goodbye"
+   }
+  ]
  },
  "BoxNoPCText": {
-  "en": "Current box"
+  "sentences": [
+   {
+    "ja": "いまのボックス",
+    "en": "Current box"
+   }
+  ]
  },
  "StatsCancelPCText": {
-  "en": "See strength\nCancel"
+  "sentences": [
+   {
+    "ja": "つよさをみる",
+    "en": "See strength"
+   },
+   {
+    "ja": "キャンセル",
+    "en": "Cancel"
+   }
+  ]
  },
  "SwitchOnText": {
-  "en": "Switch on!"
+  "sentences": [
+   {
+    "ja": "スイッチ　オン！",
+    "en": "Switch on!"
+   }
+  ]
  },
  "WhatText": {
-  "en": "What'll (you) do?",
   "loose": "Kansai dialect: なんに するん = なにに するの",
-  "who": "Masaki's PC"
+  "who": "Masaki's PC",
+  "sentences": [
+   {
+    "ja": "なんに　するん？",
+    "en": "What'll (you) do?"
+   }
+  ]
  },
  "DepositWhichMonText": {
-  "en": "Which Pokémon do (you) want to deposit?",
   "loose": "Kansai dialect: あずけたいんや = あずけたいの",
-  "who": "Masaki's PC"
+  "who": "Masaki's PC",
+  "sentences": [
+   {
+    "ja": "どの　ポケモンを あずけたいんや？",
+    "en": "Which Pokémon do (you) want to deposit?"
+   }
+  ]
  },
  "MonWasStoredText": {
-  "en": "Deposited {name} in box {boxnumstring}!"
+  "sentences": [
+   {
+    "ja": "{name}を　ボックス{boxnumstring}に あずけた！",
+    "en": "Deposited {name} in box {boxnumstring}!"
+   }
+  ]
  },
  "CantDepositLastMonText": {
-  "en": "If (you) deposit that, won't (you) be in trouble?",
   "loose": "Kansai dialect: こまるん ちゃう = こまるんじゃない",
-  "who": "Masaki's PC"
+  "who": "Masaki's PC",
+  "sentences": [
+   {
+    "ja": "それ　あずけたら こまるん　ちゃう？",
+    "en": "If (you) deposit that, won't (you) be in trouble?"
+   }
+  ]
  },
  "BoxFullText": {
-  "en": "Oops! I'm full of Pokémon.",
   "loose": "Kansai dialect: ウチは ... いっぱいや = わたしは ... いっぱいだ",
-  "who": "Masaki's PC"
+  "who": "Masaki's PC",
+  "sentences": [
+   {
+    "ja": "あちゃ！",
+    "en": "Oops!"
+   },
+   {
+    "ja": "ウチは ポケモンで　いっぱいや",
+    "en": "I'm full of Pokémon."
+   }
+  ]
  },
  "MonIsTakenOutText": {
-  "en": "Decided to take {name} along again! Received {name}!"
+  "sentences": [
+   {
+    "ja": "{name}を また　つれていく　ことにした！",
+    "en": "Decided to take {name} along again!"
+   },
+   {
+    "ja": "{name}を　うけとった！",
+    "en": "Received {name}!"
+   }
+  ]
  },
  "NoMonText": {
-  "en": "What? I'm not holding anything, you know?",
   "loose": "Kansai dialect: あずかっとらんで = あずかっていないよ",
-  "who": "Masaki's PC"
+  "who": "Masaki's PC",
+  "sentences": [
+   {
+    "ja": "なに？",
+    "en": "What?"
+   },
+   {
+    "ja": "ウチは　なんも　あずかっとらんで？",
+    "en": "I'm not holding anything, you know?"
+   }
+  ]
  },
  "CantTakeMonText": {
-  "en": "Even if (you) say that, (you) can't carry (more) Pokémon!\n\nFor now, if (you) deposit or release (one), wouldn't that be good?",
   "loose": "Kansai dialect: もちきれへんやんけ = もちきれないじゃないか; したら ええんちゃう = したら いいんじゃない",
-  "who": "Masaki's PC"
+  "who": "Masaki's PC",
+  "sentences": [
+   {
+    "ja": "そんなん　いうても ポケモン　もちきれへんやんけ！",
+    "en": "Even if (you) say that, (you) can't carry (more) Pokémon!"
+   },
+   {
+    "ja": "とりあえず　あずけるか　にがすか したら　ええんちゃう？",
+    "en": "For now, if (you) deposit or release (one), wouldn't that be good?"
+   }
+  ]
  },
  "ReleaseWhichMonText": {
-  "en": "Which Pokémon will (you) release?",
   "loose": "Kansai dialect: にがすんや = にがすの",
-  "who": "Masaki's PC"
+  "who": "Masaki's PC",
+  "sentences": [
+   {
+    "ja": "どの　ポケモンを にがすんや？",
+    "en": "Which Pokémon will (you) release?"
+   }
+  ]
  },
  "OnceReleasedText": {
-  "en": "If released, {name} won't come back anymore. Is that fine?",
   "loose": "Kansai dialect: もどってこんで ええんか = もどってこないで いいのか",
-  "who": "Masaki's PC"
+  "who": "Masaki's PC",
+  "sentences": [
+   {
+    "ja": "にがすと{name}は もう　もどってこんで　ええんか？",
+    "en": "If released, {name} won't come back anymore. Is that fine?"
+   }
+  ]
  },
  "MonWasReleasedText": {
-  "en": "Let {name} go free outside! Bye bye, {name}!"
+  "sentences": [
+   {
+    "ja": "{name}を そとに　にがして　あげた！",
+    "en": "Let {name} go free outside!"
+   },
+   {
+    "ja": "ばいばい{name}！",
+    "en": "Bye bye, {name}!"
+   }
+  ]
  },
  "JustAMomentText": {
-  "en": "Wait a moment, okay."
+  "sentences": [
+   {
+    "ja": "ちょっと　まってね",
+    "en": "Wait a moment, okay."
+   }
+  ]
  },
  "GetDexRatedText": {
-  "en": "Have the current Pokédex evaluated?"
+  "sentences": [
+   {
+    "ja": "げんざいの　ポケモンずかんを ひょうか　して　もらい　ますか？",
+    "en": "Have the current Pokédex evaluated?"
+   }
+  ]
  },
  "ClosedOaksPCText": {
-  "en": "...Ended the connection with Okido's computer!"
+  "sentences": [
+   {
+    "ja": "……　オーキドの　パソコンとの せつぞくを　おわった！",
+    "en": "...Ended the connection with Okido's computer!"
+   }
+  ]
  },
  "AccessedOaksPCText": {
-  "en": "Connected with Okido's computer!\n\nCalled up the Pokédex evaluation system!"
+  "sentences": [
+   {
+    "ja": "オーキドの　パソコンと　つないだ！",
+    "en": "Connected with Okido's computer!"
+   },
+   {
+    "ja": "ポケモン　ずかん ひょうか　システムを　よびだした！",
+    "en": "Called up the Pokédex evaluation system!"
+   }
+  ]
  }
 }

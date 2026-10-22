@@ -1,73 +1,289 @@
 {
  "OakSpeechText1": {
-  "en": "(We meet) for the first time! To the world of Pocket Monsters, welcome!\n\nMy name is Okido. By everyone (I) am looked up to as the Pokémon professor.",
   "loose": "Nice to meet you! Welcome to the world of Pocket Monsters! My name is Oak. People call me the Pokémon professor.",
-  "who": "Professor Okido"
+  "who": "Professor Okido",
+  "sentences": [
+   {
+    "ja": "はじめまして！",
+    "en": "(We meet) for the first time!"
+   },
+   {
+    "ja": "ポケット　モンスターの　せかいへ ようこそ！",
+    "en": "To the world of Pocket Monsters, welcome!"
+   },
+   {
+    "ja": "わたしの　なまえは　オーキド みんなからは　ポケモン　はかせと したわれて　おるよ",
+    "en": "My name is Okido. By everyone (I) am looked up to as the Pokémon professor."
+   }
+  ]
  },
  "OakSpeechText2": {
-  "en": "In this world, living things called Pocket Monsters live everywhere!\n\nThose living things called Pokémon, people make into pets, or use in matches...\n\nAnd...\n\nI am doing research on these Pokémon, that's what it is.",
-  "who": "Professor Okido"
+  "who": "Professor Okido",
+  "sentences": [
+   {
+    "ja": "この　せかいには ポケット　モンスターと　よばれる いきもの　たちが いたるところに　すんでいる！",
+    "en": "In this world, living things called Pocket Monsters live everywhere!"
+   },
+   {
+    "ja": "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ",
+    "en": "Those living things called Pokémon, people make into pets, or use in matches... And... I am doing research on these Pokémon, that's what it is."
+   }
+  ]
  },
  "IntroducePlayerText": {
-  "en": "Well then, first, your name, let (me) be told it!",
   "loose": "First, tell me your name.",
-  "who": "Professor Okido"
+  "who": "Professor Okido",
+  "sentences": [
+   {
+    "ja": "では　はじめに　きみの　なまえを おしえて　もらおう！",
+    "en": "Well then, first, your name, let (me) be told it!"
+   }
+  ]
  },
  "IntroduceRivalText": {
-  "en": "This guy is my grandchild. (He) is your childhood friend and is (your) rival.\n\n...Er? What was (his) name again?",
-  "who": "Professor Okido"
+  "who": "Professor Okido",
+  "sentences": [
+   {
+    "ja": "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である ···えーと？",
+    "en": "This guy is my grandchild. (He) is your childhood friend and is (your) rival. ...Er?"
+   },
+   {
+    "ja": "なまえは　なんて　いったかな？",
+    "en": "What was (his) name again?"
+   }
+  ]
  },
  "OakSpeechText3": {
-  "en": "{player}!\n\nAt last, from now, the beginning of your story!\n\nDreams and adventure! To the world of Pocket Monsters! Let's go!",
-  "who": "Professor Okido"
+  "who": "Professor Okido",
+  "sentences": [
+   {
+    "ja": "{player}！",
+    "en": "{player}!"
+   },
+   {
+    "ja": "いよいよ　これから きみの　ものがたりの　はじまりだ！",
+    "en": "At last, from now, the beginning of your story!"
+   },
+   {
+    "ja": "ゆめと　ぼうけんと！",
+    "en": "Dreams and adventure!"
+   },
+   {
+    "ja": "ポケット　モンスターの　せかいへ！",
+    "en": "To the world of Pocket Monsters!"
+   },
+   {
+    "ja": "レッツ　ゴー！",
+    "en": "Let's go!"
+   }
+  ]
  },
  "YourNameIsText": {
-  "en": "Hmm... {player}, (you) are called, then!",
   "loose": "So you're called {player}.",
-  "who": "Professor Okido"
+  "who": "Professor Okido",
+  "sentences": [
+   {
+    "ja": "ふむ··· {player}　と　いうんだな！",
+    "en": "Hmm... {player}, (you) are called, then!"
+   }
+  ]
  },
  "HisNameIsText": {
-  "en": "That's right, that's right! (I) remembered! (He) is the name {rival}.",
   "loose": "Right, I remember now! His name is {rival}.",
-  "who": "Professor Okido"
+  "who": "Professor Okido",
+  "sentences": [
+   {
+    "ja": "そうだ　そうだ！",
+    "en": "That's right, that's right!"
+   },
+   {
+    "ja": "おもいだしたぞ {rival}　という　なまえだ",
+    "en": "(I) remembered! (He) is the name {rival}."
+   }
+  ]
  },
  "DisplayIntroNameTextBox": {
-  "en": "Name candidates"
+  "sentences": [
+   {
+    "ja": "なまえこうほ",
+    "en": "Name candidates"
+   }
+  ]
  },
  "YourTextString": {
-  "en": "You"
+  "sentences": [
+   {
+    "ja": "あなた",
+    "en": "You"
+   }
+  ]
  },
  "RivalsTextString": {
-  "en": "Rival"
+  "sentences": [
+   {
+    "ja": "ライバル",
+    "en": "Rival"
+   }
+  ]
  },
  "NameTextString": {
-  "en": "'s name is?"
+  "sentences": [
+   {
+    "ja": "のなまえは？",
+    "en": "'s name is?"
+   }
+  ]
  },
  "HiraganaCharacters": {
-  "en": "The hiragana table, as laid out on the name-entry screen, with small ya yu yo tsu, dakuten, handakuten, the long-vowel mark, and a switch to katakana."
+  "sentences": [
+   {
+    "ja": "あかさたなはまやら",
+    "en": "a ka sa ta na ha ma ya ra"
+   },
+   {
+    "ja": "いきしちにひみゆり",
+    "en": "i ki shi chi ni hi mi yu ri"
+   },
+   {
+    "ja": "うくすつぬふむよる",
+    "en": "u ku su tsu nu fu mu yo ru"
+   },
+   {
+    "ja": "えけせてねへめわれ",
+    "en": "e ke se te ne he me wa re"
+   },
+   {
+    "ja": "おこそとのほもんろ",
+    "en": "o ko so to no ho mo n ro"
+   },
+   {
+    "ja": "ゃゅょっ゛゜ー",
+    "en": "small ya yu yo tsu, dakuten, handakuten, long-vowel mark"
+   },
+   {
+    "ja": "カナ",
+    "en": "katakana · switches the table"
+   }
+  ]
  },
  "KatakanaCharacters": {
-  "en": "The katakana table, as laid out on the name-entry screen, with a switch to hiragana."
+  "sentences": [
+   {
+    "ja": "アカサタナハマヤラ",
+    "en": "a ka sa ta na ha ma ya ra"
+   },
+   {
+    "ja": "イキシチニヒミユリ",
+    "en": "i ki shi chi ni hi mi yu ri"
+   },
+   {
+    "ja": "ウクスツヌフムヨル",
+    "en": "u ku su tsu nu fu mu yo ru"
+   },
+   {
+    "ja": "エケセテネヘメワレ",
+    "en": "e ke se te ne he me wa re"
+   },
+   {
+    "ja": "オコソトノホモンロ",
+    "en": "o ko so to no ho mo n ro"
+   },
+   {
+    "ja": "ャュョッ゛゜ー",
+    "en": "small ya yu yo tsu, dakuten, handakuten, long-vowel mark"
+   },
+   {
+    "ja": "かな",
+    "en": "hiragana · switches the table"
+   }
+  ]
  },
  "KanaInputText": {
-  "en": "Input"
+  "sentences": [
+   {
+    "ja": "にゅうりょく",
+    "en": "Input"
+   }
+  ]
  },
  "Dakutens": {
-  "en": "Pairs of plain and dakuten kana: ka ga, sa za, ta da, ha ba, and the same in katakana."
+  "sentences": [
+   {
+    "ja": "かが",
+    "en": "ka ga"
+   },
+   {
+    "ja": "さざ",
+    "en": "sa za"
+   },
+   {
+    "ja": "ただ",
+    "en": "ta da"
+   },
+   {
+    "ja": "はば",
+    "en": "ha ba"
+   },
+   {
+    "ja": "カガ",
+    "en": "ka ga"
+   },
+   {
+    "ja": "サザ",
+    "en": "sa za"
+   },
+   {
+    "ja": "タダ",
+    "en": "ta da"
+   },
+   {
+    "ja": "ハバ",
+    "en": "ha ba"
+   }
+  ]
  },
  "Handakutens": {
-  "en": "Pairs of plain and handakuten kana: ha pa, and the same in katakana."
+  "sentences": [
+   {
+    "ja": "はぱ",
+    "en": "ha pa"
+   },
+   {
+    "ja": "ハパ",
+    "en": "ha pa"
+   }
+  ]
  },
  "DefaultNamesPlayer": {
-  "en": "Decide by yourself"
+  "sentences": [
+   {
+    "ja": "じぶんできめる",
+    "en": "Decide by yourself"
+   }
+  ]
  },
  "DefaultNamesRival": {
-  "en": "Decide by yourself"
+  "sentences": [
+   {
+    "ja": "じぶんできめる",
+    "en": "Decide by yourself"
+   }
+  ]
  },
  "DefaultNamesPlayerList": {
-  "en": "Decide by yourself"
+  "sentences": [
+   {
+    "ja": "じぶんできめる",
+    "en": "Decide by yourself"
+   }
+  ]
  },
  "DefaultNamesRivalList": {
-  "en": "Decide by yourself"
+  "sentences": [
+   {
+    "ja": "じぶんできめる",
+    "en": "Decide by yourself"
+   }
+  ]
  }
 }

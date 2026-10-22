@@ -4,27 +4,32 @@
   {
    "label": "TypesIDNoOTText",
    "line": 198,
-   "text": "タイプ１／\nタイプ２／\nID№／\nおや／"
+   "text": "タイプ１／\nタイプ２／\nID№／\nおや／",
+   "list": true
   },
   {
    "label": "StatusText",
    "line": 205,
-   "text": "じょうたい／"
+   "text": "じょうたい／",
+   "list": true
   },
   {
    "label": "OKText",
    "line": 208,
-   "text": "ふつう"
+   "text": "ふつう",
+   "list": true
   },
   {
    "label": "PrintStatsBox.StatsText",
    "line": 276,
-   "text": "こうげき\nぼうぎょ\nすばやさ\nとくしゅ"
+   "text": "こうげき\nぼうぎょ\nすばやさ\nとくしゅ",
+   "list": true
   },
   {
    "label": "StatusScreenExpText",
    "line": 452,
-   "text": "けいけんち／\nあと"
+   "text": "けいけんち／\nあと",
+   "list": true
   }
  ]
 }

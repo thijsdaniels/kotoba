@@ -4,7 +4,8 @@
   {
    "label": "WaitingText",
    "line": 20,
-   "text": "つうしんたいきちゅう！"
+   "text": "つうしんたいきちゅう！",
+   "list": true
   }
  ]
 }

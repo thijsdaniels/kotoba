@@ -4,22 +4,26 @@
   {
    "label": "DiplomaPlayer",
    "line": 105,
-   "text": "プレーヤー"
+   "text": "プレーヤー",
+   "list": true
   },
   {
    "label": "DiplomaSama",
    "line": 108,
-   "text": "さま"
+   "text": "さま",
+   "list": true
   },
   {
    "label": "DiplomaCongrats",
    "line": 111,
-   "text": "あなたは　ポケモンずかんを\nみごと　かんせい　させました！\nその　いだいな　こうせきを\nしょうめい　します"
+   "text": "あなたは　ポケモンずかんを\nみごと　かんせい　させました！\nその　いだいな　こうせきを\nしょうめい　します",
+   "list": true
   },
   {
    "label": "DiplomaGameFreak",
    "line": 117,
-   "text": "ゲームフリーク"
+   "text": "ゲームフリーク",
+   "list": true
   }
  ]
 }

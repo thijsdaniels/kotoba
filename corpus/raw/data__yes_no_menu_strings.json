@@ -4,37 +4,44 @@
   {
    "label": "TwoOptionMenuStrings.NoYesMenu",
    "line": 20,
-   "text": "いいえ\nはい"
+   "text": "いいえ\nはい",
+   "list": true
   },
   {
    "label": "TwoOptionMenuStrings.YesNoMenu",
    "line": 24,
-   "text": "はい\nいいえ"
+   "text": "はい\nいいえ",
+   "list": true
   },
   {
    "label": "TwoOptionMenuStrings.NorthWestMenu",
    "line": 28,
-   "text": "きた\nにし"
+   "text": "きた\nにし",
+   "list": true
   },
   {
    "label": "TwoOptionMenuStrings.SouthEastMenu",
    "line": 32,
-   "text": "みなみ\nひがし"
+   "text": "みなみ\nひがし",
+   "list": true
   },
   {
    "label": "TwoOptionMenuStrings.NorthEastMenu",
    "line": 36,
-   "text": "きた\nひがし"
+   "text": "きた\nひがし",
+   "list": true
   },
   {
    "label": "TwoOptionMenuStrings.TradeCancelMenu",
    "line": 40,
-   "text": "こうかん\nやめる"
+   "text": "こうかん\nやめる",
+   "list": true
   },
   {
    "label": "TwoOptionMenuStrings.HealCancelMenu",
    "line": 44,
-   "text": "あずける\nやめる"
+   "text": "あずける\nやめる",
+   "list": true
   }
  ]
 }

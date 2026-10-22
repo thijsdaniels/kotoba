@@ -4,7 +4,8 @@
   {
    "label": "HallOfFameNoText",
    "line": 115,
-   "text": "だい　　　かい　でんどういり"
+   "text": "だい　　　かい　でんどういり",
+   "list": true
   },
   {
    "label": "AccessedHoFPCText",

@@ -4,12 +4,14 @@
   {
    "label": "CeladonGym_Script.CityName",
    "line": 19,
-   "text": "タマムシ"
+   "text": "タマムシ",
+   "list": true
   },
   {
    "label": "CeladonGym_Script.LeaderName",
    "line": 22,
-   "text": "エリカ"
+   "text": "エリカ",
+   "list": true
   },
   {
    "label": "CeladonGymErikaText.PreBattleText",

@@ -7,121 +7,223 @@
    "source": "engine/movie/oak_speech/oak_speech.asm",
    "label": "OakSpeechText1",
    "line": 168,
-   "text": "はじめまして！\nポケット　モンスターの　せかいへ\nようこそ！\n\nわたしの　なまえは　オーキド\nみんなからは　ポケモン　はかせと\nしたわれて　おるよ"
+   "text": "はじめまして！\nポケット　モンスターの　せかいへ\nようこそ！\n\nわたしの　なまえは　オーキド\nみんなからは　ポケモン　はかせと\nしたわれて　おるよ",
+   "sentences": [
+    "はじめまして！",
+    "ポケット　モンスターの　せかいへ ようこそ！",
+    "わたしの　なまえは　オーキド みんなからは　ポケモン　はかせと したわれて　おるよ"
+   ]
   },
   {
    "source": "engine/movie/oak_speech/oak_speech.asm",
    "label": "OakSpeechText2",
    "line": 178,
-   "text": "この　せかいには\nポケット　モンスターと　よばれる\n\nいきもの　たちが\nいたるところに　すんでいる！\n\nその　ポケモン　という　いきものを\nひとは　ペットに　したり\nしょうぶに　つかったり···\n\nそして···\n\nわたしは　この　ポケモンの\nけんきゅうを　してる　というわけだ"
+   "text": "この　せかいには\nポケット　モンスターと　よばれる\n\nいきもの　たちが\nいたるところに　すんでいる！\n\nその　ポケモン　という　いきものを\nひとは　ペットに　したり\nしょうぶに　つかったり···\n\nそして···\n\nわたしは　この　ポケモンの\nけんきゅうを　してる　というわけだ",
+   "sentences": [
+    "この　せかいには ポケット　モンスターと　よばれる いきもの　たちが いたるところに　すんでいる！",
+    "その　ポケモン　という　いきものを ひとは　ペットに　したり しょうぶに　つかったり··· そして··· わたしは　この　ポケモンの けんきゅうを　してる　というわけだ"
+   ]
   },
   {
    "source": "engine/movie/oak_speech/oak_speech.asm",
    "label": "IntroducePlayerText",
    "line": 198,
-   "text": "では　はじめに　きみの　なまえを\nおしえて　もらおう！"
+   "text": "では　はじめに　きみの　なまえを\nおしえて　もらおう！",
+   "sentences": [
+    "では　はじめに　きみの　なまえを おしえて　もらおう！"
+   ]
   },
   {
    "source": "engine/movie/oak_speech/oak_speech.asm",
    "label": "IntroduceRivalText",
    "line": 203,
-   "text": "こいつは　わたしの　まご\nきみの　おさななじみであり\nライバル　である\n\n···えーと？\nなまえは　なんて　いったかな？"
+   "text": "こいつは　わたしの　まご\nきみの　おさななじみであり\nライバル　である\n\n···えーと？\nなまえは　なんて　いったかな？",
+   "sentences": [
+    "こいつは　わたしの　まご きみの　おさななじみであり ライバル　である ···えーと？",
+    "なまえは　なんて　いったかな？"
+   ]
   },
   {
    "source": "engine/movie/oak_speech/oak_speech.asm",
    "label": "OakSpeechText3",
    "line": 212,
-   "text": "{player}！\n\nいよいよ　これから\nきみの　ものがたりの　はじまりだ！\n\nゆめと　ぼうけんと！\nポケット　モンスターの　せかいへ！\nレッツ　ゴー！"
+   "text": "{player}！\n\nいよいよ　これから\nきみの　ものがたりの　はじまりだ！\n\nゆめと　ぼうけんと！\nポケット　モンスターの　せかいへ！\nレッツ　ゴー！",
+   "sentences": [
+    "{player}！",
+    "いよいよ　これから きみの　ものがたりの　はじまりだ！",
+    "ゆめと　ぼうけんと！",
+    "ポケット　モンスターの　せかいへ！",
+    "レッツ　ゴー！"
+   ]
   },
   {
    "source": "engine/movie/oak_speech/oak_speech2.asm",
    "label": "YourNameIsText",
    "line": 30,
-   "text": "ふむ···\n{player}　と　いうんだな！"
+   "text": "ふむ···\n{player}　と　いうんだな！",
+   "sentences": [
+    "ふむ··· {player}　と　いうんだな！"
+   ]
   },
   {
    "source": "engine/movie/oak_speech/oak_speech2.asm",
    "label": "HisNameIsText",
    "line": 64,
-   "text": "そうだ　そうだ！　おもいだしたぞ\n{rival}　という　なまえだ"
+   "text": "そうだ　そうだ！　おもいだしたぞ\n{rival}　という　なまえだ",
+   "sentences": [
+    "そうだ　そうだ！",
+    "おもいだしたぞ {rival}　という　なまえだ"
+   ]
   },
   {
    "source": "engine/movie/oak_speech/oak_speech2.asm",
    "label": "DisplayIntroNameTextBox",
    "line": 164,
-   "text": "なまえこうほ"
+   "text": "なまえこうほ",
+   "list": true,
+   "sentences": [
+    "なまえこうほ"
+   ]
   },
   {
    "source": "engine/menus/naming_screen.asm",
    "label": "YourTextString",
    "line": 462,
-   "text": "あなた"
+   "text": "あなた",
+   "list": true,
+   "sentences": [
+    "あなた"
+   ]
   },
   {
    "source": "engine/menus/naming_screen.asm",
    "label": "RivalsTextString",
    "line": 465,
-   "text": "ライバル"
+   "text": "ライバル",
+   "list": true,
+   "sentences": [
+    "ライバル"
+   ]
   },
   {
    "source": "engine/menus/naming_screen.asm",
    "label": "NameTextString",
    "line": 468,
-   "text": "のなまえは？"
+   "text": "のなまえは？",
+   "list": true,
+   "sentences": [
+    "のなまえは？"
+   ]
   },
   {
    "source": "data/text/kana.asm",
    "label": "HiraganaCharacters",
    "line": 1,
-   "text": "あかさたなはまやら\nいきしちにひみゆり\nうくすつぬふむよる\nえけせてねへめわれ\nおこそとのほもんろ\nゃゅょっ゛゜ー\nカナ"
+   "text": "あかさたなはまやら\nいきしちにひみゆり\nうくすつぬふむよる\nえけせてねへめわれ\nおこそとのほもんろ\nゃゅょっ゛゜ー\nカナ",
+   "list": true,
+   "sentences": [
+    "あかさたなはまやら",
+    "いきしちにひみゆり",
+    "うくすつぬふむよる",
+    "えけせてねへめわれ",
+    "おこそとのほもんろ",
+    "ゃゅょっ゛゜ー",
+    "カナ"
+   ]
   },
   {
    "source": "data/text/kana.asm",
    "label": "KatakanaCharacters",
    "line": 10,
-   "text": "アカサタナハマヤラ\nイキシチニヒミユリ\nウクスツヌフムヨル\nエケセテネヘメワレ\nオコソトノホモンロ\nャュョッ゛゜ー\nかな"
+   "text": "アカサタナハマヤラ\nイキシチニヒミユリ\nウクスツヌフムヨル\nエケセテネヘメワレ\nオコソトノホモンロ\nャュョッ゛゜ー\nかな",
+   "list": true,
+   "sentences": [
+    "アカサタナハマヤラ",
+    "イキシチニヒミユリ",
+    "ウクスツヌフムヨル",
+    "エケセテネヘメワレ",
+    "オコソトノホモンロ",
+    "ャュョッ゛゜ー",
+    "かな"
+   ]
   },
   {
    "source": "data/text/kana.asm",
    "label": "KanaInputText",
    "line": 19,
-   "text": "にゅうりょく"
+   "text": "にゅうりょく",
+   "list": true,
+   "sentences": [
+    "にゅうりょく"
+   ]
   },
   {
    "source": "data/text/dakutens.asm",
    "label": "Dakutens",
    "line": 1,
-   "text": "かが\nさざ\nただ\nはば\nカガ\nサザ\nタダ\nハバ"
+   "text": "かが\nさざ\nただ\nはば\nカガ\nサザ\nタダ\nハバ",
+   "list": true,
+   "sentences": [
+    "かが",
+    "さざ",
+    "ただ",
+    "はば",
+    "カガ",
+    "サザ",
+    "タダ",
+    "ハバ"
+   ]
   },
   {
    "source": "data/text/dakutens.asm",
    "label": "Handakutens",
    "line": 12,
-   "text": "はぱ\nハパ"
+   "text": "はぱ\nハパ",
+   "list": true,
+   "sentences": [
+    "はぱ",
+    "ハパ"
+   ]
   },
   {
    "source": "data/player/names.asm",
    "label": "DefaultNamesPlayer",
    "line": 3,
-   "text": "じぶんできめる"
+   "text": "じぶんできめる",
+   "list": true,
+   "sentences": [
+    "じぶんできめる"
+   ]
   },
   {
    "source": "data/player/names.asm",
    "label": "DefaultNamesRival",
    "line": 10,
-   "text": "じぶんできめる"
+   "text": "じぶんできめる",
+   "list": true,
+   "sentences": [
+    "じぶんできめる"
+   ]
   },
   {
    "source": "data/player/names_list.asm",
    "label": "DefaultNamesPlayerList",
    "line": 3,
-   "text": "じぶんできめる"
+   "text": "じぶんできめる",
+   "list": true,
+   "sentences": [
+    "じぶんできめる"
+   ]
   },
   {
    "source": "data/player/names_list.asm",
    "label": "DefaultNamesRivalList",
    "line": 11,
-   "text": "じぶんできめる"
+   "text": "じぶんできめる",
+   "list": true,
+   "sentences": [
+    "じぶんできめる"
+   ]
   }
  ],
  "pokemon": [],

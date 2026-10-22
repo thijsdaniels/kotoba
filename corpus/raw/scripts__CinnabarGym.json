@@ -4,12 +4,14 @@
   {
    "label": "CinnabarGymSetMapAndTiles.CityName",
    "line": 26,
-   "text": "グレン"
+   "text": "グレン",
+   "list": true
   },
   {
    "label": "CinnabarGymSetMapAndTiles.LeaderName",
    "line": 29,
-   "text": "カツラ"
+   "text": "カツラ",
+   "list": true
   },
   {
    "label": "CinnabarGymBlaineText.PreBattleText",

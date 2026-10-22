@@ -4,12 +4,14 @@
   {
    "label": "DefaultNamesPlayerList",
    "line": 3,
-   "text": "じぶんできめる"
+   "text": "じぶんできめる",
+   "list": true
   },
   {
    "label": "DefaultNamesRivalList",
    "line": 11,
-   "text": "じぶんできめる"
+   "text": "じぶんできめる",
+   "list": true
   }
  ]
 }

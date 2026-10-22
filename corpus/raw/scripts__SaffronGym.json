@@ -4,12 +4,14 @@
   {
    "label": "SaffronGym_Script.CityName",
    "line": 19,
-   "text": "ヤマブキ"
+   "text": "ヤマブキ",
+   "list": true
   },
   {
    "label": "SaffronGym_Script.LeaderName",
    "line": 22,
-   "text": "ナツメ"
+   "text": "ナツメ",
+   "list": true
   },
   {
    "label": "SaffronGymSabrinaText.Text",

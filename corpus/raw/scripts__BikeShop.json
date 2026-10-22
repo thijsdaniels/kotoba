@@ -4,7 +4,8 @@
   {
    "label": "BikeShopMenuText",
    "line": 79,
-   "text": "じてんしゃ　１００００００円\nかわない"
+   "text": "じてんしゃ　１００００００円\nかわない",
+   "list": true
   },
   {
    "label": "BikeShopClerkWelcomeText",

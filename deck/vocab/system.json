@@ -6,7 +6,9 @@
   "romaji": "hiden mashin",
   "meaning": "HM · secret machine",
   "scope": "game",
-  "ref": "system/HiddenPrefix"
+  "ref": "system/HiddenPrefix",
+  "sentence": 0,
+  "surface": "ひでんマシン"
  },
  {
   "id": "i-zukan-short",
@@ -15,7 +17,9 @@
   "romaji": "zukan",
   "meaning": "Pokédex · encyclopedia, short",
   "scope": "game",
-  "ref": "system/StartMenuPokedexText"
+  "ref": "system/StartMenuPokedexText",
+  "sentence": 0,
+  "surface": "ずかん"
  },
  {
   "id": "animeeshon",
@@ -24,7 +28,9 @@
   "romaji": "animeeshon",
   "meaning": "animation",
   "scope": "general",
-  "ref": "system/BattleAnimationOptionText"
+  "ref": "system/BattleAnimationOptionText",
+  "sentence": 0,
+  "surface": "アニメーション"
  },
  {
   "id": "bajji",
@@ -33,7 +39,9 @@
   "romaji": "bajji",
   "meaning": "badge",
   "scope": "general",
-  "ref": "system/SaveScreenInfoText"
+  "ref": "system/SaveScreenInfoText",
+  "sentence": 1,
+  "surface": "バッジ"
  },
  {
   "id": "bougyo",
@@ -43,7 +51,9 @@
   "meaning": "defense",
   "scope": "general",
   "ref": "system/PrintStatsBox.StatsText",
-  "kanji": "防御"
+  "kanji": "防御",
+  "sentence": 1,
+  "surface": "ぼうぎょ"
  },
  {
   "id": "bunpu",
@@ -53,7 +63,9 @@
   "meaning": "distribution",
   "scope": "general",
   "ref": "system/PokedexMenuText",
-  "kanji": "分布"
+  "kanji": "分布",
+  "sentence": 2,
+  "surface": "ぶんぷ"
  },
  {
   "id": "dasu",
@@ -63,7 +75,9 @@
   "meaning": "to send out, to take out",
   "scope": "general",
   "ref": "system/PartyMenuBattleText",
-  "kanji": "出す"
+  "kanji": "出す",
+  "sentence": 0,
+  "surface": "だしますか"
  },
  {
   "id": "doko",
@@ -72,7 +86,9 @@
   "romaji": "doko",
   "meaning": "where",
   "scope": "general",
-  "ref": "system/PartyMenuSwapMonText"
+  "ref": "system/PartyMenuSwapMonText",
+  "sentence": 0,
+  "surface": "どこ"
  },
  {
   "id": "douji",
@@ -82,7 +98,9 @@
   "meaning": "the same time",
   "scope": "general",
   "ref": "system/WhenYouChangeBoxText",
-  "kanji": "同時"
+  "kanji": "同時",
+  "sentence": 0,
+  "surface": "どうじ"
  },
  {
   "id": "eria",
@@ -91,7 +109,9 @@
   "romaji": "eria",
   "meaning": "area",
   "scope": "general",
-  "ref": "system/ClearSaveDataText"
+  "ref": "system/ClearSaveDataText",
+  "sentence": 0,
+  "surface": "エリア"
  },
  {
   "id": "fairu",
@@ -100,7 +120,9 @@
   "romaji": "fairu",
   "meaning": "file",
   "scope": "general",
-  "ref": "system/FileDataDestroyedText"
+  "ref": "system/FileDataDestroyedText",
+  "sentence": 0,
+  "surface": "フアイル"
  },
  {
   "id": "futsuu",
@@ -110,7 +132,9 @@
   "meaning": "normal, ordinary",
   "scope": "general",
   "ref": "system/TextSpeedOptionText",
-  "kanji": "普通"
+  "kanji": "普通",
+  "sentence": 1,
+  "surface": "ふつう"
  },
  {
   "id": "hai",
@@ -119,7 +143,9 @@
   "romaji": "hai",
   "meaning": "yes",
   "scope": "general",
-  "ref": "system/TwoOptionMenuStrings.YesNoMenu"
+  "ref": "system/TwoOptionMenuStrings.YesNoMenu",
+  "sentence": 0,
+  "surface": "はい"
  },
  {
   "id": "idou",
@@ -129,7 +155,9 @@
   "meaning": "move, relocation",
   "scope": "general",
   "ref": "system/PartyMenuSwapMonText",
-  "kanji": "移動"
+  "kanji": "移動",
+  "sentence": 0,
+  "surface": "いどう"
  },
  {
   "id": "iie",
@@ -138,7 +166,9 @@
   "romaji": "iie",
   "meaning": "no",
   "scope": "general",
-  "ref": "system/TwoOptionMenuStrings.NoYesMenu"
+  "ref": "system/TwoOptionMenuStrings.NoYesMenu",
+  "sentence": 0,
+  "surface": "いいえ"
  },
  {
   "id": "irekae",
@@ -148,7 +178,9 @@
   "meaning": "switching, swapping",
   "scope": "general",
   "ref": "system/BattleStyleOptionText",
-  "kanji": "入れ替え"
+  "kanji": "入れ替え",
+  "sentence": 1,
+  "surface": "いれかえ"
  },
  {
   "id": "jikan",
@@ -158,7 +190,9 @@
   "meaning": "time, hours",
   "scope": "general",
   "ref": "system/SaveScreenInfoText",
-  "kanji": "時間"
+  "kanji": "時間",
+  "sentence": 3,
+  "surface": "じかん"
  },
  {
   "id": "jikkuri",
@@ -167,7 +201,9 @@
   "romaji": "jikkuri",
   "meaning": "carefully, taking one's time",
   "scope": "general",
-  "ref": "system/BattleAnimationOptionText"
+  "ref": "system/BattleAnimationOptionText",
+  "sentence": 1,
+  "surface": "じっくり"
  },
  {
   "id": "joutai",
@@ -177,7 +213,9 @@
   "meaning": "condition, state",
   "scope": "general",
   "ref": "system/StatusText",
-  "kanji": "状態"
+  "kanji": "状態",
+  "sentence": 0,
+  "surface": "じょうたい"
  },
  {
   "id": "kachinuki",
@@ -187,7 +225,9 @@
   "meaning": "knockout, winner stays on",
   "scope": "general",
   "ref": "system/BattleStyleOptionText",
-  "kanji": "勝ち抜き"
+  "kanji": "勝ち抜き",
+  "sentence": 1,
+  "surface": "かちぬき"
  },
  {
   "id": "kaeru-change",
@@ -198,7 +238,9 @@
   "scope": "general",
   "ref": "system/WhenYouChangeBoxText",
   "kanji": "変える",
-  "note": "Same sound as かえる to return, different kanji."
+  "note": "Same sound as かえる to return, different kanji.",
+  "sentence": 0,
+  "surface": "かえる"
  },
  {
   "id": "kakinokosu",
@@ -208,7 +250,9 @@
   "meaning": "to write down for later",
   "scope": "general",
   "ref": "system/GameSavedText",
-  "kanji": "書き残す"
+  "kanji": "書き残す",
+  "sentence": 0,
+  "surface": "かきのこした"
  },
  {
   "id": "kaku",
@@ -218,7 +262,9 @@
   "meaning": "to write",
   "scope": "general",
   "ref": "system/OlderFileWillBeErasedText",
-  "kanji": "書く"
+  "kanji": "書く",
+  "sentence": 0,
+  "surface": "かかれた"
  },
  {
   "id": "katsuyaku",
@@ -228,7 +274,9 @@
   "meaning": "activity, exploits",
   "scope": "general",
   "ref": "system/WouldYouLikeToSaveText",
-  "kanji": "活躍"
+  "kanji": "活躍",
+  "sentence": 0,
+  "surface": "かつやく"
  },
  {
   "id": "kowareru",
@@ -238,7 +286,9 @@
   "meaning": "to break, to be broken",
   "scope": "general",
   "ref": "system/FileDataDestroyedText",
-  "kanji": "壊れる"
+  "kanji": "壊れる",
+  "sentence": 0,
+  "surface": "こわれています"
  },
  {
   "id": "kuria",
@@ -247,7 +297,9 @@
   "romaji": "kuria",
   "meaning": "clear",
   "scope": "general",
-  "ref": "system/ClearSaveDataText"
+  "ref": "system/ClearSaveDataText",
+  "sentence": 0,
+  "surface": "クリア"
  },
  {
   "id": "kyanseru",
@@ -256,7 +308,9 @@
   "romaji": "kyanseru",
   "meaning": "cancel",
   "scope": "general",
-  "ref": "system/PokemonMenuEntries"
+  "ref": "system/PokemonMenuEntries",
+  "sentence": 2,
+  "surface": "キャンセル"
  },
  {
   "id": "mae",
@@ -266,7 +320,9 @@
   "meaning": "before, front",
   "scope": "general",
   "ref": "system/OlderFileWillBeErasedText",
-  "kanji": "前"
+  "kanji": "前",
+  "sentence": 0,
+  "surface": "まえ"
  },
  {
   "id": "messeeji",
@@ -275,7 +331,9 @@
   "romaji": "messeeji",
   "meaning": "message",
   "scope": "general",
-  "ref": "system/SaveMessageText"
+  "ref": "system/SaveMessageText",
+  "sentence": 1,
+  "surface": "メッセージ"
  },
  {
   "id": "mochimono",
@@ -285,7 +343,9 @@
   "meaning": "belongings",
   "scope": "general",
   "ref": "system/MochimonoText",
-  "kanji": "持ち物"
+  "kanji": "持ち物",
+  "sentence": 0,
+  "surface": "もちもの"
  },
  {
   "id": "narabikae",
@@ -295,7 +355,9 @@
   "meaning": "rearranging, reordering",
   "scope": "general",
   "ref": "system/PokemonMenuEntries",
-  "kanji": "並び替え"
+  "kanji": "並び替え",
+  "sentence": 1,
+  "surface": "ならびかえ"
  },
  {
   "id": "okane",
@@ -305,7 +367,9 @@
   "meaning": "money",
   "scope": "general",
   "ref": "system/MoneyText",
-  "kanji": "お金"
+  "kanji": "お金",
+  "sentence": 0,
+  "surface": "おかね"
  },
  {
   "id": "okozukai",
@@ -315,7 +379,9 @@
   "meaning": "pocket money, allowance",
   "scope": "general",
   "ref": "system/TrainerInfo_NameMoneyTimeText",
-  "kanji": "お小遣い"
+  "kanji": "お小遣い",
+  "sentence": 1,
+  "surface": "おこづかい"
  },
  {
   "id": "oriru",
@@ -325,7 +391,9 @@
   "meaning": "to get off, to get down",
   "scope": "general",
   "ref": "system/CannotGetOffHereText",
-  "kanji": "降りる"
+  "kanji": "降りる",
+  "sentence": 0,
+  "surface": "おりる"
  },
  {
   "id": "osoi",
@@ -335,7 +403,9 @@
   "meaning": "slow, late",
   "scope": "general",
   "ref": "system/TextSpeedOptionText",
-  "kanji": "遅い"
+  "kanji": "遅い",
+  "sentence": 1,
+  "surface": "おそい"
  },
  {
   "id": "owari",
@@ -345,7 +415,9 @@
   "meaning": "end",
   "scope": "general",
   "ref": "system/OptionMenuCancelText",
-  "kanji": "終わり"
+  "kanji": "終わり",
+  "sentence": 0,
+  "surface": "おわり"
  },
  {
   "id": "oya",
@@ -355,7 +427,9 @@
   "meaning": "parent · the original trainer",
   "scope": "general",
   "ref": "system/TypesIDNoOTText",
-  "kanji": "親"
+  "kanji": "親",
+  "sentence": 3,
+  "surface": "おや"
  },
  {
   "id": "risetto",
@@ -364,7 +438,9 @@
   "romaji": "risetto",
   "meaning": "reset",
   "scope": "general",
-  "ref": "system/StartMenuResetText"
+  "ref": "system/StartMenuResetText",
+  "sentence": 0,
+  "surface": "リセット"
  },
  {
   "id": "ruuru",
@@ -373,7 +449,9 @@
   "romaji": "ruuru",
   "meaning": "rule",
   "scope": "general",
-  "ref": "system/BattleStyleOptionText"
+  "ref": "system/BattleStyleOptionText",
+  "sentence": 0,
+  "surface": "ルール"
  },
  {
   "id": "saisho",
@@ -383,7 +461,9 @@
   "meaning": "the start, the first",
   "scope": "general",
   "ref": "system/NewGameText",
-  "kanji": "最初"
+  "kanji": "最初",
+  "sentence": 0,
+  "surface": "さいしょ"
  },
  {
   "id": "sentou",
@@ -393,7 +473,9 @@
   "meaning": "battle, combat",
   "scope": "general",
   "ref": "system/BattleAnimationOptionText",
-  "kanji": "戦闘"
+  "kanji": "戦闘",
+  "sentence": 0,
+  "surface": "せんとう"
  },
  {
   "id": "settei",
@@ -403,7 +485,9 @@
   "meaning": "settings",
   "scope": "general",
   "ref": "system/StartMenuOptionText",
-  "kanji": "設定"
+  "kanji": "設定",
+  "sentence": 0,
+  "surface": "せってい"
  },
  {
   "id": "shiai",
@@ -413,7 +497,9 @@
   "meaning": "match, game",
   "scope": "general",
   "ref": "system/BattleStyleOptionText",
-  "kanji": "試合"
+  "kanji": "試合",
+  "sentence": 0,
+  "surface": "しあい"
  },
  {
   "id": "shikkari",
@@ -422,7 +508,9 @@
   "romaji": "shikkari",
   "meaning": "firmly, properly",
   "scope": "general",
-  "ref": "system/GameSavedText"
+  "ref": "system/GameSavedText",
+  "sentence": 0,
+  "surface": "しっかり"
  },
  {
   "id": "shujinkou",
@@ -432,7 +520,9 @@
   "meaning": "protagonist, main character",
   "scope": "general",
   "ref": "system/SaveScreenInfoText",
-  "kanji": "主人公"
+  "kanji": "主人公",
+  "sentence": 0,
+  "surface": "しゅじんこう"
  },
  {
   "id": "soredemo",
@@ -441,7 +531,9 @@
   "romaji": "soredemo",
   "meaning": "even so",
   "scope": "general",
-  "ref": "system/WhenYouChangeBoxText"
+  "ref": "system/WhenYouChangeBoxText",
+  "sentence": 0,
+  "surface": "それでも"
  },
  {
   "id": "tobasu",
@@ -451,7 +543,9 @@
   "meaning": "to skip · also to make fly",
   "scope": "general",
   "ref": "system/BattleAnimationOptionText",
-  "kanji": "飛ばす"
+  "kanji": "飛ばす",
+  "sentence": 1,
+  "surface": "とばして　みる"
  },
  {
   "id": "tojiru",
@@ -461,7 +555,9 @@
   "meaning": "to close",
   "scope": "general",
   "ref": "system/StartMenuExitText",
-  "kanji": "閉じる"
+  "kanji": "閉じる",
+  "sentence": 0,
+  "surface": "とじる"
  },
  {
   "id": "tokushu",
@@ -471,7 +567,9 @@
   "meaning": "special",
   "scope": "general",
   "ref": "system/PrintStatsBox.StatsText",
-  "kanji": "特殊"
+  "kanji": "特殊",
+  "sentence": 3,
+  "surface": "とくしゅ"
  },
  {
   "id": "tsuzuki",
@@ -481,7 +579,9 @@
   "meaning": "continuation",
   "scope": "general",
   "ref": "system/ContinueText",
-  "kanji": "続き"
+  "kanji": "続き",
+  "sentence": 0,
+  "surface": "つづき"
  },
  {
   "id": "yoroshii",
@@ -490,6 +590,8 @@
   "romaji": "yoroshii",
   "meaning": "all right, fine · polite",
   "scope": "general",
-  "ref": "system/IsItOKToTossItemText"
+  "ref": "system/IsItOKToTossItemText",
+  "sentence": 0,
+  "surface": "よろしい"
  }
 ]

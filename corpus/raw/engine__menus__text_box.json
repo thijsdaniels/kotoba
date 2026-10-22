@@ -4,7 +4,8 @@
   {
    "label": "PokemonMenuEntries",
    "line": 453,
-   "text": "つよさをみる\nならびかえ\nキャンセル"
+   "text": "つよさをみる\nならびかえ\nキャンセル",
+   "list": true
   }
  ]
 }

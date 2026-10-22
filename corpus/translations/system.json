@@ -1,176 +1,630 @@
 {
  "ContinueText": {
-  "en": "Begin from the continuation",
-  "loose": "Continue"
+  "loose": "Continue",
+  "sentences": [
+   {
+    "ja": "つづきからはじめる",
+    "en": "Begin from the continuation"
+   }
+  ]
  },
  "NewGameText": {
-  "en": "Begin from the start\nChange the settings"
+  "sentences": [
+   {
+    "ja": "さいしょからはじめる",
+    "en": "Begin from the start"
+   },
+   {
+    "ja": "せっていを　かえる",
+    "en": "Change the settings"
+   }
+  ]
  },
  "SaveScreenInfoText": {
-  "en": "Protagonist\nBadges held: (count)\nPokédex: (count) animals\nPlay time"
+  "sentences": [
+   {
+    "ja": "しゅじんこう",
+    "en": "Protagonist"
+   },
+   {
+    "ja": "もっているバッジ　　　　こ",
+    "en": "Badges held: (count)"
+   },
+   {
+    "ja": "ポケモンずかん　　　　ひき",
+    "en": "Pokédex: (count) animals"
+   },
+   {
+    "ja": "プレイじかん",
+    "en": "Play time"
+   }
+  ]
  },
  "TextSpeedOptionText": {
-  "en": "Speed of talk\nFast  Normal  Slow"
+  "sentences": [
+   {
+    "ja": "はなしの　はやさ",
+    "en": "Speed of talk"
+   },
+   {
+    "ja": "はやい　　　　ふつう　　　　おそい",
+    "en": "Fast  Normal  Slow"
+   }
+  ]
  },
  "BattleAnimationOptionText": {
-  "en": "Battle animation\nWatch carefully  Skip and watch"
+  "sentences": [
+   {
+    "ja": "せんとう　アニメーション",
+    "en": "Battle animation"
+   },
+   {
+    "ja": "じっくり　みる　　とばして　みる",
+    "en": "Watch carefully  Skip and watch"
+   }
+  ]
  },
  "BattleStyleOptionText": {
-  "en": "Rules of the match\nSwitch type  Knockout type"
+  "sentences": [
+   {
+    "ja": "しあいの　ルール",
+    "en": "Rules of the match"
+   },
+   {
+    "ja": "いれかえタイプ　　かちぬきタイプ",
+    "en": "Switch type  Knockout type"
+   }
+  ]
  },
  "OptionMenuCancelText": {
-  "en": "End"
+  "sentences": [
+   {
+    "ja": "おわり",
+    "en": "End"
+   }
+  ]
  },
  "ClearSaveDataText": {
-  "en": "Clear all of the save data area?"
+  "sentences": [
+   {
+    "ja": "すべての　セーブデータエリアを クリア　しますか？",
+    "en": "Clear all of the save data area?"
+   }
+  ]
  },
  "StartMenuPokedexText": {
-  "en": "Encyclopedia",
-  "loose": "Pokédex"
+  "loose": "Pokédex",
+  "sentences": [
+   {
+    "ja": "ずかん",
+    "en": "Encyclopedia"
+   }
+  ]
  },
  "StartMenuPokemonText": {
-  "en": "Pokémon"
+  "sentences": [
+   {
+    "ja": "ポケモン",
+    "en": "Pokémon"
+   }
+  ]
  },
  "StartMenuItemText": {
-  "en": "Tools",
-  "loose": "Items"
+  "loose": "Items",
+  "sentences": [
+   {
+    "ja": "どうぐ",
+    "en": "Tools"
+   }
+  ]
  },
  "StartMenuSaveText": {
-  "en": "Report",
-  "loose": "Save"
+  "loose": "Save",
+  "sentences": [
+   {
+    "ja": "レポート",
+    "en": "Report"
+   }
+  ]
  },
  "StartMenuResetText": {
-  "en": "Reset"
+  "sentences": [
+   {
+    "ja": "リセット",
+    "en": "Reset"
+   }
+  ]
  },
  "StartMenuExitText": {
-  "en": "Close"
+  "sentences": [
+   {
+    "ja": "とじる",
+    "en": "Close"
+   }
+  ]
  },
  "StartMenuOptionText": {
-  "en": "Settings"
+  "sentences": [
+   {
+    "ja": "せってい",
+    "en": "Settings"
+   }
+  ]
  },
  "CannotUseItemsHereText": {
-  "en": "Here, using tools cannot be done.",
-  "loose": "You can't use items here."
+  "loose": "You can't use items here.",
+  "sentences": [
+   {
+    "ja": "ここでは　どうぐを つかうことは　できません",
+    "en": "Here, using tools cannot be done."
+   }
+  ]
  },
  "CannotGetOffHereText": {
-  "en": "Getting off cannot be done!"
+  "sentences": [
+   {
+    "ja": "おりることが　できない！",
+    "en": "Getting off cannot be done!"
+   }
+  ]
  },
  "TrainerInfo_NameMoneyTimeText": {
-  "en": "Name\nPocket money\nPlay time"
+  "sentences": [
+   {
+    "ja": "なまえ／",
+    "en": "Name"
+   },
+   {
+    "ja": "おこづかい／",
+    "en": "Pocket money"
+   },
+   {
+    "ja": "プレイじかん／",
+    "en": "Play time"
+   }
+  ]
  },
  "RedrawPartyMenu_": {
-  "en": "Can learn\nCannot learn\nCan use\nCannot use"
+  "sentences": [
+   {
+    "ja": "おぼえられる",
+    "en": "Can learn"
+   },
+   {
+    "ja": "おぼえられない",
+    "en": "Cannot learn"
+   },
+   {
+    "ja": "つかえる",
+    "en": "Can use"
+   },
+   {
+    "ja": "つかえない",
+    "en": "Cannot use"
+   }
+  ]
  },
  "PartyMenuNormalText": {
-  "en": "Please choose a Pokémon."
+  "sentences": [
+   {
+    "ja": "ポケモンを　えらんで　ください",
+    "en": "Please choose a Pokémon."
+   }
+  ]
  },
  "PartyMenuItemUseText": {
-  "en": "On which Pokémon will (you) use (it)?"
+  "sentences": [
+   {
+    "ja": "どのポケモンに　つかいますか？",
+    "en": "On which Pokémon will (you) use (it)?"
+   }
+  ]
  },
  "PartyMenuBattleText": {
-  "en": "Which Pokémon will (you) send out?"
+  "sentences": [
+   {
+    "ja": "どのポケモンを　だしますか？",
+    "en": "Which Pokémon will (you) send out?"
+   }
+  ]
  },
  "PartyMenuSwapMonText": {
-  "en": "To where will (you) move (it)?"
+  "sentences": [
+   {
+    "ja": "どこに　いどうしますか？",
+    "en": "To where will (you) move (it)?"
+   }
+  ]
  },
  "PokemonMenuEntries": {
-  "en": "See strength\nRearrange\nCancel"
+  "sentences": [
+   {
+    "ja": "つよさをみる",
+    "en": "See strength"
+   },
+   {
+    "ja": "ならびかえ",
+    "en": "Rearrange"
+   },
+   {
+    "ja": "キャンセル",
+    "en": "Cancel"
+   }
+  ]
  },
  "FileDataDestroyedText": {
-  "en": "The file's data is broken!"
+  "sentences": [
+   {
+    "ja": "フアイルの　データが こわれています！",
+    "en": "The file's data is broken!"
+   }
+  ]
  },
  "WouldYouLikeToSaveText": {
-  "en": "Write (your) activity up to here into the Pokémon report?",
-  "loose": "Save your progress?"
+  "loose": "Save your progress?",
+  "sentences": [
+   {
+    "ja": "ここまでの　かつやくを ポケモンレポートに　かきこみますか？",
+    "en": "Write (your) activity up to here into the Pokémon report?"
+   }
+  ]
  },
  "GameSavedText": {
-  "en": "{player} wrote (it) down firmly in the report!",
-  "loose": "{player} saved the game."
+  "loose": "{player} saved the game.",
+  "sentences": [
+   {
+    "ja": "{player}は レポートに　しっかり　かきのこした！",
+    "en": "{player} wrote (it) down firmly in the report!"
+   }
+  ]
  },
  "OlderFileWillBeErasedText": {
-  "en": "The previously written report will disappear, but is writing over (it) okay?"
+  "sentences": [
+   {
+    "ja": "まえに　かかれた　レポートが きえて　しまいますが うえから　かいても　いいですか？",
+    "en": "The previously written report will disappear, but is writing over (it) okay?"
+   }
+  ]
  },
  "WhenYouChangeBoxText": {
-  "en": "When (you) change the Pokémon box, the report is written at the same time.\n\n...Even so, is (it) okay?"
+  "sentences": [
+   {
+    "ja": "ポケモン　ボックスを　かえると どうじに　レポートが　かかれます ……　それでも　いいですか？",
+    "en": "When (you) change the Pokémon box, the report is written at the same time. ...Even so, is (it) okay?"
+   }
+  ]
  },
  "ChooseABoxText": {
-  "en": "Please choose a Pokémon box."
+  "sentences": [
+   {
+    "ja": "ポケモン　ボックスを えらんでください",
+    "en": "Please choose a Pokémon box."
+   }
+  ]
  },
  "BoxNames": {
-  "en": "Box 1 through Box 8"
+  "sentences": [
+   {
+    "ja": "ボックス１",
+    "en": "Box 1"
+   },
+   {
+    "ja": "ボックス２",
+    "en": "Box 2"
+   },
+   {
+    "ja": "ボックス３",
+    "en": "Box 3"
+   },
+   {
+    "ja": "ボックス４",
+    "en": "Box 4"
+   },
+   {
+    "ja": "ボックス５",
+    "en": "Box 5"
+   },
+   {
+    "ja": "ボックス６",
+    "en": "Box 6"
+   },
+   {
+    "ja": "ボックス７",
+    "en": "Box 7"
+   },
+   {
+    "ja": "ボックス８",
+    "en": "Box 8"
+   }
+  ]
  },
  "BoxNoText": {
-  "en": "Current box"
+  "sentences": [
+   {
+    "ja": "いまのボックス",
+    "en": "Current box"
+   }
+  ]
  },
  "TypesIDNoOTText": {
-  "en": "Type 1\nType 2\nID no.\nParent",
-  "loose": "Parent means the original trainer."
+  "loose": "Parent means the original trainer.",
+  "sentences": [
+   {
+    "ja": "タイプ１／",
+    "en": "Type 1"
+   },
+   {
+    "ja": "タイプ２／",
+    "en": "Type 2"
+   },
+   {
+    "ja": "ID№／",
+    "en": "ID no."
+   },
+   {
+    "ja": "おや／",
+    "en": "Parent"
+   }
+  ]
  },
  "StatusText": {
-  "en": "Condition"
+  "sentences": [
+   {
+    "ja": "じょうたい／",
+    "en": "Condition"
+   }
+  ]
  },
  "OKText": {
-  "en": "Normal"
+  "sentences": [
+   {
+    "ja": "ふつう",
+    "en": "Normal"
+   }
+  ]
  },
  "PrintStatsBox.StatsText": {
-  "en": "Attack\nDefense\nSpeed\nSpecial"
+  "sentences": [
+   {
+    "ja": "こうげき",
+    "en": "Attack"
+   },
+   {
+    "ja": "ぼうぎょ",
+    "en": "Defense"
+   },
+   {
+    "ja": "すばやさ",
+    "en": "Speed"
+   },
+   {
+    "ja": "とくしゅ",
+    "en": "Special"
+   }
+  ]
  },
  "StatusScreenExpText": {
-  "en": "Experience points\n(points) remaining"
+  "sentences": [
+   {
+    "ja": "けいけんち／",
+    "en": "Experience points"
+   },
+   {
+    "ja": "あと",
+    "en": "(points) remaining"
+   }
+  ]
  },
  "ThrewAwayItemText": {
-  "en": "Threw away {name}!"
+  "sentences": [
+   {
+    "ja": "{name}を すてました！",
+    "en": "Threw away {name}!"
+   }
+  ]
  },
  "IsItOKToTossItemText": {
-  "en": "(This) throws away {name}. Is (that) really all right?"
+  "sentences": [
+   {
+    "ja": "{name}を　すてます ほんとに　よろしいですか？",
+    "en": "(This) throws away {name}. Is (that) really all right?"
+   }
+  ]
  },
  "TypeText": {
-  "en": "Move type"
+  "sentences": [
+   {
+    "ja": "わざタイプ",
+    "en": "Move type"
+   }
+  ]
  },
  "ListMenuCancelText": {
-  "en": "Quit"
+  "sentences": [
+   {
+    "ja": "やめる",
+    "en": "Quit"
+   }
+  ]
  },
  "TechnicalPrefix": {
-  "en": "Move machine",
-  "loose": "TM"
+  "loose": "TM",
+  "sentences": [
+   {
+    "ja": "わざマシン",
+    "en": "Move machine"
+   }
+  ]
  },
  "HiddenPrefix": {
-  "en": "Secret machine",
-  "loose": "HM"
+  "loose": "HM",
+  "sentences": [
+   {
+    "ja": "ひでんマシン",
+    "en": "Secret machine"
+   }
+  ]
  },
  "UseTossText": {
-  "en": "Use\nThrow away"
+  "sentences": [
+   {
+    "ja": "つかう",
+    "en": "Use"
+   },
+   {
+    "ja": "すてる",
+    "en": "Throw away"
+   }
+  ]
  },
  "SaveMessageText": {
-  "en": "Record\nMessage"
+  "sentences": [
+   {
+    "ja": "きろく",
+    "en": "Record"
+   },
+   {
+    "ja": "メッセージ",
+    "en": "Message"
+   }
+  ]
  },
  "SpeedOptionsText": {
-  "en": "Fast\nSlow"
+  "sentences": [
+   {
+    "ja": "はやい",
+    "en": "Fast"
+   },
+   {
+    "ja": "おそい",
+    "en": "Slow"
+   }
+  ]
  },
  "MoneyText": {
-  "en": "Money"
+  "sentences": [
+   {
+    "ja": "おかね",
+    "en": "Money"
+   }
+  ]
  },
  "MochimonoText": {
-  "en": "Belongings",
-  "loose": "Items carried"
+  "loose": "Items carried",
+  "sentences": [
+   {
+    "ja": "もちもの",
+    "en": "Belongings"
+   }
+  ]
  },
  "MainMenuText": {
-  "en": "From the continuation\nFrom the start"
+  "sentences": [
+   {
+    "ja": "つづきから",
+    "en": "From the continuation"
+   },
+   {
+    "ja": "さいしょから",
+    "en": "From the start"
+   }
+  ]
  },
  "SwitchStatsCancelText": {
-  "en": "Swap\nSee strength\nCancel"
+  "sentences": [
+   {
+    "ja": "とりかえる",
+    "en": "Swap"
+   },
+   {
+    "ja": "つよさをみる",
+    "en": "See strength"
+   },
+   {
+    "ja": "キャンセル",
+    "en": "Cancel"
+   }
+  ]
  },
  "PokedexMenuText": {
-  "en": "See data\nCry\nSee distribution\nCancel"
+  "sentences": [
+   {
+    "ja": "データをみる",
+    "en": "See data"
+   },
+   {
+    "ja": "なきごえ",
+    "en": "Cry"
+   },
+   {
+    "ja": "ぶんぷをみる",
+    "en": "See distribution"
+   },
+   {
+    "ja": "キャンセル",
+    "en": "Cancel"
+   }
+  ]
  },
  "TwoOptionMenuStrings.NoYesMenu": {
-  "en": "No\nYes"
+  "sentences": [
+   {
+    "ja": "いいえ",
+    "en": "No"
+   },
+   {
+    "ja": "はい",
+    "en": "Yes"
+   }
+  ]
  },
  "TwoOptionMenuStrings.YesNoMenu": {
-  "en": "Yes\nNo"
+  "sentences": [
+   {
+    "ja": "はい",
+    "en": "Yes"
+   },
+   {
+    "ja": "いいえ",
+    "en": "No"
+   }
+  ]
  },
  "FieldMoveNames": {
-  "en": "Iai cut\nFly through the sky\nWave riding\nSuperhuman strength\nFlash\nDig a hole\nTeleport\nEgg laying",
-  "loose": "Cut, Fly, Surf, Strength, Flash, Dig, Teleport, Softboiled"
+  "loose": "Cut, Fly, Surf, Strength, Flash, Dig, Teleport, Softboiled",
+  "sentences": [
+   {
+    "ja": "いあいぎり",
+    "en": "Iai cut"
+   },
+   {
+    "ja": "そらをとぶ",
+    "en": "Fly through the sky"
+   },
+   {
+    "ja": "なみのり",
+    "en": "Wave riding"
+   },
+   {
+    "ja": "かいりき",
+    "en": "Superhuman strength"
+   },
+   {
+    "ja": "フラッシュ",
+    "en": "Flash"
+   },
+   {
+    "ja": "あなをほる",
+    "en": "Dig a hole"
+   },
+   {
+    "ja": "テレポート",
+    "en": "Teleport"
+   },
+   {
+    "ja": "タマゴうみ",
+    "en": "Egg laying"
+   }
+  ]
  }
 }

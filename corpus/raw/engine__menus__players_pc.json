@@ -4,7 +4,8 @@
   {
    "label": "PlayersPCMenuEntries",
    "line": 243,
-   "text": "どうぐを　ひきだす\nどうぐを　あずける\nどうぐを　すてる\nスイッチを　きる"
+   "text": "どうぐを　ひきだす\nどうぐを　あずける\nどうぐを　すてる\nスイッチを　きる",
+   "list": true
   },
   {
    "label": "TurnedOnPC2Text",

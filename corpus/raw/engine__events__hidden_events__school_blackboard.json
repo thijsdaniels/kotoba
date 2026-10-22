@@ -14,7 +14,8 @@
   {
    "label": "HowToLinkText",
    "line": 73,
-   "text": "ケーブルで　あそぶには\nコロシアム\nトレード　センター\nよむ　の　やめる"
+   "text": "ケーブルで　あそぶには\nコロシアム\nトレード　センター\nよむ　の　やめる",
+   "list": true
   },
   {
    "label": "LinkCableInfoText1",
@@ -44,12 +45,14 @@
   {
    "label": "StatusAilmentText1",
    "line": 201,
-   "text": "ねむり\nどく\nマヒ"
+   "text": "ねむり\nどく\nマヒ",
+   "list": true
   },
   {
    "label": "StatusAilmentText2",
    "line": 206,
-   "text": "やけど\nこおり\nやめる"
+   "text": "やけど\nこおり\nやめる",
+   "list": true
   },
   {
    "label": "ViridianBlackboardSleepText",

@@ -8,449 +8,752 @@
    "label": "PalletTownOakText.HeyWaitDontGoOutText",
    "line": 177,
    "text": "おーい！\nまてー！　まつんじゃあ！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "おーい！",
+    "まてー！",
+    "まつんじゃあ！"
+   ]
   },
   {
    "source": "scripts/PalletTown.asm",
    "label": "PalletTownOakText.ItsUnsafeText",
    "line": 191,
    "text": "あぶない　とこだった！\nくさむらでは\nやせいの　ポケモンが　とびだす！\n\nこちらも　ポケモンを\nもって　いれば\nたたかえるのだが……\nそうじゃ！\n\n……　ちょっと\nわしに　ついて　きなさい！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "あぶない　とこだった！",
+    "くさむらでは やせいの　ポケモンが　とびだす！",
+    "こちらも　ポケモンを もって　いれば たたかえるのだが…… そうじゃ！",
+    "……　ちょっと わしに　ついて　きなさい！"
+   ]
   },
   {
    "source": "scripts/PalletTown.asm",
    "label": "PalletTownGirlText",
    "line": 205,
-   "text": "わたしも\nポケモンを　そだててるの！\n\nつよく　なれば\nガードマンの　かわりに　なるしね"
+   "text": "わたしも\nポケモンを　そだててるの！\n\nつよく　なれば\nガードマンの　かわりに　なるしね",
+   "sentences": [
+    "わたしも ポケモンを　そだててるの！",
+    "つよく　なれば ガードマンの　かわりに　なるしね"
+   ]
   },
   {
    "source": "scripts/PalletTown.asm",
    "label": "PalletTownFisherText",
    "line": 213,
-   "text": "かがくの　ちからって　すげー！\n\nいまは　パソコンつうしんで\nどうぐや　ポケモンを\nデータにして　おくれるんだと"
+   "text": "かがくの　ちからって　すげー！\n\nいまは　パソコンつうしんで\nどうぐや　ポケモンを\nデータにして　おくれるんだと",
+   "sentences": [
+    "かがくの　ちからって　すげー！",
+    "いまは　パソコンつうしんで どうぐや　ポケモンを データにして　おくれるんだと"
+   ]
   },
   {
    "source": "scripts/PalletTown.asm",
    "label": "PalletTownOaksLabSignText",
    "line": 221,
-   "text": "ここは　オーキド　はかせの\nポケモン　けんきゅうじょ"
+   "text": "ここは　オーキド　はかせの\nポケモン　けんきゅうじょ",
+   "sentences": [
+    "ここは　オーキド　はかせの ポケモン　けんきゅうじょ"
+   ]
   },
   {
    "source": "scripts/PalletTown.asm",
    "label": "PalletTownSignText",
    "line": 226,
-   "text": "ここは　マサラ　タウン\nマサラは　まっしろ　はじまりのいろ"
+   "text": "ここは　マサラ　タウン\nマサラは　まっしろ　はじまりのいろ",
+   "sentences": [
+    "ここは　マサラ　タウン マサラは　まっしろ　はじまりのいろ"
+   ]
   },
   {
    "source": "scripts/PalletTown.asm",
    "label": "PalletTownPlayersHouseSignText",
    "line": 231,
-   "text": "ここは　{player}　のいえ"
+   "text": "ここは　{player}　のいえ",
+   "sentences": [
+    "ここは　{player}　のいえ"
+   ]
   },
   {
    "source": "scripts/PalletTown.asm",
    "label": "PalletTownRivalsHouseSignText",
    "line": 235,
-   "text": "ここは　{rival}　のいえ"
+   "text": "ここは　{rival}　のいえ",
+   "sentences": [
+    "ここは　{rival}　のいえ"
+   ]
   },
   {
    "source": "scripts/RedsHouse1F.asm",
    "label": "RedsHouse1FMomText.WakeUpText",
    "line": 22,
    "text": "……　そうね\nおとこのこは　いつか\nたびに　でるもの　なのよ\nうん……　テレビの　はなしよ！\n\nそういえば\nとなりの　オーキドはかせが\nあなたを　よんでたわよ",
-   "speaker": "おかあさん"
+   "speaker": "おかあさん",
+   "sentences": [
+    "……　そうね おとこのこは　いつか たびに　でるもの　なのよ うん……　テレビの　はなしよ！",
+    "そういえば となりの　オーキドはかせが あなたを　よんでたわよ"
+   ]
   },
   {
    "source": "scripts/RedsHouse1F.asm",
    "label": "RedsHouse1FMomYouShouldRestText",
    "line": 53,
    "text": "{player}……！\nすこし　やすんで　いったら\nどうかしら……？\n……　……　……",
-   "speaker": "おかあさん"
+   "speaker": "おかあさん",
+   "sentences": [
+    "{player}……！",
+    "すこし　やすんで　いったら どうかしら……？",
+    "……　……　……"
+   ]
   },
   {
    "source": "scripts/RedsHouse1F.asm",
    "label": "RedsHouse1FMomLookingGreatText",
    "line": 60,
    "text": "あらあら！\nあなたも　ポケモンも\nげんき　いっぱいね！\nそれじゃ　きを　つけて！\nいってらっしゃい！",
-   "speaker": "おかあさん"
+   "speaker": "おかあさん",
+   "sentences": [
+    "あらあら！",
+    "あなたも　ポケモンも げんき　いっぱいね！",
+    "それじゃ　きを　つけて！",
+    "いってらっしゃい！"
+   ]
   },
   {
    "source": "scripts/RedsHouse1F.asm",
    "label": "RedsHouse1FTVText.StandByMeMovieText",
    "line": 79,
-   "text": "テレビで　えいがを　やってる！\nおとこのこが　４にん\nせんろのうえを　あるいてる……\n\n……　ぼくも　もう　いかなきゃ！"
+   "text": "テレビで　えいがを　やってる！\nおとこのこが　４にん\nせんろのうえを　あるいてる……\n\n……　ぼくも　もう　いかなきゃ！",
+   "sentences": [
+    "テレビで　えいがを　やってる！",
+    "おとこのこが　４にん せんろのうえを　あるいてる…… ……　ぼくも　もう　いかなきゃ！"
+   ]
   },
   {
    "source": "scripts/RedsHouse1F.asm",
    "label": "RedsHouse1FTVText.WrongSideText",
    "line": 87,
-   "text": "みえない……"
+   "text": "みえない……",
+   "sentences": [
+    "みえない……"
+   ]
   },
   {
    "source": "scripts/BluesHouse.asm",
    "label": "BluesHouseDaisyRivalAtLabText",
    "line": 64,
-   "text": "こんにちは　{player}くん！\nおとうとの　{rival}なら\nおじいちゃんの　けんきゅうじょよ"
+   "text": "こんにちは　{player}くん！\nおとうとの　{rival}なら\nおじいちゃんの　けんきゅうじょよ",
+   "sentences": [
+    "こんにちは　{player}くん！",
+    "おとうとの　{rival}なら おじいちゃんの　けんきゅうじょよ"
+   ]
   },
   {
    "source": "scripts/BluesHouse.asm",
    "label": "BluesHouseDaisyOfferMapText",
    "line": 70,
-   "text": "オーキドの　おじいちゃん\nおしごと　たのんだんだって？\nたいへんねー\nこれ　あげるから　つかって！"
+   "text": "オーキドの　おじいちゃん\nおしごと　たのんだんだって？\nたいへんねー\nこれ　あげるから　つかって！",
+   "sentences": [
+    "オーキドの　おじいちゃん おしごと　たのんだんだって？",
+    "たいへんねー これ　あげるから　つかって！"
+   ]
   },
   {
    "source": "scripts/BluesHouse.asm",
    "label": "GotMapText",
    "line": 77,
-   "text": "{player}は　おねえさんから{name}を　もらった！"
+   "text": "{player}は　おねえさんから{name}を　もらった！",
+   "sentences": [
+    "{player}は　おねえさんから{name}を　もらった！"
+   ]
   },
   {
    "source": "scripts/BluesHouse.asm",
    "label": "BluesHouseDaisyBagFullText",
    "line": 85,
-   "text": "にもつ　いっぱいよ"
+   "text": "にもつ　いっぱいよ",
+   "sentences": [
+    "にもつ　いっぱいよ"
+   ]
   },
   {
    "source": "scripts/BluesHouse.asm",
    "label": "BluesHouseDaisyUseMapText",
    "line": 89,
-   "text": "じぶんの　いる　ばしょや\nまちの　なまえが　しりたいとき\nタウンマップ　つかうと　いいわよ"
+   "text": "じぶんの　いる　ばしょや\nまちの　なまえが　しりたいとき\nタウンマップ　つかうと　いいわよ",
+   "sentences": [
+    "じぶんの　いる　ばしょや まちの　なまえが　しりたいとき タウンマップ　つかうと　いいわよ"
+   ]
   },
   {
    "source": "scripts/BluesHouse.asm",
    "label": "BluesHouseDaisyWalkingText",
    "line": 95,
-   "text": "にんげんと　おなじように\nポケモンも　いきてるの！\nたいりょくが　ないときは\nやすませて　あげて！"
+   "text": "にんげんと　おなじように\nポケモンも　いきてるの！\nたいりょくが　ないときは\nやすませて　あげて！",
+   "sentences": [
+    "にんげんと　おなじように ポケモンも　いきてるの！",
+    "たいりょくが　ないときは やすませて　あげて！"
+   ]
   },
   {
    "source": "scripts/BluesHouse.asm",
    "label": "BluesHouseTownMapText",
    "line": 102,
-   "text": "カントー　ちほうの　ちずだ！\n……　もらえたら　うれしい？"
+   "text": "カントー　ちほうの　ちずだ！\n……　もらえたら　うれしい？",
+   "sentences": [
+    "カントー　ちほうの　ちずだ！",
+    "……　もらえたら　うれしい？"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalText.GrampsIsntAroundText",
    "line": 785,
    "text": "なんだー　{player}か！\nオーキドの　じいさんなら　いねーよ",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "なんだー　{player}か！",
+    "オーキドの　じいさんなら　いねーよ"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalText.GoAheadAndChooseText",
    "line": 790,
    "text": "へへーんだ！　おれは\nおとな　だから　がっつかないのさ\n\n{player}から　さきに\nえらばせて　やるぜ！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "へへーんだ！",
+    "おれは おとな　だから　がっつかないのさ {player}から　さきに えらばせて　やるぜ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalText.MyPokemonLooksStrongerText",
    "line": 798,
    "text": "おれの　えらんだ\nポケモンの　ほうが　つよそうだぜ",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "おれの　えらんだ ポケモンの　ほうが　つよそうだぜ"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabThoseArePokeBallsText",
    "line": 845,
-   "text": "モンスターボールだ\nなかに　ポケモンが　はいってるぞ！"
+   "text": "モンスターボールだ\nなかに　ポケモンが　はいってるぞ！",
+   "sentences": [
+    "モンスターボールだ なかに　ポケモンが　はいってるぞ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabYouWantCharmanderText.Text",
    "line": 881,
-   "text": "ほう！　ほのおのポケモン\nヒトカゲに　するんじゃな？"
+   "text": "ほう！　ほのおのポケモン\nヒトカゲに　するんじゃな？",
+   "sentences": [
+    "ほう！",
+    "ほのおのポケモン ヒトカゲに　するんじゃな？"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabYouWantSquirtleText.Text",
    "line": 889,
-   "text": "ふむ　みずのポケモン\nゼニガメに　きめるのじゃな？"
+   "text": "ふむ　みずのポケモン\nゼニガメに　きめるのじゃな？",
+   "sentences": [
+    "ふむ　みずのポケモン ゼニガメに　きめるのじゃな？"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabYouWantBulbasaurText.Text",
    "line": 897,
-   "text": "そうか！　しょくぶつポケモン\nフシギダネが　いいんじゃな？"
+   "text": "そうか！　しょくぶつポケモン\nフシギダネが　いいんじゃな？",
+   "sentences": [
+    "そうか！",
+    "しょくぶつポケモン フシギダネが　いいんじゃな？"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabMonEnergeticText",
    "line": 951,
-   "text": "この　ポケモンは\nほんとに　げんきが　いいぞ！"
+   "text": "この　ポケモンは\nほんとに　げんきが　いいぞ！",
+   "sentences": [
+    "この　ポケモンは ほんとに　げんきが　いいぞ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabReceivedMonText",
    "line": 956,
-   "text": "{player}は　オーキドから{name}を　もらった！"
+   "text": "{player}は　オーキドから{name}を　もらった！",
+   "sentences": [
+    "{player}は　オーキドから{name}を　もらった！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabLastMonText",
    "line": 975,
-   "text": "オーキドはかせの　ポケモン\nさいごの　いっぴきだ……！"
+   "text": "オーキドはかせの　ポケモン\nさいごの　いっぴきだ……！",
+   "sentences": [
+    "オーキドはかせの　ポケモン さいごの　いっぴきだ……！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.WhichPokemonDoYouWantText",
    "line": 1061,
    "text": "さあ　{player}\nどの　ポケモンに　する？",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "さあ　{player} どの　ポケモンに　する？"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.YourPokemonCanFightText",
    "line": 1066,
    "text": "そうじゃ！\nやせいの　ポケモンが　でて　きても\n\nそいつを　たたかわせて　いけば\nとなりまちへ　いける！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "そうじゃ！",
+    "やせいの　ポケモンが　でて　きても そいつを　たたかわせて　いけば となりまちへ　いける！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.RaiseYourYoungPokemonText",
    "line": 1074,
    "text": "{player}も\nまけずに　ポケモンを\nたたかわせて　そだてると　いいぞ！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "{player}も まけずに　ポケモンを たたかわせて　そだてると　いいぞ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.DeliverParcelText",
    "line": 1080,
    "text": "おお！　{player}\n\nどーだい？\nわしの　やったポケモンは……ほう\n\nだいぶ\nなついた　みたいだな？\n\nおまえ　ポケモントレーナーの\nさいのうが　あるな！\n\n……え　わしに　わたす　ものが？\n\n{player}は　オーキド　はかせに\nとどけものを　わたした！\n\nおお！　これは\nわしが　ちゅうもん　してた\n\nとくせいの　モンスターボールじゃ\nどうも　ありがとよ！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "おお！",
+    "{player} どーだい？",
+    "わしの　やったポケモンは……ほう だいぶ なついた　みたいだな？",
+    "おまえ　ポケモントレーナーの さいのうが　あるな！",
+    "……え　わしに　わたす　ものが？",
+    "{player}は　オーキド　はかせに とどけものを　わたした！",
+    "おお！",
+    "これは わしが　ちゅうもん　してた とくせいの　モンスターボールじゃ どうも　ありがとよ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.PokemonAroundTheWorldText",
    "line": 1106,
-   "text": "せかい　じゅうに　すんでいる\nポケモンたちが\n{player}を　まって　おるぞー！"
+   "text": "せかい　じゅうに　すんでいる\nポケモンたちが\n{player}を　まって　おるぞー！",
+   "sentences": [
+    "せかい　じゅうに　すんでいる ポケモンたちが {player}を　まって　おるぞー！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.GivePokeballsText",
    "line": 1112,
    "text": "ポケモンを\nただ　みつけただけ　では\nくわしい　データを\nてに　いれる　ことは　できん！\n\nかならず\nつかまえなければ　ならんのだ！\nほれ　そのために……\nひつような　どうぐを　わたそう！\n\n{player}は　５こ\nモンスターボールを　もらった！\n\nやせいの　ポケモンが\nとびだして　きたら　チャンス！\n\nモンスターボールを\nポイ！と　なげれば\nポケモンを　つかまえ　られる！\n\nただし……　うまく　とれるか\nどうかは　わからんぞ！\n\nげんきな　ポケモンは　にげやすいし\nうんも　あるからな！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "ポケモンを ただ　みつけただけ　では くわしい　データを てに　いれる　ことは　できん！",
+    "かならず つかまえなければ　ならんのだ！",
+    "ほれ　そのために…… ひつような　どうぐを　わたそう！",
+    "{player}は　５こ モンスターボールを　もらった！",
+    "やせいの　ポケモンが とびだして　きたら　チャンス！",
+    "モンスターボールを ポイ！",
+    "と　なげれば ポケモンを　つかまえ　られる！",
+    "ただし……　うまく　とれるか どうかは　わからんぞ！",
+    "げんきな　ポケモンは　にげやすいし うんも　あるからな！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.ComeSeeMeSometimesText",
    "line": 1142,
    "text": "ときどきは\nわしの　とこに　かおを　だせ！\n\nポケモンずかんの　ページが\nきに　なるんでな！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "ときどきは わしの　とこに　かおを　だせ！",
+    "ポケモンずかんの　ページが きに　なるんでな！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak1Text.HowIsYourPokedexComingText",
    "line": 1150,
    "text": "よく　きた！\nポケモンずかんの\nちょうしは　どうかな？\nどれ……　ちょっと\nみて　あげようか！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "よく　きた！",
+    "ポケモンずかんの ちょうしは　どうかな？",
+    "どれ……　ちょっと みて　あげようか！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabPokedexText.Text",
    "line": 1164,
-   "text": "ずかん　みたいな　ものが　ある！\nなかは　しろいページ　ばっかりだ！"
+   "text": "ずかん　みたいな　ものが　ある！\nなかは　しろいページ　ばっかりだ！",
+   "sentences": [
+    "ずかん　みたいな　ものが　ある！",
+    "なかは　しろいページ　ばっかりだ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOak2Text",
    "line": 1169,
-   "text": "？"
+   "text": "？",
+   "sentences": [
+    "？"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabGirlText.Text",
    "line": 1179,
-   "text": "ああ　みえても　オーキドはかせは\nポケモンの　オーソリティなの！\n\nはかせを　そんけいする\nポケモン　トレーナーも　おおいわよ！"
+   "text": "ああ　みえても　オーキドはかせは\nポケモンの　オーソリティなの！\n\nはかせを　そんけいする\nポケモン　トレーナーも　おおいわよ！",
+   "sentences": [
+    "ああ　みえても　オーキドはかせは ポケモンの　オーソリティなの！",
+    "はかせを　そんけいする ポケモン　トレーナーも　おおいわよ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalFedUpWithWaitingText.Text",
    "line": 1193,
    "text": "じいさん！\nまちくたびれたぞー！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "じいさん！",
+    "まちくたびれたぞー！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOakChooseMonText.Text",
    "line": 1204,
    "text": "{rival}か？\n……　……　……\n\nおお　そうか\nわしが　よんだのじゃった！\nちょっと　まって　おれ！\n\nほれ　{player}！\n\nそこに　３びき\nポケモンが　いる　じゃろう！\n\nほっほ！\n\nモンスターボールの　なかに\nポケモンが　いれて　あるんじゃ\n\nむかしは　わしも　バリバリの\nポケモン　トレーナーとして\nならした　もの！\n\nおいぼれた　いまは　ポケモンも\n３びき　しか　のこっとらんが\nおまえに　１ぴき　やろう！\n……　さあ　えらべ！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "{rival}か？",
+    "……　……　…… おお　そうか わしが　よんだのじゃった！",
+    "ちょっと　まって　おれ！",
+    "ほれ　{player}！",
+    "そこに　３びき ポケモンが　いる　じゃろう！",
+    "ほっほ！",
+    "モンスターボールの　なかに ポケモンが　いれて　あるんじゃ むかしは　わしも　バリバリの ポケモン　トレーナーとして ならした　もの！",
+    "おいぼれた　いまは　ポケモンも ３びき　しか　のこっとらんが おまえに　１ぴき　やろう！",
+    "……　さあ　えらべ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalWhatAboutMeText.Text",
    "line": 1238,
    "text": "あッ！　ずるい！\nじいさん！　おれにも　くれよお！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "あッ！",
+    "ずるい！",
+    "じいさん！",
+    "おれにも　くれよお！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOakBePatientText.Text",
    "line": 1249,
    "text": "まー！\nあわてるな　{rival}！\nおまえも　すきなものを　とれ！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "まー！",
+    "あわてるな　{rival}！",
+    "おまえも　すきなものを　とれ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOakDontGoAwayYetText.Text",
    "line": 1261,
    "text": "こら　どこへいく！\nもどってこんか！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "こら　どこへいく！",
+    "もどってこんか！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalIllTakeThisOneText.Text",
    "line": 1272,
    "text": "じゃ　おれは　これ！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "じゃ　おれは　これ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalReceivedMonText.Text",
    "line": 1282,
-   "text": "{rival}は　オーキドから{name}を　もらった！"
+   "text": "{rival}は　オーキドから{name}を　もらった！",
+   "sentences": [
+    "{rival}は　オーキドから{name}を　もらった！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalIllTakeYouOnText.Text",
    "line": 1296,
    "text": "まてよ！　{player}！\nせっかく　じーさんに\nポケモン　もらったんだぜ！\n\n……　ちょっと\nおれの　あいて　してみろ！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "まてよ！",
+    "{player}！",
+    "せっかく　じーさんに ポケモン　もらったんだぜ！",
+    "……　ちょっと おれの　あいて　してみろ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalIPickedTheWrongPokemonText",
    "line": 1305,
-   "text": "えー　そんな　バカな！\nおまえの　ポケモンに\nすりゃあ　よかった！"
+   "text": "えー　そんな　バカな！\nおまえの　ポケモンに\nすりゃあ　よかった！",
+   "sentences": [
+    "えー　そんな　バカな！",
+    "おまえの　ポケモンに すりゃあ　よかった！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalAmIGreatOrWhatText",
    "line": 1311,
    "text": "やりー！\nおれって　てんさい？",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "やりー！",
+    "おれって　てんさい？"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalSmellYouLaterText.Text",
    "line": 1322,
    "text": "よーし！\nほかの　ポケモンと　たたかわせて\nもっと　もっと　つよくするぜ！\n\n{player}！　じいさん！\nそんじゃ　あばよ！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "よーし！",
+    "ほかの　ポケモンと　たたかわせて もっと　もっと　つよくするぜ！",
+    "{player}！",
+    "じいさん！",
+    "そんじゃ　あばよ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalGrampsText",
    "line": 1331,
    "text": "じいさん！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "じいさん！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalWhatDidYouCallMeForText",
    "line": 1335,
    "text": "すっかり　わすれてた！\nおれに　なんか　よーじ　だって？",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "すっかり　わすれてた！",
+    "おれに　なんか　よーじ　だって？"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOakIHaveARequestText",
    "line": 1340,
    "text": "おお　そうじゃ！\nおまえたちに　たのみが　あるんじゃ",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "おお　そうじゃ！",
+    "おまえたちに　たのみが　あるんじゃ"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOakMyInventionPokedexText",
    "line": 1345,
-   "text": "つくえの　うえに　あるのは\nわしが　つくった　ポケモンずかん！\n\nみつけた　ポケモンの　データが\nじどうてきに　かきこまれて\nページが　ふえて　いく　という\n\nたいへん　ハイテクな\nずかん　なのじゃ！"
+   "text": "つくえの　うえに　あるのは\nわしが　つくった　ポケモンずかん！\n\nみつけた　ポケモンの　データが\nじどうてきに　かきこまれて\nページが　ふえて　いく　という\n\nたいへん　ハイテクな\nずかん　なのじゃ！",
+   "sentences": [
+    "つくえの　うえに　あるのは わしが　つくった　ポケモンずかん！",
+    "みつけた　ポケモンの　データが じどうてきに　かきこまれて ページが　ふえて　いく　という たいへん　ハイテクな ずかん　なのじゃ！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOakGotPokedexText",
    "line": 1357,
    "text": "{player}　{rival}\nこれを　おまえたちに　あずける！\n\n{player}は　オーキドから\nポケモンずかんを　もらった！",
-   "speaker": "オーキド"
+   "speaker": "オーキド",
+   "sentences": [
+    "{player}　{rival} これを　おまえたちに　あずける！",
+    "{player}は　オーキドから ポケモンずかんを　もらった！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabOakThatWasMyDreamText",
    "line": 1366,
-   "text": "この　せかいの　すべての\nポケモンを　きろくした\nかんぺきな　ずかんを　つくること！\n\nそれが　わしの　ゆめ　だった！\n\nしかし　わしも　もう　ジジイ！\nそこまで　ムリは　できん！\n\nそこで　おまえ　たちには\nわしの　かわりに\nゆめを　はたして　ほしいのじゃ！\n\nさあ　ふたりとも\nさっそく　しゅっぱつ　してくれい！\n\nこれは　ポケモンの　れきしに　のこる\nいだいな　しごとじゃー！"
+   "text": "この　せかいの　すべての\nポケモンを　きろくした\nかんぺきな　ずかんを　つくること！\n\nそれが　わしの　ゆめ　だった！\n\nしかし　わしも　もう　ジジイ！\nそこまで　ムリは　できん！\n\nそこで　おまえ　たちには\nわしの　かわりに\nゆめを　はたして　ほしいのじゃ！\n\nさあ　ふたりとも\nさっそく　しゅっぱつ　してくれい！\n\nこれは　ポケモンの　れきしに　のこる\nいだいな　しごとじゃー！",
+   "sentences": [
+    "この　せかいの　すべての ポケモンを　きろくした かんぺきな　ずかんを　つくること！",
+    "それが　わしの　ゆめ　だった！",
+    "しかし　わしも　もう　ジジイ！",
+    "そこまで　ムリは　できん！",
+    "そこで　おまえ　たちには わしの　かわりに ゆめを　はたして　ほしいのじゃ！",
+    "さあ　ふたりとも さっそく　しゅっぱつ　してくれい！",
+    "これは　ポケモンの　れきしに　のこる いだいな　しごとじゃー！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabRivalLeaveItAllToMeText",
    "line": 1387,
    "text": "よーし！　じいさん！\nぜんぶ　おれに　まかせなー！\n\n{player}！\nざんねんだが　おまえの　でばんは\nまったく　ねーぜ！\n\nそうだ！　うちの　ねえちゃん　から\nタウンマップを　かりて　いこう！\n\n{player}　には　かさない　ように\nねえちゃんに　いって　おくから\nおれんちへ　きても　むだ　だからな！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "よーし！",
+    "じいさん！",
+    "ぜんぶ　おれに　まかせなー！",
+    "{player}！",
+    "ざんねんだが　おまえの　でばんは まったく　ねーぜ！",
+    "そうだ！",
+    "うちの　ねえちゃん　から タウンマップを　かりて　いこう！",
+    "{player}　には　かさない　ように ねえちゃんに　いって　おくから おれんちへ　きても　むだ　だからな！"
+   ]
   },
   {
    "source": "scripts/OaksLab.asm",
    "label": "OaksLabScientistText.Text",
    "line": 1409,
-   "text": "わたしも　はかせの　じょしゅ　として\nポケモンを　けんきゅう　してます"
+   "text": "わたしも　はかせの　じょしゅ　として\nポケモンを　けんきゅう　してます",
+   "sentences": [
+    "わたしも　はかせの　じょしゅ　として ポケモンを　けんきゅう　してます"
+   ]
   },
   {
    "source": "engine/menus/naming_screen.asm",
    "label": "DoYouWantToNicknameText",
    "line": 52,
-   "text": "{name}に\nニックネームを　つけますか？"
+   "text": "{name}に\nニックネームを　つけますか？",
+   "sentences": [
+    "{name}に ニックネームを　つけますか？"
+   ]
   },
   {
    "source": "engine/menus/naming_screen.asm",
    "label": "NicknameTextString",
    "line": 471,
-   "text": "ニックネームは？"
+   "text": "ニックネームは？",
+   "list": true,
+   "sentences": [
+    "ニックネームは？"
+   ]
   },
   {
    "source": "engine/events/hidden_events/reds_room.asm",
    "label": "RedBedroomSNESText",
    "line": 5,
-   "text": "{player}は\nファミコンを　してる！\n……　……　よし！\nそろそろ　でかけよう！"
+   "text": "{player}は\nファミコンを　してる！\n……　……　よし！\nそろそろ　でかけよう！",
+   "sentences": [
+    "{player}は ファミコンを　してる！",
+    "……　……　よし！",
+    "そろそろ　でかけよう！"
+   ]
   },
   {
    "source": "engine/events/hidden_events/blues_room.asm",
    "label": "BookcaseText",
    "line": 11,
-   "text": "ほんだなに　ならんでいるのは\nポケモンの　ほん　ばかりだ"
+   "text": "ほんだなに　ならんでいるのは\nポケモンの　ほん　ばかりだ",
+   "sentences": [
+    "ほんだなに　ならんでいるのは ポケモンの　ほん　ばかりだ"
+   ]
   },
   {
    "source": "engine/events/hidden_events/oaks_lab_email.asm",
    "label": "OakLabEmailText",
    "line": 8,
-   "text": "パソコンを　みると\nなんと　でんしメールが　きていた！\n\n……　……　……\n\nポケモンを　つよく　そだてて\nたたかう　ポケモン　トレーナー！\nここに　さいきょうの\nトレーナーが　あつまり　ました\n\nばしょは　セキエイ　こうげんの\nポケモン　リーグ　ほんぶ　です！\nオーキドはかせも\nいちど　ごらん　ください\n……　ポケモン　リーグ　より\n……　……　……"
+   "text": "パソコンを　みると\nなんと　でんしメールが　きていた！\n\n……　……　……\n\nポケモンを　つよく　そだてて\nたたかう　ポケモン　トレーナー！\nここに　さいきょうの\nトレーナーが　あつまり　ました\n\nばしょは　セキエイ　こうげんの\nポケモン　リーグ　ほんぶ　です！\nオーキドはかせも\nいちど　ごらん　ください\n……　ポケモン　リーグ　より\n……　……　……",
+   "sentences": [
+    "パソコンを　みると なんと　でんしメールが　きていた！",
+    "……　……　……",
+    "ポケモンを　つよく　そだてて たたかう　ポケモン　トレーナー！",
+    "ここに　さいきょうの トレーナーが　あつまり　ました ばしょは　セキエイ　こうげんの ポケモン　リーグ　ほんぶ　です！",
+    "オーキドはかせも いちど　ごらん　ください ……　ポケモン　リーグ　より ……　……　……"
+   ]
   },
   {
    "source": "engine/events/hidden_events/oaks_lab_posters.asm",
    "label": "PushStartText",
    "line": 5,
-   "text": "スタート　ボタンを　プシュ！\nおすと　メニューが　ひらくなり"
+   "text": "スタート　ボタンを　プシュ！\nおすと　メニューが　ひらくなり",
+   "sentences": [
+    "スタート　ボタンを　プシュ！",
+    "おすと　メニューが　ひらくなり"
+   ]
   },
   {
    "source": "engine/events/hidden_events/oaks_lab_posters.asm",
    "label": "SaveOptionText",
    "line": 24,
-   "text": "セーブするには　ポケモン　レポート\nこまめに　かくと　いいなり"
+   "text": "セーブするには　ポケモン　レポート\nこまめに　かくと　いいなり",
+   "sentences": [
+    "セーブするには　ポケモン　レポート こまめに　かくと　いいなり"
+   ]
   },
   {
    "source": "engine/events/hidden_events/oaks_lab_posters.asm",
    "label": "StrengthsAndWeaknessesText",
    "line": 29,
-   "text": "ポケモンは　タイプに　よって\nとくいな　タイプ\nにがてな　タイプが　いるなり"
+   "text": "ポケモンは　タイプに　よって\nとくいな　タイプ\nにがてな　タイプが　いるなり",
+   "sentences": [
+    "ポケモンは　タイプに　よって とくいな　タイプ にがてな　タイプが　いるなり"
+   ]
   },
   {
    "source": "engine/events/hidden_events/town_map.asm",
    "label": "TownMapText",
    "line": 1,
-   "text": "タウンマップだ！"
+   "text": "タウンマップだ！",
+   "sentences": [
+    "タウンマップだ！"
+   ]
   },
   {
    "source": "engine/items/town_map.asm",
    "label": "MonsNestText",
    "line": 137,
    "text": "の　すみか",
+   "list": true,
+   "sentences": [
+    "の　すみか"
+   ],
    "trigger": {
     "item": [
      "TOWN_MAP"
@@ -462,6 +765,10 @@
    "label": "ToText",
    "line": 254,
    "text": "へ　とぶ",
+   "list": true,
+   "sentences": [
+    "へ　とぶ"
+   ],
    "trigger": {
     "item": [
      "TOWN_MAP"
@@ -473,6 +780,10 @@
    "label": "AreaUnknownText",
    "line": 427,
    "text": "せいそくち　ふめい",
+   "list": true,
+   "sentences": [
+    "せいそくち　ふめい"
+   ],
    "trigger": {
     "item": [
      "TOWN_MAP"
@@ -483,332 +794,518 @@
    "source": "engine/menus/pc.asm",
    "label": "TurnedOnPC1Text",
    "line": 101,
-   "text": "{player}は\nパソコンの　スイッチを　いれた！"
+   "text": "{player}は\nパソコンの　スイッチを　いれた！",
+   "sentences": [
+    "{player}は パソコンの　スイッチを　いれた！"
+   ]
   },
   {
    "source": "engine/menus/pc.asm",
    "label": "AccessedMyPCText",
    "line": 120,
-   "text": "じぶんの　パソコンと　つないだ！\n\nどうぐの　あずかり　システムを\nよびだした！"
+   "text": "じぶんの　パソコンと　つないだ！\n\nどうぐの　あずかり　システムを\nよびだした！",
+   "sentences": [
+    "じぶんの　パソコンと　つないだ！",
+    "どうぐの　あずかり　システムを よびだした！"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "PlayersPCMenuEntries",
    "line": 243,
-   "text": "どうぐを　ひきだす\nどうぐを　あずける\nどうぐを　すてる\nスイッチを　きる"
+   "text": "どうぐを　ひきだす\nどうぐを　あずける\nどうぐを　すてる\nスイッチを　きる",
+   "list": true,
+   "sentences": [
+    "どうぐを　ひきだす",
+    "どうぐを　あずける",
+    "どうぐを　すてる",
+    "スイッチを　きる"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "TurnedOnPC2Text",
    "line": 249,
-   "text": "{player}は\nパソコンの　スイッチを　いれた！"
+   "text": "{player}は\nパソコンの　スイッチを　いれた！",
+   "sentences": [
+    "{player}は パソコンの　スイッチを　いれた！"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "WhatDoYouWantText",
    "line": 254,
-   "text": "なにを　しますか？"
+   "text": "なにを　しますか？",
+   "sentences": [
+    "なにを　しますか？"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "WhatToDepositText",
    "line": 258,
-   "text": "なにを　あずけますか？"
+   "text": "なにを　あずけますか？",
+   "sentences": [
+    "なにを　あずけますか？"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "DepositHowManyText",
    "line": 262,
-   "text": "いくつ　あずけますか？"
+   "text": "いくつ　あずけますか？",
+   "sentences": [
+    "いくつ　あずけますか？"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "ItemWasStoredText",
    "line": 266,
-   "text": "パソコンつうしんで{name}を　あずけた！"
+   "text": "パソコンつうしんで{name}を　あずけた！",
+   "sentences": [
+    "パソコンつうしんで{name}を　あずけた！"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "NothingToDepositText",
    "line": 273,
-   "text": "あずけられる　どうぐを\nもっていません！"
+   "text": "あずけられる　どうぐを\nもっていません！",
+   "sentences": [
+    "あずけられる　どうぐを もっていません！"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "NoRoomToStoreText",
    "line": 278,
-   "text": "どうぐが　いっぱいです\nもう　あずけられません！"
+   "text": "どうぐが　いっぱいです\nもう　あずけられません！",
+   "sentences": [
+    "どうぐが　いっぱいです もう　あずけられません！"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "WhatToWithdrawText",
    "line": 283,
-   "text": "なにを　ひきだしますか？"
+   "text": "なにを　ひきだしますか？",
+   "sentences": [
+    "なにを　ひきだしますか？"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "WithdrawHowManyText",
    "line": 287,
-   "text": "いくつ　ひきだしますか？"
+   "text": "いくつ　ひきだしますか？",
+   "sentences": [
+    "いくつ　ひきだしますか？"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "WithdrewItemText",
    "line": 291,
-   "text": "パソコンつうしんで{name}を　ひきだした！"
+   "text": "パソコンつうしんで{name}を　ひきだした！",
+   "sentences": [
+    "パソコンつうしんで{name}を　ひきだした！"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "NothingStoredText",
    "line": 298,
-   "text": "なにも　あずけていません！"
+   "text": "なにも　あずけていません！",
+   "sentences": [
+    "なにも　あずけていません！"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "CantCarryMoreText",
    "line": 302,
-   "text": "どうぐが　いっぱいです\nもう　もてません！"
+   "text": "どうぐが　いっぱいです\nもう　もてません！",
+   "sentences": [
+    "どうぐが　いっぱいです もう　もてません！"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "WhatToTossText",
    "line": 307,
-   "text": "なにを　すてますか？"
+   "text": "なにを　すてますか？",
+   "sentences": [
+    "なにを　すてますか？"
+   ]
   },
   {
    "source": "engine/menus/players_pc.asm",
    "label": "TossHowManyText",
    "line": 311,
-   "text": "いくつ　すてますか？"
+   "text": "いくつ　すてますか？",
+   "sentences": [
+    "いくつ　すてますか？"
+   ]
   },
   {
    "source": "engine/menus/pokedex.asm",
    "label": "PokedexSeenText",
    "line": 344,
-   "text": "みつけたかず"
+   "text": "みつけたかず",
+   "list": true,
+   "sentences": [
+    "みつけたかず"
+   ]
   },
   {
    "source": "engine/menus/pokedex.asm",
    "label": "PokedexOwnText",
    "line": 347,
-   "text": "つかまえたかず"
+   "text": "つかまえたかず",
+   "list": true,
+   "sentences": [
+    "つかまえたかず"
+   ]
   },
   {
    "source": "engine/menus/pokedex.asm",
    "label": "PokedexContentsText",
    "line": 350,
-   "text": "もくじ"
+   "text": "もくじ",
+   "list": true,
+   "sentences": [
+    "もくじ"
+   ]
   },
   {
    "source": "engine/menus/pokedex.asm",
    "label": "PokedexMenuItemsText",
    "line": 353,
-   "text": "データをみる\nなきごえ\nぶんぷをみる\nやめる"
+   "text": "データをみる\nなきごえ\nぶんぷをみる\nやめる",
+   "list": true,
+   "sentences": [
+    "データをみる",
+    "なきごえ",
+    "ぶんぷをみる",
+    "やめる"
+   ]
   },
   {
    "source": "engine/menus/pokedex.asm",
    "label": "HeightWeightText",
    "line": 566,
-   "text": "たかさ　　？？？ｍ\nおもさ　　？？？ｋｇ"
+   "text": "たかさ　　？？？ｍ\nおもさ　　？？？ｋｇ",
+   "list": true,
+   "sentences": [
+    "たかさ　　？？？ｍ",
+    "おもさ　　？？？ｋｇ"
+   ]
   },
   {
    "source": "engine/menus/pokedex.asm",
    "label": "PokeText",
    "line": 570,
-   "text": "ポケモン"
+   "text": "ポケモン",
+   "list": true,
+   "sentences": [
+    "ポケモン"
+   ]
   },
   {
    "source": "engine/events/give_pokemon.asm",
    "label": "GotMonText",
    "line": 62,
-   "text": "{player}は{name}を　てにいれた！"
+   "text": "{player}は{name}を　てにいれた！",
+   "sentences": [
+    "{player}は{name}を　てにいれた！"
+   ]
   },
   {
    "source": "engine/events/pokedex_rating.asm",
    "label": "DexCompletionText",
    "line": 54,
-   "text": "……　……　ポケモンずかんの\nげんざいの　かんせいど　は……\n\nみつけた　ポケモン{n}！\nつかまえた　ポケモン{n}！\n\nオーキドはかせの　ひょうか……"
+   "text": "……　……　ポケモンずかんの\nげんざいの　かんせいど　は……\n\nみつけた　ポケモン{n}！\nつかまえた　ポケモン{n}！\n\nオーキドはかせの　ひょうか……",
+   "sentences": [
+    "……　……　ポケモンずかんの げんざいの　かんせいど　は…… みつけた　ポケモン{n}！",
+    "つかまえた　ポケモン{n}！",
+    "オーキドはかせの　ひょうか……"
+   ]
   },
   {
    "source": "engine/events/pokedex_rating.asm",
    "label": "DexRatingText_Own0To9",
    "line": 86,
-   "text": "まだまだ……　これからだ\nあちこちの　くさむらに　はいって\nポケモンを　つかまえるのじゃ！"
+   "text": "まだまだ……　これからだ\nあちこちの　くさむらに　はいって\nポケモンを　つかまえるのじゃ！",
+   "sentences": [
+    "まだまだ……　これからだ あちこちの　くさむらに　はいって ポケモンを　つかまえるのじゃ！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "EnemyMonFaintedText",
    "line": 895,
-   "text": "てきの{enemy}は　たおれた！"
+   "text": "てきの{enemy}は　たおれた！",
+   "sentences": [
+    "てきの{enemy}は　たおれた！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "MoneyForWinningText",
    "line": 988,
-   "text": "{player}は　しょうきんとして{n}円　てにいれた！"
+   "text": "{player}は　しょうきんとして{n}円　てにいれた！",
+   "sentences": [
+    "{player}は　しょうきんとして{n}円　てにいれた！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "TrainerDefeatedText",
    "line": 995,
-   "text": "{trainer}との\nしょうぶに　かった！"
+   "text": "{trainer}との\nしょうぶに　かった！",
+   "sentences": [
+    "{trainer}との しょうぶに　かった！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "PlayerMonFaintedText",
    "line": 1088,
-   "text": "{mon}は　たおれた！"
+   "text": "{mon}は　たおれた！",
+   "sentences": [
+    "{mon}は　たおれた！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "UseNextMonText",
    "line": 1123,
-   "text": "つぎの　ポケモンをつかいますか？"
+   "text": "つぎの　ポケモンをつかいますか？",
+   "sentences": [
+    "つぎの　ポケモンをつかいますか？"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "Rival1WinText",
    "line": 1212,
    "text": "やりー！\nやっぱ　おれって　てんさい？",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "やりー！",
+    "やっぱ　おれって　てんさい？"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "PlayerBlackedOutText2",
    "line": 1217,
-   "text": "{player}の　てもとには\nたたかえる　ポケモンが　いない！\n\n{player}は\nめのまえが　まっくらに　なった！"
+   "text": "{player}の　てもとには\nたたかえる　ポケモンが　いない！\n\n{player}は\nめのまえが　まっくらに　なった！",
+   "sentences": [
+    "{player}の　てもとには たたかえる　ポケモンが　いない！",
+    "{player}は めのまえが　まっくらに　なった！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "TrainerAboutToUseText",
    "line": 1494,
-   "text": "{trainer}は{enemy}を\nくりだそうと　しているようだ\n\n{player}も　ポケモンを\nとりかえますか？"
+   "text": "{trainer}は{enemy}を\nくりだそうと　しているようだ\n\n{player}も　ポケモンを\nとりかえますか？",
+   "sentences": [
+    "{trainer}は{enemy}を くりだそうと　しているようだ {player}も　ポケモンを とりかえますか？"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "TrainerSentOutText",
    "line": 1505,
-   "text": "{trainer}は{enemy}を　くりだした！"
+   "text": "{trainer}は{enemy}を　くりだした！",
+   "sentences": [
+    "{trainer}は{enemy}を　くりだした！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "NoWillText",
    "line": 1550,
-   "text": "たたかう　きりょくが　ない！"
+   "text": "たたかう　きりょくが　ない！",
+   "sentences": [
+    "たたかう　きりょくが　ない！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "NoRunningText",
    "line": 1677,
-   "text": "ダメだ！\nしょうぶの　さいちゅうに\nあいてに　せなかは　みせられない！"
+   "text": "ダメだ！\nしょうぶの　さいちゅうに\nあいてに　せなかは　みせられない！",
+   "sentences": [
+    "ダメだ！",
+    "しょうぶの　さいちゅうに あいてに　せなかは　みせられない！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "AlreadyOutText",
    "line": 2510,
-   "text": "{mon}はもうでています"
+   "text": "{mon}はもうでています",
+   "sentences": [
+    "{mon}はもうでています"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "AttackMissedText",
    "line": 3873,
-   "text": "しかし　{user}の\nこうげきは　はずれた！"
+   "text": "しかし　{user}の\nこうげきは　はずれた！",
+   "sentences": [
+    "しかし　{user}の こうげきは　はずれた！"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "CriticalHitText",
    "line": 3923,
-   "text": "きゅうしょに　あたった！"
+   "text": "きゅうしょに　あたった！",
+   "sentences": [
+    "きゅうしょに　あたった！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "EnemyAppearedText",
    "line": 87,
-   "text": "{enemy}が\nあらわれた！"
+   "text": "{enemy}が\nあらわれた！",
+   "sentences": [
+    "{enemy}が あらわれた！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "TrainerWantsToFightText",
    "line": 93,
-   "text": "{trainer}が\nしょうぶを　しかけてきた！"
+   "text": "{trainer}が\nしょうぶを　しかけてきた！",
+   "sentences": [
+    "{trainer}が しょうぶを　しかけてきた！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "GoText",
    "line": 152,
-   "text": "ゆけっ！"
+   "text": "ゆけっ！",
+   "sentences": [
+    "ゆけっ！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "DoItText",
    "line": 157,
-   "text": "いってこい！"
+   "text": "いってこい！",
+   "sentences": [
+    "いってこい！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "GetmText",
    "line": 162,
-   "text": "がんばれ！"
+   "text": "がんばれ！",
+   "sentences": [
+    "がんばれ！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "EnemysWeakText",
    "line": 167,
-   "text": "あいてが　よわっている！\nチャンスだ！"
+   "text": "あいてが　よわっている！\nチャンスだ！",
+   "sentences": [
+    "あいてが　よわっている！",
+    "チャンスだ！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "PlayerMon1Text",
    "line": 176,
-   "text": "{mon}！"
+   "text": "{mon}！",
+   "sentences": [
+    "{mon}！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "PlayerMon2Text",
    "line": 185,
-   "text": "{mon}"
+   "text": "{mon}",
+   "sentences": [
+    "{mon}"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "EnoughText",
    "line": 237,
-   "text": "もういい！"
+   "text": "もういい！",
+   "sentences": [
+    "もういい！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "OKExclamationText",
    "line": 242,
-   "text": "いいぞ！"
+   "text": "いいぞ！",
+   "sentences": [
+    "いいぞ！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "GoodText",
    "line": 247,
-   "text": "よくやった！"
+   "text": "よくやった！",
+   "sentences": [
+    "よくやった！"
+   ]
   },
   {
    "source": "engine/battle/common_text.asm",
    "label": "ComeBackText",
    "line": 256,
-   "text": "もどれ！"
+   "text": "もどれ！",
+   "sentences": [
+    "もどれ！"
+   ]
   },
   {
    "source": "engine/battle/display_effectiveness.asm",
    "label": "SuperEffectiveText",
    "line": 12,
-   "text": "こうかは　ばつぐんだ！"
+   "text": "こうかは　ばつぐんだ！",
+   "sentences": [
+    "こうかは　ばつぐんだ！"
+   ]
   },
   {
    "source": "engine/battle/display_effectiveness.asm",
    "label": "NotVeryEffectiveText",
    "line": 16,
-   "text": "こうかは　いまひとつの　ようだ"
+   "text": "こうかは　いまひとつの　ようだ",
+   "sentences": [
+    "こうかは　いまひとつの　ようだ"
+   ]
   },
   {
    "source": "engine/battle/effects.asm",
    "label": "MonsStatsFellText",
    "line": 727,
    "text": "{target}の{name}が",
+   "sentences": [
+    "{target}の{name}が"
+   ],
    "trigger": {
     "effect": [
      "*_DOWN*_EFFECT"
@@ -820,6 +1317,9 @@
    "label": "FellText",
    "line": 752,
    "text": "さがった！",
+   "sentences": [
+    "さがった！"
+   ],
    "trigger": {
     "effect": [
      "*_DOWN*_EFFECT"
@@ -830,139 +1330,212 @@
    "source": "engine/battle/effects.asm",
    "label": "NoEffectText",
    "line": 1421,
-   "text": "しかし　こうかが　なかった！"
+   "text": "しかし　こうかが　なかった！",
+   "sentences": [
+    "しかし　こうかが　なかった！"
+   ]
   },
   {
    "source": "engine/battle/effects.asm",
    "label": "NothingHappenedText",
    "line": 1429,
-   "text": "しかし　なにもおこらない"
+   "text": "しかし　なにもおこらない",
+   "sentences": [
+    "しかし　なにもおこらない"
+   ]
   },
   {
    "source": "engine/battle/effects.asm",
    "label": "ButItFailedText",
    "line": 1442,
-   "text": "しかし　うまく　きまらなかった！"
+   "text": "しかし　うまく　きまらなかった！",
+   "sentences": [
+    "しかし　うまく　きまらなかった！"
+   ]
   },
   {
    "source": "engine/battle/effects.asm",
    "label": "DidntAffectText",
    "line": 1450,
-   "text": "しかし　{target}には\nきかなかった！"
+   "text": "しかし　{target}には\nきかなかった！",
+   "sentences": [
+    "しかし　{target}には きかなかった！"
+   ]
   },
   {
    "source": "engine/battle/effects.asm",
    "label": "IsUnaffectedText",
    "line": 1455,
-   "text": "{target}は\nへいきな　かおを　している！"
+   "text": "{target}は\nへいきな　かおを　している！",
+   "sentences": [
+    "{target}は へいきな　かおを　している！"
+   ]
   },
   {
    "source": "engine/battle/experience.asm",
    "label": "GainedText",
    "line": 342,
-   "text": "{name}は"
+   "text": "{name}は",
+   "sentences": [
+    "{name}は"
+   ]
   },
   {
    "source": "engine/battle/experience.asm",
    "label": "ExpPointsText",
    "line": 366,
-   "text": "{n}けいけんちを　もらった！"
+   "text": "{n}けいけんちを　もらった！",
+   "sentences": [
+    "{n}けいけんちを　もらった！"
+   ]
   },
   {
    "source": "engine/battle/experience.asm",
    "label": "GrewLevelText",
    "line": 373,
-   "text": "{name}は\nレベル{n}に　あがった！"
+   "text": "{name}は\nレベル{n}に　あがった！",
+   "sentences": [
+    "{name}は レベル{n}に　あがった！"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "UsedMoveText",
    "line": 9,
-   "text": "{user}"
+   "text": "{user}",
+   "sentences": [
+    "{user}"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "UserNoText",
    "line": 39,
-   "text": "の"
+   "text": "の",
+   "sentences": [
+    "の"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "UserWaText",
    "line": 44,
-   "text": "は"
+   "text": "は",
+   "sentences": [
+    "は"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "UsedMoveText_CheckObedience.UsedInsteadText",
    "line": 58,
-   "text": "めいれいをむしして"
+   "text": "めいれいをむしして",
+   "sentences": [
+    "めいれいをむしして"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "MoveNameText",
    "line": 67,
-   "text": "{name}"
+   "text": "{name}",
+   "sentences": [
+    "{name}"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "EndUsedMove1Text",
    "line": 93,
-   "text": "を　つかった！"
+   "text": "を　つかった！",
+   "sentences": [
+    "を　つかった！"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "EndUsedMove2Text",
    "line": 97,
-   "text": "を　した！"
+   "text": "を　した！",
+   "sentences": [
+    "を　した！"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "EndUsedMove3Text",
    "line": 101,
-   "text": "した！"
+   "text": "した！",
+   "sentences": [
+    "した！"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "EndUsedMove4Text",
    "line": 105,
-   "text": "こうげき！"
+   "text": "こうげき！",
+   "sentences": [
+    "こうげき！"
+   ]
   },
   {
    "source": "engine/battle/used_move_text.asm",
    "label": "EndUsedMove5Text",
    "line": 109,
-   "text": "！"
+   "text": "！",
+   "sentences": [
+    "！"
+   ]
   },
   {
    "source": "home/text_script.asm",
    "label": "PokemonFaintedText",
    "line": 194,
-   "text": "{name}は　ちからつきた"
+   "text": "{name}は　ちからつきた",
+   "sentences": [
+    "{name}は　ちからつきた"
+   ]
   },
   {
    "source": "home/text_script.asm",
    "label": "PlayerBlackedOutText",
    "line": 204,
-   "text": "{player}の　てもとには\nたたかえるポケモンが　もういない！\n\n{player}は\nめのまえが　まっくらに　なった！"
+   "text": "{player}の　てもとには\nたたかえるポケモンが　もういない！\n\n{player}は\nめのまえが　まっくらに　なった！",
+   "sentences": [
+    "{player}の　てもとには たたかえるポケモンが　もういない！",
+    "{player}は めのまえが　まっくらに　なった！"
+   ]
   },
   {
    "source": "home/overworld_text.asm",
    "label": "ExclamationText",
    "line": 8,
-   "text": "！"
+   "text": "！",
+   "sentences": [
+    "！"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "BattleMenuText",
    "line": 68,
-   "text": "たたかう　どうぐ\nポケモン　にげる"
+   "text": "たたかう　どうぐ\nポケモン　にげる",
+   "list": true,
+   "sentences": [
+    "たたかう　どうぐ",
+    "ポケモン　にげる"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "AhText",
    "line": 81,
-   "text": "アッ！"
+   "text": "アッ！",
+   "list": true,
+   "sentences": [
+    "アッ！"
+   ]
   }
  ],
  "pokemon": [

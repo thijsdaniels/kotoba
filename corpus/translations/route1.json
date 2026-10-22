@@ -1,56 +1,152 @@
 {
  "Route1Youngster1Text.MartSampleText": {
-  "en": "I am a clerk of the Friendly Shop.\n\n(We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!\n\nThat's right! Let me present (you) a sample. ...Here you go!",
-  "who": "Shop clerk on Route 1"
+  "who": "Shop clerk on Route 1",
+  "sentences": [
+   {
+    "ja": "わたし　フレンドリィ　ショップの てんいん　です べんりな　どうぐや　ですから トキワ　シティで ぜひ　よって　くださいね！",
+    "en": "I am a clerk of the Friendly Shop. (We are) a shop of convenient tools, so in Tokiwa City, by all means do drop by!"
+   },
+   {
+    "ja": "そうだ！",
+    "en": "That's right!"
+   },
+   {
+    "ja": "みほんを　さしあげましょう ……　どうぞ！",
+    "en": "Let me present (you) a sample. ...Here you go!"
+   }
+  ]
  },
  "Route1Youngster1Text.GotPotionText": {
-  "en": "{player} received '{name}'!"
+  "sentences": [
+   {
+    "ja": "{player}は 「{name}」を　もらった！",
+    "en": "{player} received '{name}'!"
+   }
+  ]
  },
  "Route1Youngster1Text.AlsoGotPokeballsText": {
-  "en": "Also when buying Monster Balls to catch Pokémon, please come to the shop!",
-  "who": "Shop clerk on Route 1"
+  "who": "Shop clerk on Route 1",
+  "sentences": [
+   {
+    "ja": "ポケモンを　つかまえる モンスターボール　かう　ときも ショップへ　いらして　ください！",
+    "en": "Also when buying Monster Balls to catch Pokémon, please come to the shop!"
+   }
+  ]
  },
  "Route1Youngster1Text.NoRoomText": {
-  "en": "(Your) luggage is full!"
+  "sentences": [
+   {
+    "ja": "にもつが　いっぱいだ！",
+    "en": "(Your) luggage is full!"
+   }
+  ]
  },
  "Route1Youngster2Text": {
-  "en": "There's a ledge in the road, right!\n\nJumping down is a little scary, but...\n\nWhen going back to Masara Town, (you) can go back fast, which is good.",
-  "who": "Boy on Route 1"
+  "who": "Boy on Route 1",
+  "sentences": [
+   {
+    "ja": "みちに　だんさが　あるだろ！",
+    "en": "There's a ledge in the road, right!"
+   },
+   {
+    "ja": "とび　おりるのは ちょっと　こわいけど…… マサラ　タウンに　かえる　ときは はやく　かえれて　いいよ",
+    "en": "Jumping down is a little scary, but... When going back to Masara Town, (you) can go back fast, which is good."
+   }
+  ]
  },
  "Route1SignText": {
-  "en": "Here is Route 1. Masara Town ...... Tokiwa City",
-  "who": "Sign"
+  "who": "Sign",
+  "sentences": [
+   {
+    "ja": "ここは　１ばん　どうろ マサラ　タウン　……　トキワ　シティ",
+    "en": "Here is Route 1. Masara Town ...... Tokiwa City"
+   }
+  ]
  },
  "PotionText": {
-  "en": "{name}'s stamina recovered by {n}.",
-  "loose": "{name} recovered {n} HP."
+  "loose": "{name} recovered {n} HP.",
+  "sentences": [
+   {
+    "ja": "{name}の　たいりょくが{n}かいふくした",
+    "en": "{name}'s stamina recovered by {n}."
+   }
+  ]
  },
  "LearnedMove1Text": {
-  "en": "{learnmovemon} newly learned {name}!"
+  "sentences": [
+   {
+    "ja": "{learnmovemon}は　あたらしく{name}を　おぼえた！",
+    "en": "{learnmovemon} newly learned {name}!"
+   }
+  ]
  },
  "ItemUseNoEffectText": {
-  "en": "Even if used, there's no effect."
+  "sentences": [
+   {
+    "ja": "つかっても　こうかがないよ",
+    "en": "Even if used, there's no effect."
+   }
+  ]
  },
  "ItemUseText00": {
-  "en": "{player} used {name}!"
+  "sentences": [
+   {
+    "ja": "{player}は{name}を　つかった！",
+    "en": "{player} used {name}!"
+   }
+  ]
  },
  "HurtByLeechSeedText": {
-  "en": "The leech seed robs {user}'s stamina!"
+  "sentences": [
+   {
+    "ja": "やどりぎが　{user}の たいりょくを　うばう！",
+    "en": "The leech seed robs {user}'s stamina!"
+   }
+  ]
  },
  "GotAwayText": {
-  "en": "Got away cleanly!"
+  "sentences": [
+   {
+    "ja": "うまく　にげきれた！",
+    "en": "Got away cleanly!"
+   }
+  ]
  },
  "MoveNoPPText": {
-  "en": "The move's remaining points are gone!",
-  "loose": "No PP left for this move."
+  "loose": "No PP left for this move.",
+  "sentences": [
+   {
+    "ja": "わざの　のこりポイントが　ない！",
+    "en": "The move's remaining points are gone!"
+   }
+  ]
  },
  "WildMonAppearedText": {
-  "en": "Ah! A wild {enemy} jumped out!"
+  "sentences": [
+   {
+    "ja": "あ！",
+    "en": "Ah!"
+   },
+   {
+    "ja": "やせいの{enemy}が　とびだしてきた！",
+    "en": "A wild {enemy} jumped out!"
+   }
+  ]
  },
  "WasSeededText": {
-  "en": "Planted a seed on {target}!"
+  "sentences": [
+   {
+    "ja": "{target}に たねを　うえつけた！",
+    "en": "Planted a seed on {target}!"
+   }
+  ]
  },
  "EvadedAttackText": {
-  "en": "{target} dodged the attack!"
+  "sentences": [
+   {
+    "ja": "{target}は こうげきを　かわした！",
+    "en": "{target} dodged the attack!"
+   }
+  ]
  }
 }

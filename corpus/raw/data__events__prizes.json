@@ -4,7 +4,8 @@
   {
    "label": "NoThanksText",
    "line": 6,
-   "text": "いらない"
+   "text": "いらない",
+   "list": true
   }
  ]
 }

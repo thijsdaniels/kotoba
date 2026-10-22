@@ -4,12 +4,14 @@
   {
    "label": "TechnicalPrefix",
    "line": 107,
-   "text": "わざマシン"
+   "text": "わざマシン",
+   "list": true
   },
   {
    "label": "HiddenPrefix",
    "line": 109,
-   "text": "ひでんマシン"
+   "text": "ひでんマシン",
+   "list": true
   }
  ]
 }

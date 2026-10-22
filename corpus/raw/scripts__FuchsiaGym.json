@@ -4,12 +4,14 @@
   {
    "label": "FuchsiaGym_Script.CityName",
    "line": 21,
-   "text": "セキチク"
+   "text": "セキチク",
+   "list": true
   },
   {
    "label": "FuchsiaGym_Script.LeaderName",
    "line": 24,
-   "text": "キョウ"
+   "text": "キョウ",
+   "list": true
   },
   {
    "label": "FuchsiaGymKogaText.BeforeBattleText",

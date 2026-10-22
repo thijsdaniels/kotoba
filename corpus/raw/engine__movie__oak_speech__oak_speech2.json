@@ -14,7 +14,8 @@
   {
    "label": "DisplayIntroNameTextBox",
    "line": 164,
-   "text": "なまえこうほ"
+   "text": "なまえこうほ",
+   "list": true
   }
  ]
 }

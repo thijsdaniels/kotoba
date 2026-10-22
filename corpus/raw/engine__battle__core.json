@@ -106,7 +106,8 @@
   {
    "label": "DisplayBattleMenu",
    "line": 2084,
-   "text": "おじいさん"
+   "text": "おじいさん",
+   "list": true
   },
   {
    "label": "ItemsCantBeUsedHereText",
@@ -131,7 +132,8 @@
   {
    "label": "WhichTechniqueString",
    "line": 2728,
-   "text": "どのわざを\nものまねする？"
+   "text": "どのわざを\nものまねする？",
+   "list": true
   },
   {
    "label": "NoMovesLeftText",
@@ -141,12 +143,14 @@
   {
    "label": "DisabledText",
    "line": 2952,
-   "text": "ふうじられている！"
+   "text": "ふうじられている！",
+   "list": true
   },
   {
    "label": "TypeText",
    "line": 2955,
-   "text": "わざタイプ"
+   "text": "わざタイプ",
+   "list": true
   },
   {
    "label": "MultiHitText",
@@ -317,7 +321,8 @@
   {
    "label": "MirrorMoveFailedText",
    "line": 5091,
-   "text": "しかし　オウムがえしは\nしっぱいにおわった！"
+   "text": "しかし　オウムがえしは\nしっぱいにおわった！",
+   "list": true
   },
   {
    "label": "HitXTimesText",

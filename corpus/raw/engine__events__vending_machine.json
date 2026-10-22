@@ -9,7 +9,8 @@
   {
    "label": "DrinkText",
    "line": 85,
-   "text": "おいしいみず　２００円\nサイコソーダ　３００円\nミックスオレ　３５０円\nいらない"
+   "text": "おいしいみず　２００円\nサイコソーダ　３００円\nミックスオレ　３５０円\nいらない",
+   "list": true
   },
   {
    "label": "VendingMachineText4",

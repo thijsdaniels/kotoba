@@ -4,12 +4,14 @@
   {
    "label": "VermilionGym_Script.CityName",
    "line": 24,
-   "text": "クチバ"
+   "text": "クチバ",
+   "list": true
   },
   {
    "label": "VermilionGym_Script.LeaderName",
    "line": 27,
-   "text": "マチス"
+   "text": "マチス",
+   "list": true
   },
   {
    "label": "VermilionGymLTSurgeText.PreBattleText",

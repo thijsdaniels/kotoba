@@ -4,12 +4,14 @@
   {
    "label": "CeruleanGym_Script.CityName",
    "line": 19,
-   "text": "ハナダ"
+   "text": "ハナダ",
+   "list": true
   },
   {
    "label": "CeruleanGym_Script.LeaderName",
    "line": 22,
-   "text": "カスミ"
+   "text": "カスミ",
+   "list": true
   },
   {
    "label": "CeruleanGymMistyText.PreBattleText",

@@ -12,6 +12,8 @@ reached by any mapped stage are listed under "deferred" in corpus/coverage.json,
 with raw sources no stage claims, so nothing stays untagged by accident.
 """
 import fnmatch, json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from sentences import split_sentences
 from collections import OrderedDict
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -110,7 +112,7 @@ def main():
                 print(f"error: {src} is claimed twice", file=sys.stderr); sys.exit(1)
             claimed.add(src)
             for e in raw[src]:
-                by_id[stage["id"]]["strings"].append({"source": src, **e})
+                by_id[stage["id"]]["strings"].append({"source": src, **e, "sentences": split_sentences(e["text"], e.get("list", False))})
     for src, default in engine["files"].items():
         if src not in raw:
             print(f"warning: engine.json lists {src} but it has no text", file=sys.stderr); continue
@@ -121,7 +123,7 @@ def main():
         for e in raw[src]:
             spec = overrides.get(e["label"], default)
             where = resolve(spec)
-            entry = {"source": src, **e}
+            entry = {"source": src, **e, "sentences": split_sentences(e["text"], e.get("list", False))}
             if not isinstance(spec, str): entry["trigger"] = spec
             if where == "skip": skipped += 1
             elif where == "system": system["strings"].append(entry)

@@ -4,7 +4,8 @@
   {
    "label": "RedrawPartyMenu_",
    "line": 8,
-   "text": "おぼえられる\nおぼえられない\nつかえる\nつかえない"
+   "text": "おぼえられる\nおぼえられない\nつかえる\nつかえない",
+   "list": true
   },
   {
    "label": "PartyMenuNormalText",

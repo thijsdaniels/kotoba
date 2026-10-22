@@ -4,22 +4,26 @@
   {
    "label": "HallOfFameText",
    "line": 94,
-   "text": "でんどう　いり　おめでとう！"
+   "text": "でんどう　いり　おめでとう！",
+   "list": true
   },
   {
    "label": "HoFMonInfoText",
    "line": 180,
-   "text": "レベル／\nタイプ１／\nタイプ２／"
+   "text": "レベル／\nタイプ１／\nタイプ２／",
+   "list": true
   },
   {
    "label": "HoFPlayTimeText",
    "line": 263,
-   "text": "プレイじかん"
+   "text": "プレイじかん",
+   "list": true
   },
   {
    "label": "HoFMoneyText",
    "line": 266,
-   "text": "のこった　おこづかい"
+   "text": "のこった　おこづかい",
+   "list": true
   },
   {
    "label": "DexSeenOwnedText",

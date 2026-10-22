@@ -4,7 +4,8 @@
   {
    "label": "PokemartGreetingText",
    "line": 153,
-   "text": "ようこそ！\nおさがしものですか？"
+   "text": "ようこそ！\nおさがしものですか？",
+   "list": true
   },
   {
    "label": "PokemonFaintedText",

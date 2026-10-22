@@ -4,12 +4,14 @@
   {
    "label": "ViridianGym_Script.CityName",
    "line": 13,
-   "text": "トキワ"
+   "text": "トキワ",
+   "list": true
   },
   {
    "label": "ViridianGym_Script.LeaderName",
    "line": 16,
-   "text": "サカキ"
+   "text": "サカキ",
+   "list": true
   },
   {
    "label": "ViridianGymGiovanniText.PreBattleText",

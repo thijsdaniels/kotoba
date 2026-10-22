@@ -7,19 +7,28 @@
    "source": "scripts/Route2.asm",
    "label": "Route2SignText",
    "line": 11,
-   "text": "ここは　２ばん　どうろ\nトキワ　シティ　……　ニビ　シティ"
+   "text": "ここは　２ばん　どうろ\nトキワ　シティ　……　ニビ　シティ",
+   "sentences": [
+    "ここは　２ばん　どうろ トキワ　シティ　……　ニビ　シティ"
+   ]
   },
   {
    "source": "scripts/Route2.asm",
    "label": "Route2DiglettsCaveSignText",
    "line": 16,
-   "text": "ここは　ディグダの　あな"
+   "text": "ここは　ディグダの　あな",
+   "sentences": [
+    "ここは　ディグダの　あな"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "HurtByPoisonText",
    "line": 566,
    "text": "{user}は\nどくの　ダメージを　うけている！",
+   "sentences": [
+    "{user}は どくの　ダメージを　うけている！"
+   ],
    "trigger": {
     "effect": [
      "POISON*"
@@ -31,6 +40,9 @@
    "label": "HurtByBurnText",
    "line": 571,
    "text": "{user}は\nやけどの　ダメージを　うけている！",
+   "sentences": [
+    "{user}は やけどの　ダメージを　うけている！"
+   ],
    "trigger": {
     "effect": [
      "BURN*"
@@ -42,6 +54,9 @@
    "label": "PoisonedText",
    "line": 166,
    "text": "{target}は　どくをあびた！",
+   "sentences": [
+    "{target}は　どくをあびた！"
+   ],
    "trigger": {
     "effect": [
      "POISON_EFFECT",
@@ -54,6 +69,9 @@
    "label": "BurnedText",
    "line": 307,
    "text": "{target}は\nやけどをおった！",
+   "sentences": [
+    "{target}は やけどをおった！"
+   ],
    "trigger": {
     "effect": [
      "BURN_SIDE_EFFECT*"

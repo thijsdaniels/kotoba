@@ -19,12 +19,14 @@
   {
    "label": "PrintPrizePrice.CoinString",
    "line": 161,
-   "text": "コイン"
+   "text": "コイン",
+   "list": true
   },
   {
    "label": "PrintPrizePrice.CoinCounterString",
    "line": 164,
-   "text": "まい"
+   "text": "まい",
+   "list": true
   },
   {
    "label": "HereYouGoText",

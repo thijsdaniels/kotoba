@@ -154,17 +154,20 @@
   {
    "label": "GameCornerMoneyText",
    "line": 579,
-   "text": "おこづかい"
+   "text": "おこづかい",
+   "list": true
   },
   {
    "label": "GameCornerCoinText",
    "line": 582,
-   "text": "コイン"
+   "text": "コイン",
+   "list": true
   },
   {
    "label": "GameCornerCoinCounterText",
    "line": 588,
-   "text": "まい"
+   "text": "まい",
+   "list": true
   }
  ]
 }

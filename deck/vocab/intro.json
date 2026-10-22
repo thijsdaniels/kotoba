@@ -8,7 +8,9 @@
   "meaning": "is (formal, written)",
   "scope": "general",
   "ref": "intro/IntroduceRivalText",
-  "note": "Written equivalent of だ. であり links clauses. News, signs, Wikipedia; not speech."
+  "note": "Written equivalent of だ. であり links clauses. News, signs, Wikipedia; not speech.",
+  "sentence": 0,
+  "surface": "である"
  },
  {
   "id": "e-kana",
@@ -20,7 +22,9 @@
   "scope": "general",
   "ref": "intro/IntroduceRivalText",
   "example": "あした はれる かな",
-  "exampleEn": "Tomorrow (it) clears up, I wonder."
+  "exampleEn": "Tomorrow (it) clears up, I wonder.",
+  "sentence": 1,
+  "surface": "かな"
  },
  {
   "id": "e-kara",
@@ -29,7 +33,9 @@
   "meaning": "from · starting point, source",
   "ref": "intro/OakSpeechText1",
   "example": "みんなから",
-  "exampleEn": "from everyone"
+  "exampleEn": "from everyone",
+  "sentence": 2,
+  "surface": "から"
  },
  {
   "id": "e-tari",
@@ -38,7 +44,9 @@
   "meaning": "doing things like X and Y · lists example actions",
   "ref": "intro/OakSpeechText2",
   "example": "ペットに したり しょうぶに つかったり",
-  "exampleEn": "making (them) into pets, using (them) in matches, and such"
+  "exampleEn": "making (them) into pets, using (them) in matches, and such",
+  "sentence": 1,
+  "surface": "ペットに　したり しょうぶに　つかったり"
  },
  {
   "id": "e-toiu",
@@ -51,7 +59,9 @@
   "ref": "intro/YourNameIsText",
   "example": "タイスと いいます",
   "exampleEn": "(I) am called Tais.",
-  "note": "と marks the name, いう = to say."
+  "note": "と marks the name, いう = to say.",
+  "sentence": 0,
+  "surface": "と　いう"
  },
  {
   "id": "e-wake",
@@ -60,7 +70,9 @@
   "meaning": "that's the reason · the explanation is that",
   "ref": "intro/OakSpeechText2",
   "example": "けんきゅうを してる と いう わけだ",
-  "exampleEn": "(I'm) doing research, that's what it is"
+  "exampleEn": "(I'm) doing research, that's what it is",
+  "sentence": 1,
+  "surface": "というわけ"
  },
  {
   "id": "tachi",
@@ -71,7 +83,9 @@
   "meaning": "(plural for people)",
   "scope": "general",
   "ref": "intro/OakSpeechText2",
-  "note": "おまえたち = you (plural), こどもたち = children."
+  "note": "おまえたち = you (plural), こどもたち = children.",
+  "sentence": 0,
+  "surface": "たち"
  },
  {
   "id": "f-oru",
@@ -81,7 +95,9 @@
   "form": "progressive, ている with おる",
   "register": "old-fashioned, Oak's speech",
   "meaning": "to be doing · おる replaces いる",
-  "ref": "intro/OakSpeechText1"
+  "ref": "intro/OakSpeechText1",
+  "sentence": 2,
+  "surface": "て　おる"
  },
  {
   "id": "f-oshietemorau",
@@ -97,7 +113,9 @@
   "example": "みちを おしえて もらった",
   "exampleEn": "(I) received (someone's) telling of the road.",
   "exampleLoose": "Someone showed me the way.",
-  "note": "て-form + もらう (to receive). To ask for a favor: おしえて もらえますか, can (I) receive (your) telling?"
+  "note": "て-form + もらう (to receive). To ask for a favor: おしえて もらえますか, can (I) receive (your) telling?",
+  "sentence": 0,
+  "surface": "おしえて　もらおう"
  },
  {
   "id": "f-shitawareru",
@@ -108,7 +126,9 @@
   "register": "plain",
   "meaning": "to be looked up to, be adored",
   "ref": "intro/OakSpeechText1",
-  "vclass": "godan"
+  "vclass": "godan",
+  "sentence": 2,
+  "surface": "したわれて　おるよ"
  },
  {
   "id": "f-yobareru",
@@ -126,7 +146,9 @@
   "example": "なんと よばれていますか？",
   "exampleEn": "What are (you) being called?",
   "exampleLoose": "What do people call you?",
-  "note": "う-verbs: final -u → -areru. よぶ → よばれる, たのむ → たのまれる."
+  "note": "う-verbs: final -u → -areru. よぶ → よばれる, たのむ → たのまれる.",
+  "sentence": 0,
+  "surface": "よばれる"
  },
  {
   "id": "okido",
@@ -135,7 +157,9 @@
   "romaji": "ookido",
   "meaning": "Professor Oak · Okido in Japanese",
   "scope": "game",
-  "ref": "intro/OakSpeechText1"
+  "ref": "intro/OakSpeechText1",
+  "sentence": 2,
+  "surface": "オーキド"
  },
  {
   "id": "anata",
@@ -146,7 +170,9 @@
   "meaning": "you (polite, neutral)",
   "scope": "general",
   "ref": "intro/YourTextString",
-  "note": "Between spouses it also means 'dear'. Often left out when clear."
+  "note": "Between spouses it also means 'dear'. Often left out when clear.",
+  "sentence": 0,
+  "surface": "あなた"
  },
  {
   "id": "bouken",
@@ -158,7 +184,9 @@
   "scope": "general",
   "example": "ぼうけんの はじまり",
   "exampleEn": "The beginning of the adventure.",
-  "ref": "intro/OakSpeechText3"
+  "ref": "intro/OakSpeechText3",
+  "sentence": 2,
+  "surface": "ぼうけん"
  },
  {
   "id": "eeto",
@@ -170,7 +198,9 @@
   "scope": "general",
   "ref": "intro/IntroduceRivalText",
   "example": "えーと、これ ください",
-  "exampleEn": "Uhm, this, please."
+  "exampleEn": "Uhm, this, please.",
+  "sentence": 0,
+  "surface": "えーと"
  },
  {
   "id": "fumu",
@@ -182,7 +212,9 @@
   "scope": "general",
   "ref": "intro/YourNameIsText",
   "example": "ふむふむ",
-  "exampleEn": "Hmm, hmm."
+  "exampleEn": "Hmm, hmm.",
+  "sentence": 0,
+  "surface": "ふむ"
  },
  {
   "id": "hajimari",
@@ -192,7 +224,9 @@
   "romaji": "hajimari",
   "meaning": "beginning",
   "scope": "general",
-  "ref": "intro/OakSpeechText3"
+  "ref": "intro/OakSpeechText3",
+  "sentence": 1,
+  "surface": "はじまり"
  },
  {
   "id": "hajimemashite",
@@ -204,7 +238,9 @@
   "loose": "literally: for the first time",
   "scope": "general",
   "ref": "intro/OakSpeechText1",
-  "note": "Said once, on first meeting."
+  "note": "Said once, on first meeting.",
+  "sentence": 0,
+  "surface": "はじめまして"
  },
  {
   "id": "hajimeru",
@@ -215,7 +251,9 @@
   "meaning": "to begin something",
   "scope": "general",
   "ref": "intro/OakSpeechText1",
-  "note": "はじめまして is its polite te-form used as a greeting: for the first time."
+  "note": "はじめまして is its polite te-form used as a greeting: for the first time.",
+  "sentence": 0,
+  "surface": "はじめまして"
  },
  {
   "id": "hakase",
@@ -226,7 +264,9 @@
   "meaning": "professor, doctor (title)",
   "scope": "general",
   "ref": "intro/OakSpeechText1",
-  "note": "Attached to a name like さん: オーキドはかせ."
+  "note": "Attached to a name like さん: オーキドはかせ.",
+  "sentence": 2,
+  "surface": "はかせ"
  },
  {
   "id": "hito",
@@ -236,7 +276,9 @@
   "meaning": "person, people",
   "scope": "general",
   "ref": "intro/OakSpeechText2",
-  "kanji": "人"
+  "kanji": "人",
+  "sentence": 1,
+  "surface": "ひと"
  },
  {
   "id": "ikimono",
@@ -247,7 +289,9 @@
   "meaning": "living thing, creature",
   "scope": "general",
   "ref": "intro/OakSpeechText2",
-  "note": "いきる (to live) + もの (thing)."
+  "note": "いきる (to live) + もの (thing).",
+  "sentence": 0,
+  "surface": "いきもの"
  },
  {
   "id": "iku",
@@ -259,7 +303,9 @@
   "scope": "general",
   "example": "えきに いきます",
   "exampleEn": "(I) go to the station.",
-  "ref": "intro/IntroduceRivalText"
+  "ref": "intro/IntroduceRivalText",
+  "sentence": 1,
+  "surface": "いったかな"
  },
  {
   "id": "itarutokoro",
@@ -270,7 +316,9 @@
   "meaning": "everywhere",
   "scope": "general",
   "ref": "intro/OakSpeechText2",
-  "note": "Literally 'places one reaches'. Same ところ as in あぶないところ."
+  "note": "Literally 'places one reaches'. Same ところ as in あぶないところ.",
+  "sentence": 0,
+  "surface": "いたるところ"
  },
  {
   "id": "iyoiyo",
@@ -282,7 +330,9 @@
   "scope": "general",
   "example": "いよいよ あしたです",
   "exampleEn": "At last, (it) is tomorrow.",
-  "ref": "intro/OakSpeechText3"
+  "ref": "intro/OakSpeechText3",
+  "sentence": 1,
+  "surface": "いよいよ"
  },
  {
   "id": "jibun",
@@ -292,7 +342,9 @@
   "meaning": "oneself, myself",
   "scope": "general",
   "ref": "intro/DefaultNamesPlayer",
-  "kanji": "自分"
+  "kanji": "自分",
+  "sentence": 0,
+  "surface": "じぶん"
  },
  {
   "id": "kana",
@@ -302,7 +354,9 @@
   "meaning": "kana, the Japanese syllabic script",
   "scope": "general",
   "ref": "intro/HiraganaCharacters",
-  "kanji": "仮名"
+  "kanji": "仮名",
+  "sentence": 6,
+  "surface": "カナ"
  },
  {
   "id": "kenkyuu",
@@ -312,7 +366,9 @@
   "meaning": "research",
   "scope": "general",
   "ref": "intro/OakSpeechText2",
-  "kanji": "研究"
+  "kanji": "研究",
+  "sentence": 1,
+  "surface": "けんきゅう"
  },
  {
   "id": "kimeru",
@@ -325,7 +381,9 @@
   "example": "じぶんで きめる",
   "exampleEn": "(I) decide by myself.",
   "note": "じぶんで きめる = decide yourself (enter your own name).",
-  "ref": "intro/DefaultNamesPlayer"
+  "ref": "intro/DefaultNamesPlayer",
+  "sentence": 0,
+  "surface": "きめる"
  },
  {
   "id": "kimi",
@@ -337,7 +395,9 @@
   "scope": "general",
   "ref": "intro/IntroducePlayerText",
   "example": "きみの なまえは？",
-  "exampleEn": "Your name is…?"
+  "exampleEn": "Your name is…?",
+  "sentence": 0,
+  "surface": "きみ"
  },
  {
   "id": "koitsu",
@@ -350,7 +410,9 @@
   "ref": "intro/IntroduceRivalText",
   "example": "こいつは だれ？",
   "exampleEn": "This guy, who (is he)?",
-  "note": "こいつ / そいつ / あいつ / どいつ, like これ / それ / あれ / どれ. Polite: この人."
+  "note": "こいつ / そいつ / あいつ / どいつ, like これ / それ / あれ / どれ. Polite: この人.",
+  "sentence": 0,
+  "surface": "こいつ"
  },
  {
   "id": "kono",
@@ -359,7 +421,9 @@
   "romaji": "kono",
   "meaning": "this · before a noun",
   "scope": "general",
-  "ref": "intro/OakSpeechText2"
+  "ref": "intro/OakSpeechText2",
+  "sentence": 0,
+  "surface": "この"
  },
  {
   "id": "korekara",
@@ -368,7 +432,9 @@
   "romaji": "korekara",
   "meaning": "from now on",
   "scope": "general",
-  "ref": "intro/OakSpeechText3"
+  "ref": "intro/OakSpeechText3",
+  "sentence": 1,
+  "surface": "これから"
  },
  {
   "id": "kouho",
@@ -378,7 +444,9 @@
   "meaning": "candidate",
   "scope": "general",
   "ref": "intro/DisplayIntroNameTextBox",
-  "kanji": "候補"
+  "kanji": "候補",
+  "sentence": 0,
+  "surface": "こうほ"
  },
  {
   "id": "mago",
@@ -390,7 +458,9 @@
   "scope": "general",
   "ref": "intro/IntroduceRivalText",
   "example": "まごが さんにん いる",
-  "exampleEn": "There are three grandchildren."
+  "exampleEn": "There are three grandchildren.",
+  "sentence": 0,
+  "surface": "まご"
  },
  {
   "id": "minna",
@@ -402,7 +472,9 @@
   "scope": "general",
   "ref": "intro/OakSpeechText1",
   "example": "みんな げんき？",
-  "exampleEn": "Everyone well?"
+  "exampleEn": "Everyone well?",
+  "sentence": 2,
+  "surface": "みんな"
  },
  {
   "id": "monogatari",
@@ -414,7 +486,9 @@
   "scope": "general",
   "example": "むかしの ものがたり",
   "exampleEn": "A story of long ago.",
-  "ref": "intro/OakSpeechText3"
+  "ref": "intro/OakSpeechText3",
+  "sentence": 1,
+  "surface": "ものがたり"
  },
  {
   "id": "morau",
@@ -426,7 +500,9 @@
   "scope": "general",
   "ref": "intro/IntroducePlayerText",
   "example": "おみやげを もらう",
-  "exampleEn": "(I) receive a souvenir."
+  "exampleEn": "(I) receive a souvenir.",
+  "sentence": 0,
+  "surface": "もらおう"
  },
  {
   "id": "namae",
@@ -436,7 +512,9 @@
   "meaning": "name",
   "scope": "general",
   "ref": "intro/IntroducePlayerText",
-  "kanji": "名前"
+  "kanji": "名前",
+  "sentence": 0,
+  "surface": "なまえ"
  },
  {
   "id": "nyuuryoku",
@@ -446,7 +524,9 @@
   "meaning": "input",
   "scope": "general",
   "ref": "intro/KanaInputText",
-  "kanji": "入力"
+  "kanji": "入力",
+  "sentence": 0,
+  "surface": "にゅうりょく"
  },
  {
   "id": "omoidasu",
@@ -456,7 +536,9 @@
   "meaning": "to recall, to remember",
   "scope": "general",
   "ref": "intro/HisNameIsText",
-  "kanji": "思い出す"
+  "kanji": "思い出す",
+  "sentence": 1,
+  "surface": "おもいだしたぞ"
  },
  {
   "id": "osananajimi",
@@ -469,7 +551,9 @@
   "ref": "intro/IntroduceRivalText",
   "example": "かれは おさななじみです",
   "exampleEn": "He is (my) childhood friend.",
-  "note": "幼 (young) + 馴染み (familiarity)."
+  "note": "幼 (young) + 馴染み (familiarity).",
+  "sentence": 0,
+  "surface": "おさななじみ"
  },
  {
   "id": "oshieru",
@@ -481,7 +565,9 @@
   "scope": "general",
   "ref": "intro/IntroducePlayerText",
   "example": "なまえを おしえる",
-  "exampleEn": "(I) tell (my) name."
+  "exampleEn": "(I) tell (my) name.",
+  "sentence": 0,
+  "surface": "おしえて　もらおう"
  },
  {
   "id": "pet",
@@ -490,7 +576,9 @@
   "romaji": "petto",
   "meaning": "pet",
   "scope": "general",
-  "ref": "intro/OakSpeechText2"
+  "ref": "intro/OakSpeechText2",
+  "sentence": 1,
+  "surface": "ペット"
  },
  {
   "id": "pokettomonsutaa",
@@ -499,7 +587,9 @@
   "romaji": "poketto monsutaa",
   "meaning": "Pocket Monster · the full name the game uses in the intro",
   "scope": "game",
-  "ref": "intro/OakSpeechText1"
+  "ref": "intro/OakSpeechText1",
+  "sentence": 1,
+  "surface": "ポケット　モンスター"
  },
  {
   "id": "raibaru",
@@ -508,7 +598,9 @@
   "romaji": "raibaru",
   "meaning": "rival",
   "scope": "general",
-  "ref": "intro/IntroduceRivalText"
+  "ref": "intro/IntroduceRivalText",
+  "sentence": 0,
+  "surface": "ライバル"
  },
  {
   "id": "retsugo",
@@ -517,7 +609,9 @@
   "romaji": "rettsu goo",
   "meaning": "let's go",
   "scope": "general",
-  "ref": "intro/OakSpeechText3"
+  "ref": "intro/OakSpeechText3",
+  "sentence": 4,
+  "surface": "レッツ　ゴー"
  },
  {
   "id": "sekai",
@@ -530,7 +624,9 @@
   "example": "せかいいち",
   "exampleEn": "World number one.",
   "exampleLoose": "The best in the world.",
-  "ref": "intro/OakSpeechText1"
+  "ref": "intro/OakSpeechText1",
+  "sentence": 1,
+  "surface": "せかい"
  },
  {
   "id": "shoubu",
@@ -540,7 +636,9 @@
   "meaning": "match, contest",
   "scope": "general",
   "ref": "intro/OakSpeechText2",
-  "kanji": "勝負"
+  "kanji": "勝負",
+  "sentence": 1,
+  "surface": "しょうぶ"
  },
  {
   "id": "sono",
@@ -549,7 +647,9 @@
   "romaji": "sono",
   "meaning": "that · before a noun",
   "scope": "general",
-  "ref": "intro/OakSpeechText2"
+  "ref": "intro/OakSpeechText2",
+  "sentence": 1,
+  "surface": "その"
  },
  {
   "id": "soshite",
@@ -558,7 +658,9 @@
   "romaji": "soshite",
   "meaning": "and then",
   "scope": "general",
-  "ref": "intro/OakSpeechText2"
+  "ref": "intro/OakSpeechText2",
+  "sentence": 1,
+  "surface": "そして"
  },
  {
   "id": "sumu",
@@ -570,7 +672,9 @@
   "scope": "general",
   "ref": "intro/OakSpeechText2",
   "example": "アムステルダムに すんでいます",
-  "exampleEn": "(I) am living in Amsterdam."
+  "exampleEn": "(I) am living in Amsterdam.",
+  "sentence": 0,
+  "surface": "すんでいる"
  },
  {
   "id": "suru",
@@ -582,7 +686,9 @@
   "scope": "general",
   "example": "なにを する？",
   "exampleEn": "What (will you) do?",
-  "ref": "intro/OakSpeechText2"
+  "ref": "intro/OakSpeechText2",
+  "sentence": 1,
+  "surface": "したり しょうぶに　つかったり"
  },
  {
   "id": "tsukau",
@@ -592,7 +698,9 @@
   "meaning": "to use",
   "scope": "general",
   "ref": "intro/OakSpeechText2",
-  "kanji": "使う"
+  "kanji": "使う",
+  "sentence": 1,
+  "surface": "つかったり"
  },
  {
   "id": "watashi",
@@ -603,7 +711,9 @@
   "scope": "general",
   "ref": "intro/OakSpeechText1",
   "kanji": "私",
-  "note": "Polite and neutral. Oak switches to わし in the lab."
+  "note": "Polite and neutral. Oak switches to わし in the lab.",
+  "sentence": 2,
+  "surface": "わたし"
  },
  {
   "id": "yobu",
@@ -615,7 +725,9 @@
   "scope": "general",
   "ref": "intro/OakSpeechText2",
   "example": "タクシーを よぶ",
-  "exampleEn": "(I) call a taxi."
+  "exampleEn": "(I) call a taxi.",
+  "sentence": 0,
+  "surface": "よばれる いきもの　たちが いたるところに　すんでいる"
  },
  {
   "id": "youkoso",
@@ -628,7 +740,9 @@
   "ref": "intro/OakSpeechText1",
   "example": "にほんへ ようこそ",
   "exampleEn": "Welcome to Japan.",
-  "note": "X へ ようこそ = welcome to X."
+  "note": "X へ ようこそ = welcome to X.",
+  "sentence": 1,
+  "surface": "ようこそ"
  },
  {
   "id": "yume",
@@ -638,6 +752,8 @@
   "romaji": "yume",
   "meaning": "dream",
   "scope": "general",
-  "ref": "intro/OakSpeechText3"
+  "ref": "intro/OakSpeechText3",
+  "sentence": 2,
+  "surface": "ゆめ"
  }
 ]

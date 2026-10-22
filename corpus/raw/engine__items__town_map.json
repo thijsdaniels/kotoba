@@ -4,17 +4,20 @@
   {
    "label": "MonsNestText",
    "line": 137,
-   "text": "の　すみか"
+   "text": "の　すみか",
+   "list": true
   },
   {
    "label": "ToText",
    "line": 254,
-   "text": "へ　とぶ"
+   "text": "へ　とぶ",
+   "list": true
   },
   {
    "label": "AreaUnknownText",
    "line": 427,
-   "text": "せいそくち　ふめい"
+   "text": "せいそくち　ふめい",
+   "list": true
   }
  ]
 }

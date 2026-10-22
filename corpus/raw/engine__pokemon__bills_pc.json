@@ -4,17 +4,20 @@
   {
    "label": "BillsPCMenuText",
    "line": 322,
-   "text": "ポケモンを　つれていく\nポケモンを　あずける\nポケモンを　にがす\nボックスを　かえる\nさようなら"
+   "text": "ポケモンを　つれていく\nポケモンを　あずける\nポケモンを　にがす\nボックスを　かえる\nさようなら",
+   "list": true
   },
   {
    "label": "BoxNoPCText",
    "line": 329,
-   "text": "いまのボックス"
+   "text": "いまのボックス",
+   "list": true
   },
   {
    "label": "StatsCancelPCText",
    "line": 430,
-   "text": "つよさをみる\nキャンセル"
+   "text": "つよさをみる\nキャンセル",
+   "list": true
   },
   {
    "label": "SwitchOnText",

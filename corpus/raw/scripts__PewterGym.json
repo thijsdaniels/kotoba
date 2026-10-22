@@ -4,12 +4,14 @@
   {
    "label": "PewterGym_Script.CityName",
    "line": 19,
-   "text": "ニビ"
+   "text": "ニビ",
+   "list": true
   },
   {
    "label": "PewterGym_Script.LeaderName",
    "line": 22,
-   "text": "タケシ"
+   "text": "タケシ",
+   "list": true
   },
   {
    "label": "PewterGymBrockText.PreBattleText",

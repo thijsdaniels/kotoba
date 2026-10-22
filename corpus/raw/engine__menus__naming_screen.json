@@ -9,22 +9,26 @@
   {
    "label": "YourTextString",
    "line": 462,
-   "text": "あなた"
+   "text": "あなた",
+   "list": true
   },
   {
    "label": "RivalsTextString",
    "line": 465,
-   "text": "ライバル"
+   "text": "ライバル",
+   "list": true
   },
   {
    "label": "NameTextString",
    "line": 468,
-   "text": "のなまえは？"
+   "text": "のなまえは？",
+   "list": true
   },
   {
    "label": "NicknameTextString",
    "line": 471,
-   "text": "ニックネームは？"
+   "text": "ニックネームは？",
+   "list": true
   }
  ]
 }

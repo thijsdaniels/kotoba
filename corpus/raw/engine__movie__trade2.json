@@ -4,7 +4,8 @@
   {
    "label": "Trade_MonInfoText",
    "line": 45,
-   "text": "おや／\nID№．"
+   "text": "おや／\nID№．",
+   "list": true
   }
  ]
 }

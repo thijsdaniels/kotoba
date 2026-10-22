@@ -19,7 +19,8 @@
   {
    "label": "BillsMonListText",
    "line": 128,
-   "text": "イーブイ\nブースター\nサンダース\nシャワーズ\nみるのを　やめる"
+   "text": "イーブイ\nブースター\nサンダース\nシャワーズ\nみるのを　やめる",
+   "list": true
   },
   {
    "label": "BillsHousePokemonListText2",

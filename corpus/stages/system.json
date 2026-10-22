@@ -6,325 +6,572 @@
    "source": "engine/menus/main_menu.asm",
    "label": "ContinueText",
    "line": 345,
-   "text": "つづきからはじめる"
+   "text": "つづきからはじめる",
+   "list": true,
+   "sentences": [
+    "つづきからはじめる"
+   ]
   },
   {
    "source": "engine/menus/main_menu.asm",
    "label": "NewGameText",
    "line": 350,
-   "text": "さいしょからはじめる\nせっていを　かえる"
+   "text": "さいしょからはじめる\nせっていを　かえる",
+   "list": true,
+   "sentences": [
+    "さいしょからはじめる",
+    "せっていを　かえる"
+   ]
   },
   {
    "source": "engine/menus/main_menu.asm",
    "label": "SaveScreenInfoText",
    "line": 439,
-   "text": "しゅじんこう\nもっているバッジ　　　　こ\nポケモンずかん　　　　ひき\nプレイじかん"
+   "text": "しゅじんこう\nもっているバッジ　　　　こ\nポケモンずかん　　　　ひき\nプレイじかん",
+   "list": true,
+   "sentences": [
+    "しゅじんこう",
+    "もっているバッジ　　　　こ",
+    "ポケモンずかん　　　　ひき",
+    "プレイじかん"
+   ]
   },
   {
    "source": "engine/menus/main_menu.asm",
    "label": "TextSpeedOptionText",
    "line": 589,
-   "text": "はなしの　はやさ\nはやい　　　　ふつう　　　　おそい"
+   "text": "はなしの　はやさ\nはやい　　　　ふつう　　　　おそい",
+   "list": true,
+   "sentences": [
+    "はなしの　はやさ",
+    "はやい　　　　ふつう　　　　おそい"
+   ]
   },
   {
    "source": "engine/menus/main_menu.asm",
    "label": "BattleAnimationOptionText",
    "line": 593,
-   "text": "せんとう　アニメーション\nじっくり　みる　　とばして　みる"
+   "text": "せんとう　アニメーション\nじっくり　みる　　とばして　みる",
+   "list": true,
+   "sentences": [
+    "せんとう　アニメーション",
+    "じっくり　みる　　とばして　みる"
+   ]
   },
   {
    "source": "engine/menus/main_menu.asm",
    "label": "BattleStyleOptionText",
    "line": 597,
-   "text": "しあいの　ルール\nいれかえタイプ　　かちぬきタイプ"
+   "text": "しあいの　ルール\nいれかえタイプ　　かちぬきタイプ",
+   "list": true,
+   "sentences": [
+    "しあいの　ルール",
+    "いれかえタイプ　　かちぬきタイプ"
+   ]
   },
   {
    "source": "engine/menus/main_menu.asm",
    "label": "OptionMenuCancelText",
    "line": 601,
-   "text": "おわり"
+   "text": "おわり",
+   "list": true,
+   "sentences": [
+    "おわり"
+   ]
   },
   {
    "source": "engine/movie/oak_speech/clear_save.asm",
    "label": "ClearSaveDataText",
    "line": 21,
-   "text": "すべての　セーブデータエリアを\nクリア　しますか？"
+   "text": "すべての　セーブデータエリアを\nクリア　しますか？",
+   "sentences": [
+    "すべての　セーブデータエリアを クリア　しますか？"
+   ]
   },
   {
    "source": "engine/menus/draw_start_menu.asm",
    "label": "StartMenuPokedexText",
    "line": 62,
-   "text": "ずかん"
+   "text": "ずかん",
+   "list": true,
+   "sentences": [
+    "ずかん"
+   ]
   },
   {
    "source": "engine/menus/draw_start_menu.asm",
    "label": "StartMenuPokemonText",
    "line": 65,
-   "text": "ポケモン"
+   "text": "ポケモン",
+   "list": true,
+   "sentences": [
+    "ポケモン"
+   ]
   },
   {
    "source": "engine/menus/draw_start_menu.asm",
    "label": "StartMenuItemText",
    "line": 68,
-   "text": "どうぐ"
+   "text": "どうぐ",
+   "list": true,
+   "sentences": [
+    "どうぐ"
+   ]
   },
   {
    "source": "engine/menus/draw_start_menu.asm",
    "label": "StartMenuSaveText",
    "line": 71,
-   "text": "レポート"
+   "text": "レポート",
+   "list": true,
+   "sentences": [
+    "レポート"
+   ]
   },
   {
    "source": "engine/menus/draw_start_menu.asm",
    "label": "StartMenuResetText",
    "line": 74,
-   "text": "リセット"
+   "text": "リセット",
+   "list": true,
+   "sentences": [
+    "リセット"
+   ]
   },
   {
    "source": "engine/menus/draw_start_menu.asm",
    "label": "StartMenuExitText",
    "line": 77,
-   "text": "とじる"
+   "text": "とじる",
+   "list": true,
+   "sentences": [
+    "とじる"
+   ]
   },
   {
    "source": "engine/menus/draw_start_menu.asm",
    "label": "StartMenuOptionText",
    "line": 80,
-   "text": "せってい"
+   "text": "せってい",
+   "list": true,
+   "sentences": [
+    "せってい"
+   ]
   },
   {
    "source": "engine/menus/start_sub_menus.asm",
    "label": "CannotUseItemsHereText",
    "line": 452,
-   "text": "ここでは　どうぐを\nつかうことは　できません"
+   "text": "ここでは　どうぐを\nつかうことは　できません",
+   "sentences": [
+    "ここでは　どうぐを つかうことは　できません"
+   ]
   },
   {
    "source": "engine/menus/start_sub_menus.asm",
    "label": "CannotGetOffHereText",
    "line": 457,
-   "text": "おりることが　できない！"
+   "text": "おりることが　できない！",
+   "sentences": [
+    "おりることが　できない！"
+   ]
   },
   {
    "source": "engine/menus/start_sub_menus.asm",
    "label": "TrainerInfo_NameMoneyTimeText",
    "line": 584,
-   "text": "なまえ／\nおこづかい／\nプレイじかん／"
+   "text": "なまえ／\nおこづかい／\nプレイじかん／",
+   "list": true,
+   "sentences": [
+    "なまえ／",
+    "おこづかい／",
+    "プレイじかん／"
+   ]
   },
   {
    "source": "engine/menus/party_menu.asm",
    "label": "RedrawPartyMenu_",
    "line": 8,
-   "text": "おぼえられる\nおぼえられない\nつかえる\nつかえない"
+   "text": "おぼえられる\nおぼえられない\nつかえる\nつかえない",
+   "list": true,
+   "sentences": [
+    "おぼえられる",
+    "おぼえられない",
+    "つかえる",
+    "つかえない"
+   ]
   },
   {
    "source": "engine/menus/party_menu.asm",
    "label": "PartyMenuNormalText",
    "line": 231,
-   "text": "ポケモンを　えらんで　ください"
+   "text": "ポケモンを　えらんで　ください",
+   "sentences": [
+    "ポケモンを　えらんで　ください"
+   ]
   },
   {
    "source": "engine/menus/party_menu.asm",
    "label": "PartyMenuItemUseText",
    "line": 235,
-   "text": "どのポケモンに　つかいますか？"
+   "text": "どのポケモンに　つかいますか？",
+   "sentences": [
+    "どのポケモンに　つかいますか？"
+   ]
   },
   {
    "source": "engine/menus/party_menu.asm",
    "label": "PartyMenuBattleText",
    "line": 239,
-   "text": "どのポケモンを　だしますか？"
+   "text": "どのポケモンを　だしますか？",
+   "sentences": [
+    "どのポケモンを　だしますか？"
+   ]
   },
   {
    "source": "engine/menus/party_menu.asm",
    "label": "PartyMenuSwapMonText",
    "line": 247,
-   "text": "どこに　いどうしますか？"
+   "text": "どこに　いどうしますか？",
+   "sentences": [
+    "どこに　いどうしますか？"
+   ]
   },
   {
    "source": "engine/menus/text_box.asm",
    "label": "PokemonMenuEntries",
    "line": 453,
-   "text": "つよさをみる\nならびかえ\nキャンセル"
+   "text": "つよさをみる\nならびかえ\nキャンセル",
+   "list": true,
+   "sentences": [
+    "つよさをみる",
+    "ならびかえ",
+    "キャンセル"
+   ]
   },
   {
    "source": "engine/menus/save.asm",
    "label": "FileDataDestroyedText",
    "line": 28,
-   "text": "フアイルの　データが\nこわれています！"
+   "text": "フアイルの　データが\nこわれています！",
+   "sentences": [
+    "フアイルの　データが こわれています！"
+   ]
   },
   {
    "source": "engine/menus/save.asm",
    "label": "WouldYouLikeToSaveText",
    "line": 188,
-   "text": "ここまでの　かつやくを\nポケモンレポートに　かきこみますか？"
+   "text": "ここまでの　かつやくを\nポケモンレポートに　かきこみますか？",
+   "sentences": [
+    "ここまでの　かつやくを ポケモンレポートに　かきこみますか？"
+   ]
   },
   {
    "source": "engine/menus/save.asm",
    "label": "GameSavedText",
    "line": 193,
-   "text": "{player}は\nレポートに　しっかり　かきのこした！"
+   "text": "{player}は\nレポートに　しっかり　かきのこした！",
+   "sentences": [
+    "{player}は レポートに　しっかり　かきのこした！"
+   ]
   },
   {
    "source": "engine/menus/save.asm",
    "label": "OlderFileWillBeErasedText",
    "line": 198,
-   "text": "まえに　かかれた　レポートが\nきえて　しまいますが\nうえから　かいても　いいですか？"
+   "text": "まえに　かかれた　レポートが\nきえて　しまいますが\nうえから　かいても　いいですか？",
+   "sentences": [
+    "まえに　かかれた　レポートが きえて　しまいますが うえから　かいても　いいですか？"
+   ]
   },
   {
    "source": "engine/menus/save.asm",
    "label": "WhenYouChangeBoxText",
    "line": 375,
-   "text": "ポケモン　ボックスを　かえると\nどうじに　レポートが　かかれます\n\n……　それでも　いいですか？"
+   "text": "ポケモン　ボックスを　かえると\nどうじに　レポートが　かかれます\n\n……　それでも　いいですか？",
+   "sentences": [
+    "ポケモン　ボックスを　かえると どうじに　レポートが　かかれます ……　それでも　いいですか？"
+   ]
   },
   {
    "source": "engine/menus/save.asm",
    "label": "ChooseABoxText",
    "line": 470,
-   "text": "ポケモン　ボックスを\nえらんでください"
+   "text": "ポケモン　ボックスを\nえらんでください",
+   "sentences": [
+    "ポケモン　ボックスを えらんでください"
+   ]
   },
   {
    "source": "engine/menus/save.asm",
    "label": "BoxNames",
    "line": 475,
-   "text": "ボックス１\nボックス２\nボックス３\nボックス４\nボックス５\nボックス６\nボックス７\nボックス８"
+   "text": "ボックス１\nボックス２\nボックス３\nボックス４\nボックス５\nボックス６\nボックス７\nボックス８",
+   "list": true,
+   "sentences": [
+    "ボックス１",
+    "ボックス２",
+    "ボックス３",
+    "ボックス４",
+    "ボックス５",
+    "ボックス６",
+    "ボックス７",
+    "ボックス８"
+   ]
   },
   {
    "source": "engine/menus/save.asm",
    "label": "BoxNoText",
    "line": 485,
-   "text": "いまのボックス"
+   "text": "いまのボックス",
+   "list": true,
+   "sentences": [
+    "いまのボックス"
+   ]
   },
   {
    "source": "engine/pokemon/status_screen.asm",
    "label": "TypesIDNoOTText",
    "line": 198,
-   "text": "タイプ１／\nタイプ２／\nID№／\nおや／"
+   "text": "タイプ１／\nタイプ２／\nID№／\nおや／",
+   "list": true,
+   "sentences": [
+    "タイプ１／",
+    "タイプ２／",
+    "ID№／",
+    "おや／"
+   ]
   },
   {
    "source": "engine/pokemon/status_screen.asm",
    "label": "StatusText",
    "line": 205,
-   "text": "じょうたい／"
+   "text": "じょうたい／",
+   "list": true,
+   "sentences": [
+    "じょうたい／"
+   ]
   },
   {
    "source": "engine/pokemon/status_screen.asm",
    "label": "OKText",
    "line": 208,
-   "text": "ふつう"
+   "text": "ふつう",
+   "list": true,
+   "sentences": [
+    "ふつう"
+   ]
   },
   {
    "source": "engine/pokemon/status_screen.asm",
    "label": "PrintStatsBox.StatsText",
    "line": 276,
-   "text": "こうげき\nぼうぎょ\nすばやさ\nとくしゅ"
+   "text": "こうげき\nぼうぎょ\nすばやさ\nとくしゅ",
+   "list": true,
+   "sentences": [
+    "こうげき",
+    "ぼうぎょ",
+    "すばやさ",
+    "とくしゅ"
+   ]
   },
   {
    "source": "engine/pokemon/status_screen.asm",
    "label": "StatusScreenExpText",
    "line": 452,
-   "text": "けいけんち／\nあと"
+   "text": "けいけんち／\nあと",
+   "list": true,
+   "sentences": [
+    "けいけんち／",
+    "あと"
+   ]
   },
   {
    "source": "engine/items/item_effects.asm",
    "label": "ThrewAwayItemText",
    "line": 2630,
-   "text": "{name}を\nすてました！"
+   "text": "{name}を\nすてました！",
+   "sentences": [
+    "{name}を すてました！"
+   ]
   },
   {
    "source": "engine/items/item_effects.asm",
    "label": "IsItOKToTossItemText",
    "line": 2636,
-   "text": "{name}を　すてます\nほんとに　よろしいですか？"
+   "text": "{name}を　すてます\nほんとに　よろしいですか？",
+   "sentences": [
+    "{name}を　すてます ほんとに　よろしいですか？"
+   ]
   },
   {
    "source": "engine/battle/core.asm",
    "label": "TypeText",
    "line": 2955,
-   "text": "わざタイプ"
+   "text": "わざタイプ",
+   "list": true,
+   "sentences": [
+    "わざタイプ"
+   ]
   },
   {
    "source": "home/list_menu.asm",
    "label": "ListMenuCancelText",
    "line": 525,
-   "text": "やめる"
+   "text": "やめる",
+   "list": true,
+   "sentences": [
+    "やめる"
+   ]
   },
   {
    "source": "home/names.asm",
    "label": "TechnicalPrefix",
    "line": 107,
-   "text": "わざマシン"
+   "text": "わざマシン",
+   "list": true,
+   "sentences": [
+    "わざマシン"
+   ]
   },
   {
    "source": "home/names.asm",
    "label": "HiddenPrefix",
    "line": 109,
-   "text": "ひでんマシン"
+   "text": "ひでんマシン",
+   "list": true,
+   "sentences": [
+    "ひでんマシン"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "UseTossText",
    "line": 46,
-   "text": "つかう\nすてる"
+   "text": "つかう\nすてる",
+   "list": true,
+   "sentences": [
+    "つかう",
+    "すてる"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "SaveMessageText",
    "line": 50,
-   "text": "きろく\nメッセージ"
+   "text": "きろく\nメッセージ",
+   "list": true,
+   "sentences": [
+    "きろく",
+    "メッセージ"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "SpeedOptionsText",
    "line": 54,
-   "text": "はやい\nおそい"
+   "text": "はやい\nおそい",
+   "list": true,
+   "sentences": [
+    "はやい",
+    "おそい"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "MoneyText",
    "line": 58,
-   "text": "おかね"
+   "text": "おかね",
+   "list": true,
+   "sentences": [
+    "おかね"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "MochimonoText",
    "line": 61,
-   "text": "もちもの"
+   "text": "もちもの",
+   "list": true,
+   "sentences": [
+    "もちもの"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "MainMenuText",
    "line": 64,
-   "text": "つづきから\nさいしょから"
+   "text": "つづきから\nさいしょから",
+   "list": true,
+   "sentences": [
+    "つづきから",
+    "さいしょから"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "SwitchStatsCancelText",
    "line": 76,
-   "text": "とりかえる\nつよさをみる\nキャンセル"
+   "text": "とりかえる\nつよさをみる\nキャンセル",
+   "list": true,
+   "sentences": [
+    "とりかえる",
+    "つよさをみる",
+    "キャンセル"
+   ]
   },
   {
    "source": "data/text_boxes.asm",
    "label": "PokedexMenuText",
    "line": 84,
-   "text": "データをみる\nなきごえ\nぶんぷをみる\nキャンセル"
+   "text": "データをみる\nなきごえ\nぶんぷをみる\nキャンセル",
+   "list": true,
+   "sentences": [
+    "データをみる",
+    "なきごえ",
+    "ぶんぷをみる",
+    "キャンセル"
+   ]
   },
   {
    "source": "data/yes_no_menu_strings.asm",
    "label": "TwoOptionMenuStrings.NoYesMenu",
    "line": 20,
-   "text": "いいえ\nはい"
+   "text": "いいえ\nはい",
+   "list": true,
+   "sentences": [
+    "いいえ",
+    "はい"
+   ]
   },
   {
    "source": "data/yes_no_menu_strings.asm",
    "label": "TwoOptionMenuStrings.YesNoMenu",
    "line": 24,
-   "text": "はい\nいいえ"
+   "text": "はい\nいいえ",
+   "list": true,
+   "sentences": [
+    "はい",
+    "いいえ"
+   ]
   },
   {
    "source": "data/moves/field_move_names.asm",
    "label": "FieldMoveNames",
    "line": 2,
-   "text": "いあいぎり\nそらをとぶ\nなみのり\nかいりき\nフラッシュ\nあなをほる\nテレポート\nタマゴうみ"
+   "text": "いあいぎり\nそらをとぶ\nなみのり\nかいりき\nフラッシュ\nあなをほる\nテレポート\nタマゴうみ",
+   "list": true,
+   "sentences": [
+    "いあいぎり",
+    "そらをとぶ",
+    "なみのり",
+    "かいりき",
+    "フラッシュ",
+    "あなをほる",
+    "テレポート",
+    "タマゴうみ"
+   ]
   }
  ]
 }

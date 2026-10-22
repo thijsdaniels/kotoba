@@ -4,217 +4,260 @@
   {
    "label": "CreditsTextPointers.CredStaff",
    "line": 49,
-   "text": "スタッフ"
+   "text": "スタッフ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredTajiri",
    "line": 51,
-   "text": "たじり　さとし"
+   "text": "たじり　さとし",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredOota",
    "line": 53,
-   "text": "おおた　たけのり"
+   "text": "おおた　たけのり",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredMorimoto",
    "line": 55,
-   "text": "もりもと　しげき"
+   "text": "もりもと　しげき",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredWatanabe",
    "line": 57,
-   "text": "わたなべ　てつや"
+   "text": "わたなべ　てつや",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredMasuda",
    "line": 59,
-   "text": "ますだ　じゅんいち"
+   "text": "ますだ　じゅんいち",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredNisino",
    "line": 61,
-   "text": "にしの　こうじ"
+   "text": "にしの　こうじ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredSugimori",
    "line": 63,
-   "text": "すぎもり　けん"
+   "text": "すぎもり　けん",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredNishida",
    "line": 65,
-   "text": "にしだ　あつこ"
+   "text": "にしだ　あつこ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredMiyamoto",
    "line": 67,
-   "text": "みやもと　しげる"
+   "text": "みやもと　しげる",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredKawaguchi",
    "line": 69,
-   "text": "かわぐち　たかし"
+   "text": "かわぐち　たかし",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredIshihara",
    "line": 71,
-   "text": "いしはら　つねかず"
+   "text": "いしはら　つねかず",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredYamauchi",
    "line": 73,
-   "text": "やまうち　ひろし"
+   "text": "やまうち　ひろし",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredZinnai",
    "line": 75,
-   "text": "じんない　ひろゆき"
+   "text": "じんない　ひろゆき",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredHishida",
    "line": 77,
-   "text": "ひしだ　たつや"
+   "text": "ひしだ　たつや",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredSakai",
    "line": 79,
-   "text": "さかい　やすひろ"
+   "text": "さかい　やすひろ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredYamaguchi",
    "line": 81,
-   "text": "やまぐち　わたる"
+   "text": "やまぐち　わたる",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredYamamoto",
    "line": 83,
-   "text": "やまもと　かずゆき"
+   "text": "やまもと　かずゆき",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredTaniguchi",
    "line": 85,
-   "text": "たにぐち　りょうすけ"
+   "text": "たにぐち　りょうすけ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredNonomura",
    "line": 87,
-   "text": "ののむら　ふみひろ"
+   "text": "ののむら　ふみひろ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredFuziwara",
    "line": 89,
-   "text": "ふじわら　もとふみ"
+   "text": "ふじわら　もとふみ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredMatsusima",
    "line": 91,
-   "text": "まつしま　けんじ"
+   "text": "まつしま　けんじ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredTomisawa",
    "line": 93,
-   "text": "とみさわ　あきひと"
+   "text": "とみさわ　あきひと",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredKawamoto",
    "line": 95,
-   "text": "かわもと　ひろし"
+   "text": "かわもと　ひろし",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredKakei",
    "line": 97,
-   "text": "かけい　あきよし"
+   "text": "かけい　あきよし",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredTsuchiya",
    "line": 99,
-   "text": "つちや　かづき"
+   "text": "つちや　かづき",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredNakamura",
    "line": 101,
-   "text": "なかむら　たけお"
+   "text": "なかむら　たけお",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredYuda",
    "line": 103,
-   "text": "ゆだ　まさみつ"
+   "text": "ゆだ　まさみつ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredMon",
    "line": 105,
-   "text": "ポケットモンスター"
+   "text": "ポケットモンスター",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredDirector",
    "line": 107,
-   "text": "ディレクター"
+   "text": "ディレクター",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredProgrammers",
    "line": 109,
-   "text": "プログラム"
+   "text": "プログラム",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredCharDesign",
    "line": 111,
-   "text": "キャラクターデザイン"
+   "text": "キャラクターデザイン",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredMusic",
    "line": 113,
-   "text": "おんがく"
+   "text": "おんがく",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredSoundEffects",
    "line": 115,
-   "text": "サウンド　エフェクト"
+   "text": "サウンド　エフェクト",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredGameDesign",
    "line": 117,
-   "text": "ゲームデザイン"
+   "text": "ゲームデザイン",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredMonsterDesign",
    "line": 119,
-   "text": "モンスター　デザイン"
+   "text": "モンスター　デザイン",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredGameScene",
    "line": 121,
-   "text": "シナリオ"
+   "text": "シナリオ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredParam",
    "line": 123,
-   "text": "パラメータ　せってい"
+   "text": "パラメータ　せってい",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredMap",
    "line": 125,
-   "text": "マップ　デザイン"
+   "text": "マップ　デザイン",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredTest",
    "line": 127,
-   "text": "デバッグ　プレイ"
+   "text": "デバッグ　プレイ",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredSpecial",
    "line": 129,
-   "text": "スペシャル·サンクス"
+   "text": "スペシャル·サンクス",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredProducers",
    "line": 131,
-   "text": "プロデューサー"
+   "text": "プロデューサー",
+   "list": true
   },
   {
    "label": "CreditsTextPointers.CredExecutive",
    "line": 133,
-   "text": "エグゼクティブ　プロデューサー"
+   "text": "エグゼクティブ　プロデューサー",
+   "list": true
   }
  ]
 }

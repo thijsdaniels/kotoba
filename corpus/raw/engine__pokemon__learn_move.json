@@ -9,7 +9,8 @@
   {
    "label": "WhichMoveToForgetText",
    "line": 186,
-   "text": "どの　わざを\nわすれさせたい？"
+   "text": "どの　わざを\nわすれさせたい？",
+   "list": true
   },
   {
    "label": "AbandonLearningText",

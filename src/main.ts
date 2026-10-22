@@ -7,7 +7,7 @@ interface Card {
   id: string; kind: Kind; stage: string; kana: string; meaning: string;
   kanji?: string; romaji?: string; loose?: string; scope?: string; note?: string;
   base?: string; form?: string; register?: string; vclass?: string; recogOnly?: boolean;
-  speaker?: string; who?: string; line?: string; lineEn?: string; lineLoose?: string;
+  speaker?: string; who?: string; line?: string; lineEn?: string; surface?: string;
   example?: string; exampleEn?: string; exampleLoose?: string; set?: "hira" | "kata"; order?: number;
 }
 interface Stage { id: string; name: string }
@@ -29,16 +29,12 @@ const fillSlots = (html: string) => html.replace(/\{(\w+)\}/g, (_, slot: string)
 const escapeHtml = (text: unknown) => fillSlots(escapeHtmlOnly(text));
 // implied words that Japanese leaves out are stored as "(I)" and shown lighter, without brackets
 const implied = (text: unknown) => escapeHtml(text).replace(/\(([^()]*)\)/g, '<span class="imp">$1</span>');
-function mark(line: string | undefined, kana: string | undefined): string {
-  if (!line || !kana) return escapeHtml(line);
-  const core = kana.replace(/[〜～]/g, "").split("／")[0].trim();
-  for (let length = core.length; length >= 2; length--) {
-    const part = core.slice(0, length);
-    const pattern = new RegExp(part.split("").map(ch => ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("[\\s　]*"));
-    const match = line.match(pattern);
-    if (match && match.index != null) return escapeHtml(line.slice(0, match.index)) + "<mark>" + escapeHtml(match[0]) + "</mark>" + escapeHtml(line.slice(match.index + match[0].length));
-  }
-  return escapeHtml(line);
+// highlight an exact surface form inside a line; nothing is guessed, the deck build has checked it occurs once
+function mark(line: string | undefined, surface: string | undefined): string {
+  if (!line || !surface) return escapeHtml(line);
+  const at = line.indexOf(surface);
+  if (at < 0) return escapeHtml(line);
+  return escapeHtml(line.slice(0, at)) + "<mark>" + escapeHtml(surface) + "</mark>" + escapeHtml(line.slice(at + surface.length));
 }
 
 /* state */
@@ -176,12 +172,14 @@ function frontHtml(card: Card, recognition: boolean) {
   const prompt = isGame(card) && card.kind !== "word" ? String(card.meaning).split(" · ")[0] : card.meaning;
   return `<div class="mid">${implied(prompt)}</div>`;
 }
+// an everyday example is our own text: highlight the dictionary form when it appears as written, otherwise nothing
+const exampleSurface = (card: Card) => { const core = card.kana.replace(/[〜～]/g, "").split("／")[0].trim(); return card.example?.includes(core) ? core : undefined; };
 function quoteHtml(card: Card) {
   if (card.line) {
     const who = card.speaker ?? card.who;
-    return `<div class="tcard-art">${who ? `<span class="who">${escapeHtml(who)}</span>` : ""}${mark(card.line, card.kana)}<span class="en">${implied(card.lineEn ?? "")}</span>${card.lineLoose ? `<span class="en"><i>${implied(card.lineLoose)}</i></span>` : ""}</div>`;
+    return `<div class="tcard-art">${who ? `<span class="who">${escapeHtml(who)}</span>` : ""}${mark(card.line, card.surface)}<span class="en">${implied(card.lineEn ?? "")}</span></div>`;
   }
-  if (card.example) return `<div class="tcard-art">${mark(card.example, card.kana)}<span class="en">${implied(card.exampleEn ?? "")}</span>${card.exampleLoose ? `<span class="en"><i>${implied(card.exampleLoose)}</i></span>` : ""}</div>`;
+  if (card.example) return `<div class="tcard-art">${mark(card.example, exampleSurface(card))}<span class="en">${implied(card.exampleEn ?? "")}</span>${card.exampleLoose ? `<span class="en"><i>${implied(card.exampleLoose)}</i></span>` : ""}</div>`;
   return "";
 }
 function answerHtml(card: Card) {
@@ -192,7 +190,7 @@ function answerHtml(card: Card) {
   else { title = `<span class="jp">${escapeHtml(card.kana)}</span>${card.kanji ? `<span class="kanji">${escapeHtml(card.kanji)}</span>` : ""}`; meaning = implied(card.meaning) + (card.loose ? `<span class="loose">${implied(card.loose)}</span>` : ""); }
   let more = "";
   if (card.note) more += `<div class="note">${implied(card.note)}</div>`;
-  if (card.line && card.example) more += `<div class="ex"><span class="jp">${mark(card.example, card.kana)}</span><span class="en">${implied(card.exampleEn ?? "")}</span>${card.exampleLoose ? `<span class="en"><i>${implied(card.exampleLoose)}</i></span>` : ""}</div>`;
+  if (card.line && card.example) more += `<div class="ex"><span class="jp">${mark(card.example, exampleSurface(card))}</span><span class="en">${implied(card.exampleEn ?? "")}</span>${card.exampleLoose ? `<span class="en"><i>${implied(card.exampleLoose)}</i></span>` : ""}</div>`;
   return `<div class="tcard-head"><span>${escapeHtml(kind)}${card.kind === "form" && card.form ? " · " + escapeHtml(card.form) : ""}</span><span class="r">${escapeHtml(card.romaji ?? "")}</span></div>
     <div class="tcard-body"><div class="tcard-title">${title}</div><div class="tcard-meaning">${meaning}</div>${quoteHtml(card)}
     ${more ? `<details class="more" style="padding:0"><summary>More</summary><div class="morebox">${more}</div></details>` : ""}</div>`;
@@ -204,8 +202,8 @@ function listDetailHtml(card: Card) {
   else html += `<div class="ans">${implied(card.meaning)}</div>${card.loose ? `<div class="loose">${implied(card.loose)}</div>` : ""}<div class="sub">${card.kanji ? `<span class="kanji">${escapeHtml(card.kanji)}</span>` : ""}${card.romaji ? `<span class="romaji">${escapeHtml(card.romaji)}</span>` : ""}</div>`;
   let more = "";
   if (card.note) more += `<div class="note">${implied(card.note)}</div>`;
-  if (card.example) more += `<div class="ex"><span class="jp">${mark(card.example, card.kana)}</span><span class="en">${implied(card.exampleEn ?? "")}</span></div>`;
-  if (card.line) more += `<div class="dialog">${card.speaker || card.who ? `<span class="who">${escapeHtml(card.speaker ?? card.who)}</span>` : ""}${mark(card.line, card.kana)}<span class="en">${implied(card.lineEn ?? "")}</span></div>`;
+  if (card.example) more += `<div class="ex"><span class="jp">${mark(card.example, exampleSurface(card))}</span><span class="en">${implied(card.exampleEn ?? "")}</span></div>`;
+  if (card.line) more += `<div class="dialog">${card.speaker || card.who ? `<span class="who">${escapeHtml(card.speaker ?? card.who)}</span>` : ""}${mark(card.line, card.surface)}<span class="en">${implied(card.lineEn ?? "")}</span></div>`;
   if (more) html += `<div class="morebox">${more}</div>`;
   return `<div class="back">${html}</div>`;
 }

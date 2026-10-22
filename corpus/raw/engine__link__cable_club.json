@@ -10,22 +10,26 @@
    "label": "CableClub_DoBattleOrTradeAgain#2",
    "line": 342,
    "text": "じぶん\nあいて",
-   "continuation": true
+   "continuation": true,
+   "list": true
   },
   {
    "label": "PleaseWaitString",
    "line": 350,
-   "text": "つうしんじゅんびちゅう！"
+   "text": "つうしんじゅんびちゅう！",
+   "list": true
   },
   {
    "label": "TradeCenter_SelectMon",
    "line": 367,
-   "text": "ステイタスをみる　　こうかんにだす"
+   "text": "ステイタスをみる　　こうかんにだす",
+   "list": true
   },
   {
    "label": "CancelTextString",
    "line": 643,
-   "text": "こうかんちゅうし"
+   "text": "こうかんちゅうし",
+   "list": true
   },
   {
    "label": "WillBeTradedText",
@@ -35,12 +39,14 @@
   {
    "label": "TradeCompleted",
    "line": 915,
-   "text": "こうかんしゅうりょう！"
+   "text": "こうかんしゅうりょう！",
+   "list": true
   },
   {
    "label": "TradeCanceled",
    "line": 918,
-   "text": "ざんねんながら\nこうかんは　キャンセルされました"
+   "text": "ざんねんながら\nこうかんは　キャンセルされました",
+   "list": true
   }
  ]
 }

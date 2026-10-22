@@ -4,12 +4,14 @@
   {
    "label": "DebugNewGamePlayerName",
    "line": 356,
-   "text": "やまぐち"
+   "text": "やまぐち",
+   "list": true
   },
   {
    "label": "DebugNewGameRivalName",
    "line": 359,
-   "text": "いしはら"
+   "text": "いしはら",
+   "list": true
   }
  ]
 }

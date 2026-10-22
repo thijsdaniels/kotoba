@@ -4,12 +4,14 @@
   {
    "label": "Dakutens",
    "line": 1,
-   "text": "かが\nさざ\nただ\nはば\nカガ\nサザ\nタダ\nハバ"
+   "text": "かが\nさざ\nただ\nはば\nカガ\nサザ\nタダ\nハバ",
+   "list": true
   },
   {
    "label": "Handakutens",
    "line": 12,
-   "text": "はぱ\nハパ"
+   "text": "はぱ\nハパ",
+   "list": true
   }
  ]
 }

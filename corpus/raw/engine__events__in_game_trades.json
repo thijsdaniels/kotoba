@@ -4,7 +4,8 @@
   {
    "label": "InGameTrade_TrainerString",
    "line": 241,
-   "text": "トレーナー"
+   "text": "トレーナー",
+   "list": true
   },
   {
    "label": "ConnectCableText",

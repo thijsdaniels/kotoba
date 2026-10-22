@@ -8,70 +8,132 @@
    "label": "Route22RivalBeforeBattleText1",
    "line": 399,
    "text": "あーッ！　{player}！\n\nポケモン　リーグに　いくのか？\nやめとけ！\n\nおまえ　どうせ\nバッジ　もってねーだろ？\n\nみはりの　おっさんが\nとおして　くれねーよ！\n\n……　それよりさあ！\nおまえの　ポケモン\nすこしは　つよく　なったかよ？",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "あーッ！",
+    "{player}！",
+    "ポケモン　リーグに　いくのか？",
+    "やめとけ！",
+    "おまえ　どうせ バッジ　もってねーだろ？",
+    "みはりの　おっさんが とおして　くれねーよ！",
+    "……　それよりさあ！",
+    "おまえの　ポケモン すこしは　つよく　なったかよ？"
+   ]
   },
   {
    "source": "scripts/Route22.asm",
    "label": "Route22RivalAfterBattleText1",
    "line": 416,
-   "text": "どうやら　ポケモン　リーグには\nつよくて　すごい　トレーナーが\nウジャウジャ　いるらしいぜ\n\nどうにか\nあそこを　とおりぬける\nほうほうを　かんがえなきゃな！\n\nおまえも　いつまでも\nここらに　いないで\nとっとと　さきに　すすめよ！"
+   "text": "どうやら　ポケモン　リーグには\nつよくて　すごい　トレーナーが\nウジャウジャ　いるらしいぜ\n\nどうにか\nあそこを　とおりぬける\nほうほうを　かんがえなきゃな！\n\nおまえも　いつまでも\nここらに　いないで\nとっとと　さきに　すすめよ！",
+   "sentences": [
+    "どうやら　ポケモン　リーグには つよくて　すごい　トレーナーが ウジャウジャ　いるらしいぜ どうにか あそこを　とおりぬける ほうほうを　かんがえなきゃな！",
+    "おまえも　いつまでも ここらに　いないで とっとと　さきに　すすめよ！"
+   ]
   },
   {
    "source": "scripts/Route22.asm",
    "label": "Route22Rival1DefeatedText",
    "line": 430,
-   "text": "あーッ！\nこいつ　なめた　マネを！"
+   "text": "あーッ！\nこいつ　なめた　マネを！",
+   "sentences": [
+    "あーッ！",
+    "こいつ　なめた　マネを！"
+   ]
   },
   {
    "source": "scripts/Route22.asm",
    "label": "Route22Rival1VictoryText",
    "line": 435,
    "text": "なんだ？\nポケモン　２ひきも\nもってるの　なぜか　だって？\n\nおまえも\nつかまえれば　いい　じゃん！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "なんだ？",
+    "ポケモン　２ひきも もってるの　なぜか　だって？",
+    "おまえも つかまえれば　いい　じゃん！"
+   ]
   },
   {
    "source": "scripts/Route22.asm",
    "label": "Route22RivalBeforeBattleText2",
    "line": 457,
    "text": "なんだ？　{player}！\nこんな　ところで　あうとは\nまたまた　ぐうぜんだ！\n\nじゃあ……　おまえも\nポケモン　リーグに　いく　わけ？\n\nバッジも\nぜんぶ　あつまったのか！\nあ　そう……　やるじゃん！\n\nそれじゃ　ポケモン　リーグ\nいくまえに　{player}で\nウォーミング　アップと　いくか！\n\nかかって　きな！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "なんだ？",
+    "{player}！",
+    "こんな　ところで　あうとは またまた　ぐうぜんだ！",
+    "じゃあ……　おまえも ポケモン　リーグに　いく　わけ？",
+    "バッジも ぜんぶ　あつまったのか！",
+    "あ　そう……　やるじゃん！",
+    "それじゃ　ポケモン　リーグ いくまえに　{player}で ウォーミング　アップと　いくか！",
+    "かかって　きな！"
+   ]
   },
   {
    "source": "scripts/Route22.asm",
    "label": "Route22RivalAfterBattleText2",
    "line": 476,
-   "text": "からだも　ほぐれたし……！\nいよいよ　ポケモン　リーグ\nせいはに　むかうと　するか！\n\n{player}は……\nもっと　れんしゅう　したほうが\nいいんじゃないの！\n\nおっと！　おせっかい　だったか！\nとにかく……　おれは　さき　いくぜ\nじゃあ！……　あーばよ！"
+   "text": "からだも　ほぐれたし……！\nいよいよ　ポケモン　リーグ\nせいはに　むかうと　するか！\n\n{player}は……\nもっと　れんしゅう　したほうが\nいいんじゃないの！\n\nおっと！　おせっかい　だったか！\nとにかく……　おれは　さき　いくぜ\nじゃあ！……　あーばよ！",
+   "sentences": [
+    "からだも　ほぐれたし……！",
+    "いよいよ　ポケモン　リーグ せいはに　むかうと　するか！",
+    "{player}は…… もっと　れんしゅう　したほうが いいんじゃないの！",
+    "おっと！",
+    "おせっかい　だったか！",
+    "とにかく……　おれは　さき　いくぜ じゃあ！",
+    "……　あーばよ！"
+   ]
   },
   {
    "source": "scripts/Route22.asm",
    "label": "Route22Rival2DefeatedText",
    "line": 490,
-   "text": "あ　こら！\n\nおれが　ちょっと\nゆだん　した　すきに……　くそう！"
+   "text": "あ　こら！\n\nおれが　ちょっと\nゆだん　した　すきに……　くそう！",
+   "sentences": [
+    "あ　こら！",
+    "おれが　ちょっと ゆだん　した　すきに……　くそう！"
+   ]
   },
   {
    "source": "scripts/Route22.asm",
    "label": "Route22Rival2VictoryText",
    "line": 497,
    "text": "ひゃははッ　{player}ー！\nそれで　がんばってるのかよ！\nおれの　さいのうに　くらべりゃ\n{player}は　まだまだ　だな！\n\nもっと　れんしゅう　こいよ！\nあははーッ！",
-   "speaker": "{rival}"
+   "speaker": "{rival}",
+   "sentences": [
+    "ひゃははッ　{player}ー！",
+    "それで　がんばってるのかよ！",
+    "おれの　さいのうに　くらべりゃ {player}は　まだまだ　だな！",
+    "もっと　れんしゅう　こいよ！",
+    "あははーッ！"
+   ]
   },
   {
    "source": "scripts/Route22.asm",
    "label": "Route22PokemonLeagueSignText",
    "line": 507,
-   "text": "ここは　ポケモン　リーグ\nしょうめん　ゲート"
+   "text": "ここは　ポケモン　リーグ\nしょうめん　ゲート",
+   "sentences": [
+    "ここは　ポケモン　リーグ しょうめん　ゲート"
+   ]
   },
   {
    "source": "engine/items/item_effects.asm",
    "label": "ThrowBallAtTrainerMonText1",
    "line": 2358,
-   "text": "トレーナーに　ボールを　はじかれた！"
+   "text": "トレーナーに　ボールを　はじかれた！",
+   "sentences": [
+    "トレーナーに　ボールを　はじかれた！"
+   ]
   },
   {
    "source": "engine/items/item_effects.asm",
    "label": "ThrowBallAtTrainerMonText2",
    "line": 2362,
-   "text": "ひとの　ものを　とったら　どろぼう！"
+   "text": "ひとの　ものを　とったら　どろぼう！",
+   "sentences": [
+    "ひとの　ものを　とったら　どろぼう！"
+   ]
   }
  ],
  "pokemon": [

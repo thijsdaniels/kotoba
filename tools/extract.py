@@ -68,6 +68,8 @@ def parse_file(path):
                     current["lines"][-1] += text
                 else:
                     current["lines"].append(text)
+                # lines written with db/next are menu entries and lists: each line is its own unit
+                if macro in ("db", "next"): current["list"] = True
                 continue
             macro = line.strip().split(" ")[0] if line.strip() else ""
             if macro in ("text_ram", "text_decimal", "text_bcd") and current is not None:
@@ -99,6 +101,8 @@ def parse_file(path):
             entry["text"] = joined[sp.end():].strip()
         if b.get("continuation"):
             entry["continuation"] = True
+        if b.get("list"):
+            entry["list"] = True
         out.append(entry)
     return out
 

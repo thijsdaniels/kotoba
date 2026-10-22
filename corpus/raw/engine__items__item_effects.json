@@ -159,7 +159,8 @@
   {
    "label": "ItemUseNotYoursToUseText",
    "line": 2349,
-   "text": "たいせつな　あずかりものです！\nつかうことは　できません！"
+   "text": "たいせつな　あずかりものです！\nつかうことは　できません！",
+   "list": true
   },
   {
    "label": "ItemUseNoEffectText",
@@ -179,7 +180,8 @@
   {
    "label": "NoCyclingAllowedHereText",
    "line": 2366,
-   "text": "ここでは　じてんしゃに\nのることは　できません"
+   "text": "ここでは　じてんしゃに\nのることは　できません",
+   "list": true
   },
   {
    "label": "NoSurfingHereText",

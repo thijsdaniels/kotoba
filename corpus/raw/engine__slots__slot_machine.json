@@ -9,7 +9,8 @@
   {
    "label": "CoinMultiplierSlotMachineText",
    "line": 151,
-   "text": "３まい\n２まい\n１まい"
+   "text": "３まい\n２まい\n１まい",
+   "list": true
   },
   {
    "label": "OutOfCoinsSlotMachineText",

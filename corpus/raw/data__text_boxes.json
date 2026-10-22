@@ -4,62 +4,74 @@
   {
    "label": "BuySellQuitText",
    "line": 39,
-   "text": "かいに　きた\nうりに　きた\nべつに　いいです"
+   "text": "かいに　きた\nうりに　きた\nべつに　いいです",
+   "list": true
   },
   {
    "label": "UseTossText",
    "line": 46,
-   "text": "つかう\nすてる"
+   "text": "つかう\nすてる",
+   "list": true
   },
   {
    "label": "SaveMessageText",
    "line": 50,
-   "text": "きろく\nメッセージ"
+   "text": "きろく\nメッセージ",
+   "list": true
   },
   {
    "label": "SpeedOptionsText",
    "line": 54,
-   "text": "はやい\nおそい"
+   "text": "はやい\nおそい",
+   "list": true
   },
   {
    "label": "MoneyText",
    "line": 58,
-   "text": "おかね"
+   "text": "おかね",
+   "list": true
   },
   {
    "label": "MochimonoText",
    "line": 61,
-   "text": "もちもの"
+   "text": "もちもの",
+   "list": true
   },
   {
    "label": "MainMenuText",
    "line": 64,
-   "text": "つづきから\nさいしょから"
+   "text": "つづきから\nさいしょから",
+   "list": true
   },
   {
    "label": "BattleMenuText",
    "line": 68,
-   "text": "たたかう　どうぐ\nポケモン　にげる"
+   "text": "たたかう　どうぐ\nポケモン　にげる",
+   "list": true
   },
   {
    "label": "SafariZoneBattleMenuText",
    "line": 72,
-   "text": "サファリボール×　　　エサをなげる\nいしをなげる　　　　　にげる"
+   "text": "サファリボール×　　　エサをなげる\nいしをなげる　　　　　にげる",
+   "list": true
   },
   {
    "label": "SwitchStatsCancelText",
    "line": 76,
-   "text": "とりかえる\nつよさをみる\nキャンセル"
+   "text": "とりかえる\nつよさをみる\nキャンセル",
+   "list": true
   },
   {
    "label": "AhText",
    "line": 81,
-   "text": "アッ！"
+   "text": "アッ！",
+   "list": true
   },
   {
    "label": "PokedexMenuText",
    "line": 84,
-   "text": "データをみる\nなきごえ\nぶんぷをみる\nキャンセル"
+   "text": "データをみる\nなきごえ\nぶんぷをみる\nキャンセル",
+   "list": true
   }
  ]
 }
