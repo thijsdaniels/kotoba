@@ -211,11 +211,13 @@ function renderFilter() {
   for (const id of chosenStages) if (!stageChoices.some(([choice]) => choice === id)) chosenStages.delete(id); // a stage locked again drops out of the filter
   const summary = (name: string, chosen: Set<string>, choices: [string, string][]) =>
     `${name}: ${chosen.size ? choices.filter(([id]) => chosen.has(id)).map(([, label]) => label).join(", ") : "All"}`;
-  const options = (which: "stage" | "kind", chosen: Set<string>, choices: [string, string][]) =>
-    `<div class="options" data-filter="${which}">${choices.map(([id, label]) => `<label><input type="checkbox" data-choice="${escapeHtml(id)}"${chosen.has(id) ? " checked" : ""}>${which === "kind" ? `<span class="dot" style="--kc: var(--k-${id})"></span>` : ""}${escapeHtml(label)}</label>`).join("")}</div>`;
-  byId("filters").innerHTML =
-    `<div class="filter-heads"><button data-open="stage" aria-expanded="${openFilter === "stage"}">${escapeHtml(summary("Stages", chosenStages, stageChoices))}</button><button data-open="kind" aria-expanded="${openFilter === "kind"}">${escapeHtml(summary("Kinds", chosenKinds, KIND_CHOICES))}</button></div>`
-    + (openFilter === "stage" ? options("stage", chosenStages, stageChoices) : openFilter === "kind" ? options("kind", chosenKinds, KIND_CHOICES) : "");
+  byId("filters").innerHTML = `<button data-open="stage">${escapeHtml(summary("Stages", chosenStages, stageChoices))}</button><button data-open="kind">${escapeHtml(summary("Kinds", chosenKinds, KIND_CHOICES))}</button>`;
+  if (openFilter) {
+    const [title, chosen, choices] = openFilter === "stage" ? ["Stages", chosenStages, stageChoices] as const : ["Kinds", chosenKinds, KIND_CHOICES] as const;
+    byId("filter-dialog-title").textContent = title;
+    byId("filter-options").dataset.filter = openFilter;
+    byId("filter-options").innerHTML = choices.map(([id, label]) => `<label>${openFilter === "kind" ? `<span class="dot" style="--kc: var(--k-${id})"></span>` : ""}<span class="name">${escapeHtml(label)}</span><input type="checkbox" data-choice="${escapeHtml(id)}"${chosen.has(id) ? " checked" : ""}></label>`).join("");
+  }
 }
 function renderDeck() {
   const container = deckElement(), practice = practicing();
@@ -326,9 +328,14 @@ for (const name of ["review", "practice", "cards", "settings"] as const) byId("t
 byId("filters").onclick = event => {
   const head = (event.target as HTMLElement).closest<HTMLElement>("[data-open]");
   if (!head) return;
-  const which = head.dataset.open as "stage" | "kind"; openFilter = openFilter === which ? null : which; renderFilter();
+  openFilter = head.dataset.open as "stage" | "kind"; renderFilter();
+  (byId("filter-dialog") as HTMLDialogElement).showModal();
 };
-byId("filters").onchange = event => {
+const filterDialog = byId("filter-dialog") as HTMLDialogElement;
+filterDialog.onclose = () => { openFilter = null; renderFilter(); };
+filterDialog.onclick = event => { if (event.target === filterDialog) filterDialog.close(); }; // a tap on the backdrop closes it
+byId("filter-done").onclick = () => filterDialog.close();
+byId("filter-options").onchange = event => {
   const box = event.target as HTMLInputElement;
   if (!box.dataset.choice) return;
   const which = box.closest<HTMLElement>("[data-filter]")!.dataset.filter, chosen = which === "stage" ? chosenStages : chosenKinds;
