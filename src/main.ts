@@ -49,8 +49,8 @@ let revealed = false, drawn = false, busy = false, justDrawn = false, flipped = 
 let openId: string | null = null;
 let view: "review" | "practice" | "cards" | "settings" = "review";
 let mode = "all";
-let foldedStages = new Set<string>();
-try { foldedStages = new Set(JSON.parse(localStorage.getItem("kotoba-folded") ?? "[]") as string[]); } catch { /* private mode */ }
+let openStages = new Set<string>(); // stages unfolded in the card list; everything starts folded
+try { openStages = new Set(JSON.parse(localStorage.getItem("kotoba-open-stages") ?? "[]") as string[]); } catch { /* private mode */ }
 let kanaFont: "game" | "normal" = "game";
 try { mode = localStorage.getItem("kotoba-mode") ?? "all"; kanaFont = (localStorage.getItem("kotoba-kfont") as "game" | "normal") ?? "game"; } catch { /* private mode */ }
 let pendingWrite: Promise<unknown> = Promise.resolve();
@@ -267,7 +267,7 @@ function renderCards() {
   const countBy = new Map<string, number>();
   for (const card of items) countBy.set(card.stage, (countBy.get(card.stage) ?? 0) + 1);
   list.innerHTML = items.map((card, index) => {
-    const folded = foldedStages.has(card.stage);
+    const folded = !openStages.has(card.stage);
     const heading = index === 0 || items[index - 1].stage !== card.stage
       ? `<button class="group" data-stage="${escapeHtml(card.stage)}" aria-expanded="${!folded}"><span>${escapeHtml(stageLabel(card.stage))}</span><span>${countBy.get(card.stage)} cards${unlocked(card) ? "" : " · locked"}</span></button>` : "";
     if (folded) return heading;
@@ -280,8 +280,8 @@ function renderCards() {
   list.querySelectorAll<HTMLButtonElement>("[data-id]").forEach(button => button.onclick = () => { openId = openId === button.dataset.id ? null : button.dataset.id!; renderCards(); });
   list.querySelectorAll<HTMLButtonElement>("[data-stage]").forEach(button => button.onclick = () => {
     const stage = button.dataset.stage!;
-    if (foldedStages.has(stage)) foldedStages.delete(stage); else foldedStages.add(stage);
-    try { localStorage.setItem("kotoba-folded", JSON.stringify([...foldedStages])); } catch { /* private mode */ }
+    if (openStages.has(stage)) openStages.delete(stage); else openStages.add(stage);
+    try { localStorage.setItem("kotoba-open-stages", JSON.stringify([...openStages])); } catch { /* private mode */ }
     renderCards();
   });
 }
