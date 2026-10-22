@@ -3,7 +3,7 @@
   "id": "e-chau",
   "kind": "ending",
   "kana": "〜ちゃう",
-  "meaning": "isn't it? · Kansai, from ちがう",
+  "meaning": "isn't it? · Kansai",
   "ref": "viridian/CantDepositLastMonText",
   "example": "こまるん ちゃう？",
   "exampleEn": "won't you be in trouble?",
@@ -11,7 +11,8 @@
   "units": [
    0,
    0
-  ]
+  ],
+  "note": "From ちがう, which Kansai squashes to ちゃう."
  },
  {
   "id": "e-hen",
@@ -95,7 +96,7 @@
   "id": "e-ntoru",
   "kind": "ending",
   "kana": "〜とらん",
-  "meaning": "not doing · Kansai negative of とる",
+  "meaning": "not doing · Kansai",
   "ref": "viridian/NoMonText",
   "example": "あずかっとらんで",
   "exampleEn": "I'm not holding any",
@@ -103,7 +104,8 @@
   "units": [
    1,
    1
-  ]
+  ],
+  "note": "The Kansai negative of とる."
  },
  {
   "id": "e-sakini",
@@ -883,7 +885,7 @@
   "kind": "word",
   "kana": "あと",
   "romaji": "ato",
-  "meaning": "after, the rest · あと ちょっと: just a bit more",
+  "meaning": "after, the rest",
   "scope": "general",
   "ref": "viridian/ItemUseBallText04",
   "kanji": "後",
@@ -891,7 +893,8 @@
   "units": [
    1,
    1
-  ]
+  ],
+  "note": "あと ちょっと: just a bit more."
  },
  {
   "id": "benri",

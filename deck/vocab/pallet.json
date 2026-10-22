@@ -4974,14 +4974,15 @@
   "kind": "word",
   "kana": "すげー",
   "romaji": "sugee",
-  "meaning": "amazing · rough form of すごい",
+  "meaning": "amazing · rough",
   "scope": "general",
   "ref": "pallet/PalletTownFisherText",
   "surface": "すげー",
   "units": [
    0,
    0
-  ]
+  ],
+  "note": "A rough shape of すごい."
  },
  {
   "id": "suicchi",
@@ -5203,14 +5204,15 @@
   "kind": "word",
   "kana": "ため",
   "romaji": "tame",
-  "meaning": "sake, purpose · そのために: for that purpose",
+  "meaning": "sake, purpose",
   "scope": "general",
   "ref": "pallet/OaksLabOak1Text.GivePokeballsText",
   "surface": "ため",
   "units": [
    2,
    2
-  ]
+  ],
+  "note": "そのために: for that purpose."
  },
  {
   "id": "tanomu",
