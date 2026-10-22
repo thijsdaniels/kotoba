@@ -49,6 +49,8 @@ let revealed = false, drawn = false, busy = false, justDrawn = false, flipped = 
 let openId: string | null = null;
 let view: "review" | "practice" | "cards" | "settings" = "review";
 let mode = "all";
+let foldedStages = new Set<string>();
+try { foldedStages = new Set(JSON.parse(localStorage.getItem("kotoba-folded") ?? "[]") as string[]); } catch { /* private mode */ }
 let kanaFont: "game" | "normal" = "game";
 try { mode = localStorage.getItem("kotoba-mode") ?? "all"; kanaFont = (localStorage.getItem("kotoba-kfont") as "game" | "normal") ?? "game"; } catch { /* private mode */ }
 let pendingWrite: Promise<unknown> = Promise.resolve();
@@ -262,19 +264,26 @@ function renderCards() {
     .sort((a, b) => (order.get(a.stage) ?? 99) - (order.get(b.stage) ?? 99) || a.kind.localeCompare(b.kind) || (a.order ?? 0) - (b.order ?? 0) || a.kana.localeCompare(b.kana, "ja"));
   const list = byId("list");
   if (!items.length) { list.innerHTML = `<div class="empty">No matches.</div>`; return; }
-  const shown = items.slice(0, 400);
   const countBy = new Map<string, number>();
   for (const card of items) countBy.set(card.stage, (countBy.get(card.stage) ?? 0) + 1);
-  list.innerHTML = shown.map((card, index) => {
-    const heading = index === 0 || shown[index - 1].stage !== card.stage
-      ? `<div class="group"><span>${escapeHtml(stageLabel(card.stage))}</span><span>${countBy.get(card.stage)} cards${unlocked(card) ? "" : " · locked"}</span></div>` : "";
+  list.innerHTML = items.map((card, index) => {
+    const folded = foldedStages.has(card.stage);
+    const heading = index === 0 || items[index - 1].stage !== card.stage
+      ? `<button class="group" data-stage="${escapeHtml(card.stage)}" aria-expanded="${!folded}"><span>${escapeHtml(stageLabel(card.stage))}</span><span>${countBy.get(card.stage)} cards${unlocked(card) ? "" : " · locked"}</span></button>` : "";
+    if (folded) return heading;
     const [cls, label] = status(card), open = openId === card.id;
     const tag = `<span class="tag">${escapeHtml(KINDS[kindOf(card)])}</span>`;
     const meaning = (card.kind === "form" && card.form ? `<span class="form">${escapeHtml(card.form)}</span> · ` : "") + implied(card.meaning);
     return heading + `<div class="item" style="${kindColor(card)}"><button data-id="${escapeHtml(card.id)}" aria-expanded="${open}"><span class="k">${escapeHtml(card.kana)}${card.kanji ? `<small>${escapeHtml(card.kanji)}</small>` : ""}${tag}</span><span class="chip ${cls}">${label}</span><span class="m">${meaning}</span></button>
       ${open ? `<div class="detail">${listDetailHtml(card)}</div>` : ""}</div>`;
-  }).join("") + (items.length > 400 ? `<div class="empty">${items.length - 400} more. Narrow the search.</div>` : "");
+  }).join("");
   list.querySelectorAll<HTMLButtonElement>("[data-id]").forEach(button => button.onclick = () => { openId = openId === button.dataset.id ? null : button.dataset.id!; renderCards(); });
+  list.querySelectorAll<HTMLButtonElement>("[data-stage]").forEach(button => button.onclick = () => {
+    const stage = button.dataset.stage!;
+    if (foldedStages.has(stage)) foldedStages.delete(stage); else foldedStages.add(stage);
+    try { localStorage.setItem("kotoba-folded", JSON.stringify([...foldedStages])); } catch { /* private mode */ }
+    renderCards();
+  });
 }
 function renderSettings() {
   const select = byId("setting-stage") as HTMLSelectElement;

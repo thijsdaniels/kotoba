@@ -138,7 +138,9 @@ input, select { font: 15px var(--f-jp); color: var(--fg); background: var(--pane
 .list { display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: clip; }
 .item { border-top: 1px solid var(--line); border-left: 4px solid var(--kc, var(--line)); }
 .item:first-child, .group + .item { border-top: 0; }
-.group { position: sticky; top: 0; z-index: 1; display: flex; justify-content: space-between; gap: 10px; padding: 8px 14px; background: var(--bg); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; color: var(--muted); }
+.group { all: unset; box-sizing: border-box; width: 100%; cursor: pointer; position: sticky; top: 0; z-index: 1; display: flex; justify-content: space-between; gap: 10px; padding: 8px 14px; background: var(--bg); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font: 700 12px var(--f-jp); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.group:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.group[aria-expanded="false"] > span:first-child::before { content: "▸ "; }
 .group:first-child { border-top: 0; }
 .item > button { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; padding: 10px 14px; cursor: pointer; }
 .item > button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
