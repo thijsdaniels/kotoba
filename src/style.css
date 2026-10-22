@@ -55,6 +55,11 @@ nav button[aria-selected="true"] { background: var(--accent-soft); color: var(--
 .filter-heads { display: flex; gap: 8px; }
 .filter-heads button { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--panel); color: var(--fg); font: 14px var(--f-jp); padding: 9px 10px; border-radius: 8px; cursor: pointer; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .filter-heads button[aria-expanded="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.options { display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: clip; }
+.options label { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-top: 1px solid var(--line); font-size: 15px; cursor: pointer; }
+.options label:first-child { border-top: 0; }
+.options input { width: 18px; height: 18px; margin: 0; accent-color: var(--accent); }
+.options .dot { width: 8px; height: 8px; border-radius: 99px; background: var(--kc, var(--muted)); }
 .filter { display: flex; gap: 6px; flex-wrap: wrap; }
 .filter button { border: 1px solid var(--line); background: transparent; color: var(--muted); font: 13px var(--f-jp); padding: 4px 12px; border-radius: 99px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
 .filter button[aria-pressed="true"] { border-color: var(--accent); color: var(--fg); background: var(--accent-soft); }

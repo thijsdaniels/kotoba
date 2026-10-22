@@ -211,11 +211,11 @@ function renderFilter() {
   for (const id of chosenStages) if (!stageChoices.some(([choice]) => choice === id)) chosenStages.delete(id); // a stage locked again drops out of the filter
   const summary = (name: string, chosen: Set<string>, choices: [string, string][]) =>
     `${name}: ${chosen.size ? choices.filter(([id]) => chosen.has(id)).map(([, label]) => label).join(", ") : "All"}`;
-  const chips = (which: "stage" | "kind", chosen: Set<string>, choices: [string, string][]) =>
-    `<div class="filter" data-filter="${which}">${choices.map(([id, label]) => `<button data-choice="${escapeHtml(id)}" aria-pressed="${chosen.has(id)}">${which === "kind" ? `<span class="dot" style="--kc: var(--k-${id})"></span>` : ""}${escapeHtml(label)}</button>`).join("")}</div>`;
+  const options = (which: "stage" | "kind", chosen: Set<string>, choices: [string, string][]) =>
+    `<div class="options" data-filter="${which}">${choices.map(([id, label]) => `<label><input type="checkbox" data-choice="${escapeHtml(id)}"${chosen.has(id) ? " checked" : ""}>${which === "kind" ? `<span class="dot" style="--kc: var(--k-${id})"></span>` : ""}${escapeHtml(label)}</label>`).join("")}</div>`;
   byId("filters").innerHTML =
     `<div class="filter-heads"><button data-open="stage" aria-expanded="${openFilter === "stage"}">${escapeHtml(summary("Stages", chosenStages, stageChoices))}</button><button data-open="kind" aria-expanded="${openFilter === "kind"}">${escapeHtml(summary("Kinds", chosenKinds, KIND_CHOICES))}</button></div>`
-    + (openFilter === "stage" ? chips("stage", chosenStages, stageChoices) : openFilter === "kind" ? chips("kind", chosenKinds, KIND_CHOICES) : "");
+    + (openFilter === "stage" ? options("stage", chosenStages, stageChoices) : openFilter === "kind" ? options("kind", chosenKinds, KIND_CHOICES) : "");
 }
 function renderDeck() {
   const container = deckElement(), practice = practicing();
@@ -324,14 +324,15 @@ function saveSettings(patch: Partial<Settings>) {
 
 for (const name of ["review", "practice", "cards", "settings"] as const) byId("tab-" + name).onclick = () => showTab(name);
 byId("filters").onclick = event => {
-  const target = event.target as HTMLElement;
-  const head = target.closest<HTMLElement>("[data-open]");
-  if (head) { const which = head.dataset.open as "stage" | "kind"; openFilter = openFilter === which ? null : which; renderFilter(); return; }
-  const chip = target.closest<HTMLElement>("[data-choice]");
-  if (!chip) return;
-  const which = chip.closest<HTMLElement>("[data-filter]")!.dataset.filter, choice = chip.dataset.choice!;
-  const chosen = which === "stage" ? chosenStages : chosenKinds;
-  if (chosen.has(choice)) chosen.delete(choice); else chosen.add(choice);
+  const head = (event.target as HTMLElement).closest<HTMLElement>("[data-open]");
+  if (!head) return;
+  const which = head.dataset.open as "stage" | "kind"; openFilter = openFilter === which ? null : which; renderFilter();
+};
+byId("filters").onchange = event => {
+  const box = event.target as HTMLInputElement;
+  if (!box.dataset.choice) return;
+  const which = box.closest<HTMLElement>("[data-filter]")!.dataset.filter, chosen = which === "stage" ? chosenStages : chosenKinds;
+  if (box.checked) chosen.add(box.dataset.choice); else chosen.delete(box.dataset.choice);
   try { localStorage.setItem(which === "stage" ? "kotoba-stages" : "kotoba-kinds", JSON.stringify([...chosen])); } catch { /* private mode */ }
   buildQueue(); render();
 };
