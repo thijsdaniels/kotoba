@@ -70,7 +70,6 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px s
 .tcard-title { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
 .tcard-title .jp { font-size: 34px; font-weight: 700; line-height: 1.2; }
 .tcard-title .kanji { font-size: 20px; color: var(--muted); }
-.tcard-title .kglyph { font-size: 96px; }
 .tcard-art { background: var(--screen); color: var(--screen-ink); border: 3px double var(--screen-ink); border-radius: 4px; padding: 10px 14px; font-size: 16px; line-height: 1.6; }
 .tcard-art .who { display: block; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; opacity: .65; margin-bottom: 2px; }
 .tcard-art .en { display: block; font-size: 13px; opacity: .8; line-height: 1.4; margin-top: 4px; }
