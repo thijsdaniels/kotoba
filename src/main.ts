@@ -322,19 +322,25 @@ async function start() {
   render();
   if (!readKey()) return;
   try {
-    const [deck, stageList, remote] = await Promise.all([
+    const [deck, stageList] = await Promise.all([
       fetch("/cards.json").then(response => response.json() as Promise<Card[]>),
       fetch("/stages.json").then(response => response.json() as Promise<Stage[]>),
-      api.state(),
     ]);
     cards = new Map(deck.map(card => [card.id, card]));
     stages = stageList;
-    state = remote;
+  } catch (error) {
+    byId("message").textContent = `Couldn't load the deck, ${(error as Error).message}.`;
+    render(); return;
+  }
+  try {
+    state = await api.state();
     loaded = true;
     buildQueue();
     byId("message").textContent = "";
   } catch (error) {
-    byId("message").textContent = `Couldn't load your deck, ${(error as Error).message}. Check the key under Settings.`;
+    byId("message").textContent = navigator.onLine === false || (error as Error).message === "Failed to fetch"
+      ? "You're offline. Reviewing needs a connection to save your progress; the Cards tab still works."
+      : `Couldn't load your progress, ${(error as Error).message}. Check the key under Settings.`;
   }
   render();
 }
