@@ -48,11 +48,12 @@ let current: QueueEntry | null = null;
 let revealed = false, drawn = false, busy = false, justDrawn = false, flipped = false;
 let openId: string | null = null;
 let view: "review" | "practice" | "cards" | "settings" = "review";
-let mode = "all";
+let mode = "all"; // practice: which kinds
+let stageFilter = "all"; // practice: which stage
 let openStages = new Set<string>(); // stages unfolded in the card list; everything starts folded
 try { openStages = new Set(JSON.parse(localStorage.getItem("kotoba-open-stages") ?? "[]") as string[]); } catch { /* private mode */ }
 let kanaFont: "game" | "normal" = "game";
-try { mode = localStorage.getItem("kotoba-mode") ?? "all"; kanaFont = (localStorage.getItem("kotoba-kfont") as "game" | "normal") ?? "game"; } catch { /* private mode */ }
+try { mode = localStorage.getItem("kotoba-mode") ?? "all"; stageFilter = localStorage.getItem("kotoba-stage-filter") ?? "all"; kanaFont = (localStorage.getItem("kotoba-kfont") as "game" | "normal") ?? "game"; } catch { /* private mode */ }
 let pendingWrite: Promise<unknown> = Promise.resolve();
 
 const practicing = () => view === "practice";
@@ -67,6 +68,8 @@ const inMode = (card: Card) =>
   : mode === "move" ? card.kind === "move"
   : mode === "item" ? card.kind === "item"
   : card.kind === "term";
+const inStage = (card: Card) => stageFilter === "all" || card.stage === stageFilter;
+const inPractice = (card: Card) => inMode(card) && inStage(card) && unlocked(card);
 // a card with no stage, or one that isn't in the list, stays locked until it's fixed; system cards are always open
 const stageIndex = (id: string | undefined) => { const index = stages.findIndex(stage => stage.id === id); return index < 0 ? Infinity : index; };
 const stageLabel = (id: string | undefined) => stages.find(stage => stage.id === id)?.name ?? (id === "system" ? "Menus and Messages" : "No stage");
@@ -109,7 +112,7 @@ function counts() {
   let due = 0, total = 0;
   for (const { card, side } of allEntries()) {
     const existing = scheduleOf(card, side);
-    if (practicing() && !inMode(card)) continue;
+    if (practicing() && !inPractice(card)) continue;
     if (!existing && !unlocked(card)) continue;
     total++;
     if (existing && existing.due <= now) due++;
@@ -121,7 +124,7 @@ function buildQueue() {
   current = null; revealed = false; drawn = false;
   if (practicing()) {
     // weighted random: the shakier the card, the earlier it tends to come up; unseen cards are the shakiest
-    const pool = allEntries().filter(({ card }) => inMode(card) && unlocked(card))
+    const pool = allEntries().filter(({ card }) => inPractice(card))
       .map(({ id, side, card }) => ({ id, side, key: -Math.log(Math.random()) / (0.05 + 1 - currentRecall(scheduleOf(card, side), now)) }));
     queue = pool.sort((a, b) => a.key - b.key).map(({ id, side }) => ({ id, side }));
     return;
@@ -213,7 +216,14 @@ function listDetailHtml(card: Card) {
 
 /* views */
 function renderFilter() {
-  byId("filter").innerHTML = FILTERS.map(([id, label]) => `<button data-mode="${id}" aria-pressed="${id === mode}">${id === "all" ? "" : `<span class="dot" style="--kc: var(--k-${id === "grammar" ? "form" : id})"></span>`}${label}</button>`).join("");
+  const stageSelect = byId("filter-stage") as HTMLSelectElement, kindSelect = byId("filter-kind") as HTMLSelectElement;
+  const open = stages.filter(stage => stageIndex(stage.id) <= stageIndex(state.settings.stage));
+  const stageOptions = [["all", "All Stages"], ...open.map(stage => [stage.id, stage.name]), ["system", "Menus and Messages"]];
+  if (!stageOptions.some(([id]) => id === stageFilter)) stageFilter = "all";
+  stageSelect.innerHTML = stageOptions.map(([id, label]) => `<option value="${id}">${escapeHtml(label)}</option>`).join("");
+  stageSelect.value = stageFilter;
+  if (!kindSelect.options.length) kindSelect.innerHTML = FILTERS.map(([id, label]) => `<option value="${id}">${escapeHtml(id === "all" ? "All Kinds" : label)}</option>`).join("");
+  kindSelect.value = mode;
 }
 function renderDeck() {
   const container = deckElement(), practice = practicing();
@@ -321,10 +331,12 @@ function saveSettings(patch: Partial<Settings>) {
 }
 
 for (const name of ["review", "practice", "cards", "settings"] as const) byId("tab-" + name).onclick = () => showTab(name);
-byId("filter").onclick = event => {
-  const button = (event.target as HTMLElement).closest<HTMLElement>("[data-mode]");
-  if (!button || button.dataset.mode === mode) return;
-  mode = button.dataset.mode!; try { localStorage.setItem("kotoba-mode", mode); } catch { /* private mode */ }
+(byId("filter-kind") as HTMLSelectElement).onchange = event => {
+  mode = (event.target as HTMLSelectElement).value; try { localStorage.setItem("kotoba-mode", mode); } catch { /* private mode */ }
+  buildQueue(); render();
+};
+(byId("filter-stage") as HTMLSelectElement).onchange = event => {
+  stageFilter = (event.target as HTMLSelectElement).value; try { localStorage.setItem("kotoba-stage-filter", stageFilter); } catch { /* private mode */ }
   buildQueue(); render();
 };
 byId("search").oninput = renderCards;
