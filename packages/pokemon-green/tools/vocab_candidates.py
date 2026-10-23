@@ -11,9 +11,9 @@ earlier one has it as kana, base, or inside its kana. Needs: pip install sudachi
 import json, os, re, sys
 from collections import Counter, defaultdict
 
-HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CORPUS = os.path.join(HERE, "corpus")
-DECK = os.path.join(HERE, "deck", "vocab")
+PACKAGE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CORPUS = PACKAGE
+DECK = os.path.join(PACKAGE, "cards")
 CONTENT = {"名詞", "動詞", "形容詞", "副詞", "連体詞", "感動詞", "代名詞", "形状詞", "接続詞"}
 
 
@@ -34,7 +34,7 @@ def main(stage, show_all=False):
         for c in load(p):
             for k in ("kana", "base"):
                 if c.get(k): covered.add(re.sub(r"[〜～]", "", c[k]).split("／")[0].strip())
-    strings = load(os.path.join(CORPUS, "stages", stage + ".json"))["strings"]
+    strings = load(os.path.join(CORPUS, "strings", stage + ".json"))["strings"]
     seen, example, split_chunks = Counter(), {}, []
     for e in strings:
         for chunk in re.split(r"[\s　]+", e["text"]):

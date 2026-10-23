@@ -6,7 +6,6 @@
   "kanji": "",
   "romaji": "",
   "meaning": "…, right? (seeking agreement, casual)",
-  "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "note": "Casual male form of でしょう.",
   "surface": "だろ",
@@ -34,7 +33,6 @@
   "kanji": "",
   "romaji": "",
   "meaning": "…, but (trailing off)",
-  "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "note": "Softens a statement or leaves it open.",
   "surface": "けど",
@@ -48,7 +46,6 @@
   "kind": "form",
   "kana": "かってくる",
   "meaning": "(I) buy and come (back)",
-  "scope": "general",
   "base": "かう",
   "form": "come doing 〜てくる",
   "register": "plain",
@@ -138,7 +135,6 @@
   "kana": "フレンドリィ ショップ",
   "romaji": "furendorii shoppu",
   "meaning": "Friendly Shop · the game's name for the Poké Mart",
-  "scope": "game",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "フレンドリィ　ショップ",
   "units": [
@@ -154,8 +150,8 @@
   "romaji": "",
   "meaning": "Potion",
   "loose": "wound-medicine",
-  "scope": "game",
-  "note": "くすり = medicine; a word you want at a pharmacy."
+  "note": "くすり = medicine; a word you want at a pharmacy.",
+  "group": "route1"
  },
  {
   "id": "i-wazapoint",
@@ -163,7 +159,6 @@
   "kana": "わざの ポイント",
   "romaji": "waza no pointo",
   "meaning": "move points · PP",
-  "scope": "game",
   "ref": "route1/MoveNoPPText",
   "surface": "わざの　のこり",
   "units": [
@@ -179,7 +174,6 @@
   "romaji": "Tokiwa Shiti",
   "meaning": "Viridian City",
   "loose": "Tokiwa, 常磐, evergreen",
-  "scope": "game",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "トキワ　シティ",
   "units": [
@@ -195,8 +189,8 @@
   "romaji": "",
   "meaning": "Gust",
   "loose": "wind-raising",
-  "scope": "game",
-  "note": "かぜ = wind, おこす = to raise, wake up."
+  "note": "かぜ = wind, おこす = to raise, wake up.",
+  "group": "route1"
  },
  {
   "id": "m-sunakake",
@@ -206,8 +200,8 @@
   "romaji": "",
   "meaning": "Sand Attack",
   "loose": "sand-throwing",
-  "scope": "game",
-  "note": "かける = to sprinkle, pour over."
+  "note": "かける = to sprinkle, pour over.",
+  "group": "route1"
  },
  {
   "id": "m-yadorigi",
@@ -215,7 +209,6 @@
   "kana": "やどりぎのタネ",
   "romaji": "yadorigi no tane",
   "meaning": "Leech Seed · mistletoe seed",
-  "scope": "game",
   "ref": "route1/HurtByLeechSeedText",
   "surface": "やどりぎが",
   "units": [
@@ -231,8 +224,8 @@
   "romaji": "",
   "meaning": "Rattata",
   "loose": "こ small + ラッタ rat",
-  "scope": "game",
-  "note": "Route 1."
+  "note": "Route 1.",
+  "group": "route1"
  },
  {
   "id": "p-poppo",
@@ -242,8 +235,8 @@
   "romaji": "",
   "meaning": "Pidgey",
   "loose": "ぽっぽ, the cooing of a pigeon",
-  "scope": "game",
-  "note": "Route 1."
+  "note": "Route 1.",
+  "group": "route1"
  },
  {
   "id": "dansa",
@@ -252,7 +245,6 @@
   "kanji": "段差",
   "romaji": "dansa",
   "meaning": "ledge, step, difference in level",
-  "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "surface": "だんさ",
   "units": [
@@ -267,7 +259,6 @@
   "kanji": "道路",
   "romaji": "dōro",
   "meaning": "road, route",
-  "scope": "general",
   "ref": "route1/Route1SignText",
   "note": "1ばんどうろ = Route 1.",
   "surface": "どうろ",
@@ -283,7 +274,6 @@
   "kanji": "",
   "romaji": "dōzo",
   "meaning": "please (go ahead); here you are",
-  "scope": "general",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "note": "Offering something or permission.",
   "surface": "どうぞ",
@@ -298,7 +288,6 @@
   "kana": "はやい",
   "romaji": "hayai",
   "meaning": "early, fast",
-  "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "kanji": "早い",
   "surface": "はやく",
@@ -314,7 +303,6 @@
   "kanji": "早く",
   "romaji": "hayaku",
   "meaning": "quickly, early",
-  "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "example": "はやく きて！",
   "exampleEn": "Come quickly!",
@@ -331,7 +319,6 @@
   "kana": "いらっしゃる",
   "romaji": "irassharu",
   "meaning": "to come, to go, to be · honorific",
-  "scope": "general",
   "ref": "route1/Route1Youngster1Text.AlsoGotPokeballsText",
   "note": "いらして is its te-form.",
   "surface": "いらして",
@@ -347,7 +334,6 @@
   "kanji": "帰る",
   "romaji": "kaeru",
   "meaning": "to return (home)",
-  "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "example": "うちに かえる",
   "exampleEn": "(I) return home.",
@@ -363,7 +349,6 @@
   "kana": "かわす",
   "romaji": "kawasu",
   "meaning": "to dodge",
-  "scope": "general",
   "ref": "route1/EvadedAttackText",
   "surface": "かわした",
   "units": [
@@ -378,7 +363,6 @@
   "kanji": "怖い",
   "romaji": "kowai",
   "meaning": "scary; afraid",
-  "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "example": "こわい！",
   "exampleEn": "Scary!",
@@ -395,7 +379,6 @@
   "kanji": "道",
   "romaji": "michi",
   "meaning": "road, way",
-  "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "example": "みちに まよった",
   "exampleEn": "(I) lost the way.",
@@ -412,7 +395,6 @@
   "kanji": "見本",
   "romaji": "mihon",
   "meaning": "sample",
-  "scope": "general",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "みほん",
   "units": [
@@ -426,7 +408,6 @@
   "kana": "のこり",
   "romaji": "nokori",
   "meaning": "remainder, what's left",
-  "scope": "general",
   "ref": "route1/MoveNoPPText",
   "kanji": "残り",
   "surface": "のこり",
@@ -441,7 +422,6 @@
   "kana": "おぼえる",
   "romaji": "oboeru",
   "meaning": "to learn, to memorize, to remember",
-  "scope": "general",
   "ref": "route1/LearnedMove1Text",
   "kanji": "覚える",
   "surface": "おぼえた",
@@ -456,7 +436,6 @@
   "kana": "ポイント",
   "romaji": "pointo",
   "meaning": "point, points",
-  "scope": "general",
   "ref": "route1/MoveNoPPText",
   "surface": "ポイント",
   "units": [
@@ -471,7 +450,6 @@
   "kanji": "差し上げる",
   "romaji": "sashiageru",
   "meaning": "to give (humble, to someone above you)",
-  "scope": "general",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "note": "Shop staff use it toward customers. Normal: あげる.",
   "surface": "さしあげましょう",
@@ -486,7 +464,6 @@
   "kana": "ショップ",
   "romaji": "shoppu",
   "meaning": "shop",
-  "scope": "general",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "ショップ",
   "units": [
@@ -501,7 +478,6 @@
   "kanji": "",
   "romaji": "sō da",
   "meaning": "that's right; oh, I know",
-  "scope": "general",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "note": "At the start of a sentence: a thought just occurred.",
   "surface": "そうだ",
@@ -516,7 +492,6 @@
   "kana": "たね",
   "romaji": "tane",
   "meaning": "seed",
-  "scope": "general",
   "ref": "route1/WasSeededText",
   "kanji": "種",
   "surface": "たね",
@@ -531,7 +506,6 @@
   "kana": "てんいん",
   "romaji": "ten'in",
   "meaning": "shop clerk",
-  "scope": "general",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "kanji": "店員",
   "surface": "てんいん",
@@ -547,7 +521,6 @@
   "kanji": "飛び降りる",
   "romaji": "tobioriru",
   "meaning": "to jump down",
-  "scope": "general",
   "ref": "route1/Route1Youngster2Text",
   "note": "とぶ (jump) + おりる (get down).",
   "surface": "とび　おりる",
@@ -562,7 +535,6 @@
   "kana": "うばう",
   "romaji": "ubau",
   "meaning": "to rob, to snatch",
-  "scope": "general",
   "ref": "route1/HurtByLeechSeedText",
   "kanji": "奪う",
   "surface": "うばう",
@@ -577,7 +549,6 @@
   "kana": "うえつける",
   "romaji": "uetsukeru",
   "meaning": "to plant",
-  "scope": "general",
   "ref": "route1/WasSeededText",
   "kanji": "植え付ける",
   "surface": "うえつけた",
@@ -592,7 +563,6 @@
   "kana": "やどりぎ",
   "romaji": "yadorigi",
   "meaning": "mistletoe · the leech seed",
-  "scope": "general",
   "ref": "route1/HurtByLeechSeedText",
   "kanji": "宿り木",
   "surface": "やどりぎ",
@@ -607,7 +577,6 @@
   "kana": "よる",
   "romaji": "yoru",
   "meaning": "to drop by, to stop in",
-  "scope": "general",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "kanji": "寄る",
   "surface": "よって",
@@ -622,7 +591,6 @@
   "kana": "ぜひ",
   "romaji": "zehi",
   "meaning": "by all means",
-  "scope": "general",
   "ref": "route1/Route1Youngster1Text.MartSampleText",
   "surface": "ぜひ",
   "units": [

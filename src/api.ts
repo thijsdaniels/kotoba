@@ -1,8 +1,11 @@
 import type { Schedule } from "./srs";
 
 export type Side = "r" | "p";
-export interface Settings { newPerDay: number; stage: string; produce: string[]; playerName?: string; rivalName?: string }
-export interface State { version: number; settings: Settings; srs: Record<string, Partial<Record<Side, Schedule>>> }
+// Per package: whether it is in play, the position in its groups (absent means the latest), and the values of the settings its manifest declares.
+export interface PackageSettings { enabled?: boolean; position?: string; values?: Record<string, string | number> }
+export interface Settings { newPerDay: number; produce: string[]; packages: Record<string, PackageSettings> }
+export interface SettingsPatch { newPerDay?: number; produce?: string[]; packages?: Record<string, PackageSettings> }
+export interface State { format: number; version: number; settings: Settings; srs: Record<string, Partial<Record<Side, Schedule>>> }
 
 const KEY_STORAGE = "kotoba-key";
 
@@ -35,5 +38,5 @@ async function call<T>(path: string, body?: unknown): Promise<T> {
 export const api = {
   state: () => call<State>("/api/state"),
   answer: (id: string, side: Side, schedule: Schedule) => call<{ version: number }>("/api/answer", { id, side, schedule }),
-  settings: (patch: Partial<Settings>) => call<{ version: number; settings: Settings }>("/api/settings", patch),
+  settings: (patch: SettingsPatch) => call<{ version: number; settings: Settings }>("/api/settings", patch),
 };

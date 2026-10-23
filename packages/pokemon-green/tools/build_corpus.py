@@ -1,32 +1,35 @@
 #!/usr/bin/env python3
-"""Assemble corpus/stages/<stage>.json from the raw extraction, stages.json and engine.json.
+"""Assemble strings/<stage>.json and groups.json from the raw extraction, stages.json and engine.json.
 
 Each stage file holds every game string first met at that stage (with source file,
 label and speaker), the Pokémon you can have or face there with the moves they can
 know, the moves and items that become relevant, and the stage's level cap.
 
-Engine strings are placed by corpus/engine.json: a fixed stage, "system" (always
-unlocked, written to corpus/stages/system.json), "skip", "later", or a trigger that is
-resolved against the stages' move, effect and item pools. Strings whose trigger is not
-reached by any mapped stage are listed under "deferred" in corpus/coverage.json, along
-with raw sources no stage claims, so nothing stays untagged by accident.
+Engine strings are placed by engine.json: a fixed stage, "system" (menus and messages
+with no place in the game, written to strings/system.json and listed as the first group
+so it is always unlocked), "skip", "later", or a trigger that is resolved against the
+stages' move, effect and item pools. Strings whose trigger is not reached by any mapped
+stage are listed under "deferred" in coverage.json, along with raw sources no stage
+claims, so nothing stays untagged by accident.
+
+groups.json is the package's ordered list of groups: system first, then the stages.
 """
 import fnmatch, json, os, sys
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+PACKAGE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(PACKAGE))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
 from sentences import split_sentences
 from collections import OrderedDict
 
-HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CORPUS = os.path.join(HERE, "corpus")
 
 
 def load(name):
-    with open(os.path.join(CORPUS, name), encoding="utf-8") as f:
+    with open(os.path.join(PACKAGE, name), encoding="utf-8") as f:
         return json.load(f)
 
 
 def dump(name, data):
-    with open(os.path.join(CORPUS, name), "w", encoding="utf-8") as f:
+    with open(os.path.join(PACKAGE, name), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
 
 
@@ -34,7 +37,7 @@ def main():
     cfg = load("stages.json")
     engine = load("engine.json")
     raw = {}
-    for fn in sorted(os.listdir(os.path.join(CORPUS, "raw"))):
+    for fn in sorted(os.listdir(os.path.join(PACKAGE, "raw"))):
         d = load(os.path.join("raw", fn))
         raw[d["source"]] = d["entries"]
     pokemon = {p["const"]: p for p in load("data/pokemon.json")}
@@ -131,12 +134,13 @@ def main():
             elif where in by_id: by_id[where]["strings"].append(entry)
             else: print(f"error: {src} {e['label']} maps to unknown stage {where}", file=sys.stderr); sys.exit(1)
 
-    os.makedirs(os.path.join(CORPUS, "stages"), exist_ok=True)
+    os.makedirs(os.path.join(PACKAGE, "strings"), exist_ok=True)
     for s in stages:
-        dump(os.path.join("stages", s["id"] + ".json"), s)
+        dump(os.path.join("strings", s["id"] + ".json"), s)
         print(f"{s['id']:16} {len(s['strings']):4} strings  {len(s['pokemon']):2} pokemon  {len(s['moves']):2} moves  {len(s['items']):2} items")
-    dump(os.path.join("stages", "system.json"), system)
+    dump(os.path.join("strings", "system.json"), system)
     print(f"{'system':16} {len(system['strings']):4} strings")
+    dump("groups.json", [{"id": "system", "name": "Menus and Messages"}] + [{"id": s["id"], "name": s["name"]} for s in stages])
     unclaimed = sorted(s for s in raw if s not in claimed)
     dump("coverage.json", {"claimed": sorted(claimed), "unclaimed": unclaimed, "deferred": deferred})
     print(f"{len(claimed)} sources claimed, {len(unclaimed)} not yet in any stage, {len(deferred)} engine strings deferred, {skipped} skipped")

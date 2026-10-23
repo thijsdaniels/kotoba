@@ -1,6 +1,6 @@
 @font-face { font-family: "PKMN Kana"; src: url(data:font/woff2;base64,d09GMgABAAAAAAywAAoAAAAAiIgAAAxfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAhAwKgfU8gdITATYCJAOEWAuCPAAEIAVmB4w8G/J0M5LSTfYRSeSojqJEcYYo/xnJDRnCKkXcqv5+RJIQgRJbaM81u9W0UAWRyNI5zdXD6046C7dHmcPYoMM89GlOfHXBcEBmSXhXlo3EoqDfMMgUPLXT/x3GUY7QY+eiILjtwCgkAuuMjWSyWG3N1q1uxuhO0Cybag20lhGL0k2dXgF8BbpXgG/+FuQ0BYT5BtXJBLm7WoBJWwJxQhk0DzAASTz7NKPkB5/+wgKFxcWPi8ViBYv2AmRHdJOEARCavLYExJ3HRzdBGTzR5P4oMAs4QAtabdO09svmWj8fABcCgq5W5bXO8/9u7L7tI0wVOYZoq0ZjWWiGRK8OzHOhLdSlAOqadXhw3kKVDiPHxV9f2S43ezBu3sBpeP69Pd/1xzTBgHaGwwyztw/QAxpwlEaaYcgZhSmEFHzV8kvcG9HHDvKVsRDakf30GE69rKmYqWpZQ4BCBJA+pGjYbJtQb6WnWE9fHEIi0egvFWcxFoU3zRmEMXSAwADDI7bVRwRe1qLjLSYRtYAxxIev7lPlRyqudFwB7c4AA2uypgCDAAODBwwMegE6tjuSMlwYDespaBsqzlkn5OEli/l4ex0AkZAIDQoIDTp9OMihLSjYxBwNsHdLy8qb8MUak8Xm8Fv3OaEvBej9qtjV7ushs0IMcV1L9/bzh1n6eVvYuwEywa0zBMUzeB//3oRUIglsiySWaC1D+UD2iWON1DqdDWi/KP44cG2T2aG3C2NgSc4Aq/KGJnvHd+CDwqFPRke+4IwIKJlY4Z0w2AkRTIioWfS4HYs4kXWq5kzfOY8LUZdyrtRdG7jhdSvmzoK8ew0PhiZ84gqaRvwefUt48qPo2a+WF3/GXv0LSCppmzIraE7KvLKQtIquGQC8AMIE5bHtYF8BACjVBRqzpNRaMGKNzRhXmuppm2NbsOA2GAmwNCykUMTQ0FyZxBiMiK6WMZcS9A0NdNAMTLEJNTToCUJj7+R2zYRBTbAxQ/q6bNGUdCW1oTNMlyGsL/qVeCaLLU4X554VR7bWcyTEfZAS12/F/IntMpGNvzPCUc4/SwEAOJT1WUbBBsdsEAAFJJukRnf1KF8AGyh0BYZnkJAFTcc6vYL8sClSLpnnEjq8/EZLoWR/+LAxrJz+0OZbqn4wMdIcVsMPRxScTnQfHFTRtsv4gKOqshm60TEgK3bO3JS5DtZ4bJiYKizSQYSE71k4AzeVqfLMhI0q+a7dZFZOhEZhmwoNDp+cKqQXoBEVvG9h5FFEwlN+YDQ5iWY98qUL3qTVTN5R/uIARg53NselpMmHgKNePmQj+s70uOudWUgtRVBwOejoqUbkaKd2GZ0ZBdSpkMaGLGEEaa4rzFejtMdOQ2A9i98khOjPueKoTjDHnbljQ6YWwxqOlR5KywUonkeVg+qDfVRwCK24ss+G+La+Ge8M0CEXiSWwj7YZ+XUIqCiEgqk8TuhITtClIE+v2nOVjBgKasMpyniNNOQ7RSKiRURo0Tqfr5xj7jeJUKMafEd3TMjprA5jHwSH4WGOC+OdIFwUAadIHUVD8CjbUJ9YDwPBCLPmVdehfi7TO7eGrbbToFIZTo/ToJbcFoPowy42Zcon1BQN4gXuQPTY0OUAgdKpVpv51sEjVJCMHPYQK21JMrlj1nSupi88Tjp+KcN5Jq7Pi+J8RhHgDKtwGZ80msDdH9KLjLfjjCgM3L0sdx/tlG6Rc76GpNtLPJxqfVg3uMO+MXKogOLygIMaOmpcgbC/wzu8zS4ryZG4Ky8ZG5cRh8f+yOdoLOOHrs76Vr7qLi7DLjt4wbjoK9+qqPYhyvCMoT6Ymt/+jeT2/wZPHj1QozbxK5vllMxMmgeXoUc+BtOOGgck6sSlPTCCFmcvAHV81Pq3/0xLpq/wpWwmE6d40ONeLKvuLNO+iwThmxq5MHzWu4Botfnyxn2aqCLv7l2wer89wmuqXJzYTlu13B54ofrCp3TmzFsxUe6A4Uv7vsmwSSW7PfYvKrCHdi/dW7LRm5Jm4BJdxq4DO4UlDEuEZDdMzlLNR5ssiUxUxc/zB6JxUP7ASiFnDylUa5noWAVKQYFMuP8QWKH5QzwG5A9r4ixWJbkzClVr2gqVCWA3zKKQzE24EuZvwpQ0n6kr8Y4oUkGZKEsJk1EHe0f+RpcFjm6KkGBTnKugfEyIgCykFJdIqpBnb0KV5Fy8zdaXj0mVPAGlJWaYLTffrxsbaFcbya3YgQ3MZgs+wNawT7Axm/AFSPA8nzTfE0OwBM/cWJsbe64P/3/rbX2O8v2/Unccj/zpa3453uvDHjz/6p706mm86jj3AA9vRq177qrU5amx0OdegAh/79PT3tKnjtHS9yAtkwinUaugrz7jzEhxfcaYgbrltiCwnwbicwMzeoavIFzSz2UFOkZfBV8GtyzkctEV+7BGXsURkpDpTUwJT4WLov0l+3GRM0pwEzzHdNNftMzXp/ls3l05utyiCj7O1tiAVhfv48nY/L94s4KMPBO9iozSolT/lLfPES+iNb90Dd/0zRM+5Bz5EvIGP5Dwc6VRpG889ZmoxgnvAoGkWBtSV9ASrTKL9ZdN9po4Ta900y8+onHP4vEPsbApb3AlWCfoqUesn4NL+eXL6OoeWG7q8VTsc7hwis24ZRZk0UaDtBqDa1TTUcg12Qae9uZqNGZ/AaEVqUFwBEr6vjRT1kxgz913znmnrKqdVPxQh/L3s0o0Ll4getkAfJZYcE5Z014xDSWiezsQ2eFInTc6+l3mF1LLcTWnk8sxP9eboTUenGlu6FYr1VCwoOkCY9Vbf+1K2uq17PN/ogIsJxjm3rAEt5xyo/059W6jDMyRx4H6ZeAIdBPySW8StuzOmGMb5sZJ1IzufokXrLPkXFeJfmLmRvDfs8BPlXLUSG0PZJZ+kDgUYL3wzoPCDxJS1qAZv1hsPNYY0KPDVkYbgriKopUGHxX/qfd2Y4SLoPwMzXPVpw1nYu8WNEmxqdXl4vFZ7Fl2tRqvgtyAETcJ2CBwUOtbyPmUEoIHZMhzA5EpYgTrZy3B5XvC7PwLgzxHQQM1k5o/Df7hu3+8TuYyl+45i2bNBf3KdzifZq9B7xEyzhZ7Vngd4uTFF4A4hKdb9v/aFYD8SER+gEQFziPHz4mKvFjedT1HlkHlNdjd7hI4eBuajV8vJTFWrWiW/rXUhG7nxQIXT5Gfxp2QROLqWqIF80iL73a/x9uRiyNCp9mJH6+pEHuWbXJQ80y/4p2HjTieh2lYbVewxHcTSiFvdw3bFK/45u/Oj606u3++yBT8tWmLsRDxfgU+z98HBkDavltxz3K/Xrqu7IdQiZ1Huu+ugyJQwob78myA6ZiUybf+f0Nxy2vLnjHrWkaHjzSe2SthNWTvXbNH7//PD98h81vuYTXnd0SZh99x+mj13wRsj/hZT3fdyhXp7LyNxxEjf6uGyfOrbR5np4qK3u+K19kp8rdYmTx/G40/b7kLAjxjG9648ew91CDe+Tve8QXmb3MSeea2lE8/b2eiPPdNaAshxa3aBMgvDQX7AWVl2fVN7LboRsXw+jKpcfnbDDsyqyXguUzrRJ6+hfyqU0SbMzFh9DalNNtfOhLbyxeE+ae3h+KglenDO7H7+4642Jhat++z+Zzv3xQg/JcC/38zPnxtCcoyg66BUFhtC/19fgXos25Td6Y2tRy0ye5fLAeu+ZPc2cO2+fgt5Cvi3MsM7mKiZ/tsfXHVHGWOMrtc5DKL1t2auZn8YIJ01cb869fByb+8zSi39U7nZSCrj1ZDlxrixdF80OzeP0lRISke4v/n/rWAjoSCCsSHmIEYk5ySnY6YhT9Z/gNOpKWnsuSSNVtGrrnlnkf2PHOAEIygGE6QFM1wuDy+QCgSS6QyuUKpUmu0Or3BaDJbrDa7w+lye7w+PwKJQmOwODyBSCJTqDQ6g8lic7g8vkAocnB0cnYRS6QyuUKpUmu0Or3BaDJbrDa7q5u7h6eXt4+vnz9OkBQqjc5gstgcLo8vEIrEEqlMrlCq1Bptsa5jTOiQLtV8WeWHX4UkS6SXwqFuKvkKS5VYP00S07qAjqITpaiZFdAbha1wOlTJvRXTK03h8aNG9VNryddUfuzVSWclNl6D6VryTDEviYnWgdCJatTMCuiNwlY4Harn3oLpVQ3L++Q/A4IlOPiHX9PyKPY40LQQJpTJlQGiPFkOmMnMQeWqAREmlMnVAKI8WQuYyUw5Eq6ytUi4ulsAAAA=) format("woff2"); font-display: block; }
 /* Layout: one narrow column, Game Boy Light teal; a face-down deck you draw from, each kind of card with its own color */
-/* Palette: the Game Boy's four grays, no green filter; the only color is the card kind */
+/* Palette: the Game Boy's four grays, no green filter; the only color is the card kind. Core kinds are colored here; a package's kinds bring their own colors in its manifest. */
 :root {
   --g0: #f4f4f4; --g1: #a9a9a9; --g2: #575757; --g3: #141414;
   --bg: var(--g0);
@@ -20,10 +20,6 @@
   --k-form: #6b4fbb;
   --k-ending: #2f6fb3;
   --k-kana: #6d6d6d;
-  --k-pokemon: #c7861a;
-  --k-move: #b84a3c;
-  --k-item: #3f8a3a;
-  --k-term: #a2499a;
   --tint: 10%;
   --f-jp: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
   --f-dot: "PKMN Kana", "Zen Kaku Gothic New", monospace;
@@ -32,12 +28,12 @@
   --bg: var(--g3); --panel: #1e1e1e; --fg: var(--g0); --muted: var(--g1); --line: #3a3a3a;
   --accent: var(--g0); --accent-soft: #2e2e2e; --again: #e07a6e; --hard: #d6a556;
   --screen: #2a2a2a; --screen-ink: var(--g0); --back: #2a2a2a; --back-ink: var(--g1);
-  --k-word: #5cc4bc; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --k-pokemon: #e6b25a; --k-move: #e58073; --k-item: #7cc96f; --k-term: #d98bcc; --tint: 16%; color-scheme: dark } }
+  --k-word: #5cc4bc; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --tint: 16%; color-scheme: dark } }
 :root[data-theme="dark"] {
   --bg: var(--g3); --panel: #1e1e1e; --fg: var(--g0); --muted: var(--g1); --line: #3a3a3a;
   --accent: var(--g0); --accent-soft: #2e2e2e; --again: #e07a6e; --hard: #d6a556;
   --screen: #2a2a2a; --screen-ink: var(--g0); --back: #2a2a2a; --back-ink: var(--g1);
-  --k-word: #5cc4bc; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --k-pokemon: #e6b25a; --k-move: #e58073; --k-item: #7cc96f; --k-term: #d98bcc; --tint: 16%; color-scheme: dark }
+  --k-word: #5cc4bc; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --tint: 16%; color-scheme: dark }
 html, body { height: 100%; margin: 0; }
 [hidden] { display: none !important; }
 .practice { display: flex; flex-direction: column; gap: 12px; }
@@ -175,3 +171,7 @@ form { display: grid; gap: 8px; margin-top: 10px; }
 .settings { display: flex; flex-direction: column; gap: 12px; }
 .setting { display: flex; flex-direction: column; gap: 6px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
 .setting .help { font-size: 13px; color: var(--muted); line-height: 1.45; }
+.setting .field { display: flex; flex-direction: column; gap: 6px; padding-top: 10px; margin-top: 10px; border-top: 1px solid var(--line); }
+.setting .toggle { display: flex; align-items: center; justify-content: space-between; gap: 12px; cursor: pointer; }
+.setting .toggle > span { display: flex; flex-direction: column; gap: 2px; }
+.setting .toggle input { width: 18px; height: 18px; margin: 0; flex: none; accent-color: var(--accent); }

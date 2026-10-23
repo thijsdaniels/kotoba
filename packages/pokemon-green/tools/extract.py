@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract every Japanese string from the pokegreen disassembly into corpus/raw/*.json.
+"""Extract every Japanese string from the pokegreen disassembly into raw/*.json.
 
 Usage: tools/extract.py /path/to/pokegreen
 
@@ -108,7 +108,7 @@ def parse_file(path):
 
 
 def main(root):
-    outdir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "corpus", "raw")
+    outdir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "raw")
     os.makedirs(outdir, exist_ok=True)
     total, files = 0, 0
     for d in SOURCE_DIRS:

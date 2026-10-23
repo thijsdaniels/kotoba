@@ -4,10 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node tools/copy-deck.mjs",
+    "prebuild": "node tools/prebuild.mjs",
     "build": "vite build",
-    "preview": "vite preview",
-    "seed": "node tools/seed-state.mjs"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@vercel/blob": "^0.27.0"

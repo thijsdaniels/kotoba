@@ -1,36 +1,105 @@
 import "./style.css";
-import { api, readKey, writeKey, type Settings, type Side, type State } from "./api";
+import { api, readKey, writeKey, type PackageSettings, type SettingsPatch, type Side, type State } from "./api";
 import { currentRecall, dayOf, formatInterval, schedule, type Grade, type Schedule } from "./srs";
 
-type Kind = "word" | "form" | "ending" | "kana" | "pokemon" | "move" | "item" | "term";
+/* A package is a built bundle of cards with its own groups, kinds, placeholders and settings (see tools/build_packages.py).
+   The core kinds are the ones the app treats specially; everything else is a plain kind the package declares. */
 interface Card {
-  id: string; kind: Kind; stage: string; kana: string; meaning: string;
-  kanji?: string; romaji?: string; loose?: string; scope?: string; note?: string;
+  id: string; package: string; kind: string; group: string; kana: string; meaning: string;
+  kanji?: string; romaji?: string; loose?: string; note?: string;
   base?: string; form?: string; register?: string; vclass?: string; recogOnly?: boolean;
-  speaker?: string; who?: string; line?: string; lineEn?: string; surface?: string;
+  context?: string; line?: string; lineEn?: string; surface?: string;
   example?: string; exampleEn?: string; exampleLoose?: string; set?: "hira" | "kata"; order?: number;
 }
-interface Stage { id: string; name: string }
+interface Group { id: string; name: string }
+interface KindSpec { label: string; color?: string; colorDark?: string }
+interface SettingSpec { type: "text" | "number" | "choice"; label: string; help?: string; default?: string | number; max?: number; min?: number; slot?: string; options?: [string, string][] }
+interface Package {
+  id: string; title: string; description?: string; groups: Group[]; cards: Card[];
+  kinds?: Record<string, KindSpec>; slots?: Record<string, string>; settings?: Record<string, SettingSpec>;
+}
 interface QueueEntry { id: string; side: Side }
 
-const KINDS: Record<Kind, string> = { word: "Word", form: "Form", ending: "Ending", kana: "Kana", pokemon: "Pokémon", move: "Move", item: "Item", term: "Jargon" };
-const PRODUCE_CHOICES: [Kind, string][] = [["word", "Words"], ["form", "Forms"], ["ending", "Endings"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
-const KIND_CHOICES: [Kind, string][] = [["word", "Words"], ["form", "Forms"], ["ending", "Endings"], ["kana", "Kana"], ["pokemon", "Pokémon"], ["move", "Moves"], ["item", "Items"], ["term", "Jargon"]];
+const CORE_KINDS: Record<string, KindSpec> = { word: { label: "Word" }, form: { label: "Form" }, ending: { label: "Ending" }, kana: { label: "Kana" } };
 const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
 const REVIEW_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Hard", "hard", 1], ["Good", "good", 2], ["Easy", "easy", 3]];
 
 const byId = (id: string) => document.getElementById(id)!;
 const escapeHtmlOnly = (text: unknown) => String(text ?? "").replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]!));
-// {player} and {rival} become the names from the settings; other slots the game fills at runtime are shown as a light label
-const SLOT_LABELS: Record<string, string> = { enemy: "enemy", mon: "your Pokémon", name: "name", n: "number", trainer: "trainer", target: "target", user: "user", learnmovemon: "Pokémon", boxmonnicks: "Pokémon", boxnumstring: "number", item: "item", move: "move" };
-const fillSlots = (html: string) => html.replace(/\{(\w+)\}/g, (_, slot: string) =>
-  slot === "player" ? escapeHtmlOnly(state.settings.playerName || "タイス")
-  : slot === "rival" ? escapeHtmlOnly(state.settings.rivalName || "シゲル")
-  : `<span class="slot">${escapeHtmlOnly(SLOT_LABELS[slot] ?? slot)}</span>`);
+
+/* state */
+let packages = new Map<string, Package>();
+let cards = new Map<string, Card>();
+let state: State = { format: 2, version: 0, settings: { newPerDay: 12, produce: ["word"], packages: {} }, srs: {} };
+let loaded = false;
+let queue: QueueEntry[] = [];
+let current: QueueEntry | null = null;
+let revealed = false, drawn = false, busy = false, justDrawn = false, flipped = false;
+let openId: string | null = null;
+let view: "review" | "practice" | "cards" | "settings" = "review";
+// practice filters: the chosen groups (as "package/group") and kinds; an empty set means all of them
+let chosenGroups = new Set<string>();
+let chosenKinds = new Set<string>();
+let openFilter: "group" | "kind" | null = null;
+let openGroups = new Set<string>(); // groups unfolded in the card list; everything starts folded
+let kanaFont: "game" | "normal" = "game";
+try {
+  openGroups = new Set(JSON.parse(localStorage.getItem("kotoba-open-groups") ?? "[]") as string[]);
+  chosenGroups = new Set(JSON.parse(localStorage.getItem("kotoba-groups") ?? "[]") as string[]);
+  chosenKinds = new Set(JSON.parse(localStorage.getItem("kotoba-kinds") ?? "[]") as string[]);
+  kanaFont = (localStorage.getItem("kotoba-kfont") as "game" | "normal") ?? "game";
+} catch { /* private mode */ }
+let pendingWrite: Promise<unknown> = Promise.resolve();
+
+/* packages, groups and kinds */
+const packageSettings = (id: string): PackageSettings => state.settings.packages[id] ?? {};
+const packageEnabled = (id: string) => packageSettings(id).enabled !== false;
+const packageOf = (card: Card) => packages.get(card.package);
+const groupKey = (card: Card) => `${card.package}/${card.group}`;
+const groupIndex = (pkg: Package, id: string | undefined) => { const index = pkg.groups.findIndex(group => group.id === id); return index < 0 ? Infinity : index; };
+// the position is the last open group; absent means the latest, so everything is open
+const positionIndex = (pkg: Package) => { const position = packageSettings(pkg.id).position; return position === undefined ? pkg.groups.length - 1 : groupIndex(pkg, position); };
+// a card whose group is not in its package's list stays locked until the package is fixed
+const unlocked = (card: Card) => { const pkg = packageOf(card); return !!pkg && packageEnabled(pkg.id) && groupIndex(pkg, card.group) <= positionIndex(pkg); };
+const groupName = (card: Card) => packageOf(card)?.groups.find(group => group.id === card.group)?.name ?? "No group";
+const kindSpec = (card: Card): KindSpec => CORE_KINDS[card.kind] ?? packageOf(card)?.kinds?.[card.kind] ?? { label: card.kind };
+const kindVar = (packageId: string, kind: string) => (CORE_KINDS[kind] ? `--k-${kind}` : `--k-${packageId}-${kind}`);
+const kindColor = (card: Card) => `--kc: var(${kindVar(card.package, card.kind)})`;
+// every kind in play: the core ones, then each enabled package's own
+function allKinds(): [string, KindSpec, string][] {
+  const out: [string, KindSpec, string][] = Object.entries(CORE_KINDS).map(([kind, spec]) => [kind, spec, `--k-${kind}`]);
+  for (const pkg of packages.values()) if (packageEnabled(pkg.id)) for (const [kind, spec] of Object.entries(pkg.kinds ?? {})) out.push([kind, spec, kindVar(pkg.id, kind)]);
+  return out;
+}
+// a package's declared colors become CSS variables, light and dark, so the stylesheet treats its kinds like the core ones
+function installKindColors() {
+  const light: string[] = [], dark: string[] = [];
+  for (const pkg of packages.values()) for (const [kind, spec] of Object.entries(pkg.kinds ?? {})) {
+    if (spec.color) light.push(`${kindVar(pkg.id, kind)}: ${spec.color}`);
+    if (spec.colorDark ?? spec.color) dark.push(`${kindVar(pkg.id, kind)}: ${spec.colorDark ?? spec.color}`);
+  }
+  byId("package-colors").textContent = `:root { ${light.join("; ")} }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { ${dark.join("; ")} } }
+:root[data-theme="dark"] { ${dark.join("; ")} }`;
+}
+
+/* placeholders: a setting bound to a slot fills it; any other slot is shown as the package's label for it */
+function slotFillers() {
+  const fill = new Map<string, string>(), labels = new Map<string, string>();
+  for (const pkg of packages.values()) {
+    for (const [slot, label] of Object.entries(pkg.slots ?? {})) labels.set(slot, label);
+    for (const [key, spec] of Object.entries(pkg.settings ?? {})) if (spec.slot) fill.set(spec.slot, String(packageSettings(pkg.id).values?.[key] ?? spec.default ?? ""));
+  }
+  return { fill, labels };
+}
+const fillSlots = (html: string) => {
+  const { fill, labels } = slotFillers();
+  return html.replace(/\{(\w+)\}/g, (_, slot: string) => fill.has(slot) ? escapeHtmlOnly(fill.get(slot)) : `<span class="slot">${escapeHtmlOnly(labels.get(slot) ?? slot)}</span>`);
+};
 const escapeHtml = (text: unknown) => fillSlots(escapeHtmlOnly(text));
 // implied words that Japanese leaves out are stored as "(I)" and shown lighter, without brackets
 const implied = (text: unknown) => escapeHtml(text).replace(/\(([^()]*)\)/g, '<span class="imp">$1</span>');
-// highlight an exact surface form inside a line; nothing is guessed, the deck build has checked it occurs once
+// highlight an exact surface form inside a line; nothing is guessed, the package build has checked it occurs once
 function mark(line: string | undefined, surface: string | undefined): string {
   if (!line || !surface) return escapeHtml(line);
   const at = line.indexOf(surface);
@@ -38,42 +107,16 @@ function mark(line: string | undefined, surface: string | undefined): string {
   return escapeHtml(line.slice(0, at)) + "<mark>" + escapeHtml(surface) + "</mark>" + escapeHtml(line.slice(at + surface.length));
 }
 
-/* state */
-let cards = new Map<string, Card>();
-let stages: Stage[] = [];
-let state: State = { version: 0, settings: { newPerDay: 12, stage: "viridian", produce: ["word"] }, srs: {} };
-let loaded = false;
-let queue: QueueEntry[] = [];
-let current: QueueEntry | null = null;
-let revealed = false, drawn = false, busy = false, justDrawn = false, flipped = false;
-let openId: string | null = null;
-let view: "review" | "practice" | "cards" | "settings" = "review";
-// practice filters: the chosen stages and kinds; an empty set means all of them
-let chosenStages = new Set<string>();
-let chosenKinds = new Set<string>();
-let openFilter: "stage" | "kind" | null = null;
-let openStages = new Set<string>(); // stages unfolded in the card list; everything starts folded
-try { openStages = new Set(JSON.parse(localStorage.getItem("kotoba-open-stages") ?? "[]") as string[]); } catch { /* private mode */ }
-let kanaFont: "game" | "normal" = "game";
-try { chosenStages = new Set(JSON.parse(localStorage.getItem("kotoba-stages") ?? "[]") as string[]); chosenKinds = new Set(JSON.parse(localStorage.getItem("kotoba-kinds") ?? "[]") as string[]); kanaFont = (localStorage.getItem("kotoba-kfont") as "game" | "normal") ?? "game"; } catch { /* private mode */ }
-let pendingWrite: Promise<unknown> = Promise.resolve();
-
 const practicing = () => view === "practice";
-const kindOf = (card: Card): Kind => (KINDS[card.kind] ? card.kind : "word");
-const inPractice = (card: Card) => unlocked(card) && (!chosenKinds.size || chosenKinds.has(card.kind)) && (!chosenStages.size || chosenStages.has(card.stage));
-// a card with no stage, or one that isn't in the list, stays locked until it's fixed; system cards are always open
-const stageIndex = (id: string | undefined) => { const index = stages.findIndex(stage => stage.id === id); return index < 0 ? Infinity : index; };
-const stageLabel = (id: string | undefined) => stages.find(stage => stage.id === id)?.name ?? (id === "system" ? "Menus and Messages" : "No stage");
-const unlocked = (card: Card) => card.stage === "system" || stageIndex(card.stage) <= stageIndex(state.settings.stage);
+const inPractice = (card: Card) => unlocked(card) && (!chosenKinds.size || chosenKinds.has(card.kind)) && (!chosenGroups.size || chosenGroups.has(groupKey(card)));
 // every card is asked for recognition; production only for the kinds chosen in Settings, and never for kana
 const sidesOf = (card: Card): Side[] => (card.kind === "kana" || card.recogOnly || !state.settings.produce.includes(card.kind) ? ["r"] : ["r", "p"]);
 const scheduleOf = (card: Card, side: Side): Schedule | null => state.srs[card.id]?.[side] ?? null;
 // every side is its own card for the scheduler; this lists them all
 const allEntries = () => { const out: { id: string; side: Side; card: Card }[] = []; for (const [id, card] of cards) for (const side of sidesOf(card)) out.push({ id, side, card }); return out; };
-const kindColor = (card: Card) => `--kc: var(--k-${kindOf(card)})`;
 const shuffle = <T,>(items: T[]) => { for (let i = items.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [items[i], items[j]] = [items[j], items[i]]; } return items; };
 
-/* the review queue: everything due, plus today's ration of new cards from the unlocked part of the game */
+/* the review queue: everything due, plus today's ration of new cards from the unlocked part of every package */
 function newCardsToday(): QueueEntry[] {
   const today = dayOf(), now = Date.now();
   const picks: QueueEntry[] = [], inQueue = new Set<string>();
@@ -160,7 +203,7 @@ const formLabel = (card: Card) => [card.base, card.form, card.register, card.vcl
 const fontButton = (extra = "") => `<button class="kfont" id="kfont"${extra}>${kanaFont === "game" ? "Game Font" : "Normal Font"}</button>`;
 const glyph = (card: Card) => `<span class="kglyph${kanaFont === "normal" ? " normal" : ""}">${escapeHtml(card.kana)}</span>`;
 function questionLabel(card: Card, recognition: boolean) {
-  if (recognition) return card.kind === "kana" ? "Read it" : card.kind === "pokemon" ? "Which Pokémon?" : card.kind === "move" ? "Which move?" : "What does it mean?";
+  if (recognition) return card.kind === "kana" ? "Read it" : CORE_KINDS[card.kind] ? "What does it mean?" : `Which ${kindSpec(card).label.toLowerCase()}?`;
   return card.kind === "form" ? "Conjugate" : "Say it in Japanese";
 }
 function frontHtml(card: Card, recognition: boolean) {
@@ -172,15 +215,12 @@ function frontHtml(card: Card, recognition: boolean) {
 // an everyday example is our own text: highlight the dictionary form when it appears as written, otherwise nothing
 const exampleSurface = (card: Card) => { const core = card.kana.replace(/[〜～]/g, "").split("／")[0].trim(); return card.example?.includes(core) ? core : undefined; };
 function quoteHtml(card: Card) {
-  if (card.line) {
-    const who = card.speaker ?? card.who;
-    return `<div class="tcard-art">${who ? `<span class="who">${escapeHtml(who)}</span>` : ""}${mark(card.line, card.surface)}<span class="en">${implied(card.lineEn ?? "")}</span></div>`;
-  }
+  if (card.line) return `<div class="tcard-art">${card.context ? `<span class="who">${escapeHtml(card.context)}</span>` : ""}${mark(card.line, card.surface)}<span class="en">${implied(card.lineEn ?? "")}</span></div>`;
   if (card.example) return `<div class="tcard-art">${mark(card.example, exampleSurface(card))}<span class="en">${implied(card.exampleEn ?? "")}</span>${card.exampleLoose ? `<span class="en"><i>${implied(card.exampleLoose)}</i></span>` : ""}</div>`;
   return "";
 }
 function answerHtml(card: Card) {
-  const kind = KINDS[kindOf(card)];
+  const kind = kindSpec(card).label;
   let title: string, meaning: string;
   if (card.kind === "kana") { title = glyph(card) + fontButton(' style="align-self:center"'); meaning = escapeHtml(card.meaning) + `<span class="sub">${card.set === "kata" ? "katakana" : "hiragana"}</span>`; }
   else if (card.kind === "form") { title = `<span class="jp">${escapeHtml(card.kana)}</span>`; meaning = implied(card.meaning) + (card.loose ? `<span class="loose">${implied(card.loose)}</span>` : "") + `<span class="sub">${escapeHtml(formLabel(card))}</span>`; }
@@ -200,23 +240,32 @@ function listDetailHtml(card: Card) {
   let more = "";
   if (card.note) more += `<div class="note">${implied(card.note)}</div>`;
   if (card.example) more += `<div class="ex"><span class="jp">${mark(card.example, exampleSurface(card))}</span><span class="en">${implied(card.exampleEn ?? "")}</span></div>`;
-  if (card.line) more += `<div class="dialog">${card.speaker || card.who ? `<span class="who">${escapeHtml(card.speaker ?? card.who)}</span>` : ""}${mark(card.line, card.surface)}<span class="en">${implied(card.lineEn ?? "")}</span></div>`;
+  if (card.line) more += `<div class="dialog">${card.context ? `<span class="who">${escapeHtml(card.context)}</span>` : ""}${mark(card.line, card.surface)}<span class="en">${implied(card.lineEn ?? "")}</span></div>`;
   if (more) html += `<div class="morebox">${more}</div>`;
   return `<div class="back">${html}</div>`;
 }
 
 /* views */
+// the groups open for practice: each enabled package's groups up to its position, labeled with the package when more than one is in play
+function openGroupChoices(): [string, string][] {
+  const enabled = [...packages.values()].filter(pkg => packageEnabled(pkg.id));
+  const out: [string, string][] = [];
+  for (const pkg of enabled) for (const group of pkg.groups.slice(0, positionIndex(pkg) + 1)) out.push([`${pkg.id}/${group.id}`, enabled.length > 1 ? `${pkg.title} · ${group.name}` : group.name]);
+  return out;
+}
 function renderFilter() {
-  const stageChoices: [string, string][] = [...stages.filter(stage => stageIndex(stage.id) <= stageIndex(state.settings.stage)).map(stage => [stage.id, stage.name] as [string, string]), ["system", "Menus and Messages"]];
-  for (const id of chosenStages) if (!stageChoices.some(([choice]) => choice === id)) chosenStages.delete(id); // a stage locked again drops out of the filter
+  const groupChoices = openGroupChoices();
+  for (const id of chosenGroups) if (!groupChoices.some(([choice]) => choice === id)) chosenGroups.delete(id); // a group locked again drops out of the filter
+  const kindChoices: [string, string][] = allKinds().map(([kind, spec]) => [kind, spec.label]);
   const summary = (name: string, chosen: Set<string>, choices: [string, string][]) =>
     `${name}: ${chosen.size ? choices.filter(([id]) => chosen.has(id)).map(([, label]) => label).join(", ") : "All"}`;
-  byId("filters").innerHTML = `<button data-open="stage">${escapeHtml(summary("Stages", chosenStages, stageChoices))}</button><button data-open="kind">${escapeHtml(summary("Kinds", chosenKinds, KIND_CHOICES))}</button>`;
+  byId("filters").innerHTML = `<button data-open="group">${escapeHtml(summary("Groups", chosenGroups, groupChoices))}</button><button data-open="kind">${escapeHtml(summary("Kinds", chosenKinds, kindChoices))}</button>`;
   if (openFilter) {
-    const [title, chosen, choices] = openFilter === "stage" ? ["Stages", chosenStages, stageChoices] as const : ["Kinds", chosenKinds, KIND_CHOICES] as const;
+    const [title, chosen, choices] = openFilter === "group" ? ["Groups", chosenGroups, groupChoices] as const : ["Kinds", chosenKinds, kindChoices] as const;
+    const colorOf = new Map(allKinds().map(([kind, , variable]) => [kind, variable]));
     byId("filter-dialog-title").textContent = title;
     byId("filter-options").dataset.filter = openFilter;
-    byId("filter-options").innerHTML = choices.map(([id, label]) => `<label>${openFilter === "kind" ? `<span class="dot" style="--kc: var(--k-${id})"></span>` : ""}<span class="name">${escapeHtml(label)}</span><input type="checkbox" data-choice="${escapeHtml(id)}"${chosen.has(id) ? " checked" : ""}></label>`).join("");
+    byId("filter-options").innerHTML = choices.map(([id, label]) => `<label>${openFilter === "kind" ? `<span class="dot" style="--kc: var(${colorOf.get(id)})"></span>` : ""}<span class="name">${escapeHtml(label)}</span><input type="checkbox" data-choice="${escapeHtml(id)}"${chosen.has(id) ? " checked" : ""}></label>`).join("");
   }
 }
 function renderDeck() {
@@ -228,7 +277,7 @@ function renderDeck() {
   const unders = () => queue.slice(0, 2).map((entry, index) => { const card = cards.get(entry.id); return card ? `<div class="under${index ? " u2" : ""}" style="${kindColor(card)}"></div>` : ""; }).join("");
   if (!drawn) {
     if (!queue.length) {
-      if (practice) { container.innerHTML = shell(`<div class="empty"><span class="big">なにも ない</span><span>Nothing to practice with this filter yet. Move further in the game under Settings, or pick another filter.</span></div>`); return; }
+      if (practice) { container.innerHTML = shell(`<div class="empty"><span class="big">なにも ない</span><span>Nothing to practice with this filter yet. Move further under Settings, or pick another filter.</span></div>`); return; }
       const seen = allEntries().filter(({ card, side }) => scheduleOf(card, side));
       const nextDue = Math.min(...seen.map(({ card, side }) => scheduleOf(card, side)!.due));
       container.innerHTML = shell(`<div class="empty"><span class="big">おつかれさま！</span><span>Done for today.${isFinite(nextDue) ? " Next card in " + formatInterval(Math.max(60000, nextDue - Date.now())) + "." : ""}</span>
@@ -245,7 +294,7 @@ function renderDeck() {
   const buttons = practice ? PRACTICE_BUTTONS : REVIEW_BUTTONS;
   const body = revealed
     ? answerHtml(card) + `<div class="actions${practice ? " two" : ""}">${buttons.map(([label, cls, grade]) => `<button class="g-${cls}" data-grade="${grade}">${label}</button>`).join("")}</div>`
-    : `<div class="dir"><span class="tag">${escapeHtml(KINDS[kindOf(card)])}</span><span>${practice ? "practice" : existing ? "review" : "new"} · ${queue.length} left</span></div><div class="front">${frontHtml(card, recognition)}<div class="hint">${questionLabel(card, recognition)}</div></div><button class="show" id="show">Show Answer</button>`;
+    : `<div class="dir"><span class="tag">${escapeHtml(kindSpec(card).label)}</span><span>${practice ? "practice" : existing ? "review" : "new"} · ${queue.length} left</span></div><div class="front">${frontHtml(card, recognition)}<div class="hint">${questionLabel(card, recognition)}</div></div><button class="show" id="show">Show Answer</button>`;
   container.innerHTML = `<div class="stack">${unders()}<div class="card ${revealed ? "a" : "q"}${justDrawn ? " drawn" : ""}${flipped ? " flip-in" : ""}" style="${kindColor(card)}">${body}</div></div>`;
   justDrawn = false; flipped = false;
   const fontToggle = document.getElementById("kfont");
@@ -262,48 +311,61 @@ function status(card: Card): [string, string] {
 }
 function renderCards() {
   const query = (byId("search") as HTMLInputElement).value.trim().toLowerCase();
-  const order = new Map(stages.map((stage, index) => [stage.id, index]));
+  const packageOrder = new Map([...packages.keys()].map((id, index) => [id, index]));
+  const order = (card: Card) => { const pkg = packageOf(card); return (packageOrder.get(card.package) ?? 99) * 1000 + (pkg ? groupIndex(pkg, card.group) : 999); };
   const items = [...cards.values()]
-    .filter(card => !query || [card.kana, card.kanji, card.romaji, card.meaning, card.base, card.form, card.speaker, card.who, card.stage, KINDS[kindOf(card)]].some(field => String(field ?? "").toLowerCase().includes(query)))
-    .sort((a, b) => (order.get(a.stage) ?? 99) - (order.get(b.stage) ?? 99) || a.kind.localeCompare(b.kind) || (a.order ?? 0) - (b.order ?? 0) || a.kana.localeCompare(b.kana, "ja"));
+    .filter(card => !query || [card.kana, card.kanji, card.romaji, card.meaning, card.base, card.form, card.context, groupName(card), kindSpec(card).label].some(field => String(field ?? "").toLowerCase().includes(query)))
+    .sort((a, b) => order(a) - order(b) || a.kind.localeCompare(b.kind) || (a.order ?? 0) - (b.order ?? 0) || a.kana.localeCompare(b.kana, "ja"));
   const list = byId("list");
   if (!items.length) { list.innerHTML = `<div class="empty">No matches.</div>`; return; }
   const countBy = new Map<string, number>();
-  for (const card of items) countBy.set(card.stage, (countBy.get(card.stage) ?? 0) + 1);
+  for (const card of items) countBy.set(groupKey(card), (countBy.get(groupKey(card)) ?? 0) + 1);
   list.innerHTML = items.map((card, index) => {
-    const folded = !openStages.has(card.stage);
-    const heading = index === 0 || items[index - 1].stage !== card.stage
-      ? `<button class="group" data-stage="${escapeHtml(card.stage)}" aria-expanded="${!folded}"><span>${escapeHtml(stageLabel(card.stage))}</span><span>${countBy.get(card.stage)} cards${unlocked(card) ? "" : " · locked"}</span></button>` : "";
+    const key = groupKey(card), folded = !openGroups.has(key);
+    const heading = index === 0 || groupKey(items[index - 1]) !== key
+      ? `<button class="group" data-group="${escapeHtml(key)}" aria-expanded="${!folded}"><span>${escapeHtml(packages.size > 1 ? `${packageOf(card)?.title ?? card.package} · ${groupName(card)}` : groupName(card))}</span><span>${countBy.get(key)} cards${unlocked(card) ? "" : " · locked"}</span></button>` : "";
     if (folded) return heading;
     const [cls, label] = status(card), open = openId === card.id;
-    const tag = `<span class="tag">${escapeHtml(KINDS[kindOf(card)])}</span>`;
+    const tag = `<span class="tag">${escapeHtml(kindSpec(card).label)}</span>`;
     const meaning = (card.kind === "form" && card.form ? `<span class="form">${escapeHtml(card.form)}</span> · ` : "") + implied(card.meaning);
     return heading + `<div class="item" style="${kindColor(card)}"><button data-id="${escapeHtml(card.id)}" aria-expanded="${open}"><span class="k">${escapeHtml(card.kana)}${card.kanji ? `<small>${escapeHtml(card.kanji)}</small>` : ""}${tag}</span><span class="chip ${cls}">${label}</span><span class="m">${meaning}</span></button>
       ${open ? `<div class="detail">${listDetailHtml(card)}</div>` : ""}</div>`;
   }).join("");
   list.querySelectorAll<HTMLButtonElement>("[data-id]").forEach(button => button.onclick = () => { openId = openId === button.dataset.id ? null : button.dataset.id!; renderCards(); });
-  list.querySelectorAll<HTMLButtonElement>("[data-stage]").forEach(button => button.onclick = () => {
-    const stage = button.dataset.stage!;
-    if (openStages.has(stage)) openStages.delete(stage); else openStages.add(stage);
-    try { localStorage.setItem("kotoba-open-stages", JSON.stringify([...openStages])); } catch { /* private mode */ }
+  list.querySelectorAll<HTMLButtonElement>("[data-group]").forEach(button => button.onclick = () => {
+    const key = button.dataset.group!;
+    if (openGroups.has(key)) openGroups.delete(key); else openGroups.add(key);
+    try { localStorage.setItem("kotoba-open-groups", JSON.stringify([...openGroups])); } catch { /* private mode */ }
     renderCards();
   });
 }
+// one block per package: on or off, the position in its groups, and whatever settings its manifest declares
+function packageSettingsHtml(pkg: Package) {
+  const settings = packageSettings(pkg.id), enabled = packageEnabled(pkg.id);
+  let open = 0, locked = 0;
+  for (const card of pkg.cards) { if (unlocked(card)) open++; else locked++; }
+  const position = settings.position ?? pkg.groups[pkg.groups.length - 1]?.id;
+  const fields = !enabled ? "" : `
+    <label class="field"><span class="label">I'm At</span><select data-package="${pkg.id}" data-position>${pkg.groups.map(group => `<option value="${escapeHtml(group.id)}"${group.id === position ? " selected" : ""}>${escapeHtml(group.name)}</option>`).join("")}</select>
+      <span class="help">Cards from later groups stay out of Review and Practice until you get there. ${open} unlocked${locked ? `, ${locked} waiting.` : "."}</span></label>
+    ${Object.entries(pkg.settings ?? {}).map(([key, spec]) => {
+      const value = settings.values?.[key] ?? spec.default ?? "";
+      const input = spec.type === "choice"
+        ? `<select data-package="${pkg.id}" data-key="${key}">${(spec.options ?? []).map(([id, label]) => `<option value="${escapeHtml(id)}"${id === value ? " selected" : ""}>${escapeHtml(label)}</option>`).join("")}</select>`
+        : spec.type === "number"
+          ? `<input data-package="${pkg.id}" data-key="${key}" type="number" inputmode="numeric" value="${escapeHtmlOnly(value)}"${spec.min !== undefined ? ` min="${spec.min}"` : ""}${spec.max !== undefined ? ` max="${spec.max}"` : ""}>`
+          : `<input data-package="${pkg.id}" data-key="${key}" autocomplete="off" value="${escapeHtmlOnly(value)}"${spec.max ? ` maxlength="${spec.max}"` : ""}>`;
+      return `<label class="field"><span class="label">${escapeHtml(spec.label)}</span>${input}${spec.help ? `<span class="help">${escapeHtml(spec.help)}</span>` : ""}</label>`;
+    }).join("")}`;
+  return `<div class="setting package"><label class="toggle"><span><span class="label">${escapeHtml(pkg.title)}</span>${pkg.description ? `<span class="help">${escapeHtml(pkg.description)}</span>` : ""}</span><input type="checkbox" data-package="${pkg.id}" data-enabled${enabled ? " checked" : ""}></label>${fields}</div>`;
+}
 function renderSettings() {
-  const select = byId("setting-stage") as HTMLSelectElement;
-  if (!select.options.length) select.innerHTML = stages.map(stage => `<option value="${stage.id}">${escapeHtml(stage.name)}</option>`).join("");
-  select.value = state.settings.stage;
   const newInput = byId("setting-new") as HTMLInputElement;
   if (document.activeElement !== newInput) newInput.value = String(state.settings.newPerDay);
   const keyInput = byId("setting-key") as HTMLInputElement;
   if (document.activeElement !== keyInput) keyInput.value = readKey();
-  const playerInput = byId("setting-player") as HTMLInputElement, rivalInput = byId("setting-rival") as HTMLInputElement;
-  if (document.activeElement !== playerInput) playerInput.value = state.settings.playerName ?? "";
-  if (document.activeElement !== rivalInput) rivalInput.value = state.settings.rivalName ?? "";
-  byId("setting-produce").innerHTML = PRODUCE_CHOICES.map(([kind, label]) => `<button data-kind="${kind}" aria-pressed="${state.settings.produce.includes(kind)}"><span class="dot" style="--kc: var(--k-${kind})"></span>${label}</button>`).join("");
-  let open = 0, locked = 0;
-  for (const card of cards.values()) { if (unlocked(card)) open++; else locked++; }
-  byId("setting-stage-help").textContent = `Cards from later in the game stay out of Review and Practice until you get there. ${open} unlocked` + (locked ? `, ${locked} waiting.` : ".");
+  byId("setting-produce").innerHTML = allKinds().filter(([kind]) => kind !== "kana").map(([kind, spec, variable]) => `<button data-kind="${kind}" aria-pressed="${state.settings.produce.includes(kind)}"><span class="dot" style="--kc: var(${variable})"></span>${escapeHtml(spec.label)}</button>`).join("");
+  if (!byId("setting-packages").contains(document.activeElement)) byId("setting-packages").innerHTML = [...packages.values()].map(packageSettingsHtml).join("");
 }
 function render() {
   const { due, fresh, total } = counts();
@@ -319,8 +381,11 @@ function showTab(which: typeof view) {
   if (changed && (which === "review" || which === "practice")) buildQueue();
   render();
 }
-function saveSettings(patch: Partial<Settings>) {
-  state.settings = { ...state.settings, ...patch };
+function saveSettings(patch: SettingsPatch) {
+  const packagesPatch = patch.packages ?? {};
+  const merged = { ...state.settings.packages };
+  for (const [id, entry] of Object.entries(packagesPatch)) merged[id] = { ...(merged[id] ?? {}), ...entry, values: { ...(merged[id]?.values ?? {}), ...(entry.values ?? {}) } };
+  state.settings = { ...state.settings, ...patch, packages: merged };
   enqueueWrite(() => api.settings(patch));
 }
 
@@ -328,7 +393,7 @@ for (const name of ["review", "practice", "cards", "settings"] as const) byId("t
 byId("filters").onclick = event => {
   const head = (event.target as HTMLElement).closest<HTMLElement>("[data-open]");
   if (!head) return;
-  openFilter = head.dataset.open as "stage" | "kind"; renderFilter();
+  openFilter = head.dataset.open as "group" | "kind"; renderFilter();
   (byId("filter-dialog") as HTMLDialogElement).showModal();
 };
 const filterDialog = byId("filter-dialog") as HTMLDialogElement;
@@ -338,13 +403,12 @@ byId("filter-done").onclick = () => filterDialog.close();
 byId("filter-options").onchange = event => {
   const box = event.target as HTMLInputElement;
   if (!box.dataset.choice) return;
-  const which = box.closest<HTMLElement>("[data-filter]")!.dataset.filter, chosen = which === "stage" ? chosenStages : chosenKinds;
+  const which = box.closest<HTMLElement>("[data-filter]")!.dataset.filter, chosen = which === "group" ? chosenGroups : chosenKinds;
   if (box.checked) chosen.add(box.dataset.choice); else chosen.delete(box.dataset.choice);
-  try { localStorage.setItem(which === "stage" ? "kotoba-stages" : "kotoba-kinds", JSON.stringify([...chosen])); } catch { /* private mode */ }
+  try { localStorage.setItem(which === "group" ? "kotoba-groups" : "kotoba-kinds", JSON.stringify([...chosen])); } catch { /* private mode */ }
   buildQueue(); render();
 };
 byId("search").oninput = renderCards;
-(byId("setting-stage") as HTMLSelectElement).onchange = event => { saveSettings({ stage: (event.target as HTMLSelectElement).value }); buildQueue(); render(); };
 (byId("setting-new") as HTMLInputElement).onchange = event => { const input = event.target as HTMLInputElement; const value = Math.max(0, Math.min(100, Math.round(Number(input.value) || 0))); input.value = String(value); saveSettings({ newPerDay: value }); render(); };
 byId("setting-produce").onclick = event => {
   const button = (event.target as HTMLElement).closest<HTMLElement>("[data-kind]");
@@ -353,23 +417,31 @@ byId("setting-produce").onclick = event => {
   const produce = state.settings.produce.includes(kind) ? state.settings.produce.filter(chosen => chosen !== kind) : [...state.settings.produce, kind];
   saveSettings({ produce }); buildQueue(); render();
 };
-(byId("setting-player") as HTMLInputElement).onchange = event => saveSettings({ playerName: (event.target as HTMLInputElement).value.trim() });
-(byId("setting-rival") as HTMLInputElement).onchange = event => saveSettings({ rivalName: (event.target as HTMLInputElement).value.trim() });
-(byId("setting-key") as HTMLInputElement).onchange = event => { writeKey((event.target as HTMLInputElement).value.trim()); void start();
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js").catch(() => { /* offline shell is optional */ }); };
+byId("setting-packages").onchange = event => {
+  const input = event.target as HTMLInputElement | HTMLSelectElement;
+  const id = input.dataset.package;
+  if (!id) return;
+  const patch: PackageSettings =
+    "enabled" in input.dataset ? { enabled: (input as HTMLInputElement).checked }
+    : "position" in input.dataset ? { position: input.value }
+    : { values: { [input.dataset.key!]: input.type === "number" ? Number(input.value) : input.value.trim() } };
+  saveSettings({ packages: { [id]: patch } });
+  (input as HTMLElement).blur();
+  buildQueue(); render();
+};
+(byId("setting-key") as HTMLInputElement).onchange = event => { writeKey((event.target as HTMLInputElement).value.trim()); void start(); };
 
 async function start() {
   render();
   if (!readKey()) return;
   try {
-    const [deck, stageList] = await Promise.all([
-      fetch("/cards.json").then(response => response.json() as Promise<Card[]>),
-      fetch("/stages.json").then(response => response.json() as Promise<Stage[]>),
-    ]);
-    cards = new Map(deck.map(card => [card.id, card]));
-    stages = stageList;
+    const index = await fetch("/packages/index.json").then(response => response.json() as Promise<{ id: string }[]>);
+    const built = await Promise.all(index.map(entry => fetch(`/packages/${entry.id}.json`).then(response => response.json() as Promise<Package>)));
+    packages = new Map(built.map(pkg => [pkg.id, pkg]));
+    cards = new Map(built.flatMap(pkg => pkg.cards).map(card => [card.id, card]));
+    installKindColors();
   } catch (error) {
-    byId("message").textContent = `Couldn't load the deck, ${(error as Error).message}.`;
+    byId("message").textContent = `Couldn't load the packages, ${(error as Error).message}.`;
     render(); return;
   }
   try {

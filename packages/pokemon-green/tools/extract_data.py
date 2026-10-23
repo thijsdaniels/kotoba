@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract game data tables from the pokegreen disassembly into corpus/data/*.json.
+"""Extract game data tables from the pokegreen disassembly into data/*.json.
 
 Usage: tools/extract_data.py /path/to/pokegreen
 
@@ -10,7 +10,7 @@ level-up learnset, evolutions), moves.json, items.json, types.json, wild.json
 import json, os, re, sys
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(HERE, "corpus", "data")
+OUT = os.path.join(HERE, "data")
 
 
 def read(root, rel):

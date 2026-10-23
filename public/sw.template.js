@@ -1,7 +1,7 @@
-// Offline shell: the page, its assets and the deck are cached; the API is always network.
+// Offline shell: the page, its assets and the packages are cached as they are fetched; the API is always network.
 // The cache name changes with every deploy (the build stamps it), so a new version replaces the old on next load.
 const CACHE = "kotoba-__BUILD__";
-const SHELL = ["/", "/cards.json", "/stages.json", "/manifest.webmanifest", "/icon-192.png", "/icon-512.png"];
+const SHELL = ["/", "/packages/index.json", "/manifest.webmanifest", "/icon-192.png", "/icon-512.png"];
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));

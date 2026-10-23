@@ -15,6 +15,7 @@
   <meta name="apple-mobile-web-app-title" content="Kotoba">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+  <style id="package-colors"></style>
 </head>
 <body>
   <div class="wrap">
@@ -43,11 +44,9 @@
     </section>
     <section id="view-settings" hidden>
       <div class="settings">
-        <label class="setting"><span class="label">I'm At</span><select id="setting-stage"></select><span class="help" id="setting-stage-help"></span></label>
         <label class="setting"><span class="label">New Cards per Day</span><input id="setting-new" type="number" min="0" max="100" step="1" inputmode="numeric"><span class="help">Each new card comes back as roughly ten reviews over the following weeks. Twelve a day is a comfortable pace while traveling.</span></label>
         <div class="setting"><span class="label">Say It in Japanese</span><div class="filter" id="setting-produce"></div><span class="help">Every card asks you to read the Japanese. The kinds chosen here also ask you to produce it from the English, as a second card that starts a day after the first.</span></div>
-        <label class="setting"><span class="label">Your Name in the Game</span><input id="setting-player" autocomplete="off" placeholder="タイス"><span class="help">Shown where the game prints the player's name.</span></label>
-        <label class="setting"><span class="label">Rival's Name</span><input id="setting-rival" autocomplete="off" placeholder="シゲル"></label>
+        <div id="setting-packages"></div>
         <label class="setting"><span class="label">Key</span><input id="setting-key" type="password" autocomplete="off"><span class="help">The key that lets this device read and save your progress.</span></label>
       </div>
     </section>

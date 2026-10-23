@@ -1,0 +1,185 @@
+[
+ {
+  "id": "m-quick_attack",
+  "kind": "move",
+  "group": "route1",
+  "kana": "でんこうせっか",
+  "meaning": "Quick Attack",
+  "note": "Known by Rattata."
+ },
+ {
+  "id": "m-bubble",
+  "kind": "move",
+  "group": "viridian",
+  "kana": "あわ",
+  "meaning": "Bubble",
+  "note": "Known by Squirtle."
+ },
+ {
+  "id": "p-nidoran_m",
+  "kind": "pokemon",
+  "group": "route22",
+  "kana": "ニドラン♂",
+  "meaning": "Nidoran♂",
+  "note": "No. 32, Poison. Met at level 2, 3, 4."
+ },
+ {
+  "id": "p-nidoran_f",
+  "kind": "pokemon",
+  "group": "route22",
+  "kana": "ニドラン♀",
+  "meaning": "Nidoran♀",
+  "note": "No. 29, Poison. Met at level 2, 3, 4."
+ },
+ {
+  "id": "m-leer",
+  "kind": "move",
+  "group": "route22",
+  "kana": "にらみつける",
+  "meaning": "Leer",
+  "note": "Known by Nidoran♂."
+ },
+ {
+  "id": "m-horn_attack",
+  "kind": "move",
+  "group": "route22",
+  "kana": "つのでつく",
+  "meaning": "Horn Attack",
+  "note": "Known by Nidoran♂."
+ },
+ {
+  "id": "m-peck",
+  "kind": "move",
+  "group": "route22",
+  "kana": "つつく",
+  "meaning": "Peck",
+  "note": "Known by Spearow."
+ },
+ {
+  "id": "m-poison_sting",
+  "kind": "move",
+  "group": "route2",
+  "kana": "どくばり",
+  "meaning": "Poison Sting",
+  "note": "Known by Weedle."
+ },
+ {
+  "id": "m-string_shot",
+  "kind": "move",
+  "group": "route2",
+  "kana": "いとをはく",
+  "meaning": "String Shot",
+  "note": "Known by Weedle."
+ },
+ {
+  "id": "m-ember",
+  "kind": "move",
+  "group": "route2",
+  "kana": "ひのこ",
+  "meaning": "Ember",
+  "note": "Known by Charmander."
+ },
+ {
+  "id": "p-kakuna",
+  "kind": "pokemon",
+  "group": "viridian-forest",
+  "kana": "コクーン",
+  "meaning": "Kakuna",
+  "note": "No. 14, Bug / Poison. Met at level 4, 5, 6, 7."
+ },
+ {
+  "id": "p-metapod",
+  "kind": "pokemon",
+  "group": "viridian-forest",
+  "kana": "トランセル",
+  "meaning": "Metapod",
+  "note": "No. 11, Bug. Met at level 4, 5, 6."
+ },
+ {
+  "id": "p-pikachu",
+  "kind": "pokemon",
+  "group": "viridian-forest",
+  "kana": "ピカチュウ",
+  "meaning": "Pikachu",
+  "note": "No. 25, Electric. Met at level 3, 5."
+ },
+ {
+  "id": "m-harden",
+  "kind": "move",
+  "group": "viridian-forest",
+  "kana": "かたくなる",
+  "meaning": "Harden",
+  "note": "Known by Kakuna."
+ },
+ {
+  "id": "m-thundershock",
+  "kind": "move",
+  "group": "viridian-forest",
+  "kana": "でんきショック",
+  "meaning": "Thundershock",
+  "note": "Known by Pikachu."
+ },
+ {
+  "id": "m-thunder_wave",
+  "kind": "move",
+  "group": "viridian-forest",
+  "kana": "でんじは",
+  "meaning": "Thunder Wave",
+  "note": "Known by Pikachu."
+ },
+ {
+  "id": "p-geodude",
+  "kind": "pokemon",
+  "group": "pewter",
+  "kana": "イシツブテ",
+  "meaning": "Geodude",
+  "note": "No. 74, Rock / Ground. Met at level 12."
+ },
+ {
+  "id": "p-onix",
+  "kind": "pokemon",
+  "group": "pewter",
+  "kana": "イワーク",
+  "meaning": "Onix",
+  "note": "No. 95, Rock / Ground. Met at level 14."
+ },
+ {
+  "id": "m-defense_curl",
+  "kind": "move",
+  "group": "pewter",
+  "kana": "まるくなる",
+  "meaning": "Defense Curl",
+  "note": "Known by Geodude."
+ },
+ {
+  "id": "m-screech",
+  "kind": "move",
+  "group": "pewter",
+  "kana": "いやなおと",
+  "meaning": "Screech",
+  "note": "Known by Onix."
+ },
+ {
+  "id": "m-vine_whip",
+  "kind": "move",
+  "group": "pewter",
+  "kana": "つるのムチ",
+  "meaning": "Vine Whip",
+  "note": "Known by Bulbasaur."
+ },
+ {
+  "id": "m-hyper_fang",
+  "kind": "move",
+  "group": "pewter",
+  "kana": "ひっさつまえば",
+  "meaning": "Hyper Fang",
+  "note": "Known by Rattata."
+ },
+ {
+  "id": "i-escape_rope",
+  "kind": "item",
+  "group": "pewter",
+  "kana": "あなぬけのヒモ",
+  "meaning": "Escape Rope"
+ }
+]

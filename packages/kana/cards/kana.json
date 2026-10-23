@@ -1,0 +1,922 @@
+[
+ {
+  "id": "hira-a",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "あ",
+  "meaning": "a",
+  "set": "hira",
+  "order": 0,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-i",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "い",
+  "meaning": "i",
+  "set": "hira",
+  "order": 1,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-u",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "う",
+  "meaning": "u",
+  "set": "hira",
+  "order": 2,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-e",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "え",
+  "meaning": "e",
+  "set": "hira",
+  "order": 3,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-o",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "お",
+  "meaning": "o",
+  "set": "hira",
+  "order": 4,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ka",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "か",
+  "meaning": "ka",
+  "set": "hira",
+  "order": 5,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ki",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "き",
+  "meaning": "ki",
+  "set": "hira",
+  "order": 6,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ku",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "く",
+  "meaning": "ku",
+  "set": "hira",
+  "order": 7,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ke",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "け",
+  "meaning": "ke",
+  "set": "hira",
+  "order": 8,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ko",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "こ",
+  "meaning": "ko",
+  "set": "hira",
+  "order": 9,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-sa",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "さ",
+  "meaning": "sa",
+  "set": "hira",
+  "order": 10,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-shi",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "し",
+  "meaning": "shi",
+  "set": "hira",
+  "order": 11,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-su",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "す",
+  "meaning": "su",
+  "set": "hira",
+  "order": 12,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-se",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "せ",
+  "meaning": "se",
+  "set": "hira",
+  "order": 13,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-so",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "そ",
+  "meaning": "so",
+  "set": "hira",
+  "order": 14,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ta",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "た",
+  "meaning": "ta",
+  "set": "hira",
+  "order": 15,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-chi",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ち",
+  "meaning": "chi",
+  "set": "hira",
+  "order": 16,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-tsu",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "つ",
+  "meaning": "tsu",
+  "set": "hira",
+  "order": 17,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-te",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "て",
+  "meaning": "te",
+  "set": "hira",
+  "order": 18,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-to",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "と",
+  "meaning": "to",
+  "set": "hira",
+  "order": 19,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-na",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "な",
+  "meaning": "na",
+  "set": "hira",
+  "order": 20,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ni",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "に",
+  "meaning": "ni",
+  "set": "hira",
+  "order": 21,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-nu",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ぬ",
+  "meaning": "nu",
+  "set": "hira",
+  "order": 22,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ne",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ね",
+  "meaning": "ne",
+  "set": "hira",
+  "order": 23,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-no",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "の",
+  "meaning": "no",
+  "set": "hira",
+  "order": 24,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ha",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "は",
+  "meaning": "ha",
+  "set": "hira",
+  "order": 25,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-hi",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ひ",
+  "meaning": "hi",
+  "set": "hira",
+  "order": 26,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-fu",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ふ",
+  "meaning": "fu",
+  "set": "hira",
+  "order": 27,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-he",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "へ",
+  "meaning": "he",
+  "set": "hira",
+  "order": 28,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ho",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ほ",
+  "meaning": "ho",
+  "set": "hira",
+  "order": 29,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ma",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ま",
+  "meaning": "ma",
+  "set": "hira",
+  "order": 30,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-mi",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "み",
+  "meaning": "mi",
+  "set": "hira",
+  "order": 31,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-mu",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "む",
+  "meaning": "mu",
+  "set": "hira",
+  "order": 32,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-me",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "め",
+  "meaning": "me",
+  "set": "hira",
+  "order": 33,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-mo",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "も",
+  "meaning": "mo",
+  "set": "hira",
+  "order": 34,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ya",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "や",
+  "meaning": "ya",
+  "set": "hira",
+  "order": 35,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-yu",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ゆ",
+  "meaning": "yu",
+  "set": "hira",
+  "order": 36,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-yo",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "よ",
+  "meaning": "yo",
+  "set": "hira",
+  "order": 37,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ra",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ら",
+  "meaning": "ra",
+  "set": "hira",
+  "order": 38,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ri",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "り",
+  "meaning": "ri",
+  "set": "hira",
+  "order": 39,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ru",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "る",
+  "meaning": "ru",
+  "set": "hira",
+  "order": 40,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-re",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "れ",
+  "meaning": "re",
+  "set": "hira",
+  "order": 41,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-ro",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ろ",
+  "meaning": "ro",
+  "set": "hira",
+  "order": 42,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-wa",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "わ",
+  "meaning": "wa",
+  "set": "hira",
+  "order": 43,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-wo",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "を",
+  "meaning": "wo",
+  "set": "hira",
+  "order": 44,
+  "recogOnly": true
+ },
+ {
+  "id": "hira-n",
+  "kind": "kana",
+  "group": "hiragana",
+  "kana": "ん",
+  "meaning": "n",
+  "set": "hira",
+  "order": 45,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-a",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ア",
+  "meaning": "a",
+  "set": "kata",
+  "order": 46,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-i",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "イ",
+  "meaning": "i",
+  "set": "kata",
+  "order": 47,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-u",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ウ",
+  "meaning": "u",
+  "set": "kata",
+  "order": 48,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-e",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "エ",
+  "meaning": "e",
+  "set": "kata",
+  "order": 49,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-o",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "オ",
+  "meaning": "o",
+  "set": "kata",
+  "order": 50,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ka",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "カ",
+  "meaning": "ka",
+  "set": "kata",
+  "order": 51,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ki",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "キ",
+  "meaning": "ki",
+  "set": "kata",
+  "order": 52,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ku",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ク",
+  "meaning": "ku",
+  "set": "kata",
+  "order": 53,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ke",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ケ",
+  "meaning": "ke",
+  "set": "kata",
+  "order": 54,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ko",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "コ",
+  "meaning": "ko",
+  "set": "kata",
+  "order": 55,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-sa",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "サ",
+  "meaning": "sa",
+  "set": "kata",
+  "order": 56,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-shi",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "シ",
+  "meaning": "shi",
+  "set": "kata",
+  "order": 57,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-su",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ス",
+  "meaning": "su",
+  "set": "kata",
+  "order": 58,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-se",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "セ",
+  "meaning": "se",
+  "set": "kata",
+  "order": 59,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-so",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ソ",
+  "meaning": "so",
+  "set": "kata",
+  "order": 60,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ta",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "タ",
+  "meaning": "ta",
+  "set": "kata",
+  "order": 61,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-chi",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "チ",
+  "meaning": "chi",
+  "set": "kata",
+  "order": 62,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-tsu",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ツ",
+  "meaning": "tsu",
+  "set": "kata",
+  "order": 63,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-te",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "テ",
+  "meaning": "te",
+  "set": "kata",
+  "order": 64,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-to",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ト",
+  "meaning": "to",
+  "set": "kata",
+  "order": 65,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-na",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ナ",
+  "meaning": "na",
+  "set": "kata",
+  "order": 66,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ni",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ニ",
+  "meaning": "ni",
+  "set": "kata",
+  "order": 67,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-nu",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ヌ",
+  "meaning": "nu",
+  "set": "kata",
+  "order": 68,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ne",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ネ",
+  "meaning": "ne",
+  "set": "kata",
+  "order": 69,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-no",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ノ",
+  "meaning": "no",
+  "set": "kata",
+  "order": 70,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ha",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ハ",
+  "meaning": "ha",
+  "set": "kata",
+  "order": 71,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-hi",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ヒ",
+  "meaning": "hi",
+  "set": "kata",
+  "order": 72,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-fu",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "フ",
+  "meaning": "fu",
+  "set": "kata",
+  "order": 73,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-he",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ヘ",
+  "meaning": "he",
+  "set": "kata",
+  "order": 74,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ho",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ホ",
+  "meaning": "ho",
+  "set": "kata",
+  "order": 75,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ma",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "マ",
+  "meaning": "ma",
+  "set": "kata",
+  "order": 76,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-mi",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ミ",
+  "meaning": "mi",
+  "set": "kata",
+  "order": 77,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-mu",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ム",
+  "meaning": "mu",
+  "set": "kata",
+  "order": 78,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-me",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "メ",
+  "meaning": "me",
+  "set": "kata",
+  "order": 79,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-mo",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "モ",
+  "meaning": "mo",
+  "set": "kata",
+  "order": 80,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ya",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ヤ",
+  "meaning": "ya",
+  "set": "kata",
+  "order": 81,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-yu",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ユ",
+  "meaning": "yu",
+  "set": "kata",
+  "order": 82,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-yo",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ヨ",
+  "meaning": "yo",
+  "set": "kata",
+  "order": 83,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ra",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ラ",
+  "meaning": "ra",
+  "set": "kata",
+  "order": 84,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ri",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "リ",
+  "meaning": "ri",
+  "set": "kata",
+  "order": 85,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ru",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ル",
+  "meaning": "ru",
+  "set": "kata",
+  "order": 86,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-re",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "レ",
+  "meaning": "re",
+  "set": "kata",
+  "order": 87,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-ro",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ロ",
+  "meaning": "ro",
+  "set": "kata",
+  "order": 88,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-wa",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ワ",
+  "meaning": "wa",
+  "set": "kata",
+  "order": 89,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-wo",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ヲ",
+  "meaning": "wo",
+  "set": "kata",
+  "order": 90,
+  "recogOnly": true
+ },
+ {
+  "id": "kata-n",
+  "kind": "kana",
+  "group": "katakana",
+  "kana": "ン",
+  "meaning": "n",
+  "set": "kata",
+  "order": 91,
+  "recogOnly": true
+ }
+]

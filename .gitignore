@@ -4,6 +4,5 @@ node_modules/
 dist/
 .vercel
 .env*
-public/cards.json
-public/stages.json
+public/packages/
 public/sw.js
