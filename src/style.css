@@ -142,7 +142,7 @@ details.more[open] summary::before { content: "− "; }
 }
 
 /* word list */
-input, select { font: 15px var(--f-jp); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; width: 100%; min-width: 0; }
+input, select { box-sizing: border-box; font: 15px var(--f-jp); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; width: 100%; min-width: 0; }
 .list { display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: clip; }
 .item { border-top: 1px solid var(--line); border-left: 4px solid var(--kc, var(--line)); }
 .item:first-child, .group + .item { border-top: 0; }
