@@ -244,7 +244,7 @@
   "id": "f-nechau",
   "kind": "form",
   "kana": "ねちゃう",
-  "meaning": "(I) end up sleeping (casual)",
+  "meaning": "(I) end up sleeping",
   "base": "ねる",
   "form": "end up doing 〜ちゃう",
   "register": "casual",
@@ -397,7 +397,7 @@
   "base": "〜て",
   "form": "ongoing 〜てる",
   "register": "casual",
-  "meaning": "is doing · ている with い dropped",
+  "meaning": "is doing",
   "ref": "viridian/ViridianSchoolHouseCooltrainerFText",
   "example": "かかれてる",
   "exampleEn": "is written",
@@ -406,7 +406,7 @@
    1,
    1
   ],
-  "note": "Casual contraction of 〜ている."
+  "note": "Casual contraction of 〜ている: the い is dropped."
  },
  {
   "id": "f-teshimau",

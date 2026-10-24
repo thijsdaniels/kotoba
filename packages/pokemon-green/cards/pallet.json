@@ -785,7 +785,7 @@
   "vclass": "う-verb",
   "example": "えきで まっている",
   "exampleEn": "(I) am waiting at the station.",
-  "note": "まつ → まって (つ → って) + いる.",
+  "note": "まつ → まって (つ → って) + いる. With verbs of change (しる, わすれる, もつ, すむ, けっこんする) 〜ている is the state that resulted, not an action in progress: しっている is (I) know, わすれている is (I) have forgotten.",
   "chapter": "pallet"
  },
  {
@@ -853,7 +853,7 @@
   "id": "f-nonjau",
   "kind": "form",
   "kana": "のんじゃう",
-  "meaning": "(I) end up drinking (casual)",
+  "meaning": "(I) end up drinking",
   "base": "のむ",
   "form": "end up doing 〜じゃう",
   "register": "casual",
@@ -969,21 +969,21 @@
   "vclass": "irregular",
   "example": "なにを している？",
   "exampleEn": "What are (you) doing?",
-  "note": "する → して + いる.",
+  "note": "する → して + いる. With verbs of change (しる, わすれる, もつ, すむ, けっこんする) 〜ている is the state that resulted, not an action in progress: しっている is (I) know, わすれている is (I) have forgotten.",
   "chapter": "pallet"
  },
  {
   "id": "f-shiteru",
   "kind": "form",
   "kana": "してる",
-  "meaning": "(I) am doing (casual)",
+  "meaning": "(I) am doing",
   "base": "する",
   "form": "ongoing 〜てる",
   "register": "casual",
   "vclass": "",
   "example": "なに してる？",
   "exampleEn": "What (are you) doing?",
-  "note": "Casual speech drops the い of ている. Same for every verb: たべてる, まってる. Casual contraction of 〜ている.",
+  "note": "Casual speech drops the い of ている. Same for every verb: たべてる, まってる.",
   "chapter": "pallet"
  },
  {
@@ -1145,7 +1145,7 @@
   "vclass": "る-verb",
   "example": "いま たべている",
   "exampleEn": "Now (I) am eating.",
-  "note": "て-form + いる. Polite: たべています.",
+  "note": "て-form + いる. Polite: たべています. With verbs of change (しる, わすれる, もつ, すむ, けっこんする) 〜ている is the state that resulted, not an action in progress: しっている is (I) know, わすれている is (I) have forgotten.",
   "chapter": "pallet"
  },
  {
@@ -1396,7 +1396,7 @@
   "kana": "よんでた",
   "kanji": "",
   "romaji": "",
-  "meaning": "(she) was calling (casual)",
+  "meaning": "(she) was calling",
   "base": "よぶ",
   "form": "past ongoing 〜てた",
   "register": "casual",
@@ -1404,7 +1404,7 @@
   "ref": "pallet/RedsHouse1FMomText.WakeUpText",
   "example": "なにしてた？",
   "exampleEn": "What were (you) doing?",
-  "note": "よんでいた → よんでた. Past of 〜てる. Casual contraction of 〜ていた.",
+  "note": "よんでいた → よんでた: casual speech drops the い. The past of 〜てる, for what was going on at the time.",
   "surface": "よんでた",
   "units": [
    1,
@@ -5623,5 +5623,22 @@
    1,
    1
   ]
+ },
+ {
+  "id": "f-wasureteta",
+  "kind": "form",
+  "kana": "わすれてた",
+  "romaji": "wasureteta",
+  "base": "わすれる",
+  "form": "past ongoing 〜てた",
+  "register": "casual",
+  "meaning": "(I) had forgotten",
+  "ref": "pallet/OaksLabRivalWhatDidYouCallMeForText",
+  "units": [
+   0,
+   0
+  ],
+  "surface": "わすれてた",
+  "note": "わすれていた → わすれてた. Not わすれた, the moment of forgetting, but the state of having forgotten that lasted until now. With verbs of change (しる, わすれる, もつ, すむ, けっこんする) 〜ている is the state that resulted, not an action in progress: しっている is (I) know, わすれている is (I) have forgotten."
  }
 ]
