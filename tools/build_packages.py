@@ -6,15 +6,15 @@ A package is a directory with:
                      ending, kana), slots (placeholders in strings, with the label the app
                      shows), and settings (a schema the app renders; a text setting with a
                      slot fills that placeholder)
-  groups.json        the package's ordered groups; the position setting gates by them
-  strings/<group>.json   {"strings": [{label, text, sentences, speaker?, list?}]} — optional
-  translations/<group>.json   label → {who?, sentences: [{ja, en}]} — optional
-  cards/*.json       cards; a card either names a string (ref "group/label", units
+  chapters.json        the package's ordered chapters; the position setting gates by them
+  strings/<chapter>.json   {"strings": [{label, text, sentences, speaker?, list?}]} — optional
+  translations/<chapter>.json   label → {who?, sentences: [{ja, en}]} — optional
+  cards/*.json       cards; a card either names a string (ref "chapter/label", units
                      [first, last], surface occurring exactly once in those units) or
-                     carries its group explicitly and is an everyday example
+                     carries its chapter explicitly and is an everyday example
 
 Nothing is guessed: a card that does not validate fails the build. The output carries each
-card with its package, group, context (who said the line), the quoted sentence and its
+card with its package, chapter, context (who said the line), the quoted sentence and its
 translation, and ids namespaced as "<package>/<id>".
 """
 import json, os, sys
@@ -35,8 +35,8 @@ def build_package(directory, errors):
     manifest = load(os.path.join(directory, "package.json"))
     package_id = manifest["id"]
     if package_id != os.path.basename(directory): errors.append(f"{package_id}: directory is named {os.path.basename(directory)}")
-    groups = load(os.path.join(directory, "groups.json"))
-    group_ids = [group["id"] for group in groups]
+    chapters = load(os.path.join(directory, "chapters.json"))
+    chapter_ids = [chapter["id"] for chapter in chapters]
     kinds = CORE_KINDS | set(manifest.get("kinds", {}))
     for key, setting in manifest.get("settings", {}).items():
         if setting.get("type") not in SETTING_TYPES: errors.append(f"{package_id}: setting {key} has type {setting.get('type')}, not one of {sorted(SETTING_TYPES)}")
@@ -45,21 +45,21 @@ def build_package(directory, errors):
     strings_dir, translations_dir = os.path.join(directory, "strings"), os.path.join(directory, "translations")
     if os.path.isdir(strings_dir):
         for fn in os.listdir(strings_dir):
-            group = fn[:-5]
-            if group not in group_ids: errors.append(f"{package_id}: strings/{fn} is not a group"); continue
+            chapter = fn[:-5]
+            if chapter not in chapter_ids: errors.append(f"{package_id}: strings/{fn} is not a chapter"); continue
             for entry in load(os.path.join(strings_dir, fn))["strings"]:
-                strings[f"{group}/{entry['label']}"] = entry
+                strings[f"{chapter}/{entry['label']}"] = entry
             path = os.path.join(translations_dir, fn)
             if os.path.exists(path):
                 for label, translation in load(path).items():
-                    translations[f"{group}/{label}"] = translation
+                    translations[f"{chapter}/{label}"] = translation
 
     cards, ids = [], set()
 
     def attach(card):
         ref = card.get("ref")
         if not ref:
-            if card.get("group") not in group_ids: errors.append(f"{package_id}/{card['id']}: no ref and group {card.get('group')} is not a group"); return card
+            if card.get("chapter") not in chapter_ids: errors.append(f"{package_id}/{card['id']}: no ref and chapter {card.get('chapter')} is not a chapter"); return card
             return card
         entry, translation = strings.get(ref), translations.get(ref)
         if not entry: errors.append(f"{package_id}/{card['id']}: unknown ref {ref}"); return card
@@ -71,7 +71,7 @@ def build_package(directory, errors):
         first, last = units
         sentence = " ".join(entry["sentences"][first:last + 1])
         if not surface or sentence.count(surface) != 1: errors.append(f"{package_id}/{card['id']}: surface {surface!r} does not occur exactly once in {ref}#{first}-{last}: {sentence}"); return card
-        card["group"] = ref.split("/")[0]
+        card["chapter"] = ref.split("/")[0]
         context = entry.get("speaker") or translation.get("who")
         if context: card["context"] = context
         card["line"] = sentence
@@ -88,9 +88,9 @@ def build_package(directory, errors):
             card["package"] = package_id
             cards.append(card)
 
-    order = {group: index for index, group in enumerate(group_ids)}
-    cards.sort(key=lambda card: (order.get(card.get("group"), 99), card.get("kind", ""), card.get("order", 0), card["id"]))
-    return {**manifest, "groups": groups, "cards": cards}
+    order = {chapter: index for index, chapter in enumerate(chapter_ids)}
+    cards.sort(key=lambda card: (order.get(card.get("chapter"), 99), card.get("kind", ""), card.get("order", 0), card["id"]))
+    return {**manifest, "chapters": chapters, "cards": cards}
 
 
 def main():
@@ -105,7 +105,7 @@ def main():
     for package in built:
         with open(os.path.join(OUT, package["id"] + ".json"), "w", encoding="utf-8") as f:
             json.dump(package, f, ensure_ascii=False)
-        print(f"{package['id']:16} {len(package['cards']):4} cards in {len(package['groups'])} groups")
+        print(f"{package['id']:16} {len(package['cards']):4} cards in {len(package['chapters'])} chapters")
     with open(os.path.join(OUT, "index.json"), "w", encoding="utf-8") as f:
         json.dump([{"id": p["id"], "title": p["title"], "description": p.get("description", "")} for p in built], f, ensure_ascii=False)
 

@@ -9,9 +9,9 @@ ROMA = "a i u e o ka ki ku ke ko sa shi su se so ta chi tsu te to na ni nu ne no
 
 cards = []
 for index, ch in enumerate(HIRA):
-    cards.append({"id": f"hira-{ROMA[index]}", "kind": "kana", "group": "hiragana", "kana": ch, "meaning": ROMA[index], "set": "hira", "order": index, "recogOnly": True})
+    cards.append({"id": f"hira-{ROMA[index]}", "kind": "kana", "chapter": "hiragana", "kana": ch, "meaning": ROMA[index], "set": "hira", "order": index, "recogOnly": True})
 for index, ch in enumerate(KATA):
-    cards.append({"id": f"kata-{ROMA[index]}", "kind": "kana", "group": "katakana", "kana": ch, "meaning": ROMA[index], "set": "kata", "order": len(HIRA) + index, "recogOnly": True})
+    cards.append({"id": f"kata-{ROMA[index]}", "kind": "kana", "chapter": "katakana", "kana": ch, "meaning": ROMA[index], "set": "kata", "order": len(HIRA) + index, "recogOnly": True})
 with open(os.path.join(PACKAGE, "cards", "kana.json"), "w", encoding="utf-8") as f:
     json.dump(cards, f, ensure_ascii=False, indent=1)
 print(f"{len(cards)} kana cards")

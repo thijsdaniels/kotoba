@@ -25,17 +25,17 @@ A package is a directory under `packages/` with a fixed authoring format. How th
 
 ```
 package.json      id, title, description; optional kinds, slots and settings (below)
-groups.json       the package's ordered groups: stages, chapters, days
-strings/<group>.json        {"strings": [{label, text, sentences, speaker?, list?}]}
-translations/<group>.json   label → {who?, sentences: [{ja, en}]}, one English unit per Japanese unit
+chapters.json       the package's ordered chapters: stages, chapters, days
+strings/<chapter>.json        {"strings": [{label, text, sentences, speaker?, list?}]}
+translations/<chapter>.json   label → {who?, sentences: [{ja, en}]}, one English unit per Japanese unit
 cards/*.json      the cards
 ```
 
 - A string is cut into sentence units by `tools/sentences.py` (after ！？。 or at the end of a text box; menus are one unit per line). Translations are written against those units, one literal English unit per Japanese unit, so a card can quote exactly the sentence its word is in. Words Japanese leaves out but English needs are in parentheses, which the app renders lighter. `who` names the speaker in English when the string doesn't carry one.
-- A card that quotes a string carries `ref` (`"<group>/<label>"`), `units` (`[first, last]`, usually one sentence; a range when the source closes a box mid-sentence) and `surface` (the word as it appears there, which must occur exactly once in the quoted units). The build attaches the sentence, its translation and the speaker as `context`. A card without a ref is an everyday example and carries its `group` explicitly.
+- A card that quotes a string carries `ref` (`"<chapter>/<label>"`), `units` (`[first, last]`, usually one sentence; a range when the source closes a box mid-sentence) and `surface` (the word as it appears there, which must occur exactly once in the quoted units). The build attaches the sentence, its translation and the speaker as `context`. A card without a ref is an everyday example and carries its `chapter` explicitly.
 - Kinds: `word`, `form`, `ending` and `kana` are core kinds the app treats specially. A package declares any other kind it uses in its manifest, with a label and colors, and the app renders them like the core ones.
 - Slots: a string may contain placeholders such as `{player}`; the manifest's `slots` give the label the app shows for each, and a text setting with a `slot` fills that placeholder with its value.
-- Settings: the manifest declares what the package needs, as `{ key: { type: "text" | "number" | "choice", label, help?, default?, max?, min?, slot?, options? } }`, and the app renders it under Settings. Every package also gets a toggle and an "I'm At" position over its groups; a position that isn't set means the latest group, so everything is open.
+- Settings: the manifest declares what the package needs, as `{ key: { type: "text" | "number" | "choice", label, help?, default?, max?, min?, slot?, options? } }`, and the app renders it under Settings. Every package also gets a toggle and an "I'm At" position over its chapters; a position that isn't set means the latest chapter, so everything is open.
 - Card ids are namespaced as `<package>/<id>` in the built output; progress is keyed by that.
 
 ### Rebuilding the Pokémon package
@@ -50,11 +50,11 @@ python3 tools/check_translations.py
 python3 tools/build_packages.py
 ```
 
-Inside the package: `stages.json` (stages in play order with their map scripts, wild maps, trainers, items, marts and level cap), `engine.json` (where each engine string is first met: a stage, "system", or a move/effect/item trigger), `raw/` and `data/` (extracted from the disassembly), `coverage.json` (sources no stage claims yet). `build_corpus.py` writes `strings/` and `groups.json`, with the menus and messages that have no place in the game as the first group so they are always open. `generate_cards.py` writes `cards/generated.json`: a plain card for every Pokémon, move and mart item a stage introduces that no hand-written card covers. `tools/vocab_candidates.py <stage>` lists vocabulary in a stage's strings that no card covers yet, for curating. The generated files are committed so the app can be built without the disassembly.
+Inside the package: `stages.json` (stages in play order with their map scripts, wild maps, trainers, items, marts and level cap), `engine.json` (where each engine string is first met: a stage, "system", or a move/effect/item trigger), `raw/` and `data/` (extracted from the disassembly), `coverage.json` (sources no stage claims yet). `build_corpus.py` writes `strings/` and `chapters.json`, with the menus and messages that have no place in the game as the first chapter so they are always open. `generate_cards.py` writes `cards/generated.json`: a plain card for every Pokémon, move and mart item a stage introduces that no hand-written card covers. `tools/vocab_candidates.py <stage>` lists vocabulary in a stage's strings that no card covers yet, for curating. The generated files are committed so the app can be built without the disassembly.
 
 ## The app
 
-Vite, plain TypeScript, no framework. At start it loads `public/packages/index.json` and every package, merges the cards into one deck, and installs each package's kind colors as CSS variables. Review mixes every enabled package; Practice filters by group and kind; the Cards list is grouped by package and group.
+Vite, plain TypeScript, no framework. At start it loads `public/packages/index.json` and every package, merges the cards into one deck, and installs each package's kind colors as CSS variables. Review mixes every enabled package; Practice filters by chapter and kind; the Cards list is grouped by package and chapter.
 
 Progress and settings live in Vercel Blob through the functions in `api/`: one immutable JSON snapshot per write, newest found by listing, old ones pruned. The state carries a `format` number and `load()` upgrades older snapshots. Settings: `newPerDay`, `produce` (the kinds that also get a production side; kana never do), and `packages` (per package: `enabled`, `position`, `values` for the manifest's settings). Routes: `GET /api/state`, `POST /api/answer`, `POST /api/settings`, `POST /api/reset`. Every call needs the shared key in `x-kotoba-key`; the page stores it after opening `/?key=…` once, or from Settings.
 

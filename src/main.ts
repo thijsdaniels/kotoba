@@ -2,20 +2,20 @@ import "./style.css";
 import { api, readKey, writeKey, type PackageSettings, type SettingsPatch, type Side, type State } from "./api";
 import { currentRecall, dayOf, formatInterval, schedule, type Grade, type Schedule } from "./srs";
 
-/* A package is a built bundle of cards with its own groups, kinds, placeholders and settings (see tools/build_packages.py).
+/* A package is a built bundle of cards with its own chapters, kinds, placeholders and settings (see tools/build_packages.py).
    The core kinds are the ones the app treats specially; everything else is a plain kind the package declares. */
 interface Card {
-  id: string; package: string; kind: string; group: string; kana: string; meaning: string;
+  id: string; package: string; kind: string; chapter: string; kana: string; meaning: string;
   kanji?: string; romaji?: string; loose?: string; note?: string;
   base?: string; form?: string; register?: string; vclass?: string; recogOnly?: boolean;
   context?: string; line?: string; lineEn?: string; surface?: string;
   example?: string; exampleEn?: string; exampleLoose?: string; set?: "hira" | "kata"; order?: number;
 }
-interface Group { id: string; name: string }
+interface Chapter { id: string; name: string }
 interface KindSpec { label: string; color?: string; colorDark?: string }
 interface SettingSpec { type: "text" | "number" | "choice"; label: string; help?: string; default?: string | number; max?: number; min?: number; slot?: string; options?: [string, string][] }
 interface Package {
-  id: string; title: string; description?: string; groups: Group[]; cards: Card[];
+  id: string; title: string; description?: string; chapters: Chapter[]; cards: Card[];
   kinds?: Record<string, KindSpec>; slots?: Record<string, string>; settings?: Record<string, SettingSpec>;
 }
 interface QueueEntry { id: string; side: Side }
@@ -30,38 +30,38 @@ const escapeHtmlOnly = (text: unknown) => String(text ?? "").replace(/[&<>"]/g, 
 /* state */
 let packages = new Map<string, Package>();
 let cards = new Map<string, Card>();
-let state: State = { format: 2, version: 0, settings: { newPerDay: 12, produce: ["word"], packages: {} }, srs: {} };
+let state: State = { format: 2, version: 0, settings: { newPerDay: 20, produce: ["word"], packages: {} }, srs: {} };
 let loaded = false;
 let queue: QueueEntry[] = [];
 let current: QueueEntry | null = null;
 let revealed = false, drawn = false, busy = false, justDrawn = false, flipped = false;
 let openId: string | null = null;
 let view: "review" | "practice" | "cards" | "settings" = "review";
-// practice filters: the chosen groups (as "package/group") and kinds; an empty set means all of them
-let chosenGroups = new Set<string>();
+// practice filters: the chosen chapters (as "package/chapter") and kinds; an empty set means all of them
+let chosenChapters = new Set<string>();
 let chosenKinds = new Set<string>();
-let openFilter: "group" | "kind" | null = null;
-let openGroups = new Set<string>(); // groups unfolded in the card list; everything starts folded
+let openFilter: "chapter" | "kind" | null = null;
+let openChapters = new Set<string>(); // chapters unfolded in the card list; everything starts folded
 let kanaFont: "game" | "normal" = "game";
 try {
-  openGroups = new Set(JSON.parse(localStorage.getItem("kotoba-open-groups") ?? "[]") as string[]);
-  chosenGroups = new Set(JSON.parse(localStorage.getItem("kotoba-groups") ?? "[]") as string[]);
+  openChapters = new Set(JSON.parse(localStorage.getItem("kotoba-open-chapters") ?? "[]") as string[]);
+  chosenChapters = new Set(JSON.parse(localStorage.getItem("kotoba-chapters") ?? "[]") as string[]);
   chosenKinds = new Set(JSON.parse(localStorage.getItem("kotoba-kinds") ?? "[]") as string[]);
   kanaFont = (localStorage.getItem("kotoba-kfont") as "game" | "normal") ?? "game";
 } catch { /* private mode */ }
 let pendingWrite: Promise<unknown> = Promise.resolve();
 
-/* packages, groups and kinds */
+/* packages, chapters and kinds */
 const packageSettings = (id: string): PackageSettings => state.settings.packages[id] ?? {};
 const packageEnabled = (id: string) => packageSettings(id).enabled !== false;
 const packageOf = (card: Card) => packages.get(card.package);
-const groupKey = (card: Card) => `${card.package}/${card.group}`;
-const groupIndex = (pkg: Package, id: string | undefined) => { const index = pkg.groups.findIndex(group => group.id === id); return index < 0 ? Infinity : index; };
-// the position is the last open group; absent means the latest, so everything is open
-const positionIndex = (pkg: Package) => { const position = packageSettings(pkg.id).position; return position === undefined ? pkg.groups.length - 1 : groupIndex(pkg, position); };
-// a card whose group is not in its package's list stays locked until the package is fixed
-const unlocked = (card: Card) => { const pkg = packageOf(card); return !!pkg && packageEnabled(pkg.id) && groupIndex(pkg, card.group) <= positionIndex(pkg); };
-const groupName = (card: Card) => packageOf(card)?.groups.find(group => group.id === card.group)?.name ?? "No group";
+const chapterKey = (card: Card) => `${card.package}/${card.chapter}`;
+const chapterIndex = (pkg: Package, id: string | undefined) => { const index = pkg.chapters.findIndex(chapter => chapter.id === id); return index < 0 ? Infinity : index; };
+// the position is the last open chapter; absent means the latest, so everything is open
+const positionIndex = (pkg: Package) => { const position = packageSettings(pkg.id).position; return position === undefined ? pkg.chapters.length - 1 : chapterIndex(pkg, position); };
+// a card whose chapter is not in its package's list stays locked until the package is fixed
+const unlocked = (card: Card) => { const pkg = packageOf(card); return !!pkg && packageEnabled(pkg.id) && chapterIndex(pkg, card.chapter) <= positionIndex(pkg); };
+const chapterName = (card: Card) => packageOf(card)?.chapters.find(chapter => chapter.id === card.chapter)?.name ?? "No chapter";
 const kindSpec = (card: Card): KindSpec => CORE_KINDS[card.kind] ?? packageOf(card)?.kinds?.[card.kind] ?? { label: card.kind };
 const kindVar = (packageId: string, kind: string) => (CORE_KINDS[kind] ? `--k-${kind}` : `--k-${packageId}-${kind}`);
 const kindColor = (card: Card) => `--kc: var(${kindVar(card.package, card.kind)})`;
@@ -108,7 +108,7 @@ function mark(line: string | undefined, surface: string | undefined): string {
 }
 
 const practicing = () => view === "practice";
-const inPractice = (card: Card) => unlocked(card) && (!chosenKinds.size || chosenKinds.has(card.kind)) && (!chosenGroups.size || chosenGroups.has(groupKey(card)));
+const inPractice = (card: Card) => unlocked(card) && (!chosenKinds.size || chosenKinds.has(card.kind)) && (!chosenChapters.size || chosenChapters.has(chapterKey(card)));
 // every card is asked for recognition; production only for the kinds chosen in Settings, and never for kana
 const sidesOf = (card: Card): Side[] => (card.kind === "kana" || card.recogOnly || !state.settings.produce.includes(card.kind) ? ["r"] : ["r", "p"]);
 const scheduleOf = (card: Card, side: Side): Schedule | null => state.srs[card.id]?.[side] ?? null;
@@ -246,22 +246,22 @@ function listDetailHtml(card: Card) {
 }
 
 /* views */
-// the groups open for practice: each enabled package's groups up to its position, labeled with the package when more than one is in play
-function openGroupChoices(): [string, string][] {
+// the chapters open for practice: each enabled package's chapters up to its position, labeled with the package when more than one is in play
+function openChapterChoices(): [string, string][] {
   const enabled = [...packages.values()].filter(pkg => packageEnabled(pkg.id));
   const out: [string, string][] = [];
-  for (const pkg of enabled) for (const group of pkg.groups.slice(0, positionIndex(pkg) + 1)) out.push([`${pkg.id}/${group.id}`, enabled.length > 1 ? `${pkg.title} · ${group.name}` : group.name]);
+  for (const pkg of enabled) for (const chapter of pkg.chapters.slice(0, positionIndex(pkg) + 1)) out.push([`${pkg.id}/${chapter.id}`, enabled.length > 1 ? `${pkg.title} · ${chapter.name}` : chapter.name]);
   return out;
 }
 function renderFilter() {
-  const groupChoices = openGroupChoices();
-  for (const id of chosenGroups) if (!groupChoices.some(([choice]) => choice === id)) chosenGroups.delete(id); // a group locked again drops out of the filter
+  const chapterChoices = openChapterChoices();
+  for (const id of chosenChapters) if (!chapterChoices.some(([choice]) => choice === id)) chosenChapters.delete(id); // a chapter locked again drops out of the filter
   const kindChoices: [string, string][] = allKinds().map(([kind, spec]) => [kind, spec.label]);
   const summary = (name: string, chosen: Set<string>, choices: [string, string][]) =>
     `${name}: ${chosen.size ? choices.filter(([id]) => chosen.has(id)).map(([, label]) => label).join(", ") : "All"}`;
-  byId("filters").innerHTML = `<button data-open="group">${escapeHtml(summary("Groups", chosenGroups, groupChoices))}</button><button data-open="kind">${escapeHtml(summary("Kinds", chosenKinds, kindChoices))}</button>`;
+  byId("filters").innerHTML = `<button data-open="chapter">${escapeHtml(summary("Chapters", chosenChapters, chapterChoices))}</button><button data-open="kind">${escapeHtml(summary("Kinds", chosenKinds, kindChoices))}</button>`;
   if (openFilter) {
-    const [title, chosen, choices] = openFilter === "group" ? ["Groups", chosenGroups, groupChoices] as const : ["Kinds", chosenKinds, kindChoices] as const;
+    const [title, chosen, choices] = openFilter === "chapter" ? ["Chapters", chosenChapters, chapterChoices] as const : ["Kinds", chosenKinds, kindChoices] as const;
     const colorOf = new Map(allKinds().map(([kind, , variable]) => [kind, variable]));
     byId("filter-dialog-title").textContent = title;
     byId("filter-options").dataset.filter = openFilter;
@@ -312,18 +312,18 @@ function status(card: Card): [string, string] {
 function renderCards() {
   const query = (byId("search") as HTMLInputElement).value.trim().toLowerCase();
   const packageOrder = new Map([...packages.keys()].map((id, index) => [id, index]));
-  const order = (card: Card) => { const pkg = packageOf(card); return (packageOrder.get(card.package) ?? 99) * 1000 + (pkg ? groupIndex(pkg, card.group) : 999); };
+  const order = (card: Card) => { const pkg = packageOf(card); return (packageOrder.get(card.package) ?? 99) * 1000 + (pkg ? chapterIndex(pkg, card.chapter) : 999); };
   const items = [...cards.values()]
-    .filter(card => !query || [card.kana, card.kanji, card.romaji, card.meaning, card.base, card.form, card.context, groupName(card), kindSpec(card).label].some(field => String(field ?? "").toLowerCase().includes(query)))
+    .filter(card => !query || [card.kana, card.kanji, card.romaji, card.meaning, card.base, card.form, card.context, chapterName(card), kindSpec(card).label].some(field => String(field ?? "").toLowerCase().includes(query)))
     .sort((a, b) => order(a) - order(b) || a.kind.localeCompare(b.kind) || (a.order ?? 0) - (b.order ?? 0) || a.kana.localeCompare(b.kana, "ja"));
   const list = byId("list");
   if (!items.length) { list.innerHTML = `<div class="empty">No matches.</div>`; return; }
   const countBy = new Map<string, number>();
-  for (const card of items) countBy.set(groupKey(card), (countBy.get(groupKey(card)) ?? 0) + 1);
+  for (const card of items) countBy.set(chapterKey(card), (countBy.get(chapterKey(card)) ?? 0) + 1);
   list.innerHTML = items.map((card, index) => {
-    const key = groupKey(card), folded = !openGroups.has(key);
-    const heading = index === 0 || groupKey(items[index - 1]) !== key
-      ? `<button class="group" data-group="${escapeHtml(key)}" aria-expanded="${!folded}"><span>${escapeHtml(packages.size > 1 ? `${packageOf(card)?.title ?? card.package} · ${groupName(card)}` : groupName(card))}</span><span>${countBy.get(key)} cards${unlocked(card) ? "" : " · locked"}</span></button>` : "";
+    const key = chapterKey(card), folded = !openChapters.has(key);
+    const heading = index === 0 || chapterKey(items[index - 1]) !== key
+      ? `<button class="group" data-chapter="${escapeHtml(key)}" aria-expanded="${!folded}"><span>${escapeHtml(packages.size > 1 ? `${packageOf(card)?.title ?? card.package} · ${chapterName(card)}` : chapterName(card))}</span><span>${countBy.get(key)} cards${unlocked(card) ? "" : " · locked"}</span></button>` : "";
     if (folded) return heading;
     const [cls, label] = status(card), open = openId === card.id;
     const tag = `<span class="tag">${escapeHtml(kindSpec(card).label)}</span>`;
@@ -332,22 +332,22 @@ function renderCards() {
       ${open ? `<div class="detail">${listDetailHtml(card)}</div>` : ""}</div>`;
   }).join("");
   list.querySelectorAll<HTMLButtonElement>("[data-id]").forEach(button => button.onclick = () => { openId = openId === button.dataset.id ? null : button.dataset.id!; renderCards(); });
-  list.querySelectorAll<HTMLButtonElement>("[data-group]").forEach(button => button.onclick = () => {
-    const key = button.dataset.group!;
-    if (openGroups.has(key)) openGroups.delete(key); else openGroups.add(key);
-    try { localStorage.setItem("kotoba-open-groups", JSON.stringify([...openGroups])); } catch { /* private mode */ }
+  list.querySelectorAll<HTMLButtonElement>("[data-chapter]").forEach(button => button.onclick = () => {
+    const key = button.dataset.chapter!;
+    if (openChapters.has(key)) openChapters.delete(key); else openChapters.add(key);
+    try { localStorage.setItem("kotoba-open-chapters", JSON.stringify([...openChapters])); } catch { /* private mode */ }
     renderCards();
   });
 }
-// one block per package: on or off, the position in its groups, and whatever settings its manifest declares
+// one block per package: on or off, the position in its chapters, and whatever settings its manifest declares
 function packageSettingsHtml(pkg: Package) {
   const settings = packageSettings(pkg.id), enabled = packageEnabled(pkg.id);
   let open = 0, locked = 0;
   for (const card of pkg.cards) { if (unlocked(card)) open++; else locked++; }
-  const position = settings.position ?? pkg.groups[pkg.groups.length - 1]?.id;
+  const position = settings.position ?? pkg.chapters[pkg.chapters.length - 1]?.id;
   const fields = !enabled ? "" : `
-    <label class="field"><span class="label">I'm At</span><select data-package="${pkg.id}" data-position>${pkg.groups.map(group => `<option value="${escapeHtml(group.id)}"${group.id === position ? " selected" : ""}>${escapeHtml(group.name)}</option>`).join("")}</select>
-      <span class="help">Cards from later groups stay out of Review and Practice until you get there. ${open} unlocked${locked ? `, ${locked} waiting.` : "."}</span></label>
+    <label class="field"><span class="label">Chapter</span><select data-package="${pkg.id}" data-position>${pkg.chapters.map(chapter => `<option value="${escapeHtml(chapter.id)}"${chapter.id === position ? " selected" : ""}>${escapeHtml(chapter.name)}</option>`).join("")}</select>
+      <span class="help">Cards from later chapters stay out of Review and Practice until you move on. Set it one ahead of where you are to learn the words before you meet them. ${open} unlocked${locked ? `, ${locked} waiting.` : "."}</span></label>
     ${Object.entries(pkg.settings ?? {}).map(([key, spec]) => {
       const value = settings.values?.[key] ?? spec.default ?? "";
       const input = spec.type === "choice"
@@ -393,7 +393,7 @@ for (const name of ["review", "practice", "cards", "settings"] as const) byId("t
 byId("filters").onclick = event => {
   const head = (event.target as HTMLElement).closest<HTMLElement>("[data-open]");
   if (!head) return;
-  openFilter = head.dataset.open as "group" | "kind"; renderFilter();
+  openFilter = head.dataset.open as "chapter" | "kind"; renderFilter();
   (byId("filter-dialog") as HTMLDialogElement).showModal();
 };
 const filterDialog = byId("filter-dialog") as HTMLDialogElement;
@@ -403,9 +403,9 @@ byId("filter-done").onclick = () => filterDialog.close();
 byId("filter-options").onchange = event => {
   const box = event.target as HTMLInputElement;
   if (!box.dataset.choice) return;
-  const which = box.closest<HTMLElement>("[data-filter]")!.dataset.filter, chosen = which === "group" ? chosenGroups : chosenKinds;
+  const which = box.closest<HTMLElement>("[data-filter]")!.dataset.filter, chosen = which === "chapter" ? chosenChapters : chosenKinds;
   if (box.checked) chosen.add(box.dataset.choice); else chosen.delete(box.dataset.choice);
-  try { localStorage.setItem(which === "group" ? "kotoba-groups" : "kotoba-kinds", JSON.stringify([...chosen])); } catch { /* private mode */ }
+  try { localStorage.setItem(which === "chapter" ? "kotoba-chapters" : "kotoba-kinds", JSON.stringify([...chosen])); } catch { /* private mode */ }
   buildQueue(); render();
 };
 byId("search").oninput = renderCards;

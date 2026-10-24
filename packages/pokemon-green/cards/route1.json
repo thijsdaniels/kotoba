@@ -151,7 +151,7 @@
   "meaning": "Potion",
   "loose": "wound-medicine",
   "note": "くすり = medicine; a word you want at a pharmacy.",
-  "group": "route1"
+  "chapter": "route1"
  },
  {
   "id": "i-wazapoint",
@@ -190,7 +190,7 @@
   "meaning": "Gust",
   "loose": "wind-raising",
   "note": "かぜ = wind, おこす = to raise, wake up.",
-  "group": "route1"
+  "chapter": "route1"
  },
  {
   "id": "m-sunakake",
@@ -201,7 +201,7 @@
   "meaning": "Sand Attack",
   "loose": "sand-throwing",
   "note": "かける = to sprinkle, pour over.",
-  "group": "route1"
+  "chapter": "route1"
  },
  {
   "id": "m-yadorigi",
@@ -225,7 +225,7 @@
   "meaning": "Rattata",
   "loose": "こ small + ラッタ rat",
   "note": "Route 1.",
-  "group": "route1"
+  "chapter": "route1"
  },
  {
   "id": "p-poppo",
@@ -236,7 +236,7 @@
   "meaning": "Pidgey",
   "loose": "ぽっぽ, the cooing of a pigeon",
   "note": "Route 1.",
-  "group": "route1"
+  "chapter": "route1"
  },
  {
   "id": "dansa",

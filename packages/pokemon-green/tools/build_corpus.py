@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
-"""Assemble strings/<stage>.json and groups.json from the raw extraction, stages.json and engine.json.
+"""Assemble strings/<stage>.json and chapters.json from the raw extraction, stages.json and engine.json.
 
 Each stage file holds every game string first met at that stage (with source file,
 label and speaker), the Pokémon you can have or face there with the moves they can
 know, the moves and items that become relevant, and the stage's level cap.
 
 Engine strings are placed by engine.json: a fixed stage, "system" (menus and messages
-with no place in the game, written to strings/system.json and listed as the first group
+with no place in the game, written to strings/system.json and listed as the first chapter
 so it is always unlocked), "skip", "later", or a trigger that is resolved against the
 stages' move, effect and item pools. Strings whose trigger is not reached by any mapped
 stage are listed under "deferred" in coverage.json, along with raw sources no stage
 claims, so nothing stays untagged by accident.
 
-groups.json is the package's ordered list of groups: system first, then the stages.
+chapters.json is the package's ordered list of chapters: system first, then the stages.
 """
 import fnmatch, json, os, sys
 PACKAGE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -140,7 +140,7 @@ def main():
         print(f"{s['id']:16} {len(s['strings']):4} strings  {len(s['pokemon']):2} pokemon  {len(s['moves']):2} moves  {len(s['items']):2} items")
     dump(os.path.join("strings", "system.json"), system)
     print(f"{'system':16} {len(system['strings']):4} strings")
-    dump("groups.json", [{"id": "system", "name": "Menus and Messages"}] + [{"id": s["id"], "name": s["name"]} for s in stages])
+    dump("chapters.json", [{"id": "system", "name": "Menus and Messages"}] + [{"id": s["id"], "name": s["name"]} for s in stages])
     unclaimed = sorted(s for s in raw if s not in claimed)
     dump("coverage.json", {"claimed": sorted(claimed), "unclaimed": unclaimed, "deferred": deferred})
     print(f"{len(claimed)} sources claimed, {len(unclaimed)} not yet in any stage, {len(deferred)} engine strings deferred, {skipped} skipped")

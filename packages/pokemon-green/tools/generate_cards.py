@@ -26,22 +26,22 @@ def main():
         for card in load(os.path.join(PACKAGE, "cards", fn)):
             covered.add(re.sub(r"[〜～\s]", "", card["kana"]))
     cards = []
-    for group in load(os.path.join(PACKAGE, "groups.json")):
-        stage = load(os.path.join(PACKAGE, "strings", group["id"] + ".json"))
+    for chapter in load(os.path.join(PACKAGE, "chapters.json")):
+        stage = load(os.path.join(PACKAGE, "strings", chapter["id"] + ".json"))
         for p in stage.get("pokemon", []):
             if p["new"] and p["ja"] not in covered:
                 covered.add(p["ja"])
                 types = " / ".join(t.capitalize() for t in p["types"])
                 levels = f" Met at level {', '.join(map(str, p['levels']))}." if p["levels"] else ""
-                cards.append({"id": "p-" + p["const"].lower(), "kind": "pokemon", "group": group["id"], "kana": p["ja"], "meaning": english(p["const"]), "note": f"No. {p['dex']}, {types}.{levels}"})
+                cards.append({"id": "p-" + p["const"].lower(), "kind": "pokemon", "chapter": chapter["id"], "kana": p["ja"], "meaning": english(p["const"]), "note": f"No. {p['dex']}, {types}.{levels}"})
         for m in stage.get("moves", []):
             if m["ja"] not in covered:
                 covered.add(m["ja"])
-                cards.append({"id": "m-" + m["const"].lower(), "kind": "move", "group": group["id"], "kana": m["ja"], "meaning": english(m["const"]), "note": f"Known by {english(m['learnedBy'])}."})
+                cards.append({"id": "m-" + m["const"].lower(), "kind": "move", "chapter": chapter["id"], "kana": m["ja"], "meaning": english(m["const"]), "note": f"Known by {english(m['learnedBy'])}."})
         for i in stage.get("items", []):
             if i.get("ja") and i["ja"] not in covered:
                 covered.add(i["ja"])
-                cards.append({"id": "i-" + i["const"].lower(), "kind": "item", "group": group["id"], "kana": i["ja"], "meaning": english(i["const"])})
+                cards.append({"id": "i-" + i["const"].lower(), "kind": "item", "chapter": chapter["id"], "kana": i["ja"], "meaning": english(i["const"])})
     with open(os.path.join(PACKAGE, "cards", "generated.json"), "w", encoding="utf-8") as f:
         json.dump(cards, f, ensure_ascii=False, indent=1)
     print(f"{len(cards)} generated cards")

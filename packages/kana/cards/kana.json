@@ -2,7 +2,7 @@
  {
   "id": "hira-a",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "あ",
   "meaning": "a",
   "set": "hira",
@@ -12,7 +12,7 @@
  {
   "id": "hira-i",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "い",
   "meaning": "i",
   "set": "hira",
@@ -22,7 +22,7 @@
  {
   "id": "hira-u",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "う",
   "meaning": "u",
   "set": "hira",
@@ -32,7 +32,7 @@
  {
   "id": "hira-e",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "え",
   "meaning": "e",
   "set": "hira",
@@ -42,7 +42,7 @@
  {
   "id": "hira-o",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "お",
   "meaning": "o",
   "set": "hira",
@@ -52,7 +52,7 @@
  {
   "id": "hira-ka",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "か",
   "meaning": "ka",
   "set": "hira",
@@ -62,7 +62,7 @@
  {
   "id": "hira-ki",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "き",
   "meaning": "ki",
   "set": "hira",
@@ -72,7 +72,7 @@
  {
   "id": "hira-ku",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "く",
   "meaning": "ku",
   "set": "hira",
@@ -82,7 +82,7 @@
  {
   "id": "hira-ke",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "け",
   "meaning": "ke",
   "set": "hira",
@@ -92,7 +92,7 @@
  {
   "id": "hira-ko",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "こ",
   "meaning": "ko",
   "set": "hira",
@@ -102,7 +102,7 @@
  {
   "id": "hira-sa",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "さ",
   "meaning": "sa",
   "set": "hira",
@@ -112,7 +112,7 @@
  {
   "id": "hira-shi",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "し",
   "meaning": "shi",
   "set": "hira",
@@ -122,7 +122,7 @@
  {
   "id": "hira-su",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "す",
   "meaning": "su",
   "set": "hira",
@@ -132,7 +132,7 @@
  {
   "id": "hira-se",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "せ",
   "meaning": "se",
   "set": "hira",
@@ -142,7 +142,7 @@
  {
   "id": "hira-so",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "そ",
   "meaning": "so",
   "set": "hira",
@@ -152,7 +152,7 @@
  {
   "id": "hira-ta",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "た",
   "meaning": "ta",
   "set": "hira",
@@ -162,7 +162,7 @@
  {
   "id": "hira-chi",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ち",
   "meaning": "chi",
   "set": "hira",
@@ -172,7 +172,7 @@
  {
   "id": "hira-tsu",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "つ",
   "meaning": "tsu",
   "set": "hira",
@@ -182,7 +182,7 @@
  {
   "id": "hira-te",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "て",
   "meaning": "te",
   "set": "hira",
@@ -192,7 +192,7 @@
  {
   "id": "hira-to",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "と",
   "meaning": "to",
   "set": "hira",
@@ -202,7 +202,7 @@
  {
   "id": "hira-na",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "な",
   "meaning": "na",
   "set": "hira",
@@ -212,7 +212,7 @@
  {
   "id": "hira-ni",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "に",
   "meaning": "ni",
   "set": "hira",
@@ -222,7 +222,7 @@
  {
   "id": "hira-nu",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ぬ",
   "meaning": "nu",
   "set": "hira",
@@ -232,7 +232,7 @@
  {
   "id": "hira-ne",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ね",
   "meaning": "ne",
   "set": "hira",
@@ -242,7 +242,7 @@
  {
   "id": "hira-no",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "の",
   "meaning": "no",
   "set": "hira",
@@ -252,7 +252,7 @@
  {
   "id": "hira-ha",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "は",
   "meaning": "ha",
   "set": "hira",
@@ -262,7 +262,7 @@
  {
   "id": "hira-hi",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ひ",
   "meaning": "hi",
   "set": "hira",
@@ -272,7 +272,7 @@
  {
   "id": "hira-fu",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ふ",
   "meaning": "fu",
   "set": "hira",
@@ -282,7 +282,7 @@
  {
   "id": "hira-he",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "へ",
   "meaning": "he",
   "set": "hira",
@@ -292,7 +292,7 @@
  {
   "id": "hira-ho",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ほ",
   "meaning": "ho",
   "set": "hira",
@@ -302,7 +302,7 @@
  {
   "id": "hira-ma",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ま",
   "meaning": "ma",
   "set": "hira",
@@ -312,7 +312,7 @@
  {
   "id": "hira-mi",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "み",
   "meaning": "mi",
   "set": "hira",
@@ -322,7 +322,7 @@
  {
   "id": "hira-mu",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "む",
   "meaning": "mu",
   "set": "hira",
@@ -332,7 +332,7 @@
  {
   "id": "hira-me",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "め",
   "meaning": "me",
   "set": "hira",
@@ -342,7 +342,7 @@
  {
   "id": "hira-mo",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "も",
   "meaning": "mo",
   "set": "hira",
@@ -352,7 +352,7 @@
  {
   "id": "hira-ya",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "や",
   "meaning": "ya",
   "set": "hira",
@@ -362,7 +362,7 @@
  {
   "id": "hira-yu",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ゆ",
   "meaning": "yu",
   "set": "hira",
@@ -372,7 +372,7 @@
  {
   "id": "hira-yo",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "よ",
   "meaning": "yo",
   "set": "hira",
@@ -382,7 +382,7 @@
  {
   "id": "hira-ra",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ら",
   "meaning": "ra",
   "set": "hira",
@@ -392,7 +392,7 @@
  {
   "id": "hira-ri",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "り",
   "meaning": "ri",
   "set": "hira",
@@ -402,7 +402,7 @@
  {
   "id": "hira-ru",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "る",
   "meaning": "ru",
   "set": "hira",
@@ -412,7 +412,7 @@
  {
   "id": "hira-re",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "れ",
   "meaning": "re",
   "set": "hira",
@@ -422,7 +422,7 @@
  {
   "id": "hira-ro",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ろ",
   "meaning": "ro",
   "set": "hira",
@@ -432,7 +432,7 @@
  {
   "id": "hira-wa",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "わ",
   "meaning": "wa",
   "set": "hira",
@@ -442,7 +442,7 @@
  {
   "id": "hira-wo",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "を",
   "meaning": "wo",
   "set": "hira",
@@ -452,7 +452,7 @@
  {
   "id": "hira-n",
   "kind": "kana",
-  "group": "hiragana",
+  "chapter": "hiragana",
   "kana": "ん",
   "meaning": "n",
   "set": "hira",
@@ -462,7 +462,7 @@
  {
   "id": "kata-a",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ア",
   "meaning": "a",
   "set": "kata",
@@ -472,7 +472,7 @@
  {
   "id": "kata-i",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "イ",
   "meaning": "i",
   "set": "kata",
@@ -482,7 +482,7 @@
  {
   "id": "kata-u",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ウ",
   "meaning": "u",
   "set": "kata",
@@ -492,7 +492,7 @@
  {
   "id": "kata-e",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "エ",
   "meaning": "e",
   "set": "kata",
@@ -502,7 +502,7 @@
  {
   "id": "kata-o",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "オ",
   "meaning": "o",
   "set": "kata",
@@ -512,7 +512,7 @@
  {
   "id": "kata-ka",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "カ",
   "meaning": "ka",
   "set": "kata",
@@ -522,7 +522,7 @@
  {
   "id": "kata-ki",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "キ",
   "meaning": "ki",
   "set": "kata",
@@ -532,7 +532,7 @@
  {
   "id": "kata-ku",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ク",
   "meaning": "ku",
   "set": "kata",
@@ -542,7 +542,7 @@
  {
   "id": "kata-ke",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ケ",
   "meaning": "ke",
   "set": "kata",
@@ -552,7 +552,7 @@
  {
   "id": "kata-ko",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "コ",
   "meaning": "ko",
   "set": "kata",
@@ -562,7 +562,7 @@
  {
   "id": "kata-sa",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "サ",
   "meaning": "sa",
   "set": "kata",
@@ -572,7 +572,7 @@
  {
   "id": "kata-shi",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "シ",
   "meaning": "shi",
   "set": "kata",
@@ -582,7 +582,7 @@
  {
   "id": "kata-su",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ス",
   "meaning": "su",
   "set": "kata",
@@ -592,7 +592,7 @@
  {
   "id": "kata-se",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "セ",
   "meaning": "se",
   "set": "kata",
@@ -602,7 +602,7 @@
  {
   "id": "kata-so",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ソ",
   "meaning": "so",
   "set": "kata",
@@ -612,7 +612,7 @@
  {
   "id": "kata-ta",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "タ",
   "meaning": "ta",
   "set": "kata",
@@ -622,7 +622,7 @@
  {
   "id": "kata-chi",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "チ",
   "meaning": "chi",
   "set": "kata",
@@ -632,7 +632,7 @@
  {
   "id": "kata-tsu",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ツ",
   "meaning": "tsu",
   "set": "kata",
@@ -642,7 +642,7 @@
  {
   "id": "kata-te",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "テ",
   "meaning": "te",
   "set": "kata",
@@ -652,7 +652,7 @@
  {
   "id": "kata-to",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ト",
   "meaning": "to",
   "set": "kata",
@@ -662,7 +662,7 @@
  {
   "id": "kata-na",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ナ",
   "meaning": "na",
   "set": "kata",
@@ -672,7 +672,7 @@
  {
   "id": "kata-ni",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ニ",
   "meaning": "ni",
   "set": "kata",
@@ -682,7 +682,7 @@
  {
   "id": "kata-nu",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ヌ",
   "meaning": "nu",
   "set": "kata",
@@ -692,7 +692,7 @@
  {
   "id": "kata-ne",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ネ",
   "meaning": "ne",
   "set": "kata",
@@ -702,7 +702,7 @@
  {
   "id": "kata-no",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ノ",
   "meaning": "no",
   "set": "kata",
@@ -712,7 +712,7 @@
  {
   "id": "kata-ha",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ハ",
   "meaning": "ha",
   "set": "kata",
@@ -722,7 +722,7 @@
  {
   "id": "kata-hi",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ヒ",
   "meaning": "hi",
   "set": "kata",
@@ -732,7 +732,7 @@
  {
   "id": "kata-fu",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "フ",
   "meaning": "fu",
   "set": "kata",
@@ -742,7 +742,7 @@
  {
   "id": "kata-he",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ヘ",
   "meaning": "he",
   "set": "kata",
@@ -752,7 +752,7 @@
  {
   "id": "kata-ho",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ホ",
   "meaning": "ho",
   "set": "kata",
@@ -762,7 +762,7 @@
  {
   "id": "kata-ma",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "マ",
   "meaning": "ma",
   "set": "kata",
@@ -772,7 +772,7 @@
  {
   "id": "kata-mi",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ミ",
   "meaning": "mi",
   "set": "kata",
@@ -782,7 +782,7 @@
  {
   "id": "kata-mu",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ム",
   "meaning": "mu",
   "set": "kata",
@@ -792,7 +792,7 @@
  {
   "id": "kata-me",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "メ",
   "meaning": "me",
   "set": "kata",
@@ -802,7 +802,7 @@
  {
   "id": "kata-mo",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "モ",
   "meaning": "mo",
   "set": "kata",
@@ -812,7 +812,7 @@
  {
   "id": "kata-ya",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ヤ",
   "meaning": "ya",
   "set": "kata",
@@ -822,7 +822,7 @@
  {
   "id": "kata-yu",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ユ",
   "meaning": "yu",
   "set": "kata",
@@ -832,7 +832,7 @@
  {
   "id": "kata-yo",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ヨ",
   "meaning": "yo",
   "set": "kata",
@@ -842,7 +842,7 @@
  {
   "id": "kata-ra",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ラ",
   "meaning": "ra",
   "set": "kata",
@@ -852,7 +852,7 @@
  {
   "id": "kata-ri",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "リ",
   "meaning": "ri",
   "set": "kata",
@@ -862,7 +862,7 @@
  {
   "id": "kata-ru",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ル",
   "meaning": "ru",
   "set": "kata",
@@ -872,7 +872,7 @@
  {
   "id": "kata-re",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "レ",
   "meaning": "re",
   "set": "kata",
@@ -882,7 +882,7 @@
  {
   "id": "kata-ro",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ロ",
   "meaning": "ro",
   "set": "kata",
@@ -892,7 +892,7 @@
  {
   "id": "kata-wa",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ワ",
   "meaning": "wa",
   "set": "kata",
@@ -902,7 +902,7 @@
  {
   "id": "kata-wo",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ヲ",
   "meaning": "wo",
   "set": "kata",
@@ -912,7 +912,7 @@
  {
   "id": "kata-n",
   "kind": "kana",
-  "group": "katakana",
+  "chapter": "katakana",
   "kana": "ン",
   "meaning": "n",
   "set": "kata",

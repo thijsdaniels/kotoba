@@ -9,7 +9,7 @@ import { list, put, del } from "@vercel/blob";
 export type Side = "r" | "p";
 export type Schedule = Record<string, unknown>;
 export type CardState = Partial<Record<Side, Schedule>>;
-// Per package: whether it is in play, the position in its groups (absent means the latest,
+// Per package: whether it is in play, the position in its chapters (absent means the latest,
 // so everything is open), and the values of the settings its manifest declares.
 export interface PackageSettings { enabled?: boolean; position?: string; values?: Record<string, string | number> }
 export interface Settings { newPerDay: number; produce: string[]; packages: Record<string, PackageSettings> }
@@ -23,7 +23,7 @@ export interface State {
 const PREFIX = "kotoba/state/";
 const KEEP = 5;
 const FORMAT = 2;
-const DEFAULTS: State = { format: FORMAT, version: 0, settings: { newPerDay: 12, produce: ["word"], packages: {} }, srs: {} };
+const DEFAULTS: State = { format: FORMAT, version: 0, settings: { newPerDay: 20, produce: ["word"], packages: {} }, srs: {} };
 
 // Format 1 had one implicit package: the stage, the player and rival names and the card ids
 // all belonged to Pokémon Green, and the kana cards were mixed in with ids k-hira-*, k-kata-*.

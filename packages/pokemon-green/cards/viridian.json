@@ -216,7 +216,7 @@
   "form": "invitation 〜ませんか",
   "register": "polite",
   "meaning": "won't you · an invitation",
-  "group": "viridian"
+  "chapter": "viridian"
  },
  {
   "id": "f-nakunaru",
@@ -543,7 +543,7 @@
   "meaning": "Oak's Parcel",
   "loose": "a delivery, a thing to be delivered",
   "note": "とどける = to deliver. おとどけもの is what the delivery person says at your door.",
-  "group": "viridian"
+  "chapter": "viridian"
  },
  {
   "id": "i-pokemoncenter",

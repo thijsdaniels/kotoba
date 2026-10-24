@@ -672,7 +672,7 @@
   "example": "そろそろ いきましょうか",
   "exampleEn": "Soon, shall (we) go?",
   "note": "ます-stem + ましょう. Add か to offer: いきましょうか, shall we go?",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-ikinasai",
@@ -685,7 +685,7 @@
   "vclass": "う-verb",
   "example": "がっこうに いきなさい",
   "exampleEn": "Go to school!",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-ikou",
@@ -786,7 +786,7 @@
   "example": "えきで まっている",
   "exampleEn": "(I) am waiting at the station.",
   "note": "まつ → まって (つ → って) + いる.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-mayotteshimau",
@@ -799,7 +799,7 @@
   "vclass": "う-verb",
   "example": "みちに まよってしまった",
   "exampleEn": "(I) ended up losing (my) way on the road.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-nakatta",
@@ -847,7 +847,7 @@
   "example": "はやく ねなさい",
   "exampleEn": "Sleep quickly!",
   "note": "ます-stem + なさい. Not for adults.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-nonjau",
@@ -861,7 +861,7 @@
   "example": "ぜんぶ のんじゃった",
   "exampleEn": "(I) ended up drinking all (of it).",
   "note": "After a で te-form (のんで, よんで): でしまう → じゃう. Casual contraction of 〜でしまう.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-rareru",
@@ -911,7 +911,7 @@
   "example": "なまえを よばれた",
   "exampleEn": "(My) name was called.",
   "note": "する → される, くる → こられる.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-saseru",
@@ -927,7 +927,7 @@
   "example": "させて ください",
   "exampleEn": "Please let (me) do (it).",
   "note": "する → させる, くる → こさせる.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-shimashou",
@@ -940,7 +940,7 @@
   "vclass": "irregular",
   "example": "そう しましょう",
   "exampleEn": "Let's do so.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-shiro",
@@ -956,7 +956,7 @@
   "example": "がんばれ！ … しっかり しろ！",
   "exampleEn": "Do your best! … Get it together!",
   "note": "する → しろ, くる → こい.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-shiteiru",
@@ -970,7 +970,7 @@
   "example": "なにを している？",
   "exampleEn": "What are (you) doing?",
   "note": "する → して + いる.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-shiteru",
@@ -984,7 +984,7 @@
   "example": "なに してる？",
   "exampleEn": "What (are you) doing?",
   "note": "Casual speech drops the い of ている. Same for every verb: たべてる, まってる. Casual contraction of 〜ている.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-shiteshimau",
@@ -997,7 +997,7 @@
   "vclass": "irregular",
   "example": "また してしまった",
   "exampleEn": "(I) ended up doing (it) again.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-shiyou",
@@ -1011,7 +1011,7 @@
   "example": "なにを しよう？",
   "exampleEn": "What shall (I) do?",
   "note": "する → しよう, くる → こよう.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-sureba",
@@ -1026,7 +1026,7 @@
   "exampleEn": "If (I) do how, (is it) good?",
   "exampleLoose": "What should I do?",
   "note": "する → すれば, くる → くれば.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-ta",
@@ -1056,7 +1056,7 @@
   "vclass": "る-verb",
   "example": "いっしょに たべましょう",
   "exampleEn": "Let's eat together.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-taberareru",
@@ -1070,7 +1070,7 @@
   "example": "なっとうが たべられる",
   "exampleEn": "(I) can eat natto.",
   "note": "る-verbs: る → られる.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-taberareru-p",
@@ -1086,7 +1086,7 @@
   "example": "さかなは ねこに たべられた",
   "exampleEn": "The fish was eaten by the cat.",
   "note": "る-verbs: る → られる. Same shape as the potential form; context decides.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-tabereba",
@@ -1100,7 +1100,7 @@
   "example": "たべれば わかる",
   "exampleEn": "If (you) eat (it), (you) understand.",
   "note": "る-verbs: る → れば.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-tabero",
@@ -1116,7 +1116,7 @@
   "example": "はやく たべろ",
   "exampleEn": "Eat quickly!",
   "note": "る-verbs: る → ろ.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-tabesaseru",
@@ -1132,7 +1132,7 @@
   "example": "こどもに やさいを たべさせる",
   "exampleEn": "(I) make the child eat vegetables.",
   "note": "る-verbs: る → させる.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-tabeteiru",
@@ -1146,7 +1146,7 @@
   "example": "いま たべている",
   "exampleEn": "Now (I) am eating.",
   "note": "て-form + いる. Polite: たべています.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-tabeyou",
@@ -1160,7 +1160,7 @@
   "example": "いっしょに たべよう",
   "exampleEn": "Let's eat together.",
   "note": "る-verbs: る → よう.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-tai",
@@ -1371,7 +1371,7 @@
   "example": "さいふを わすれてしまった",
   "exampleEn": "(I) ended up forgetting (my) wallet.",
   "note": "て-form + しまう: done completely, often with regret. Polite past: わすれてしまいました.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "f-yasui",
@@ -1560,7 +1560,7 @@
   "meaning": "Scratch",
   "loose": "to scratch with claws",
   "note": "A normal verb: ねこに ひっかかれた = (I) was scratched by the cat.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "m-nakigoe",
@@ -1571,7 +1571,7 @@
   "meaning": "Growl",
   "loose": "crying voice, an animal's call",
   "note": "なく = to cry/sing (animal) + こえ = voice.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "m-shippowofuru",
@@ -1582,7 +1582,7 @@
   "meaning": "Tail Whip",
   "loose": "to wag the tail",
   "note": "ふる = to wave, shake.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "m-taiatari",
@@ -1593,7 +1593,7 @@
   "meaning": "Tackle",
   "loose": "body-hit",
   "note": "Also used for a real shoulder-charge.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "p-fushigidane",
@@ -1604,7 +1604,7 @@
   "meaning": "Bulbasaur",
   "loose": "ふしぎ mysterious + たね seed",
   "note": "The plant starter.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "p-hitokage",
@@ -1615,7 +1615,7 @@
   "meaning": "Charmander",
   "loose": "ひ fire + とかげ lizard",
   "note": "The flame starter.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "p-zenigame",
@@ -1626,7 +1626,7 @@
   "meaning": "Squirtle",
   "loose": "ぜに coin + かめ turtle",
   "note": "The water starter. ぜにがめ is also the real name of a baby pond turtle.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "aa",
@@ -1775,7 +1775,7 @@
   "example": "じかんが ある",
   "exampleEn": "There is time.",
   "note": "For people and animals: いる.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "aruku",
@@ -2110,7 +2110,7 @@
   "example": "だれでも できます",
   "exampleEn": "Anyone can do (it).",
   "note": "だれ (who) + でも (even).",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "deban",
@@ -2195,7 +2195,7 @@
   "example": "どこでも いけます",
   "exampleEn": "(I) can go anywhere.",
   "note": "どこ (where) + でも (even).",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "dono",
@@ -2471,7 +2471,7 @@
   "meaning": "to speak, to talk",
   "example": "にほんごを はなす",
   "exampleEn": "(I) speak Japanese.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "hatasu",
@@ -2839,7 +2839,7 @@
   "meaning": "(I) go and come (back)",
   "loose": "I'm off!",
   "note": "Said when leaving home. The reply is いってらっしゃい.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "jidouteki",
@@ -3034,7 +3034,7 @@
   "meaning": "to buy",
   "example": "みずを かう",
   "exampleEn": "(I) buy water.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "kawarini",
@@ -3321,7 +3321,7 @@
   "meaning": "to come",
   "example": "あした くる",
   "exampleEn": "(I) come tomorrow.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "kusamura",
@@ -3332,7 +3332,7 @@
   "meaning": "tall grass, a grassy patch",
   "example": "くさむらに はいる",
   "exampleEn": "(I) enter the tall grass.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "kuwashii",
@@ -3470,7 +3470,7 @@
   "meaning": "to wait",
   "example": "ここで まつ",
   "exampleEn": "(I) wait here.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "mattaku",
@@ -3496,7 +3496,7 @@
   "example": "みちに まよう",
   "exampleEn": "(I) lose (my) way on the road.",
   "exampleLoose": "to get lost",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "meirei",
@@ -3792,7 +3792,7 @@
   "exampleEn": "A familiar shop.",
   "exampleLoose": "My regular place.",
   "note": "なじみの店 = the shop or bar where they know you. 顔なじみ = a familiar face.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "naka",
@@ -3819,7 +3819,7 @@
   "exampleEn": "Anything is good.",
   "exampleLoose": "Anything is fine.",
   "note": "なに (what) + でも (even).",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "nani",
@@ -3899,7 +3899,7 @@
   "meaning": "to sleep, to go to bed",
   "example": "はやく ねる",
   "exampleEn": "(I) sleep early.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "nigate",
@@ -3993,7 +3993,7 @@
   "meaning": "to drink",
   "example": "おちゃを のむ",
   "exampleEn": "(I) drink tea.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "oiboreru",
@@ -4851,7 +4851,7 @@
   "meaning": "to eat",
   "example": "ごはんを たべる",
   "exampleEn": "(I) eat a meal.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "tabi",
@@ -5176,7 +5176,7 @@
   "example": "えきの となり",
   "exampleEn": "Next to the station.",
   "note": "As in となりのトトロ.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "torikaeru",
@@ -5429,7 +5429,7 @@
   "meaning": "to forget",
   "example": "さいふを わすれる",
   "exampleEn": "(I) forget (my) wallet.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "watasu",
@@ -5499,7 +5499,7 @@
   "example": "やさいが すき",
   "exampleEn": "(I) like vegetables.",
   "note": "Shares 野 (field) with やせい.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "yasei",
@@ -5511,7 +5511,7 @@
   "example": "やせいの ポケモン",
   "exampleEn": "A wild Pokémon.",
   "note": "Shares 野 (field) with やさい.",
-  "group": "pallet"
+  "chapter": "pallet"
  },
  {
   "id": "yasumu",
