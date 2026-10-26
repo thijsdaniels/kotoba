@@ -1,0 +1,139 @@
+{
+ "oyaki-labels": {
+  "who": "Oyaki packets, Matsumoto Station",
+  "sentences": [
+   {
+    "ja": "かぼちゃ",
+    "en": "Pumpkin"
+   },
+   {
+    "ja": "あずき",
+    "en": "Red bean"
+   },
+   {
+    "ja": "野沢菜",
+    "en": "Nozawana greens"
+   },
+   {
+    "ja": "大根",
+    "en": "Daikon"
+   },
+   {
+    "ja": "きんぴら",
+    "en": "Kinpira"
+   },
+   {
+    "ja": "しめじ野菜",
+    "en": "Shimeji mushroom vegetables"
+   }
+  ]
+ },
+ "frozen-food": {
+  "who": "Oyaki packets, Matsumoto Station",
+  "sentences": [
+   {
+    "ja": "冷凍食品",
+    "en": "Frozen food"
+   }
+  ]
+ },
+ "bear-sign": {
+  "who": "Sign by a footbridge, Narai",
+  "sentences": [
+   {
+    "ja": "熊出没注意",
+    "en": "Bear appearing, caution"
+   }
+  ]
+ },
+ "checkin-later": {
+  "who": "Me, to the inn in Narai",
+  "sentences": [
+   {
+    "ja": "チェックインは後でします。",
+    "en": "As for check-in, (I) do (it) later."
+   }
+  ]
+ },
+ "was-a-school": {
+  "who": "Me, to the inn in Narai",
+  "sentences": [
+   {
+    "ja": "ここは昔、学校だったんですか？",
+    "en": "As for here, long ago, (is it that it) was a school?"
+   }
+  ]
+ },
+ "amazing": {
+  "who": "Me, to the inn in Narai",
+  "sentences": [
+   {
+    "ja": "すごいですね！",
+    "en": "(It) is amazing, isn't it!"
+   }
+  ]
+ },
+ "run-guess": {
+  "who": "Me, my first guess",
+  "sentences": [
+   {
+    "ja": "はい、逃げるよ！",
+    "en": "Yes, (I) run away, you know!"
+   }
+  ]
+ },
+ "run-polite": {
+  "who": "Me",
+  "sentences": [
+   {
+    "ja": "はい、走ります！",
+    "en": "Yes, (I) run!"
+   }
+  ]
+ },
+ "run-casual": {
+  "who": "Me",
+  "sentences": [
+   {
+    "ja": "うん、走るよ！",
+    "en": "Yeah, (I) run, you know!"
+   }
+  ]
+ },
+ "walk-to-magome": {
+  "who": "Me, about tomorrow",
+  "sentences": [
+   {
+    "ja": "馬籠まで歩いて行きます。",
+    "en": "As far as Magome, (I) go walking."
+   }
+  ]
+ },
+ "dango-simple": {
+  "who": "Me, at the dango stall in Narai",
+  "sentences": [
+   {
+    "ja": "全部、二つずつください。",
+    "en": "All, two each, please."
+   }
+  ]
+ },
+ "dango-counted": {
+  "who": "Me, at the dango stall in Narai",
+  "sentences": [
+   {
+    "ja": "笹団子を二個、みたらし、醤油、よもぎを二本ずつください。",
+    "en": "Sasa dango, two pieces, (and) mitarashi, soy sauce, mugwort, two sticks each, please."
+   }
+  ]
+ },
+ "your-french": {
+  "who": "Me, to the cook at La Terra",
+  "sentences": [
+   {
+    "ja": "あなたのフランス語は上手ですよ。",
+    "en": "As for your French, (it) is skillful, you know."
+   }
+  ]
+ }
+}

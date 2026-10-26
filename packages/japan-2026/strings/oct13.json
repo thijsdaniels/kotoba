@@ -1,0 +1,101 @@
+{
+ "strings": [
+  {
+   "label": "oyaki-labels",
+   "text": "かぼちゃ\nあずき\n野沢菜\n大根\nきんぴら\nしめじ野菜",
+   "sentences": [
+    "かぼちゃ",
+    "あずき",
+    "野沢菜",
+    "大根",
+    "きんぴら",
+    "しめじ野菜"
+   ],
+   "list": true
+  },
+  {
+   "label": "frozen-food",
+   "text": "冷凍食品",
+   "sentences": [
+    "冷凍食品"
+   ]
+  },
+  {
+   "label": "bear-sign",
+   "text": "熊出没注意",
+   "sentences": [
+    "熊出没注意"
+   ]
+  },
+  {
+   "label": "checkin-later",
+   "text": "チェックインは後でします。",
+   "sentences": [
+    "チェックインは後でします。"
+   ]
+  },
+  {
+   "label": "was-a-school",
+   "text": "ここは昔、学校だったんですか？",
+   "sentences": [
+    "ここは昔、学校だったんですか？"
+   ]
+  },
+  {
+   "label": "amazing",
+   "text": "すごいですね！",
+   "sentences": [
+    "すごいですね！"
+   ]
+  },
+  {
+   "label": "run-guess",
+   "text": "はい、逃げるよ！",
+   "sentences": [
+    "はい、逃げるよ！"
+   ]
+  },
+  {
+   "label": "run-polite",
+   "text": "はい、走ります！",
+   "sentences": [
+    "はい、走ります！"
+   ]
+  },
+  {
+   "label": "run-casual",
+   "text": "うん、走るよ！",
+   "sentences": [
+    "うん、走るよ！"
+   ]
+  },
+  {
+   "label": "walk-to-magome",
+   "text": "馬籠まで歩いて行きます。",
+   "sentences": [
+    "馬籠まで歩いて行きます。"
+   ]
+  },
+  {
+   "label": "dango-simple",
+   "text": "全部、二つずつください。",
+   "sentences": [
+    "全部、二つずつください。"
+   ]
+  },
+  {
+   "label": "dango-counted",
+   "text": "笹団子を二個、みたらし、醤油、よもぎを二本ずつください。",
+   "sentences": [
+    "笹団子を二個、みたらし、醤油、よもぎを二本ずつください。"
+   ]
+  },
+  {
+   "label": "your-french",
+   "text": "あなたのフランス語は上手ですよ。",
+   "sentences": [
+    "あなたのフランス語は上手ですよ。"
+   ]
+  }
+ ]
+}
