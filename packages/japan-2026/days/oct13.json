@@ -1,71 +1,384 @@
 {
- "chapter": {"id": "oct13", "name": "Oct 13 · Into the Kiso Valley"},
+ "chapter": {
+  "id": "oct13",
+  "name": "Oct 13 · Into the Kiso Valley"
+ },
  "lines": [
-  {"label": "oyaki-labels", "who": "Oyaki packets, Matsumoto Station", "list": true,
+  {
+   "label": "oyaki-labels",
+   "who": "Oyaki packets, Matsumoto Station",
+   "list": true,
    "text": "かぼちゃ\nあずき\n野沢菜\n大根\nきんぴら\nしめじ野菜",
-   "en": ["Pumpkin", "Red bean", "Nozawana greens", "Daikon", "Kinpira", "Shimeji mushroom vegetables"]},
-  {"label": "frozen-food", "who": "Oyaki packets, Matsumoto Station",
+   "en": [
+    "Pumpkin",
+    "Red bean",
+    "Nozawana greens",
+    "Daikon",
+    "Kinpira",
+    "Shimeji mushroom vegetables"
+   ]
+  },
+  {
+   "label": "frozen-food",
+   "who": "Oyaki packets, Matsumoto Station",
    "text": "冷凍食品",
-   "en": ["Frozen food"]},
-  {"label": "bear-sign", "who": "Sign by a footbridge, Narai",
+   "en": [
+    "Frozen food"
+   ]
+  },
+  {
+   "label": "bear-sign",
+   "who": "Sign by a footbridge, Narai",
    "text": "熊出没注意",
-   "en": ["Bear appearing, caution"]},
-  {"label": "checkin-later", "who": "Me, to the inn in Narai",
+   "en": [
+    "Bear appearing, caution"
+   ]
+  },
+  {
+   "label": "checkin-later",
+   "who": "Claude, for the inn in Narai",
    "text": "チェックインは後でします。",
-   "en": ["As for check-in, (I) do (it) later."]},
-  {"label": "was-a-school", "who": "Me, to the inn in Narai",
+   "en": [
+    "As for check-in, (I) do (it) later."
+   ]
+  },
+  {
+   "label": "was-a-school",
+   "who": "Claude, for the inn in Narai",
    "text": "ここは昔、学校だったんですか？",
-   "en": ["As for here, long ago, (is it that it) was a school?"]},
-  {"label": "amazing", "who": "Me, to the inn in Narai",
+   "en": [
+    "As for here, long ago, (is it that it) was a school?"
+   ]
+  },
+  {
+   "label": "amazing",
+   "who": "Claude, for the inn in Narai",
    "text": "すごいですね！",
-   "en": ["(It) is amazing, isn't it!"]},
-  {"label": "run-guess", "who": "Me, my first guess",
+   "en": [
+    "(It) is amazing, isn't it!"
+   ]
+  },
+  {
+   "label": "run-guess",
+   "who": "Me, my first guess",
    "text": "はい、逃げるよ！",
-   "en": ["Yes, (I) run away, you know!"]},
-  {"label": "run-polite", "who": "Me",
+   "en": [
+    "Yes, (I) run away, you know!"
+   ]
+  },
+  {
+   "label": "run-polite",
+   "who": "Claude, correcting my guess",
    "text": "はい、走ります！",
-   "en": ["Yes, (I) run!"]},
-  {"label": "run-casual", "who": "Me",
+   "en": [
+    "Yes, (I) run!"
+   ]
+  },
+  {
+   "label": "run-casual",
+   "who": "Claude, correcting my guess",
    "text": "うん、走るよ！",
-   "en": ["Yeah, (I) run, you know!"]},
-  {"label": "walk-to-magome", "who": "Me, about tomorrow",
+   "en": [
+    "Yeah, (I) run, you know!"
+   ]
+  },
+  {
+   "label": "walk-to-magome",
+   "who": "Claude, for the Nakasendo walk",
    "text": "馬籠まで歩いて行きます。",
-   "en": ["As far as Magome, (I) go walking."]},
-  {"label": "dango-simple", "who": "Me, at the dango stall in Narai",
+   "en": [
+    "As far as Magome, (I) go walking."
+   ]
+  },
+  {
+   "label": "dango-simple",
+   "who": "Claude, for the dango stall in Narai",
    "text": "全部、二つずつください。",
-   "en": ["All, two each, please."]},
-  {"label": "dango-counted", "who": "Me, at the dango stall in Narai",
+   "en": [
+    "All, two each, please."
+   ]
+  },
+  {
+   "label": "dango-counted",
+   "who": "Claude, for the dango stall in Narai",
    "text": "笹団子を二個、みたらし、醤油、よもぎを二本ずつください。",
-   "en": ["Sasa dango, two pieces, (and) mitarashi, soy sauce, mugwort, two sticks each, please."]},
-  {"label": "your-french", "who": "Me, to the cook at La Terra",
+   "en": [
+    "Sasa dango, two pieces, (and) mitarashi, soy sauce, mugwort, two sticks each, please."
+   ]
+  },
+  {
+   "label": "your-french",
+   "who": "Me, to the cook at La Terra",
    "text": "あなたのフランス語は上手ですよ。",
-   "en": ["As for your French, (it) is skillful, you know."]}
+   "en": [
+    "As for your French, (it) is skillful, you know."
+   ]
+  }
  ],
  "cards": [
-  {"id": "kabocha", "kind": "word", "kana": "かぼちゃ", "romaji": "kabocha", "meaning": "pumpkin", "ref": "oyaki-labels", "surface": "かぼちゃ", "units": [0, 0]},
-  {"id": "azuki", "kind": "word", "kana": "あずき", "kanji": "小豆", "romaji": "azuki", "meaning": "red bean", "ref": "oyaki-labels", "surface": "あずき", "units": [1, 1], "note": "Sweet red bean paste is あんこ."},
-  {"id": "reitou-shokuhin", "kind": "word", "kana": "れいとうしょくひん", "kanji": "冷凍食品", "romaji": "reitō shokuhin", "meaning": "frozen food", "ref": "frozen-food", "surface": "冷凍食品", "note": "冷凍 frozen, 食品 food product. The aisle sign in a supermarket."},
-  {"id": "kuma", "kind": "word", "kana": "くま", "kanji": "熊", "romaji": "kuma", "meaning": "bear", "ref": "bear-sign", "surface": "熊"},
-  {"id": "shutsubotsu", "kind": "word", "kana": "しゅつぼつ", "kanji": "出没", "romaji": "shutsubotsu", "meaning": "appearing, turning up · of animals or prowlers", "ref": "bear-sign", "surface": "出没", "note": "出 come out, 没 sink away: something that shows up now and then."},
-  {"id": "chuui", "kind": "word", "kana": "ちゅうい", "kanji": "注意", "romaji": "chūi", "meaning": "caution, attention", "ref": "bear-sign", "surface": "注意"},
-  {"id": "ato-de", "kind": "word", "kana": "あとで", "kanji": "後で", "romaji": "ato de", "meaning": "later", "ref": "checkin-later", "surface": "後で"},
-  {"id": "gakkou", "kind": "word", "kana": "がっこう", "kanji": "学校", "romaji": "gakkō", "meaning": "school", "ref": "was-a-school", "surface": "学校", "note": "The inn in Narai used to be one."},
-  {"id": "f-datta", "kind": "form", "kana": "だった", "meaning": "was", "base": "だ", "form": "past", "register": "plain", "ref": "was-a-school", "surface": "だった", "note": "Polite: でした."},
-  {"id": "sugoi", "kind": "word", "kana": "すごい", "kanji": "凄い", "romaji": "sugoi", "meaning": "amazing, tremendous", "ref": "amazing", "surface": "すごい"},
-  {"id": "nigeru", "kind": "word", "kana": "にげる", "kanji": "逃げる", "romaji": "nigeru", "meaning": "to run away, to flee", "ref": "run-guess", "surface": "逃げる", "note": "My guess for \"I'll run\". Plain running is 走る."},
-  {"id": "hashiru", "kind": "word", "kana": "はしる", "kanji": "走る", "romaji": "hashiru", "meaning": "to run", "ref": "run-polite", "surface": "走ります"},
-  {"id": "un", "kind": "word", "kana": "うん", "romaji": "un", "meaning": "yeah · casual yes", "ref": "run-casual", "surface": "うん"},
-  {"id": "e-yo", "kind": "ending", "kana": "〜よ", "meaning": "you know · telling the listener something", "ref": "run-casual", "surface": "よ"},
-  {"id": "aruku", "kind": "word", "kana": "あるく", "kanji": "歩く", "romaji": "aruku", "meaning": "to walk", "ref": "walk-to-magome", "surface": "歩いて", "note": "歩いて行く: go walking, go on foot."},
-  {"id": "f-arukou", "kind": "form", "kana": "あるこう", "meaning": "let's walk", "base": "あるく", "form": "volitional", "register": "plain", "vclass": "う-verb", "note": "The 歩こう of the Totoro opening song. Polite: 歩きましょう."},
-  {"id": "futatsu", "kind": "word", "kana": "ふたつ", "kanji": "二つ", "romaji": "futatsu", "meaning": "two · things, counted generally", "ref": "dango-simple", "surface": "二つ"},
-  {"id": "c-ko", "kind": "word", "kana": "〜こ", "kanji": "〜個", "romaji": "ko", "meaning": "counter for small round things, pieces", "ref": "dango-counted", "surface": "個", "note": "いっこ, にこ, さんこ."},
-  {"id": "c-hon", "kind": "word", "kana": "〜ほん", "kanji": "〜本", "romaji": "hon", "meaning": "counter for long thin things · skewers, bottles, pens", "ref": "dango-counted", "surface": "本", "note": "いっぽん, にほん, さんぼん."},
-  {"id": "anata", "kind": "word", "kana": "あなた", "romaji": "anata", "meaning": "you", "ref": "your-french", "surface": "あなた", "note": "Usually left out, or replaced by the person's name."},
-  {"id": "furansugo", "kind": "word", "kana": "フランスご", "kanji": "フランス語", "romaji": "furansugo", "meaning": "French · the language", "ref": "your-french", "surface": "フランス語", "note": "Country + 語 is its language: 日本語, オランダ語."},
-  {"id": "jouzu", "kind": "word", "kana": "じょうず", "kanji": "上手", "romaji": "jōzu", "meaning": "skillful, good at", "ref": "your-french", "surface": "上手", "note": "Opposite: 下手 へた."},
-  {"id": "komainu", "kind": "word", "kana": "こまいぬ", "kanji": "狛犬", "romaji": "komainu", "meaning": "lion-dog · guardian statue at a shrine", "note": "The pair at Shizume Jinja in Narai, one with its mouth open saying a, the other closed saying un."},
-  {"id": "shimenawa", "kind": "word", "kana": "しめなわ", "kanji": "しめ縄", "romaji": "shimenawa", "meaning": "sacred straw rope · marks a holy place", "note": "Hung at the little shrine in the roof beams of Matsumoto Castle's keep."},
-  {"id": "omakase", "kind": "expression", "kana": "おまかせ", "kanji": "お任せ", "romaji": "omakase", "meaning": "leaving (it) to (you) · the chef's choice", "note": "Dinner at La Terra was omakase, five courses."}
+  {
+   "id": "kabocha",
+   "kind": "word",
+   "kana": "かぼちゃ",
+   "romaji": "kabocha",
+   "meaning": "pumpkin",
+   "ref": "oyaki-labels",
+   "surface": "かぼちゃ",
+   "units": [
+    0,
+    0
+   ]
+  },
+  {
+   "id": "azuki",
+   "kind": "word",
+   "kana": "あずき",
+   "kanji": "小豆",
+   "romaji": "azuki",
+   "meaning": "red bean",
+   "ref": "oyaki-labels",
+   "surface": "あずき",
+   "units": [
+    1,
+    1
+   ],
+   "note": "Sweet red bean paste is あんこ."
+  },
+  {
+   "id": "reitou-shokuhin",
+   "kind": "word",
+   "kana": "れいとうしょくひん",
+   "kanji": "冷凍食品",
+   "romaji": "reitō shokuhin",
+   "meaning": "frozen food",
+   "ref": "frozen-food",
+   "surface": "冷凍食品",
+   "note": "冷凍 frozen, 食品 food product. The aisle sign in a supermarket."
+  },
+  {
+   "id": "kuma",
+   "kind": "word",
+   "kana": "くま",
+   "kanji": "熊",
+   "romaji": "kuma",
+   "meaning": "bear",
+   "ref": "bear-sign",
+   "surface": "熊"
+  },
+  {
+   "id": "shutsubotsu",
+   "kind": "word",
+   "kana": "しゅつぼつ",
+   "kanji": "出没",
+   "romaji": "shutsubotsu",
+   "meaning": "appearing, turning up · of animals or prowlers",
+   "ref": "bear-sign",
+   "surface": "出没",
+   "note": "出 come out, 没 sink away: something that shows up now and then."
+  },
+  {
+   "id": "chuui",
+   "kind": "word",
+   "kana": "ちゅうい",
+   "kanji": "注意",
+   "romaji": "chūi",
+   "meaning": "caution, attention",
+   "ref": "bear-sign",
+   "surface": "注意"
+  },
+  {
+   "id": "ato-de",
+   "kind": "word",
+   "kana": "あとで",
+   "kanji": "後で",
+   "romaji": "ato de",
+   "meaning": "later",
+   "ref": "checkin-later",
+   "surface": "後で"
+  },
+  {
+   "id": "gakkou",
+   "kind": "word",
+   "kana": "がっこう",
+   "kanji": "学校",
+   "romaji": "gakkō",
+   "meaning": "school",
+   "ref": "was-a-school",
+   "surface": "学校",
+   "note": "The inn in Narai used to be one."
+  },
+  {
+   "id": "f-datta",
+   "kind": "form",
+   "kana": "だった",
+   "meaning": "was",
+   "base": "だ",
+   "form": "past",
+   "register": "plain",
+   "ref": "was-a-school",
+   "surface": "だった",
+   "note": "Polite: でした."
+  },
+  {
+   "id": "sugoi",
+   "kind": "word",
+   "kana": "すごい",
+   "kanji": "凄い",
+   "romaji": "sugoi",
+   "meaning": "amazing, tremendous",
+   "ref": "amazing",
+   "surface": "すごい"
+  },
+  {
+   "id": "nigeru",
+   "kind": "word",
+   "kana": "にげる",
+   "kanji": "逃げる",
+   "romaji": "nigeru",
+   "meaning": "to run away, to flee",
+   "ref": "run-guess",
+   "surface": "逃げる",
+   "note": "My guess for \"I'll run\". Plain running is 走る."
+  },
+  {
+   "id": "hashiru",
+   "kind": "word",
+   "kana": "はしる",
+   "kanji": "走る",
+   "romaji": "hashiru",
+   "meaning": "to run",
+   "ref": "run-polite",
+   "surface": "走ります"
+  },
+  {
+   "id": "un",
+   "kind": "word",
+   "kana": "うん",
+   "romaji": "un",
+   "meaning": "yeah · casual yes",
+   "ref": "run-casual",
+   "surface": "うん"
+  },
+  {
+   "id": "e-yo",
+   "kind": "ending",
+   "kana": "〜よ",
+   "meaning": "you know · telling the listener something",
+   "ref": "run-casual",
+   "surface": "よ"
+  },
+  {
+   "id": "aruku",
+   "kind": "word",
+   "kana": "あるく",
+   "kanji": "歩く",
+   "romaji": "aruku",
+   "meaning": "to walk",
+   "ref": "walk-to-magome",
+   "surface": "歩いて",
+   "note": "歩いて行く: go walking, go on foot."
+  },
+  {
+   "id": "f-arukou",
+   "kind": "form",
+   "kana": "あるこう",
+   "meaning": "let's walk",
+   "base": "あるく",
+   "form": "volitional",
+   "register": "plain",
+   "vclass": "う-verb",
+   "note": "The 歩こう of the Totoro opening song. Polite: 歩きましょう."
+  },
+  {
+   "id": "futatsu",
+   "kind": "word",
+   "kana": "ふたつ",
+   "kanji": "二つ",
+   "romaji": "futatsu",
+   "meaning": "two · things, counted generally",
+   "ref": "dango-simple",
+   "surface": "二つ"
+  },
+  {
+   "id": "c-ko",
+   "kind": "word",
+   "kana": "〜こ",
+   "kanji": "〜個",
+   "romaji": "ko",
+   "meaning": "counter for small round things, pieces",
+   "ref": "dango-counted",
+   "surface": "個",
+   "note": "いっこ, にこ, さんこ."
+  },
+  {
+   "id": "c-hon",
+   "kind": "word",
+   "kana": "〜ほん",
+   "kanji": "〜本",
+   "romaji": "hon",
+   "meaning": "counter for long thin things · skewers, bottles, pens",
+   "ref": "dango-counted",
+   "surface": "本",
+   "note": "いっぽん, にほん, さんぼん."
+  },
+  {
+   "id": "anata",
+   "kind": "word",
+   "kana": "あなた",
+   "romaji": "anata",
+   "meaning": "you",
+   "ref": "your-french",
+   "surface": "あなた",
+   "note": "Usually left out, or replaced by the person's name."
+  },
+  {
+   "id": "furansugo",
+   "kind": "word",
+   "kana": "フランスご",
+   "kanji": "フランス語",
+   "romaji": "furansugo",
+   "meaning": "French · the language",
+   "ref": "your-french",
+   "surface": "フランス語",
+   "note": "Country + 語 is its language: 日本語, オランダ語."
+  },
+  {
+   "id": "jouzu",
+   "kind": "word",
+   "kana": "じょうず",
+   "kanji": "上手",
+   "romaji": "jōzu",
+   "meaning": "skillful, good at",
+   "ref": "your-french",
+   "surface": "上手",
+   "note": "Opposite: 下手 へた."
+  },
+  {
+   "id": "komainu",
+   "kind": "word",
+   "kana": "こまいぬ",
+   "kanji": "狛犬",
+   "romaji": "komainu",
+   "meaning": "lion-dog · guardian statue at a shrine",
+   "note": "The pair at Shizume Jinja in Narai, one with its mouth open saying a, the other closed saying un."
+  },
+  {
+   "id": "shimenawa",
+   "kind": "word",
+   "kana": "しめなわ",
+   "kanji": "しめ縄",
+   "romaji": "shimenawa",
+   "meaning": "sacred straw rope · marks a holy place",
+   "note": "Hung at the little shrine in the roof beams of Matsumoto Castle's keep."
+  },
+  {
+   "id": "omakase",
+   "kind": "expression",
+   "kana": "おまかせ",
+   "kanji": "お任せ",
+   "romaji": "omakase",
+   "meaning": "leaving (it) to (you) · the chef's choice",
+   "note": "Dinner at La Terra was omakase, five courses."
+  }
  ]
 }

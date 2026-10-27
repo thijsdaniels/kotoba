@@ -47,7 +47,7 @@
   ]
  },
  "checkin-later": {
-  "who": "Me, to the inn in Narai",
+  "who": "Claude, for the inn in Narai",
   "sentences": [
    {
     "ja": "チェックインは後でします。",
@@ -56,7 +56,7 @@
   ]
  },
  "was-a-school": {
-  "who": "Me, to the inn in Narai",
+  "who": "Claude, for the inn in Narai",
   "sentences": [
    {
     "ja": "ここは昔、学校だったんですか？",
@@ -65,7 +65,7 @@
   ]
  },
  "amazing": {
-  "who": "Me, to the inn in Narai",
+  "who": "Claude, for the inn in Narai",
   "sentences": [
    {
     "ja": "すごいですね！",
@@ -83,7 +83,7 @@
   ]
  },
  "run-polite": {
-  "who": "Me",
+  "who": "Claude, correcting my guess",
   "sentences": [
    {
     "ja": "はい、走ります！",
@@ -92,7 +92,7 @@
   ]
  },
  "run-casual": {
-  "who": "Me",
+  "who": "Claude, correcting my guess",
   "sentences": [
    {
     "ja": "うん、走るよ！",
@@ -101,7 +101,7 @@
   ]
  },
  "walk-to-magome": {
-  "who": "Me, about tomorrow",
+  "who": "Claude, for the Nakasendo walk",
   "sentences": [
    {
     "ja": "馬籠まで歩いて行きます。",
@@ -110,7 +110,7 @@
   ]
  },
  "dango-simple": {
-  "who": "Me, at the dango stall in Narai",
+  "who": "Claude, for the dango stall in Narai",
   "sentences": [
    {
     "ja": "全部、二つずつください。",
@@ -119,7 +119,7 @@
   ]
  },
  "dango-counted": {
-  "who": "Me, at the dango stall in Narai",
+  "who": "Claude, for the dango stall in Narai",
   "sentences": [
    {
     "ja": "笹団子を二個、みたらし、醤油、よもぎを二本ずつください。",
