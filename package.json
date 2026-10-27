@@ -1,5 +1,5 @@
 {
-  "name": "pokemon-kotoba",
+  "name": "kotoba",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vercel/blob": "^0.27.0"
+    "@vercel/blob": "^2.8.2"
   },
   "devDependencies": {
     "@vercel/node": "^3.2.0",

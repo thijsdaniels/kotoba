@@ -1,10 +1,12 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { authorized } from "./_auth.js";
-import { load } from "./_store.js";
+import type { StateResponse } from "./_contract.js";
+import { admit } from "./_http.js";
+import { library, load, progress } from "./_store.js";
 
+// Everything the app needs at start: settings, decks, cards and progress.
 export default async function handler(request: VercelRequest, response: VercelResponse) {
-  if (!authorized(request, response)) return;
-  if (request.method !== "GET") return response.status(405).end();
-  response.setHeader("Cache-Control", "no-store");
-  response.json(await load());
+  if (!admit(request, response, ["GET"])) return;
+  const [{ data: stored }, { data: schedules }] = await Promise.all([load(library), load(progress)]);
+  const state: StateResponse = { settings: stored.settings, decks: Object.values(stored.decks), cards: Object.values(stored.cards), progress: schedules.cards };
+  response.json(state);
 }

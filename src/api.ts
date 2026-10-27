@@ -1,11 +1,4 @@
-import type { Schedule } from "./srs";
-
-export type Side = "r" | "p";
-// Per package: whether it is in play, the position in its groups (absent means the latest), and the values of the settings its manifest declares.
-export interface PackageSettings { enabled?: boolean; position?: string; values?: Record<string, string | number> }
-export interface Settings { newPerDay: number; produce: string[]; packages: Record<string, PackageSettings> }
-export interface SettingsPatch { newPerDay?: number; produce?: string[]; packages?: Record<string, PackageSettings> }
-export interface State { format: number; version: number; settings: Settings; srs: Record<string, Partial<Record<Side, Schedule>>> }
+import type { CardInput, Deck, ImportResponse, Schedule, Settings, Side, StateResponse } from "../api/_contract";
 
 const KEY_STORAGE = "kotoba-key";
 
@@ -24,19 +17,30 @@ export function writeKey(key: string) {
   try { localStorage.setItem(KEY_STORAGE, key); } catch { /* private mode */ }
 }
 
-async function call<T>(path: string, body?: unknown): Promise<T> {
+async function call<T>(method: "GET" | "POST" | "PUT" | "DELETE", path: string, body?: unknown): Promise<T> {
   const response = await fetch(path, {
-    method: body ? "POST" : "GET",
+    method,
     headers: { "x-kotoba-key": readKey(), ...(body ? { "content-type": "application/json" } : {}) },
     body: body ? JSON.stringify(body) : undefined,
     cache: "no-store",
   });
-  if (!response.ok) throw new Error(`${path}: ${response.status}`);
+  if (!response.ok) {
+    const detail = await response.json().then((json: { error?: string }) => json.error, () => undefined);
+    throw new Error(detail ?? `${path}: ${response.status}`);
+  }
   return response.json() as Promise<T>;
 }
 
+const deckPath = (deck: string) => `/api/decks/${encodeURIComponent(deck)}`;
+type DeckPatch = Partial<Pick<Deck, "title" | "description" | "enabled" | "production" | "introduce">>;
+
 export const api = {
-  state: () => call<State>("/api/state"),
-  answer: (id: string, side: Side, schedule: Schedule) => call<{ version: number }>("/api/answer", { id, side, schedule }),
-  settings: (patch: SettingsPatch) => call<{ version: number; settings: Settings }>("/api/settings", patch),
+  state: () => call<StateResponse>("GET", "/api/state"),
+  review: (card: string, side: Side, schedule: Schedule) => call<{ ok: true }>("POST", "/api/review", { card, side, schedule }),
+  settings: (settings: Partial<Settings>) => call<{ settings: Settings }>("POST", "/api/settings", settings),
+  putDeck: (deck: string, patch: DeckPatch) => call<Deck>("PUT", deckPath(deck), patch),
+  deleteDeck: (deck: string) => call<{ deleted: string }>("DELETE", deckPath(deck)),
+  resetDeck: (deck: string) => call<{ reset: string }>("POST", `${deckPath(deck)}/reset`),
+  addCards: (deck: string, cards: CardInput[]) => call<ImportResponse>("POST", `${deckPath(deck)}/cards`, { cards }),
+  removeCards: (deck: string, sources: string[]) => call<{ removed: string[] }>("DELETE", `${deckPath(deck)}/cards`, { sources }),
 };

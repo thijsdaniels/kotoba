@@ -1,16 +1,8 @@
 // FSRS-4.5 with the default parameters, target retention 90%.
-export const DAY = 86400000;
+import type { Schedule } from "../api/_contract";
+export type { Schedule };
 
-export interface Schedule {
-  reps: number;
-  lapses: number;
-  first?: string; // the day the card was introduced, yyyy-m-d with the day rolling at 4:00
-  last?: number;
-  S?: number; // stability in days
-  D?: number; // difficulty 1..10
-  ivl: number; // interval in days, 0 while still in the learning steps
-  due: number;
-}
+export const DAY = 86400000;
 
 export type Grade = 0 | 1 | 2 | 3; // Again, Hard, Good, Easy → FSRS grades 1..4
 

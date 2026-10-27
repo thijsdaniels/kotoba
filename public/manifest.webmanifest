@@ -1,7 +1,7 @@
 {
-  "name": "Pokémon Kotoba",
+  "name": "Kotoba",
   "short_name": "Kotoba",
-  "description": "Japanese from the text of Pokémon Green, one stage at a time.",
+  "description": "Spaced repetition over the Japanese you have actually met.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
