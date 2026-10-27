@@ -99,10 +99,12 @@ Not built yet. What it gets from Kotoba now, unchanged, as its starting point: t
 1. **The disassembly as a dependency**: Narishma-gb/pokegreen pinned as a submodule at a known commit, never edited. A build step extracts every line with its label, decoded through the game's character table, and later the maps, NPCs and warps. Labels are our stable IDs, so moving the pin is a deliberate step that re-runs the checks.
 2. **Our layer, keyed by label**: the sentence splits, word breakdowns, glosses and literal translations, validated at build time against the extracted text, so a drifted translation fails the build.
 3. **Reading in context**: the line on screen, broken down sentence by sentence, with a button to send a word to Kotoba as a card (`source` = label plus the word).
-4. **Finding the line**: an emulator in the page with a hook on the text-printing routine, worth a day of experiments first (which emulator, and whether it gives a code hook or only memory reads). A location-organized catalog with the map is the other route; ideally both.
-5. **Bring your own ROM**: the extraction can run against the learner's ROM at runtime instead, with the same labels and the same layer.
+4. **Finding the line**: the game runs in the page in a Game Boy emulator compiled to WebAssembly. A breakpoint on the text-printing routine reads the address of the text about to be printed, and the symbol map turns it into its label: the exact line, nothing guessed. Which emulator is the first experiment: it has to allow breakpoints, or at least an execution hook, from JavaScript. A location-organized catalog with the map stays an option for playing on the real Game Boy.
+5. **The ROM is uploaded, never shipped**: the learner picks the ROM file once per device and the page keeps it in IndexedDB. The build assembles Green V1.0 and V1.1 from the disassembly only to produce each one's symbol map and SHA-1 (82c0eef4… and 4b97cd44…). The ROMs themselves are not published. On upload the page hashes the file and uses that revision's map; any other file is refused with a clear message. Labels are the same in both revisions, only addresses differ, so the layer and the card sources serve both. Red would be the same mechanism, left out for now.
 
-Waiting on Thijs: the cartridge dump, for the revision hash.
+Running the assembly without an emulator, recompiled to WebAssembly, was considered and rejected: the code drives the Game Boy's video, sound, banking and interrupts directly, so it would need that hardware recreated anyway, which is what an emulator is.
+
+Waiting on Thijs: the cartridge dump, which is the file he uploads and tells us his revision. Until then, development uses ROMs built locally, which never leave the workspace.
 
 ## The trip deck
 
