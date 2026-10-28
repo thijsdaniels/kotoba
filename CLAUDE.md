@@ -20,6 +20,8 @@ contract; `README.md` the layout and the API in short. Read `SPEC.md` before cha
 
 ## Working with Thijs
 
+- Plans and known gaps are GitHub issues, not notes in the docs; the docs describe what is.
+
 - Live at kotoba.thijsdaniels.vercel.app, deployed by Vercel from `main`. Environment: `KOTOBA_KEY` and
   `BLOB_READ_WRITE_TOKEN`. Every API call needs the key in `x-kotoba-key`; don't print or commit it.
 - When he asks a question, answer it and wait; build when he says so. When something he asks for has a good reason
