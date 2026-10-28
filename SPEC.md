@@ -1,12 +1,12 @@
 # Kotoba and Midori: the split
 
-Decided on Oct 27, 2026. This is the plan the rebuild follows. Where the code and this file disagree, one of them is wrong.
+Decided on Oct 27, 2026; the card identity, meanings and particles on Oct 28. Where the code and this file disagree, one of them is wrong.
 
 ## Three repos
 
 - **japan-2026**: the trip journal. Untouched by any of this.
 - **kotoba**: the review app. It owns the decks, the cards in them, and the learner's progress, and exposes a small API for adding cards. It holds no card content of its own and knows nothing about Pokémon, kana or the trip.
-- **midori**: the Pokémon Green companion. The disassembly as a pinned dependency, the extracted script with our layer of sentence splits, breakdowns and literal translations on top, the pixel font, the map and the emulator. It talks to Kotoba only through the API.
+- **midori**: the Pokémon Green companion. The game in an emulator in the page, the disassembly as a pinned dependency, and our layer on the script: sentence splits, literal glosses, natural translations and word cards. It talks to Kotoba only through the API.
 
 A monorepo was considered and rejected: once the API is the only link, the one thing the projects share is the card type, which is small enough to copy.
 
@@ -28,10 +28,10 @@ What a source sends. Everything else Kotoba stores (id, deck, when it was added)
 
 ```ts
 interface CardInput {
-  source: string;        // required. Stable within the deck: a disassembly label plus the word, "hira-a", "2026-10-13/sumimasen"
-  kind: "word" | "expression" | "form" | "ending" | "name" | "kana";
+  source: string;        // required. Stable within the deck, from facts about the card, never its wording: "つかまえる#捕まえる", "hira-a", "2026-10-13/sumimasen"
+  kind: "word" | "particle" | "expression" | "form" | "ending" | "name" | "kana";
   kana: string;          // required. The Japanese as read
-  meaning: string;       // required. Literal English; "(…)" marks words Japanese leaves out, shown lighter
+  meanings: string[];    // required, at least one. Literal English, one entry per sense the learner has met; "(…)" marks words Japanese leaves out, shown lighter
   kanji?: string;
   romaji?: string;
   loose?: string;        // a natural rendering, only ever in addition to the literal one
@@ -46,6 +46,16 @@ interface CardInput {
   recognitionOnly?: boolean;   // never asked in production, whatever the deck says
 }
 ```
+
+**Identity.** A card's `source` is derived from facts about what the card is, so the same thing always gets the same ID and nothing about it is chosen: Midori's word cards use the dictionary form, plus `#` and the kanji when the word has kanji (`が`, `ポケモン`, `する`, `つかまえる#捕まえる`, `はし#橋` and `はし#箸` apart). The kana is what the game prints; the kanji, an annotation of ours, only tells apart words that sound alike. Never a hash of the content or a label: rewording a meaning must not make a new card.
+
+**Meanings.** One card per word, not per sense: a word met in a second sense keeps its card and gains a meaning. `meanings` lists only the senses the learner has met, never the whole dictionary entry. Kotoba shows them joined with "; ".
+
+**Merging is the source's job.** Kotoba replaces a known card's content on re-import, as for any correction; it never merges or guesses. A source that adds a sense first reads the card (`GET …/cards`), appends the new meaning if that exact string isn't there, and sends the whole card. Exact matching works because the source keeps its wording consistent (Midori's corpus check reports a word whose meanings differ between occurrences).
+
+**Planned, not built:** renaming a card's `source` with its progress, for when a source fixes a wrong dictionary form.
+
+Oct 28 changes: `meaning` became `meanings`, and the kind `particle` was added (particles are learned for what they do, not what they mean). Cards stored with `meaning` are read as `meanings: [meaning]`; the Kana starter is regenerated.
 
 Changes from the old built-card format, all renames for clarity: `context` → `speaker`, `vclass` → `verbClass`, `recogOnly` → `recognitionOnly`, and a new `kind`, `name`, for proper nouns (Pokémon, moves, items, places). The source-specific kinds (`pokemon`, `move`, `item`, `term`) and the per-package colors go away; kinds are linguistic and fixed in Kotoba. The `set` field of kana cards goes into `note`. Placeholders like `{player}` are the source's business: Midori fills them in before sending.
 
@@ -94,17 +104,16 @@ Kana is a JSON file of cards served with the app (`public/starters/kana.json`, g
 
 ## Midori
 
-Not built yet. What it gets from Kotoba now, unchanged, as its starting point: the Pokémon package (extraction, corpus, translations and the hand-written cards), the sentence splitter and translation checker, and the pixel font. The plan for it:
+Built; its README describes it. What concerns the split:
 
-1. **The disassembly as a dependency**: Narishma-gb/pokegreen pinned as a submodule at a known commit, never edited. A build step extracts every line with its label, decoded through the game's character table, and later the maps, NPCs and warps. Labels are our stable IDs, so moving the pin is a deliberate step that re-runs the checks.
-2. **Our layer, keyed by label**: the sentence splits, word breakdowns, glosses and literal translations, validated at build time against the extracted text, so a drifted translation fails the build.
-3. **Reading in context**: the line on screen, broken down sentence by sentence, with a button to send a word to Kotoba as a card (`source` = label plus the word).
-4. **Finding the line**: the game runs in the page in a Game Boy emulator compiled to WebAssembly. A breakpoint on the text-printing routine reads the address of the text about to be printed, and the symbol map turns it into its label: the exact line, nothing guessed. Which emulator is the first experiment: it has to allow breakpoints, or at least an execution hook, from JavaScript. A location-organized catalog with the map stays an option for playing on the real Game Boy.
-5. **The ROM is uploaded, never shipped**: the learner picks the ROM file once per device and the page keeps it in IndexedDB. The build assembles Green V1.1 from the disassembly only to produce its symbol map and SHA-1 (4b97cd44…); the ROM itself is not published. On upload the page hashes the file and looks it up in a table of known revisions, which gives the symbol map to use; any other file is refused with a clear message. Thijs's cartridge is V1.1 (the "00A" pressed into the label). V1.0 would be one more build target and one more entry in that table, since labels are the same in both revisions and only addresses differ; left out until needed. Red the same.
+1. **What it sends.** A word card from the reading panel's word card, into the deck `midori`: `kana` the dictionary form, `kanji`, `kind` (word, particle, ending, expression or name, as in its corpus), `meanings` the sense on that occurrence's card, `note` its grammar and notes, and the sentence it was met in as `line` (Japanese, with names filled in), `lineEn` (the natural translation), `surface` (the word as it appears there, left out when it appears more than once) and `speaker`. The first sentence a word was sent from stays its example.
+2. **Its IDs** follow Identity above, from the corpus: dictionary form, plus `#` and the kanji. Midori's corpus check fails a word that has kanji in one occurrence and none in another, since that would split one word into two cards.
+3. **Merging** follows the rule above: a word already in the deck in another sense gets that sense appended.
+4. **Marking**: it reads the deck's cards to mark words already sent.
+5. **Offline**: sends wait in a queue on the device until there's signal, then read, merge and send.
+6. **The key and Kotoba's address** are set in Midori's settings and kept on the device.
 
-Running the assembly without an emulator, recompiled to WebAssembly, was considered and rejected: the code drives the Game Boy's video, sound, banking and interrupts directly, so it would need that hardware recreated anyway, which is what an emulator is.
-
-Waiting on Thijs: the cartridge dump, which is the file he uploads. Until then, development uses the ROM built locally, which never leaves the workspace.
+The ROM is uploaded once per device and kept in IndexedDB, never shipped; the build assembles Green V1.1 only for its symbol map and hash (4b97cd44…). Thijs's cartridge is V1.1.
 
 ## The trip deck
 
