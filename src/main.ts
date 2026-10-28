@@ -9,7 +9,11 @@ import { currentRecall, dayOf, formatInterval, schedule, type Grade, type Schedu
 interface QueueEntry { id: string; side: Side }
 interface StarterDeck { deck: Pick<Deck, "id" | "title" | "description" | "introduce" | "production">; cards: CardInput[] }
 
-const KIND_LABELS: Record<Kind, string> = { word: "Word", particle: "Particle", expression: "Expression", form: "Form", ending: "Ending", name: "Name", kana: "Kana" };
+const KIND_LABELS: Record<Kind, string> = {
+  noun: "Noun", pronoun: "Pronoun", name: "Name", verb: "Verb", "i-adjective": "い-adjective", "na-adjective": "な-adjective", "pre-noun": "Pre-noun",
+  adverb: "Adverb", conjunction: "Conjunction", interjection: "Interjection", particle: "Particle", auxiliary: "Auxiliary", prefix: "Prefix",
+  suffix: "Suffix", expression: "Expression", form: "Form", kana: "Kana",
+};
 const STARTERS = [{ id: "kana", file: "/starters/kana.json", title: "Kana", description: "Hiragana and katakana, in gojūon order." }];
 const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
 const REVIEW_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Hard", "hard", 1], ["Good", "good", 2], ["Easy", "easy", 3]];
@@ -209,7 +213,9 @@ function listDetailHtml(card: Card) {
 function renderFilter() {
   const deckChoices: [string, string][] = [...decks.values()].filter(deck => deck.enabled).map(deck => [deck.id, deck.title]);
   for (const id of chosenDecks) if (!deckChoices.some(([choice]) => choice === id)) chosenDecks.delete(id); // a deck switched off drops out of the filter
-  const kindChoices: [string, string][] = Object.entries(KIND_LABELS);
+  // only the kinds there are cards of (and any still chosen), in the order of KINDS
+  const present = new Set([...cards.values()].map(card => card.kind as string));
+  const kindChoices: [string, string][] = Object.entries(KIND_LABELS).filter(([id]) => present.has(id) || chosenKinds.has(id));
   const summary = (name: string, chosen: Set<string>, choices: [string, string][]) =>
     `${name}: ${chosen.size ? choices.filter(([id]) => chosen.has(id)).map(([, label]) => label).join(", ") : "All"}`;
   byId("filters").innerHTML = `<button data-open="deck">${escapeHtml(summary("Decks", chosenDecks, deckChoices))}</button><button data-open="kind">${escapeHtml(summary("Kinds", chosenKinds, kindChoices))}</button>`;

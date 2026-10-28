@@ -29,7 +29,8 @@ What a source sends. Everything else Kotoba stores (id, deck, when it was added)
 ```ts
 interface CardInput {
   source: string;        // required. Stable within the deck, from facts about the card, never its wording: "つかまえる#捕まえる", "hira-a", "2026-10-13/sumimasen"
-  kind: "word" | "particle" | "expression" | "form" | "ending" | "name" | "kana";
+  kind: "noun" | "pronoun" | "name" | "verb" | "i-adjective" | "na-adjective" | "pre-noun" | "adverb" | "conjunction"
+      | "interjection" | "particle" | "auxiliary" | "prefix" | "suffix" | "expression" | "form" | "kana";
   kana: string;          // required. The Japanese as read
   meanings: string[];    // required, at least one. Literal English, one entry per sense the learner has met; "(…)" marks words Japanese leaves out, shown lighter
   kanji?: string;
@@ -48,7 +49,7 @@ interface CardInput {
 }
 ```
 
-**Identity.** A card's `source` is derived from facts about what the card is, so the same thing always gets the same ID and nothing about it is chosen: Midori's word cards use the dictionary form, plus `#` and the kanji when the word has kanji (`が`, `ポケモン`, `する`, `つかまえる#捕まえる`, `はし#橋` and `はし#箸` apart). The kana is what the game prints; the kanji, an annotation of ours, only tells apart words that sound alike. Never a hash of the content or a label: rewording a meaning must not make a new card.
+**Identity.** A card's `source` is derived from facts about what the card is, so the same thing always gets the same ID and nothing about it is chosen: Midori's word cards use the dictionary form, plus `#` and the kanji when the word has kanji (`が`, `ポケモン`, `する`, `つかまえる#捕まえる`, `はし#橋` and `はし#箸` apart). The kana is what the game prints; the kanji, an annotation of ours, only tells apart words that sound alike. Never a hash of the content or a label: rewording a meaning must not make a new card. Two different words spelled the same in kana alone, which no kanji tells apart, add `@` and their kind: `ああ@interjection` (ah) and `ああ@adverb` (like that). A source lists which words those are, so the rule doesn't depend on what else it has sent.
 
 **Meanings.** One card per word, not per sense: a word met in a second sense keeps its card and gains a meaning. `meanings` lists only the senses the learner has met, never the whole dictionary entry. Kotoba shows them joined with "; ".
 
@@ -57,6 +58,10 @@ interface CardInput {
 **Planned, not built:** renaming a card's `source` with its progress, for when a source fixes a wrong dictionary form.
 
 Oct 28 changes: `meaning` became `meanings`, `surface` became a range instead of the text (which had to occur exactly once, and short words occur inside others all the time), and the kind `particle` was added (particles are learned for what they do, not what they mean). Cards stored in the old shape are read as the new one: `meanings: [meaning]`, and the surface text as its range where it occurs once. The Kana starter is regenerated.
+
+**Kinds** are parts of speech, as Japanese grammar has them (学校文法), so a card says how its word behaves: noun, pronoun (おれ, ここ, それ: who uses which says a lot), name (proper nouns: Pokémon, people, places, items), verb, い-adjective, な-adjective, pre-noun (連体詞: この, その, どの, only ever before a noun), adverb, conjunction, interjection, particle, auxiliary (助動詞: だ, です, ます, らしい, which conjugate where particles don't), prefix and suffix (お, ご; counters, さん, たち), and expression for a set phrase learned whole (おまちどうさまでした). `form` and `kana` are Kotoba's own: a conjugation drill and a kana card. The app colors them in families: nouns, names, verbs, adjectives, other content words, grammar.
+
+Oct 29 changes: the kinds `word` and `ending` gave way to parts of speech. The few cards stored with them (Midori's, none reviewed yet) were sent again with their new kind.
 
 Changes from the old built-card format, all renames for clarity: `context` → `speaker`, `vclass` → `verbClass`, `recogOnly` → `recognitionOnly`, and a new `kind`, `name`, for proper nouns (Pokémon, moves, items, places). The source-specific kinds (`pokemon`, `move`, `item`, `term`) and the per-package colors go away; kinds are linguistic and fixed in Kotoba. The `set` field of kana cards goes into `note`. Placeholders like `{player}` are the source's business: Midori fills them in before sending.
 
@@ -107,7 +112,7 @@ Kana is a JSON file of cards served with the app (`public/starters/kana.json`, g
 
 Built; its README describes it. What concerns the split:
 
-1. **What it sends.** A word card from the reading panel's word card, into the deck `midori`: `kana` the dictionary form, `kanji`, `kind` (word, particle, ending, expression or name, as in its corpus), `meanings` the sense on that occurrence's card, `note` its grammar and notes, and the sentence it was met in as `line` (Japanese, with names filled in), `lineEn` (the natural translation), `surface` (the range of the word in it, checked against the breakdown before sending) and `speaker`. The first sentence a word was sent from stays its example.
+1. **What it sends.** A word card from the reading panel's word card, into the deck `midori`: `kana` the dictionary form, `kanji`, `kind` (its part of speech, as in its corpus), `meanings` the sense on that occurrence's card, `note` its grammar and notes, and the sentence it was met in as `line` (Japanese, with names filled in), `lineEn` (the natural translation), `surface` (the range of the word in it, checked against the breakdown before sending) and `speaker`. The first sentence a word was sent from stays its example.
 2. **Its IDs** follow Identity above, from the corpus: dictionary form, plus `#` and the kanji. Midori's corpus check fails a word that has kanji in one occurrence and none in another, since that would split one word into two cards.
 3. **Merging** follows the rule above: a word already in the deck in another sense gets that sense appended.
 4. **Marking**: it reads the deck's cards to mark words already sent.

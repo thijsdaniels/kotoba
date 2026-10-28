@@ -15,13 +15,24 @@
   --screen-ink: var(--g3);
   --back: var(--g2);
   --back-ink: var(--g0);
-  --k-word: #1d7471;
-  --k-particle: #3f7f3a;
-  --k-form: #6b4fbb;
-  --k-ending: #2f6fb3;
-  --k-kana: #6d6d6d;
-  --k-expression: #b0602a;
+  /* parts of speech in color families, as in Midori: nouns, names, verbs, adjectives, other content words, grammar */
+  --k-noun: #2e7d32;
+  --k-pronoun: #2e7d32;
   --k-name: #a2499a;
+  --k-verb: #b8492b;
+  --k-i-adjective: #8f6200;
+  --k-na-adjective: #8f6200;
+  --k-pre-noun: #8f6200;
+  --k-adverb: #6b4fbb;
+  --k-conjunction: #6b4fbb;
+  --k-interjection: #6b4fbb;
+  --k-expression: #6b4fbb;
+  --k-particle: #2f6fb3;
+  --k-auxiliary: #2f6fb3;
+  --k-prefix: #2f6fb3;
+  --k-suffix: #2f6fb3;
+  --k-form: #1d7471;
+  --k-kana: #6d6d6d;
   --tint: 10%;
   --f-jp: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
 }
@@ -29,12 +40,12 @@
   --bg: var(--g3); --panel: #1e1e1e; --fg: var(--g0); --muted: var(--g1); --line: #3a3a3a;
   --accent: var(--g0); --accent-soft: #2e2e2e; --again: #e07a6e; --hard: #d6a556;
   --screen: #2a2a2a; --screen-ink: var(--g0); --back: #2a2a2a; --back-ink: var(--g1);
-  --k-word: #5cc4bc; --k-particle: #8cc97f; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --k-expression: #e39a62; --k-name: #d98bcc; --tint: 16%; color-scheme: dark } }
+  --k-noun: #7fcf86; --k-pronoun: #7fcf86; --k-name: #d98bcc; --k-verb: #f0896a; --k-i-adjective: #e2b552; --k-na-adjective: #e2b552; --k-pre-noun: #e2b552; --k-adverb: #a995ea; --k-conjunction: #a995ea; --k-interjection: #a995ea; --k-expression: #a995ea; --k-particle: #7eb0e8; --k-auxiliary: #7eb0e8; --k-prefix: #7eb0e8; --k-suffix: #7eb0e8; --k-form: #5cc4bc; --k-kana: #a3a3a3; --tint: 16%; color-scheme: dark } }
 :root[data-theme="dark"] {
   --bg: var(--g3); --panel: #1e1e1e; --fg: var(--g0); --muted: var(--g1); --line: #3a3a3a;
   --accent: var(--g0); --accent-soft: #2e2e2e; --again: #e07a6e; --hard: #d6a556;
   --screen: #2a2a2a; --screen-ink: var(--g0); --back: #2a2a2a; --back-ink: var(--g1);
-  --k-word: #5cc4bc; --k-particle: #8cc97f; --k-form: #a995ea; --k-ending: #7eb0e8; --k-kana: #a3a3a3; --k-expression: #e39a62; --k-name: #d98bcc; --tint: 16%; color-scheme: dark }
+  --k-noun: #7fcf86; --k-pronoun: #7fcf86; --k-name: #d98bcc; --k-verb: #f0896a; --k-i-adjective: #e2b552; --k-na-adjective: #e2b552; --k-pre-noun: #e2b552; --k-adverb: #a995ea; --k-conjunction: #a995ea; --k-interjection: #a995ea; --k-expression: #a995ea; --k-particle: #7eb0e8; --k-auxiliary: #7eb0e8; --k-prefix: #7eb0e8; --k-suffix: #7eb0e8; --k-form: #5cc4bc; --k-kana: #a3a3a3; --tint: 16%; color-scheme: dark }
 html, body { height: 100%; margin: 0; }
 [hidden] { display: none !important; }
 .practice { display: flex; flex-direction: column; gap: 12px; }

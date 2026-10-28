@@ -1,6 +1,8 @@
 // What Kotoba stores and what a source sends it. SPEC.md describes the contract; this is the one place it is enforced.
 
-export const KINDS = ["word", "particle", "expression", "form", "ending", "name", "kana"] as const;
+// Parts of speech for a word, plus Kotoba's own kinds: form (a conjugation drill) and kana.
+export const KINDS = ["noun", "pronoun", "name", "verb", "i-adjective", "na-adjective", "pre-noun", "adverb", "conjunction", "interjection",
+  "particle", "auxiliary", "prefix", "suffix", "expression", "form", "kana"] as const;
 export type Kind = (typeof KINDS)[number];
 export type Side = "recognition" | "production";
 export type Introduce = "random" | "in order";
