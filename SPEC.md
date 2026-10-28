@@ -49,7 +49,7 @@ interface CardInput {
 }
 ```
 
-**Identity.** A card's `source` is derived from facts about what the card is, so the same thing always gets the same ID and nothing about it is chosen: Midori's word cards use the dictionary form, plus `#` and the kanji when the word has kanji (`が`, `ポケモン`, `する`, `つかまえる#捕まえる`, `はし#橋` and `はし#箸` apart). The kana is what the game prints; the kanji, an annotation of ours, only tells apart words that sound alike. Never a hash of the content or a label: rewording a meaning must not make a new card. Two different words spelled the same in kana alone, which no kanji tells apart, add `@` and their kind: `ああ@interjection` (ah) and `ああ@adverb` (like that). A source lists which words those are, so the rule doesn't depend on what else it has sent.
+**Identity.** A card's `source` is derived from facts about what the card is, so the same thing always gets the same ID and nothing about it is chosen: Midori's word cards use the dictionary form, plus `#` and the kanji when the word has kanji, plus `@` and the kind (`が@particle`, `ポケモン@name`, `する@verb`, `つかまえる#捕まえる@verb`, `はし#橋@noun` and `はし#箸@noun` apart). The kind is always there, so a word used as two kinds is two cards (`どれ@pronoun`, which, and `どれ@interjection`, let's see) and meeting a new use later never moves an existing card. The kana is what the game prints; the kanji, an annotation of ours, only tells apart words that sound alike. Never a hash of the content or a label: rewording a meaning must not make a new card.
 
 **Meanings.** One card per word, not per sense: a word met in a second sense keeps its card and gains a meaning. `meanings` lists only the senses the learner has met, never the whole dictionary entry. Kotoba shows them joined with "; ".
 
@@ -61,7 +61,7 @@ Oct 28 changes: `meaning` became `meanings`, `surface` became a range instead of
 
 **Kinds** are parts of speech, as Japanese grammar has them (学校文法), so a card says how its word behaves: noun, pronoun (おれ, ここ, それ: who uses which says a lot), name (proper nouns: Pokémon, people, places, items), verb, い-adjective, な-adjective, pre-noun (連体詞: この, その, どの, only ever before a noun), adverb, conjunction, interjection, particle, auxiliary (助動詞: だ, です, ます, らしい, which conjugate where particles don't), prefix and suffix (お, ご; counters, さん, たち), and expression for a set phrase learned whole (おまちどうさまでした). `form` and `kana` are Kotoba's own: a conjugation drill and a kana card. The app colors them in families: nouns, names, verbs, adjectives, other content words, grammar.
 
-Oct 29 changes: the kinds `word` and `ending` gave way to parts of speech. The few cards stored with them (Midori's, none reviewed yet) were sent again with their new kind.
+Oct 29 changes: the kinds `word` and `ending` gave way to parts of speech. The few cards stored with them (Midori's, none reviewed yet) were sent again with their new kind, under their new source, which now ends in `@` and the kind; the old ones were removed.
 
 Changes from the old built-card format, all renames for clarity: `context` → `speaker`, `vclass` → `verbClass`, `recogOnly` → `recognitionOnly`, and a new `kind`, `name`, for proper nouns (Pokémon, moves, items, places). The source-specific kinds (`pokemon`, `move`, `item`, `term`) and the per-package colors go away; kinds are linguistic and fixed in Kotoba. The `set` field of kana cards goes into `note`. Placeholders like `{player}` are the source's business: Midori fills them in before sending.
 
