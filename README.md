@@ -22,7 +22,7 @@ tools/            kana.py writes the Kana starter; prebuild.mjs stamps the servi
 
 ```
 PUT  /api/decks/<deck>         { "title": "Midori" }              makes sure the deck exists
-POST /api/decks/<deck>/cards   { "cards": [ { "source": "…", "kind": "word", "kana": "…", "meaning": "…" } ] }
+POST /api/decks/<deck>/cards   { "cards": [ { "source": "…", "kind": "word", "kana": "…", "meanings": ["…"] } ] }
 GET  /api/decks/<deck>/cards   what exists, to mark words already in the deck
 ```
 

@@ -38,8 +38,9 @@ interface CardInput {
   note?: string;         // behind "More"
   // form cards: what the form is made from and what it is
   base?: string; form?: string; register?: string; verbClass?: string;
-  // the sentence the word was met in; surface must occur exactly once in line
-  line?: string; lineEn?: string; speaker?: string; surface?: string;
+  // the sentence the word was met in; surface is where the word sits in it: [start, length], as JavaScript indexes
+  // strings (line.slice(start, start + length)); Kotoba checks only that it's inside the line
+  line?: string; lineEn?: string; speaker?: string; surface?: [number, number];
   // an everyday example of our own
   example?: string; exampleEn?: string; exampleLoose?: string;
   order?: number;              // position when the deck introduces in order
@@ -55,11 +56,11 @@ interface CardInput {
 
 **Planned, not built:** renaming a card's `source` with its progress, for when a source fixes a wrong dictionary form.
 
-Oct 28 changes: `meaning` became `meanings`, and the kind `particle` was added (particles are learned for what they do, not what they mean). Cards stored with `meaning` are read as `meanings: [meaning]`; the Kana starter is regenerated.
+Oct 28 changes: `meaning` became `meanings`, `surface` became a range instead of the text (which had to occur exactly once, and short words occur inside others all the time), and the kind `particle` was added (particles are learned for what they do, not what they mean). Cards stored in the old shape are read as the new one: `meanings: [meaning]`, and the surface text as its range where it occurs once. The Kana starter is regenerated.
 
 Changes from the old built-card format, all renames for clarity: `context` → `speaker`, `vclass` → `verbClass`, `recogOnly` → `recognitionOnly`, and a new `kind`, `name`, for proper nouns (Pokémon, moves, items, places). The source-specific kinds (`pokemon`, `move`, `item`, `term`) and the per-package colors go away; kinds are linguistic and fixed in Kotoba. The `set` field of kana cards goes into `note`. Placeholders like `{player}` are the source's business: Midori fills them in before sending.
 
-The server validates every card and rejects what doesn't fit, with the reason: missing required fields, an unknown kind, a `surface` that isn't in `line` exactly once. Nothing is guessed.
+The server validates every card and rejects what doesn't fit, with the reason: missing required fields, an unknown kind, a `surface` range outside `line`. Nothing is guessed. Whether the range is the right word only the source can know (unspaced text has no word boundaries for Kotoba to check), so the source checks it before sending: Midori asserts the slice is the word as its breakdown has it, and a hand-written source finds the word with a helper that refuses when it occurs more than once.
 
 ### API
 
@@ -106,7 +107,7 @@ Kana is a JSON file of cards served with the app (`public/starters/kana.json`, g
 
 Built; its README describes it. What concerns the split:
 
-1. **What it sends.** A word card from the reading panel's word card, into the deck `midori`: `kana` the dictionary form, `kanji`, `kind` (word, particle, ending, expression or name, as in its corpus), `meanings` the sense on that occurrence's card, `note` its grammar and notes, and the sentence it was met in as `line` (Japanese, with names filled in), `lineEn` (the natural translation), `surface` (the word as it appears there, left out when it appears more than once) and `speaker`. The first sentence a word was sent from stays its example.
+1. **What it sends.** A word card from the reading panel's word card, into the deck `midori`: `kana` the dictionary form, `kanji`, `kind` (word, particle, ending, expression or name, as in its corpus), `meanings` the sense on that occurrence's card, `note` its grammar and notes, and the sentence it was met in as `line` (Japanese, with names filled in), `lineEn` (the natural translation), `surface` (the range of the word in it, checked against the breakdown before sending) and `speaker`. The first sentence a word was sent from stays its example.
 2. **Its IDs** follow Identity above, from the corpus: dictionary form, plus `#` and the kanji. Midori's corpus check fails a word that has kanji in one occurrence and none in another, since that would split one word into two cards.
 3. **Merging** follows the rule above: a word already in the deck in another sense gets that sense appended.
 4. **Marking**: it reads the deck's cards to mark words already sent.

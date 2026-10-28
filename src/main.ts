@@ -9,7 +9,7 @@ import { currentRecall, dayOf, formatInterval, schedule, type Grade, type Schedu
 interface QueueEntry { id: string; side: Side }
 interface StarterDeck { deck: Pick<Deck, "id" | "title" | "description" | "introduce" | "production">; cards: CardInput[] }
 
-const KIND_LABELS: Record<Kind, string> = { word: "Word", expression: "Expression", form: "Form", ending: "Ending", name: "Name", kana: "Kana" };
+const KIND_LABELS: Record<Kind, string> = { word: "Word", particle: "Particle", expression: "Expression", form: "Form", ending: "Ending", name: "Name", kana: "Kana" };
 const STARTERS = [{ id: "kana", file: "/starters/kana.json", title: "Kana", description: "Hiragana and katakana, in gojūon order." }];
 const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
 const REVIEW_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Hard", "hard", 1], ["Good", "good", 2], ["Easy", "easy", 3]];
@@ -47,12 +47,11 @@ const kindColor = (card: Card) => `--kc: var(--k-${card.kind})`;
 const deckTitle = (card: Card) => deckOf(card)?.title ?? card.deck;
 // implied words that Japanese leaves out are stored as "(I)" and shown lighter, without brackets
 const implied = (text: unknown) => escapeHtml(text).replace(/\(([^()]*)\)/g, '<span class="imp">$1</span>');
-// highlight the exact surface form inside a line; the server has checked it occurs exactly once
-function mark(line: string | undefined, surface: string | undefined): string {
+// highlight the word inside a line, at the range the source gave ([start, length]; the server checked it's inside)
+function mark(line: string | undefined, surface: [number, number] | undefined): string {
   if (!line || !surface) return escapeHtml(line);
-  const at = line.indexOf(surface);
-  if (at < 0) return escapeHtml(line);
-  return escapeHtml(line.slice(0, at)) + "<mark>" + escapeHtml(surface) + "</mark>" + escapeHtml(line.slice(at + surface.length));
+  const [at, length] = surface;
+  return escapeHtml(line.slice(0, at)) + "<mark>" + escapeHtml(line.slice(at, at + length)) + "</mark>" + escapeHtml(line.slice(at + length));
 }
 
 const practicing = () => view === "practice";
@@ -168,10 +167,10 @@ function frontHtml(card: Card, recognition: boolean) {
   if (card.kind === "kana") return `<div class="kglyph">${escapeHtml(card.kana)}</div>`;
   if (card.kind === "form" && !recognition) return `<div class="mid">${escapeHtml(card.base)}</div><div class="task">${escapeHtml([card.form, card.register].filter(Boolean).join(", "))}</div>`;
   if (recognition) return `<div class="big">${escapeHtml(card.kana)}</div>`;
-  return `<div class="mid">${implied(String(card.meaning).split(" · ")[0])}</div>`; // the primary gloss is the cue; the nuance waits for the answer
+  return `<div class="mid">${implied(card.meanings.map(meaning => meaning.split(" · ")[0]).join("; "))}</div>`; // the primary glosses are the cue; the nuance waits for the answer
 }
 // an everyday example is our own text: highlight the dictionary form when it appears as written, otherwise nothing
-const exampleSurface = (card: Card) => { const core = card.kana.replace(/[〜～]/g, "").split("／")[0].trim(); return card.example?.includes(core) ? core : undefined; };
+const exampleSurface = (card: Card): [number, number] | undefined => { const core = card.kana.replace(/[〜～]/g, "").split("／")[0].trim(); const at = card.example?.indexOf(core) ?? -1; return core && at >= 0 ? [at, core.length] : undefined; };
 const exampleHtml = (card: Card, cls: string) => `<div class="${cls}">${cls === "ex" ? `<span class="jp">${mark(card.example, exampleSurface(card))}</span>` : mark(card.example, exampleSurface(card))}<span class="en">${implied(card.exampleEn ?? "")}</span>${card.exampleLoose ? `<span class="en"><i>${implied(card.exampleLoose)}</i></span>` : ""}</div>`;
 const lineHtml = (card: Card, cls: string) => `<div class="${cls}">${card.speaker ? `<span class="who">${escapeHtml(card.speaker)}</span>` : ""}${mark(card.line, card.surface)}${card.lineEn ? `<span class="en">${implied(card.lineEn)}</span>` : ""}</div>`;
 function quoteHtml(card: Card) {
@@ -180,7 +179,7 @@ function quoteHtml(card: Card) {
   return "";
 }
 function meaningHtml(card: Card) {
-  let html = implied(card.meaning);
+  let html = implied(card.meanings.join("; "));
   if (card.loose) html += `<span class="loose">${implied(card.loose)}</span>`;
   if (card.kind === "form") html += `<span class="sub">${escapeHtml(formLabel(card))}</span>`;
   return html;
@@ -271,7 +270,7 @@ function renderCards() {
   const query = (byId("search") as HTMLInputElement).value.trim().toLowerCase();
   const deckOrder = new Map([...decks.values()].sort((a, b) => a.created - b.created).map((deck, index) => [deck.id, index]));
   const items = [...cards.values()]
-    .filter(card => !query || [card.kana, card.kanji, card.romaji, card.meaning, card.base, card.form, card.speaker, deckTitle(card), KIND_LABELS[card.kind]].some(field => String(field ?? "").toLowerCase().includes(query)))
+    .filter(card => !query || [card.kana, card.kanji, card.romaji, card.meanings.join("; "), card.base, card.form, card.speaker, deckTitle(card), KIND_LABELS[card.kind]].some(field => String(field ?? "").toLowerCase().includes(query)))
     .sort((a, b) => (deckOrder.get(a.deck) ?? 99) - (deckOrder.get(b.deck) ?? 99) || (a.order ?? Infinity) - (b.order ?? Infinity) || a.kind.localeCompare(b.kind) || a.kana.localeCompare(b.kana, "ja"));
   const list = byId("list");
   if (!items.length) { list.innerHTML = `<div class="empty">${cards.size ? "No matches." : "No cards yet."}</div>`; return; }
@@ -284,7 +283,7 @@ function renderCards() {
     if (folded) return heading;
     const [cls, label] = status(card), open = openId === card.id;
     const tag = `<span class="tag">${escapeHtml(KIND_LABELS[card.kind])}</span>`;
-    const meaning = (card.kind === "form" && card.form ? `<span class="form">${escapeHtml(card.form)}</span> · ` : "") + implied(card.meaning);
+    const meaning = (card.kind === "form" && card.form ? `<span class="form">${escapeHtml(card.form)}</span> · ` : "") + implied(card.meanings.join("; "));
     return heading + `<div class="item" style="${kindColor(card)}"><button data-id="${escapeHtml(card.id)}" aria-expanded="${open}"><span class="k">${escapeHtml(card.kana)}${card.kanji ? `<small>${escapeHtml(card.kanji)}</small>` : ""}${tag}</span><span class="chip ${cls}">${label}</span><span class="m">${meaning}</span></button>
       ${open ? `<div class="detail">${listDetailHtml(card)}</div>` : ""}</div>`;
   }).join("");

@@ -16,7 +16,7 @@ for script, name, characters in (("hira", "hiragana", HIRAGANA), ("kata", "katak
             "source": f"{script}-{ROMAJI[index]}",
             "kind": "kana",
             "kana": character,
-            "meaning": ROMAJI[index],
+            "meanings": [ROMAJI[index]],
             "note": name,
             "order": len(cards),
             "recognitionOnly": True,

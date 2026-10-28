@@ -5,13 +5,15 @@
 // Writing a name that already exists fails, so two writers that loaded the same version can't both win:
 // the loser reloads, applies its change again and writes the next number. Old snapshots are pruned as we go.
 import { list, put, del } from "@vercel/blob";
-import type { Library, Progress } from "./_contract.js";
+import { upgradeStored, type Library, type Progress } from "./_contract.js";
 
-interface Series<T> { prefix: string; empty: () => T }
+interface Series<T> { prefix: string; empty: () => T; upgrade?: (data: T) => T }
 
 export const library: Series<Library> = {
   prefix: "kotoba/v3/library/",
   empty: () => ({ settings: { newPerDay: 20 }, decks: {}, cards: {} }),
+  // cards stored in an older shape read as the current one, and are saved that way on the next write
+  upgrade: data => { for (const card of Object.values(data.cards)) upgradeStored(card); return data; },
 };
 export const progress: Series<Progress> = {
   prefix: "kotoba/v3/progress/",
@@ -24,10 +26,10 @@ const KEEP = 5;
 const PRUNE_AFTER = 60_000;
 const ATTEMPTS = 10;
 
-const nameOf = (series: Series<unknown>, version: number) => `${series.prefix}${String(version).padStart(9, "0")}.json`;
+const nameOf = (series: { prefix: string }, version: number) => `${series.prefix}${String(version).padStart(9, "0")}.json`;
 const versionOf = (pathname: string) => Number(pathname.slice(pathname.lastIndexOf("/") + 1, -".json".length));
 
-async function snapshots(series: Series<unknown>) {
+async function snapshots(series: { prefix: string }) {
   const found = await list({ prefix: series.prefix, limit: 1000 });
   return found.blobs.sort((a, b) => (a.pathname < b.pathname ? 1 : -1)); // newest first
 }
@@ -37,7 +39,8 @@ export async function load<T>(series: Series<T>): Promise<{ version: number; dat
   if (!newest) return { version: 0, data: series.empty() };
   const response = await fetch(newest.url, { cache: "no-store" });
   if (!response.ok) throw new Error(`could not read ${newest.pathname}: ${response.status}`);
-  return { version: versionOf(newest.pathname), data: { ...series.empty(), ...(await response.json()) } };
+  const data = { ...series.empty(), ...(await response.json()) };
+  return { version: versionOf(newest.pathname), data: series.upgrade ? series.upgrade(data) : data };
 }
 
 // Applies a change to the newest snapshot and saves it as the next one. `change` may run more than once,

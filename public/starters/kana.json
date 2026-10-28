@@ -11,7 +11,9 @@
    "source": "hira-a",
    "kind": "kana",
    "kana": "あ",
-   "meaning": "a",
+   "meanings": [
+    "a"
+   ],
    "note": "hiragana",
    "order": 0,
    "recognitionOnly": true
@@ -20,7 +22,9 @@
    "source": "hira-i",
    "kind": "kana",
    "kana": "い",
-   "meaning": "i",
+   "meanings": [
+    "i"
+   ],
    "note": "hiragana",
    "order": 1,
    "recognitionOnly": true
@@ -29,7 +33,9 @@
    "source": "hira-u",
    "kind": "kana",
    "kana": "う",
-   "meaning": "u",
+   "meanings": [
+    "u"
+   ],
    "note": "hiragana",
    "order": 2,
    "recognitionOnly": true
@@ -38,7 +44,9 @@
    "source": "hira-e",
    "kind": "kana",
    "kana": "え",
-   "meaning": "e",
+   "meanings": [
+    "e"
+   ],
    "note": "hiragana",
    "order": 3,
    "recognitionOnly": true
@@ -47,7 +55,9 @@
    "source": "hira-o",
    "kind": "kana",
    "kana": "お",
-   "meaning": "o",
+   "meanings": [
+    "o"
+   ],
    "note": "hiragana",
    "order": 4,
    "recognitionOnly": true
@@ -56,7 +66,9 @@
    "source": "hira-ka",
    "kind": "kana",
    "kana": "か",
-   "meaning": "ka",
+   "meanings": [
+    "ka"
+   ],
    "note": "hiragana",
    "order": 5,
    "recognitionOnly": true
@@ -65,7 +77,9 @@
    "source": "hira-ki",
    "kind": "kana",
    "kana": "き",
-   "meaning": "ki",
+   "meanings": [
+    "ki"
+   ],
    "note": "hiragana",
    "order": 6,
    "recognitionOnly": true
@@ -74,7 +88,9 @@
    "source": "hira-ku",
    "kind": "kana",
    "kana": "く",
-   "meaning": "ku",
+   "meanings": [
+    "ku"
+   ],
    "note": "hiragana",
    "order": 7,
    "recognitionOnly": true
@@ -83,7 +99,9 @@
    "source": "hira-ke",
    "kind": "kana",
    "kana": "け",
-   "meaning": "ke",
+   "meanings": [
+    "ke"
+   ],
    "note": "hiragana",
    "order": 8,
    "recognitionOnly": true
@@ -92,7 +110,9 @@
    "source": "hira-ko",
    "kind": "kana",
    "kana": "こ",
-   "meaning": "ko",
+   "meanings": [
+    "ko"
+   ],
    "note": "hiragana",
    "order": 9,
    "recognitionOnly": true
@@ -101,7 +121,9 @@
    "source": "hira-sa",
    "kind": "kana",
    "kana": "さ",
-   "meaning": "sa",
+   "meanings": [
+    "sa"
+   ],
    "note": "hiragana",
    "order": 10,
    "recognitionOnly": true
@@ -110,7 +132,9 @@
    "source": "hira-shi",
    "kind": "kana",
    "kana": "し",
-   "meaning": "shi",
+   "meanings": [
+    "shi"
+   ],
    "note": "hiragana",
    "order": 11,
    "recognitionOnly": true
@@ -119,7 +143,9 @@
    "source": "hira-su",
    "kind": "kana",
    "kana": "す",
-   "meaning": "su",
+   "meanings": [
+    "su"
+   ],
    "note": "hiragana",
    "order": 12,
    "recognitionOnly": true
@@ -128,7 +154,9 @@
    "source": "hira-se",
    "kind": "kana",
    "kana": "せ",
-   "meaning": "se",
+   "meanings": [
+    "se"
+   ],
    "note": "hiragana",
    "order": 13,
    "recognitionOnly": true
@@ -137,7 +165,9 @@
    "source": "hira-so",
    "kind": "kana",
    "kana": "そ",
-   "meaning": "so",
+   "meanings": [
+    "so"
+   ],
    "note": "hiragana",
    "order": 14,
    "recognitionOnly": true
@@ -146,7 +176,9 @@
    "source": "hira-ta",
    "kind": "kana",
    "kana": "た",
-   "meaning": "ta",
+   "meanings": [
+    "ta"
+   ],
    "note": "hiragana",
    "order": 15,
    "recognitionOnly": true
@@ -155,7 +187,9 @@
    "source": "hira-chi",
    "kind": "kana",
    "kana": "ち",
-   "meaning": "chi",
+   "meanings": [
+    "chi"
+   ],
    "note": "hiragana",
    "order": 16,
    "recognitionOnly": true
@@ -164,7 +198,9 @@
    "source": "hira-tsu",
    "kind": "kana",
    "kana": "つ",
-   "meaning": "tsu",
+   "meanings": [
+    "tsu"
+   ],
    "note": "hiragana",
    "order": 17,
    "recognitionOnly": true
@@ -173,7 +209,9 @@
    "source": "hira-te",
    "kind": "kana",
    "kana": "て",
-   "meaning": "te",
+   "meanings": [
+    "te"
+   ],
    "note": "hiragana",
    "order": 18,
    "recognitionOnly": true
@@ -182,7 +220,9 @@
    "source": "hira-to",
    "kind": "kana",
    "kana": "と",
-   "meaning": "to",
+   "meanings": [
+    "to"
+   ],
    "note": "hiragana",
    "order": 19,
    "recognitionOnly": true
@@ -191,7 +231,9 @@
    "source": "hira-na",
    "kind": "kana",
    "kana": "な",
-   "meaning": "na",
+   "meanings": [
+    "na"
+   ],
    "note": "hiragana",
    "order": 20,
    "recognitionOnly": true
@@ -200,7 +242,9 @@
    "source": "hira-ni",
    "kind": "kana",
    "kana": "に",
-   "meaning": "ni",
+   "meanings": [
+    "ni"
+   ],
    "note": "hiragana",
    "order": 21,
    "recognitionOnly": true
@@ -209,7 +253,9 @@
    "source": "hira-nu",
    "kind": "kana",
    "kana": "ぬ",
-   "meaning": "nu",
+   "meanings": [
+    "nu"
+   ],
    "note": "hiragana",
    "order": 22,
    "recognitionOnly": true
@@ -218,7 +264,9 @@
    "source": "hira-ne",
    "kind": "kana",
    "kana": "ね",
-   "meaning": "ne",
+   "meanings": [
+    "ne"
+   ],
    "note": "hiragana",
    "order": 23,
    "recognitionOnly": true
@@ -227,7 +275,9 @@
    "source": "hira-no",
    "kind": "kana",
    "kana": "の",
-   "meaning": "no",
+   "meanings": [
+    "no"
+   ],
    "note": "hiragana",
    "order": 24,
    "recognitionOnly": true
@@ -236,7 +286,9 @@
    "source": "hira-ha",
    "kind": "kana",
    "kana": "は",
-   "meaning": "ha",
+   "meanings": [
+    "ha"
+   ],
    "note": "hiragana",
    "order": 25,
    "recognitionOnly": true
@@ -245,7 +297,9 @@
    "source": "hira-hi",
    "kind": "kana",
    "kana": "ひ",
-   "meaning": "hi",
+   "meanings": [
+    "hi"
+   ],
    "note": "hiragana",
    "order": 26,
    "recognitionOnly": true
@@ -254,7 +308,9 @@
    "source": "hira-fu",
    "kind": "kana",
    "kana": "ふ",
-   "meaning": "fu",
+   "meanings": [
+    "fu"
+   ],
    "note": "hiragana",
    "order": 27,
    "recognitionOnly": true
@@ -263,7 +319,9 @@
    "source": "hira-he",
    "kind": "kana",
    "kana": "へ",
-   "meaning": "he",
+   "meanings": [
+    "he"
+   ],
    "note": "hiragana",
    "order": 28,
    "recognitionOnly": true
@@ -272,7 +330,9 @@
    "source": "hira-ho",
    "kind": "kana",
    "kana": "ほ",
-   "meaning": "ho",
+   "meanings": [
+    "ho"
+   ],
    "note": "hiragana",
    "order": 29,
    "recognitionOnly": true
@@ -281,7 +341,9 @@
    "source": "hira-ma",
    "kind": "kana",
    "kana": "ま",
-   "meaning": "ma",
+   "meanings": [
+    "ma"
+   ],
    "note": "hiragana",
    "order": 30,
    "recognitionOnly": true
@@ -290,7 +352,9 @@
    "source": "hira-mi",
    "kind": "kana",
    "kana": "み",
-   "meaning": "mi",
+   "meanings": [
+    "mi"
+   ],
    "note": "hiragana",
    "order": 31,
    "recognitionOnly": true
@@ -299,7 +363,9 @@
    "source": "hira-mu",
    "kind": "kana",
    "kana": "む",
-   "meaning": "mu",
+   "meanings": [
+    "mu"
+   ],
    "note": "hiragana",
    "order": 32,
    "recognitionOnly": true
@@ -308,7 +374,9 @@
    "source": "hira-me",
    "kind": "kana",
    "kana": "め",
-   "meaning": "me",
+   "meanings": [
+    "me"
+   ],
    "note": "hiragana",
    "order": 33,
    "recognitionOnly": true
@@ -317,7 +385,9 @@
    "source": "hira-mo",
    "kind": "kana",
    "kana": "も",
-   "meaning": "mo",
+   "meanings": [
+    "mo"
+   ],
    "note": "hiragana",
    "order": 34,
    "recognitionOnly": true
@@ -326,7 +396,9 @@
    "source": "hira-ya",
    "kind": "kana",
    "kana": "や",
-   "meaning": "ya",
+   "meanings": [
+    "ya"
+   ],
    "note": "hiragana",
    "order": 35,
    "recognitionOnly": true
@@ -335,7 +407,9 @@
    "source": "hira-yu",
    "kind": "kana",
    "kana": "ゆ",
-   "meaning": "yu",
+   "meanings": [
+    "yu"
+   ],
    "note": "hiragana",
    "order": 36,
    "recognitionOnly": true
@@ -344,7 +418,9 @@
    "source": "hira-yo",
    "kind": "kana",
    "kana": "よ",
-   "meaning": "yo",
+   "meanings": [
+    "yo"
+   ],
    "note": "hiragana",
    "order": 37,
    "recognitionOnly": true
@@ -353,7 +429,9 @@
    "source": "hira-ra",
    "kind": "kana",
    "kana": "ら",
-   "meaning": "ra",
+   "meanings": [
+    "ra"
+   ],
    "note": "hiragana",
    "order": 38,
    "recognitionOnly": true
@@ -362,7 +440,9 @@
    "source": "hira-ri",
    "kind": "kana",
    "kana": "り",
-   "meaning": "ri",
+   "meanings": [
+    "ri"
+   ],
    "note": "hiragana",
    "order": 39,
    "recognitionOnly": true
@@ -371,7 +451,9 @@
    "source": "hira-ru",
    "kind": "kana",
    "kana": "る",
-   "meaning": "ru",
+   "meanings": [
+    "ru"
+   ],
    "note": "hiragana",
    "order": 40,
    "recognitionOnly": true
@@ -380,7 +462,9 @@
    "source": "hira-re",
    "kind": "kana",
    "kana": "れ",
-   "meaning": "re",
+   "meanings": [
+    "re"
+   ],
    "note": "hiragana",
    "order": 41,
    "recognitionOnly": true
@@ -389,7 +473,9 @@
    "source": "hira-ro",
    "kind": "kana",
    "kana": "ろ",
-   "meaning": "ro",
+   "meanings": [
+    "ro"
+   ],
    "note": "hiragana",
    "order": 42,
    "recognitionOnly": true
@@ -398,7 +484,9 @@
    "source": "hira-wa",
    "kind": "kana",
    "kana": "わ",
-   "meaning": "wa",
+   "meanings": [
+    "wa"
+   ],
    "note": "hiragana",
    "order": 43,
    "recognitionOnly": true
@@ -407,7 +495,9 @@
    "source": "hira-wo",
    "kind": "kana",
    "kana": "を",
-   "meaning": "wo",
+   "meanings": [
+    "wo"
+   ],
    "note": "hiragana",
    "order": 44,
    "recognitionOnly": true
@@ -416,7 +506,9 @@
    "source": "hira-n",
    "kind": "kana",
    "kana": "ん",
-   "meaning": "n",
+   "meanings": [
+    "n"
+   ],
    "note": "hiragana",
    "order": 45,
    "recognitionOnly": true
@@ -425,7 +517,9 @@
    "source": "kata-a",
    "kind": "kana",
    "kana": "ア",
-   "meaning": "a",
+   "meanings": [
+    "a"
+   ],
    "note": "katakana",
    "order": 46,
    "recognitionOnly": true
@@ -434,7 +528,9 @@
    "source": "kata-i",
    "kind": "kana",
    "kana": "イ",
-   "meaning": "i",
+   "meanings": [
+    "i"
+   ],
    "note": "katakana",
    "order": 47,
    "recognitionOnly": true
@@ -443,7 +539,9 @@
    "source": "kata-u",
    "kind": "kana",
    "kana": "ウ",
-   "meaning": "u",
+   "meanings": [
+    "u"
+   ],
    "note": "katakana",
    "order": 48,
    "recognitionOnly": true
@@ -452,7 +550,9 @@
    "source": "kata-e",
    "kind": "kana",
    "kana": "エ",
-   "meaning": "e",
+   "meanings": [
+    "e"
+   ],
    "note": "katakana",
    "order": 49,
    "recognitionOnly": true
@@ -461,7 +561,9 @@
    "source": "kata-o",
    "kind": "kana",
    "kana": "オ",
-   "meaning": "o",
+   "meanings": [
+    "o"
+   ],
    "note": "katakana",
    "order": 50,
    "recognitionOnly": true
@@ -470,7 +572,9 @@
    "source": "kata-ka",
    "kind": "kana",
    "kana": "カ",
-   "meaning": "ka",
+   "meanings": [
+    "ka"
+   ],
    "note": "katakana",
    "order": 51,
    "recognitionOnly": true
@@ -479,7 +583,9 @@
    "source": "kata-ki",
    "kind": "kana",
    "kana": "キ",
-   "meaning": "ki",
+   "meanings": [
+    "ki"
+   ],
    "note": "katakana",
    "order": 52,
    "recognitionOnly": true
@@ -488,7 +594,9 @@
    "source": "kata-ku",
    "kind": "kana",
    "kana": "ク",
-   "meaning": "ku",
+   "meanings": [
+    "ku"
+   ],
    "note": "katakana",
    "order": 53,
    "recognitionOnly": true
@@ -497,7 +605,9 @@
    "source": "kata-ke",
    "kind": "kana",
    "kana": "ケ",
-   "meaning": "ke",
+   "meanings": [
+    "ke"
+   ],
    "note": "katakana",
    "order": 54,
    "recognitionOnly": true
@@ -506,7 +616,9 @@
    "source": "kata-ko",
    "kind": "kana",
    "kana": "コ",
-   "meaning": "ko",
+   "meanings": [
+    "ko"
+   ],
    "note": "katakana",
    "order": 55,
    "recognitionOnly": true
@@ -515,7 +627,9 @@
    "source": "kata-sa",
    "kind": "kana",
    "kana": "サ",
-   "meaning": "sa",
+   "meanings": [
+    "sa"
+   ],
    "note": "katakana",
    "order": 56,
    "recognitionOnly": true
@@ -524,7 +638,9 @@
    "source": "kata-shi",
    "kind": "kana",
    "kana": "シ",
-   "meaning": "shi",
+   "meanings": [
+    "shi"
+   ],
    "note": "katakana",
    "order": 57,
    "recognitionOnly": true
@@ -533,7 +649,9 @@
    "source": "kata-su",
    "kind": "kana",
    "kana": "ス",
-   "meaning": "su",
+   "meanings": [
+    "su"
+   ],
    "note": "katakana",
    "order": 58,
    "recognitionOnly": true
@@ -542,7 +660,9 @@
    "source": "kata-se",
    "kind": "kana",
    "kana": "セ",
-   "meaning": "se",
+   "meanings": [
+    "se"
+   ],
    "note": "katakana",
    "order": 59,
    "recognitionOnly": true
@@ -551,7 +671,9 @@
    "source": "kata-so",
    "kind": "kana",
    "kana": "ソ",
-   "meaning": "so",
+   "meanings": [
+    "so"
+   ],
    "note": "katakana",
    "order": 60,
    "recognitionOnly": true
@@ -560,7 +682,9 @@
    "source": "kata-ta",
    "kind": "kana",
    "kana": "タ",
-   "meaning": "ta",
+   "meanings": [
+    "ta"
+   ],
    "note": "katakana",
    "order": 61,
    "recognitionOnly": true
@@ -569,7 +693,9 @@
    "source": "kata-chi",
    "kind": "kana",
    "kana": "チ",
-   "meaning": "chi",
+   "meanings": [
+    "chi"
+   ],
    "note": "katakana",
    "order": 62,
    "recognitionOnly": true
@@ -578,7 +704,9 @@
    "source": "kata-tsu",
    "kind": "kana",
    "kana": "ツ",
-   "meaning": "tsu",
+   "meanings": [
+    "tsu"
+   ],
    "note": "katakana",
    "order": 63,
    "recognitionOnly": true
@@ -587,7 +715,9 @@
    "source": "kata-te",
    "kind": "kana",
    "kana": "テ",
-   "meaning": "te",
+   "meanings": [
+    "te"
+   ],
    "note": "katakana",
    "order": 64,
    "recognitionOnly": true
@@ -596,7 +726,9 @@
    "source": "kata-to",
    "kind": "kana",
    "kana": "ト",
-   "meaning": "to",
+   "meanings": [
+    "to"
+   ],
    "note": "katakana",
    "order": 65,
    "recognitionOnly": true
@@ -605,7 +737,9 @@
    "source": "kata-na",
    "kind": "kana",
    "kana": "ナ",
-   "meaning": "na",
+   "meanings": [
+    "na"
+   ],
    "note": "katakana",
    "order": 66,
    "recognitionOnly": true
@@ -614,7 +748,9 @@
    "source": "kata-ni",
    "kind": "kana",
    "kana": "ニ",
-   "meaning": "ni",
+   "meanings": [
+    "ni"
+   ],
    "note": "katakana",
    "order": 67,
    "recognitionOnly": true
@@ -623,7 +759,9 @@
    "source": "kata-nu",
    "kind": "kana",
    "kana": "ヌ",
-   "meaning": "nu",
+   "meanings": [
+    "nu"
+   ],
    "note": "katakana",
    "order": 68,
    "recognitionOnly": true
@@ -632,7 +770,9 @@
    "source": "kata-ne",
    "kind": "kana",
    "kana": "ネ",
-   "meaning": "ne",
+   "meanings": [
+    "ne"
+   ],
    "note": "katakana",
    "order": 69,
    "recognitionOnly": true
@@ -641,7 +781,9 @@
    "source": "kata-no",
    "kind": "kana",
    "kana": "ノ",
-   "meaning": "no",
+   "meanings": [
+    "no"
+   ],
    "note": "katakana",
    "order": 70,
    "recognitionOnly": true
@@ -650,7 +792,9 @@
    "source": "kata-ha",
    "kind": "kana",
    "kana": "ハ",
-   "meaning": "ha",
+   "meanings": [
+    "ha"
+   ],
    "note": "katakana",
    "order": 71,
    "recognitionOnly": true
@@ -659,7 +803,9 @@
    "source": "kata-hi",
    "kind": "kana",
    "kana": "ヒ",
-   "meaning": "hi",
+   "meanings": [
+    "hi"
+   ],
    "note": "katakana",
    "order": 72,
    "recognitionOnly": true
@@ -668,7 +814,9 @@
    "source": "kata-fu",
    "kind": "kana",
    "kana": "フ",
-   "meaning": "fu",
+   "meanings": [
+    "fu"
+   ],
    "note": "katakana",
    "order": 73,
    "recognitionOnly": true
@@ -677,7 +825,9 @@
    "source": "kata-he",
    "kind": "kana",
    "kana": "ヘ",
-   "meaning": "he",
+   "meanings": [
+    "he"
+   ],
    "note": "katakana",
    "order": 74,
    "recognitionOnly": true
@@ -686,7 +836,9 @@
    "source": "kata-ho",
    "kind": "kana",
    "kana": "ホ",
-   "meaning": "ho",
+   "meanings": [
+    "ho"
+   ],
    "note": "katakana",
    "order": 75,
    "recognitionOnly": true
@@ -695,7 +847,9 @@
    "source": "kata-ma",
    "kind": "kana",
    "kana": "マ",
-   "meaning": "ma",
+   "meanings": [
+    "ma"
+   ],
    "note": "katakana",
    "order": 76,
    "recognitionOnly": true
@@ -704,7 +858,9 @@
    "source": "kata-mi",
    "kind": "kana",
    "kana": "ミ",
-   "meaning": "mi",
+   "meanings": [
+    "mi"
+   ],
    "note": "katakana",
    "order": 77,
    "recognitionOnly": true
@@ -713,7 +869,9 @@
    "source": "kata-mu",
    "kind": "kana",
    "kana": "ム",
-   "meaning": "mu",
+   "meanings": [
+    "mu"
+   ],
    "note": "katakana",
    "order": 78,
    "recognitionOnly": true
@@ -722,7 +880,9 @@
    "source": "kata-me",
    "kind": "kana",
    "kana": "メ",
-   "meaning": "me",
+   "meanings": [
+    "me"
+   ],
    "note": "katakana",
    "order": 79,
    "recognitionOnly": true
@@ -731,7 +891,9 @@
    "source": "kata-mo",
    "kind": "kana",
    "kana": "モ",
-   "meaning": "mo",
+   "meanings": [
+    "mo"
+   ],
    "note": "katakana",
    "order": 80,
    "recognitionOnly": true
@@ -740,7 +902,9 @@
    "source": "kata-ya",
    "kind": "kana",
    "kana": "ヤ",
-   "meaning": "ya",
+   "meanings": [
+    "ya"
+   ],
    "note": "katakana",
    "order": 81,
    "recognitionOnly": true
@@ -749,7 +913,9 @@
    "source": "kata-yu",
    "kind": "kana",
    "kana": "ユ",
-   "meaning": "yu",
+   "meanings": [
+    "yu"
+   ],
    "note": "katakana",
    "order": 82,
    "recognitionOnly": true
@@ -758,7 +924,9 @@
    "source": "kata-yo",
    "kind": "kana",
    "kana": "ヨ",
-   "meaning": "yo",
+   "meanings": [
+    "yo"
+   ],
    "note": "katakana",
    "order": 83,
    "recognitionOnly": true
@@ -767,7 +935,9 @@
    "source": "kata-ra",
    "kind": "kana",
    "kana": "ラ",
-   "meaning": "ra",
+   "meanings": [
+    "ra"
+   ],
    "note": "katakana",
    "order": 84,
    "recognitionOnly": true
@@ -776,7 +946,9 @@
    "source": "kata-ri",
    "kind": "kana",
    "kana": "リ",
-   "meaning": "ri",
+   "meanings": [
+    "ri"
+   ],
    "note": "katakana",
    "order": 85,
    "recognitionOnly": true
@@ -785,7 +957,9 @@
    "source": "kata-ru",
    "kind": "kana",
    "kana": "ル",
-   "meaning": "ru",
+   "meanings": [
+    "ru"
+   ],
    "note": "katakana",
    "order": 86,
    "recognitionOnly": true
@@ -794,7 +968,9 @@
    "source": "kata-re",
    "kind": "kana",
    "kana": "レ",
-   "meaning": "re",
+   "meanings": [
+    "re"
+   ],
    "note": "katakana",
    "order": 87,
    "recognitionOnly": true
@@ -803,7 +979,9 @@
    "source": "kata-ro",
    "kind": "kana",
    "kana": "ロ",
-   "meaning": "ro",
+   "meanings": [
+    "ro"
+   ],
    "note": "katakana",
    "order": 88,
    "recognitionOnly": true
@@ -812,7 +990,9 @@
    "source": "kata-wa",
    "kind": "kana",
    "kana": "ワ",
-   "meaning": "wa",
+   "meanings": [
+    "wa"
+   ],
    "note": "katakana",
    "order": 89,
    "recognitionOnly": true
@@ -821,7 +1001,9 @@
    "source": "kata-wo",
    "kind": "kana",
    "kana": "ヲ",
-   "meaning": "wo",
+   "meanings": [
+    "wo"
+   ],
    "note": "katakana",
    "order": 90,
    "recognitionOnly": true
@@ -830,7 +1012,9 @@
    "source": "kata-n",
    "kind": "kana",
    "kana": "ン",
-   "meaning": "n",
+   "meanings": [
+    "n"
+   ],
    "note": "katakana",
    "order": 91,
    "recognitionOnly": true
