@@ -1,9 +1,9 @@
 // What Kotoba stores and what a source sends it. SPEC.md describes the contract; this is the one place it is enforced.
 
-// Parts of speech for a word; grammar for a grammar point (〜ば, 〜ている); and Kotoba's own kinds: form (a
+// Parts of speech for a word; pattern for a grammar point (文型: 〜ば, 〜ている); and Kotoba's own kinds: form (a
 // conjugation drill) and kana.
 export const KINDS = ["noun", "pronoun", "name", "verb", "i-adjective", "na-adjective", "pre-noun", "adverb", "conjunction", "interjection",
-  "particle", "auxiliary", "prefix", "suffix", "expression", "grammar", "form", "kana"] as const;
+  "particle", "auxiliary", "prefix", "suffix", "expression", "pattern", "form", "kana"] as const;
 export type Kind = (typeof KINDS)[number];
 export type Side = "recognition" | "production";
 export type Introduce = "random" | "in order";

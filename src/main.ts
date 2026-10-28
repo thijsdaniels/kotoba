@@ -12,7 +12,7 @@ interface StarterDeck { deck: Pick<Deck, "id" | "title" | "description" | "intro
 const KIND_LABELS: Record<Kind, string> = {
   noun: "Noun", pronoun: "Pronoun", name: "Name", verb: "Verb", "i-adjective": "い-adjective", "na-adjective": "な-adjective", "pre-noun": "Pre-noun",
   adverb: "Adverb", conjunction: "Conjunction", interjection: "Interjection", particle: "Particle", auxiliary: "Auxiliary", prefix: "Prefix",
-  suffix: "Suffix", expression: "Expression", grammar: "Grammar", form: "Form", kana: "Kana",
+  suffix: "Suffix", expression: "Expression", pattern: "Pattern", form: "Form", kana: "Kana",
 };
 const STARTERS = [{ id: "kana", file: "/starters/kana.json", title: "Kana", description: "Hiragana and katakana, in gojūon order." }];
 const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
@@ -164,7 +164,7 @@ function removeCard(card: Card) {
 /* card faces */
 const formLabel = (card: Card) => [card.base, card.form, card.register, card.verbClass].filter(Boolean).join(" · ");
 function questionLabel(card: Card, recognition: boolean) {
-  if (recognition) return card.kind === "kana" ? "Read it" : card.kind === "grammar" ? "What does it do?" : "What does it mean?";
+  if (recognition) return card.kind === "kana" ? "Read it" : card.kind === "pattern" ? "What does it do?" : "What does it mean?";
   return card.kind === "form" ? "Conjugate" : "Say it in Japanese";
 }
 function frontHtml(card: Card, recognition: boolean) {
