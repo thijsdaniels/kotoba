@@ -1,9 +1,10 @@
 // What Kotoba stores and what a source sends it. SPEC.md describes the contract; this is the one place it is enforced.
 
-// Parts of speech for a word; pattern for a grammar point (文型: 〜ば, 〜ている); and Kotoba's own kinds: form (a
-// conjugation drill) and kana.
+// Parts of speech for a word, as dictionaries give them; pattern for a grammar point (文型: 〜ば, 〜ている); and
+// Kotoba's own kind, kana. A card is a sense and has every kind the dictionary gives that sense (この先 is a noun
+// and an adverb), so `kinds` is a list, in the source's order; the first is the one the app colors by.
 export const KINDS = ["noun", "pronoun", "name", "verb", "i-adjective", "na-adjective", "pre-noun", "adverb", "conjunction", "interjection",
-  "particle", "auxiliary", "prefix", "suffix", "expression", "pattern", "form", "kana"] as const;
+  "particle", "auxiliary", "prefix", "suffix", "expression", "pattern", "kana"] as const;
 export type Kind = (typeof KINDS)[number];
 export type Side = "recognition" | "production";
 export type Introduce = "random" | "in order";
@@ -13,17 +14,13 @@ export type Introduce = "random" | "in order";
 // `surface` is where the word sits in `line`: [start, length], as JavaScript indexes strings.
 export interface CardInput {
   source: string;
-  kind: Kind;
+  kinds: Kind[];
   kana: string;
   meanings: string[];
   kanji?: string;
   romaji?: string;
   loose?: string;
   note?: string;
-  base?: string;
-  form?: string;
-  register?: string;
-  verbClass?: string;
   line?: string;
   lineEn?: string;
   speaker?: string;
@@ -74,8 +71,8 @@ export interface ImportResponse { created: string[]; updated: string[]; unchange
 export const DECK_ID = /^[a-z0-9-]{1,40}$/;
 export const cardId = (deck: string, source: string) => `${deck}/${source}`;
 
-const TEXT_FIELDS = ["kanji", "romaji", "loose", "note", "base", "form", "register", "verbClass", "line", "lineEn", "speaker", "example", "exampleEn", "exampleLoose"] as const;
-const ALLOWED = new Set<string>(["source", "kind", "kana", "meanings", ...TEXT_FIELDS, "surface", "order", "recognitionOnly"]);
+const TEXT_FIELDS = ["kanji", "romaji", "loose", "note", "line", "lineEn", "speaker", "example", "exampleEn", "exampleLoose"] as const;
+const ALLOWED = new Set<string>(["source", "kinds", "kana", "meanings", ...TEXT_FIELDS, "surface", "order", "recognitionOnly"]);
 const MEANINGS_LIMIT = 20;
 const TEXT_LIMIT = 2000;
 const SOURCE_LIMIT = 200;
@@ -91,7 +88,10 @@ export function validateCard(raw: unknown): { card: CardInput } | { error: strin
   if (unknown.length) return fail(`unknown field${unknown.length > 1 ? "s" : ""}: ${unknown.join(", ")}`);
   if (!source) return fail("source is required");
   if (source.length > SOURCE_LIMIT) return fail(`source is longer than ${SOURCE_LIMIT} characters`);
-  if (!KINDS.includes(input.kind as Kind)) return fail(`kind must be one of ${KINDS.join(", ")}`);
+  const kinds = input.kinds;
+  if (!Array.isArray(kinds) || !kinds.length) return fail("kinds is required: a list of at least one kind");
+  if (kinds.some(kind => !KINDS.includes(kind as Kind))) return fail(`every kind must be one of ${KINDS.join(", ")}`);
+  if (new Set(kinds).size !== kinds.length) return fail("kinds has the same kind twice");
   if (typeof input.kana !== "string" || !input.kana.trim()) return fail("kana is required");
   if (input.kana.length > TEXT_LIMIT) return fail(`kana is longer than ${TEXT_LIMIT} characters`);
   const meanings = input.meanings;
@@ -100,7 +100,7 @@ export function validateCard(raw: unknown): { card: CardInput } | { error: strin
   if (meanings.some(meaning => typeof meaning !== "string" || !meaning.trim())) return fail("every meaning must be text");
   if (meanings.some(meaning => (meaning as string).length > TEXT_LIMIT)) return fail(`a meaning is longer than ${TEXT_LIMIT} characters`);
   if (new Set(meanings.map(meaning => (meaning as string).trim())).size !== meanings.length) return fail("meanings has the same meaning twice");
-  const card: CardInput = { source, kind: input.kind as Kind, kana: input.kana.trim(), meanings: meanings.map(meaning => (meaning as string).trim()) };
+  const card: CardInput = { source, kinds: kinds as Kind[], kana: input.kana.trim(), meanings: meanings.map(meaning => (meaning as string).trim()) };
   for (const field of TEXT_FIELDS) {
     const value = input[field];
     if (value === undefined || value === null || value === "") continue;
@@ -132,9 +132,11 @@ export function validateCard(raw: unknown): { card: CardInput } | { error: strin
 
 // A card stored before Oct 28 had one `meaning` and a `surface` that was the text itself; it reads as the current
 // shape: `meanings: [meaning]`, and the surface as a range where it occurs exactly once (otherwise it's dropped).
+// One stored before Oct 30 had one `kind`: it reads as `kinds: [kind]`.
 export function upgradeStored(card: Card): Card {
-  const old = card as Omit<Card, "surface"> & { meaning?: string; surface?: unknown };
+  const old = card as Omit<Card, "surface" | "kinds"> & { meaning?: string; surface?: unknown; kind?: Kind; kinds?: Kind[] };
   if (old.meanings === undefined && typeof old.meaning === "string") { old.meanings = [old.meaning]; delete old.meaning; }
+  if (old.kinds === undefined && typeof old.kind === "string") { old.kinds = [old.kind]; delete old.kind; }
   if (typeof old.surface === "string") {
     const text = old.surface, at = old.line?.indexOf(text) ?? -1;
     if (at >= 0 && old.line!.indexOf(text, at + 1) < 0) old.surface = [at, text.length]; else delete old.surface;

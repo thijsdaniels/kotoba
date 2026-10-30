@@ -12,8 +12,10 @@ interface StarterDeck { deck: Pick<Deck, "id" | "title" | "description" | "intro
 const KIND_LABELS: Record<Kind, string> = {
   noun: "Noun", pronoun: "Pronoun", name: "Name", verb: "Verb", "i-adjective": "い-adjective", "na-adjective": "な-adjective", "pre-noun": "Pre-noun",
   adverb: "Adverb", conjunction: "Conjunction", interjection: "Interjection", particle: "Particle", auxiliary: "Auxiliary", prefix: "Prefix",
-  suffix: "Suffix", expression: "Expression", pattern: "Pattern", form: "Form", kana: "Kana",
+  suffix: "Suffix", expression: "Expression", pattern: "Pattern", kana: "Kana",
 };
+const kindLabel = (card: Card) => card.kinds.map(kind => KIND_LABELS[kind] ?? kind).join(" · ");
+const isKind = (card: Card, kind: Kind) => card.kinds.includes(kind);
 const STARTERS = [{ id: "kana", file: "/starters/kana.json", title: "Kana", description: "Hiragana and katakana, in gojūon order." }];
 const PRACTICE_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Good", "good", 2]];
 const REVIEW_BUTTONS: [string, string, Grade][] = [["Again", "again", 0], ["Hard", "hard", 1], ["Good", "good", 2], ["Easy", "easy", 3]];
@@ -47,7 +49,7 @@ let pendingWrite: Promise<unknown> = Promise.resolve();
 /* decks and sides */
 const deckOf = (card: Card) => decks.get(card.deck);
 const inPlay = (card: Card) => deckOf(card)?.enabled === true;
-const kindColor = (card: Card) => `--kc: var(--k-${card.kind})`;
+const kindColor = (card: Card) => `--kc: var(--k-${card.kinds[0]})`;
 const deckTitle = (card: Card) => deckOf(card)?.title ?? card.deck;
 // implied words that Japanese leaves out are stored as "(I)" and shown lighter, without brackets
 const implied = (text: unknown) => escapeHtml(text).replace(/\(([^()]*)\)/g, '<span class="imp">$1</span>');
@@ -59,9 +61,9 @@ function mark(line: string | undefined, surface: [number, number] | undefined): 
 }
 
 const practicing = () => view === "practice";
-const inPractice = (card: Card) => inPlay(card) && (!chosenKinds.size || chosenKinds.has(card.kind)) && (!chosenDecks.size || chosenDecks.has(card.deck));
+const inPractice = (card: Card) => inPlay(card) && (!chosenKinds.size || card.kinds.some(kind => chosenKinds.has(kind))) && (!chosenDecks.size || chosenDecks.has(card.deck));
 // every card is asked for recognition; production only when its deck asks for it, and never for kana
-const sidesOf = (card: Card): Side[] => (card.kind === "kana" || card.recognitionOnly || !deckOf(card)?.production ? ["recognition"] : ["recognition", "production"]);
+const sidesOf = (card: Card): Side[] => (isKind(card, "kana") || card.recognitionOnly || !deckOf(card)?.production ? ["recognition"] : ["recognition", "production"]);
 const scheduleOf = (card: Card, side: Side): Schedule | null => progress[card.id]?.[side] ?? null;
 // every side is its own card for the scheduler; this lists them all
 const allEntries = () => { const out: { id: string; side: Side; card: Card }[] = []; for (const [id, card] of cards) for (const side of sidesOf(card)) out.push({ id, side, card }); return out; };
@@ -162,14 +164,12 @@ function removeCard(card: Card) {
 }
 
 /* card faces */
-const formLabel = (card: Card) => [card.base, card.form, card.register, card.verbClass].filter(Boolean).join(" · ");
 function questionLabel(card: Card, recognition: boolean) {
-  if (recognition) return card.kind === "kana" ? "Read it" : card.kind === "pattern" ? "What does it do?" : "What does it mean?";
-  return card.kind === "form" ? "Conjugate" : "Say it in Japanese";
+  if (recognition) return isKind(card, "kana") ? "Read it" : isKind(card, "pattern") ? "What does it do?" : "What does it mean?";
+  return "Say it in Japanese";
 }
 function frontHtml(card: Card, recognition: boolean) {
-  if (card.kind === "kana") return `<div class="kglyph">${escapeHtml(card.kana)}</div>`;
-  if (card.kind === "form" && !recognition) return `<div class="mid">${escapeHtml(card.base)}</div><div class="task">${escapeHtml([card.form, card.register].filter(Boolean).join(", "))}</div>`;
+  if (isKind(card, "kana")) return `<div class="kglyph">${escapeHtml(card.kana)}</div>`;
   if (recognition) return `<div class="big">${escapeHtml(card.kana)}</div>`;
   return `<div class="mid">${implied(card.meanings.map(meaning => meaning.split(" · ")[0]).join("; "))}</div>`; // the primary glosses are the cue; the nuance waits for the answer
 }
@@ -185,17 +185,16 @@ function quoteHtml(card: Card) {
 function meaningHtml(card: Card) {
   let html = implied(card.meanings.join("; "));
   if (card.loose) html += `<span class="loose">${implied(card.loose)}</span>`;
-  if (card.kind === "form") html += `<span class="sub">${escapeHtml(formLabel(card))}</span>`;
   return html;
 }
 function answerHtml(card: Card) {
-  const title = card.kind === "kana"
+  const title = isKind(card, "kana")
     ? `<span class="kglyph">${escapeHtml(card.kana)}</span>`
     : `<span class="jp">${escapeHtml(card.kana)}</span>${card.kanji ? `<span class="kanji">${escapeHtml(card.kanji)}</span>` : ""}`;
   let more = "";
   if (card.note) more += `<div class="note">${implied(card.note)}</div>`;
   if (card.line && card.example) more += exampleHtml(card, "ex");
-  return `<div class="tcard-head"><span>${escapeHtml(KIND_LABELS[card.kind])}${card.kind === "form" && card.form ? " · " + escapeHtml(card.form) : ""}</span><span class="r">${escapeHtml(card.romaji ?? "")}</span></div>
+  return `<div class="tcard-head"><span>${escapeHtml(kindLabel(card))}</span><span class="r">${escapeHtml(card.romaji ?? "")}</span></div>
     <div class="tcard-body"><div class="tcard-title">${title}</div><div class="tcard-meaning">${meaningHtml(card)}</div>${quoteHtml(card)}
     <details class="more" style="padding:0"><summary>More</summary><div class="morebox">${more}<button class="del" id="remove-card">Remove Card</button></div></details></div>`;
 }
@@ -214,7 +213,7 @@ function renderFilter() {
   const deckChoices: [string, string][] = [...decks.values()].filter(deck => deck.enabled).map(deck => [deck.id, deck.title]);
   for (const id of chosenDecks) if (!deckChoices.some(([choice]) => choice === id)) chosenDecks.delete(id); // a deck switched off drops out of the filter
   // only the kinds there are cards of (and any still chosen), in the order of KINDS
-  const present = new Set([...cards.values()].map(card => card.kind as string));
+  const present = new Set([...cards.values()].flatMap(card => card.kinds as string[]));
   const kindChoices: [string, string][] = Object.entries(KIND_LABELS).filter(([id]) => present.has(id) || chosenKinds.has(id));
   const summary = (name: string, chosen: Set<string>, choices: [string, string][]) =>
     `${name}: ${chosen.size ? choices.filter(([id]) => chosen.has(id)).map(([, label]) => label).join(", ") : "All"}`;
@@ -256,7 +255,7 @@ function renderDeck() {
   const buttons = practice ? PRACTICE_BUTTONS : REVIEW_BUTTONS;
   const body = revealed
     ? answerHtml(card) + `<div class="actions${practice ? " two" : ""}">${buttons.map(([label, cls, grade]) => `<button class="g-${cls}" data-grade="${grade}">${label}</button>`).join("")}</div>`
-    : `<div class="dir"><span class="tag">${escapeHtml(KIND_LABELS[card.kind])}</span><span>${practice ? "practice" : existing ? "review" : "new"} · ${queue.length} left</span></div><div class="front">${frontHtml(card, recognition)}<div class="hint">${questionLabel(card, recognition)}</div></div><button class="show" id="show">Show Answer</button>`;
+    : `<div class="dir"><span class="tag">${escapeHtml(kindLabel(card))}</span><span>${practice ? "practice" : existing ? "review" : "new"} · ${queue.length} left</span></div><div class="front">${frontHtml(card, recognition)}<div class="hint">${questionLabel(card, recognition)}</div></div><button class="show" id="show">Show Answer</button>`;
   container.innerHTML = `<div class="stack">${unders()}<div class="card ${revealed ? "a" : "q"}${justDrawn ? " drawn" : ""}${flipped ? " flip-in" : ""}" style="${kindColor(card)}">${body}</div></div>`;
   justDrawn = false; flipped = false;
   if (revealed) {
@@ -276,8 +275,8 @@ function renderCards() {
   const query = (byId("search") as HTMLInputElement).value.trim().toLowerCase();
   const deckOrder = new Map([...decks.values()].sort((a, b) => a.created - b.created).map((deck, index) => [deck.id, index]));
   const items = [...cards.values()]
-    .filter(card => !query || [card.kana, card.kanji, card.romaji, card.meanings.join("; "), card.base, card.form, card.speaker, deckTitle(card), KIND_LABELS[card.kind]].some(field => String(field ?? "").toLowerCase().includes(query)))
-    .sort((a, b) => (deckOrder.get(a.deck) ?? 99) - (deckOrder.get(b.deck) ?? 99) || (a.order ?? Infinity) - (b.order ?? Infinity) || a.kind.localeCompare(b.kind) || a.kana.localeCompare(b.kana, "ja"));
+    .filter(card => !query || [card.kana, card.kanji, card.romaji, card.meanings.join("; "), card.speaker, deckTitle(card), kindLabel(card)].some(field => String(field ?? "").toLowerCase().includes(query)))
+    .sort((a, b) => (deckOrder.get(a.deck) ?? 99) - (deckOrder.get(b.deck) ?? 99) || (a.order ?? Infinity) - (b.order ?? Infinity) || a.kinds[0].localeCompare(b.kinds[0]) || a.kana.localeCompare(b.kana, "ja"));
   const list = byId("list");
   if (!items.length) { list.innerHTML = `<div class="empty">${cards.size ? "No matches." : "No cards yet."}</div>`; return; }
   const countBy = new Map<string, number>();
@@ -288,8 +287,8 @@ function renderCards() {
       ? `<button class="group" data-deck="${escapeHtml(card.deck)}" aria-expanded="${!folded}"><span>${escapeHtml(deckTitle(card))}</span><span>${countBy.get(card.deck)} cards${inPlay(card) ? "" : " · off"}</span></button>` : "";
     if (folded) return heading;
     const [cls, label] = status(card), open = openId === card.id;
-    const tag = `<span class="tag">${escapeHtml(KIND_LABELS[card.kind])}</span>`;
-    const meaning = (card.kind === "form" && card.form ? `<span class="form">${escapeHtml(card.form)}</span> · ` : "") + implied(card.meanings.join("; "));
+    const tag = `<span class="tag">${escapeHtml(kindLabel(card))}</span>`;
+    const meaning = implied(card.meanings.join("; "));
     return heading + `<div class="item" style="${kindColor(card)}"><button data-id="${escapeHtml(card.id)}" aria-expanded="${open}"><span class="k">${escapeHtml(card.kana)}${card.kanji ? `<small>${escapeHtml(card.kanji)}</small>` : ""}${tag}</span><span class="chip ${cls}">${label}</span><span class="m">${meaning}</span></button>
       ${open ? `<div class="detail">${listDetailHtml(card)}</div>` : ""}</div>`;
   }).join("");
@@ -309,7 +308,7 @@ function deckSettingsHtml(deck: Deck) {
     if (card.deck !== deck.id) continue;
     total++;
     if (!scheduleOf(card, "recognition")) fresh++;
-    if (card.kind !== "kana" && !card.recognitionOnly) producible++;
+    if (!isKind(card, "kana") && !card.recognitionOnly) producible++;
   }
   const fields = !deck.enabled ? "" : `
     ${producible ? `<div class="field"><label class="toggle"><span><span class="label">Say It in Japanese</span><span class="help">Also ask these cards from the English, as a second card that starts a day after the first.</span></span><input type="checkbox" data-deck="${escapeHtml(deck.id)}" data-production${deck.production ? " checked" : ""}></label></div>` : ""}`;

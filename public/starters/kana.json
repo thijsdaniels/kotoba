@@ -9,7 +9,7 @@
  "cards": [
   {
    "source": "hira-a",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "あ",
    "meanings": [
     "a"
@@ -20,7 +20,7 @@
   },
   {
    "source": "hira-i",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "い",
    "meanings": [
     "i"
@@ -31,7 +31,7 @@
   },
   {
    "source": "hira-u",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "う",
    "meanings": [
     "u"
@@ -42,7 +42,7 @@
   },
   {
    "source": "hira-e",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "え",
    "meanings": [
     "e"
@@ -53,7 +53,7 @@
   },
   {
    "source": "hira-o",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "お",
    "meanings": [
     "o"
@@ -64,7 +64,7 @@
   },
   {
    "source": "hira-ka",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "か",
    "meanings": [
     "ka"
@@ -75,7 +75,7 @@
   },
   {
    "source": "hira-ki",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "き",
    "meanings": [
     "ki"
@@ -86,7 +86,7 @@
   },
   {
    "source": "hira-ku",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "く",
    "meanings": [
     "ku"
@@ -97,7 +97,7 @@
   },
   {
    "source": "hira-ke",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "け",
    "meanings": [
     "ke"
@@ -108,7 +108,7 @@
   },
   {
    "source": "hira-ko",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "こ",
    "meanings": [
     "ko"
@@ -119,7 +119,7 @@
   },
   {
    "source": "hira-sa",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "さ",
    "meanings": [
     "sa"
@@ -130,7 +130,7 @@
   },
   {
    "source": "hira-shi",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "し",
    "meanings": [
     "shi"
@@ -141,7 +141,7 @@
   },
   {
    "source": "hira-su",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "す",
    "meanings": [
     "su"
@@ -152,7 +152,7 @@
   },
   {
    "source": "hira-se",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "せ",
    "meanings": [
     "se"
@@ -163,7 +163,7 @@
   },
   {
    "source": "hira-so",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "そ",
    "meanings": [
     "so"
@@ -174,7 +174,7 @@
   },
   {
    "source": "hira-ta",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "た",
    "meanings": [
     "ta"
@@ -185,7 +185,7 @@
   },
   {
    "source": "hira-chi",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ち",
    "meanings": [
     "chi"
@@ -196,7 +196,7 @@
   },
   {
    "source": "hira-tsu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "つ",
    "meanings": [
     "tsu"
@@ -207,7 +207,7 @@
   },
   {
    "source": "hira-te",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "て",
    "meanings": [
     "te"
@@ -218,7 +218,7 @@
   },
   {
    "source": "hira-to",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "と",
    "meanings": [
     "to"
@@ -229,7 +229,7 @@
   },
   {
    "source": "hira-na",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "な",
    "meanings": [
     "na"
@@ -240,7 +240,7 @@
   },
   {
    "source": "hira-ni",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "に",
    "meanings": [
     "ni"
@@ -251,7 +251,7 @@
   },
   {
    "source": "hira-nu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ぬ",
    "meanings": [
     "nu"
@@ -262,7 +262,7 @@
   },
   {
    "source": "hira-ne",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ね",
    "meanings": [
     "ne"
@@ -273,7 +273,7 @@
   },
   {
    "source": "hira-no",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "の",
    "meanings": [
     "no"
@@ -284,7 +284,7 @@
   },
   {
    "source": "hira-ha",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "は",
    "meanings": [
     "ha"
@@ -295,7 +295,7 @@
   },
   {
    "source": "hira-hi",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ひ",
    "meanings": [
     "hi"
@@ -306,7 +306,7 @@
   },
   {
    "source": "hira-fu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ふ",
    "meanings": [
     "fu"
@@ -317,7 +317,7 @@
   },
   {
    "source": "hira-he",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "へ",
    "meanings": [
     "he"
@@ -328,7 +328,7 @@
   },
   {
    "source": "hira-ho",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ほ",
    "meanings": [
     "ho"
@@ -339,7 +339,7 @@
   },
   {
    "source": "hira-ma",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ま",
    "meanings": [
     "ma"
@@ -350,7 +350,7 @@
   },
   {
    "source": "hira-mi",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "み",
    "meanings": [
     "mi"
@@ -361,7 +361,7 @@
   },
   {
    "source": "hira-mu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "む",
    "meanings": [
     "mu"
@@ -372,7 +372,7 @@
   },
   {
    "source": "hira-me",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "め",
    "meanings": [
     "me"
@@ -383,7 +383,7 @@
   },
   {
    "source": "hira-mo",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "も",
    "meanings": [
     "mo"
@@ -394,7 +394,7 @@
   },
   {
    "source": "hira-ya",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "や",
    "meanings": [
     "ya"
@@ -405,7 +405,7 @@
   },
   {
    "source": "hira-yu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ゆ",
    "meanings": [
     "yu"
@@ -416,7 +416,7 @@
   },
   {
    "source": "hira-yo",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "よ",
    "meanings": [
     "yo"
@@ -427,7 +427,7 @@
   },
   {
    "source": "hira-ra",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ら",
    "meanings": [
     "ra"
@@ -438,7 +438,7 @@
   },
   {
    "source": "hira-ri",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "り",
    "meanings": [
     "ri"
@@ -449,7 +449,7 @@
   },
   {
    "source": "hira-ru",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "る",
    "meanings": [
     "ru"
@@ -460,7 +460,7 @@
   },
   {
    "source": "hira-re",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "れ",
    "meanings": [
     "re"
@@ -471,7 +471,7 @@
   },
   {
    "source": "hira-ro",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ろ",
    "meanings": [
     "ro"
@@ -482,7 +482,7 @@
   },
   {
    "source": "hira-wa",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "わ",
    "meanings": [
     "wa"
@@ -493,7 +493,7 @@
   },
   {
    "source": "hira-wo",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "を",
    "meanings": [
     "wo"
@@ -504,7 +504,7 @@
   },
   {
    "source": "hira-n",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ん",
    "meanings": [
     "n"
@@ -515,7 +515,7 @@
   },
   {
    "source": "kata-a",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ア",
    "meanings": [
     "a"
@@ -526,7 +526,7 @@
   },
   {
    "source": "kata-i",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "イ",
    "meanings": [
     "i"
@@ -537,7 +537,7 @@
   },
   {
    "source": "kata-u",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ウ",
    "meanings": [
     "u"
@@ -548,7 +548,7 @@
   },
   {
    "source": "kata-e",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "エ",
    "meanings": [
     "e"
@@ -559,7 +559,7 @@
   },
   {
    "source": "kata-o",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "オ",
    "meanings": [
     "o"
@@ -570,7 +570,7 @@
   },
   {
    "source": "kata-ka",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "カ",
    "meanings": [
     "ka"
@@ -581,7 +581,7 @@
   },
   {
    "source": "kata-ki",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "キ",
    "meanings": [
     "ki"
@@ -592,7 +592,7 @@
   },
   {
    "source": "kata-ku",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ク",
    "meanings": [
     "ku"
@@ -603,7 +603,7 @@
   },
   {
    "source": "kata-ke",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ケ",
    "meanings": [
     "ke"
@@ -614,7 +614,7 @@
   },
   {
    "source": "kata-ko",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "コ",
    "meanings": [
     "ko"
@@ -625,7 +625,7 @@
   },
   {
    "source": "kata-sa",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "サ",
    "meanings": [
     "sa"
@@ -636,7 +636,7 @@
   },
   {
    "source": "kata-shi",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "シ",
    "meanings": [
     "shi"
@@ -647,7 +647,7 @@
   },
   {
    "source": "kata-su",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ス",
    "meanings": [
     "su"
@@ -658,7 +658,7 @@
   },
   {
    "source": "kata-se",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "セ",
    "meanings": [
     "se"
@@ -669,7 +669,7 @@
   },
   {
    "source": "kata-so",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ソ",
    "meanings": [
     "so"
@@ -680,7 +680,7 @@
   },
   {
    "source": "kata-ta",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "タ",
    "meanings": [
     "ta"
@@ -691,7 +691,7 @@
   },
   {
    "source": "kata-chi",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "チ",
    "meanings": [
     "chi"
@@ -702,7 +702,7 @@
   },
   {
    "source": "kata-tsu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ツ",
    "meanings": [
     "tsu"
@@ -713,7 +713,7 @@
   },
   {
    "source": "kata-te",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "テ",
    "meanings": [
     "te"
@@ -724,7 +724,7 @@
   },
   {
    "source": "kata-to",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ト",
    "meanings": [
     "to"
@@ -735,7 +735,7 @@
   },
   {
    "source": "kata-na",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ナ",
    "meanings": [
     "na"
@@ -746,7 +746,7 @@
   },
   {
    "source": "kata-ni",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ニ",
    "meanings": [
     "ni"
@@ -757,7 +757,7 @@
   },
   {
    "source": "kata-nu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ヌ",
    "meanings": [
     "nu"
@@ -768,7 +768,7 @@
   },
   {
    "source": "kata-ne",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ネ",
    "meanings": [
     "ne"
@@ -779,7 +779,7 @@
   },
   {
    "source": "kata-no",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ノ",
    "meanings": [
     "no"
@@ -790,7 +790,7 @@
   },
   {
    "source": "kata-ha",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ハ",
    "meanings": [
     "ha"
@@ -801,7 +801,7 @@
   },
   {
    "source": "kata-hi",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ヒ",
    "meanings": [
     "hi"
@@ -812,7 +812,7 @@
   },
   {
    "source": "kata-fu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "フ",
    "meanings": [
     "fu"
@@ -823,7 +823,7 @@
   },
   {
    "source": "kata-he",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ヘ",
    "meanings": [
     "he"
@@ -834,7 +834,7 @@
   },
   {
    "source": "kata-ho",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ホ",
    "meanings": [
     "ho"
@@ -845,7 +845,7 @@
   },
   {
    "source": "kata-ma",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "マ",
    "meanings": [
     "ma"
@@ -856,7 +856,7 @@
   },
   {
    "source": "kata-mi",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ミ",
    "meanings": [
     "mi"
@@ -867,7 +867,7 @@
   },
   {
    "source": "kata-mu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ム",
    "meanings": [
     "mu"
@@ -878,7 +878,7 @@
   },
   {
    "source": "kata-me",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "メ",
    "meanings": [
     "me"
@@ -889,7 +889,7 @@
   },
   {
    "source": "kata-mo",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "モ",
    "meanings": [
     "mo"
@@ -900,7 +900,7 @@
   },
   {
    "source": "kata-ya",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ヤ",
    "meanings": [
     "ya"
@@ -911,7 +911,7 @@
   },
   {
    "source": "kata-yu",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ユ",
    "meanings": [
     "yu"
@@ -922,7 +922,7 @@
   },
   {
    "source": "kata-yo",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ヨ",
    "meanings": [
     "yo"
@@ -933,7 +933,7 @@
   },
   {
    "source": "kata-ra",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ラ",
    "meanings": [
     "ra"
@@ -944,7 +944,7 @@
   },
   {
    "source": "kata-ri",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "リ",
    "meanings": [
     "ri"
@@ -955,7 +955,7 @@
   },
   {
    "source": "kata-ru",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ル",
    "meanings": [
     "ru"
@@ -966,7 +966,7 @@
   },
   {
    "source": "kata-re",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "レ",
    "meanings": [
     "re"
@@ -977,7 +977,7 @@
   },
   {
    "source": "kata-ro",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ロ",
    "meanings": [
     "ro"
@@ -988,7 +988,7 @@
   },
   {
    "source": "kata-wa",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ワ",
    "meanings": [
     "wa"
@@ -999,7 +999,7 @@
   },
   {
    "source": "kata-wo",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ヲ",
    "meanings": [
     "wo"
@@ -1010,7 +1010,7 @@
   },
   {
    "source": "kata-n",
-   "kind": "kana",
+   "kinds": ["kana"],
    "kana": "ン",
    "meanings": [
     "n"
